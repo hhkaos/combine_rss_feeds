@@ -248,7 +248,8 @@ function getDateString() {
 </body>
 </html>`;
 
-    const newsFilePath = path.join(__dirname, `news_${dateStr}.html`);
+    const newsFilePath = path.join(__dirname, 'news', `news_${dateStr}.html`);
+    ensureDirSync(path.dirname(newsFilePath));
     fs.writeFileSync(newsFilePath, htmlContent, 'utf8');
     console.log(`Tabla de noticias generada en ${newsFilePath}`);
 
