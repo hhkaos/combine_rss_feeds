@@ -1,0 +1,20 @@
+{
+  "authors": [
+    {
+      "value": "Esri",
+      "description": "Contenido oficial de Esri"
+    },
+    {
+      "value": "Employee",
+      "description": "Contenido creado por empleados de Esri"
+    },
+    {
+      "value": "Community",
+      "description": "Contenido creado por la comunidad"
+    },
+    {
+      "value": "Distributor",
+      "description": "Contenido creado por distribuidores"
+    }
+  ]
+} 

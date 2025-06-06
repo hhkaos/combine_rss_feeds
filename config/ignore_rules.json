@@ -1,0 +1,16 @@
+{
+  "ignore_rules": [
+    {
+      "condition": "Contenido no relevante",
+      "description": "Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+    },
+    {
+      "condition": "Contenido obsoleto",
+      "description": "Ignorar si el contenido es obsoleto o ya no es relevante"
+    },
+    {
+      "condition": "Contenido sin fecha",
+      "description": "Ignorar si la noticia no tiene fecha de publicación"
+    }
+  ]
+} 

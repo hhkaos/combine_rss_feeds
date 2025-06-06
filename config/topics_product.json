@@ -1,0 +1,128 @@
+{
+  "topics_product": [
+    {
+      "value": "Arcade",
+      "description": "Contenido relacionado con Arcade"
+    },
+    {
+      "value": "ArcGIS API for Python",
+      "description": "Contenido relacionado con la API de Python para ArcGIS"
+    },
+    {
+      "value": "ArcGIS Dashboards",
+      "description": "Contenido relacionado con ArcGIS Dashboards"
+    },
+    {
+      "value": "ArcGIS Enterprise",
+      "description": "Contenido relacionado con ArcGIS Enterprise"
+    },
+    {
+      "value": "ArcGIS Enterprise SDK",
+      "description": "Contenido relacionado con el SDK de ArcGIS Enterprise"
+    },
+    {
+      "value": "ArcGIS GeoAnalytics Engine",
+      "description": "Contenido relacionado con ArcGIS GeoAnalytics Engine"
+    },
+    {
+      "value": "ArcGIS Location Platform",
+      "description": "Contenido relacionado con la plataforma de ubicación de ArcGIS"
+    },
+    {
+      "value": "ArcGIS Maps SDK for .NET",
+      "description": "Contenido relacionado con el SDK de mapas de ArcGIS para .NET"
+    },
+    {
+      "value": "ArcGIS Maps SDK for Flutter",
+      "description": "Contenido relacionado con el SDK de mapas de ArcGIS para Flutter"
+    },
+    {
+      "value": "ArcGIS Maps SDK for Javascript",
+      "description": "Contenido relacionado con el SDK de mapas de ArcGIS para Javascript"
+    },
+    {
+      "value": "ArcGIS Maps SDK for Kotlin",
+      "description": "Contenido relacionado con el SDK de mapas de ArcGIS para Kotlin"
+    },
+    {
+      "value": "ArcGIS Maps SDK for Qt",
+      "description": "Contenido relacionado con el SDK de mapas de ArcGIS para Qt"
+    },
+    {
+      "value": "ArcGIS Maps SDK for Swift",
+      "description": "Contenido relacionado con el SDK de mapas de ArcGIS para Swift"
+    },
+    {
+      "value": "ArcGIS Online",
+      "description": "Contenido relacionado con ArcGIS Online"
+    },
+    {
+      "value": "ArcGIS Pro SDK",
+      "description": "Contenido relacionado con el SDK de ArcGIS Pro"
+    },
+    {
+      "value": "ArcGIS REST JS",
+      "description": "Contenido relacionado con ArcGIS REST JS"
+    },
+    {
+      "value": "ArcGIS services",
+      "description": "Contenido relacionado con servicios de ArcGIS"
+    },
+    {
+      "value": "ArcGIS StoryMaps",
+      "description": "Contenido relacionado con ArcGIS StoryMaps"
+    },
+    {
+      "value": "Arcpy",
+      "description": "Contenido relacionado con Arcpy"
+    },
+    {
+      "value": "Calcite Design System",
+      "description": "Contenido relacionado con el sistema de diseño Calcite"
+    },
+    {
+      "value": "Engineering",
+      "description": "Contenido relacionado con ingeniería"
+    },
+    {
+      "value": "Experience Builder",
+      "description": "Contenido relacionado con Experience Builder"
+    },
+    {
+      "value": "Game Engines",
+      "description": "Contenido relacionado con motores de juegos"
+    },
+    {
+      "value": "General",
+      "description": "Contenido general"
+    },
+    {
+      "value": "Living Atlas",
+      "description": "Contenido relacionado con Living Atlas"
+    },
+    {
+      "value": "Native SDKs",
+      "description": "Contenido relacionado con SDKs nativos"
+    },
+    {
+      "value": "Other",
+      "description": "Cualquier otro tema o producto"
+    },
+    {
+      "value": "R",
+      "description": "Contenido relacionado con R"
+    },
+    {
+      "value": "Security and authentication",
+      "description": "Contenido relacionado con seguridad y autenticación"
+    },
+    {
+      "value": "Survey123",
+      "description": "Contenido relacionado con Survey123"
+    },
+    {
+      "value": "Web technologies",
+      "description": "Contenido relacionado con tecnologías web"
+    }
+  ]
+} 

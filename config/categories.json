@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "value": "Blog",
+      "description": "Artículos o entradas de blog"
+    },
+    {
+      "value": "Course",
+      "description": "Cursos o materiales de formación"
+    },
+    {
+      "value": "DevSummit video",
+      "description": "Videos de conferencias o charlas de DevSummit"
+    },
+    {
+      "value": "In-person event",
+      "description": "Eventos presenciales"
+    },
+    {
+      "value": "Livestream",
+      "description": "Transmisiones en vivo"
+    },
+    {
+      "value": "Other",
+      "description": "Cualquier otro tipo de contenido"
+    },
+    {
+      "value": "Podcast",
+      "description": "Episodios de podcast"
+    },
+    {
+      "value": "Social post",
+      "description": "Publicaciones en redes sociales"
+    },
+    {
+      "value": "Source code",
+      "description": "Código fuente o repositorios"
+    },
+    {
+      "value": "Training seminar",
+      "description": "Seminarios de formación"
+    },
+    {
+      "value": "Video",
+      "description": "Videos generales"
+    },
+    {
+      "value": "Video Short",
+      "description": "Videos cortos"
+    }
+  ]
+} 

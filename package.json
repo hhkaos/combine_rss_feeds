@@ -8,12 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "fast-xml-parser": "^5.2.3",
     "fs": "^0.0.1-security",
+    "openai": "^5.1.1",
     "path": "^0.12.7",
     "rss": "^1.2.2",
     "rss-parser": "^3.13.0"
-  }
+  },
+  "description": ""
 }

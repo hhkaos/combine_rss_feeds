@@ -3,6 +3,7 @@ const RSS = require('rss');
 const fs = require('fs');
 const path = require('path');
 const { XMLValidator } = require('fast-xml-parser');
+const { OpenAI } = require('openai');
 
 // Utility to ensure directory exists\ n
 function ensureDirSync(dir) {
@@ -18,7 +19,7 @@ function sanitizeCData(text = '') {
 
 // Generic function to combine a list of feeds into one output file
 async function combineFeeds(feedUrls, options) {
-  const { title, description, outputPath, filterLastHours } = options;
+  const { title, description, outputPath, filterLastHours, processWithOpenAI } = options;
   const parser = new Parser();
   let allItems = [];
 
@@ -45,13 +46,13 @@ async function combineFeeds(feedUrls, options) {
     cutoff.setHours(cutoff.getHours() - filterLastHours);
     const before = allItems.length;
     allItems = allItems.filter(item => item.date >= cutoff);
-    console.log(`Filtered ${before - allItems.length} old items, remaining ${allItems.length}`);
+    console.log(`Filtradas ${before - allItems.length} entradas antiguas, quedan ${allItems.length}`);
   } else {
-    console.log(`Collected ${allItems.length} items`);
+    console.log(`Recogidas ${allItems.length} entradas`);
   }
 
   allItems.sort((a, b) => b.date - a.date);
-  console.log(`Building feed "${title}" with ${allItems.length} items`);
+  console.log(`Construyendo feed "${title}" con ${allItems.length} entradas`);
 
   const combinedFeed = new RSS({ title, description, pubDate: new Date() });
   let addedItems = 0;
@@ -87,6 +88,8 @@ async function combineFeeds(feedUrls, options) {
   ensureDirSync(path.dirname(outputPath));
   fs.writeFileSync(outputPath, xml, 'utf8');
   console.log(`Feed combinado escrito en ${outputPath}`);
+
+  return allItems;
 }
 
 // Format current date as DD-MM-YYYY
@@ -122,7 +125,7 @@ function getDateString() {
     'https://github.com/esri/developer-support/commits/master.atom',
     'https://www.esri.com/arcgis-blog/products/developers/feed'
   ];
-  await combineFeeds(curatedUrls, {
+  const curatedItems = await combineFeeds(curatedUrls, {
     title: `Combined Curated Feeds (${dateStr})`,
     description: 'Una combinación curada de múltiples feeds RSS (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', `combined_curated_feeds_${dateStr}.xml`),
@@ -134,20 +137,125 @@ function getDateString() {
     'https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856',
     'https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033'
   ];
-  await combineFeeds(googleAlertUrls, {
+  const googleAlertItems = await combineFeeds(googleAlertUrls, {
     title: `Google Alerts: ArcGIS (${dateStr})`,
     description: 'Alertas de Google relacionadas con ArcGIS (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', `google_alerts_arcgis_${dateStr}.xml`),
     filterLastHours: 48
   });
 
-  // Nuevo feed que combina todos los feeds en las últimas 48 horas
   const allUrls = [...curatedUrls, ...googleAlertUrls];
-  await combineFeeds(allUrls, {
+  const allItems = await combineFeeds(allUrls, {
     title: `ArcGIS ESRI Dev Feed (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', 'arcgis_esri_dev_feed.xml'),
-    filterLastHours: 48
+    filterLastHours: 48,
+    processWithOpenAI: true
   });
+
+  if (allItems && allItems.length > 0) {
+    // Procesar items con ChatGPT y generar tabla HTML
+    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+    const categories = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'categories.json'), 'utf8'));
+    const topicsProduct = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'topics_product.json'), 'utf8'));
+    const authors = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'authors.json'), 'utf8'));
+    const ignoreRules = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'ignore_rules.json'), 'utf8'));
+
+    const ignoredItems = [];
+    const tableRows = [];
+
+    for (const item of allItems) {
+      const prompt = `Procesa el siguiente item y genera una respuesta con el siguiente formato:
+        - Topics_Product: Elige sobre cual de los productos trata la noticia ${JSON.stringify(topicsProduct.topics_product.map(t => t.value))}
+        - Summary: Genera un resumen en inglés de no más de 255 caracteres para la noticia.
+        - URL: ${item.link}
+
+        Si el item debe ser ignorado según las reglas: ${JSON.stringify(ignoreRules.ignore_rules)}, responde con "IGNORE" y la razón.`;
+
+      const response = await openai.chat.completions.create({
+        model: 'gpt-3.5-turbo',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 150
+      });
+
+      const result = response.choices[0].message.content.trim();
+
+      if (result.startsWith('IGNORE')) {
+        ignoredItems.push({ url: item.link, reason: result.replace('IGNORE', '').trim() });
+      } else {
+        // Procesar la respuesta para generar la fila de la tabla
+        console.log(result);
+        const fields = result.split('\n').map(line => line.trim());
+
+        const topicsProductField = fields.find(f => f.startsWith('- Topics_Product:'));
+        const summaryField = fields.find(f => f.startsWith('- Summary:'));
+
+        const date = item.date.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' });
+        const category = '';
+        const featured = '';
+        const topicsProduct = topicsProductField ? topicsProductField.replace('- Topics_Product:', '').trim() : '';
+        const author = '';
+        const url = item.link;
+        const title = item.title || '';
+        const summary = summaryField ? summaryField.replace('- Summary:', '').trim() : '';
+
+        tableRows.push(`<tr>
+          <td>${date}</td>
+          <td>${category}</td>
+          <td>${featured}</td>
+          <td>${topicsProduct}</td>
+          <td>${title}</td>
+          <td>${author}</td>
+          <td><a href="${url}">${url}</a></td>
+          <td>${summary}</td>
+        </tr>`);
+      }
+    }
+
+    // Generar el archivo HTML
+    const htmlContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Table</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+  <h1>News Table</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Featured</th>
+        <th>Topics_Product</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>URL</th>
+        <th>Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${tableRows.join('\n')}
+    </tbody>
+  </table>
+</body>
+</html>`;
+
+    const newsFilePath = path.join(__dirname, `news_${dateStr}.html`);
+    fs.writeFileSync(newsFilePath, htmlContent, 'utf8');
+    console.log(`Tabla de noticias generada en ${newsFilePath}`);
+
+    // Guardar noticias ignoradas en CSV
+    const csvContent = ignoredItems.map(item => `${item.url},${item.reason}`).join('\n');
+    fs.writeFileSync(path.join(__dirname, 'ignored_items.csv'), csvContent, 'utf8');
+    console.log(`Noticias ignoradas guardadas en ignored_items.csv`);
+  }
 })();
   
