@@ -1,0 +1,116 @@
+2025-05-20 08:52:16,310 - INFO - Iniciando procesamiento de feeds RSS
+2025-05-20 08:52:16,310 - INFO - Procesando lista de feeds para 'Combined Curated Feeds (20-05-2025)'
+2025-05-20 08:52:16,310 - INFO - Obteniendo feed: https://www.esri.com/arcgis-blog/feed/
+2025-05-20 08:52:17,762 - INFO - Se obtuvieron 0 entradas de https://www.esri.com/arcgis-blog/feed/
+2025-05-20 08:52:17,762 - INFO - Obteniendo feed: https://www.gislounge.com/feed/
+2025-05-20 08:52:19,480 - INFO - Se obtuvieron 10 entradas de https://www.gislounge.com/feed/
+2025-05-20 08:52:19,480 - INFO - Obteniendo feed: https://www.giscloud.com/blog/feed/
+2025-05-20 08:52:20,276 - WARNING - Advertencia al parsear https://www.giscloud.com/blog/feed/: <unknown>:45:141: not well-formed (invalid token)
+2025-05-20 08:52:20,276 - INFO - Se obtuvieron 0 entradas de https://www.giscloud.com/blog/feed/
+2025-05-20 08:52:20,276 - INFO - Obteniendo feed: https://www.geospatialworld.net/feed/
+2025-05-20 08:52:23,707 - INFO - Se obtuvieron 10 entradas de https://www.geospatialworld.net/feed/
+2025-05-20 08:52:23,708 - INFO - Se encontraron 0 entradas de las últimas 24 horas (de un total de 20)
+2025-05-20 08:52:23,711 - INFO - XML validado correctamente
+2025-05-20 08:52:23,712 - INFO - Archivo generado: feeds/combined_curated_feeds_20-05-2025.xml
+2025-05-20 08:52:23,712 - INFO - Procesando lista de feeds para 'Google Alerts: ArcGIS (20-05-2025)'
+2025-05-20 08:52:23,712 - INFO - Obteniendo feed: https://www.google.com/alerts/feeds/00771398312713459694/3816621353451600344
+2025-05-20 08:52:24,400 - WARNING - Advertencia al parsear https://www.google.com/alerts/feeds/00771398312713459694/3816621353451600344: <unknown>:3:11: not well-formed (invalid token)
+2025-05-20 08:52:24,400 - INFO - Se obtuvieron 0 entradas de https://www.google.com/alerts/feeds/00771398312713459694/3816621353451600344
+2025-05-20 08:52:24,400 - INFO - Obteniendo feed: https://www.google.com/alerts/feeds/00771398312713459694/16927368928866303664
+2025-05-20 08:52:25,067 - WARNING - Advertencia al parsear https://www.google.com/alerts/feeds/00771398312713459694/16927368928866303664: <unknown>:3:11: not well-formed (invalid token)
+2025-05-20 08:52:25,067 - INFO - Se obtuvieron 0 entradas de https://www.google.com/alerts/feeds/00771398312713459694/16927368928866303664
+2025-05-20 08:52:25,067 - INFO - Se encontraron 0 entradas de las últimas 24 horas (de un total de 0)
+2025-05-20 08:52:25,068 - INFO - XML validado correctamente
+2025-05-20 08:52:25,068 - INFO - Archivo generado: feeds/combined_google_alerts_argis_feeds_20-05-2025.xml
+2025-05-20 08:52:25,068 - INFO - 
+----- RESUMEN DE EJECUCIÓN -----
+2025-05-20 08:52:25,068 - INFO - Feeds curados:
+2025-05-20 08:52:25,068 - INFO -   - Feeds procesados: 4
+2025-05-20 08:52:25,068 - INFO -   - Total entradas: 20
+2025-05-20 08:52:25,068 - INFO -   - Entradas filtradas (últimas 24h): 0
+2025-05-20 08:52:25,068 - INFO -   - Errores: 0
+2025-05-20 08:52:25,069 - INFO -   - XML válido: Sí
+2025-05-20 08:52:25,069 - INFO -   - Archivo generado: feeds/combined_curated_feeds_20-05-2025.xml
+2025-05-20 08:52:25,069 - INFO - 
+Google Alerts:
+2025-05-20 08:52:25,069 - INFO -   - Feeds procesados: 2
+2025-05-20 08:52:25,069 - INFO -   - Total entradas: 0
+2025-05-20 08:52:25,069 - INFO -   - Entradas filtradas (últimas 24h): 0
+2025-05-20 08:52:25,069 - INFO -   - Errores: 0
+2025-05-20 08:52:25,069 - INFO -   - XML válido: Sí
+2025-05-20 08:52:25,069 - INFO -   - Archivo generado: feeds/combined_google_alerts_argis_feeds_20-05-2025.xml
+2025-05-20 08:52:25,069 - INFO - 
+Procesamiento completado con éxito!
+2025-05-20 08:55:08,984 - INFO - Iniciando procesamiento de feeds RSS
+2025-05-20 08:55:08,984 - INFO - Procesando lista de feeds para 'Combined Curated Feeds (20-05-2025)'
+2025-05-20 08:55:08,984 - INFO - Obteniendo feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ
+2025-05-20 08:55:09,259 - INFO - Se obtuvieron 15 entradas de https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ
+2025-05-20 08:55:09,259 - INFO - Obteniendo feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA
+2025-05-20 08:55:09,580 - INFO - Se obtuvieron 15 entradas de https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA
+2025-05-20 08:55:09,580 - INFO - Obteniendo feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw
+2025-05-20 08:55:09,914 - INFO - Se obtuvieron 15 entradas de https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw
+2025-05-20 08:55:09,914 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog
+2025-05-20 08:55:10,682 - INFO - Se obtuvieron 20 entradas de https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog
+2025-05-20 08:55:10,682 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/board?board.id=esri-leaflet-blog
+2025-05-20 08:55:11,052 - INFO - Se obtuvieron 0 entradas de https://community.esri.com/ccqpr47374/rss/board?board.id=esri-leaflet-blog
+2025-05-20 08:55:11,053 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog
+2025-05-20 08:55:11,789 - INFO - Se obtuvieron 20 entradas de https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog
+2025-05-20 08:55:11,789 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog
+2025-05-20 08:55:12,228 - INFO - Se obtuvieron 20 entradas de https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog
+2025-05-20 08:55:12,228 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog
+2025-05-20 08:55:13,638 - INFO - Se obtuvieron 20 entradas de https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog
+2025-05-20 08:55:13,638 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog
+2025-05-20 08:55:14,221 - INFO - Se obtuvieron 20 entradas de https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog
+2025-05-20 08:55:14,221 - INFO - Obteniendo feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw
+2025-05-20 08:55:14,566 - INFO - Se obtuvieron 15 entradas de https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw
+2025-05-20 08:55:14,566 - INFO - Obteniendo feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A
+2025-05-20 08:55:14,803 - INFO - Se obtuvieron 15 entradas de https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A
+2025-05-20 08:55:14,803 - INFO - Obteniendo feed: https://medium.com/feed/geoai
+2025-05-20 08:55:15,281 - INFO - Se obtuvieron 10 entradas de https://medium.com/feed/geoai
+2025-05-20 08:55:15,281 - INFO - Obteniendo feed: https://feed.podbean.com/theboundingbox/feed.xml
+2025-05-20 08:55:15,716 - INFO - Se obtuvieron 49 entradas de https://feed.podbean.com/theboundingbox/feed.xml
+2025-05-20 08:55:15,716 - INFO - Obteniendo feed: https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams
+2025-05-20 08:55:16,356 - INFO - Se obtuvieron 20 entradas de https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams
+2025-05-20 08:55:16,356 - INFO - Obteniendo feed: https://odoe.net/rss.xml
+2025-05-20 08:55:16,673 - INFO - Se obtuvieron 10 entradas de https://odoe.net/rss.xml
+2025-05-20 08:55:16,673 - INFO - Obteniendo feed: https://josiahparry.com/index.xml
+2025-05-20 08:55:18,344 - INFO - Se obtuvieron 20 entradas de https://josiahparry.com/index.xml
+2025-05-20 08:55:18,344 - INFO - Obteniendo feed: https://highearthorbit.com/feed/
+2025-05-20 08:55:19,440 - WARNING - Advertencia al parsear https://highearthorbit.com/feed/: <unknown>:310:264: not well-formed (invalid token)
+2025-05-20 08:55:19,440 - INFO - Se obtuvieron 10 entradas de https://highearthorbit.com/feed/
+2025-05-20 08:55:19,440 - INFO - Obteniendo feed: https://github.com/esri/developer-support/commits/master.atom
+2025-05-20 08:55:20,006 - INFO - Se obtuvieron 20 entradas de https://github.com/esri/developer-support/commits/master.atom
+2025-05-20 08:55:20,006 - INFO - Obteniendo feed: https://www.esri.com/arcgis-blog/products/developers/feed
+2025-05-20 08:55:20,238 - INFO - Se obtuvieron 10 entradas de https://www.esri.com/arcgis-blog/products/developers/feed
+2025-05-20 08:55:20,249 - INFO - Se encontraron 1 entradas de las últimas 24 horas (de un total de 324)
+2025-05-20 08:55:20,251 - INFO - XML validado correctamente
+2025-05-20 08:55:20,252 - INFO - Archivo generado: feeds/combined_curated_feeds_20-05-2025.xml
+2025-05-20 08:55:20,252 - INFO - Procesando lista de feeds para 'Google Alerts: ArcGIS (20-05-2025)'
+2025-05-20 08:55:20,252 - INFO - Obteniendo feed: https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766
+2025-05-20 08:55:20,879 - INFO - Se obtuvieron 0 entradas de https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766
+2025-05-20 08:55:20,879 - INFO - Obteniendo feed: https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856
+2025-05-20 08:55:21,753 - INFO - Se obtuvieron 0 entradas de https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856
+2025-05-20 08:55:21,753 - INFO - Obteniendo feed: https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033
+2025-05-20 08:55:22,809 - INFO - Se obtuvieron 0 entradas de https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033
+2025-05-20 08:55:22,809 - INFO - Se encontraron 0 entradas de las últimas 24 horas (de un total de 0)
+2025-05-20 08:55:22,810 - INFO - XML validado correctamente
+2025-05-20 08:55:22,810 - INFO - Archivo generado: feeds/combined_google_alerts_argis_feeds_20-05-2025.xml
+2025-05-20 08:55:22,810 - INFO - 
+----- RESUMEN DE EJECUCIÓN -----
+2025-05-20 08:55:22,810 - INFO - Feeds curados:
+2025-05-20 08:55:22,810 - INFO -   - Feeds procesados: 19
+2025-05-20 08:55:22,810 - INFO -   - Total entradas: 324
+2025-05-20 08:55:22,810 - INFO -   - Entradas filtradas (últimas 24h): 1
+2025-05-20 08:55:22,810 - INFO -   - Errores: 0
+2025-05-20 08:55:22,811 - INFO -   - XML válido: Sí
+2025-05-20 08:55:22,811 - INFO -   - Archivo generado: feeds/combined_curated_feeds_20-05-2025.xml
+2025-05-20 08:55:22,811 - INFO - 
+Google Alerts:
+2025-05-20 08:55:22,811 - INFO -   - Feeds procesados: 3
+2025-05-20 08:55:22,811 - INFO -   - Total entradas: 0
+2025-05-20 08:55:22,811 - INFO -   - Entradas filtradas (últimas 24h): 0
+2025-05-20 08:55:22,811 - INFO -   - Errores: 0
+2025-05-20 08:55:22,811 - INFO -   - XML válido: Sí
+2025-05-20 08:55:22,811 - INFO -   - Archivo generado: feeds/combined_google_alerts_argis_feeds_20-05-2025.xml
+2025-05-20 08:55:22,811 - INFO - 
+Procesamiento completado con éxito!
