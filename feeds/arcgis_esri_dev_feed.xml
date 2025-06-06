@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[ArcGIS ESRI Dev Feed (06-06-2025)]]></title>
+        <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 06 Jun 2025 15:55:54 GMT</lastBuildDate>
+        <pubDate>Fri, 06 Jun 2025 15:55:54 GMT</pubDate>
+        <item>
+            <title><![CDATA[Migrating from ArcGIS Engine – Part 2: Developer Components]]></title>
+            <description><![CDATA[Explore key developer components for migrating from ArcGIS Engine in the second part of our series.]]></description>
+            <link>https://www.esri.com/arcgis-blog/products/developers/developers/migrating-from-arcgis-engine-part-2-developer-components</link>
+            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2816492</guid>
+            <dc:creator><![CDATA[Mike Branscomb]]></dc:creator>
+            <pubDate>Fri, 06 Jun 2025 11:00:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EAEP 2025 EIG]]></title>
+            <description><![CDATA[<P>This article provides you with the <STRONG>ArcGIS Enterprise Administration 2025 Exam Information Guide (EAEP 2025 EIG)</STRONG>. EIGs are the primary resource for exam preparation. For more information on exam preparation resources, click <A href="https://community.esri.com/t5/esri-technical-certification-program-information/esri-exam-preparation-resources/ba-p/1273542">here</A>.&nbsp;&nbsp;</P>]]></description>
+            <link>https://community.esri.com/t5/esri-technical-certification-exams/eaep-2025-eig/ba-p/1595261</link>
+            <guid isPermaLink="false">https://community.esri.com/t5/esri-technical-certification-exams/eaep-2025-eig/ba-p/1595261</guid>
+            <dc:creator><![CDATA[JenniferParra]]></dc:creator>
+            <pubDate>Thu, 05 Jun 2025 18:20:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Science of Where I Am – Displaying Device Location with the Native Maps SDKs]]></title>
+            <description><![CDATA[Learn about the considerations involved when displaying device location in a geospatial application with the Native Maps SDKs.]]></description>
+            <link>https://www.esri.com/arcgis-blog/products/sdk-kotlin/developers/the-science-of-where-i-am-displaying-device-location</link>
+            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2816082</guid>
+            <dc:creator><![CDATA[Trevor Draeseke]]></dc:creator>
+            <pubDate>Thu, 05 Jun 2025 18:08:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Autodesk Forma Updates Bring Geographic Context and More Connected Workflows]]></title>
+            <description><![CDATA[There are two major pieces to these updates to Forma, and we&#39;ll start with new connections with <b>Esri</b> in the form of <b>ArcGIS</b> for Autodesk Forma.]]></description>
+            <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.geoweeknews.com/news/autodesk-forma-updates-esri-arcgis-construction-cloud-acc&amp;ct=ga&amp;cd=CAIyGjQ5YTY2YTYwMDBjZTRkYTA6Y29tOmVuOlVT&amp;usg=AOvVaw0TJah8yk8ABskE4r2_QwAD</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:16554430010962730464</guid>
+            <pubDate>Thu, 05 Jun 2025 14:42:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Christopher Moravec - AI for your work and exterminators]]></title>
+            <link>https://www.youtube.com/watch?v=aVr4ff0kat8</link>
+            <guid isPermaLink="false">yt:video:aVr4ff0kat8</guid>
+            <dc:creator><![CDATA[Rene Rubalcava]]></dc:creator>
+            <pubDate>Thu, 05 Jun 2025 11:28:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Christopher Moravec - AI for your work and exterminators]]></title>
+            <description><![CDATA[<p>In this episode, we talk to <a href='https://www.linkedin.com/in/christophermoravec/'>Christopher Moravec</a>, CTO at Dymaptic. Christopher has been working in GIS for a while and has been exploring using AI for various purposes, especially in some not so obvious ways! This episode is full of AI goodies, and even some talk on "vibe coding"!</p>
+<ul>
+<li>Check out <a href='https://www.linkedin.com/company/dymaptic/'>Dymaptic on LinkedIn</a></li>
+</ul>
+<p>The Bounding Box merchandise is now available (including new mugs!), if you would like to support the show - <a href='https://the-bounding-box.printify.me/'>the-bounding-box.printify.me</a></p>
+<p>Visit <a href='https://odoe.net/'>odoe.net</a> for more information!</p>
+]]></description>
+            <link>https://theboundingbox.podbean.com/e/christopher-moravec-ai-for-your-work-and-your-plumbing/</link>
+            <guid isPermaLink="false">theboundingbox.podbean.com/6d18fc56-a58f-36e9-9e37-6e5ffe37c924</guid>
+            <pubDate>Thu, 05 Jun 2025 11:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unable to project Spatially-enabled DataFrames via shapely/pyproj after 2.4.0 · Issue #2303]]></title>
+            <description><![CDATA[<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to ... Install the specific version of <b>arcgis</b>, along with shapely and pyproj: pip&nbsp;...]]></description>
+            <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://github.com/Esri/arcgis-python-api/issues/2303&amp;ct=ga&amp;cd=CAIyGjQ5YTY2YTYwMDBjZTRkYTA6Y29tOmVuOlVT&amp;usg=AOvVaw1hHZGMVf8izfstITrfGpRp</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:11290392621325864058</guid>
+            <pubDate>Thu, 05 Jun 2025 06:44:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Esri Developers on X: &quot;🎙️ Join our colleague @MartinoYovo at #FlutterCon 2025 to explore ...]]></title>
+            <description><![CDATA[Join our colleague @MartinoYovo at #FlutterCon 2025 to explore how to create apps that respond to the world around them using the #<b>ArcGIS Maps SDK for</b>]]></description>
+            <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://x.com/EsriDevs/status/1930293627625853218&amp;ct=ga&amp;cd=CAIyHGFiZDcwZDFjZDBkNDgwN2Y6Y29tOmVuOlVTOkw&amp;usg=AOvVaw0XDMIE2-33NC8MWDIWE21t</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:17343246856407219451</guid>
+            <pubDate>Wed, 04 Jun 2025 22:14:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5792 <b>Arcgis Javascript</b> Job Vacancies In Hyderabad-secunderabad-secunderabad - Naukri.com]]></title>
+            <description><![CDATA[People looking for <b>Arcgis Javascript</b> jobs in Hyderabad-secunderabad-secunderabad also search for &middot; Gis Jobs In Bangalore &middot; <b>Esri</b> Jobs In&nbsp;...]]></description>
+            <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.naukri.com/arcgis-javascript-jobs-in-hyderabad-secunderabad-282&amp;ct=ga&amp;cd=CAIyGjQ5YTY2YTYwMDBjZTRkYTA6Y29tOmVuOlVT&amp;usg=AOvVaw3Hi6LlTbSyzJ6SlOjddwhS</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5628024944238567024</guid>
+            <pubDate>Wed, 04 Jun 2025 19:57:48 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
