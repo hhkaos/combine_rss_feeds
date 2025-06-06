@@ -257,6 +257,42 @@ function getDateString() {
     const csvContent = ignoredItems.map(item => `${item.url},${item.reason}`).join('\n');
     fs.writeFileSync(path.join(__dirname, 'ignored_items.csv'), csvContent, 'utf8');
     console.log(`Noticias ignoradas guardadas en ignored_items.csv`);
+
+    // Generar index.html con listado de archivos HTML
+    const newsDir = path.join(__dirname, 'news');
+    const files = fs.readdirSync(newsDir).filter(file => file.endsWith('.html') && file !== 'index.html');
+    files.sort((a, b) => {
+      const dateA = a.replace('news_', '').replace('.html', '');
+      const dateB = b.replace('news_', '').replace('.html', '');
+      return dateB.localeCompare(dateA);
+    });
+
+    const indexContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Files</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { color: #333; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin: 10px 0; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>News Files</h1>
+  <ul>
+    ${files.map(file => `<li><a href="${file}">${file}</a></li>`).join('\n')}
+  </ul>
+</body>
+</html>`;
+
+    const indexFilePath = path.join(newsDir, 'index.html');
+    fs.writeFileSync(indexFilePath, indexContent, 'utf8');
+    console.log(`Index file generated at ${indexFilePath}`);
   }
 })();
   
