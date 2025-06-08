@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (08-06-2025)]]></title>
-        <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
+        <title><![CDATA[Google Alerts: ArcGIS (08-06-2025)]]></title>
+        <description><![CDATA[Alertas de Google relacionadas con ArcGIS (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Jun 2025 01:43:37 GMT</lastBuildDate>
-        <pubDate>Sun, 08 Jun 2025 01:43:37 GMT</pubDate>
+        <lastBuildDate>Sun, 08 Jun 2025 01:43:33 GMT</lastBuildDate>
+        <pubDate>Sun, 08 Jun 2025 01:43:33 GMT</pubDate>
         <item>
             <title><![CDATA[C++ Software Development Engineer II - <b>SDK</b> - <b>Esri</b> | Built In]]></title>
             <description><![CDATA[<b>Esri</b> is hiring for a C++ Software Development Engineer II - <b>SDK</b> in Vienna, AUT ... <b>ArcGIS</b> software and apps combine mapping and data analytics&nbsp;...]]></description>
             <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://builtin.com/job/c-software-development-engineer-ii-sdk/6388690&amp;ct=ga&amp;cd=CAIyGjQ5YTY2YTYwMDBjZTRkYTA6Y29tOmVuOlVT&amp;usg=AOvVaw3q1ZXaiVMZ7cbnlg1QrgzJ</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5880522164445418802</guid>
             <pubDate>Fri, 06 Jun 2025 23:50:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Migrating from ArcGIS Engine – Part 2: Developer Components]]></title>
-            <description><![CDATA[Explore key developer components for migrating from ArcGIS Engine in the second part of our series.]]></description>
-            <link>https://www.esri.com/arcgis-blog/products/developers/developers/migrating-from-arcgis-engine-part-2-developer-components</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2816492</guid>
-            <dc:creator><![CDATA[Mike Branscomb]]></dc:creator>
-            <pubDate>Fri, 06 Jun 2025 11:00:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
