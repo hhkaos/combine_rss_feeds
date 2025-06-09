@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (09-06-2025)]]></title>
-        <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
+        <title><![CDATA[Google Alerts: ArcGIS (09-06-2025)]]></title>
+        <description><![CDATA[Alertas de Google relacionadas con ArcGIS (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Jun 2025 01:41:32 GMT</lastBuildDate>
-        <pubDate>Mon, 09 Jun 2025 01:41:32 GMT</pubDate>
+        <lastBuildDate>Mon, 09 Jun 2025 01:41:29 GMT</lastBuildDate>
+        <pubDate>Mon, 09 Jun 2025 01:41:29 GMT</pubDate>
         <item>
             <title><![CDATA[#<b>arcgis</b> #<b>javascript</b> #webcomponents #mapcomponents #calcite | Paul Gibbs - LinkedIn]]></title>
             <description><![CDATA[... <b>api</b>. I look forward in utilizing these skills as I continue my work with the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> as it adapts to the use of Map&nbsp;...]]></description>
