@@ -92,14 +92,23 @@ async function combineFeeds(feedUrls, options) {
   // Function to add ignored item if not already ignored
   function addIgnoredItem(url, reason, title, date) {
     if (!ignoredUrls.has(url)) {
-      ignoredUrls.add(url);
-      ignoredItems.push({
-        url,
-        reason,
-        title,
-        date
-      });
-      console.log(`Añadido a ignoredItems: ${url} (${reason})`);
+      // Verificar si el item tiene menos de 48 horas de antigüedad
+      const itemDate = new Date(date);
+      const now = new Date();
+      const hoursDiff = (now - itemDate) / (1000 * 60 * 60);
+      
+      if (hoursDiff <= 48) {
+        ignoredUrls.add(url);
+        ignoredItems.push({
+          url,
+          reason,
+          title,
+          date
+        });
+        console.log(`Añadido a ignoredItems: ${url} (${reason}) - Antigüedad: ${hoursDiff.toFixed(1)}h`);
+      } else {
+        console.log(`Item no añadido a ignoredItems por antigüedad (${hoursDiff.toFixed(1)}h): ${url}`);
+      }
     } else {
       console.log(`URL ya ignorada previamente: ${url}`);
     }
@@ -388,30 +397,8 @@ async function combineFeeds(feedUrls, options) {
   fs.writeFileSync(outputPath, xml, 'utf8');
   console.log(`Feed combinado escrito en ${outputPath}`);
 
-  // Guardar noticias ignoradas en CSV
-  if (ignoredItems.length > 0) {
-    console.log('Guardando items ignorados en CSV...');
-    const csvHeader = 'URL,Reason,Title,Date\n';
-    const csvContent = ignoredItems.map(item => 
-      `"${item.url}","${item.reason}","${item.title}","${item.date}"`
-    ).join('\n');
-    
-    const ignoredItemsPath = path.join(__dirname, 'ignored_items.csv');
-    
-    try {
-      if (!fs.existsSync(ignoredItemsPath)) {
-        fs.writeFileSync(ignoredItemsPath, csvHeader, 'utf8');
-      }
-      
-      fs.appendFileSync(ignoredItemsPath, csvContent + '\n', 'utf8');
-      console.log(`Noticias ignoradas añadidas a ${ignoredItemsPath} (${ignoredItems.length} items nuevos)`);
-    } catch (err) {
-      console.error('Error guardando items ignorados:', err.message);
-    }
-  }
-
   console.log('combineFeeds completado exitosamente');
-  return combinedItems;
+  return { items: combinedItems, ignoredItems };
 }
 
 // Format current date as DD-MM-YYYY
@@ -459,7 +446,7 @@ function getDateString() {
 
   // Combinar todos los feeds en un solo archivo
   const allUrls = [...curatedUrls, ...googleAlertUrls];
-  const allItems = await combineFeeds(allUrls, {
+  const { items: allItems, ignoredItems } = await combineFeeds(allUrls, {
     title: `Combined ArcGIS Feeds (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', `combined_feeds_${dateStr}.xml`),
@@ -468,7 +455,7 @@ function getDateString() {
   });
 
   // Mantener el feed principal de ArcGIS ESRI Dev
-  const arcgisDevItems = await combineFeeds(allUrls, {
+  const { items: arcgisDevItems } = await combineFeeds(allUrls, {
     title: `ArcGIS ESRI Dev Feed (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', 'arcgis_esri_dev_feed.xml'),
@@ -477,21 +464,43 @@ function getDateString() {
     processWithOpenAI: true
   });
 
+  // Guardar noticias ignoradas en CSV (solo una vez)
+  if (ignoredItems.length > 0) {
+    console.log('Guardando items ignorados en CSV...');
+    const csvHeader = 'URL,Reason,Title,Date\n';
+    const csvContent = ignoredItems.map(item => 
+      `"${item.url}","${item.reason}","${item.title}","${item.date}"`
+    ).join('\n');
+    
+    const ignoredItemsPath = path.join(__dirname, 'ignored_items.csv');
+    
+    try {
+      if (!fs.existsSync(ignoredItemsPath)) {
+        fs.writeFileSync(ignoredItemsPath, csvHeader, 'utf8');
+      }
+      
+      fs.appendFileSync(ignoredItemsPath, csvContent + '\n', 'utf8');
+      console.log(`Noticias ignoradas añadidas a ${ignoredItemsPath} (${ignoredItems.length} items nuevos)`);
+    } catch (err) {
+      console.error('Error guardando items ignorados:', err.message);
+    }
+  }
+
   if (arcgisDevItems && arcgisDevItems.length > 0) {
     // Procesar items con ChatGPT y generar tabla HTML
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    const ignoredItems = [];
     const tableRows = [];
 
     for (const item of arcgisDevItems) {
       if (item.ignored) {
-        ignoredItems.push({
-          url: item.link,
-          reason: item.ignoreReason || 'No reason provided',
-          title: item.title,
-          date: item.date
-        });
+        // Eliminar este bloque ya que ahora se maneja en addIgnoredItem
+        // ignoredItems.push({
+        //   url: item.link,
+        //   reason: item.ignoreReason || 'No reason provided',
+        //   title: item.title,
+        //   date: item.date
+        // });
       } else {
         const date = new Date(item.date).toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' });
         const category = item.category || '';
