@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (10-06-2025)]]></title>
-        <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
+        <title><![CDATA[Google Alerts: ArcGIS (10-06-2025)]]></title>
+        <description><![CDATA[Alertas de Google relacionadas con ArcGIS (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Jun 2025 01:38:07 GMT</lastBuildDate>
-        <pubDate>Tue, 10 Jun 2025 01:38:07 GMT</pubDate>
-        <item>
-            <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>
-            <description><![CDATA[Learn how ArcGIS Maps SDK for Unreal Engine is used to bridge urban divides and enhance community engagement in the Martin Luther King Corridor.]]></description>
-            <link>https://www.esri.com/arcgis-blog/products/unreal-engine/developers/arcgis-maps-sdk-for-unreal-engine-empowers-st-louis-to-bridge-urban-divides</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2783872</guid>
-            <dc:creator><![CDATA[Shimona Lahiri]]></dc:creator>
-            <pubDate>Mon, 09 Jun 2025 23:31:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What's Coming in ArcGIS Experience Builder (June 2025)]]></title>
-            <description><![CDATA[<P><SPAN>A sneak peek into new features in Experience Builder for the June release of ArcGIS Online.</SPAN></P>]]></description>
-            <link>https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-june/ba-p/1622055</link>
-            <guid isPermaLink="false">https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-june/ba-p/1622055</guid>
-            <dc:creator><![CDATA[Jianxia]]></dc:creator>
-            <pubDate>Mon, 09 Jun 2025 22:01:55 GMT</pubDate>
-        </item>
+        <lastBuildDate>Tue, 10 Jun 2025 01:37:58 GMT</lastBuildDate>
+        <pubDate>Tue, 10 Jun 2025 01:37:58 GMT</pubDate>
         <item>
             <title><![CDATA[Activity · <b>Esri</b>/<b>arcgis</b>-maps-<b>sdk</b>-for-java-demos - GitHub]]></title>
             <description><![CDATA[<b>ArcGIS</b> Maps <b>SDK</b> for Java code demos. Contribute to <b>Esri</b>/<b>arcgis</b>-maps-<b>sdk</b>-for-java-demos development by creating an account on GitHub.]]></description>
