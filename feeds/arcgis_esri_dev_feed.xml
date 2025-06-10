@@ -4,8 +4,8 @@
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Jun 2025 20:39:55 GMT</lastBuildDate>
-        <pubDate>Tue, 10 Jun 2025 20:39:55 GMT</pubDate>
+        <lastBuildDate>Tue, 10 Jun 2025 20:45:38 GMT</lastBuildDate>
+        <pubDate>Tue, 10 Jun 2025 20:45:38 GMT</pubDate>
         <item>
             <title><![CDATA[Build smarter location-aware apps with Geotriggers in ArcGIS Maps SDK for Flutter]]></title>
             <description><![CDATA[Build smarter, location-aware apps with Geotriggers using the ArcGIS Maps SDK for Flutter. Add spatial awareness with ease and precision.]]></description>
@@ -17,24 +17,9 @@
         <item>
             <title><![CDATA[<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...]]></title>
             <description><![CDATA[Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...]]></description>
-            <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://x.com/EsriDevs/status/1932226258546430291&amp;ct=ga&amp;cd=CAIyGjQ5YTY2YTYwMDBjZTRkYTA6Y29tOmVuOlVT&amp;usg=AOvVaw3d3yXuY2qfkR_vIFAe6w_J</link>
+            <link>https://x.com/EsriDevs/status/1932226258546430291</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:15857777943308089375</guid>
             <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri Developers on X: &quot;   Frox leverages <b>ArcGIS Maps SDK for</b> .NET to enhance surveying ...]]></title>
-            <description><![CDATA[Frox leverages <b>ArcGIS Maps SDK for</b> .NET to enhance surveying processes. Custom applications reduce errors and save time.]]></description>
-            <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://x.com/EsriDevs/status/1932226258546430291&amp;ct=ga&amp;cd=CAIyHGFiZDcwZDFjZDBkNDgwN2Y6Y29tOmVuOlVTOkw&amp;usg=AOvVaw3d3yXuY2qfkR_vIFAe6w_J</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:11668472549380382420</guid>
-            <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>
-            <description><![CDATA[Learn how ArcGIS Maps SDK for Unreal Engine is used to bridge urban divides and enhance community engagement in the Martin Luther King Corridor.]]></description>
-            <link>https://www.esri.com/arcgis-blog/products/unreal-engine/developers/arcgis-maps-sdk-for-unreal-engine-empowers-st-louis-to-bridge-urban-divides</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2783872</guid>
-            <dc:creator><![CDATA[Shimona Lahiri]]></dc:creator>
-            <pubDate>Mon, 09 Jun 2025 23:31:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>

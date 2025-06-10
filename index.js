@@ -17,11 +17,28 @@ function sanitizeCData(text = '') {
   return text.replace(/]]>/g, ']]]]><![CDATA[>');
 }
 
+// Clean Google redirect URLs
+function cleanGoogleRedirectUrl(url) {
+  if (url && url.includes('google.com/url')) {
+    try {
+      const urlObj = new URL(url);
+      const targetUrl = urlObj.searchParams.get('url');
+      if (targetUrl) {
+        return targetUrl;
+      }
+    } catch (err) {
+      console.error(`Error cleaning Google redirect URL: ${err.message}`);
+    }
+  }
+  return url;
+}
+
 // Generic function to combine a list of feeds into one output file
 async function combineFeeds(feedUrls, options) {
   const { title, description, outputPath, filterLastHours, processWithOpenAI } = options;
   const parser = new Parser();
   let allItems = [];
+  const seenUrls = new Set(); // Para rastrear URLs ya vistas
 
   for (const url of feedUrls) {
     try {
@@ -31,7 +48,13 @@ async function combineFeeds(feedUrls, options) {
         const dateStr = item.isoDate || item.pubDate;
         if (dateStr) {
           const date = new Date(dateStr);
-          allItems.push({ ...item, date });
+          const cleanUrl = cleanGoogleRedirectUrl(item.link);
+          if (!seenUrls.has(cleanUrl)) {
+            seenUrls.add(cleanUrl);
+            allItems.push({ ...item, date, link: cleanUrl });
+          } else {
+            console.log(`Ignorando item duplicado: ${cleanUrl}`);
+          }
         } else {
           console.error(`Error: Item sin fecha en feed ${url}`);
         }
