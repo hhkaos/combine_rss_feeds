@@ -5,6 +5,7 @@ This repo contain a script aims to monitor content generated on the Internet abo
 Results can be explored in:
 * All retrieved items: https://www.rauljimenez.info/combine_rss_feeds/
 * Items generated daily: https://www.rauljimenez.info/combine_rss_feeds/news/
+* Ignored items are published into: https://github.com/hhkaos/combine_rss_feeds/blob/main/ignored_items.csv
 
 ## Requirements
 
