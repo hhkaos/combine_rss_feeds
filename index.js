@@ -127,27 +127,24 @@ function getDateString() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
     'https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers'
   ];
-  const curatedItems = await combineFeeds(curatedUrls, {
-    title: `Combined Curated Feeds (${dateStr})`,
-    description: 'Una combinación curada de múltiples feeds RSS (últimas 48 horas)',
-    outputPath: path.join(__dirname, 'feeds', `combined_curated_feeds_${dateStr}.xml`),
-    filterLastHours: 48
-  });
 
   const googleAlertUrls = [
     'https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766',
     'https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856',
     'https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033'
   ];
-  const googleAlertItems = await combineFeeds(googleAlertUrls, {
-    title: `Google Alerts: ArcGIS (${dateStr})`,
-    description: 'Alertas de Google relacionadas con ArcGIS (últimas 48 horas)',
-    outputPath: path.join(__dirname, 'feeds', `google_alerts_arcgis_${dateStr}.xml`),
+
+  // Combinar todos los feeds en un solo archivo
+  const allUrls = [...curatedUrls, ...googleAlertUrls];
+  const allItems = await combineFeeds(allUrls, {
+    title: `Combined ArcGIS Feeds (${dateStr})`,
+    description: 'Todos los feeds combinados (últimas 48 horas)',
+    outputPath: path.join(__dirname, 'feeds', `combined_feeds_${dateStr}.xml`),
     filterLastHours: 48
   });
 
-  const allUrls = [...curatedUrls, ...googleAlertUrls];
-  const allItems = await combineFeeds(allUrls, {
+  // Mantener el feed principal de ArcGIS ESRI Dev
+  const arcgisDevItems = await combineFeeds(allUrls, {
     title: `ArcGIS ESRI Dev Feed (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', 'arcgis_esri_dev_feed.xml'),
@@ -155,7 +152,7 @@ function getDateString() {
     processWithOpenAI: true
   });
 
-  if (allItems && allItems.length > 0) {
+  if (arcgisDevItems && arcgisDevItems.length > 0) {
     // Procesar items con ChatGPT y generar tabla HTML
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -167,7 +164,7 @@ function getDateString() {
     const ignoredItems = [];
     const tableRows = [];
 
-    for (const item of allItems) {
+    for (const item of arcgisDevItems) {
       const prompt = `Procesa el siguiente item y genera una respuesta con el siguiente formato:
         - Topics_Product: Elige sobre cual de los productos trata la noticia ${JSON.stringify(topicsProduct.topics_product.map(t => t.value))}
         - Summary: Genera un resumen en inglés de no más de 255 caracteres para la noticia.
