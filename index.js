@@ -131,6 +131,49 @@ async function combineFeeds(feedUrls, options) {
     }
   }
 
+  // Function to determine category based on URL
+  function determineCategory(url) {
+    try {
+      const urlObj = new URL(url);
+      const hostname = urlObj.hostname.toLowerCase();
+      const pathname = urlObj.pathname.toLowerCase();
+
+      // Video category
+      if (hostname.includes('youtube.com') || hostname.includes('youtu.be')) {
+        return 'Video';
+      }
+
+      // Blog category
+      if (
+        (hostname.includes('esri.com') && pathname.includes('/arcgis-blog')) ||
+        (hostname.includes('esri.com') && pathname.includes('/software-engineering/blog')) ||
+        hostname.includes('community.esri.com') ||
+        hostname.includes('medium.com') ||
+        hostname.includes('odoe.net') ||
+        hostname.includes('josiahparry.com') ||
+        hostname.includes('highearthorbit.com')
+      ) {
+        return 'Blog';
+      }
+
+      // Podcast category
+      if (hostname.includes('feed.podbean.com')) {
+        return 'Podcast';
+      }
+
+      // Source code category
+      if (hostname.includes('github.com')) {
+        return 'Source code';
+      }
+
+      // If no category is determined, return null for OpenAI to decide
+      return null;
+    } catch (err) {
+      console.error(`Error determining category for URL ${url}:`, err.message);
+      return null;
+    }
+  }
+
   console.log('Iniciando procesamiento de feeds...');
   for (const url of feedUrls) {
     try {
@@ -227,9 +270,18 @@ async function combineFeeds(feedUrls, options) {
         while (retryCount < maxRetries) {
           try {
             console.log(`[${new Date().toISOString()}] Procesando item ${processedCount + 1}/${totalToProcess}: ${item.link}`);
+            
+            // Determine category before OpenAI processing
+            const determinedCategory = determineCategory(item.link);
+            if (determinedCategory) {
+              item.category = determinedCategory;
+              console.log(`Categoría determinada automáticamente: ${determinedCategory}`);
+            }
+
             const prompt = `Procesa el siguiente item y genera una respuesta con el siguiente formato:
-              - Topics_Product: Elige estrictamente sobre la siguiente lista cual de los productos trata la noticia ${JSON.stringify(topicsProduct.topics_product.map(t => t.value))} (devuelve una cadena de texto)
+              - Topics_Product: Elige sobre cual de los productos trata la noticia ${JSON.stringify(topicsProduct.topics_product.map(t => t.value))}
               - Summary: Genera un resumen en inglés de no más de 255 caracteres para la noticia.
+              ${!determinedCategory ? `- Category: Elige una categoría de la siguiente lista: ${JSON.stringify(categories.categories.map(c => c.value))}` : ''}
               - URL: ${item.link}
 
               Si el item debe ser ignorado según las reglas: ${JSON.stringify(ignoreRules.ignore_rules)}, responde con "IGNORE" y la razón.`;
@@ -246,9 +298,13 @@ async function combineFeeds(feedUrls, options) {
               const fields = result.split('\n').map(line => line.trim());
               const topicsProductField = fields.find(f => f.startsWith('- Topics_Product:'));
               const summaryField = fields.find(f => f.startsWith('- Summary:'));
+              const categoryField = !determinedCategory ? fields.find(f => f.startsWith('- Category:')) : null;
 
               item.topicsProduct = topicsProductField ? topicsProductField.replace('- Topics_Product:', '').trim() : '';
               item.summary = summaryField ? summaryField.replace('- Summary:', '').trim() : '';
+              if (!determinedCategory && categoryField) {
+                item.category = categoryField.replace('- Category:', '').trim();
+              }
               item.processed = true;
               break;
             } else {
@@ -391,7 +447,8 @@ function getDateString() {
     'https://github.com/esri/developer-support/commits/master.atom',
     'https://www.esri.com/arcgis-blog/products/developers/feed',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
-    'https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers'
+    'https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers',
+    'https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog'
   ];
 
   const googleAlertUrls = [

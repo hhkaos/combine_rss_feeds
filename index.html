@@ -75,6 +75,7 @@
           if ("content" in document.createElement("template")) {
             const tbody = document.querySelector("calcite-table");
             const template = document.querySelector("#templateRow");
+            
             items.filter(item => !item.ignored).forEach(item => {
               const clone = template.content.cloneNode(true);
               const row = clone.firstElementChild;
@@ -93,18 +94,11 @@
               }
               td[2].innerText = item.author;
               row.setAttribute("data-authors", item.author)
-              tbody.appendChild(clone);
-
-            //   if(item.linkedin && item.linkedin.toLowerCase() != 'n/a') {
-            //     td[3].innerHTML = `<a href="${item.linkedin}" target="_blank" class="emoji">🔁</a>`;
-            //   }
-            //   if(item.twitter && item.twitter.toLowerCase() != 'n/a'){
-            //     td[4].innerHTML = `<a href="${item.twitter}" target="_blank" class="emoji">🔁</a>`;
-            //   }
               td[3].innerText = item.topicsProduct;
               row.setAttribute("data-technologies", item.topicsProduct)
               td[4].innerText = item.category;
               row.setAttribute("data-categories", item.category)
+              td[5].innerText = item.summary || '';
               tbody.appendChild(clone);
             });
           }
@@ -259,16 +253,10 @@
               <calcite-table-header heading="Date" alignment="center"></calcite-table-header>
               <calcite-table-header heading="Content title"></calcite-table-header>
               <calcite-table-header heading="Author" alignment="center"></calcite-table-header>
-              <!-- <div data-intro="" data-step="2"> -->
-                <!-- <calcite-table-header heading="LinkedIn" alignment="center"></calcite-table-header> -->
-              <!-- </div> -->
-              <!-- <div data-intro="The same with the X (former Twitter) column" data-step="3"> -->
-                <!-- <calcite-table-header heading="X" alignment="center"></calcite-table-header> -->
-              <!-- </div> -->
               <calcite-table-header heading="Technology"></calcite-table-header>
               <calcite-table-header heading="Content type" alignment="center"></calcite-table-header>
+              <calcite-table-header heading="Summary"></calcite-table-header>
           </calcite-table-row>
-          
       </calcite-table>
     </div>
   </div>
@@ -286,6 +274,7 @@
       <calcite-table-cell alignment="center"></calcite-table-cell>
       <calcite-table-cell></calcite-table-cell>
       <calcite-table-cell alignment="center"></calcite-table-cell>
+      <calcite-table-cell></calcite-table-cell>
     </calcite-table-row>
   </template>
 
