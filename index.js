@@ -5,10 +5,34 @@ const path = require('path');
 const { XMLValidator } = require('fast-xml-parser');
 const { OpenAI } = require('openai');
 
-// Utility to ensure directory exists\ n
+// Utility to ensure directory exists
 function ensureDirSync(dir) {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+// Load existing JSON feed if it exists
+function loadJsonFeed(filePath) {
+  try {
+    if (fs.existsSync(filePath)) {
+      const data = fs.readFileSync(filePath, 'utf8');
+      return JSON.parse(data);
+    }
+  } catch (err) {
+    console.error(`Error loading JSON feed: ${err.message}`);
+  }
+  return { items: [] };
+}
+
+// Save JSON feed
+function saveJsonFeed(filePath, data) {
+  try {
+    ensureDirSync(path.dirname(filePath));
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+    console.log(`JSON feed saved to ${filePath}`);
+  } catch (err) {
+    console.error(`Error saving JSON feed: ${err.message}`);
   }
 }
 
@@ -35,69 +59,264 @@ function cleanGoogleRedirectUrl(url) {
 
 // Generic function to combine a list of feeds into one output file
 async function combineFeeds(feedUrls, options) {
-  const { title, description, outputPath, filterLastHours, processWithOpenAI } = options;
+  console.log('Iniciando combineFeeds con', feedUrls.length, 'URLs');
+  const { title, description, outputPath, filterLastHours, processWithOpenAI, jsonOutputPath } = options;
   const parser = new Parser();
   let allItems = [];
-  const seenUrls = new Set(); // Para rastrear URLs ya vistas
+  const seenUrls = new Set();
+  const ignoredUrls = new Set();
+  const ignoredItems = [];
 
+  // Load social media patterns
+  console.log('Cargando patrones de redes sociales...');
+  const socialMediaConfig = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'social_media_urls.json'), 'utf8'));
+  const socialMediaPatterns = socialMediaConfig.social_media_patterns.flatMap(platform => platform.patterns);
+  console.log(`Cargados ${socialMediaPatterns.length} patrones de redes sociales`);
+
+  // Function to check if URL is from social media
+  function isSocialMediaUrl(url) {
+    try {
+      const urlObj = new URL(url);
+      const hostname = urlObj.hostname.toLowerCase();
+      return socialMediaPatterns.some(pattern => {
+        // Verificar si el hostname coincide exactamente o es un subdominio
+        return hostname === pattern.toLowerCase() || 
+               hostname.endsWith('.' + pattern.toLowerCase());
+      });
+    } catch (err) {
+      console.error(`Error parsing URL ${url}:`, err.message);
+      return false;
+    }
+  }
+
+  // Function to add ignored item if not already ignored
+  function addIgnoredItem(url, reason, title, date) {
+    if (!ignoredUrls.has(url)) {
+      ignoredUrls.add(url);
+      ignoredItems.push({
+        url,
+        reason,
+        title,
+        date
+      });
+      console.log(`Añadido a ignoredItems: ${url} (${reason})`);
+    } else {
+      console.log(`URL ya ignorada previamente: ${url}`);
+    }
+  }
+
+  // Load existing JSON feed if jsonOutputPath is provided
+  let existingItems = [];
+  if (jsonOutputPath) {
+    console.log('Cargando feed JSON existente:', jsonOutputPath);
+    const jsonFeed = loadJsonFeed(jsonOutputPath);
+    existingItems = jsonFeed.items || [];
+    existingItems.forEach(item => seenUrls.add(item.link));
+    console.log(`Cargados ${existingItems.length} items existentes del JSON`);
+  }
+
+  // Load configuration files if OpenAI processing is enabled
+  let categories, topicsProduct, authors, ignoreRules;
+  if (processWithOpenAI) {
+    console.log('Cargando archivos de configuración para OpenAI...');
+    try {
+      categories = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'categories.json'), 'utf8'));
+      topicsProduct = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'topics_product.json'), 'utf8'));
+      authors = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'authors.json'), 'utf8'));
+      ignoreRules = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'ignore_rules.json'), 'utf8'));
+      console.log('Archivos de configuración cargados correctamente');
+    } catch (err) {
+      console.error('Error loading configuration files:', err.message);
+      throw err;
+    }
+  }
+
+  console.log('Iniciando procesamiento de feeds...');
   for (const url of feedUrls) {
     try {
+      console.log(`[${new Date().toISOString()}] Procesando feed: ${url}`);
       const feed = await parser.parseURL(url);
       console.log(`Feed ${url}: ${feed.items.length} items`);
+      
+      if (!feed.items || !Array.isArray(feed.items)) {
+        console.warn(`Feed ${url} no tiene items o no es un array`);
+        continue;
+      }
+
+      let processedItems = 0;
       feed.items.forEach(item => {
-        const dateStr = item.isoDate || item.pubDate;
-        if (dateStr) {
-          const date = new Date(dateStr);
-          const cleanUrl = cleanGoogleRedirectUrl(item.link);
-          if (!seenUrls.has(cleanUrl)) {
-            seenUrls.add(cleanUrl);
-            allItems.push({ ...item, date, link: cleanUrl });
+        try {
+          const dateStr = item.isoDate || item.pubDate;
+          if (dateStr) {
+            const date = new Date(dateStr);
+            const cleanUrl = cleanGoogleRedirectUrl(item.link);
+            
+            // Check if URL is from social media
+            if (isSocialMediaUrl(cleanUrl)) {
+              console.log(`Ignorando URL de red social: ${cleanUrl}`);
+              addIgnoredItem(cleanUrl, 'URL de red social', item.title, date.toISOString());
+              return;
+            }
+
+            if (!seenUrls.has(cleanUrl)) {
+              seenUrls.add(cleanUrl);
+              allItems.push({
+                title: item.title,
+                description: item.content || item.contentSnippet || item.summary || '',
+                link: cleanUrl,
+                guid: item.guid || item.id || cleanUrl,
+                author: item.creator || item.author || '',
+                date: date.toISOString(),
+                category: '',
+                topicsProduct: '',
+                summary: '',
+                processed: false
+              });
+            } else {
+              console.log(`Ignorando item duplicado: ${cleanUrl}`);
+              addIgnoredItem(cleanUrl, 'Item duplicado', item.title, date.toISOString());
+            }
           } else {
-            console.log(`Ignorando item duplicado: ${cleanUrl}`);
+            console.warn(`Item sin fecha en feed ${url}: ${item.title || 'Sin título'}`);
           }
-        } else {
-          console.error(`Error: Item sin fecha en feed ${url}`);
+          processedItems++;
+          if (processedItems % 10 === 0) {
+            console.log(`Procesados ${processedItems}/${feed.items.length} items del feed ${url}`);
+          }
+        } catch (itemErr) {
+          console.error(`Error procesando item en feed ${url}:`, itemErr.message);
         }
       });
+      console.log(`Feed ${url} completado. Items procesados: ${processedItems}`);
     } catch (err) {
       console.error(`Error parsing feed ${url}:`, err.message);
     }
   }
+  console.log(`Procesamiento de feeds completado. Total items: ${allItems.length}`);
 
   if (filterLastHours) {
+    console.log(`Filtrando items de las últimas ${filterLastHours} horas...`);
     const cutoff = new Date();
     cutoff.setHours(cutoff.getHours() - filterLastHours);
     const before = allItems.length;
-    allItems = allItems.filter(item => item.date >= cutoff);
+    allItems = allItems.filter(item => new Date(item.date) >= cutoff);
     console.log(`Filtradas ${before - allItems.length} entradas antiguas, quedan ${allItems.length}`);
-  } else {
-    console.log(`Recogidas ${allItems.length} entradas`);
   }
 
-  allItems.sort((a, b) => b.date - a.date);
-  console.log(`Construyendo feed "${title}" con ${allItems.length} entradas`);
+  // Combine existing and new items
+  console.log('Combinando items existentes con nuevos...');
+  const combinedItems = [...existingItems, ...allItems];
+  
+  // Sort by date (newest first)
+  console.log('Ordenando items por fecha...');
+  combinedItems.sort((a, b) => new Date(b.date) - new Date(a.date));
 
+  // Process items with OpenAI if enabled
+  if (processWithOpenAI) {
+    console.log('Iniciando procesamiento con OpenAI...');
+    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    let processedCount = 0;
+    const totalToProcess = combinedItems.filter(item => !item.processed).length;
+    console.log(`Items pendientes de procesar con OpenAI: ${totalToProcess}`);
+
+    for (const item of combinedItems) {
+      if (!item.processed) {
+        let retryCount = 0;
+        const maxRetries = 3;
+        
+        while (retryCount < maxRetries) {
+          try {
+            console.log(`[${new Date().toISOString()}] Procesando item ${processedCount + 1}/${totalToProcess}: ${item.link}`);
+            const prompt = `Procesa el siguiente item y genera una respuesta con el siguiente formato:
+              - Topics_Product: Elige estrictamente sobre la siguiente lista cual de los productos trata la noticia ${JSON.stringify(topicsProduct.topics_product.map(t => t.value))} (devuelve una cadena de texto)
+              - Summary: Genera un resumen en inglés de no más de 255 caracteres para la noticia.
+              - URL: ${item.link}
+
+              Si el item debe ser ignorado según las reglas: ${JSON.stringify(ignoreRules.ignore_rules)}, responde con "IGNORE" y la razón.`;
+
+            const response = await openai.chat.completions.create({
+              model: 'gpt-3.5-turbo',
+              messages: [{ role: 'user', content: prompt }],
+              max_tokens: 150
+            });
+
+            const result = response.choices[0].message.content.trim();
+
+            if (!result.startsWith('IGNORE')) {
+              const fields = result.split('\n').map(line => line.trim());
+              const topicsProductField = fields.find(f => f.startsWith('- Topics_Product:'));
+              const summaryField = fields.find(f => f.startsWith('- Summary:'));
+
+              item.topicsProduct = topicsProductField ? topicsProductField.replace('- Topics_Product:', '').trim() : '';
+              item.summary = summaryField ? summaryField.replace('- Summary:', '').trim() : '';
+              item.processed = true;
+              break;
+            } else {
+              console.log(`Item ignorado: ${item.link} - ${result.replace('IGNORE', '').trim()}`);
+              item.processed = true;
+              item.ignored = true;
+              item.ignoreReason = result.replace('IGNORE', '').trim();
+              break;
+            }
+          } catch (err) {
+            console.error(`Error procesando item con OpenAI (intento ${retryCount + 1}/${maxRetries}): ${err.message}`);
+            retryCount++;
+            if (retryCount === maxRetries) {
+              console.error(`No se pudo procesar el item después de ${maxRetries} intentos: ${item.link}`);
+              item.processed = true;
+              item.error = true;
+              item.errorMessage = err.message;
+            }
+            await new Promise(resolve => setTimeout(resolve, 1000 * retryCount));
+          }
+        }
+        processedCount++;
+        if (processedCount % 5 === 0) {
+          console.log(`Progreso OpenAI: ${processedCount}/${totalToProcess} items procesados`);
+        }
+      }
+    }
+    console.log('Procesamiento con OpenAI completado');
+  }
+
+  // Save JSON feed if jsonOutputPath is provided
+  if (jsonOutputPath) {
+    console.log('Guardando feed JSON...');
+    const jsonFeed = {
+      title,
+      description,
+      lastUpdated: new Date().toISOString(),
+      items: combinedItems
+    };
+    saveJsonFeed(jsonOutputPath, jsonFeed);
+  }
+
+  // Generate XML feed
+  console.log(`Construyendo feed XML "${title}" con ${combinedItems.length} entradas`);
   const combinedFeed = new RSS({ title, description, pubDate: new Date() });
   let addedItems = 0;
-  allItems.forEach(item => {
-    try {
-      combinedFeed.item({
-        title: sanitizeCData(item.title),
-        description: sanitizeCData(item.content || item.contentSnippet || item.summary || ''),
-        url: item.link,
-        guid: sanitizeCData(item.guid || item.id || item.link),
-        author: sanitizeCData(item.creator || item.author || ''),
-        date: item.date
-      });
-      addedItems++;
-    } catch (err) {
-      console.error(`Error al añadir item: ${err.message}`);
+  combinedItems.forEach(item => {
+    if (!item.ignored) {
+      try {
+        combinedFeed.item({
+          title: sanitizeCData(item.title),
+          description: sanitizeCData(item.description),
+          url: item.link,
+          guid: sanitizeCData(item.guid),
+          author: sanitizeCData(item.author),
+          date: new Date(item.date)
+        });
+        addedItems++;
+      } catch (err) {
+        console.error(`Error al añadir item: ${err.message}`);
+      }
     }
   });
   console.log(`Total de items recogidos: ${allItems.length}, items añadidos al feed: ${addedItems}`);
 
   const xml = combinedFeed.xml({ indent: true });
   try {
+    console.log('Validando XML...');
     const valid = XMLValidator.validate(xml);
     if (valid === true) {
       console.log('XML es válido');
@@ -108,11 +327,35 @@ async function combineFeeds(feedUrls, options) {
     console.warn('La validación del XML falló, continuando a escribir el archivo:', e);
   }
 
+  console.log('Guardando archivo XML...');
   ensureDirSync(path.dirname(outputPath));
   fs.writeFileSync(outputPath, xml, 'utf8');
   console.log(`Feed combinado escrito en ${outputPath}`);
 
-  return allItems;
+  // Guardar noticias ignoradas en CSV
+  if (ignoredItems.length > 0) {
+    console.log('Guardando items ignorados en CSV...');
+    const csvHeader = 'URL,Reason,Title,Date\n';
+    const csvContent = ignoredItems.map(item => 
+      `"${item.url}","${item.reason}","${item.title}","${item.date}"`
+    ).join('\n');
+    
+    const ignoredItemsPath = path.join(__dirname, 'ignored_items.csv');
+    
+    try {
+      if (!fs.existsSync(ignoredItemsPath)) {
+        fs.writeFileSync(ignoredItemsPath, csvHeader, 'utf8');
+      }
+      
+      fs.appendFileSync(ignoredItemsPath, csvContent + '\n', 'utf8');
+      console.log(`Noticias ignoradas añadidas a ${ignoredItemsPath} (${ignoredItems.length} items nuevos)`);
+    } catch (err) {
+      console.error('Error guardando items ignorados:', err.message);
+    }
+  }
+
+  console.log('combineFeeds completado exitosamente');
+  return combinedItems;
 }
 
 // Format current date as DD-MM-YYYY
@@ -163,6 +406,7 @@ function getDateString() {
     title: `Combined ArcGIS Feeds (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', `combined_feeds_${dateStr}.xml`),
+    jsonOutputPath: path.join(__dirname, 'feeds', 'combined_feeds.json'),
     filterLastHours: 48
   });
 
@@ -171,6 +415,7 @@ function getDateString() {
     title: `ArcGIS ESRI Dev Feed (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, 'feeds', 'arcgis_esri_dev_feed.xml'),
+    jsonOutputPath: path.join(__dirname, 'feeds', 'arcgis_esri_dev_feed.json'),
     filterLastHours: 48,
     processWithOpenAI: true
   });
@@ -179,48 +424,26 @@ function getDateString() {
     // Procesar items con ChatGPT y generar tabla HTML
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    const categories = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'categories.json'), 'utf8'));
-    const topicsProduct = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'topics_product.json'), 'utf8'));
-    const authors = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'authors.json'), 'utf8'));
-    const ignoreRules = JSON.parse(fs.readFileSync(path.join(__dirname, 'config', 'ignore_rules.json'), 'utf8'));
-
     const ignoredItems = [];
     const tableRows = [];
 
     for (const item of arcgisDevItems) {
-      const prompt = `Procesa el siguiente item y genera una respuesta con el siguiente formato:
-        - Topics_Product: Elige sobre cual de los productos trata la noticia ${JSON.stringify(topicsProduct.topics_product.map(t => t.value))}
-        - Summary: Genera un resumen en inglés de no más de 255 caracteres para la noticia.
-        - URL: ${item.link}
-
-        Si el item debe ser ignorado según las reglas: ${JSON.stringify(ignoreRules.ignore_rules)}, responde con "IGNORE" y la razón.`;
-
-      const response = await openai.chat.completions.create({
-        model: 'gpt-3.5-turbo',
-        messages: [{ role: 'user', content: prompt }],
-        max_tokens: 150
-      });
-
-      const result = response.choices[0].message.content.trim();
-
-      if (result.startsWith('IGNORE')) {
-        ignoredItems.push({ url: item.link, reason: result.replace('IGNORE', '').trim() });
+      if (item.ignored) {
+        ignoredItems.push({
+          url: item.link,
+          reason: item.ignoreReason || 'No reason provided',
+          title: item.title,
+          date: item.date
+        });
       } else {
-        // Procesar la respuesta para generar la fila de la tabla
-        console.log(result);
-        const fields = result.split('\n').map(line => line.trim());
-
-        const topicsProductField = fields.find(f => f.startsWith('- Topics_Product:'));
-        const summaryField = fields.find(f => f.startsWith('- Summary:'));
-
-        const date = item.date.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' });
-        const category = '';
+        const date = new Date(item.date).toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' });
+        const category = item.category || '';
         const featured = '';
-        const topicsProduct = topicsProductField ? topicsProductField.replace('- Topics_Product:', '').trim() : '';
-        const author = '';
+        const topicsProduct = item.topicsProduct || '';
+        const author = item.author || '';
         const url = item.link;
         const title = item.title || '';
-        const summary = summaryField ? summaryField.replace('- Summary:', '').trim() : '';
+        const summary = item.summary || '';
 
         tableRows.push(`<tr>
           <td>${date}</td>
@@ -274,11 +497,6 @@ function getDateString() {
     ensureDirSync(path.dirname(newsFilePath));
     fs.writeFileSync(newsFilePath, htmlContent, 'utf8');
     console.log(`Tabla de noticias generada en ${newsFilePath}`);
-
-    // Guardar noticias ignoradas en CSV
-    const csvContent = ignoredItems.map(item => `${item.url},${item.reason}`).join('\n');
-    fs.writeFileSync(path.join(__dirname, 'ignored_items.csv'), csvContent, 'utf8');
-    console.log(`Noticias ignoradas guardadas en ignored_items.csv`);
 
     // Generar index.html con listado de archivos HTML
     const newsDir = path.join(__dirname, 'news');

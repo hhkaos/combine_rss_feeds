@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script type="module" src=https://js.arcgis.com/calcite-components/2.13.0/calcite.esm.js></script>
+    <link rel="stylesheet" type="text/css" href=https://js.arcgis.com/calcite-components/2.13.0/calcite.css />
+    <title>Esri Dev. content - Activity Monitor</title>
+    <script>
+      // Load the table
+      try {
+        // Load configuration files
+        async function loadConfig(file) {
+          const response = await fetch(`config/${file}`);
+          return await response.json();
+        }
+
+        // Load and process the JSON feed
+        async function loadFeed() {
+          try {
+            const response = await fetch('feeds/arcgis_esri_dev_feed.json');
+            const data = await response.json();
+            return data.items;
+          } catch (error) {
+            console.error('Error loading feed:', error);
+            return [];
+          }
+        }
+
+        // Initialize the application
+        async function initializeApp() {
+          try {
+            // Load all configuration files
+            const [topicsProduct, categories, authors] = await Promise.all([
+              loadConfig('topics_product.json'),
+              loadConfig('categories.json'),
+              loadConfig('authors.json')
+            ]);
+
+            // Generate technologies from topics_product values
+            const technologies = topicsProduct.topics_product.map(t => t.value);
+            loadCombobox(technologies, "#topics", "#templateTopicRow");
+
+            // Generate categories from categories.json
+            const categoriesList = categories.categories.map(c => c.value);
+            loadCombobox(categoriesList, "#category", "#templateTopicRow");
+
+            // Generate authors from authors.json
+            const authorsList = authors.authors.map(a => a.value);
+            loadCombobox(authorsList, "#author", "#templateTopicRow");
+
+            // Load the feed data
+            const items = await loadFeed();
+            populateTable(items);
+
+            // Trigger initial filter events
+            const event = new Event("calciteComboboxChange");
+            document.querySelector('#topics').dispatchEvent(event);
+            document.querySelector('#category').dispatchEvent(event);
+            document.querySelector('#author').dispatchEvent(event);
+
+            // Show tour if not shown before
+            if(!localStorage.getItem("tourDisplayed")){
+              introJs().start();
+              localStorage.setItem("tourDisplayed", true);
+            }
+
+          } catch (error) {
+            console.error('Error initializing app:', error);
+          }
+        }
+
+        // Populate the table with items
+        function populateTable(items) {
+          if ("content" in document.createElement("template")) {
+            const tbody = document.querySelector("calcite-table");
+            const template = document.querySelector("#templateRow");
+            items.filter(item => !item.ignored).forEach(item => {
+              const clone = template.content.cloneNode(true);
+              const row = clone.firstElementChild;
+              let isFeatured = '';
+              if(item.featured){
+                clone.firstElementChild.setAttribute("class","selected")
+                isFeatured = '⭐';
+              }
+              let td = clone.querySelectorAll("calcite-table-cell");
+
+              td[0].innerText = formatDate(item.date);
+              if(item.link && item.link.toLowerCase() != 'n/a'){
+                td[1].innerHTML = `<a href="${item.link}" target="_blank" class="emoji">${isFeatured} ${item.title}</a>`;
+              }else{
+                td[1].innerHTML = `${isFeatured} ${item.title}`;
+              }
+              td[2].innerText = item.author;
+              row.setAttribute("data-authors", item.author)
+              tbody.appendChild(clone);
+
+            //   if(item.linkedin && item.linkedin.toLowerCase() != 'n/a') {
+            //     td[3].innerHTML = `<a href="${item.linkedin}" target="_blank" class="emoji">🔁</a>`;
+            //   }
+            //   if(item.twitter && item.twitter.toLowerCase() != 'n/a'){
+            //     td[4].innerHTML = `<a href="${item.twitter}" target="_blank" class="emoji">🔁</a>`;
+            //   }
+              td[3].innerText = item.topicsProduct;
+              row.setAttribute("data-technologies", item.topicsProduct)
+              td[4].innerText = item.category;
+              row.setAttribute("data-categories", item.category)
+              tbody.appendChild(clone);
+            });
+          }
+        }
+
+        // Initialize the app when the page loads
+        document.addEventListener('DOMContentLoaded', initializeApp);
+        
+      } catch (error) {
+        console.error(error.message);
+      }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.css" integrity="sha512-4OzqLjfh1aJa7M33b5+h0CSx0Q3i9Qaxlrr1T/Z+Vz+9zs5A7GM3T3MFKXoreghi3iDOSbkPMXiMBhFO7UBW/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      calcite-table {
+          width: 100%;
+      }
+      .container{
+        max-width: 960px;
+        margin: 0 auto;
+        width: 90%;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1; 
+      }
+      .right{
+        padding-left: 2rem;
+      }
+      .ribbon {
+        /* positioning */
+        position: fixed;
+        padding: 5px 45px;
+        width: 128px;
+        /* top right of the page */
+        top: 50px;
+        right: -50px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        /* effects with some shadow */
+        box-shadow: 0 0 0 3px #141412, 0 0 20px -3px rgba(0, 0, 0, 0.5);
+        text-shadow: 0 0 0 #ffffff, 0 0 5px rgba(0, 0, 0, 0.3);
+        /* looks */
+        background-color: #141412;
+        color: #ffffff;
+        font-size: 13px;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        /* ribbon effects */
+        border: 2px dotted #ffffff;
+        /* webkit antialias fix */
+        -webkit-backface-visibility: hidden;
+        letter-spacing: .5px;
+        text-align: center;
+      }
+      .emoji{
+        text-decoration: none;
+      }
+      calcite-combobox{
+        width:33%;
+        margin-right: .3%;
+      }
+      .mb1{
+        margin-bottom: 1rem;
+      }
+
+      @media only screen and (max-width: 850px) {
+        h1 {
+          font-size: 1.2rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .ribbon {
+          display: none;
+        }
+      }
+      .selected{
+        --calcite-table-row-background: #ade9ff
+      }
+      calcite-table-row:nth-child(odd of :not(.hidden)){
+        --calcite-table-row-background: #f3f3f3
+      }
+      .hidden{
+        display: none;
+      }
+      .introjs-tooltiptext{
+        font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+        font-size: 14px  
+      }
+      #help{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+      #help img{
+        width: 25px;
+      }
+      #help:hover{
+        cursor: pointer;
+      }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+    <div class="row">
+      <h1 class="column">Esri Dev. content - Activity Monitor</h1>
+      <span class="column right">
+        <calcite-button
+          href="https://docs.google.com/spreadsheets/d/1oKkHCNbOUpfERu1xC4ePU2XwDSvalEfE0YmTN39cyNg/edit?usp=sharing"
+          icon-end="launch"
+          round width="auto"
+          label="Open spreadsheet"
+          target="_blank"
+          data-intro="Do you find something missing? <br/>Add a comment or contact us at <a href='mailto:developeroutreach@esri.com'>developeroutreach@esri.com</a> 📧" data-step="20"
+          >
+        Add new activity
+      </calcite-button>
+      </span>
+    </div>
+
+    <div class="row mb1" data-intro="🔎 Filter activity and <b>explore only what interests you</b>. <br/><br/>If you save this page as a bookmark ⭐️, the filters will remain in your next visit" data-step="10">
+      <calcite-combobox placeholder="Select topics" id="topics" selection-display="fit">
+        
+      </calcite-combobox>
+
+      <calcite-combobox placeholder="Content type" id="category" selection-display="fit">
+        
+      </calcite-combobox>
+
+      <calcite-combobox placeholder="Author" id="author" selection-display="fit">
+        
+      </calcite-combobox>
+      </div>
+
+    <div data-intro="This timeline ⏳ include resources for developers using ArcGIS.<br/><br/>The LinkedIn and X (former Twitter) columns contain existing social media messages <b>we would like you to consider liking 👍🏻 or reposting 🔁</b>" data-step="1">
+      <calcite-table caption="Simple table" interaction-mode="static" bordered>
+          <calcite-table-row slot="table-header">
+              <calcite-table-header heading="Date" alignment="center"></calcite-table-header>
+              <calcite-table-header heading="Content title"></calcite-table-header>
+              <calcite-table-header heading="Author" alignment="center"></calcite-table-header>
+              <!-- <div data-intro="" data-step="2"> -->
+                <!-- <calcite-table-header heading="LinkedIn" alignment="center"></calcite-table-header> -->
+              <!-- </div> -->
+              <!-- <div data-intro="The same with the X (former Twitter) column" data-step="3"> -->
+                <!-- <calcite-table-header heading="X" alignment="center"></calcite-table-header> -->
+              <!-- </div> -->
+              <calcite-table-header heading="Technology"></calcite-table-header>
+              <calcite-table-header heading="Content type" alignment="center"></calcite-table-header>
+          </calcite-table-row>
+          
+      </calcite-table>
+    </div>
+  </div>
+
+  <a href='https://github.com/hhkaos/esridevs-social-activity' class="ribbon" target="blank">CONTRIBUTE</a>
+
+  <div id="help">
+    <img src="./assets/images/help.png" />
+  </div>
+
+  <template id="templateRow">
+    <calcite-table-row>
+      <calcite-table-cell alignment="center"></calcite-table-cell>
+      <calcite-table-cell></calcite-table-cell>
+      <calcite-table-cell alignment="center"></calcite-table-cell>
+      <calcite-table-cell></calcite-table-cell>
+      <calcite-table-cell alignment="center"></calcite-table-cell>
+    </calcite-table-row>
+  </template>
+
+  <template id="templateTopicRow">
+    <calcite-combobox-item value="" text-label=""></calcite-combobox-item>
+  </template>
+  <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
+  
+  <script>
+    let flags
+
+    try{
+      const parts = new URL(window.location.href);
+      if (parts.hash == '') {
+        throw new Error('No hash');
+      }
+      flags = JSON.parse(LZString.decompressFromBase64(parts.hash.substr(1)));
+    }catch(error){
+      flags = {
+        "technologies": {},
+        "categories": {},
+        "authors": {},
+      }
+    }
+
+    const findValueInNestedJSON = (jsonObject, targetKey) => {
+        for (const outerKey in jsonObject) {
+            if (jsonObject.hasOwnProperty(outerKey)) {
+                const innerObject = jsonObject[outerKey];
+                if (innerObject.hasOwnProperty(targetKey)) {
+                    return innerObject[targetKey];
+                }
+            }
+        }
+        return null; 
+    };
+
+    const loadCombobox = (options, idContainer, templateId) => {
+        const topicsSelector = document.querySelector(idContainer);
+        const template = document.querySelector(templateId);
+        
+        options.forEach((e, i , array) => {
+          const clone = template.content.cloneNode(true);
+          clone.firstElementChild.setAttribute("value", e)
+          clone.firstElementChild.setAttribute("text-label", e)
+          // If check flags
+          const val = findValueInNestedJSON(flags, e)
+          if(val === 1 || val === null){
+            clone.firstElementChild.setAttribute("selected", null)
+          }
+          topicsSelector.appendChild(clone);
+        });
+    };
+
+    const updateFlags = (e, keyword) => {
+      e.currentTarget.querySelectorAll(':not([selected])').forEach(e => {
+        flags[keyword][e.value] = 0;
+        const filter = `calcite-table-row[data-${keyword}='${e.value}']`;
+        document.querySelectorAll(filter).forEach(e => {
+          e.classList.add("hidden");
+        })
+      });
+
+      e.currentTarget.querySelectorAll('[selected]').forEach(e => {
+        flags[keyword][e.value] = 1;
+        
+        const filter = `calcite-table-row[data-${keyword}='${e.value}']`;
+        document.querySelectorAll(filter).forEach(e => {
+          if( flags.authors[e.dataset.authors] &&
+              flags.technologies[e.dataset.technologies] &&
+              flags.categories[e.dataset.categories]){
+                e.classList.remove("hidden");
+          }
+          e.dataset.authors
+        })
+      });
+
+      window.history.pushState( { title: "Services" }, "servicespage", "#"+LZString.compressToBase64(JSON.stringify(flags)));
+    }
+
+    document.querySelector('#topics').addEventListener("calciteComboboxChange",  (e) => updateFlags(e, 'technologies') );
+    document.querySelector('#category').addEventListener("calciteComboboxChange",  (e) => updateFlags(e, 'categories') );
+    document.querySelector('#author').addEventListener("calciteComboboxChange",  (e) => updateFlags(e, 'authors') );
+
+    const initApp = () => {
+      const hidrated = document.querySelector('#author').getAttribute("calcite-hydrated");
+      if(hidrated != ''){
+        setTimeout(initApp, 1000);
+      }else{
+        const event = new Event("calciteComboboxChange");
+        document.querySelector('#topics').dispatchEvent(event);
+        document.querySelector('#category').dispatchEvent(event);
+        document.querySelector('#author').dispatchEvent(event);
+        if(!localStorage.getItem("tourDisplayed")){
+          introJs().start();
+          localStorage.setItem("tourDisplayed", true);
+        }
+      }
+    }
+    initApp();
+
+    document.querySelector('#help').addEventListener("click", e => introJs().start())
+
+    // Function to format the date to "DD Month YYYY"
+    function formatDate(dateString) {
+      const date = new Date(dateString);
+
+      // Check if the date is valid
+      if (isNaN(date)) return dateString;
+
+      // Extract day, month, and year
+      const day = date.getDate();
+      const month = date.toLocaleString('default', { month: 'long' });
+      const year = date.getFullYear();
+
+      // Return formatted string as "DD Month YYYY"
+      return `${month} ${day} ${year}`;
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.js" integrity="sha512-f26fxKZJiF0AjutUaQHNJ5KnXSisqyUQ3oyfaoen2apB1wLa5ccW3lmtaRe2jdP5kh4LF2gAHP9xQbx7wYhU5w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

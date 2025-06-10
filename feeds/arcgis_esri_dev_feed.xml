@@ -4,8 +4,8 @@
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Jun 2025 20:45:38 GMT</lastBuildDate>
-        <pubDate>Tue, 10 Jun 2025 20:45:38 GMT</pubDate>
+        <lastBuildDate>Tue, 10 Jun 2025 21:50:49 GMT</lastBuildDate>
+        <pubDate>Tue, 10 Jun 2025 21:50:49 GMT</pubDate>
         <item>
             <title><![CDATA[Build smarter location-aware apps with Geotriggers in ArcGIS Maps SDK for Flutter]]></title>
             <description><![CDATA[Build smarter, location-aware apps with Geotriggers using the ArcGIS Maps SDK for Flutter. Add spatial awareness with ease and precision.]]></description>
@@ -13,13 +13,6 @@
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2809082</guid>
             <dc:creator><![CDATA[Martino Yovo]]></dc:creator>
             <pubDate>Tue, 10 Jun 2025 14:30:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...]]></title>
-            <description><![CDATA[Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...]]></description>
-            <link>https://x.com/EsriDevs/status/1932226258546430291</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:15857777943308089375</guid>
-            <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>

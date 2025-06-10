@@ -13,6 +13,10 @@
       "description": "Videos de conferencias o charlas de DevSummit"
     },
     {
+      "value": "Documentation",
+      "description": "Si es una página de documentación, fichero markdown, o similar"
+    },
+    {
       "value": "In-person event",
       "description": "Eventos presenciales"
     },

@@ -1,0 +1,39 @@
+{
+  "title": "Combined ArcGIS Feeds (10-06-2025)",
+  "description": "Todos los feeds combinados (últimas 48 horas)",
+  "lastUpdated": "2025-06-10T21:50:37.299Z",
+  "items": [
+    {
+      "title": "Build smarter location-aware apps with Geotriggers in ArcGIS Maps SDK for Flutter",
+      "description": "Build smarter, location-aware apps with Geotriggers using the ArcGIS Maps SDK for Flutter. Add spatial awareness with ease and precision.",
+      "link": "https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/build-smarter-location-aware-apps-with-geotriggers-in-arcgis-maps-sdk-for-flutter",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2809082",
+      "author": "Martino Yovo",
+      "date": "2025-06-10T14:30:14.000Z"
+    },
+    {
+      "title": "<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...",
+      "description": "Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...",
+      "link": "https://x.com/EsriDevs/status/1932226258546430291",
+      "guid": "tag:google.com,2013:googlealerts/feed:15857777943308089375",
+      "author": "",
+      "date": "2025-06-10T14:26:31.000Z"
+    },
+    {
+      "title": "ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides",
+      "description": "Learn how ArcGIS Maps SDK for Unreal Engine is used to bridge urban divides and enhance community engagement in the Martin Luther King Corridor.",
+      "link": "https://www.esri.com/arcgis-blog/products/unreal-engine/developers/arcgis-maps-sdk-for-unreal-engine-empowers-st-louis-to-bridge-urban-divides",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2783872",
+      "author": "Shimona Lahiri",
+      "date": "2025-06-09T23:31:45.000Z"
+    },
+    {
+      "title": "What's Coming in ArcGIS Experience Builder (June 2025)",
+      "description": "<P><SPAN>A sneak peek into new features in Experience Builder for the June release of ArcGIS Online.</SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-june/ba-p/1622055",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-june/ba-p/1622055",
+      "author": "Jianxia",
+      "date": "2025-06-09T22:01:55.000Z"
+    }
+  ]
+}

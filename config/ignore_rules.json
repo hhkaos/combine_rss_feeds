@@ -11,6 +11,18 @@
     {
       "condition": "Contenido sin fecha",
       "description": "Ignorar si la noticia no tiene fecha de publicación"
+    },
+    {
+      "condition": "Pregunta de comunidad",
+      "description": "Si es una pregunta en community.esri.com, stackoverflow, reddit, stackexchange, o similar."
+    },
+    {
+      "condition": "Si es una oferta de trabajo",
+      "description": "Si es una oferta de empleo"
+    },
+    {
+      "condition": "Si es un issue de GitHub",
+      "description": "Si es un issue de GitHub"
     }
   ]
 } 

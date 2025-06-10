@@ -1,0 +1,41 @@
+{
+  "social_media_patterns": [
+    {
+      "platform": "Twitter/X",
+      "patterns": [
+        "twitter.com",
+        "x.com",
+        "t.co"
+      ]
+    },
+    {
+      "platform": "LinkedIn",
+      "patterns": [
+        "linkedin.com",
+        "linked.in"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "patterns": [
+        "facebook.com",
+        "fb.com",
+        "fb.me"
+      ]
+    },
+    {
+      "platform": "Instagram",
+      "patterns": [
+        "instagram.com",
+        "instagr.am"
+      ]
+    },
+    {
+      "platform": "Reddit",
+      "patterns": [
+        "reddit.com",
+        "redd.it"
+      ]
+    }
+  ]
+} 
