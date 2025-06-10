@@ -123,7 +123,9 @@ function getDateString() {
     'https://josiahparry.com/index.xml',
     'https://highearthorbit.com/feed/',
     'https://github.com/esri/developer-support/commits/master.atom',
-    'https://www.esri.com/arcgis-blog/products/developers/feed'
+    'https://www.esri.com/arcgis-blog/products/developers/feed',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
+    'https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers'
   ];
   const curatedItems = await combineFeeds(curatedUrls, {
     title: `Combined Curated Feeds (${dateStr})`,
