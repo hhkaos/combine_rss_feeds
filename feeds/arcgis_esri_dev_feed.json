@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-06-2025)",
+  "title": "ArcGIS ESRI Dev Feed (12-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-11T01:37:33.910Z",
+  "lastUpdated": "2025-06-12T01:27:45.036Z",
   "items": [
+    {
+      "title": "More than 1300 SLO County PG&amp;E customers lose power in outage",
+      "description": "Please enable <b>JavaScript</b> to use this site. 20 mi. Sources: <b>Esri</b> ... <b>ESRI</b>. Steve Wilson swilson@star-telegram.com. This story was originally&nbsp;...",
+      "link": "https://www.sanluisobispo.com/news/local/article308393530.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:8592140444397401804",
+      "author": "",
+      "date": "2025-06-11T17:17:43.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "California government's portal for state and local data sharing is now hosted on ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "When is the map ready... for reals this time",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=e-XSjqo5upc",
+      "guid": "yt:video:e-XSjqo5upc",
+      "author": "Rene Rubalcava",
+      "date": "2025-06-11T13:08:25.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Watch this video to learn how to configure ArcGIS Online groups and content to optimize your workflows.",
+      "processed": true
+    },
+    {
+      "title": "Custom Callouts in <b>ArcGIS</b> Runtime <b>SDK</b> for .NET (MAUI/WPF) | Medialesson | Jun, 2025 | Medium",
+      "description": "When using <b>ArcGIS</b> Runtime <b>SDK</b> in .NET (especially with .NET MAUI), you ... It turns out: the <b>Esri</b>-provided callout just isn&#39;t made for much content.",
+      "link": "https://medium.com/medialesson/custom-callouts-in-arcgis-runtime-sdk-for-net-maui-wpf-3525857ec5dc",
+      "guid": "tag:google.com,2013:googlealerts/feed:18126368106078536583",
+      "author": "",
+      "date": "2025-06-11T07:29:09.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for .NET",
+      "summary": "Learn how to create custom callouts in ArcGIS Runtime SDK for .NET with MAUI and WPF.",
+      "processed": true
+    },
+    {
+      "title": "Child benefits lift 150,000 children out of poverty- <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... The <b>ESRI</b> found that when it accounted for both in-cash and in-kind&nbsp;...",
+      "link": "https://www.rte.ie/news/ireland/2025/0611/1517771-child-benefits-esri-report/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11781929707376275288",
+      "author": "",
+      "date": "2025-06-11T01:18:36.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "A new report by Esri suggests that child benefits should be linked to parents' income to reduce child poverty in Ireland.",
+      "processed": true
+    },
     {
       "title": "Build smarter location-aware apps with Geotriggers in ArcGIS Maps SDK for Flutter",
       "description": "Build smarter, location-aware apps with Geotriggers using the ArcGIS Maps SDK for Flutter. Add spatial awareness with ease and precision.",
