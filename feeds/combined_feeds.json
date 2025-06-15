@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (14-06-2025)",
+  "title": "Combined ArcGIS Feeds (15-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-14T01:25:58.450Z",
+  "lastUpdated": "2025-06-15T01:45:18.313Z",
   "items": [
+    {
+      "title": "Alternative to <b>ArcGIS Maps SDK for</b> .NET Samples (WPF) in Windows - Microsoft Apps",
+      "description": "List of products related to <b>ArcGIS Maps SDK for</b> .NET Samples (WPF).",
+      "link": "https://apps.microsoft.com/related/9mtp5013343h?hl=en-US&gl=US",
+      "guid": "tag:google.com,2013:googlealerts/feed:6206275424479586640",
+      "author": "",
+      "date": "2025-06-14T07:59:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Has layer in map property but invisible · Issue #2305 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b> - GitHub",
+      "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to ... I&#39;m creating a map using an imagery layer on AGOL&#39;s portal with <b>ArcGIS</b>&nbsp;...",
+      "link": "https://github.com/Esri/arcgis-python-api/issues/2305",
+      "guid": "tag:google.com,2013:googlealerts/feed:16665472704271968506",
+      "author": "",
+      "date": "2025-06-14T01:45:02.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Introduction to ArcGIS Location Platform - Getting started",
       "description": "",
