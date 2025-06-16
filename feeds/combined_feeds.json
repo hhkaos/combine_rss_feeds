@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (15-06-2025)",
+  "title": "Combined ArcGIS Feeds (16-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-15T01:45:18.313Z",
+  "lastUpdated": "2025-06-16T01:40:26.467Z",
   "items": [
+    {
+      "title": "The 5 Best <b>Esri</b> Alternatives for Mapping and Analysis - BBN Times",
+      "description": "<b>Esri&#39;s ArcGIS</b> suite is a mainstay in mapping, but for many people and ... The platform provides <b>JavaScript</b> and React Native toolkits for embedding&nbsp;...",
+      "link": "https://www.bbntimes.com/society/the-5-best-esri-alternatives-for-mapping-and-analysis",
+      "guid": "tag:google.com,2013:googlealerts/feed:3012573525343651682",
+      "author": "",
+      "date": "2025-06-15T10:14:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Alternative to <b>ArcGIS Maps SDK for</b> .NET Samples (WPF) in Windows - Microsoft Apps",
       "description": "List of products related to <b>ArcGIS Maps SDK for</b> .NET Samples (WPF).",
