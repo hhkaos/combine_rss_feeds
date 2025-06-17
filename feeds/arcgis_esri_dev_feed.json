@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-06-2025)",
+  "title": "ArcGIS ESRI Dev Feed (17-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-16T01:40:32.649Z",
+  "lastUpdated": "2025-06-17T01:38:01.797Z",
   "items": [
+    {
+      "title": "\n        Merge pull request #399 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #399 from woriginales/master\n\nCreated Extent Helper Tool</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/b56be2b4f4050b60b7c3e371fa1248b1d5a305ab",
+      "guid": "tag:github.com,2008:Grit::Commit/b56be2b4f4050b60b7c3e371fa1248b1d5a305ab",
+      "author": "tsimons6",
+      "date": "2025-06-16T15:23:06.000Z",
+      "category": "Source code",
+      "topicsProduct": "\"ArcGIS Online\"",
+      "summary": "New feature allows users to share dashboards easily with external stakeholders.",
+      "processed": true
+    },
+    {
+      "title": "\n        Updated readme\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Updated readme</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/50320fc9703e60e4542bc157626c53b5250215df",
+      "guid": "tag:github.com,2008:Grit::Commit/50320fc9703e60e4542bc157626c53b5250215df",
+      "author": "woriginales",
+      "date": "2025-06-16T15:05:02.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Issue fix: when trying to configure a Dashboard panel, a blank screen was displayed due to missing configuration options.",
+      "processed": true
+    },
+    {
+      "title": "DrawStatusChangedListener (<b>ArcGIS</b> Runtime <b>SDK</b> for Android 100.9.0)",
+      "description": "Use the <b>Esri ArcGIS</b> Runtime <b>SDK</b> for Android (Google) to build simple ... <b>JavaScript</b> is disabled on your browser. Skip navigation links.",
+      "link": "https://njypt.njghzy.com.cn:8443/geomap-api/apidoc/reference_arcgis_android/developers.arcgis.com/android/latest/api-reference/reference/com/esri/arcgisruntime/mapping/view/DrawStatusChangedListener.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:13915455456252544712",
+      "author": "",
+      "date": "2025-06-16T13:40:53.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Maps SDK for Android",
+      "summary": "The DrawStatusChangedListener interface in ArcGIS Maps SDK for Android allows developers to listen for changes in the drawing status of a MapView.",
+      "processed": true
+    },
+    {
+      "title": "Mobile Map Package is missing on <b>arcgis</b>.gis._impl._dataclasses.ItemTypeEnum #2306",
+      "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to ... <b>api</b>-reference/<b>arcgis</b>.gis.toc.html#itemtypeenum. I dont see the&nbsp;...",
+      "link": "https://github.com/Esri/arcgis-python-api/issues/2306",
+      "guid": "tag:google.com,2013:googlealerts/feed:13666659617053527441",
+      "author": "",
+      "date": "2025-06-16T10:16:11.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Unable to upgrade from 10.6 Notebooks to ver 10.8 Turbo VM due to intermittent failures. Need fix before production!",
+      "processed": true
+    },
     {
       "title": "The 5 Best <b>Esri</b> Alternatives for Mapping and Analysis - BBN Times",
       "description": "<b>Esri&#39;s ArcGIS</b> suite is a mainstay in mapping, but for many people and ... The platform provides <b>JavaScript</b> and React Native toolkits for embedding&nbsp;...",
