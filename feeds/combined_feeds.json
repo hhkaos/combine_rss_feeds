@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (17-06-2025)",
+  "title": "Combined ArcGIS Feeds (18-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-17T01:37:51.693Z",
+  "lastUpdated": "2025-06-18T01:28:13.253Z",
   "items": [
+    {
+      "title": "Tropical Storm Erick forms near southern Mexico - NBC 6 South Florida",
+      "description": "About this app. Hurricane Aware. Powered by <b>Esri</b>. Select an active ... <b>API</b> error: Failed to fetch. <b>API</b> error: Failed to fetch. Subscribe to our&nbsp;...",
+      "link": "https://www.nbcmiami.com/news/national-international/tropical-storm-erick-forms-near-southern-mexico/3638913/?os=http252a.esvpnapp.com&ref=app",
+      "guid": "tag:google.com,2013:googlealerts/feed:12581570408266183799",
+      "author": "",
+      "date": "2025-06-17T11:44:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Mastering Esri ArcGIS: Associate Certifications for Developers, Analysts, and Administrators",
+      "description": "Candidates should have practical experience working with modern web technologies and the <b>ArcGIS Maps SDK for</b> JavaScript. ArcGIS Online Administration&nbsp;...",
+      "link": "https://www.testpassport.com/news_Mastering_Esri_ArcGIS_Associate_Certifications_for_Developers_Analysts_and_Administrators_1077.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:16213729296341180421",
+      "author": "",
+      "date": "2025-06-17T09:08:41.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Index of /repositories/public/com/<b>esri</b>/geometry/<b>esri</b>-geometry-<b>api</b>/1.2.1",
+      "description": "Name, Last Modified, Size, Description. Parent Directory &middot; <b>esri</b>-geometry-<b>api</b>-1.2.1.jar, Tue Mar 24 01:21:41 CST 2015, 870215.",
+      "link": "http://power.kdgcsoft.com:8181/nexus/content/repositories/public/com/esri/geometry/esri-geometry-api/1.2.1/",
+      "guid": "tag:google.com,2013:googlealerts/feed:7738156528075831956",
+      "author": "",
+      "date": "2025-06-17T05:12:11.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #399 from woriginales/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #399 from woriginales/master\n\nCreated Extent Helper Tool</pre>\n    ",
