@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (18-06-2025)",
+  "title": "ArcGIS ESRI Dev Feed (19-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-18T01:28:20.991Z",
+  "lastUpdated": "2025-06-19T01:38:09.940Z",
   "items": [
+    {
+      "title": "Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=jeDCseUXtW0",
+      "guid": "yt:video:jeDCseUXtW0",
+      "author": "Esri Developers",
+      "date": "2025-06-18T18:16:18.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante\nRazón: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "Issues · <b>Esri</b>/calcite-design-system - GitHub",
+      "description": "A monorepo containing the packages for <b>Esri&#39;s</b> Calcite Design System - <b>Esri</b> ... <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Issues logged by <b>ArcGIS SDK</b> for <b>JavaScript</b>&nbsp;...",
+      "link": "https://github.com/Esri/calcite-design-system/labels/ArcGIS%20Maps%20SDK%20for%20JavaScript",
+      "guid": "tag:google.com,2013:googlealerts/feed:4799527665088270756",
+      "author": "",
+      "date": "2025-06-18T11:56:37.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "Check out the latest updates and information related to the ArcGIS Maps SDK for JavaScript on the Calcite Design System GitHub page.",
+      "processed": true
+    },
+    {
+      "title": "Rwanda National Spatial Data Infrastructure (NSDI) - RLA Hub - Dateno",
+      "description": "... <b>arcgis</b>.com/<b>api</b>/feed/dcat-us/1.1.json. rss, https://nsdi-rla.hub.<b>arcgis</b>.com/<b>api</b>/feed/rss/2.0. ogcrecordsapi, https://nsdi-rla.hub.<b>arcgis</b>.com/<b>api</b>/search&nbsp;...",
+      "link": "http://kh.test.dateno.io/registry/catalog/cdi00003037/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1830666009596980971",
+      "author": "",
+      "date": "2025-06-18T01:59:22.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri ofrece una solución completa para la transformación digital de las organizaciones con ArcGIS Enterprise.",
+      "processed": true
+    },
     {
       "title": "Tropical Storm Erick forms near southern Mexico - NBC 6 South Florida",
       "description": "About this app. Hurricane Aware. Powered by <b>Esri</b>. Select an active ... <b>API</b> error: Failed to fetch. <b>API</b> error: Failed to fetch. Subscribe to our&nbsp;...",
