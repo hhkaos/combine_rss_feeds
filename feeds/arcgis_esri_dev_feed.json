@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-06-2025)",
+  "title": "ArcGIS ESRI Dev Feed (20-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-19T01:38:09.940Z",
+  "lastUpdated": "2025-06-20T01:28:12.100Z",
   "items": [
+    {
+      "title": "Over 900 extra GPs needed to meet demand, says <b>ESRI</b> - RTE",
+      "description": "... <b>ESRI</b> ... Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu.",
+      "link": "https://www.rte.ie/news/health/2025/0618/1519048-ireland-gps-shortage/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4715396345902192773",
+      "author": "",
+      "date": "2025-06-19T02:50:29.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Ireland is experiencing a shortage of GPs, with some areas having no family doctor. The situation is worsening in rural regions.",
+      "processed": true
+    },
     {
       "title": "Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS",
       "description": "",
@@ -27,6 +39,18 @@
       "category": "Source code",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "Check out the latest updates and information related to the ArcGIS Maps SDK for JavaScript on the Calcite Design System GitHub page.",
+      "processed": true
+    },
+    {
+      "title": "CBS Ürünleri ve Haritalama Yazılımları - Esri Türkiye",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET &middot; <b>ArcGIS Maps SDK for</b> Flutter &middot; <b>ArcGIS Maps SDK for</b> Java &middot; <b>ArcGIS Maps SDK for</b> JavaScript &middot; <b>ArcGIS Maps SDK for</b> Kotlin.",
+      "link": "https://www.esri.com.tr/tr-tr/arcgis/urunler/index",
+      "guid": "tag:google.com,2013:googlealerts/feed:7767209099379342270",
+      "author": "",
+      "date": "2025-06-18T06:41:23.000Z",
+      "category": "Training seminar",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create, manage, and analyze data with ArcGIS Online in this new tutorial series.",
       "processed": true
     },
     {

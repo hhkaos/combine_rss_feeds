@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (19-06-2025)",
+  "title": "Combined ArcGIS Feeds (20-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-19T01:37:58.843Z",
+  "lastUpdated": "2025-06-20T01:28:04.379Z",
   "items": [
+    {
+      "title": "Over 900 extra GPs needed to meet demand, says <b>ESRI</b> - RTE",
+      "description": "... <b>ESRI</b> ... Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu.",
+      "link": "https://www.rte.ie/news/health/2025/0618/1519048-ireland-gps-shortage/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4715396345902192773",
+      "author": "",
+      "date": "2025-06-19T02:50:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS",
       "description": "",
@@ -22,6 +34,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:4799527665088270756",
       "author": "",
       "date": "2025-06-18T11:56:37.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "CBS Ürünleri ve Haritalama Yazılımları - Esri Türkiye",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET &middot; <b>ArcGIS Maps SDK for</b> Flutter &middot; <b>ArcGIS Maps SDK for</b> Java &middot; <b>ArcGIS Maps SDK for</b> JavaScript &middot; <b>ArcGIS Maps SDK for</b> Kotlin.",
+      "link": "https://www.esri.com.tr/tr-tr/arcgis/urunler/index",
+      "guid": "tag:google.com,2013:googlealerts/feed:7767209099379342270",
+      "author": "",
+      "date": "2025-06-18T06:41:23.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
