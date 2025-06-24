@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (23-06-2025)",
+  "title": "Combined ArcGIS Feeds (24-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-23T01:43:19.259Z",
+  "lastUpdated": "2025-06-24T01:38:03.114Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Application Program Interface (<b>API</b>) for Flex - VA.gov",
+      "description": "VA Technical Reference Model v 25.5. <b>ArcGIS</b> Application Program Interface (<b>API</b>) for Flex ... TRM Request. Vendor Name: <b>Esri</b>. Vendor Release&nbsp;...",
+      "link": "https://oit.va.gov/services/trm/ToolPage.aspx?tid=6465&tab=2&minYear=2043",
+      "guid": "tag:google.com,2013:googlealerts/feed:6044691976087814257",
+      "author": "",
+      "date": "2025-06-22T17:08:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "GIS Developer (<b>ArcGIS</b> + Angular + .Net) - EPIC Tech Research Pvt Ltd - 2 to 7 years of experience",
       "description": "<b>ESRI ARcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> v 4.x, <b>ArcGIS</b> Enterprise , Angular 15+ ... Visual Basic · .Net · SQL · Rest Web <b>Api</b> · HTML · VB · Basic · Web <b>API</b> ·&nbsp;...",
