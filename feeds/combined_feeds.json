@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (27-06-2025)",
+  "title": "Combined ArcGIS Feeds (28-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-27T01:38:30.783Z",
+  "lastUpdated": "2025-06-28T01:26:39.333Z",
   "items": [
+    {
+      "title": "[Inline Editable]: add read only mode · Issue #12418 · <b>Esri</b>/calcite-design-system - GitHub",
+      "description": "<b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Issues logged by <b>ArcGIS SDK</b> for <b>JavaScript</b> team members. ... <b>Esri</b> team. <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>. Activity.",
+      "link": "https://github.com/Esri/calcite-design-system/issues/12418",
+      "guid": "tag:google.com,2013:googlealerts/feed:14602954793095932320",
+      "author": "",
+      "date": "2025-06-27T18:04:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> releases CityEngine 2025.0 - CG Channel",
+      "description": "... <b>JavaScript</b> if it is disabled in your browser. <b>Esri</b> has ... Although aimed at architects and urban planners – it integrates with <b>Esri&#39;s ArcGIS</b>&nbsp;...",
+      "link": "https://www.cgchannel.com/2025/06/esri-releases-cityengine-2025-0/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12602016147103456678",
+      "author": "",
+      "date": "2025-06-27T15:21:56.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Launches <b>ArcGIS</b> for Autodesk Forma | Geo Week News",
+      "description": "<b>Esri</b> Launches <b>ArcGIS</b> for Autodesk Forma. The launch continues the ... Please enable <b>JavaScript</b> to view the comments powered by Disqus. Related.",
+      "link": "https://www.geoweeknews.com/news/esri-arcgis-autodesk-froma-integration",
+      "guid": "tag:google.com,2013:googlealerts/feed:11194998168351082395",
+      "author": "",
+      "date": "2025-06-27T13:00:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #401 from 0987poiuLKJH-Adnan/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #401 from 0987poiuLKJH-Adnan/master\n\nVoice to Zoom in the Map</pre>\n    ",
@@ -40,6 +76,18 @@
       "processed": false
     },
     {
+      "title": "Push on next · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>@1135e28 - GitHub",
+      "description": "Documentation and samples for <b>ArcGIS API</b> for Python - Push on next · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>@1135e28.",
+      "link": "https://github.com/Esri/arcgis-python-api/actions/runs/14228938415",
+      "guid": "tag:google.com,2013:googlealerts/feed:13670342032197209511",
+      "author": "",
+      "date": "2025-06-26T18:47:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
       "title": "What’s new in Near Me (June 2025)",
       "description": "<P>We have added some exciting enhancements in June update for Near Me</P><P><STRONG>Set active tool for drawing</STRONG></P><P>Now you can configure a default active tool in Near Me upon widget loads. This is a Web AppBuilder parity functionality and allows you to draw on the map right after widget loads, you will not have to select any draw tool to get you started. You will find the setting in Input section.</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-center\" image-alt=\"AzizaParveen1_0-1750887475573.png\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/135106iC1CC2E6171325104/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"AzizaParveen1_0-1750887475573.png\" alt=\"AzizaParveen1_0-1750887475573.png\" /></span></P><P>&nbsp;</P><P><STRONG>Show multiple field values as feature title</STRONG></P><P>You can now show multiple field values as feature title.This is also Web AppBuilder parity functionality. Now with arcade support in experience builder, we can do so by creating a calculated field using arcade. In the screenshot below I added a new field and calculated it using simple concatenate arcade function, then used that field as display field in Near Me</P><P>&nbsp;</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_2-1750889493174.png\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/135112iAB0FB69D28C9F84B/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"AzizaParveen1_2-1750889493174.png\" alt=\"AzizaParveen1_2-1750889493174.png\" /></span></P><P><STRONG>PDF report related environment</STRONG></P><DIV class=\"\">&nbsp;</DIV><P>When you export to PDF, you can choose to include the map legend in the PDF report. If groups and subgroups are configured, you can choose to merge rows for groups and subgroups in the PDF report. The following is a list of other elements that appear in PDF exports:</P><UL><LI>A scale bar and north arrow appear when the<SPAN>&nbsp;</SPAN><SPAN class=\"\">Scale bar</SPAN><SPAN>&nbsp;</SPAN>and<SPAN>&nbsp;</SPAN><SPAN class=\"\">Compass</SPAN><SPAN>&nbsp;</SPAN>tools are turned on in the<SPAN>&nbsp;</SPAN><A href=\"https://docdev.arcgis.com/en/experience-builder/latest/configure-widgets/map-widget.htm#LI_ED24CF3212B346C09EAA6DF820F1087D\" target=\"_blank\" rel=\"noopener\">settings of the connected Map widget</A>.</LI><LI>Map attribution appears for the map.</LI><LI>Labels for the area of interest dimensions appear when you search by location.</LI><LI>The date and time and time of the export appear. These are both editable.</LI></UL><P>&nbsp;</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_4-1750890072760.png\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/135115i0998BAC12421A43F/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"AzizaParveen1_4-1750890072760.png\" alt=\"AzizaParveen1_4-1750890072760.png\" /></span></P><P><STRONG>Support for exporting in shapefile, geodatabase and KML format</STRONG></P><P>We added support in Near Me for exporting Near Me results in shapefile, file geodatabase and KML formats.&nbsp;The&nbsp;<SPAN class=\"\">Export</SPAN>&nbsp;button does not appear if you enable only&nbsp;<SPAN class=\"\">.kml</SPAN>,&nbsp;<SPAN class=\"\">.shp</SPAN>, or&nbsp;<SPAN class=\"\">.fgdb</SPAN>&nbsp;file export without also enabling export to item option. The output data sources created by the Near Me widget are feature collection layers, which do not have associated URLs or REST endpoints, so to enable exporting to KML, shapefile, or geodatabase you must also enable export to item option. Current limitation is Batch export option in Near Me do not support these new formats (shapefile, file geodatabase and KML), they are only available at the layer level export.</P><P>Near Me now works with Experience Builder data panel export settings, you turn on or off any format from the data panel.</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_5-1750891709898.png\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/135118i45DC28A56465AA09/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"AzizaParveen1_5-1750891709898.png\" alt=\"AzizaParveen1_5-1750891709898.png\" /></span></P><P><STRONG>Search area symbols</STRONG></P><P>We have symbol picker for search/buffer area in Near Me, you can now choose any of the symbols from the symbol picker and customize the out. The setting is available in the General settings</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_6-1750892221151.png\" style=\"width: 400px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/135119iB3891A874EFA074B/image-size/medium?v=v2&amp;px=400\" role=\"button\" title=\"AzizaParveen1_6-1750892221151.png\" alt=\"AzizaParveen1_6-1750892221151.png\" /></span></P><P><STRONG>Export to CSV format now download with a count file:</STRONG></P><P>In many cases you might want to have the feature count of the downloaded features, now if you export to csv. another csv file will download with the original file to show count.&nbsp;</P>",
       "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-new-in-near-me-june-2025/ba-p/1626966",
@@ -70,6 +118,18 @@
       "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2861042",
       "author": "Tony Howser",
       "date": "2025-06-26T06:06:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ESRI</b> downgrades house building, domestic growth forecasts - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... <b>ESRI</b> downgrades house building and domestic growth forecasts.",
+      "link": "https://www.rte.ie/news/2025/0626/1520359-esri-house-building/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2323417585985091743",
+      "author": "",
+      "date": "2025-06-26T05:21:53.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
