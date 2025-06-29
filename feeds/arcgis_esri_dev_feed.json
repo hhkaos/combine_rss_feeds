@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-06-2025)",
+  "title": "ArcGIS ESRI Dev Feed (29-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-28T01:26:50.538Z",
+  "lastUpdated": "2025-06-29T01:47:02.580Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Online Feature Layer to File Geodatabase Feature Class with the <b>ArcGIS API</b> for Python",
+      "description": "<b>ArcGIS</b> Online Feature Layer to File Geodatabase Feature Class with the <b>ArcGIS API</b> for Python. No views · 1 hour ago ...more&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=PFWPMdI1bGQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:4000173289546594051",
+      "author": "",
+      "date": "2025-06-28T12:04:39.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and manage web maps in ArcGIS Online with this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Conxunto de datos - Winchester VA",
+      "description": "8 datasets found. Organizacións: City of Winchester Formatos: <b>ArcGIS</b> GeoServices REST <b>API</b> Etiquetas: flood. Filter Results&nbsp;...",
+      "link": "https://opendata.winchesterva.gov/gl/dataset/?_tags_limit=0&organization=city-of-winchester&res_format=ArcGIS+GeoServices+REST+API&tags=flood",
+      "guid": "tag:google.com,2013:googlealerts/feed:17795551807542162217",
+      "author": "",
+      "date": "2025-06-28T02:55:30.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "City of Winchester launches new flood data dataset on their ArcGIS Online platform.",
+      "processed": true
+    },
+    {
+      "title": "Python Scripting Using the <b>ArcGIS API</b> for Python - Emory University Career Center",
+      "description": "... <b>ArcGIS API</b> for Python as it automates and enhances GIS tasks. ... Explore powerful Python libraries and <b>ArcGIS</b> Notebooks, and learn how to utilize <b>Esri</b>&nbsp;...",
+      "link": "https://cpd.emory.edu/classes/python-scripting-using-the-arcgis-api-for-python/",
+      "guid": "tag:google.com,2013:googlealerts/feed:17283251438473304332",
+      "author": "",
+      "date": "2025-06-28T02:42:28.000Z",
+      "category": "Course",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Learn how to use Python scripting with the ArcGIS API to automate GIS workflows and analysis.",
+      "processed": true
+    },
+    {
+      "title": "[Input Number]: allow center alignment · Issue #12419 · Esri/calcite-design-system - GitHub",
+      "description": "Esri team. <b>ArcGIS Maps SDK for</b> JavaScript&nbsp;...",
+      "link": "https://github.com/Esri/calcite-design-system/issues/12419",
+      "guid": "tag:google.com,2013:googlealerts/feed:16559855730962454460",
+      "author": "",
+      "date": "2025-06-28T02:08:04.000Z",
+      "category": "Source code",
+      "topicsProduct": "Calcite Design System",
+      "summary": "Issue #12419 opened on Calcite Design System repository regarding a bug with the breadcrumb component.",
+      "processed": true
+    },
+    {
+      "title": "Senior ArcGIS Developer - Pune - Sofomation Energy Consultants - 10 to 15 years of experience",
+      "description": "... <b>ArcGIS Maps SDK for</b> .NET. Understanding of various GIS-related data management methodologies such as geometric networks and linear referencing&nbsp;...",
+      "link": "https://www.naukri.com/job-listings-senior-arcgis-developer-sofomation-energy-consultants-pune-10-to-15-years-270625935796",
+      "guid": "tag:google.com,2013:googlealerts/feed:7685556282570907391",
+      "author": "",
+      "date": "2025-06-27T18:49:11.000Z",
+      "category": "Job offer",
+      "topicsProduct": "ArcGIS",
+      "summary": "Sofomation Energy Consultants is looking for a Senior ArcGIS Developer in Pune with 10-15 years of experience.",
+      "processed": true
+    },
     {
       "title": "[Inline Editable]: add read only mode · Issue #12418 · <b>Esri</b>/calcite-design-system - GitHub",
       "description": "<b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Issues logged by <b>ArcGIS SDK</b> for <b>JavaScript</b> team members. ... <b>Esri</b> team. <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>. Activity.",
