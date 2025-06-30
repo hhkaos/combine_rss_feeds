@@ -1,8 +1,22 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-06-2025)",
+  "title": "ArcGIS ESRI Dev Feed (30-06-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-06-29T01:47:02.580Z",
+  "lastUpdated": "2025-06-30T01:43:02.778Z",
   "items": [
+    {
+      "title": "PG-Tools: A framework and an <b>ArcGIS</b> toolbox to standardize paleoglacier outlines and attributes",
+      "description": "The shaded relief map is the terrain basemap provided in <b>ArcGIS</b> Pro, which was compiled from various data source providers, including <b>Esri</b>, NASA&nbsp;...",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0169555X25003034",
+      "guid": "tag:google.com,2013:googlealerts/feed:8837593129364344992",
+      "author": "",
+      "date": "2025-06-29T10:16:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
     {
       "title": "<b>ArcGIS</b> Online Feature Layer to File Geodatabase Feature Class with the <b>ArcGIS API</b> for Python",
       "description": "<b>ArcGIS</b> Online Feature Layer to File Geodatabase Feature Class with the <b>ArcGIS API</b> for Python. No views · 1 hour ago ...more&nbsp;...",
