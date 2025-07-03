@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (03-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-02T01:38:23.172Z",
+  "lastUpdated": "2025-07-03T01:38:24.209Z",
   "items": [
+    {
+      "title": "What’s New in ArcGIS Location Platform during the Summer of 2025",
+      "description": "Discover new capabilities and services enhancements with the summer release of ArcGIS Location Platform",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/whats-new-in-arcgis-location-platform-during-the-summer-of-2025",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2823022",
+      "author": "Alan Cassidy",
+      "date": "2025-07-03T00:18:49.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Location Platform",
+      "summary": "Learn about the latest updates and enhancements to ArcGIS Location Platform during the summer of 2025.",
+      "processed": true
+    },
+    {
+      "title": "Storytelling with tracks",
+      "description": "Learn how visualizing time-enabled data as tracks can reveal movement patterns and unlock powerful storytelling with maps.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/storytelling-with-tracks",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2836552",
+      "author": "Warren Davison",
+      "date": "2025-07-02T14:00:26.000Z",
+      "category": "Blog",
+      "topicsProduct": "StoryMaps",
+      "summary": "Learn how to create a compelling narrative using tracks in ArcGIS StoryMaps to guide your audience through an interactive storytelling experience.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Map components with reactiveUtils",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=YP3I4HnZzC8",
+      "guid": "yt:video:YP3I4HnZzC8",
+      "author": "Rene Rubalcava",
+      "date": "2025-07-02T10:38:35.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
     {
       "title": "ArcGIS Location Services: What’s New for Developers in June 2025?",
       "description": "What&#039;s New with ArcGIS Location Services in June 2025",
