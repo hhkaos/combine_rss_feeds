@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (03-07-2025)",
+  "title": "Combined ArcGIS Feeds (04-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-03T01:38:13.472Z",
+  "lastUpdated": "2025-07-04T01:37:39.871Z",
   "items": [
+    {
+      "title": "ArcGIS Location Platform: Neuerungen in Q2 2025",
+      "description": "Das <b>ArcGIS Maps SDK for</b> JavaScript ist in der neuen Version 4.33 mit vielen neuen Features und nützlichen Erweiterungen mit Schwerpunkt auf&nbsp;...",
+      "link": "https://arcgis.esri.de/arcgis-location-platform-neuerungen-in-q2-2025/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11574876309638452233",
+      "author": "",
+      "date": "2025-07-03T08:26:16.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "What’s New in ArcGIS Location Platform during the Summer of 2025",
       "description": "Discover new capabilities and services enhancements with the summer release of ArcGIS Location Platform",
@@ -10,6 +22,18 @@
       "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2823022",
       "author": "Alan Cassidy",
       "date": "2025-07-03T00:18:49.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> developer with Angular and Spring boot - Remote - Kainos Innovative Solutions Inc",
+      "description": "Expertise in Java 11+ and Spring Boot microservices. Mandatory experience with <b>ESRI ArcGIS</b>, including <b>ArcGIS JavaScript API</b>, Web Map Services (WMS),&nbsp;...",
+      "link": "https://www.dice.com/job-detail/b2406029-2fd5-4d24-9608-17cda68fd9fd",
+      "guid": "tag:google.com,2013:googlealerts/feed:17509746522165272590",
+      "author": "",
+      "date": "2025-07-02T20:32:57.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
