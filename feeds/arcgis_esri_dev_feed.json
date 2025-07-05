@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (04-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (05-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-04T01:37:48.204Z",
+  "lastUpdated": "2025-07-05T01:26:31.477Z",
   "items": [
+    {
+      "title": "County Government - Dataset - Catalog - Data.gov",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; 5 more in dataset. County. Cancer Rates. Lake County, Illinois —. Cancer Rates for Lake&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/?_res_format_limit=0&organization_type=County+Government&metadata_type=geospatial",
+      "guid": "tag:google.com,2013:googlealerts/feed:4446821213778419762",
+      "author": "",
+      "date": "2025-07-04T10:28:59.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn about the new version of ArcGIS Enterprise and its advanced features for spatial analysis and visualization.",
+      "processed": true
+    },
+    {
+      "title": "dnrops/<b>arcgis</b>-maps-<b>sdk</b>-swift-toolkit - GitLink",
+      "description": "Install with Swift Package Manager - Add https://github.com/<b>Esri</b>/<b>arcgis</b>-maps-<b>sdk</b>-swift-toolkit as the package repository URL. Toolkit Components.",
+      "link": "https://gitlink.org.cn/dnrops/arcgis-maps-sdk-swift-toolkit.git",
+      "guid": "tag:google.com,2013:googlealerts/feed:777167304495534125",
+      "author": "",
+      "date": "2025-07-04T04:27:13.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Maps SDK for Swift",
+      "summary": "Check out the new ArcGIS Maps SDK for Swift Toolkit to streamline your iOS app development and integrate powerful mapping capabilities.",
+      "processed": true
+    },
+    {
+      "title": "<b>ESRI</b> Study Says Free Bets Increase Risk of Harmful Gambling Behavior",
+      "description": "The Economic and Social Research Institute (<b>ESRI</b>) finds that free bets increase risky gambling behavior.",
+      "link": "https://www.gamblingnews.com/news/esri-study-says-free-bets-increase-risk-of-harmful-gambling-behavior/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8096055767518767944",
+      "author": "",
+      "date": "2025-07-03T23:15:53.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Esri study shows that offering free bets in gambling platforms may increase the risk of harmful gambling behavior.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Location Platform: Neuerungen in Q2 2025",
       "description": "Das <b>ArcGIS Maps SDK for</b> JavaScript ist in der neuen Version 4.33 mit vielen neuen Features und nützlichen Erweiterungen mit Schwerpunkt auf&nbsp;...",
@@ -13,6 +49,18 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Location Platform",
       "summary": "New enhancements and updates for ArcGIS Location Platform in Q2 2025.",
+      "processed": true
+    },
+    {
+      "title": "Simcoe County <b>ArcGIS</b> REST Services - Dateno",
+      "description": "Owner link, None ; Owner location, Canada ; Software, arcgisserver (<b>ArcGIS</b> Server) ; Tags, GIS, Web Map Service, REST <b>API</b>, <b>ArcGIS</b>, Simcoe.",
+      "link": "https://dateno.io/registry/catalog/temp00003438/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1704583086455952415",
+      "author": "",
+      "date": "2025-07-03T07:26:38.000Z",
+      "category": "Documentation",
+      "topicsProduct": "\"ArcGIS Dashboards\"",
+      "summary": "Learn how to create informative and visually appealing dashboards with the latest updates in ArcGIS Dashboards.",
       "processed": true
     },
     {
