@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (06-07-2025)",
+  "title": "Combined ArcGIS Feeds (07-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-06T01:45:23.428Z",
+  "lastUpdated": "2025-07-07T01:43:15.917Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Web Development | Rent | 9781617291616 - Valore",
+      "description": "<b>ArcGIS</b> Web Development is an example-rich guide that teaches you to use the <b>ArcGIS JavaScript API</b> to build custom GIS web applications. ... <b>Esri</b>&nbsp;...",
+      "link": "https://www.valore.com/products/9781617291616?utm_source=Chegg&utm_medium=website&utm_campaign=pdp-page-redirect&utm_id=Chegg-PDP",
+      "guid": "tag:google.com,2013:googlealerts/feed:8809522772395449905",
+      "author": "",
+      "date": "2025-07-06T06:45:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "County Government - Dataset - Catalog - Data.gov",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; 5 more in dataset. County. Cancer Rates. Lake County, Illinois —. Cancer Rates for Lake&nbsp;...",
