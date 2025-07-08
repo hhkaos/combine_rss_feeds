@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (07-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (08-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-07T01:43:25.778Z",
+  "lastUpdated": "2025-07-08T01:38:57.535Z",
   "items": [
+    {
+      "title": "Graitec updates PowerPack for Advance Steel - AEC Magazine",
+      "description": "<b>ArcGIS</b> Maps <b>SDK</b> for Unreal Engine launches &middot; Watch NXT BLD and NXT DEV 2025 free on-demand &middot; Autodesk BIM Conference report &middot; Lenovo launches ThinkPad&nbsp;...",
+      "link": "https://aecmag.com/structural-engineering/graitec-updates-powerpack-for-advance-steel/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3903445495919369228",
+      "author": "",
+      "date": "2025-07-07T11:31:43.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Graitec updates PowerPack for Advance Steel with new tools and enhancements for structural engineering design.",
+      "processed": true
+    },
+    {
+      "title": "Jsapi Quick Tip: LayerList Items in ArcGIS JSAPI - ufoibxxf.co",
+      "description": "A collection of resources for developers using the <b>ArcGIS Maps SDK for</b> JavaScript. 主要使用到了微信支付官方提供的两个SDKjsapi支付只能通过支付宝小&nbsp;...",
+      "link": "https://ufoibxxf.co/@h3yd0its1emnanta/t9232.cgi",
+      "guid": "tag:google.com,2013:googlealerts/feed:7552228765432005102",
+      "author": "",
+      "date": "2025-07-07T07:57:11.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New features for ArcGIS Online include enhanced collaboration tools and improved data visualization capabilities.",
+      "processed": true
+    },
+    {
+      "title": "We&#39;re offering easy payment integration via <b>API</b> and plug-ins for enterprises - Techcircle",
+      "description": "Please enable <b>JavaScript</b> to view the. Sign up for Newsletter. Select ... <b>Esri</b> India to invest ₹150 cr in GIS-AI competency centre. <b>Esri</b> India&nbsp;...",
+      "link": "https://www.techcircle.in/2025/07/07/we-re-offering-easy-payment-integration-via-api-and-plug-ins-for-enterprises-phi-commerce-s-rajesh-londhe",
+      "guid": "tag:google.com,2013:googlealerts/feed:11437173373078500195",
+      "author": "",
+      "date": "2025-07-07T06:49:14.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Phi Commerce, led by Rajesh Londhe, is offering easy payment integration via API and plug-ins for enterprises.",
+      "processed": true
+    },
+    {
+      "title": "Economy and Demographics - Topic - California Open Data - CA.gov",
+      "description": "19 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter Results. CA Taxable Sales by City. Taxable Sales Small Citieshttps://cdtfa.ca.gov&nbsp;...",
+      "link": "https://data.ca.gov/group/economy-and-demographics?res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:10294070339542708036",
+      "author": "",
+      "date": "2025-07-06T21:00:20.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New features for ArcGIS Online include improved data visualization tools and enhanced collaboration capabilities.",
+      "processed": true
+    },
     {
       "title": "<b>ArcGIS</b> Web Development | Rent | 9781617291616 - Valore",
       "description": "<b>ArcGIS</b> Web Development is an example-rich guide that teaches you to use the <b>ArcGIS JavaScript API</b> to build custom GIS web applications. ... <b>Esri</b>&nbsp;...",
