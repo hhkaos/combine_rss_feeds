@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (08-07-2025)",
+  "title": "Combined ArcGIS Feeds (09-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-08T01:38:43.830Z",
+  "lastUpdated": "2025-07-09T01:40:04.774Z",
   "items": [
+    {
+      "title": "ArcGIS Experience Builder at the 2025 ESRI User Conference",
+      "description": "<P>Here are a list of key ArcGIS Experience Builder sessions at the 2025 Esri User Conference.</P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/arcgis-experience-builder-at-the-2025-esri-user/ba-p/1631332",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/arcgis-experience-builder-at-the-2025-esri-user/ba-p/1631332",
+      "author": "StephanieUmeh",
+      "date": "2025-07-08T23:05:09.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript: Latest Updates in Version 4.33",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Ykmv7vq10cI",
+      "guid": "yt:video:Ykmv7vq10cI",
+      "author": "Esri Developers",
+      "date": "2025-07-08T16:54:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Graitec updates PowerPack for Advance Steel - AEC Magazine",
       "description": "<b>ArcGIS</b> Maps <b>SDK</b> for Unreal Engine launches &middot; Watch NXT BLD and NXT DEV 2025 free on-demand &middot; Autodesk BIM Conference report &middot; Lenovo launches ThinkPad&nbsp;...",
