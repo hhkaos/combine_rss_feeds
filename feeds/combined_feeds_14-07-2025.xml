@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (14-07-2025)]]></title>
+        <title><![CDATA[Combined ArcGIS Feeds (14-07-2025)]]></title>
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Jul 2025 01:45:53 GMT</lastBuildDate>
-        <pubDate>Mon, 14 Jul 2025 01:45:53 GMT</pubDate>
+        <lastBuildDate>Mon, 14 Jul 2025 01:45:43 GMT</lastBuildDate>
+        <pubDate>Mon, 14 Jul 2025 01:45:43 GMT</pubDate>
         <item>
             <title><![CDATA[Cavernas do Peruaçu National Park - UNESCO World Heritage Centre]]></title>
             <description><![CDATA[Your browser does not support <b>JavaScript</b>. UNESCO logo World ... Web Browser not supported for <b>ESRI ArcGIS API</b> version 4.10. WebGL must&nbsp;...]]></description>
@@ -231,6 +231,13 @@ Uploading sample code under a new folder called java-maps-sdk</pre>
             <pubDate>Wed, 09 Jul 2025 05:23:11 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Mapping - Group - City of Phoenix Open Data]]></title>
+            <description><![CDATA[​ Pickleball is a... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Swimming Pools. &lt;div&gt;&lt;&nbsp;...]]></description>
+            <link>https://www.phoenixopendata.com/group/mapping?page=2</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5392048694018219611</guid>
+            <pubDate>Wed, 09 Jul 2025 03:52:04 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Department of Health Care Access and Information]]></title>
             <description><![CDATA[HCAI Emergency Operations Center Application for Earthquakes, Fires, PSPS. MAP &middot; HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>. Medical Service Study Areas. This&nbsp;...]]></description>
             <link>https://data.chhs.ca.gov/organization/c313a13b-c913-423c-8555-123e2b76cf20?_tags_limit=0&amp;res_format=ArcGIS+GeoServices+REST+API</link>
@@ -400,6 +407,13 @@ Contains a sample app using the ArcGIS Maps SDK for Java to display a map with a
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2836552</guid>
             <dc:creator><![CDATA[Warren Davison]]></dc:creator>
             <pubDate>Wed, 02 Jul 2025 14:00:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ArcGIS Map components with reactiveUtils]]></title>
+            <link>https://www.youtube.com/watch?v=YP3I4HnZzC8</link>
+            <guid isPermaLink="false">yt:video:YP3I4HnZzC8</guid>
+            <dc:creator><![CDATA[Rene Rubalcava]]></dc:creator>
+            <pubDate>Wed, 02 Jul 2025 10:38:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Location Services: What’s New for Developers in June 2025?]]></title>
@@ -583,6 +597,13 @@ Contains a sample app using the ArcGIS Maps SDK for Java to display a map with a
             <link>https://stackoverflow.com/questions/79684140/esri-arcgis-net-sdk-graphics-not-clearing</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:17861128722911351169</guid>
             <pubDate>Mon, 30 Jun 2025 00:35:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PG-Tools: A framework and an <b>ArcGIS</b> toolbox to standardize paleoglacier outlines and attributes]]></title>
+            <description><![CDATA[The shaded relief map is the terrain basemap provided in <b>ArcGIS</b> Pro, which was compiled from various data source providers, including <b>Esri</b>, NASA&nbsp;...]]></description>
+            <link>https://www.sciencedirect.com/science/article/pii/S0169555X25003034</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:8837593129364344992</guid>
+            <pubDate>Sun, 29 Jun 2025 10:16:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>ArcGIS</b> Online Feature Layer to File Geodatabase Feature Class with the <b>ArcGIS API</b> for Python]]></title>
@@ -886,6 +907,13 @@ Voice to Zoom in the Map</pre>
             <pubDate>Thu, 19 Jun 2025 02:50:29 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS]]></title>
+            <link>https://www.youtube.com/watch?v=jeDCseUXtW0</link>
+            <guid isPermaLink="false">yt:video:jeDCseUXtW0</guid>
+            <dc:creator><![CDATA[Esri Developers]]></dc:creator>
+            <pubDate>Wed, 18 Jun 2025 18:16:18 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Issues · <b>Esri</b>/calcite-design-system - GitHub]]></title>
             <description><![CDATA[A monorepo containing the packages for <b>Esri&#39;s</b> Calcite Design System - <b>Esri</b> ... <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Issues logged by <b>ArcGIS SDK</b> for <b>JavaScript</b>&nbsp;...]]></description>
             <link>https://github.com/Esri/calcite-design-system/labels/ArcGIS%20Maps%20SDK%20for%20JavaScript</link>
@@ -1058,6 +1086,13 @@ Created Extent Helper Tool</pre>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2809082</guid>
             <dc:creator><![CDATA[Martino Yovo]]></dc:creator>
             <pubDate>Tue, 10 Jun 2025 14:30:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...]]></title>
+            <description><![CDATA[Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...]]></description>
+            <link>https://x.com/EsriDevs/status/1932226258546430291</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:15857777943308089375</guid>
+            <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>

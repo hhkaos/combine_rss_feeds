@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (13-07-2025)",
+  "title": "Combined ArcGIS Feeds (14-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-13T01:49:40.268Z",
+  "lastUpdated": "2025-07-14T01:45:43.940Z",
   "items": [
+    {
+      "title": "Cavernas do Peruaçu National Park - UNESCO World Heritage Centre",
+      "description": "Your browser does not support <b>JavaScript</b>. UNESCO logo World ... Web Browser not supported for <b>ESRI ArcGIS API</b> version 4.10. WebGL must&nbsp;...",
+      "link": "https://whc.unesco.org/en/list/1747",
+      "guid": "tag:google.com,2013:googlealerts/feed:5652738144272136565",
+      "author": "",
+      "date": "2025-07-13T18:02:34.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "The Archaeological Ensemble of 17th Century Port Royal - UNESCO World Heritage Centre",
+      "description": "Your browser does not support <b>JavaScript</b>. ... 1595rev. N17 56 19.01 W76 50 36.16. Web Browser not supported for <b>ESRI ArcGIS API</b> version 4.10.",
+      "link": "https://whc.unesco.org/en/list/1595",
+      "guid": "tag:google.com,2013:googlealerts/feed:9448436989605597295",
+      "author": "",
+      "date": "2025-07-12T23:50:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Yen Tu-Vinh Nghiem-Con Son, Kiep Bac Complex of Monuments and Landscapes",
+      "description": "Your browser does not support <b>JavaScript</b>. UNESCO ... 1732. N21 7 9.32 E106 32 7.43. Web Browser not supported for <b>ESRI ArcGIS API</b> version 4.10.",
+      "link": "https://whc.unesco.org/en/list/1732",
+      "guid": "tag:google.com,2013:googlealerts/feed:5853914261004952761",
+      "author": "",
+      "date": "2025-07-12T23:10:34.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Conjuntos de Datos - AmeriGEOSS Community Platform DataHub. (BETA)",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; GeoJSON &middot; CSV &middot; KML &middot; ZIP &middot; Station ID, Air ... <b>Esri</b> REST - 64 &middot; <b>ArcGIS</b> GeoServices ... - 62. Licencias. No hay Licencias&nbsp;...",
+      "link": "https://data.amerigeoss.org/es/dataset?tags=METAR",
+      "guid": "tag:google.com,2013:googlealerts/feed:1175803834644821104",
+      "author": "",
+      "date": "2025-07-12T12:44:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Maratha Military Landscapes of India - UNESCO World Heritage Centre",
       "description": "Your browser does not support <b>JavaScript</b>. UNESCO logo ... 1739. N20 43 21 E73 56 33. Web Browser not supported for <b>ESRI ArcGIS API</b> version 4.10.",
