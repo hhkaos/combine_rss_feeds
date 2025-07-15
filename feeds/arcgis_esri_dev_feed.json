@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (15-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-14T01:45:53.891Z",
+  "lastUpdated": "2025-07-15T01:46:10.992Z",
   "items": [
+    {
+      "title": "A comprehensive guide to migrating ArcGIS content",
+      "description": "Do you need to migrate ArcGIS content and don&#039;t know where to start? This blog provides an overview of the various options available.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/a-comprehensive-guide-to-migrating-arcgis-content",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2891542",
+      "author": "Noah Paravicini",
+      "date": "2025-07-14T22:12:21.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to successfully migrate your ArcGIS content with this comprehensive guide, covering all key aspects of the process.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri&#39;s ArcGIS</b> Basemaps Power Dataminr First Alert for Enhanced Real-Time Event ...",
+      "description": "... <b>Esri ArcGIS</b> environment by reaching out to <b>esri</b>@dataminr.com. To learn more about how <b>Esri&#39;s</b> world-leading maps and <b>location services</b> can enhance&nbsp;...",
+      "link": "https://www.morningstar.com/news/business-wire/20250714902883/esris-arcgis-basemaps-power-dataminr-first-alert-for-enhanced-real-time-event-detection-and-awareness",
+      "guid": "tag:google.com,2013:googlealerts/feed:14363758167088005916",
+      "author": "",
+      "date": "2025-07-14T12:54:35.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri's ArcGIS basemaps power Dataminr First Alert for enhanced real-time event detection and awareness.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Collaborates with Microsoft to Bring <b>ArcGIS</b> Users New AI Enhancements",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> globe logo, <b>ArcGIS</b>, The Science of Where, <b>esri</b> ... <b>location services</b>&nbsp;...",
+      "link": "https://via.ritzau.dk/pressemeddelelse/14498662/esri-collaborates-with-microsoft-to-bring-arcgis-users-new-ai-enhancements?publisherId=90456&lang=en",
+      "guid": "tag:google.com,2013:googlealerts/feed:14093000544712018270",
+      "author": "",
+      "date": "2025-07-14T12:52:04.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS, ArcGIS Online, ArcGIS Enterprise",
+      "summary": "Esri collaborates with Microsoft to bring ArcGIS users new AI enhancements.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri&#39;s ArcGIS</b> Basemaps Power Dataminr First Alert for Enhanced Real-Time Event ...",
+      "description": "... <b>Esri ArcGIS</b> environment by reaching out to <b>esri</b>@dataminr.com. Article content. To learn more about how <b>Esri&#39;s</b> world-leading maps and <b>location services</b>&nbsp;...",
+      "link": "https://financialpost.com/pmn/business-wire-news-releases-pmn/esris-arcgis-basemaps-power-dataminr-first-alert-for-enhanced-real-time-event-detection-and-awareness",
+      "guid": "tag:google.com,2013:googlealerts/feed:13422554188819040474",
+      "author": "",
+      "date": "2025-07-14T12:13:21.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri’s ArcGIS basemaps power Dataminr First Alert for enhanced real-time event detection and awareness.",
+      "processed": true
+    },
     {
       "title": "Cavernas do Peruaçu National Park - UNESCO World Heritage Centre",
       "description": "Your browser does not support <b>JavaScript</b>. UNESCO logo World ... Web Browser not supported for <b>ESRI ArcGIS API</b> version 4.10. WebGL must&nbsp;...",
