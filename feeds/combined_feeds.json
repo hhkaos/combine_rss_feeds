@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (18-07-2025)",
+  "title": "Combined ArcGIS Feeds (19-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-18T01:44:34.979Z",
+  "lastUpdated": "2025-07-19T01:40:03.648Z",
   "items": [
+    {
+      "title": "City of Champaign - Organizations",
+      "description": "The data set covers signs owned by the city, IDOT, Champaign township, small selection of... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; GeoJSON &middot; ZIP&nbsp;...",
+      "link": "https://data.ccrpc.org/organization/champaign?organization=champaign",
+      "guid": "tag:google.com,2013:googlealerts/feed:3206213048009864605",
+      "author": "",
+      "date": "2025-07-18T13:11:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> Server REST <b>API</b> Login. To login to Services Directory when your site is federated to a portal, you must enter a token. To acquire this token,&nbsp;...",
+      "link": "https://maps.sgcityutah.gov/arcgisweb/rest/login",
+      "guid": "tag:google.com,2013:googlealerts/feed:3472333857779198220",
+      "author": "",
+      "date": "2025-07-18T12:53:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Fullstack developer with <b>JavaScript</b> and Angular 19 - Quality Contracts",
+      "description": "Develop and maintain applications using Angular 19 and Java 11+. Implement and integrate <b>ESRI ArcGIS</b> solutions, including <b>JavaScript API</b> and WMS.",
+      "link": "https://qualitycontracts.co.uk/contract-jobs/remote-arcgis-fullstack-developer-with-javascript-and-angular-19-in-usa-1752758098",
+      "guid": "tag:google.com,2013:googlealerts/feed:5181187991443871612",
+      "author": "",
+      "date": "2025-07-18T05:42:31.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; NSD Neighborhood Groups. The Neighborhood Services Department maintains a listing of&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?tags=City+of+Phoenix",
+      "guid": "tag:google.com,2013:googlealerts/feed:12383644133252135394",
+      "author": "",
+      "date": "2025-07-18T03:08:34.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": ".NET <b>SDK</b> consultant - Enterprise Minds - Remote - Dice",
       "description": "... (<b>SDK</b>) to an <b>ESRI</b> .NET <b>SDK</b>. Employers have access to artificial ... <b>Javascript</b> is disabled or blocked by an extension (ad blocker for example)&nbsp;...",
