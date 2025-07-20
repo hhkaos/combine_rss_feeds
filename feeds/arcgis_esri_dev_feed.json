@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (20-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-19T01:40:14.864Z",
+  "lastUpdated": "2025-07-20T01:51:22.471Z",
   "items": [
+    {
+      "title": "Getting started with <b>ArcGIS</b> Python <b>API</b> and Geopandas | GeoDev - YouTube",
+      "description": "Tutorial code: https://github.com/iamtekson/<b>ArcGIS</b>-with-open-source Getting Started with <b>ArcGIS</b> Python <b>API</b> and GeoPandas | GeoDev Are you a GIS&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=UzbR-sQa3_4",
+      "guid": "tag:google.com,2013:googlealerts/feed:12147334511999368962",
+      "author": "",
+      "date": "2025-07-19T19:27:24.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to use Arcade, a lightweight expression language for creating custom expressions in ArcGIS Online, to calculate measures and transform your data dynamically.",
+      "processed": true
+    },
+    {
+      "title": "mirrors_Esri/<b>arcgis</b>-enterprise-<b>sdk</b>-resources",
+      "description": "To get started, visit <b>ArcGIS</b> Enterprise <b>SDK</b> Overview for <b>SDK</b> prerequisites, installation, guide, and more. ... <b>Esri</b> welcomes contributions from anyone&nbsp;...",
+      "link": "https://pic.1sohu.com/mirrors_Esri/arcgis-enterprise-sdk-resources",
+      "guid": "tag:google.com,2013:googlealerts/feed:13171224639380284552",
+      "author": "",
+      "date": "2025-07-19T07:41:27.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise SDK",
+      "summary": "New resources available for developers using the ArcGIS Enterprise SDK.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Unveils Partnerships around AI, Climate Resilience, and More at 2025 User Conference",
+      "description": "Specifically, the companies will form an integration between <b>Esri&#39;s ArcGIS</b> ... Please enable <b>JavaScript</b> to view the comments powered by Disqus.",
+      "link": "https://www.geoweeknews.com/news/esri-user-conference-2025-announcements-partnerships-openai-ai-climate-reslience",
+      "guid": "tag:google.com,2013:googlealerts/feed:7224391573170408662",
+      "author": "",
+      "date": "2025-07-19T02:13:55.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri User Conference 2025 announcements focus on partnerships with OpenAI and AI for climate resilience.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - San Jose CA Open Data Portal",
+      "description": "The City collects revenue from event planners who use them to... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Bike Racks. City&nbsp;...",
+      "link": "https://data.sanjoseca.gov/dataset/?res_format=KML",
+      "guid": "tag:google.com,2013:googlealerts/feed:2713196705150852529",
+      "author": "",
+      "date": "2025-07-19T00:20:48.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri announced new updates to ArcGIS Online, including enhanced mapping capabilities and improved user experience.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> Unity 加载wmts - 51CTO博客",
+      "description": "<b>ArcGIS Maps SDK for</b> Unity 加载wmts，**大家好，我是南南经常用ArcGIS都知道，在工作中配合在线地图有点多爽。无论是制图还是数据校核都非常方便。",
+      "link": "https://blog.51cto.com/u_16213658/14065401",
+      "guid": "tag:google.com,2013:googlealerts/feed:5350629484713775893",
+      "author": "",
+      "date": "2025-07-18T21:32:53.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Learn how to improve your mapping and analysis workflows with the ArcGIS Pro SDK.",
+      "processed": true
+    },
     {
       "title": "City of Champaign - Organizations",
       "description": "The data set covers signs owned by the city, IDOT, Champaign township, small selection of... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; GeoJSON &middot; ZIP&nbsp;...",
@@ -27,6 +87,18 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "City of St. George, Utah, enhances GIS capabilities with ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Data4Land: How to enrich land-use/land-cover with historical vector(s) - ScienceDirect",
+      "description": "... <b>ArcGIS</b> REST <b>API</b>) [37]. CRediT authorship contribution statement. V ... Impact Observatory, Microsoft and <b>ESRI</b>. 10m annual land use land cover&nbsp;...",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352711025001931",
+      "guid": "tag:google.com,2013:googlealerts/feed:3146379260166383518",
+      "author": "",
+      "date": "2025-07-18T12:32:55.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "This article explores the relevance of Geographic Information Systems (GIS) in urban planning and management, showcasing the potential of ArcGIS Enterprise in enhancing decision-making processes.",
       "processed": true
     },
     {
