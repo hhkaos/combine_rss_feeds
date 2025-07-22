@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (21-07-2025)",
+  "title": "Combined ArcGIS Feeds (22-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-21T01:49:00.841Z",
+  "lastUpdated": "2025-07-22T01:43:47.865Z",
   "items": [
+    {
+      "title": "U.S. Fish &amp; Wildlife Service - Organizations - WIFIRE Commons Data Catalog",
+      "description": "5 datasets found. Organizations: U.S. Fish &amp; Wildlife Service Formats: HTML <b>ArcGIS</b> GeoServices REST <b>API</b> Тагови:&nbsp;...",
+      "link": "https://wifire-data.sdsc.edu/sr/organization/657c444e-4409-4326-b73f-72edc0e9205c?tags=.sd&organization=u-s-fish-wildlife-service&res_format=HTML&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:1332153507811212129",
+      "author": "",
+      "date": "2025-07-21T07:32:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - DetroitData",
+      "description": "Table joined to 2010 TiGER census tracts.American Community Survey tables... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; GeoJSON &middot; ZIP &middot; KML &middot; Census&nbsp;...",
+      "link": "https://detroitdata.org/dataset/?tags=Demographic+and+Socioeconomic",
+      "guid": "tag:google.com,2013:googlealerts/feed:16005968620070524533",
+      "author": "",
+      "date": "2025-07-21T06:23:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ESRI</b> Developer @ Tech Synergy Sources - Jobs - CareerCrate.io",
+      "description": "ArcPy, Python scripting, <b>ArcGIS</b> Pro <b>SDK</b>. <b>JavaScript</b>, HTML, CSS, <b>ESRI</b> JS ... <b>ESRI</b> REST <b>API</b>, <b>ArcGIS</b> Data Store, Server. Azure DevOps, AWS, CI/CD&nbsp;...",
+      "link": "https://www.careercrate.io/jobs/659",
+      "guid": "tag:google.com,2013:googlealerts/feed:12103370319312965664",
+      "author": "",
+      "date": "2025-07-21T03:26:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> - CareerCrate.io",
+      "description": "Home/Jobs/<b>Esri</b>/Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> ... <b>API</b>, web components, and libraries—to enhance product quality.",
+      "link": "https://www.careercrate.io/jobs/664",
+      "guid": "tag:google.com,2013:googlealerts/feed:8759600002969030489",
+      "author": "",
+      "date": "2025-07-21T03:26:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": ".NET <b>SDK</b> consultant Contract Job",
       "description": "... <b>ESRI</b> Java Runtime <b>SDK</b> to an <b>ESRI</b> .NET <b>SDK</b>. The consultant will ensure ... <b>JavaScript</b> (Programming Language) Jitter Mapping Software OpenAPI&nbsp;...",
