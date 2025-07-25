@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (24-07-2025)",
+  "title": "Combined ArcGIS Feeds (25-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-24T01:43:51.824Z",
+  "lastUpdated": "2025-07-25T01:43:33.247Z",
   "items": [
+    {
+      "title": "25 Experience Builder Tips & Tricks for UC 2025",
+      "description": "<P>Thank you to everyone who attended our session <A href=\"https://uc2025.esri.com/flow/esri/25uc/eventportal/page/detailed-agenda/session/1730827649957001SzF9\" target=\"_self\">ArcGIS Experience Builder: Tips and Tricks</A> at the Esri User Conference in San Diego last week! If you missed the session or want a refresher, read this recap.</P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/25-experience-builder-tips-amp-tricks-for-uc-2025/ba-p/1636021",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/25-experience-builder-tips-amp-tricks-for-uc-2025/ba-p/1636021",
+      "author": "ThomasCoughlin",
+      "date": "2025-07-24T17:02:56.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "[Notebook Issue] Web scene not loading with layers in Jupyter Notebook #2332 - GitHub",
+      "description": "I logged in with geosaurus credentials. Notebook - building_reconstruction_using_mask_rcnn.ipynb [https://github.com/<b>Esri</b>/<b>arcgis</b>-python-<b>api</b>/blob/&nbsp;...",
+      "link": "https://github.com/Esri/arcgis-python-api/issues/2332",
+      "guid": "tag:google.com,2013:googlealerts/feed:9263905937598641620",
+      "author": "",
+      "date": "2025-07-24T13:52:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "How to create an empty Hosted Feature service using the <b>ArcGIS</b> REST <b>API</b>?",
+      "description": "I am trying to create an empty Hosted Feature service from my app using the <b>ArcGIS</b> REST <b>API</b>. ... Unfortunately, it looks like <b>ESRI</b> wants only the admins&nbsp;...",
+      "link": "https://gis.stackexchange.com/questions/494647/how-to-create-an-empty-hosted-feature-service-using-the-arcgis-rest-api",
+      "guid": "tag:google.com,2013:googlealerts/feed:3872301162974745786",
+      "author": "",
+      "date": "2025-07-24T10:36:16.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Software GIS Developer - Picarro - Built In",
+      "description": "Design, develop, and deploy high-performance multi-tenant GIS applications using <b>ArcGIS Maps SDK for</b> Javascript 4. ... Top Skills. Angular. <b>Arcgis Maps</b>&nbsp;...",
+      "link": "https://builtin.com/job/software-gis-developer/6706780",
+      "guid": "tag:google.com,2013:googlealerts/feed:8240744143655432882",
+      "author": "",
+      "date": "2025-07-24T02:37:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "clone_items for dashboard with view layer throws unexpected TypeError #2331 - GitHub",
       "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to change notification settings; Fork 1.1k &middot; Star 2k &middot; Code &middot; Issues 65 &middot; Pull&nbsp;...",
@@ -22,6 +70,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:4061465846105196358",
       "author": "",
       "date": "2025-07-23T18:14:51.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Product Engineer I - .NET Maps <b>SDK</b> - <b>Esri</b> - Built In",
+      "description": "Join our team and channel your enthusiasm into contributing to the renowned <b>ArcGIS</b> Maps <b>SDK</b> for Native Apps. The <b>ArcGIS</b> Maps SDKs for .NET empower&nbsp;...",
+      "link": "https://builtin.com/job/product-engineer-i-net-maps-sdk/6702605",
+      "guid": "tag:google.com,2013:googlealerts/feed:14907710435411901277",
+      "author": "",
+      "date": "2025-07-23T16:29:59.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
