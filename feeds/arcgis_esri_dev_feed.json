@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (25-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (26-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-25T01:43:51.415Z",
+  "lastUpdated": "2025-07-26T01:40:58.815Z",
   "items": [
+    {
+      "title": "AEC Industry Turns to GIS for Coordination, Visualization, and Efficiency | Geo Week News",
+      "description": "This year&#39;s <b>Esri</b> User Conference highlighted the AEC industry&#39;s growing embrace of GIS ... Please enable <b>JavaScript</b> to view the comments powered&nbsp;...",
+      "link": "https://www.geoweeknews.com/blogs/aec-construction-gis-bim-digital-twins-esri-user-conference-2025",
+      "guid": "tag:google.com,2013:googlealerts/feed:13112470233156494327",
+      "author": "",
+      "date": "2025-07-25T20:09:15.000Z",
+      "category": "\"Blog\"",
+      "topicsProduct": "[\"ArcGIS Enterprise\",\"Other\"]",
+      "summary": "The article explores how GIS, BIM, and digital twins are accelerating AEC and construction processes, as discussed at the Esri User Conference 2025.",
+      "processed": true
+    },
+    {
+      "title": "Mapping the Environmental Movement: My Week at the <b>Esri</b> User Conference - Earth Day",
+      "description": "<b>Javascript</b> must be enabled for the correct page display. Skip to Content ... Mapping the Environmental Movement: My Week at the <b>Esri</b> User Conference.",
+      "link": "https://www.earthday.org/mapping-the-environmental-movement-my-week-at-the-esri-user-conference/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5386034773290626608",
+      "author": "",
+      "date": "2025-07-25T16:00:16.000Z",
+      "category": "Blog",
+      "topicsProduct": "Living Atlas",
+      "summary": "Earth Day Network's blog post highlights the mapping of the environmental movement using Living Atlas at the Esri User Conference.",
+      "processed": true
+    },
     {
       "title": "25 Experience Builder Tips & Tricks for UC 2025",
       "description": "<P>Thank you to everyone who attended our session <A href=\"https://uc2025.esri.com/flow/esri/25uc/eventportal/page/detailed-agenda/session/1730827649957001SzF9\" target=\"_self\">ArcGIS Experience Builder: Tips and Tricks</A> at the Esri User Conference in San Diego last week! If you missed the session or want a refresher, read this recap.</P>",
