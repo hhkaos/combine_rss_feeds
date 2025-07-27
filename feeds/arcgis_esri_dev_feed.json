@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (26-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (27-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-26T01:40:58.815Z",
+  "lastUpdated": "2025-07-27T01:51:56.873Z",
   "items": [
+    {
+      "title": "C++ Software Development Engineer II - <b>SDK</b> at <b>Esri</b> - Swooped",
+      "description": "Apply for C++ Software Development Engineer II - <b>SDK</b> at <b>Esri</b>. Find your next job opportunity with Swooped.",
+      "link": "https://swooped.co/job-postings/c-software-development-engineer-ii-sdk-remote-esri-9344a",
+      "guid": "tag:google.com,2013:googlealerts/feed:13168718385108240044",
+      "author": "",
+      "date": "2025-07-26T04:34:19.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Esri is hiring a C++ Software Development Engineer II for SDK remote work, focusing on ArcGIS Pro SDK. Apply now!",
+      "processed": true
+    },
     {
       "title": "AEC Industry Turns to GIS for Coordination, Visualization, and Efficiency | Geo Week News",
       "description": "This year&#39;s <b>Esri</b> User Conference highlighted the AEC industry&#39;s growing embrace of GIS ... Please enable <b>JavaScript</b> to view the comments powered&nbsp;...",
