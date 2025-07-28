@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (27-07-2025)",
+  "title": "ArcGIS ESRI Dev Feed (28-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-27T01:51:56.873Z",
+  "lastUpdated": "2025-07-28T01:50:04.117Z",
   "items": [
+    {
+      "title": "Geospatial - Group - Open Data SA - City of San Antonio",
+      "description": "One may think that these crashes would appear to be random, however, upon initial analysis, this is not the... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>&nbsp;...",
+      "link": "https://data.sanantonio.gov/group/79b6c35c-8858-494f-841c-e41a9f5075eb?tags=Transportation",
+      "guid": "tag:google.com,2013:googlealerts/feed:5606007993655941474",
+      "author": "",
+      "date": "2025-07-27T19:12:07.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri released a new update for ArcGIS Online with improved performance and new features for better user experience.",
+      "processed": true
+    },
     {
       "title": "C++ Software Development Engineer II - <b>SDK</b> at <b>Esri</b> - Swooped",
       "description": "Apply for C++ Software Development Engineer II - <b>SDK</b> at <b>Esri</b>. Find your next job opportunity with Swooped.",
