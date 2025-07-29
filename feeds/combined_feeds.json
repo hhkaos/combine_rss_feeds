@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (28-07-2025)",
+  "title": "Combined ArcGIS Feeds (29-07-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-07-28T01:49:58.428Z",
+  "lastUpdated": "2025-07-29T01:55:56.479Z",
   "items": [
+    {
+      "title": "Geospatial - Group - Open Data SA - City of San Antonio",
+      "description": "This is a graphical point dataset depicting Addresses of San Antonio, Texas. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT&nbsp;...",
+      "link": "https://data.sanantonio.gov/group/79b6c35c-8858-494f-841c-e41a9f5075eb?tags=San+Antonio",
+      "guid": "tag:google.com,2013:googlealerts/feed:1826786739815040504",
+      "author": "",
+      "date": "2025-07-28T20:22:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Geotriggers &amp; Spatial Awareness with <b>ArcGIS</b> Maps <b>SDK</b> - Martino Yovo - YouTube",
+      "description": "Talk: When Maps Think: Geotriggers &amp; Spatial Awareness with <b>ArcGIS</b> Maps <b>SDK</b> for Flutter Speaker: Martino Yovo Event: Fluttercon USA 2025&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=8MdMDUj1Bts",
+      "guid": "tag:google.com,2013:googlealerts/feed:5685041651792632566",
+      "author": "",
+      "date": "2025-07-28T14:42:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
       "description": "One may think that these crashes would appear to be random, however, upon initial analysis, this is not the... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>&nbsp;...",
