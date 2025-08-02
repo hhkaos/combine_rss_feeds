@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (01-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (02-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-01T01:55:49.074Z",
+  "lastUpdated": "2025-08-02T01:41:11.411Z",
   "items": [
+    {
+      "title": "Search Within and Uncover More Matches",
+      "description": "Three new capabilities of the ArcGIS Geocoding service will support greater accuracy and more insightful location-based decision-making",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/search-within-and-uncover-more-matches",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2916402",
+      "author": "Elizabeth Ole",
+      "date": "2025-08-01T23:39:44.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ArcGIS Online introduces a new feature that allows users to search within the attribute table and uncover more matches, improving data exploration and analysis.",
+      "processed": true
+    },
+    {
+      "title": "Game Dev Digest Issue #292 - How-Tos, Indie Game Tips, and more - GameDev.net",
+      "description": "UiCard - Generic UI for card games like Hearthstone, Magic Arena and Slay the Spire. ycarowr Open Source. <b>ArcGIS Maps SDK for</b> Unity (FREE) - Bring&nbsp;...",
+      "link": "https://www.gamedev.net/blogs/entry/2296091-game-dev-digest-issue-292-how-tos-indie-game-tips-and-more",
+      "guid": "tag:google.com,2013:googlealerts/feed:11977336773543390189",
+      "author": "",
+      "date": "2025-08-01T14:02:54.000Z",
+      "category": "Blog",
+      "topicsProduct": "Game Engines",
+      "summary": "The latest Game Dev Digest issue covers how-tos, indie game tips, and more in the world of game development.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Maps SDKs for Native Apps (.NET/Kotlin/Swift/Flutter) バージョン 200.8 をリリース ...",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET、<b>ArcGIS Maps SDK for</b> Kotlin、<b>ArcGIS Maps SDK for</b> Swift、<b>ArcGIS Maps SDK for</b> Flutter の、各 SDK のバージョン 200.8 を 2025&nbsp;...",
+      "link": "https://www.esrij.com/news/details/186139/",
+      "guid": "tag:google.com,2013:googlealerts/feed:17506365879837018607",
+      "author": "",
+      "date": "2025-08-01T04:13:42.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri Japan provides a new tool on ArcGIS Online for calculating CO2 emissions and energy consumption.",
+      "processed": true
+    },
     {
       "title": "<b>Esri</b>, Microsoft, and Space42 to Deliver High-Resolution, Scalable Geospatial Data in Africa",
       "description": "<b>Esri</b>, Space42, and Microsoft to support Map Africa initiative ... Please enable <b>JavaScript</b> to view the comments powered by Disqus.",
