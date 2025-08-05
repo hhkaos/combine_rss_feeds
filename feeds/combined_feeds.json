@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (04-08-2025)",
+  "title": "Combined ArcGIS Feeds (05-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-04T01:53:36.588Z",
+  "lastUpdated": "2025-08-05T01:48:33.693Z",
   "items": [
+    {
+      "title": "Evolution of view models and building custom workflows with JavaScript Maps SDK",
+      "description": "While JavaScript Maps SDK transitions to components, we are evolving how custom experiences are built. Learn about the future of view models.",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/evolution-of-view-models-and-building-custom-workflows-with-javascript-maps-sdk",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2872682",
+      "author": "Julie Powell",
+      "date": "2025-08-04T16:00:32.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ESRI</b> GIS Application developer Senior Consultant / Lead - Capgemini - 6 to 11 years of experience",
+      "description": "... <b>ArcGIS</b> Pro, and <b>JavaScript API</b> Migrate legacy GIS apps, deliver scalable <b>ESRI</b> GIS solutions, manage technical risks, and support deployment tasks.",
+      "link": "https://www.naukri.com/job-listings-esri-gis-application-developer-senior-consultant-lead-capgemini-technology-services-india-limited-mumbai-6-to-11-years-040825912689",
+      "guid": "tag:google.com,2013:googlealerts/feed:6830751600937206206",
+      "author": "",
+      "date": "2025-08-04T11:00:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "corps projects - <b>Esri</b> Rest <b>API</b> - AmeriGEOSS Community Platform DataHub. (BETA)",
+      "description": "<b>Esri</b> Rest <b>API</b>. Download. <b>Esri</b> Rest <b>API</b>. URL: https://services7.<b>arcgis</b>.com/n1YM8pTrFmm7L4hs/<b>arcgis</b>/rest/services/corps_projects/FeatureServer. From the&nbsp;...",
+      "link": "https://data.amerigeoss.org/dataset/corps-projects/resource/a38dab25-3f89-48fc-aecf-142b58cb5499",
+      "guid": "tag:google.com,2013:googlealerts/feed:11699027830014145744",
+      "author": "",
+      "date": "2025-08-03T20:15:03.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Where is the point?",
       "description": "<P>A point on line missive using numpy and a basic math reminder.</P>",
