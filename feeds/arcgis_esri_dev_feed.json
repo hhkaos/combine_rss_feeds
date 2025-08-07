@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (06-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (07-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-06T01:47:06.557Z",
+  "lastUpdated": "2025-08-07T01:47:23.833Z",
   "items": [
+    {
+      "title": "Version 1.18 of ArcGIS Experience Builder Developer Edition is Now Available",
+      "description": "<P>Version 1.18 includes support for Arcade expressions, new widgets, and enhancements. You can also&nbsp;utilize custom widgets from ArcGIS Enterprise and restrict apps to use resources exclusively from ArcGIS Enterprise only.</P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/version-1-18-of-arcgis-experience-builder/ba-p/1639876",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/version-1-18-of-arcgis-experience-builder/ba-p/1639876",
+      "author": "Jianxia",
+      "date": "2025-08-06T23:06:39.000Z",
+      "category": "Blog",
+      "topicsProduct": "Experience Builder",
+      "summary": "Version 1.18 of ArcGIS Experience Builder introduces new features like the ability to create expressions and enhance spatial analysis tools.",
+      "processed": true
+    },
+    {
+      "title": "SyncGeodatabaseJob (<b>ArcGIS</b> Runtime <b>SDK</b> for Android 100.9.0)",
+      "description": "Use the <b>Esri ArcGIS</b> Runtime <b>SDK</b> for Android (Google) to build simple ... <b>JavaScript</b> is disabled on your browser. Skip navigation links.",
+      "link": "https://njypt.njghzy.com.cn:8443/geomap-api/apidoc/reference_arcgis_android/developers.arcgis.com/android/latest/api-reference/reference/com/esri/arcgisruntime/tasks/geodatabase/SyncGeodatabaseJob.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:12065064565053210768",
+      "author": "",
+      "date": "2025-08-06T09:42:34.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "The SyncGeodatabaseJob class in the ArcGIS Maps SDK for JavaScript API Reference is used to synchronize changes made to a local geodatabase with a feature service.",
+      "processed": true
+    },
+    {
+      "title": "Sr. <b>JavaScript</b>/TypeScript Developer – <b>ArcGIS</b> Excalibur - <b>Esri</b> | Built In",
+      "description": "Familiarity with GIS/<b>Esri</b> software and the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>; Familiarity and experience with <b>ArcGIS</b> Enterprise and <b>ArcGIS</b> Online. #LI&nbsp;...",
+      "link": "https://builtin.com/job/sr-javascript-typescript-developer-arcgis-excalibur/6815997",
+      "guid": "tag:google.com,2013:googlealerts/feed:15402592127645253067",
+      "author": "",
+      "date": "2025-08-06T02:07:29.000Z",
+      "category": "Job Listing",
+      "topicsProduct": "Web technologies",
+      "summary": "Sr. JavaScript/TypeScript Developer needed for ArcGIS Excalibur. Work on developing web applications for mapping and visualization.",
+      "processed": true
+    },
+    {
+      "title": "How States and Local Governments Track Broadband Progress with Ookla&#39;s <b>ArcGIS</b> Online ...",
+      "description": "... <b>Esri&#39;s ArcGIS</b> environment. Because they&#39;re built on hosted layers that integrate directly with <b>ArcGIS</b> Online, agencies can access up-to-date&nbsp;...",
+      "link": "https://www.ookla.com/articles/ookla-arcgis-online-dashboards-tracking-broadband",
+      "guid": "tag:google.com,2013:googlealerts/feed:12075172760193352864",
+      "author": "",
+      "date": "2025-08-06T00:16:03.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Ookla and ArcGIS Online Dashboards team up to track broadband performance.",
+      "processed": true
+    },
+    {
+      "title": "Top Indian telcos Jio, Airtel use GIS for 5G FWA, FTTH expansion: <b>Esri&#39;s</b> Agendra Kumar",
+      "description": "Likewise, <b>Esri</b> provided its <b>ArcGIS</b> Server-based platform to Airtel ... <b>API</b> with the <b>Esri</b> geospatial framework; and perform the raster&nbsp;...",
+      "link": "https://telecom.economictimes.indiatimes.com/news/industry/leading-indian-telecoms-jio-and-airtel-leverage-gis-for-5g-expansion/123111460",
+      "guid": "tag:google.com,2013:googlealerts/feed:2194162133960501499",
+      "author": "",
+      "date": "2025-08-05T06:36:30.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Leading Indian telecoms Jio and Airtel leverage GIS for 5G expansion.",
+      "processed": true
+    },
     {
       "title": "Evolution of view models and building custom workflows with JavaScript Maps SDK",
       "description": "While JavaScript Maps SDK transitions to components, we are evolving how custom experiences are built. Learn about the future of view models.",
