@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (07-08-2025)",
+  "title": "Combined ArcGIS Feeds (08-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-07T01:47:09.486Z",
+  "lastUpdated": "2025-08-08T01:46:30.679Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Qt c++ <b>SDK</b> 200.7, multiband raster loading and metadata retrival",
+      "description": "<b>ArcGIS</b> Qt c++ <b>SDK</b> 200.7, multiband raster loading and metadata retrival ... How to update <b>ArcGIS</b> online metadata using the <b>API</b>? 1 &middot; <b>ArcGIS</b>- Band&nbsp;...",
+      "link": "https://gis.stackexchange.com/questions/494882/arcgis-qt-c-sdk-200-7-multiband-raster-loading-and-metadata-retrival",
+      "guid": "tag:google.com,2013:googlealerts/feed:2083451473677637794",
+      "author": "",
+      "date": "2025-08-07T07:36:06.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "[Hiring] Sr. <b>JavaScript</b>/TypeScript Developer @<b>Esri</b> - Remotive",
+      "description": "... <b>API</b> My Account Log in. Boost Your Career. Join Remotive ... Familiarity with GIS/<b>Esri</b> software and the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (recommended)&nbsp;...",
+      "link": "https://remotive.com/remote/jobs/software-dev/sr-javascript-typescript-developer-1997143",
+      "guid": "tag:google.com,2013:googlealerts/feed:12653549327506301553",
+      "author": "",
+      "date": "2025-08-06T23:33:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Version 1.18 of ArcGIS Experience Builder Developer Edition is Now Available",
       "description": "<P>Version 1.18 includes support for Arcade expressions, new widgets, and enhancements. You can also&nbsp;utilize custom widgets from ArcGIS Enterprise and restrict apps to use resources exclusively from ArcGIS Enterprise only.</P>",
