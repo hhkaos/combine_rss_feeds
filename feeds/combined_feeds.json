@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (08-08-2025)",
+  "title": "Combined ArcGIS Feeds (09-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-08T01:46:30.679Z",
+  "lastUpdated": "2025-08-09T01:37:20.660Z",
   "items": [
+    {
+      "title": "Unlocking the potential of ChatGPT in detecting the XCO2 hotspot captured by orbiting ...",
+      "description": "6, <b>ArcGIS</b> (https://www.<b>arcgis</b>.com/index.html), and Adobe Photoshop CS3 ... <b>ESRI</b>23. To reduce variability arising from di  erent im&nbsp;...",
+      "link": "https://www.researchgate.net/publication/394397353_Unlocking_the_potential_of_ChatGPT_in_detecting_the_XCO2_hotspot_captured_by_orbiting_carbon_observatory-3_satellite",
+      "guid": "tag:google.com,2013:googlealerts/feed:3200773453109318276",
+      "author": "",
+      "date": "2025-08-08T10:06:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Mastering Interactive Maps with <b>ArcGIS</b> Server: Popup Layout &amp; <b>JavaScript API</b> Guide",
+      "description": "Mastering Interactive Maps with <b>ArcGIS</b> Server: Popup Layout &amp; <b>JavaScript API</b> Guide Unlock the Power of <b>ArcGIS</b> Server! Learn how to build dynamic&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=om8Ixk9kECw",
+      "guid": "tag:google.com,2013:googlealerts/feed:9792743221243139163",
+      "author": "",
+      "date": "2025-08-08T03:33:34.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "lincoln - Dataset - Catalog",
+      "description": "Link to State of South Dakota GIS Data. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>. City. Traffic Counts. City of Sioux&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/?tags=lincoln",
+      "guid": "tag:google.com,2013:googlealerts/feed:3401140291262292765",
+      "author": "",
+      "date": "2025-08-07T23:17:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Unable to ignore shared_with DeprecatedWarning · Issue #2342 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>",
+      "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to change notification settings; Fork 1.1k &middot; Star 2k &middot; Code &middot; Issues 66 &middot; Pull&nbsp;...",
+      "link": "https://github.com/Esri/arcgis-python-api/issues/2342",
+      "guid": "tag:google.com,2013:googlealerts/feed:9963672808398898574",
+      "author": "",
+      "date": "2025-08-07T20:07:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> Qt c++ <b>SDK</b> 200.7, multiband raster loading and metadata retrival",
       "description": "<b>ArcGIS</b> Qt c++ <b>SDK</b> 200.7, multiband raster loading and metadata retrival ... How to update <b>ArcGIS</b> online metadata using the <b>API</b>? 1 &middot; <b>ArcGIS</b>- Band&nbsp;...",
