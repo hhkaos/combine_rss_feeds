@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (09-08-2025)",
+  "title": "Combined ArcGIS Feeds (10-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-09T01:37:20.660Z",
+  "lastUpdated": "2025-08-10T01:50:09.095Z",
   "items": [
+    {
+      "title": "National Transit Map Stops - OGC <b>API</b> - Records <b>API</b> Definition Page - Dataset - Catalog",
+      "description": "OGC <b>API</b> - Records <b>API</b> Definition Page. URL: https://ngda-transportation-geoplatform.hub.<b>arcgis</b>.com/<b>api</b>/search/definition ... <b>ESRI ArcGIS</b> Metadata...",
+      "link": "https://catalog.data.gov/dataset/national-transit-map-stops-035ba/resource/dcecbe31-fe73-469b-a575-9f438d33a38d",
+      "guid": "tag:google.com,2013:googlealerts/feed:2850179283938874372",
+      "author": "",
+      "date": "2025-08-09T02:04:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Unlocking the potential of ChatGPT in detecting the XCO2 hotspot captured by orbiting ...",
       "description": "6, <b>ArcGIS</b> (https://www.<b>arcgis</b>.com/index.html), and Adobe Photoshop CS3 ... <b>ESRI</b>23. To reduce variability arising from di  erent im&nbsp;...",
