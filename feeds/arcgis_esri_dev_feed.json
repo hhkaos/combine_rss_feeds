@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (11-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-10T01:50:16.217Z",
+  "lastUpdated": "2025-08-11T01:47:05.547Z",
   "items": [
+    {
+      "title": "California Department of Fish and Wildlife - Organizations",
+      "description": "This data is part of the CDFW Fishing Guide... MAP &middot; HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML. State Refuges. Boundaries of&nbsp;...",
+      "link": "https://data.cnra.ca.gov/organization/california-department-of-fish-and-wildlife?res_format=KML",
+      "guid": "tag:google.com,2013:googlealerts/feed:3446111395296832773",
+      "author": "",
+      "date": "2025-08-09T21:44:32.000Z",
+      "category": "Documentation",
+      "topicsProduct": "Survey123",
+      "summary": "California Department of Fish and Wildlife partners with Esri to improve data collection and analysis using Survey123.",
+      "processed": true
+    },
+    {
+      "title": "移动GIS开发与应用——基于<b>ArcGIS Maps SDK for</b> Kotlin_董昱_9787302677031",
+      "description": "&quot;本书以基础知识和实例相结合的方式，详细介绍<b>ArcGIS Maps SDK for</b> Kotlin的基本使用方法，包括地图与图层、地理定位、几何体与图形绘制、要素图层、空间查询、&nbsp;...",
+      "link": "http://www.book1993.com/bookshow.asp?id=204396",
+      "guid": "tag:google.com,2013:googlealerts/feed:3333347181955313367",
+      "author": "",
+      "date": "2025-08-09T18:47:53.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri's ArcGIS Online platform updates bring new features and improvements for users to enhance their mapping and spatial analysis workflows.",
+      "processed": true
+    },
     {
       "title": "National Transit Map Stops - OGC <b>API</b> - Records <b>API</b> Definition Page - Dataset - Catalog",
       "description": "OGC <b>API</b> - Records <b>API</b> Definition Page. URL: https://ngda-transportation-geoplatform.hub.<b>arcgis</b>.com/<b>api</b>/search/definition ... <b>ESRI ArcGIS</b> Metadata...",
