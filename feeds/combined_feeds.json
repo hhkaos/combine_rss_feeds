@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (11-08-2025)",
+  "title": "Combined ArcGIS Feeds (12-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-11T01:46:57.357Z",
+  "lastUpdated": "2025-08-12T01:28:10.475Z",
   "items": [
+    {
+      "title": "R-ArcGIS Bridge Highlights from the 2025 Esri User Conference",
+      "description": "Learn about R-ArcGIS Bridge highlights and resources from the Esri 2025 User Conference and see what&#039;s next for the R-ArcGIS Bridge project.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/r-arcgis-bridge-uc2025",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2924552",
+      "author": "Martha Bass",
+      "date": "2025-08-11T17:12:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer | MINDVERSE CONSULTING SERVICES Jobs - MYTAT",
+      "description": "... <b>ArcGIS</b> Enterprise tools and VertiGIS Studio Web and <b>SDK</b> ... - Familiarity with cloud-based GIS solutions like <b>ArcGIS</b> Online and <b>Esri</b> Enterprise. -&nbsp;...",
+      "link": "https://mytat.co/job-listing/arcgis-developer-361496",
+      "guid": "tag:google.com,2013:googlealerts/feed:4619821896213839038",
+      "author": "",
+      "date": "2025-08-11T17:01:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Gis <b>Esri Javascript Api</b> Developer - Banjara Hills - WorkIndia.in",
+      "description": "X, <b>Arcgis</b> Enterprise, Visual Studio Code (Ide), React/Angular. More Than 2 Years Experience Compulsory. More info about Gis <b>Esri Javascript Api</b>&nbsp;...",
+      "link": "https://www.workindia.in/jobs/gis_esri_javascript_api_developer_-banjara_hills-hyderabad-7745424/",
+      "guid": "tag:google.com,2013:googlealerts/feed:6021285148828761062",
+      "author": "",
+      "date": "2025-08-11T13:42:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri ArcGIS</b> Developer - Apex Informatics - Himalayas.app",
+      "description": "of Transportation (GDOT) is seeking a technical GIS developer for configuring and developing custom <b>Esri ArcGIS</b> Enterprise 10x, 11x (<b>Javascript API</b>,&nbsp;...",
+      "link": "https://himalayas.app/companies/apex-informatics/jobs/esri-arcgis-developer",
+      "guid": "tag:google.com,2013:googlealerts/feed:18227355449205786008",
+      "author": "",
+      "date": "2025-08-10T20:45:21.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "California Department of Fish and Wildlife - Organizations",
       "description": "This data is part of the CDFW Fishing Guide... MAP &middot; HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML. State Refuges. Boundaries of&nbsp;...",
