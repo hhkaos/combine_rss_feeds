@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (13-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (14-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-13T01:38:39.175Z",
+  "lastUpdated": "2025-08-14T01:39:17.640Z",
   "items": [
+    {
+      "title": "Around the Geospatial, 3D, and AEC Industries: <b>Esri</b> User Conference, AI, 3D Scanning",
+      "description": "Last month, the world&#39;s largest gathering of GIS professionals took place in San Diego with the annual <b>Esri</b> User Conference. Geo Week News was in&nbsp;...",
+      "link": "https://www.geoweeknews.com/news/around-the-geospatial-3d-and-aec-industries-esri-user-conference-ai-3d-scanning",
+      "guid": "tag:google.com,2013:googlealerts/feed:3311109371522879894",
+      "author": "",
+      "date": "2025-08-13T13:28:17.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Get insights into the latest trends and innovations in the geospatial, 3D, and AEC industries from the Esri User Conference.",
+      "processed": true
+    },
+    {
+      "title": "Commercial color impact on traditional heritage features in Suzhou Shiquan historic district",
+      "description": "... <b>JavaScript</b>. Advertisement. Advertisement &middot; npj Heritage Science &middot; View all ... <b>ArcGIS</b> and Baidu <b>API</b> (https://cloud.baidu.com/doc/<b>API</b>/index.html)&nbsp;...",
+      "link": "https://www.nature.com/articles/s40494-025-01905-6",
+      "guid": "tag:google.com,2013:googlealerts/feed:13760686252776494614",
+      "author": "",
+      "date": "2025-08-13T00:06:51.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A study explored the use of citizen science projects on ArcGIS Online for environmental education, providing examples on how to engage students in data collection and analysis.",
+      "processed": true
+    },
     {
       "title": "Dataset - City of Phoenix Open Data",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; NSD Neighborhood Groups. The Neighborhood Services Department maintains a listing of&nbsp;...",
