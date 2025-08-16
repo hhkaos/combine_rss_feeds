@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (15-08-2025)",
+  "title": "Combined ArcGIS Feeds (16-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-15T01:39:34.874Z",
+  "lastUpdated": "2025-08-16T01:26:14.918Z",
   "items": [
+    {
+      "title": "162 datasets found - DVRPC Data Catalog",
+      "description": "Attribute fields titled &quot;RASP&quot; and &quot;RASP_Type&quot;... <b>API</b>; <b>ESRI</b> Feature Class ... <b>API</b>; <b>ESRI</b> Feature Class; GeoJSON; HTML; XML. Municipal Boundaries for NJ&nbsp;...",
+      "link": "https://catalog.dvrpc.org/dataset/?res_format=GeoJSON&res_format=ESRI+Feature+Class&_category_limit=0&page=8",
+      "guid": "tag:google.com,2013:googlealerts/feed:14331638516686174549",
+      "author": "",
+      "date": "2025-08-15T18:59:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Map to Figma",
+      "description": "Bring high-quality <b>ESRI ArcGIS</b> maps directly into your Figma designs — without leaving your canvas. Features •   Interactive preview — Pan &amp; zoom a&nbsp;...",
+      "link": "https://www.figma.com/community/plugin/1537692183211082560/arcgis-map-to-figma",
+      "guid": "tag:google.com,2013:googlealerts/feed:7537845430018221188",
+      "author": "",
+      "date": "2025-08-15T12:35:37.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "VISUAL STUDIO MAGAZINE ANNOUNCES THE WINNERS OF 2025 READER&#39;S CHOICE AWARDS",
+      "description": "... <b>ArcGIS Maps SDK for</b> .NET (formerly known as ArcGIS Runtime SDK for .NET) Bronze: (TIE) Syncfusion Maps Control Bronze: (TIE) Telerik UI for ASP&nbsp;...",
+      "link": "https://www.kron4.com/business/press-releases/ein-presswire/839521623/visual-studio-magazine-announces-the-winners-of-2025-readers-choice-awards",
+      "guid": "tag:google.com,2013:googlealerts/feed:1147356449438067914",
+      "author": "",
+      "date": "2025-08-15T12:14:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> for <b>JavaScript</b> Developers by Example + Download PDF - REFHUB",
+      "description": "... <b>ArcGIS JavaScript API</b>. Key Takeaways. Detailed understanding of GIS concepts and the <b>ArcGIS</b> platform. Practical skills for developing geospatial&nbsp;...",
+      "link": "https://refhub.ir/refrence_detail/arcgis-for-javascript-developers-by-example825208/",
+      "guid": "tag:google.com,2013:googlealerts/feed:13707767692814547971",
+      "author": "",
+      "date": "2025-08-15T00:40:40.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "17 datasets found - DVRPC Data Catalog",
       "description": "This point feature class contains representations of pedestrian curb ramps found throughout the DVRPC region. <b>API</b>; <b>ESRI</b> Feature Class; GeoJSON; HTML&nbsp;...",
