@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (16-08-2025)",
+  "title": "Combined ArcGIS Feeds (17-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-16T01:26:14.918Z",
+  "lastUpdated": "2025-08-17T01:44:24.054Z",
   "items": [
+    {
+      "title": "15 datasets found - DVRPC Data Catalog",
+      "description": "Original Sources: PA - PennDOT NJ -... <b>API</b>; <b>ESRI</b> Feature Class; GeoJSON; HTML; XML. You can also access this registry using the <b>API</b> (see <b>API</b> Docs).",
+      "link": "https://catalog.dvrpc.org/dataset/?category=Boundaries&res_format=API&dataset_level=Geospatial",
+      "guid": "tag:google.com,2013:googlealerts/feed:14780149464681209633",
+      "author": "",
+      "date": "2025-08-16T18:29:52.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "71 datasets found. Groups: Mapping Licenses: Creative Commons Attribution Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> CSV&nbsp;...",
+      "link": "https://phoenixopendata.com/dataset/?groups=mapping&license_id=cc-by&res_format=ArcGIS+GeoServices+REST+API&res_format=CSV&res_format=KML&res_format=HTML",
+      "guid": "tag:google.com,2013:googlealerts/feed:15718903799397574093",
+      "author": "",
+      "date": "2025-08-16T07:04:48.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "California Conservation Easement Database - <b>ArcGIS</b> REST Service: CCED by Access Type",
+      "description": "Data last updated, December 26, 2022 ; Metadata last updated, July 4, 2025 ; Created, December 26, 2022 ; Format, <b>ArcGIS</b> GeoServices REST <b>API</b>&nbsp;...",
+      "link": "https://data.ca.gov/dataset/california-conservation-easement-database/resource/7815c6a2-b90a-4a3e-bff8-0a7bcba14c2c",
+      "guid": "tag:google.com,2013:googlealerts/feed:17642938315904776727",
+      "author": "",
+      "date": "2025-08-16T02:51:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "162 datasets found - DVRPC Data Catalog",
       "description": "Attribute fields titled &quot;RASP&quot; and &quot;RASP_Type&quot;... <b>API</b>; <b>ESRI</b> Feature Class ... <b>API</b>; <b>ESRI</b> Feature Class; GeoJSON; HTML; XML. Municipal Boundaries for NJ&nbsp;...",
@@ -34,6 +70,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:1147356449438067914",
       "author": "",
       "date": "2025-08-15T12:14:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "VISUAL STUDIO MAGAZINE ANNOUNCES THE WINNERS OF 2025 READER&#39;S CHOICE AWARDS",
+      "description": "... <b>ArcGIS</b> Maps <b>SDK</b> for .NET (formerly known as <b>ArcGIS</b> Runtime <b>SDK</b> for .NET) ... <b>API</b> for .NET Silver: Aspose.Total Bronze: Syncfusion File-Format&nbsp;...",
+      "link": "https://www.cbs42.com/business/press-releases/ein-presswire/839521623/visual-studio-magazine-announces-the-winners-of-2025-readers-choice-awards",
+      "guid": "tag:google.com,2013:googlealerts/feed:4891178379889001262",
+      "author": "",
+      "date": "2025-08-15T03:14:42.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
