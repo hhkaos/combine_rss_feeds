@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (20-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-19T01:26:24.646Z",
+  "lastUpdated": "2025-08-20T01:24:38.490Z",
   "items": [
+    {
+      "title": "<b>Esri</b> Releases New Guide to Managing Complex Utility Systems, Now and in the Future",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... <b>JavaScript</b> if it is disabled in your&nbsp;...",
+      "link": "https://www.businessupturn.com/brand-post/esri-releases-new-guide-to-managing-complex-utility-systems-now-and-in-the-future/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12968349344446576605",
+      "author": "",
+      "date": "2025-08-19T15:25:01.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri has released a new guide to help manage complex utility systems now and in the future, providing valuable insights for organizations using ArcGIS Enterprise.",
+      "processed": true
+    },
+    {
+      "title": "Drone Software Market : Moving Towards a Brighter Future - DroneBase, DroneDeploy, <b>ESRI</b>",
+      "description": "... <b>ESRI</b>, Kespry Inc., Skyward IO (Verizon ... Try watching this video on www.youtube.com, or enable <b>JavaScript</b> if it is disabled in your browser.",
+      "link": "https://www.einpresswire.com/article/841142773/drone-software-market-moving-towards-a-brighter-future-dronebase-dronedeploy-esri",
+      "guid": "tag:google.com,2013:googlealerts/feed:16405969285112644876",
+      "author": "",
+      "date": "2025-08-19T14:56:09.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "The drone software market is on a positive trajectory, with companies like DroneBase, DroneDeploy, and Esri leading the way towards innovation and growth.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b>, Microsoft, and Space42 Launch Map Africa Initiative | Geo Week News",
+      "description": "By combining <b>Esri&#39;s</b> GeoAI and remote sensing expertise, Space42&#39;s satellite and project management capabilities, and Microsoft&#39;s Azure cloud&nbsp;...",
+      "link": "https://www.geoweeknews.com/news/esri-microsoft-and-space42-launch-map-africa-initiative",
+      "guid": "tag:google.com,2013:googlealerts/feed:16060237479188282134",
+      "author": "",
+      "date": "2025-08-19T13:22:43.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Esri, Microsoft, and Space42 have launched the Map Africa initiative to foster collaboration and innovation in spatial technology across Africa.",
+      "processed": true
+    },
     {
       "title": "Introducing ArcGIS Location Platform",
       "description": "Boost user engagement with location intelligence. ArcGIS Location Platform provides high-quality maps, geocoding, routing, and other services!",
@@ -13,6 +49,30 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Location Platform",
       "summary": "Learn about the new capabilities and improvements introduced in the ArcGIS Location Platform for developers.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://maps.coj.net/coj/rest/login?redirect=https%3A//maps.coj.net/coj/rest/services/Lamps/lamppost/MapServer/1/generateRenderer",
+      "guid": "tag:google.com,2013:googlealerts/feed:7097225065462677360",
+      "author": "",
+      "date": "2025-08-18T18:20:23.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to log in to ArcGIS Online and access the lamp post layer to generate a renderer.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://property.jamescitycountyva.gov/arcgis/rest/login?redirect=https%3A//property.jamescitycountyva.gov/arcgis/rest/services/Fire/Calls_FY_15_16_17/MapServer/37",
+      "guid": "tag:google.com,2013:googlealerts/feed:9096598758489729295",
+      "author": "",
+      "date": "2025-08-18T14:04:51.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS REST JS",
+      "summary": "The latest version of the ArcGIS REST JavaScript client library has been released, offering improved performance and new features.",
       "processed": true
     },
     {
