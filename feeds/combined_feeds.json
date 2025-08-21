@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (20-08-2025)",
+  "title": "Combined ArcGIS Feeds (21-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-20T01:24:24.432Z",
+  "lastUpdated": "2025-08-21T01:23:27.046Z",
   "items": [
+    {
+      "title": "Mapping the World&#39;s Toughest Adventure Race | Red Bull X Alps - YouTube",
+      "description": "... <b>Esri&#39;s</b> 3D mapping technology. The 3D Live Tracking application, powered by <b>ArcGIS JavaScript SDK</b> [https://www.<b>esri</b>.com/e...], brought the race&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=kmklgli7rx4",
+      "guid": "tag:google.com,2013:googlealerts/feed:14483817408336148757",
+      "author": "",
+      "date": "2025-08-20T21:45:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS ArcGIS Maps SDKs for Native Apps 200.8 をリリースしました",
+      "description": "<b>ArcGIS Maps SDK for</b> Swift のツールキットに新しい AR フライオーバー、概観図 、オフライン マップ エリア コンポーネントが追加されました。 また、AR&nbsp;...",
+      "link": "https://blog.esrij.com/2025/08/20/post-66170/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12453884534197765504",
+      "author": "",
+      "date": "2025-08-20T10:59:09.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "<b>Esri</b> Releases New Guide to Managing Complex Utility Systems, Now and in the Future",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... <b>JavaScript</b> if it is disabled in your&nbsp;...",
