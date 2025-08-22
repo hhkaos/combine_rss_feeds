@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (21-08-2025)",
+  "title": "Combined ArcGIS Feeds (22-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-21T01:23:27.046Z",
+  "lastUpdated": "2025-08-22T01:24:01.388Z",
   "items": [
+    {
+      "title": "<b>Esri</b> Releases Practical New Guide to Creating Visually Stunning and Effective Map Apps",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... Stock Quote <b>API</b> &amp; Stock News <b>API</b>&nbsp;...",
+      "link": "https://markets.financialcontent.com/startribune/article/bizwire-2025-8-21-esri-releases-practical-new-guide-to-creating-visually-stunning-and-effective-map-apps",
+      "guid": "tag:google.com,2013:googlealerts/feed:14470015751995706207",
+      "author": "",
+      "date": "2025-08-21T12:19:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Fulcrum Unveils Future of Fieldwork at <b>Esri</b> User Conference in San Diego",
+      "description": "They were showing live annotations, GPS traces, and step-by-step guided workflows that sync with <b>Esri&#39;s ArcGIS</b> platform in real time. That&#39;s huge&nbsp;...",
+      "link": "https://www.sandiegoreader.com/contributor/readernews/fulcrum-unveils-future-of-fieldwork-at-esri-user-conference-in-san-diego/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12814764987891578537",
+      "author": "",
+      "date": "2025-08-21T11:08:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "BPRD Accessible Park Details Augmented - <b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. URL: https://services.<b>arcgis</b>.com ... <b>ArcGIS</b> GeoServices REST <b>API</b>. Current Resource Info. Data last updated, August&nbsp;...",
+      "link": "https://data.boston.gov/dataset/bprd-accessible-park-details-augmented/resource/232e6a2a-f9de-4167-add4-6a58b24d4a74",
+      "guid": "tag:google.com,2013:googlealerts/feed:14161364591058456905",
+      "author": "",
+      "date": "2025-08-21T01:42:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Mapping the World&#39;s Toughest Adventure Race | Red Bull X Alps - YouTube",
       "description": "... <b>Esri&#39;s</b> 3D mapping technology. The 3D Live Tracking application, powered by <b>ArcGIS JavaScript SDK</b> [https://www.<b>esri</b>.com/e...], brought the race&nbsp;...",
