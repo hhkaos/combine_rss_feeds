@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (22-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (23-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-22T01:24:10.239Z",
+  "lastUpdated": "2025-08-23T01:21:49.851Z",
   "items": [
+    {
+      "title": "<b>Esri</b> Releases Practical New Guide to Creating Visually Stunning and Effective Map Apps",
+      "description": "AFP <b>API</b>. Thématiques ... Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b>&nbsp;...",
+      "link": "https://www.afp.com/fr/node/3791122",
+      "guid": "tag:google.com,2013:googlealerts/feed:257012644181267697",
+      "author": "",
+      "date": "2025-08-21T20:22:29.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ArcGIS Online introduces support for Vector Tile Layers in Scene Viewer.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Maps <b>SDK</b> for .NET Samples (WPF) - Gratis Download an Installatioun op Windows",
+      "description": "... <b>Esri</b>/<b>arcgis</b>-maps-<b>sdk</b> ... This page requires <b>JavaScript</b>. Op den Haaptinhalt sprangen. Universal Microsoft-Websäit Microsoft Store&nbsp;...",
+      "link": "https://apps.microsoft.com/detail/9MTP5013343H?hl=lb-LU&gl=VN",
+      "guid": "tag:google.com,2013:googlealerts/feed:316661341481354980",
+      "author": "",
+      "date": "2025-08-21T20:09:40.000Z",
+      "category": "Documentation",
+      "topicsProduct": "\"ArcGIS Enterprise\"",
+      "summary": "New updates for ArcGIS Enterprise have been released, including improved performance and security features. Check out the latest enhancements!",
+      "processed": true
+    },
+    {
+      "title": "Link tonnages (historic) - <b>ArcGIS</b> GeoService - Dataset - Catalog",
+      "description": "<b>ESRI ArcGIS</b> Metadata... DCAT 1.1 Metadata Description &middot; DCAT Metadata ... OGC <b>API</b> - Records <b>API</b>... OGC <b>API</b> - Records Item &middot; Feed <b>API</b> -... <b>ArcGIS</b>&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/link-tonnages-historic/resource/eacb0d77-49bd-483d-ba31-bd01a256f408",
+      "guid": "tag:google.com,2013:googlealerts/feed:13441395848069353807",
+      "author": "",
+      "date": "2025-08-21T19:22:44.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New improvements in ArcGIS Online allow users to collaborate more efficiently and effectively in their projects.",
+      "processed": true
+    },
     {
       "title": "<b>Esri</b> Releases Practical New Guide to Creating Visually Stunning and Effective Map Apps",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... Stock Quote <b>API</b> &amp; Stock News <b>API</b>&nbsp;...",
