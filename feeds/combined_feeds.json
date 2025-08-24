@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (23-08-2025)",
+  "title": "Combined ArcGIS Feeds (24-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-23T01:21:42.302Z",
+  "lastUpdated": "2025-08-24T01:40:47.141Z",
   "items": [
+    {
+      "title": "CIMIC brings your largest ACC AEC models into Unity and Esri ArcGIS | Autodesk University",
+      "description": "... <b>ArcGIS Maps SDK for</b> Unity, IFC, I3S, OBJ, USD, FBX, 3D-Tiles and glTF. Learn how you can integrate ACC 3D models into your own game engine using&nbsp;...",
+      "link": "https://www.autodesk.com/autodesk-university/fr/class/CIMIC-brings-your-largest-ACC-AEC-models-into-Unity-and-Esri-ArcGIS-2024?utm_id=PANTHEON_STRIPPED&urlParamToken=eyJhbGciOiJIUzI1NiJ9.eyJldmVudFBsYW5uZXJJZCI6OTc5LCJsaXN0VHlwZVByb2ZpbGVWYWx1ZUlkcyI6IiIsInRleHRUeXBlUHJvZmlsZVZhbHVlcyI6IjExMzE0ODomIzM5OzUyOTI2OTMwMTh8RU1MfHt7bGVhZC5JRH19JiMzOTssIDExMzE0OTomIzM5O2VtYWlsJiMzOTssIDExMzE1MDomIzM5O25ld3NsZXR0ZXImIzM5OywgMTEzMTUxOiYjMzk7NTI5MjY5M2Nyb3NzLWluZGVtYWlsLWF1LTIwMjImIzM5OywgMTEzMTUyOiYjMzk7NTI5MjY5MzAxOCYjMzk7IiwicmVnQ29kZVZhbHVlcyI6IiJ9.UGVUeNcRJypfO44P3-7daT_52Z64Ck0cfV7tZJ5-_Lc",
+      "guid": "tag:google.com,2013:googlealerts/feed:5426071617483663235",
+      "author": "",
+      "date": "2025-08-23T01:17:07.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "<b>Esri</b> Releases Practical New Guide to Creating Visually Stunning and Effective Map Apps",
       "description": "AFP <b>API</b>. Thématiques ... Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b>&nbsp;...",
