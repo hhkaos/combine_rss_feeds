@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (25-08-2025)",
+  "title": "ArcGIS ESRI Dev Feed (26-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-25T01:27:31.080Z",
+  "lastUpdated": "2025-08-26T01:25:13.015Z",
   "items": [
+    {
+      "title": "Three ways to improve geocoding performance",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/geoanalytics-engine/analytics/three-ways-to-improve-your-geocoding-performance",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2933391",
+      "author": "Sarah Battersby",
+      "date": "2025-08-25T16:11:01.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS GeoAnalytics Engine",
+      "summary": "Learn three key strategies to enhance the performance of your geocoding tasks using ArcGIS GeoAnalytics Engine.",
+      "processed": true
+    },
+    {
+      "title": "Garland Open Data - Dateno",
+      "description": "<b>API</b> Endpoints. type, url. ogcrecordsapi, https://data-garland.opendata.<b>arcgis</b>.com/<b>api</b>/search/v1. sitemap, https://data-garland.opendata.<b>arcgis</b>.com&nbsp;...",
+      "link": "https://dateno.io/registry/catalog/cdi00003420/",
+      "guid": "tag:google.com,2013:googlealerts/feed:15141348089536497843",
+      "author": "",
+      "date": "2025-08-25T14:11:03.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Discover how to use the Basemap Gallery and change basemaps in your web maps with this new Learn Lesson.",
+      "processed": true
+    },
+    {
+      "title": "Lake County, Illinois - Organizations - Dataset - Catalog - Data.gov",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; Ela Township Precinct Book. {{description}}. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; Beach Park Tax Increment Finance Area&nbsp;...",
+      "link": "https://catalog.data.gov/organization/lake-county-illinois?dataset_type=dataset&harvest_source_title=Open+data+from+Lake+County%2C+Illinois&capacity=public&tags=pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:13574627181023947198",
+      "author": "",
+      "date": "2025-08-25T12:34:29.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Lake County, Illinois, has made their GIS data available in a variety of formats, including PDFs, on their open data portal.",
+      "processed": true
+    },
     {
       "title": "CIMIC brings your largest ACC AEC models into Unity and Esri ArcGIS | Autodesk University",
       "description": "... <b>ArcGIS Maps SDK for</b> Unity, IFC, I3S, OBJ, USD, FBX, 3D-Tiles and glTF. Learn how you can integrate ACC 3D models into your own game engine using&nbsp;...",
