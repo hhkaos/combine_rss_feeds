@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (26-08-2025)",
+  "title": "Combined ArcGIS Feeds (27-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-26T01:25:04.094Z",
+  "lastUpdated": "2025-08-27T01:22:32.174Z",
   "items": [
+    {
+      "title": "Job Application for Software Developer I - Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> - Greenhouse",
+      "description": "Will you now or in the future require visa sponsorship from <b>Esri</b> for employment (e.g., H-1B visa)?. Select... Are you able to work onsite in the <b>Esri</b>&nbsp;...",
+      "link": "https://job-boards.greenhouse.io/embed/job_app?for=esri&validityToken=AmbCQANkxirlniQcYo3ksPKpPim4SjTn1lXCdPBhHO8V8mt3bWqOLA6kjubYIh6qY1_hUbfKqHjnT7CicvdyiLrEjiewzzs4Qk8EG2Z4zobN3bpzXljzyFSXIR_cDX1eVAJl8VWt1ERHwQh-E_POasRXBGamYyug6UBoa-KB4WeA_DX5EOOL2dUrmJ62Jq9_gx8us6A5SRCZNJuCk6wTz57Tmtj6PhAOWAcNjNYEVvm5-f_Gd791WVCG7_AD-Vlepa9G-MqgT7DAkKDOvAvUzrziL7ba2PP_nT8RiwkMhaLsee6J2F48zqTQnrbuHKN45CwXGXrgjRoG3m1bKsm7iQ%3D%3D&token=4833137007",
+      "guid": "tag:google.com,2013:googlealerts/feed:1658635224795640191",
+      "author": "",
+      "date": "2025-08-25T22:39:45.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Three ways to improve geocoding performance",
       "description": "",
