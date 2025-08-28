@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (27-08-2025)",
+  "title": "Combined ArcGIS Feeds (28-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-27T01:22:32.174Z",
+  "lastUpdated": "2025-08-28T01:21:47.927Z",
   "items": [
+    {
+      "title": "Find walking routes through urban green spaces with Flutter Maps SDK",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/find-walking-routes-via-urban-green-spaces-with-flutter-maps-sdk",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2934511",
+      "author": "Rachael Ellen",
+      "date": "2025-08-27T15:30:39.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "What’s special about geospatial data?",
+      "description": "Why geospatial data needs a new mindset: learn to store, query &amp; visualize it with spatial DBs and mapping SDKs.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/whats-special-about-geospatial-data",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2935881",
+      "author": "Raúl Jiménez Ortega",
+      "date": "2025-08-27T15:00:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "What a nicely done narrative presentation and container (<b>ArcGIS</b> etc) of travel. - Hacker News",
+      "description": "What a nicely done narrative presentation and container (<b>ArcGIS</b> etc) of travel. ... Guidelines | FAQ | Lists | <b>API</b> | Security | Legal | Apply to YC |&nbsp;...",
+      "link": "https://news.ycombinator.com/item?id=45024107",
+      "guid": "tag:google.com,2013:googlealerts/feed:16374587446243456493",
+      "author": "",
+      "date": "2025-08-27T10:20:21.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Job Application for Software Developer I - Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> - Greenhouse",
       "description": "Will you now or in the future require visa sponsorship from <b>Esri</b> for employment (e.g., H-1B visa)?. Select... Are you able to work onsite in the <b>Esri</b>&nbsp;...",
