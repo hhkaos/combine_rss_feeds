@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (30-08-2025)",
+  "title": "Combined ArcGIS Feeds (31-08-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-30T01:18:11.609Z",
+  "lastUpdated": "2025-08-31T01:27:00.263Z",
   "items": [
+    {
+      "title": "Transportation NGDA List - GeoJSON - Dataset - Catalog",
+      "description": "<b>ESRI ArcGIS</b> Metadata... DCAT 1.1 Metadata Description &middot; DCAT Metadata ... OGC <b>API</b> - Records <b>API</b>... Feed <b>API</b> -... <b>ArcGIS</b> Hub Dataset &middot; <b>ArcGIS</b>&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/transportation-ngda-list/resource/c85a4eec-06ed-4acf-b3cf-f8b2c9967443",
+      "guid": "tag:google.com,2013:googlealerts/feed:16284828328358164338",
+      "author": "",
+      "date": "2025-08-30T17:10:26.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 3 - Dataset - Catalog - Data.gov",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. County. 2023 Nov 7 Loudoun County Election Results. Loudoun County, Virginia —. Loudoun County, Virginia Towns, Special&nbsp;...",
