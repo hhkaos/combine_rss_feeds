@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (31-08-2025)",
+  "title": "Combined ArcGIS Feeds (01-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-08-31T01:27:00.263Z",
+  "lastUpdated": "2025-09-01T01:43:02.535Z",
   "items": [
+    {
+      "title": "AutoCAD 2026 ヘルプ | FDO <b>ArcGIS</b> Pro | Autodesk",
+      "description": "<b>ArcGIS</b> Pro must be installed and licensed on the same machine as AutoCAD Map 3D toolset. The <b>ArcGIS</b> Pro provider uses the <b>ESRI ArcGIS</b> Pro <b>SDK</b> 3.3.",
+      "link": "https://help.autodesk.com/view//ACD/2026/JPN/?guid=GUID-13199627-583F-4D1F-9E4F-58C6C92DC69B",
+      "guid": "tag:google.com,2013:googlealerts/feed:415227343693341002",
+      "author": "",
+      "date": "2025-08-31T16:27:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Transportation NGDA List - GeoJSON - Dataset - Catalog",
       "description": "<b>ESRI ArcGIS</b> Metadata... DCAT 1.1 Metadata Description &middot; DCAT Metadata ... OGC <b>API</b> - Records <b>API</b>... Feed <b>API</b> -... <b>ArcGIS</b> Hub Dataset &middot; <b>ArcGIS</b>&nbsp;...",
