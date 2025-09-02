@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (01-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (02-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-01T01:43:08.772Z",
+  "lastUpdated": "2025-09-02T01:23:30.777Z",
   "items": [
+    {
+      "title": "Department of Posts Signs MoU with <b>ESRI</b> India to Strengthen the DIGIPIN Initiative - PIB",
+      "description": "Under this MoU, DoP will be able to use <b>Esri</b> India&#39;s high-resolution imagery and street basemaps for its DIGIPIN portal. The collaboration will also&nbsp;...",
+      "link": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2162858",
+      "guid": "tag:google.com,2013:googlealerts/feed:1223232300138688156",
+      "author": "",
+      "date": "2025-09-01T21:43:57.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "The government of India has announced a partnership with ESRI India to implement ArcGIS Online for transforming urban planning and management.",
+      "processed": true
+    },
+    {
+      "title": "California Energy Commission - Organizations",
+      "description": "69 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter Results. Electric Load Serving Entities (Other). Data compiled from California Energy&nbsp;...",
+      "link": "https://data.ca.gov/organization/cd40c9f3-dedd-466f-8b57-922ef7276e3a?res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:14273041535323436721",
+      "author": "",
+      "date": "2025-09-01T15:34:15.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create beautiful and informative story maps using ArcGIS Online in this new tutorial.",
+      "processed": true
+    },
     {
       "title": "AutoCAD 2026 ヘルプ | FDO <b>ArcGIS</b> Pro | Autodesk",
       "description": "<b>ArcGIS</b> Pro must be installed and licensed on the same machine as AutoCAD Map 3D toolset. The <b>ArcGIS</b> Pro provider uses the <b>ESRI ArcGIS</b> Pro <b>SDK</b> 3.3.",
