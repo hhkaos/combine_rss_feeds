@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (02-09-2025)",
+  "title": "Combined ArcGIS Feeds (03-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-02T01:23:21.625Z",
+  "lastUpdated": "2025-09-03T01:18:21.703Z",
   "items": [
+    {
+      "title": "Using $arcgis.import(): Simplify Module Loading in ArcGIS Maps SDK for JavaScript CDN Apps",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/future-proof-your-arcgis-javascript-app",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2901452",
+      "author": "Manoja Gadde",
+      "date": "2025-09-02T20:30:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Department of Posts To Expand DIGIPIN Capabilities for Citizen-Friendly Services with GIS Support",
+      "description": "Under the MoU, DoP will use <b>ESRI</b> India&#39;s high-resolution imagery and street basemaps to strengthen the DIGIPIN portal. ... <b>JavaScript</b> has been&nbsp;...",
+      "link": "https://indianmasterminds.com/news/department-of-posts-esri-india-digipin-mou-141649/",
+      "guid": "tag:google.com,2013:googlealerts/feed:14628950022276333944",
+      "author": "",
+      "date": "2025-09-02T17:16:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "R Consortium 2025 Grants Applications Open",
+      "description": "R Consortium ISC grants open Sept 1-Oct 1. Esri encourages R developers to apply for funding to advance open science projects.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/r-consortium-grants-2025-p2",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2938159",
+      "author": "Josiah Parry",
+      "date": "2025-09-02T15:51:16.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "How to implement custom geometry editing workflows with the programmatic reticle tool",
+      "description": "<P><A href=\"https://www.esri.com/arcgis-blog/products/sdk-kotlin/developers/implement-custom-geometry-editing-workflows-with-programmatic-reticle-tool\"><STRONG>New ArcGIS Blog Post</STRONG></A>&nbsp;!&nbsp;<SPAN>Learn how to use the programmatic reticle tool to implement custom geometry editing workflows in v200.8 of the Native Maps SDKs</SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/how-to-implement-custom-geometry-editing-workflows/ba-p/1647360",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/how-to-implement-custom-geometry-editing-workflows/ba-p/1647360",
+      "author": "HamishDuff",
+      "date": "2025-09-02T15:35:07.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "How to implement custom geometry editing workflows with the programmatic reticle tool",
+      "description": "Learn how to use the programmatic reticle tool to implement custom geometry editing workflows in v200.8 of the Native Maps SDKs",
+      "link": "https://www.esri.com/arcgis-blog/products/sdk-kotlin/developers/implement-custom-geometry-editing-workflows-with-programmatic-reticle-tool",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2937934",
+      "author": "Hamish Duff",
+      "date": "2025-09-02T15:08:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "India Post, <b>Esri</b> India join hands to strengthen DIGIPIN portal - Inshorts",
+      "description": "... <b>esri</b> indias living atlas portal thereby making it accessible to the larger gis community. ... Your browser does not support <b>JavaScript</b>!",
+      "link": "https://inshorts.com/en/news/india-post--esri-india-join-hands-to-strengthen-digipin-portal-1756811632054",
+      "guid": "tag:google.com,2013:googlealerts/feed:10346980702089288479",
+      "author": "",
+      "date": "2025-09-02T12:04:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Department of Posts Signs MoU with <b>ESRI</b> India to Strengthen the DIGIPIN Initiative - PIB",
       "description": "Under this MoU, DoP will be able to use <b>Esri</b> India&#39;s high-resolution imagery and street basemaps for its DIGIPIN portal. The collaboration will also&nbsp;...",
