@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (03-09-2025)",
+  "title": "Combined ArcGIS Feeds (04-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-03T01:18:21.703Z",
+  "lastUpdated": "2025-09-04T01:18:24.329Z",
   "items": [
+    {
+      "title": "\n        Merge pull request #403 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #403 from woriginales/master\n\nNew Sample: Open Popups using HitTest</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/c47079cbebe976ef3840d63f90a11fd8dc629274",
+      "guid": "tag:github.com,2008:Grit::Commit/c47079cbebe976ef3840d63f90a11fd8dc629274",
+      "author": "PaulGibbs3rd",
+      "date": "2025-09-03T18:15:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Application Developer - Accenture",
+      "description": "... <b>SDK</b>, <b>ArcGIS Javascript API&#39;s</b>, ArcPy, FME -Troubleshoot the issues ... <b>ESRI ArcGIS</b>. - This position is based in Mumbai. - A 15 years full time&nbsp;...",
+      "link": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5115496-S1892778_en",
+      "guid": "tag:google.com,2013:googlealerts/feed:13035325800428730619",
+      "author": "",
+      "date": "2025-09-02T23:41:14.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "\n        New Sample: Open Popups using HitTest\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>New Sample: Open Popups using HitTest</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/dfc131b5a1fb1aaf988d90f5ad6de494adff366d",
+      "guid": "tag:github.com,2008:Grit::Commit/dfc131b5a1fb1aaf988d90f5ad6de494adff366d",
+      "author": "woriginales",
+      "date": "2025-09-02T22:34:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Using $arcgis.import(): Simplify Module Loading in ArcGIS Maps SDK for JavaScript CDN Apps",
       "description": "",
@@ -22,6 +58,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:14628950022276333944",
       "author": "",
       "date": "2025-09-02T17:16:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Hosted Services Explained: Feature, Vector & Map Tiles Services",
+      "description": "Intro to the ArcGIS hosted data services series, what it covers, why these services matter, and how this series will help you.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/arcgis-hosted-services-explained-feature-vector-map-tiles-services",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2938122",
+      "author": "Raúl Jiménez Ortega",
+      "date": "2025-09-02T16:26:46.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",

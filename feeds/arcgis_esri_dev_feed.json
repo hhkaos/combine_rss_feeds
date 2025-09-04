@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (04-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-03T01:18:33.690Z",
+  "lastUpdated": "2025-09-04T01:18:33.040Z",
   "items": [
+    {
+      "title": "\n        Merge pull request #403 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #403 from woriginales/master\n\nNew Sample: Open Popups using HitTest</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/c47079cbebe976ef3840d63f90a11fd8dc629274",
+      "guid": "tag:github.com,2008:Grit::Commit/c47079cbebe976ef3840d63f90a11fd8dc629274",
+      "author": "PaulGibbs3rd",
+      "date": "2025-09-03T18:15:43.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "GitHub issue discussing the discrepancy between ArcGIS Online documentation and actual behavior when exporting data to JSON.",
+      "processed": true
+    },
+    {
+      "title": "Application Developer - Accenture",
+      "description": "... <b>SDK</b>, <b>ArcGIS Javascript API&#39;s</b>, ArcPy, FME -Troubleshoot the issues ... <b>ESRI ArcGIS</b>. - This position is based in Mumbai. - A 15 years full time&nbsp;...",
+      "link": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5115496-S1892778_en",
+      "guid": "tag:google.com,2013:googlealerts/feed:13035325800428730619",
+      "author": "",
+      "date": "2025-09-02T23:41:14.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a web map application using ArcGIS Online and customize it with your own data and branding.",
+      "processed": true
+    },
+    {
+      "title": "\n        New Sample: Open Popups using HitTest\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>New Sample: Open Popups using HitTest</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/dfc131b5a1fb1aaf988d90f5ad6de494adff366d",
+      "guid": "tag:github.com,2008:Grit::Commit/dfc131b5a1fb1aaf988d90f5ad6de494adff366d",
+      "author": "woriginales",
+      "date": "2025-09-02T22:34:43.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Check out the new API reference for ArcGIS Pro SDK 2.9 release, including updates and enhancements for developers.",
+      "processed": true
+    },
     {
       "title": "Using $arcgis.import(): Simplify Module Loading in ArcGIS Maps SDK for JavaScript CDN Apps",
       "description": "",
@@ -25,6 +61,18 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Department of Posts partners with Esri India to implement DigiPin, a solution based on ArcGIS Online, to enhance location-based services for postal customers.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Hosted Services Explained: Feature, Vector & Map Tiles Services",
+      "description": "Intro to the ArcGIS hosted data services series, what it covers, why these services matter, and how this series will help you.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/arcgis-hosted-services-explained-feature-vector-map-tiles-services",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2938122",
+      "author": "Raúl Jiménez Ortega",
+      "date": "2025-09-02T16:26:46.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn about the importance of ArcGIS hosted services and how they play a crucial role in serving vector map tiles for web mapping applications.",
       "processed": true
     },
     {
