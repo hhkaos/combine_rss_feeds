@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (06-09-2025)",
+  "title": "Combined ArcGIS Feeds (07-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-06T01:17:49.967Z",
+  "lastUpdated": "2025-09-07T01:25:42.320Z",
   "items": [
+    {
+      "title": "Application Developer - Accenture",
+      "description": "... <b>Javascript API&#39;s</b>, ArcPy, ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>, FME ... <b>ESRI ArcGIS</b>. - This position is based in Mumbai. - A 15 years full time&nbsp;...",
+      "link": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5115564-S1894074_en",
+      "guid": "tag:google.com,2013:googlealerts/feed:5269307530520945645",
+      "author": "",
+      "date": "2025-09-06T00:50:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Lenovo unveils ThinkPad P16 Gen3 - AEC Magazine",
       "description": "<b>ArcGIS</b> Maps <b>SDK</b> for Unreal Engine launches &middot; GBuilder raises €2M for expansion into UK and DACH &middot; NEWS: HP looks to smooth path to Enterprise VR.",
