@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (08-09-2025)",
+  "title": "Combined ArcGIS Feeds (09-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-08T01:24:05.952Z",
+  "lastUpdated": "2025-09-09T01:21:40.646Z",
   "items": [
+    {
+      "title": "National Interagency Fire Center - Organizations - WIFIRE Commons Data Catalog",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; GeoJSON &middot; CSV &middot; KML &middot; ZIP &middot; National Predictive ... A... HTML &middot; <b>Esri</b> REST &middot; GeoJSON &middot; CSV &middot; KML &middot; ZIP. WIFIRE Commons is&nbsp;...",
+      "link": "https://wifire-data.sdsc.edu/organization/a9b76ecb-33f0-4813-9ae3-2d17de6399bf?_tags_limit=0&res_format=ZIP&tags=Wildland+Fire",
+      "guid": "tag:google.com,2013:googlealerts/feed:7522460605345593786",
+      "author": "",
+      "date": "2025-09-08T04:03:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Application Developer - Accenture",
       "description": "... <b>Javascript API&#39;s</b>, ArcPy, ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>, FME ... <b>ESRI ArcGIS</b>. - This position is based in Mumbai. - A 15 years full time&nbsp;...",
