@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (10-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-09T01:21:47.241Z",
+  "lastUpdated": "2025-09-10T01:18:57.782Z",
   "items": [
+    {
+      "title": "Mission Aviation Fellowship honored for GIS innovation - Idaho Business Review",
+      "description": "fbpx. Please ensure <b>Javascript</b> is enabled for purposes of ... <b>Esri</b> is a software company specializing in GIS, with its signature platform <b>ArcGIS</b>&nbsp;...",
+      "link": "https://idahobusinessreview.com/2025/09/09/mission-aviation-fellowship-gis-award/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8040102536379470333",
+      "author": "",
+      "date": "2025-09-10T00:07:50.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Mission Aviation Fellowship (MAF) received the Esri Production Mapping Special Achievement in GIS (SAG) Award for their outstanding use of ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Create a mobile style for native apps",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/create-a-mobile-style-for-native-apps",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2937460",
+      "author": "Mara Dolan",
+      "date": "2025-09-09T22:55:37.000Z",
+      "category": "Blog",
+      "topicsProduct": "Native SDKs",
+      "summary": "Learn how to create a mobile style for native apps using ArcGIS Runtime SDK for iOS and Android.",
+      "processed": true
+    },
+    {
+      "title": "Fifth of children in poverty after housing costs - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... The <b>ESRI</b> said that people in the poorest 20% of households have&nbsp;...",
+      "link": "https://www.rte.ie/news/ireland/2025/0909/1532478-esri-children-report/",
+      "guid": "tag:google.com,2013:googlealerts/feed:15303182999542531121",
+      "author": "",
+      "date": "2025-09-09T21:21:57.000Z",
+      "category": "Blog",
+      "topicsProduct": "Other",
+      "summary": "Esri has released a report highlighting the importance of teaching geospatial skills to children at an early age.",
+      "processed": true
+    },
     {
       "title": "National Interagency Fire Center - Organizations - WIFIRE Commons Data Catalog",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; GeoJSON &middot; CSV &middot; KML &middot; ZIP &middot; National Predictive ... A... HTML &middot; <b>Esri</b> REST &middot; GeoJSON &middot; CSV &middot; KML &middot; ZIP. WIFIRE Commons is&nbsp;...",
