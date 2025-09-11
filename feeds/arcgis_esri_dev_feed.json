@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (11-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-10T01:18:57.782Z",
+  "lastUpdated": "2025-09-11T01:21:11.047Z",
   "items": [
+    {
+      "title": "Introducing basemap sessions for ArcGIS Location Platform",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/announcements/basemap-sessions",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2938619",
+      "author": "Anita Kemp",
+      "date": "2025-09-10T16:48:02.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri announces Map Viewer Beta Basemaps Sessions to showcase new cartography themes, color ramps, and labels available for use in ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS hosted services: Use cases for each type of data service",
+      "description": "Learn when to use map tiles, vector tiles, or feature services in ArcGIS with use cases and practical examples",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/arcgis-hosted-services-use-cases-for-each-type-of-data-service",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2938599",
+      "author": "Raúl Jiménez Ortega",
+      "date": "2025-09-10T15:16:54.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS services",
+      "summary": "Learn about the various types of ArcGIS Hosted Services and their use cases to help you choose the right data service for your needs.",
+      "processed": true
+    },
+    {
+      "title": "Create a mobile style for native apps",
+      "description": "<P><STRONG>In this latest developer's blog post&nbsp;</STRONG><SPAN>(</SPAN><A href=\"https://www.esri.com/arcgis-blog/products/sdk-net/developers/create-a-mobile-style-for-native-apps\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">find it here on the ArcGIS Blog</A><SPAN>), learn how to create a mobile style file in ArcGIS Pro, fill it with the styles you want, and use it in your native app.</SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/create-a-mobile-style-for-native-apps/ba-p/1649202",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/create-a-mobile-style-for-native-apps/ba-p/1649202",
+      "author": "Mara",
+      "date": "2025-09-10T14:42:06.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Flutter",
+      "summary": "Learn how to create a mobile style for native apps using ArcGIS Maps SDK for Flutter in this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> India, Dhruva Space ink pact for easy access to earth images from 200 satellites",
+      "description": "The partnership integrates Dhruva Space&#39;s AstraView with <b>Esri&#39;s ArcGIS</b> ... Please enable <b>javascript</b>.",
+      "link": "https://m.economictimes.com/news/science/esri-dhruva-space-ink-pact-for-easy-access-to-earth-images-from-200-satellites/articleshow/123806275.cms",
+      "guid": "tag:google.com,2013:googlealerts/feed:6347845141960876409",
+      "author": "",
+      "date": "2025-09-10T12:12:45.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri and Dhruva Space partner to offer easy access to Earth images from 200 satellites through ArcGIS Online.",
+      "processed": true
+    },
     {
       "title": "Mission Aviation Fellowship honored for GIS innovation - Idaho Business Review",
       "description": "fbpx. Please ensure <b>Javascript</b> is enabled for purposes of ... <b>Esri</b> is a software company specializing in GIS, with its signature platform <b>ArcGIS</b>&nbsp;...",
@@ -16,6 +64,18 @@
       "processed": true
     },
     {
+      "title": "Bookmarks: Map View - Blog   Junte-se ao bingo online e ganhe prêmios incríveis!",
+      "description": "Check airport arrivals and departures status and aircraft history. Bookmarks, API Reference, <b>ArcGIS Maps SDK for</b> JavaScript 4.30. 9 Google Maps&nbsp;...",
+      "link": "https://parsphp.ir/calendarl/Bookmarks-Map-View-Blog/14923888.htm",
+      "guid": "tag:google.com,2013:googlealerts/feed:9285688563009186584",
+      "author": "",
+      "date": "2025-09-09T23:55:52.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create bookmarks in ArcGIS Online to easily navigate your maps and share specific views with others.",
+      "processed": true
+    },
+    {
       "title": "Create a mobile style for native apps",
       "description": "",
       "link": "https://www.esri.com/arcgis-blog/products/developers/developers/create-a-mobile-style-for-native-apps",
@@ -25,6 +85,18 @@
       "category": "Blog",
       "topicsProduct": "Native SDKs",
       "summary": "Learn how to create a mobile style for native apps using ArcGIS Runtime SDK for iOS and Android.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "http://197.243.19.172:6080/arcgis/rest/login?redirect=http%3A//197.243.19.172%3A6080/arcgis/rest/services/ExistingWebService/MapServer/0/query",
+      "guid": "tag:google.com,2013:googlealerts/feed:17041570953909541238",
+      "author": "",
+      "date": "2025-09-09T22:51:55.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri released a new version of ArcGIS Enterprise with enhanced security features and improved performance.",
       "processed": true
     },
     {
