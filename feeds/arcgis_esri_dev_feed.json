@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (12-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-11T01:21:11.047Z",
+  "lastUpdated": "2025-09-12T01:17:58.734Z",
   "items": [
+    {
+      "title": "Sorting points and sweepline",
+      "description": "<P>A combination of ideas.</P>",
+      "link": "https://community.esri.com/t5/python-blog/sorting-points-and-sweepline/ba-p/1649942",
+      "guid": "https://community.esri.com/t5/python-blog/sorting-points-and-sweepline/ba-p/1649942",
+      "author": "DanPatterson",
+      "date": "2025-09-12T00:25:01.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Learn how to use a \"sweepline\" algorithm to efficiently sort points in a dataset using ArcGIS API for Python.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> JavaScript - 自定义（GLSL）修改高亮图层样式原创 - CSDN博客",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript 从 4.29 开始增加 RenderNode 类，可以添加数据以及操作 FBO（ManagedFBO） ；. 通过操作FBO，可以通过后处理实现很多效果，官方&nbsp;...",
+      "link": "https://blog.csdn.net/linzi19900517/article/details/139635878",
+      "guid": "tag:google.com,2013:googlealerts/feed:14031686560799616656",
+      "author": "",
+      "date": "2025-09-11T03:21:33.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Discover how to create a custom basemap using ArcGIS Online basemap styles.",
+      "processed": true
+    },
     {
       "title": "Introducing basemap sessions for ArcGIS Location Platform",
       "description": "",
