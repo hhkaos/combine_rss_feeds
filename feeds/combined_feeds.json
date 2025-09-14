@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (13-09-2025)",
+  "title": "Combined ArcGIS Feeds (14-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-13T01:14:31.840Z",
+  "lastUpdated": "2025-09-14T01:24:54.584Z",
   "items": [
+    {
+      "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
+      "description": "Formats. HTML - 134 &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> - 133 &middot; CSV - 1 &middot; EXCEL - 1 &middot; GDB - 1 &middot; GeoJSON - 1 &middot; GPKG - 1 &middot; KML - 1 &middot; TEXT - 1 &middot; ZIP - 1&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/?publisher=Lake+County+Illinois+GIS&organization=lake-county-illinois&tags=special-service-areas",
+      "guid": "tag:google.com,2013:googlealerts/feed:15584500848286051246",
+      "author": "",
+      "date": "2025-09-13T17:46:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Junior Software Engineer at Brooksource - Technical.ly",
+      "description": "* Support the implementation of *offline mapping capabilities* using *<b>ESRI</b> technologies*. ... * Knowledge of RESTful <b>API</b> design and integration.",
+      "link": "https://technical.ly/job/dev-engineering/philly/brooksource-junior-software-engineer-269869/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2566226907281358849",
+      "author": "",
+      "date": "2025-09-13T07:18:04.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Sorting points and sweepline",
       "description": "<P>A combination of ideas.</P>",
