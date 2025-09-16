@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (15-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (16-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-15T01:25:13.409Z",
+  "lastUpdated": "2025-09-16T01:19:00.484Z",
   "items": [
+    {
+      "title": "arcgis/arcade-languageservice - npmmirror 镜像站",
+      "description": "@arcgis/arcade-languageservice &middot; <b>ArcGIS Maps SDK for</b> JavaScript - Arcade Language Service.",
+      "link": "https://npmmirror.com/package/@arcgis/arcade-languageservice?version=4.29.0",
+      "guid": "tag:google.com,2013:googlealerts/feed:6083803176058877163",
+      "author": "",
+      "date": "2025-09-14T21:29:19.000Z",
+      "category": "Documentation",
+      "topicsProduct": "Arcade",
+      "summary": "New version 4.29.0 of the Arcade Language Service package is now available.",
+      "processed": true
+    },
     {
       "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
       "description": "Formats. HTML - 134 &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> - 133 &middot; CSV - 1 &middot; EXCEL - 1 &middot; GDB - 1 &middot; GeoJSON - 1 &middot; GPKG - 1 &middot; KML - 1 &middot; TEXT - 1 &middot; ZIP - 1&nbsp;...",
