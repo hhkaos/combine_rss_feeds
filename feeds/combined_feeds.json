@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (17-09-2025)",
+  "title": "Combined ArcGIS Feeds (18-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-17T01:19:09.999Z",
+  "lastUpdated": "2025-09-18T01:18:36.275Z",
   "items": [
+    {
+      "title": "Common segments",
+      "description": "<P>Polygons have them.&nbsp; Polylines sometimes.&nbsp; It isn't just about matching coordinates.&nbsp; It is about sharing commonalities.</P>",
+      "link": "https://community.esri.com/t5/python-blog/common-segments/ba-p/1651289",
+      "guid": "https://community.esri.com/t5/python-blog/common-segments/ba-p/1651289",
+      "author": "DanPatterson",
+      "date": "2025-09-17T22:51:34.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Using Feature Form in ArcGIS Maps SDK for Kotlin",
+      "description": "<P>Feature form from the ArcGIS Maps SDK for Kotlin toolkit:&nbsp;<A href=\"https://www.esri.com/arcgis-blog/products/developers/developers/feature-forms-in-arcgis-maps-sdk-for-kotlin\">https://www.esri.com/arcgis-blog/products/developers/developers/feature-forms-in-arcgis-maps-sdk-for-kotlin</A><BR />Full-featured out-of-the-box. Integrate form into your app with minimal code. Learn how to make a feature form definition.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/using-feature-form-in-arcgis-maps-sdk-for-kotlin/ba-p/1650878",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/using-feature-form-in-arcgis-maps-sdk-for-kotlin/ba-p/1650878",
+      "author": "MarkDugger1",
+      "date": "2025-09-17T16:00:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Announcing ArcGIS Runtime SDK for Android 100.15.7 with 16KB page size support",
+      "description": "<P>We’re pleased to announce a special <A href=\"https://developers.arcgis.com/android/\" target=\"_self\">ArcGIS Runtime SDK for Android</A> 100.15.7 patch release, adding 16KB page size support.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/announcing-arcgis-runtime-sdk-for-android-100-15-7/ba-p/1650998",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/announcing-arcgis-runtime-sdk-for-android-100-15-7/ba-p/1650998",
+      "author": "Nicholas-Furness",
+      "date": "2025-09-17T13:16:30.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://wcgisweb.washoecounty.us/arcgis/rest/login?redirect=https%3A//wcgisweb.washoecounty.us/arcgis/rest/services/Imagery/Historical_Imagery/MapServer/2011",
+      "guid": "tag:google.com,2013:googlealerts/feed:13638488893655237714",
+      "author": "",
+      "date": "2025-09-17T06:52:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Datasets - WIFIRE Commons Data Catalog",
+      "description": "7 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> Tags: WFIGS. Filter Results. Current Wildland Fire Incident Locations.",
+      "link": "https://wifire-data.sdsc.edu/dataset?tags=WFIGS&q=&_res_format_limit=0&_tags_limit=0&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:723599323935890968",
+      "author": "",
+      "date": "2025-09-16T07:06:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - AMAP Geo",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://www.amapgeo.it/arcgis/rest/login?redirect=https%3A//www.amapgeo.it/arcgis/rest/services/ReteACQ_Rilievo_G/MapServer/548/generateRenderer",
+      "guid": "tag:google.com,2013:googlealerts/feed:11626958840138983371",
+      "author": "",
+      "date": "2025-09-16T04:28:03.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "arcgis/arcade-languageservice - npmmirror 镜像站",
       "description": "@arcgis/arcade-languageservice &middot; <b>ArcGIS Maps SDK for</b> JavaScript - Arcade Language Service.",
