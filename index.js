@@ -435,7 +435,9 @@ function getDateString() {
     'https://www.esri.com/arcgis-blog/products/developers/feed',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
     'https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers',
-    'https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog'
+    'https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog',
+    'https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed',
+    'https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed'
   ];
 
   const googleAlertUrls = [
