@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (18-09-2025)",
+  "title": "Combined ArcGIS Feeds (19-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-18T01:18:36.275Z",
+  "lastUpdated": "2025-09-19T01:21:01.441Z",
   "items": [
+    {
+      "title": "Common points",
+      "description": "<P>A followup to 'Common segments', since it the points that count in the first place.&nbsp; I will compare 'normal' to 'numpy' checks so you can add to your arsenal.</P>",
+      "link": "https://community.esri.com/t5/python-blog/common-points/ba-p/1651670",
+      "guid": "https://community.esri.com/t5/python-blog/common-points/ba-p/1651670",
+      "author": "DanPatterson",
+      "date": "2025-09-19T01:13:37.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Really close points",
+      "description": "<P>This is a follow up to the Common points blog... but with floating point issues addressed.</P>",
+      "link": "https://community.esri.com/t5/python-blog/really-close-points/ba-p/1651707",
+      "guid": "https://community.esri.com/t5/python-blog/really-close-points/ba-p/1651707",
+      "author": "DanPatterson",
+      "date": "2025-09-19T01:12:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Common segments",
       "description": "<P>Polygons have them.&nbsp; Polylines sometimes.&nbsp; It isn't just about matching coordinates.&nbsp; It is about sharing commonalities.</P>",
