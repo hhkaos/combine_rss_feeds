@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (19-09-2025)",
+  "title": "Combined ArcGIS Feeds (20-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-19T01:21:01.441Z",
+  "lastUpdated": "2025-09-20T01:17:23.670Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Flutter <b>SDK</b>: Unhandled Exception parsing Cache-Control header max-age=1.00:00:00",
+      "description": "<b>ArcGIS</b> Flutter <b>SDK</b>: Unhandled Exception parsing Cache-Control header ... <b>API</b> &middot; Data &middot; Blog &middot; Facebook &middot; Twitter &middot; LinkedIn &middot; Instagram. Site design /&nbsp;...",
+      "link": "https://stackoverflow.com/questions/79769502/arcgis-flutter-sdk-unhandled-exception-parsing-cache-control-header-max-age-1-0",
+      "guid": "tag:google.com,2013:googlealerts/feed:16360582548681761091",
+      "author": "",
+      "date": "2025-09-19T17:57:03.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Développeur SIG F/H - Coexya - Saint-Didier-au-Mont-d&#39;Or - WIZBII",
+      "description": "Pour ces projets SIG en mobilité, la BU SIG met en place un socle technique Android basé sur <b>ArcGIS Maps SDK for</b> Kotlin. Cette librairie a pour&nbsp;...",
+      "link": "https://www.wizbii.com/company/coexya/job/developpeur-sig-f-h-1",
+      "guid": "tag:google.com,2013:googlealerts/feed:12337435878249509725",
+      "author": "",
+      "date": "2025-09-19T05:14:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Common points",
       "description": "<P>A followup to 'Common segments', since it the points that count in the first place.&nbsp; I will compare 'normal' to 'numpy' checks so you can add to your arsenal.</P>",
