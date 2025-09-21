@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (20-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (21-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-20T01:17:31.488Z",
+  "lastUpdated": "2025-09-21T01:27:12.842Z",
   "items": [
     {
       "title": "<b>ArcGIS</b> Flutter <b>SDK</b>: Unhandled Exception parsing Cache-Control header max-age=1.00:00:00",
