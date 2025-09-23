@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (22-09-2025)",
+  "title": "Combined ArcGIS Feeds (23-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-22T01:26:19.982Z",
+  "lastUpdated": "2025-09-23T01:19:40.749Z",
   "items": [
+    {
+      "title": "Better Breaks Define Your Thematic Map’s Purpose",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-thematic-maps-purpose",
+      "guid": "http://www.esri.com/arcgis-blog/?post_type=blog&p=250552",
+      "author": "Jim Herries",
+      "date": "2025-09-22T21:09:32.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Layer disappears when zooming. <b>esri</b> leaflet with proj4leaflet - Stack Overflow",
+      "description": "<b>javascript</b> &middot; leaflet &middot; <b>arcgis</b> &middot; proj4js &middot; <b>esri</b>-leaflet &middot; Share. Share a link to ... <b>API</b> &middot; Data &middot; Blog &middot; Facebook &middot; Twitter &middot; LinkedIn &middot; Instagram. Site&nbsp;...",
+      "link": "https://stackoverflow.com/questions/79771230/layer-disappears-when-zooming-esri-leaflet-with-proj4leaflet",
+      "guid": "tag:google.com,2013:googlealerts/feed:18264894868798626134",
+      "author": "",
+      "date": "2025-09-22T05:00:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> Flutter <b>SDK</b>: Unhandled Exception parsing Cache-Control header max-age=1.00:00:00",
       "description": "<b>ArcGIS</b> Flutter <b>SDK</b>: Unhandled Exception parsing Cache-Control header ... <b>API</b> &middot; Data &middot; Blog &middot; Facebook &middot; Twitter &middot; LinkedIn &middot; Instagram. Site design /&nbsp;...",
