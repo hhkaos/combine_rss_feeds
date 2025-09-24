@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (23-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (24-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-23T01:19:48.831Z",
+  "lastUpdated": "2025-09-24T01:20:17.195Z",
   "items": [
+    {
+      "title": "New MapLibre GL JS plugin for open source developers",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/new-maplibre-gl-js-plugin-for-open-source-developers",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2939868",
+      "author": "Allan Laframboise",
+      "date": "2025-09-23T20:18:55.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri introduces a new MapLibre GL JS plugin for open-source developers to create custom, interactive maps on ArcGIS Online.",
+      "processed": true
+    },
     {
       "title": "Better Breaks Define Your Thematic Map’s Purpose",
       "description": "",
@@ -13,6 +25,18 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to better define breaks for your thematic maps in ArcGIS Online to enhance the visualization of your data.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer Job in MINDVERSE CONSULTING SERVICES at Karnataka - Shine.com",
+      "description": "... <b>ArcGIS</b> Enterprise tools and VertiGIS Studio Web and <b>SDK</b> ... - Familiarity with cloud-based GIS solutions like <b>ArcGIS</b> Online and <b>Esri</b> Enterprise. -&nbsp;...",
+      "link": "https://www.shine.com/jobs/arcgis-developer/mindverse-consulting-services/17833487",
+      "guid": "tag:google.com,2013:googlealerts/feed:1264031139761309541",
+      "author": "",
+      "date": "2025-09-22T20:43:05.000Z",
+      "category": "Job offer",
+      "topicsProduct": "\"ArcGIS Pro SDK\"",
+      "summary": "Mindverse Consulting Services is looking for an ArcGIS developer.",
       "processed": true
     },
     {
