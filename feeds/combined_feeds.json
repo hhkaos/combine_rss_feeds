@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (24-09-2025)",
+  "title": "Combined ArcGIS Feeds (25-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-24T01:20:08.378Z",
+  "lastUpdated": "2025-09-25T01:20:50.439Z",
   "items": [
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> JavaScript - 自定义（GLSL）修改高亮图层样式- yfceshi - 博客园",
+      "description": "ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 自定义（GLSL）修改高亮图层样式核心代码完整代码在线示例<b>ArcGIS Maps SDK for</b> JavaScript 从4.29&nbsp;...",
+      "link": "https://www.cnblogs.com/yfceshi/p/19108985",
+      "guid": "tag:google.com,2013:googlealerts/feed:15286645395301012840",
+      "author": "",
+      "date": "2025-09-24T08:21:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ESRI ArcGIS</b> Application Developer Job in Randstad Digital at Maharashtra - Shine.com",
+      "description": "<b>ESRI ArcGIS</b> Application Developer. Randstad ... <b>ESRI ArcGIS</b> Application Developer; ArcFM; Microsoft Dot Net; <b>ArcGIS</b> Pro <b>SDK</b>; <b>ArcGIS Javascript</b> APIs&nbsp;...",
+      "link": "https://www.shine.com/jobs/esri-arcgis-application-developer/randstad-digital/17852207",
+      "guid": "tag:google.com,2013:googlealerts/feed:5441485497080335851",
+      "author": "",
+      "date": "2025-09-24T05:55:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS JSAPI 高级教程- 自由绘制线段、多边形 - CSDN博客",
+      "description": "... <b>ArcGIS Maps SDK for</b> JavaScript 4.33&lt;/title&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;https://openlayers.vip/arcgis_api/4.33/esri/themes/light/main.css&nbsp;...",
+      "link": "https://blog.csdn.net/linzi19900517/article/details/151991648",
+      "guid": "tag:google.com,2013:googlealerts/feed:10201702445147591328",
+      "author": "",
+      "date": "2025-09-23T22:57:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "New MapLibre GL JS plugin for open source developers",
       "description": "",
