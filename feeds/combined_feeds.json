@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (27-09-2025)",
+  "title": "Combined ArcGIS Feeds (28-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-27T01:17:12.658Z",
+  "lastUpdated": "2025-09-28T01:28:03.610Z",
   "items": [
+    {
+      "title": "Software Development Engineer II - <b>JavaScript</b> Web Development Job | <b>Esri</b> Career Opportunity",
+      "description": "Working knowledge of the <b>Esri</b> Calcite Design System and <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>, or similar mapping frameworks, to build interactive and&nbsp;...",
+      "link": "https://boards.greenhouse.io/esri/jobs/4919572007",
+      "guid": "tag:google.com,2013:googlealerts/feed:13611516462870262834",
+      "author": "",
+      "date": "2025-09-26T22:13:09.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS Hosted Data Services: Management tools differences",
       "description": "",
