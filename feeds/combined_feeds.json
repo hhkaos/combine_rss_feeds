@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (28-09-2025)",
+  "title": "Combined ArcGIS Feeds (29-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-28T01:28:03.610Z",
+  "lastUpdated": "2025-09-29T01:22:26.400Z",
   "items": [
+    {
+      "title": "ArcGIS JSAPI 高级教程- 高亮效果优化之开启使用多高亮样式 - CSDN博客",
+      "description": "arcgis-maps-sdk-unity-1.0.0.tgz &middot; 《<b>ArcGIS Maps SDK for</b>&nbsp;...",
+      "link": "https://blog.csdn.net/linzi19900517/article/details/152177079",
+      "guid": "tag:google.com,2013:googlealerts/feed:9751409828577357969",
+      "author": "",
+      "date": "2025-09-28T01:36:42.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Software Development Engineer II - <b>JavaScript</b> Web Development Job | <b>Esri</b> Career Opportunity",
       "description": "Working knowledge of the <b>Esri</b> Calcite Design System and <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>, or similar mapping frameworks, to build interactive and&nbsp;...",
