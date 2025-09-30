@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (30-09-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-29T01:22:32.362Z",
+  "lastUpdated": "2025-09-30T01:21:27.192Z",
   "items": [
+    {
+      "title": "Download SRTM DEM Data in <b>ArcGIS</b> Pro using Google Earth Engine Python <b>API</b>",
+      "description": "Download SRTM DEM Data in <b>ArcGIS</b> Pro using Google Earth Engine Python <b>API</b>. 5 views · 1 hour ago #ArcGISPro #GoogleEarthEngine #SRTM ...more. GIS&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=o781TS-L3M8",
+      "guid": "tag:google.com,2013:googlealerts/feed:8152983186781314672",
+      "author": "",
+      "date": "2025-09-29T18:05:45.000Z",
+      "category": "Video",
+      "topicsProduct": "Native SDKs",
+      "summary": "Esri released a video tutorial on how to work with Native SDKs for developing custom mobile apps with ArcGIS technology.",
+      "processed": true
+    },
     {
       "title": "ArcGIS JSAPI 高级教程- 高亮效果优化之开启使用多高亮样式 - CSDN博客",
       "description": "arcgis-maps-sdk-unity-1.0.0.tgz &middot; 《<b>ArcGIS Maps SDK for</b>&nbsp;...",
