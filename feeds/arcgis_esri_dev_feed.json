@@ -1,8 +1,104 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (30-09-2025)",
+  "title": "ArcGIS ESRI Dev Feed (01-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-09-30T01:21:27.192Z",
+  "lastUpdated": "2025-10-01T01:37:51.432Z",
   "items": [
+    {
+      "title": "Our Third Hacktoberfest: Celebrating Open Source in 2025",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/our-third-hacktoberfest-celebrating-open-source-in-2025",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2941589",
+      "author": "Raúl Jiménez Ortega",
+      "date": "2025-09-30T18:48:01.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Join Esri in celebrating the third Hacktoberfest event, highlighting open source contributions in 2025. Engage in hackathons, workshops, and more to support the developer community.",
+      "processed": true
+    },
+    {
+      "title": "What’s New in Calcite Design System 3.3 (September 2025)",
+      "description": "Explore what&#039;s new in September 2025 to Calcite Design System, including new components and improvements to help you build a user-friendly UI/UX.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/whats-new-in-calcite-design-system-3-3-september-2025",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2940215",
+      "author": "Kitty Hurley",
+      "date": "2025-09-30T11:15:37.000Z",
+      "category": "Blog",
+      "topicsProduct": "Calcite Design System",
+      "summary": "Learn about the new features and improvements in Calcite Design System 3.3 released in September 2025.",
+      "processed": true
+    },
+    {
+      "title": "Software GIS Developer Job in Picarro, Inc at Karnataka - Shine.com",
+      "description": "... <b>ArcGIS Maps SDK for</b> Javascript 4.x. - Write production-quality code to create responsive web applications. - Handle multiple technical requests&nbsp;...",
+      "link": "https://www.shine.com/jobs/software-gis-developer/picarro-inc/17885856",
+      "guid": "tag:google.com,2013:googlealerts/feed:3945521472709305911",
+      "author": "",
+      "date": "2025-09-30T03:43:29.000Z",
+      "category": "Job",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Picarro Inc. is looking for a software GIS developer. Apply now!",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Releases New Book Demonstrating How GeoAI Powers Greater Automation, Prediction ...",
+      "description": "<b>Esri</b> Releases New Book Demonstrating How GeoAI Powers Greater ... Instantly Connect to Any REST <b>API</b> with Autonomous REST Connector &middot; MHC&nbsp;...",
+      "link": "https://www.bigdatawire.com/this-just-in/esri-releases-new-book-demonstrating-how-geoai-powers-greater-automation-prediction-and-optimization/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16612976024201829910",
+      "author": "",
+      "date": "2025-09-30T02:54:26.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri has released a new book showcasing how GeoAI can enhance automation, prediction, and optimization.",
+      "processed": true
+    },
+    {
+      "title": "Best Mapping Software Platforms Ranked by Ease-of-Use &amp; Features - Impakter",
+      "description": "Three platforms dominate the market in 2025: Maptive, <b>ArcGIS</b> by <b>Esri</b>, and Mapline. ... The platform&#39;s <b>API</b> remains one of the industry&#39;s most&nbsp;...",
+      "link": "https://impakter.com/best-mapping-software-platforms-ranked-by-ease-of-use-features/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16873809502390144835",
+      "author": "",
+      "date": "2025-09-30T02:16:35.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A list of the best mapping software platforms ranked by ease of use and features has been published.",
+      "processed": true
+    },
+    {
+      "title": "Srdot Product Engineer <b>Arcgis</b> Maps <b>Sdk</b> For <b>Javascript</b> Jobs in eligible,-us | Jobright",
+      "description": "Best Srdot Product Engineer <b>Arcgis</b> Maps <b>Sdk</b> For <b>Javascript</b> jobs available in eligible,-us on jobright.ai. Apply to Srdot Product Engineer <b>Arcgis</b>&nbsp;...",
+      "link": "https://jobright.ai/jobs/srdot-product-engineer---arcgis-maps-sdk-for-javascript-jobs-in-remote-eligible%2C-us",
+      "guid": "tag:google.com,2013:googlealerts/feed:11796190144934692822",
+      "author": "",
+      "date": "2025-09-29T21:22:49.000Z",
+      "category": "Job Offer",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "Esri is looking for a Senior Product Engineer for the ArcGIS Maps SDK for JavaScript. Apply now for this remote eligible position!",
+      "processed": true
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | AnitaB.org Job Board",
+      "description": "Responsibilities. Design, develop, test, document, release, and support the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (including core <b>API</b>, web components, and&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/59598686-sr-product-engineer-arcgis-maps-sdk-for-javascript",
+      "guid": "tag:google.com,2013:googlealerts/feed:2238250332251953882",
+      "author": "",
+      "date": "2025-09-29T21:19:22.000Z",
+      "category": "Job listing",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Esri is looking for a Sr. Product Engineer for ArcGIS Maps SDK for Javascript. Join the team to work on cutting-edge mapping technology!",
+      "processed": true
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | Jobright.ai",
+      "description": "Apply to Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> on Jobright: Elevate Your Search with an AI Copiloted Experience.",
+      "link": "https://jobright.ai/jobs/info/68dad1f407c157682e56de9d",
+      "guid": "tag:google.com,2013:googlealerts/feed:9151930758180270725",
+      "author": "",
+      "date": "2025-09-29T20:42:20.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New updates to ArcGIS Enterprise provide enhanced security features and improved scalability for enterprise users.",
+      "processed": true
+    },
     {
       "title": "Download SRTM DEM Data in <b>ArcGIS</b> Pro using Google Earth Engine Python <b>API</b>",
       "description": "Download SRTM DEM Data in <b>ArcGIS</b> Pro using Google Earth Engine Python <b>API</b>. 5 views · 1 hour ago #ArcGISPro #GoogleEarthEngine #SRTM ...more. GIS&nbsp;...",
@@ -13,6 +109,30 @@
       "category": "Video",
       "topicsProduct": "Native SDKs",
       "summary": "Esri released a video tutorial on how to work with Native SDKs for developing custom mobile apps with ArcGIS technology.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Releases New Book Demonstrating How GeoAI Powers Greater Automation, Prediction ...",
+      "description": "<b>Esri</b> Releases New Book Demonstrating How GeoAI Powers Greater Automation ... <b>Javascript</b> is required for you to be able to read premium content.",
+      "link": "https://www.eagletribune.com/region/esri-releases-new-book-demonstrating-how-geoai-powers-greater-automation-prediction-and-optimization/article_8d3c28b0-923f-58fe-8ebe-f2a7d35d594b.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:14907934322148693484",
+      "author": "",
+      "date": "2025-09-29T13:28:42.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Esri releases new book demonstrating how GeoAI powers greater automation, prediction, and optimization.",
+      "processed": true
+    },
+    {
+      "title": "New <b>Esri</b> Book Explores How Tactile Maps Provide Essential Context for People Who Are ...",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved ... <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes delayed at&nbsp;...",
+      "link": "https://markets.financialcontent.com/wral/article/bizwire-2025-9-29-new-esri-book-explores-how-tactile-maps-provide-essential-context-for-people-who-are-visually-impaired",
+      "guid": "tag:google.com,2013:googlealerts/feed:14718961744587858469",
+      "author": "",
+      "date": "2025-09-29T12:03:16.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS StoryMaps",
+      "summary": "New Esri book explores how tactile maps provide essential context for people who are visually impaired.",
       "processed": true
     },
     {
