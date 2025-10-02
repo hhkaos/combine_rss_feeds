@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (01-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (02-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-01T01:37:51.432Z",
+  "lastUpdated": "2025-10-02T01:19:14.630Z",
   "items": [
+    {
+      "title": "Streamlining Spatial Data Discovery and Analytics on Amazon EMR with AWS Glue Data Catalog and ArcGIS GeoAnalytics Engine",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/geoanalytics-engine/analytics/streamlining-spatial-data-discovery-and-analytics-on-amazon-emr-with-aws-glue-data-catalog-and-arcgis-geoanalytics-engine",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2941215",
+      "author": "Arif Masrur",
+      "date": "2025-10-01T20:06:50.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS GeoAnalytics Engine",
+      "summary": "Learn how to streamline spatial data discovery and analytics on Amazon EMR with AWS Glue Data Catalog and ArcGIS GeoAnalytics Engine.",
+      "processed": true
+    },
+    {
+      "title": "Bloxham Sustainability Challenge goes nationwide with <b>Esri</b> UK and Dalcour Maclaren",
+      "description": "<b>Esri</b> UK provides access to GIS to apply spatial analysis in ... Anthropic unveils Claude Sonnet 4.5 with coding, agent <b>SDK</b>, and app upgrades.",
+      "link": "https://www.edtechinnovationhub.com/news/bloxham-sustainability-challenge-goes-nationwide-with-esri-uk-and-dalcour-maclaren",
+      "guid": "tag:google.com,2013:googlealerts/feed:5849157692015859891",
+      "author": "",
+      "date": "2025-10-01T11:01:56.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "The Bloxham Sustainability Challenge, in partnership with Esri UK and Dalcour Maclaren, is expanding nationwide to inspire students in GIS technology and sustainability.",
+      "processed": true
+    },
+    {
+      "title": "Anthropic unveils Claude Sonnet 4.5 with coding, agent <b>SDK</b>, and app upgrades",
+      "description": "... a VS Code extension, memory tools in the Claude <b>API</b>, app-based code execution, a Chrome extension, and the Claude Agent <b>SDK</b> for developers.",
+      "link": "https://www.edtechinnovationhub.com/news/anthropic-unveils-claude-sonnet-45-with-coding-agent-sdk-and-app-upgrades",
+      "guid": "tag:google.com,2013:googlealerts/feed:7966565468253022050",
+      "author": "",
+      "date": "2025-10-01T06:34:03.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Anthropic unveils Claude Sonnet 45 with coding agent SDK and app upgrades.",
+      "processed": true
+    },
     {
       "title": "Our Third Hacktoberfest: Celebrating Open Source in 2025",
       "description": "",
@@ -25,6 +61,18 @@
       "category": "Blog",
       "topicsProduct": "Calcite Design System",
       "summary": "Learn about the new features and improvements in Calcite Design System 3.3 released in September 2025.",
+      "processed": true
+    },
+    {
+      "title": "복잡도 높아만 가는 도시 설계…“해답은 데이터와 직관성” - Daum",
+      "description": "&#39;아크지아이에스 맵스 소프트웨어 개발 키트 포 유니티&#39;(<b>ArcGIS Maps SDK for</b> Unity)는 개발자들이 유니티 내에서 맵 크리에이터 사용자 인터페이스(UI)&nbsp;...",
+      "link": "https://v.daum.net/v/20250930075348350",
+      "guid": "tag:google.com,2013:googlealerts/feed:9971885584399768495",
+      "author": "",
+      "date": "2025-09-30T04:28:09.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri South Korea offers unlimited free access to ArcGIS Online during the COVID-19 crisis to support health and safety efforts.",
       "processed": true
     },
     {
