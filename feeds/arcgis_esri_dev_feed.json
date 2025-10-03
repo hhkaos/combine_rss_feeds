@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (03-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-02T01:19:14.630Z",
+  "lastUpdated": "2025-10-03T01:18:45.321Z",
   "items": [
+    {
+      "title": "What's Coming in ArcGIS Experience Builder (October 2025)",
+      "description": "<P><SPAN>A sneak peek into new features in Experience Builder for the October release of ArcGIS Online.</SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-october/ba-p/1655059",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-october/ba-p/1655059",
+      "author": "Jianxia",
+      "date": "2025-10-03T00:52:52.000Z",
+      "category": "Blog",
+      "topicsProduct": "Experience Builder",
+      "summary": "Discover the new features and improvements coming to ArcGIS Experience Builder in October, including dynamic component resizing and new widgets.",
+      "processed": true
+    },
     {
       "title": "Streamlining Spatial Data Discovery and Analytics on Amazon EMR with AWS Glue Data Catalog and ArcGIS GeoAnalytics Engine",
       "description": "",
