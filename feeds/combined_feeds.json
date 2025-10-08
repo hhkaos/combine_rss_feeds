@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (07-10-2025)",
+  "title": "Combined ArcGIS Feeds (08-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-07T01:19:58.316Z",
+  "lastUpdated": "2025-10-08T01:19:43.593Z",
   "items": [
+    {
+      "title": "University of Redlands Partnership Opens High-Tech Mapping Career Pathways for Arroyo ...",
+      "description": "The <b>Esri</b> Globi mascot; <b>Esri</b> Senior Account Manager, Higher Education ... Try watching this video on www.youtube.com, or enable <b>JavaScript</b> if it is&nbsp;...",
+      "link": "https://iecn.com/university-of-redlands-opens-mapping-career-pathways/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12869269102063324149",
+      "author": "",
+      "date": "2025-10-07T09:55:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "How to build open source applications using basemap sessions",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/how-to-build-open-source-applications-using-basemap-sessions",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2940794",
+      "author": "Sheryl Tania",
+      "date": "2025-10-07T07:00:41.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "GIS Developer - VLink Inc - Peterborough, ON - Dice",
+      "description": "Job Details &middot; VertiGIS Studio Web SDK (preferred) &middot; Geocortex Viewer for HTML5 SDK &middot; <b>ArcGIS Maps SDK for</b> JavaScript (formerly ArcGIS API for JavaScript).",
+      "link": "https://www.dice.com/job-detail/0915ecc2-6ae5-4b95-b321-f0699360134d",
+      "guid": "tag:google.com,2013:googlealerts/feed:17641077943477396887",
+      "author": "",
+      "date": "2025-10-07T05:45:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Geospatial Developer - Careers",
+      "description": "Experience designing dashboards using <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> and <b>ArcGIS</b> Portal Dashboards. Experience configuring and customizing <b>ArcGIS</b>&nbsp;...",
+      "link": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Geospatial-Developer_R0227680",
+      "guid": "tag:google.com,2013:googlealerts/feed:4196756971519058845",
+      "author": "",
+      "date": "2025-10-06T22:51:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "New Lidar Coverage in World Elevation Layers – Oct 2025",
       "description": "",
