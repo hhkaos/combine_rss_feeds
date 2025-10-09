@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (08-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (09-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-08T01:19:53.234Z",
+  "lastUpdated": "2025-10-09T01:20:38.214Z",
   "items": [
+    {
+      "title": "Navigating Mobile Web Mapping: A Developer's Guide to iOS browsers",
+      "description": "<P>When it comes to building web mapping applications, developers often encounter unique obstacles when targeting Safari and all other browsers on <STRONG>iOS</STRONG>. iOS devices often have stricter memory and CPU usage limits compared to their Android counterparts, making web mapping applications more susceptible to browser tab refreshes. The goal of this blog is to provide information and guidance for customers using web applications that are causing browser tab refreshing on iOS devices. This can be any web app, including ArcGIS configurable apps and builders, custom apps built with the ArcGIS Maps SDK for JavaScript, or any other memory or processing intensive app.</P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/navigating-mobile-web-mapping-a-developer-s-guide/ba-p/1656433",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/navigating-mobile-web-mapping-a-developer-s-guide/ba-p/1656433",
+      "author": "JuliePowell",
+      "date": "2025-10-08T21:08:45.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Learn how to navigate mobile web mapping with a developer's guide to ensure optimal performance and user experience on mobile devices.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri ArcGIS</b> Location Platform Adds Session Usage Pricing for Basemaps - FinancialContent",
+      "description": "<b>Esri ArcGIS</b> Location Platform Adds Session Usage Pricing for Basemaps. By: <b>Esri</b> ... <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes&nbsp;...",
+      "link": "https://markets.financialcontent.com/wral/article/bizwire-2025-10-8-esri-arcgis-location-platform-adds-session-usage-pricing-for-basemaps",
+      "guid": "tag:google.com,2013:googlealerts/feed:15551168395484315332",
+      "author": "",
+      "date": "2025-10-08T18:59:30.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Location Platform",
+      "summary": "Esri's ArcGIS Location Platform now offers session usage pricing for basemaps, providing users with more flexibility and cost-effective options.",
+      "processed": true
+    },
+    {
+      "title": "Red Gate Group Mid-Level Geospatial Developer - SmartRecruiters",
+      "description": "In this role, you will leverage your software development and geospatial knowledge to create integrated solutions using <b>ArcGIS Maps SDK for</b> JavaScript&nbsp;...",
+      "link": "https://www.smartrecruiters.com/RedGateGroup/744000085632796-mid-level-geospatial-developer-",
+      "guid": "tag:google.com,2013:googlealerts/feed:11577492775221640566",
+      "author": "",
+      "date": "2025-10-08T03:42:06.000Z",
+      "category": "Job offer",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Red Gate Group is looking for a mid-level geospatial developer. Apply now!",
+      "processed": true
+    },
     {
       "title": "University of Redlands Partnership Opens High-Tech Mapping Career Pathways for Arroyo ...",
       "description": "The <b>Esri</b> Globi mascot; <b>Esri</b> Senior Account Manager, Higher Education ... Try watching this video on www.youtube.com, or enable <b>JavaScript</b> if it is&nbsp;...",
