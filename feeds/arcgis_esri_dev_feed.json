@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (10-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-09T01:20:38.214Z",
+  "lastUpdated": "2025-10-10T01:20:59.422Z",
   "items": [
+    {
+      "title": "JavaScript Maps SDK is moving to semantic versioning!",
+      "description": "<P>Semantic versioning brings clarity, predictability, and better tooling support to the ArcGIS Maps SDK for JavaScript. Next February we will release 5.0.0!</P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/javascript-maps-sdk-is-moving-to-semantic/ba-p/1656908",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/javascript-maps-sdk-is-moving-to-semantic/ba-p/1656908",
+      "author": "JuliePowell",
+      "date": "2025-10-09T23:05:56.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "The JavaScript Maps SDK is transitioning to a semantic versioning scheme to provide more clarity and stability in future releases.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript is moving to semantic versioning",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/announcements/arcgis-maps-sdk-for-javascript-is-moving-to-semantic-versioning",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2942389",
+      "author": "Julie Powell",
+      "date": "2025-10-09T22:45:10.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "The ArcGIS Maps SDK for JavaScript is adopting Semantic Versioning to improve versioning transparency and clarity for developers.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Hosted Data Services: Visualization & Interactivity Differences",
+      "description": "Understand how services and SDKs impact performance, UX, and visualization quality, so you can make better decisions.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/arcgis-hosted-data-services-visualization-interactivity-differences",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2942023",
+      "author": "Raúl Jiménez Ortega",
+      "date": "2025-10-09T18:00:53.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn about the differences between visualization and interactivity in ArcGIS hosted data services.",
+      "processed": true
+    },
+    {
+      "title": "How to check if an <b>ArcGIS</b> Online Feature Service is a View Layer with the <b>ArcGIS API</b> for Python",
+      "description": "How to check if an <b>ArcGIS</b> Online Feature Service is a View Layer with the <b>ArcGIS API</b> for Python. No views · 4 hours ago ...more&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=WM5t9oQ1BOA",
+      "guid": "tag:google.com,2013:googlealerts/feed:5964805680138465606",
+      "author": "",
+      "date": "2025-10-09T16:58:11.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create custom basemaps in ArcGIS Online using ArcGIS Vector Tile Style Editor.",
+      "processed": true
+    },
+    {
+      "title": "Using <b>ArcGIS SDK</b> (py) Natively in Snowflake | by Venkat Sekar - Medium",
+      "description": "Demonstration of interfacing with <b>ArcGIS</b> natively from Snowflake, using <b>ArcGIS</b> python <b>SDK</b> ... <b>ArcGIS</b> Rest <b>API</b> in this article, Interfacing with <b>ArcGIS</b>&nbsp;...",
+      "link": "https://medium.com/snowflake/using-arcgis-sdk-py-natively-in-snowflake-d15f138d26ce",
+      "guid": "tag:google.com,2013:googlealerts/feed:17291498859203492295",
+      "author": "",
+      "date": "2025-10-09T15:43:11.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Learn how to use ArcGIS SDK py natively in Snowflake to integrate spatial analytics into your data workflows.",
+      "processed": true
+    },
     {
       "title": "Navigating Mobile Web Mapping: A Developer's Guide to iOS browsers",
       "description": "<P>When it comes to building web mapping applications, developers often encounter unique obstacles when targeting Safari and all other browsers on <STRONG>iOS</STRONG>. iOS devices often have stricter memory and CPU usage limits compared to their Android counterparts, making web mapping applications more susceptible to browser tab refreshes. The goal of this blog is to provide information and guidance for customers using web applications that are causing browser tab refreshing on iOS devices. This can be any web app, including ArcGIS configurable apps and builders, custom apps built with the ArcGIS Maps SDK for JavaScript, or any other memory or processing intensive app.</P>",

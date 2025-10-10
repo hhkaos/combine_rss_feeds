@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (10-10-2025)]]></title>
+        <title><![CDATA[Combined ArcGIS Feeds (10-10-2025)]]></title>
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Oct 2025 01:20:59 GMT</lastBuildDate>
-        <pubDate>Fri, 10 Oct 2025 01:20:59 GMT</pubDate>
+        <lastBuildDate>Fri, 10 Oct 2025 01:20:49 GMT</lastBuildDate>
+        <pubDate>Fri, 10 Oct 2025 01:20:49 GMT</pubDate>
         <item>
             <title><![CDATA[JavaScript Maps SDK is moving to semantic versioning!]]></title>
             <description><![CDATA[<P>Semantic versioning brings clarity, predictability, and better tooling support to the ArcGIS Maps SDK for JavaScript. Next February we will release 5.0.0!</P>]]></description>
@@ -537,6 +537,13 @@
             <link>https://www.afp.com/en/infos/esri-establishes-esri-mx-geospatial-innovation-center-mexico-local-leadership</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:3637835930358366693</guid>
             <pubDate>Fri, 05 Sep 2025 01:23:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Two dead, including suspect, following mass stabbing on Manitoba First Nation - CP24]]></title>
+            <description><![CDATA[You need to enable <b>JavaScript</b> to run this app. Hollow Water First Nation. Manitoba. <b>Esri</b>, USGS | <b>Esri</b> Canada, <b>Esri</b> ... <b>Esri</b> Canada. Powered by <b>Esri</b>.]]></description>
+            <link>https://www.cp24.com/news/canada/2025/09/04/two-dead-including-suspect-following-mass-stabbing-on-manitoba-first-nation/</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:2178709328310594666</guid>
+            <pubDate>Thu, 04 Sep 2025 17:15:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>Esri</b> Establishes <b>Esri</b> MX as a Geospatial Innovation Center for Mexico with Local Leadership]]></title>
@@ -1273,6 +1280,13 @@ Performance note
             <pubDate>Mon, 18 Aug 2025 06:14:28 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[15 datasets found - DVRPC Data Catalog]]></title>
+            <description><![CDATA[Original Sources: PA - PennDOT NJ -... <b>API</b>; <b>ESRI</b> Feature Class; GeoJSON; HTML; XML. You can also access this registry using the <b>API</b> (see <b>API</b> Docs).]]></description>
+            <link>https://catalog.dvrpc.org/dataset/?category=Boundaries&amp;res_format=API&amp;dataset_level=Geospatial</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:14780149464681209633</guid>
+            <pubDate>Sat, 16 Aug 2025 18:29:52 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Dataset - City of Phoenix Open Data]]></title>
             <description><![CDATA[71 datasets found. Groups: Mapping Licenses: Creative Commons Attribution Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> CSV&nbsp;...]]></description>
             <link>https://phoenixopendata.com/dataset/?groups=mapping&amp;license_id=cc-by&amp;res_format=ArcGIS+GeoServices+REST+API&amp;res_format=CSV&amp;res_format=KML&amp;res_format=HTML</link>
@@ -1644,6 +1658,13 @@ Performance note
             <pubDate>Thu, 31 Jul 2025 02:00:22 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[<b>ArcGIS JavaScript API</b>: DSECUnidade/Restaurant2020v2]]></title>
+            <description><![CDATA[<b>ArcGIS JavaScript API</b>: DSECUnidade/Restaurant2020v2, Built using the <b>ArcGIS JavaScript API</b>.]]></description>
+            <link>https://www.dsec.gov.mo/CensusGIS/rest/services/DSECUnidade/Restaurant2020v2/MapServer?f=jsapi</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:2637989701516545160</guid>
+            <pubDate>Wed, 30 Jul 2025 18:55:49 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[25-529.B - Sr. GIS Analyst - Hilcorp]]></title>
             <description><![CDATA[This role requires a self-starter with deep technical expertise in <b>Esri&#39;s</b> suite of desktop tools, SQL Server geodatabase management, and <b>ArcGIS</b>&nbsp;...]]></description>
             <link>https://hec.wd5.myworkdayjobs.com/en-US/Hilcorp_Energy_Company/job/Houston-TX/XMLNAME-25-529B---Sr-GIS-Analyst_R005287</link>
@@ -1700,6 +1721,13 @@ Performance note
             <guid isPermaLink="false">https://community.esri.com/t5/arcgis-maps-sdks-native-blog/logging-into-the-future-introducing-the-next/ba-p/1637644</guid>
             <dc:creator><![CDATA[LucasDanzinger]]></dc:creator>
             <pubDate>Wed, 30 Jul 2025 15:26:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<b>ArcGIS</b> GeoServices REST <b>API</b> - Dataset - Catalog - Data.gov]]></title>
+            <description><![CDATA[Table containing authoritative sales tax growth values for Sioux Falls, South Dakota. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML.]]></description>
+            <link>https://catalog.data.gov/dataset/?tags=finance&amp;_tags_limit=0&amp;res_format=ArcGIS+GeoServices+REST+API</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:12311197028063033041</guid>
+            <pubDate>Wed, 30 Jul 2025 14:40:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Logging into the future: Introducing the Next Generation of Authentication in ArcGIS Maps SDK for Qt]]></title>
@@ -1889,6 +1917,13 @@ Performance note
             <pubDate>Wed, 23 Jul 2025 16:29:59 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dataset - DetroitData]]></title>
+            <description><![CDATA[12 datasets found. Tags: bseed Organizations: City of Detroit Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter&nbsp;...]]></description>
+            <link>https://detroitdata.org/dataset/?_groups_limit=0&amp;_organization_limit=0&amp;tags=bseed&amp;organization=city-of-detroit&amp;_tags_limit=0&amp;res_format=ArcGIS+GeoServices+REST+API</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:12073400686162234886</guid>
+            <pubDate>Wed, 23 Jul 2025 08:00:45 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[<b>arcgis</b>-location-services-mcp]]></title>
             <description><![CDATA[An <b>ArcGIS</b> Developer <b>API</b> key is required, which can be obtained by ... <b>JavaScript</b>Map Services. 2025.03.20. google-maps. By&nbsp;...]]></description>
             <link>https://www.mcpworld.com/detail/5cfabeae22858be0960c8884e60cf265</link>
@@ -1951,6 +1986,13 @@ Performance note
             <link>https://gis.orrsc.com/server/rest/services/Taber/Infrastructure/FeatureServer/13;tokenUrl=;token=UIrIQFU3jc17856sPAasNa9LB4wqEJdYCVYVZvopvg4</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:16716850612613902826</guid>
             <pubDate>Mon, 21 Jul 2025 15:03:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Checking the <b>ArcGIS API</b> for Python version being utilised by your IDE - YouTube]]></title>
+            <description><![CDATA[A quick video to see how you can find out the version of the <b>ArcGIS API</b> for Python being used by your Python interpreter.]]></description>
+            <link>https://www.youtube.com/watch?v=_Ji4cumsOec</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:10774739480494642011</guid>
+            <pubDate>Mon, 21 Jul 2025 10:37:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[U.S. Fish &amp; Wildlife Service - Organizations - WIFIRE Commons Data Catalog]]></title>
@@ -2021,6 +2063,13 @@ Performance note
             <link>https://blog.51cto.com/u_16213658/14065401</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5350629484713775893</guid>
             <pubDate>Fri, 18 Jul 2025 21:32:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[City of Champaign - Organizations]]></title>
+            <description><![CDATA[The data set covers signs owned by the city, IDOT, Champaign township, small selection of... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; GeoJSON &middot; ZIP&nbsp;...]]></description>
+            <link>https://data.ccrpc.org/organization/champaign?organization=champaign</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:3206213048009864605</guid>
+            <pubDate>Fri, 18 Jul 2025 13:11:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>ArcGIS</b> Server REST <b>API</b> Login]]></title>
@@ -2105,6 +2154,13 @@ Performance note
             <link>https://github.com/Esri/arcgis-python-api/issues/2326</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5945708130468855636</guid>
             <pubDate>Wed, 16 Jul 2025 18:27:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Get started with Radio Buttons in <b>ArcGIS</b> Pro - YouTube]]></title>
+            <description><![CDATA[<b>Esri</b> Eastern Africa•204 views &middot; 7:41 &middot; Go to channel &middot; Adding Feature Layers using <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>. <b>Esri</b> Eastern Africa•255 views.]]></description>
+            <link>https://www.youtube.com/watch?v=vhvmffWRlk4</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:11745006680353995404</guid>
+            <pubDate>Wed, 16 Jul 2025 14:00:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>Esri</b> Releases Essential Guide to Empowering Storytelling with Maps - Bluefield Daily Telegraph]]></title>
@@ -2431,6 +2487,13 @@ Uploading sample code under a new folder called java-maps-sdk</pre>
             <pubDate>Wed, 09 Jul 2025 05:23:11 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Mapping - Group - City of Phoenix Open Data]]></title>
+            <description><![CDATA[​ Pickleball is a... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Swimming Pools. &lt;div&gt;&lt;&nbsp;...]]></description>
+            <link>https://www.phoenixopendata.com/group/mapping?page=2</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5392048694018219611</guid>
+            <pubDate>Wed, 09 Jul 2025 03:52:04 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Department of Health Care Access and Information]]></title>
             <description><![CDATA[HCAI Emergency Operations Center Application for Earthquakes, Fires, PSPS. MAP &middot; HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>. Medical Service Study Areas. This&nbsp;...]]></description>
             <link>https://data.chhs.ca.gov/organization/c313a13b-c913-423c-8555-123e2b76cf20?_tags_limit=0&amp;res_format=ArcGIS+GeoServices+REST+API</link>
@@ -2600,6 +2663,13 @@ Contains a sample app using the ArcGIS Maps SDK for Java to display a map with a
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2836552</guid>
             <dc:creator><![CDATA[Warren Davison]]></dc:creator>
             <pubDate>Wed, 02 Jul 2025 14:00:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ArcGIS Map components with reactiveUtils]]></title>
+            <link>https://www.youtube.com/watch?v=YP3I4HnZzC8</link>
+            <guid isPermaLink="false">yt:video:YP3I4HnZzC8</guid>
+            <dc:creator><![CDATA[Rene Rubalcava]]></dc:creator>
+            <pubDate>Wed, 02 Jul 2025 10:38:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Location Services: What’s New for Developers in June 2025?]]></title>
@@ -2783,6 +2853,13 @@ Contains a sample app using the ArcGIS Maps SDK for Java to display a map with a
             <link>https://stackoverflow.com/questions/79684140/esri-arcgis-net-sdk-graphics-not-clearing</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:17861128722911351169</guid>
             <pubDate>Mon, 30 Jun 2025 00:35:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PG-Tools: A framework and an <b>ArcGIS</b> toolbox to standardize paleoglacier outlines and attributes]]></title>
+            <description><![CDATA[The shaded relief map is the terrain basemap provided in <b>ArcGIS</b> Pro, which was compiled from various data source providers, including <b>Esri</b>, NASA&nbsp;...]]></description>
+            <link>https://www.sciencedirect.com/science/article/pii/S0169555X25003034</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:8837593129364344992</guid>
+            <pubDate>Sun, 29 Jun 2025 10:16:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>ArcGIS</b> Online Feature Layer to File Geodatabase Feature Class with the <b>ArcGIS API</b> for Python]]></title>
@@ -3086,6 +3163,13 @@ Voice to Zoom in the Map</pre>
             <pubDate>Thu, 19 Jun 2025 02:50:29 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS]]></title>
+            <link>https://www.youtube.com/watch?v=jeDCseUXtW0</link>
+            <guid isPermaLink="false">yt:video:jeDCseUXtW0</guid>
+            <dc:creator><![CDATA[Esri Developers]]></dc:creator>
+            <pubDate>Wed, 18 Jun 2025 18:16:18 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Issues · <b>Esri</b>/calcite-design-system - GitHub]]></title>
             <description><![CDATA[A monorepo containing the packages for <b>Esri&#39;s</b> Calcite Design System - <b>Esri</b> ... <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Issues logged by <b>ArcGIS SDK</b> for <b>JavaScript</b>&nbsp;...]]></description>
             <link>https://github.com/Esri/calcite-design-system/labels/ArcGIS%20Maps%20SDK%20for%20JavaScript</link>
@@ -3258,6 +3342,13 @@ Created Extent Helper Tool</pre>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2809082</guid>
             <dc:creator><![CDATA[Martino Yovo]]></dc:creator>
             <pubDate>Tue, 10 Jun 2025 14:30:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...]]></title>
+            <description><![CDATA[Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...]]></description>
+            <link>https://x.com/EsriDevs/status/1932226258546430291</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:15857777943308089375</guid>
+            <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>
