@@ -423,6 +423,7 @@ function getDateString() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A',
     'https://medium.com/feed/geoai',
