@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (11-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-10T01:20:59.422Z",
+  "lastUpdated": "2025-10-11T01:17:55.935Z",
   "items": [
+    {
+      "title": "ArcGIS Geocoding Service – Discover What’s New",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/arcgis-geocoding-service-discover-whats-new",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2942409",
+      "author": "Robert Jensen",
+      "date": "2025-10-10T21:08:15.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS GeoAnalytics Engine",
+      "summary": "Learn about the latest updates and enhancements to the ArcGIS Geocoding service in this blog post.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> JavaScript is moving to semantic versioning",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript is moving to semantic versioning ... Geiler dreier einfach porno. Amazon arsch ficke. Barolo jahrgang 1964. Brüste&nbsp;...",
+      "link": "http://grey-kredit.ru/PIG",
+      "guid": "tag:google.com,2013:googlealerts/feed:8195444520232673",
+      "author": "",
+      "date": "2025-10-10T14:10:28.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ArcGIS Online introduces new updates for data visualization and analysis.",
+      "processed": true
+    },
+    {
+      "title": "Budget measures to result in small income losses - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... In its post-Budget briefing, the <b>ESRI</b> said the losses will average 2% of&nbsp;...",
+      "link": "https://www.rte.ie/news/business/2025/1010/1537775-esri-budget/",
+      "guid": "tag:google.com,2013:googlealerts/feed:10254308358474568476",
+      "author": "",
+      "date": "2025-10-10T05:35:23.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri has announced the launch of a new product feature in ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Location Platform d&#39;<b>Esri</b> ajoute une tarification à l&#39;utilisation par session pour les ...",
+      "description": "<b>ArcGIS</b> Location Platform d&#39;<b>Esri</b> ajoute une tarification à l&#39;utilisation ... <b>Javascript</b> is required for you to be able to read premium content.",
+      "link": "https://www.standard-journal.com/ap/business/article_16249ee9-f5b9-5fd3-8956-422bdae67871.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:14853750927344947621",
+      "author": "",
+      "date": "2025-10-09T23:34:27.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ArcGIS Online introduces new tools for better collaboration and data sharing among users.",
+      "processed": true
+    },
+    {
+      "title": "Plataforma de Localização <b>ArcGIS</b> da <b>Esri</b> adiciona preços por uso de sessão para mapas base",
+      "description": "Plataforma de Localização <b>ArcGIS</b> da <b>Esri</b> adiciona preços por uso de sessão para mapas base ... <b>Javascript</b> is required for you to be able to read&nbsp;...",
+      "link": "https://www.standard-journal.com/ap/business/article_6c40be21-4773-5273-b604-f74b3acaed01.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:13295604592961711741",
+      "author": "",
+      "date": "2025-10-09T23:34:25.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A new update for ArcGIS Online has been released, improving performance and adding new features for users.",
+      "processed": true
+    },
     {
       "title": "JavaScript Maps SDK is moving to semantic versioning!",
       "description": "<P>Semantic versioning brings clarity, predictability, and better tooling support to the ArcGIS Maps SDK for JavaScript. Next February we will release 5.0.0!</P>",
