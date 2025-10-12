@@ -1,7 +1,7 @@
 {
-  "title": "Combined ArcGIS Feeds (11-10-2025)",
+  "title": "Combined ArcGIS Feeds (12-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-11T01:17:44.958Z",
+  "lastUpdated": "2025-10-12T01:24:15.481Z",
   "items": [
     {
       "title": "ArcGIS Geocoding Service – Discover What’s New",
@@ -10,6 +10,18 @@
       "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2942409",
       "author": "Robert Jensen",
       "date": "2025-10-10T21:08:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "GIS Disaster Response Volunteers Build Skills—and Resilience—with Team Rubicon",
+      "description": "Young GIS professionals volunteering with Team Rubicon&#39;s GIS cadre are using <b>ArcGIS</b> tools to map disasters, support relief missions, and build&nbsp;...",
+      "link": "https://teamrubiconusa.org/news-and-stories/gis-disaster-response-volunteers-build-skills-do-good/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12983803479657096657",
+      "author": "",
+      "date": "2025-10-10T20:45:10.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
