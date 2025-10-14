@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (13-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (14-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-13T01:25:49.679Z",
+  "lastUpdated": "2025-10-14T01:20:39.818Z",
   "items": [
+    {
+      "title": "Community Center Pools - <b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. URL: https://services.<b>arcgis</b>.com/sFnw0xNflSi8J0uh/<b>arcgis</b>/rest/services/Community_center_pools/FeatureServer&nbsp;...",
+      "link": "https://data.boston.gov/dataset/community-center-pools/resource/d458f596-27a1-4b20-a88a-251a2bfa1cb7",
+      "guid": "tag:google.com,2013:googlealerts/feed:9566968814095240869",
+      "author": "",
+      "date": "2025-10-13T20:21:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS</b> Online - <b>Esri</b> - Redlands, CA - Dice",
+      "description": "... <b>ArcGIS</b> Online Rest <b>API</b>Job Title - Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> ... Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Job Title - Sr.",
+      "link": "https://www.dice.com/job-detail/cb87612b-8a93-4feb-b1ae-64f7a5bdf5eb",
+      "guid": "tag:google.com,2013:googlealerts/feed:10071105916778367436",
+      "author": "",
+      "date": "2025-10-13T02:22:38.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri showcases new ArcGIS Enterprise features for better data management and collaboration.",
+      "processed": true
+    },
+    {
+      "title": "FacilityList - <b>ArcGIS</b> GeoService - California Health and Human Services Open Data Portal",
+      "description": "Data last updated, August 27, 2024 ; Metadata last updated, August 30, 2025 ; Created, August 27, 2024 ; Format, <b>ArcGIS</b> GeoServices REST <b>API</b>&nbsp;...",
+      "link": "https://data.chhs.ca.gov/dataset/facilitylist/resource/ace40e95-967b-4a62-b131-915220215e89",
+      "guid": "tag:google.com,2013:googlealerts/feed:16021220278887069975",
+      "author": "",
+      "date": "2025-10-12T23:29:25.000Z",
+      "category": "Course",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and share your own interactive maps with ArcGIS Online in this beginner-friendly course.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Geocoding Service – Discover What’s New",
       "description": "",
