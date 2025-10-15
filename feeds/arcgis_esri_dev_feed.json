@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (15-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-14T01:20:39.818Z",
+  "lastUpdated": "2025-10-15T01:23:00.761Z",
   "items": [
+    {
+      "title": "Chinese hackers abuse geo-mapping tool for year-long persistence - Bleeping Computer",
+      "description": "The <b>ArcGIS</b> geographic information system (GIS) is developed by <b>Esri</b> ... <b>API</b> parameter (layer) and executed them on the internal <b>ArcGIS</b> server&nbsp;...",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12663537646394778554",
+      "author": "",
+      "date": "2025-10-14T18:58:21.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Chinese hackers have been exploiting a geo-mapping tool for over a year to achieve persistence on compromised systems.",
+      "processed": true
+    },
+    {
+      "title": "Introducing ArcGIS Topographic Mapping: A unified extension designed for you",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/mapping/introducing-arcgis-topographic-mapping-a-unified-extension-designed-for-you",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2942654",
+      "author": "Josue Aguirre",
+      "date": "2025-10-14T18:30:08.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Introducing ArcGIS Topographic mapping, a unified extension designed for you. Create and share detailed topographic maps with ease.",
+      "processed": true
+    },
+    {
+      "title": "Chinese gang used <b>ArcGIS</b> as a backdoor for a year – and no one noticed - The Register",
+      "description": "The SOE component was modified to accept base64-encoded commands passed through REST <b>API</b> parameters, and the attackers secured their access with a&nbsp;...",
+      "link": "https://www.theregister.com/2025/10/14/chinese_hackers_arcgis_backdoor/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11216610176000518152",
+      "author": "",
+      "date": "2025-10-14T18:06:07.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS",
+      "summary": "Chinese hackers have been found using a backdoor in ArcGIS software to infiltrate companies and government agencies.",
+      "processed": true
+    },
+    {
+      "title": "Senior Product Engineer, <b>ArcGIS Maps SDK for</b> JavaScript at Esri - Remote Rocketship",
+      "description": "... <b>ArcGIS Maps SDK for</b> JavaScript (including core API, web components, and libraries) to enhance product quality • Collaborate with customers and&nbsp;...",
+      "link": "https://www.remoterocketship.com/company/esri/jobs/senior-product-engineer-arcgis-maps-sdk-for-javascript-united-states-remote/",
+      "guid": "tag:google.com,2013:googlealerts/feed:919231767120647011",
+      "author": "",
+      "date": "2025-10-14T08:39:06.000Z",
+      "category": "Job Opportunity",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "Esri is looking for a Senior Product Engineer for ArcGIS Maps SDK for JavaScript in the United States. Apply now!",
+      "processed": true
+    },
+    {
+      "title": "Product Engineer II - ArcGIS Maps SDKs Developer Documentation - Esri - Redlands, CA",
+      "description": "Product Engineer II - <b>ArcGIS Maps SDK for</b> JavaScriptJob Title - Product Engineer II - <b>ArcGIS Maps SDK for</b> JavaScript &middot; EsriCompany Name - Esri.",
+      "link": "https://www.dice.com/job-detail/95965e4c-bd29-4020-985a-67f2bb9d4e07",
+      "guid": "tag:google.com,2013:googlealerts/feed:4873305361628248121",
+      "author": "",
+      "date": "2025-10-14T02:42:34.000Z",
+      "category": "\"Blog\"",
+      "topicsProduct": "\"ArcGIS StoryMaps\"",
+      "summary": "ArcGIS StoryMaps updated with new features for creating immersive storytelling experiences.",
+      "processed": true
+    },
     {
       "title": "Community Center Pools - <b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. URL: https://services.<b>arcgis</b>.com/sFnw0xNflSi8J0uh/<b>arcgis</b>/rest/services/Community_center_pools/FeatureServer&nbsp;...",
@@ -16,6 +76,18 @@
       "processed": true,
       "ignored": true,
       "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "GEODNET and UTTO Official Partnership - FinancialContent",
+      "description": "... <b>Esri&#39;s ArcGIS</b> Field Maps to streamline underground asset mapping and verification. ... <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes&nbsp;...",
+      "link": "https://markets.financialcontent.com/wral/article/bizwire-2025-10-13-geodnet-and-utto-official-partnership",
+      "guid": "tag:google.com,2013:googlealerts/feed:18220608400226356123",
+      "author": "",
+      "date": "2025-10-13T13:34:02.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "GeodNet and UTTO announce official partnership to enhance geospatial data management and analysis capabilities.",
+      "processed": true
     },
     {
       "title": "Sr. Product Engineer - <b>ArcGIS</b> Online - <b>Esri</b> - Redlands, CA - Dice",
