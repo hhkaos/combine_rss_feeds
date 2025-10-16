@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (15-10-2025)",
+  "title": "Combined ArcGIS Feeds (16-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-15T01:22:44.438Z",
+  "lastUpdated": "2025-10-16T01:22:05.692Z",
   "items": [
+    {
+      "title": "Accelerate Geospatial App Development using ArcGIS Portal Tools",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/developers/accelerate-geospatial-app-development-using-arcgis-portal-tools",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2942128",
+      "author": "Kevin Gonzago",
+      "date": "2025-10-15T13:44:10.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "China&#39;s Flax Typhoon Exploits <b>ArcGIS</b> App for Year-Long Persistence - Security Boulevard",
+      "description": "“Instead of using a known malicious tool, the attackers opted to repurpose a legitimate <b>ArcGIS</b> SOE [server object extension] into a covert web shell.",
+      "link": "https://securityboulevard.com/2025/10/chinas-flax-typhoon-exploits-arcgis-app-for-year-long-persistence/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1757949105205416507",
+      "author": "",
+      "date": "2025-10-15T06:18:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "5 GIS tools for 3D GIS visualization in 2025 - GISCARTA",
+      "description": "CesiumJS — Purpose-built for true 3D globes, terrain, and massive 3D Tiles datasets (photogrammetry, buildings, point clouds). <b>ArcGIS Maps SDK for</b>&nbsp;...",
+      "link": "https://giscarta.com/blog/5-gis-tools-for-3d-gis-visualization-in-2025",
+      "guid": "tag:google.com,2013:googlealerts/feed:18240445421096253148",
+      "author": "",
+      "date": "2025-10-15T05:17:04.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://www.gis.dcnr.pa.gov/agsprod/rest/login?redirect=https%3A//www.gis.dcnr.pa.gov/agsprod/rest/services/Parks/StateParksWaterUtilitiesEDITFieldMaps/MapServer/8/metadata",
+      "guid": "tag:google.com,2013:googlealerts/feed:5403090626906464130",
+      "author": "",
+      "date": "2025-10-14T22:01:45.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Chinese hackers abuse geo-mapping tool for year-long persistence - Bleeping Computer",
       "description": "The <b>ArcGIS</b> geographic information system (GIS) is developed by <b>Esri</b> ... <b>API</b> parameter (layer) and executed them on the internal <b>ArcGIS</b> server&nbsp;...",
