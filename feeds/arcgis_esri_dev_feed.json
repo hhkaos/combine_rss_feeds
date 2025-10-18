@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (17-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (18-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-17T01:22:20.020Z",
+  "lastUpdated": "2025-10-18T01:18:07.281Z",
   "items": [
+    {
+      "title": "Deprecation notice: .NET Framework, UWP, and x86 Windows support in ArcGIS Maps SDK for .NET",
+      "description": "<P>In ArcGIS Maps SDK for .NET 200.8, support for .NET Framework, .NET Standard, UWP, and building for x86 Windows is deprecated, and it is the last version of the SDK to support these technologies. Read this article to learn more.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/deprecation-notice-net-framework-uwp-and-x86/ba-p/1658778",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/deprecation-notice-net-framework-uwp-and-x86/ba-p/1658778",
+      "author": "Nicholas-Furness",
+      "date": "2025-10-17T16:55:06.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for .NET",
+      "summary": "Esri has announced the deprecation of support for .NET Framework, UWP, and X86 platforms in upcoming releases of ArcGIS Runtime SDKs for .NET.",
+      "processed": true
+    },
+    {
+      "title": "Breach Roundup: Chinese Hackers Exploited <b>ArcGis</b> - BankInfoSecurity",
+      "description": "This week: Chinese hackers exploited <b>ArcGIS</b>, Internet-exposed call center software under attack, October patch Tuesday, Massachusetts student&nbsp;...",
+      "link": "https://www.bankinfosecurity.com/breach-roundup-chinese-hackers-exploited-arcgis-a-29749",
+      "guid": "tag:google.com,2013:googlealerts/feed:9013606146353856514",
+      "author": "",
+      "date": "2025-10-17T09:14:41.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Chinese hackers exploited ArcGIS servers to map potential military targets in the United States and Russian company was hacked by Conti.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "All current traffic restrictions at intersections shown as points. Updated hourly. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?tags=City+of+Phoenix&tags=open+data",
+      "guid": "tag:google.com,2013:googlealerts/feed:8529557213302362654",
+      "author": "",
+      "date": "2025-10-17T03:52:07.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create your own custom pop-ups in ArcGIS Online using Arcade expressions.",
+      "processed": true
+    },
+    {
+      "title": "Application Developer - Accenture",
+      "description": "... <b>Javascript API&#39;s</b>, ArcPy, ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>, FME -Define ... <b>ESRI ArcGIS</b>. - This position is based at our Mumbai office. - A 15&nbsp;...",
+      "link": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5115524-S1898342_en",
+      "guid": "tag:google.com,2013:googlealerts/feed:415875503890550583",
+      "author": "",
+      "date": "2025-10-17T00:43:52.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a dynamic data-driven web app using ArcGIS Online in this tutorial.",
+      "processed": true
+    },
     {
       "title": "EPYA 2026 EIG",
       "description": "<P>This article provides you with the <STRONG>ArcGIS API for Python Associate 2026</STRONG> <STRONG>Exam Information Guide (EPYA EIG)</STRONG>. EIGs are the primary resource for exam preparation. For more information on exam preparation resources, click <A href=\"https://community.esri.com/t5/esri-technical-certification-program-information/esri-exam-preparation-resources/ba-p/1273542\">here</A>.&nbsp;&nbsp;</P>",
