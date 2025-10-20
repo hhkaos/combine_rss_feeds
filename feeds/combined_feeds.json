@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (19-10-2025)",
+  "title": "Combined ArcGIS Feeds (20-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-19T01:38:44.274Z",
+  "lastUpdated": "2025-10-20T01:28:00.659Z",
   "items": [
+    {
+      "title": "Re: ArcGIS Online Administration Associate Exam",
+      "description": "<P>Clear and timely update, thank you. The split between the 2024 current exam and the 2026 in-development version (launching June 16, 2026) is helpful for planning. I like that you’ve linked the Learning Plan and EIG, those, plus org admin hands-on (members, licenses, credits, groups), form a solid prep path. I’ll subscribe to the certification updates and watch the exam development board for SME opportunities.</P><P>Regards,</P><P>Venkat</P>",
+      "link": "https://community.esri.com/t5/esri-technical-certification-exams/arcgis-online-administration-associate-exam/bc-p/1658935#M91",
+      "guid": "https://community.esri.com/t5/esri-technical-certification-exams/arcgis-online-administration-associate-exam/bc-p/1658935#M91",
+      "author": "VenkataKondepati",
+      "date": "2025-10-19T21:28:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Re: EUNA 2026 EIG",
+      "description": "<P>Thanks for detailed summary at one place and it is easy to follow.</P><P>Regards,</P><P>Venkat</P><P>&nbsp;</P>",
+      "link": "https://community.esri.com/t5/esri-technical-certification-exams/euna-2026-eig/bc-p/1658934#M90",
+      "guid": "https://community.esri.com/t5/esri-technical-certification-exams/euna-2026-eig/bc-p/1658934#M90",
+      "author": "VenkataKondepati",
+      "date": "2025-10-19T21:26:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Re: EADF 2026 EIG",
+      "description": "<P>Thanks for detailed summary at one place and it is easy to follow.</P><P>Regards,</P><P>Venkat</P><P>&nbsp;</P>",
+      "link": "https://community.esri.com/t5/esri-technical-certification-exams/eadf-2026-eig/bc-p/1658933#M89",
+      "guid": "https://community.esri.com/t5/esri-technical-certification-exams/eadf-2026-eig/bc-p/1658933#M89",
+      "author": "VenkataKondepati",
+      "date": "2025-10-19T21:26:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Re: EPYA 2026 EIG",
+      "description": "<P>Thanks for detailed summary at one place and it is easy to follow.</P><P>Regards,</P><P>Venkat</P><P>&nbsp;</P>",
+      "link": "https://community.esri.com/t5/esri-technical-certification-exams/epya-2026-eig/bc-p/1658932#M88",
+      "guid": "https://community.esri.com/t5/esri-technical-certification-exams/epya-2026-eig/bc-p/1658932#M88",
+      "author": "VenkataKondepati",
+      "date": "2025-10-19T21:26:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Software Development Engineer - Frontend (<b>JavaScript</b>) @ <b>Esri</b> | AnitaB.org Job Board",
+      "description": "<b>Esri</b> is the world leader in geographic information systems (GIS) and developer of <b>ArcGIS</b>, the leading mapping and analytics software used in 75&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/60788144-software-development-engineer-frontend-javascript",
+      "guid": "tag:google.com,2013:googlealerts/feed:12622755238489233418",
+      "author": "",
+      "date": "2025-10-19T16:25:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Esri Canada Product Specialist Arcgis Developer Technology Spcialiste De Produit ...",
       "description": "This may include ArcGIS Experience Builder, <b>ArcGIS Maps SDK for</b> JavaScript, <b>ArcGIS Maps SDK for</b> .NET, ArcGIS Pro SDK for .NET, ArcGIS API for&nbsp;...",
