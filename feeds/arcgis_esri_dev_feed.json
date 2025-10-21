@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (20-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (21-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-20T01:28:11.712Z",
+  "lastUpdated": "2025-10-21T01:24:02.543Z",
   "items": [
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "​ Pickleball is a... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Swimming Pools. &lt;div&gt;&lt;&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?_tags_limit=0&groups=mapping&tags=recreation&tags=open+data&res_format=GeoJSON",
+      "guid": "tag:google.com,2013:googlealerts/feed:14795835283786460454",
+      "author": "",
+      "date": "2025-10-19T22:29:40.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New dataset of recreation areas available for public use through ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "9 datasets found. Departments: Enterprise Formats: HTML <b>ArcGIS</b> GeoServices REST <b>API</b> Tags: City of Phoenix&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?organization=enterprise&res_format=HTML&tags=City+of+Phoenix&tags=political&_tags_limit=0&license_id=cc-by&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:11061800788201193064",
+      "author": "",
+      "date": "2025-10-19T21:30:49.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante."
+    },
     {
       "title": "Re: ArcGIS Online Administration Associate Exam",
       "description": "<P>Clear and timely update, thank you. The split between the 2024 current exam and the 2026 in-development version (launching June 16, 2026) is helpful for planning. I like that you’ve linked the Learning Plan and EIG, those, plus org admin hands-on (members, licenses, credits, groups), form a solid prep path. I’ll subscribe to the certification updates and watch the exam development board for SME opportunities.</P><P>Regards,</P><P>Venkat</P>",
