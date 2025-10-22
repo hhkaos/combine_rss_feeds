@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (21-10-2025)",
+  "title": "Combined ArcGIS Feeds (22-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-21T01:23:56.481Z",
+  "lastUpdated": "2025-10-22T01:25:39.324Z",
   "items": [
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "Not intended for surveying,... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Parks Boundaries. ​​Parks and&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?sort=views_recent+desc&res_format=KML",
+      "guid": "tag:google.com,2013:googlealerts/feed:400429840172718596",
+      "author": "",
+      "date": "2025-10-21T20:00:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript – Version 4.34 Release",
+      "description": "<P>Version 4.34 is there, it’s here, it’s everywhere. There are enhancements, bug fixes, and new functionality.</P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/arcgis-maps-sdk-for-javascript-version-4-34/ba-p/1659323",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/arcgis-maps-sdk-for-javascript-version-4-34/ba-p/1659323",
+      "author": "Noah-Sager",
+      "date": "2025-10-21T14:42:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Dataset - City of Phoenix Open Data",
       "description": "​ Pickleball is a... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Swimming Pools. &lt;div&gt;&lt;&nbsp;...",
