@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (22-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (23-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-22T01:25:48.387Z",
+  "lastUpdated": "2025-10-23T01:23:38.566Z",
   "items": [
+    {
+      "title": "Upgrade dependency package constraint for pyarrow · Issue #2399 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>",
+      "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to ... I believe the most effective fix would be to update the dependencies so the&nbsp;...",
+      "link": "https://github.com/Esri/arcgis-python-api/issues/2399",
+      "guid": "tag:google.com,2013:googlealerts/feed:11199066168209680157",
+      "author": "",
+      "date": "2025-10-22T08:24:52.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Issue reported regarding inability to use Raster object as input for `predict` method in the Model class.",
+      "processed": true
+    },
     {
       "title": "Dataset - City of Phoenix Open Data",
       "description": "Not intended for surveying,... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Parks Boundaries. ​​Parks and&nbsp;...",
@@ -13,6 +25,30 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New updates on the latest version of ArcGIS Enterprise including improvements in security features and enhanced collaboration tools.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> and UNFPA Extend Strategic Partnership to Support 2030 Census Round",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> globe logo, <b>ArcGIS</b>, The Science of Where, <b>esri</b> ... Stock Quote <b>API</b> &amp;&nbsp;...",
+      "link": "https://markets.financialcontent.com/stocks/article/bizwire-2025-10-21-esri-and-unfpa-extend-strategic-partnership-to-support-2030-census-round",
+      "guid": "tag:google.com,2013:googlealerts/feed:8869891972280223961",
+      "author": "",
+      "date": "2025-10-21T19:11:31.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri and UNFPA have extended their strategic partnership to support the 2030 census round, leveraging ArcGIS Online for improved data collection and analysis.",
+      "processed": true
+    },
+    {
+      "title": "Tropical Storm Melissa forms in Caribbean on path toward Haiti - NBC10 Philadelphia",
+      "description": "About this app. Hurricane Aware. Powered by <b>Esri</b>. Select an active storm to view ... <b>API</b> error: Failed to fetch. <b>API</b> error: Failed to fetch &middot; NBC10&nbsp;...",
+      "link": "https://www.nbcphiladelphia.com/news/national-international/tropical-storm-melissa-forms-caribbean-sea-haiti/4288909/?noamp=mobile",
+      "guid": "tag:google.com,2013:googlealerts/feed:5717414198408354025",
+      "author": "",
+      "date": "2025-10-21T16:31:23.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Tropical Storm Melissa has formed in the Caribbean Sea near Haiti, bringing heavy rain and strong winds to the region.",
       "processed": true
     },
     {
