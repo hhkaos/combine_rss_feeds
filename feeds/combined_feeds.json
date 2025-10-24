@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (23-10-2025)",
+  "title": "Combined ArcGIS Feeds (24-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-23T01:23:26.453Z",
+  "lastUpdated": "2025-10-24T01:20:08.533Z",
   "items": [
+    {
+      "title": "Shadow DOM, Slots, No CSS! ArcGIS JS SDK 4.34 Map Components Update",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=cQxhb8wwCvU",
+      "guid": "yt:video:cQxhb8wwCvU",
+      "author": "Rene Rubalcava",
+      "date": "2025-10-23T11:01:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Optimizing GeoJSON Data Loading in <b>ArcGIS</b> Web Components with SSE - Stack Overflow",
+      "description": "How to Import GeoJSON data in <b>ArcGIS Javascript</b> maps &middot; 3. Multiple angular ... <b>API</b> &middot; Data &middot; Blog &middot; Facebook &middot; Twitter &middot; LinkedIn &middot; Instagram. Site&nbsp;...",
+      "link": "https://stackoverflow.com/questions/79797660/optimizing-geojson-data-loading-in-arcgis-web-components-with-sse",
+      "guid": "tag:google.com,2013:googlealerts/feed:18179268588861240529",
+      "author": "",
+      "date": "2025-10-23T10:23:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Upgrade dependency package constraint for pyarrow · Issue #2399 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>",
       "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to ... I believe the most effective fix would be to update the dependencies so the&nbsp;...",
