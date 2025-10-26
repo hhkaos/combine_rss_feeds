@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (25-10-2025)",
+  "title": "Combined ArcGIS Feeds (26-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-25T01:20:55.516Z",
+  "lastUpdated": "2025-10-26T01:28:23.123Z",
   "items": [
+    {
+      "title": "Get an <b>ArcGIS</b> Online WebMap Layer Index or Layer Definition using the <b>ArcGIS API</b> for Python",
+      "description": "Two important code snippets. As of the <b>ArcGIS API</b> for Python version 2.4.0 the WebMap class was replaced by the Map class which now has a&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=fDF4Ctg7RxQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:17396272972267565777",
+      "author": "",
+      "date": "2025-10-25T17:58:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "What is new in Near Me (October 2025 ArcGIS Online update)",
       "description": "<P>We only have few updates for Near Me in October 2025</P><P><U><STRONG>New features:</STRONG></U></P><P><STRONG>Near Me now supports current location as input:</STRONG></P><P>You can use the Map widget's&nbsp;&nbsp;<STRONG>Locate</STRONG>&nbsp;tool to set your current location as the input location for the Near Me widget. To do this, add the&nbsp;<STRONG>Location change</STRONG>&nbsp;trigger in Map widget settings, choose a Near Me widget as the target, then select the&nbsp;<STRONG>Set location</STRONG>&nbsp;message action.</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"current location NM.gif\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/142619i456190FE00547B08/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"current location NM.gif\" alt=\"current location NM.gif\" /></span></P><P> </P><P><STRONG>Added support to clip features:</STRONG></P><P>We have added a new setting in Near Me Proximity analysis to clip intersected features. This setting will only show up for line and polygon features when you configure Proximity analysis. When enabled, it will return intersected length or area of the proximity features by the input feature or input feature search area.</P><P>The clipped area or length will also be included in the exported PDF report and other exported format when export is supported in the layer.</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_0-1761349453309.png\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/142620i706A7B72402C3995/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"AzizaParveen1_0-1761349453309.png\" alt=\"AzizaParveen1_0-1761349453309.png\" /></span></P><P>&nbsp;</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_1-1761349469294.png\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/142621i37386AB38E6A6E11/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"AzizaParveen1_1-1761349469294.png\" alt=\"AzizaParveen1_1-1761349469294.png\" /></span></P><P>&nbsp;</P><P><U><STRONG>Existing setting move:</STRONG></U></P><P><STRONG>Feature coun</STRONG>t setting is moved to Edit analysis panel, showing feature count could be controlled at layer level.</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"AzizaParveen1_0-1761349728874.png\" style=\"width: 400px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/142622iA1385B8830709F7E/image-size/medium?v=v2&amp;px=400\" role=\"button\" title=\"AzizaParveen1_0-1761349728874.png\" alt=\"AzizaParveen1_0-1761349728874.png\" /></span></P><P>&nbsp;</P>",
