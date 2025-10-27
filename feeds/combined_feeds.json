@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (26-10-2025)",
+  "title": "Combined ArcGIS Feeds (27-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-26T01:28:23.123Z",
+  "lastUpdated": "2025-10-27T01:39:18.364Z",
   "items": [
+    {
+      "title": "Sr. GIS Engineer - Global Community Engagement - Esri - Redlands, CA - Dice",
+      "description": "Sr. GIS Engineer - Global Community Engagement &middot; Job Details &middot; Similar Jobs &middot; Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScriptJob Title - Sr. &middot; Sr.",
+      "link": "https://www.dice.com/job-detail/be0ff528-7fc9-4d1d-adac-5f452b425804",
+      "guid": "tag:google.com,2013:googlealerts/feed:3697969150179397606",
+      "author": "",
+      "date": "2025-10-26T03:47:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Get an <b>ArcGIS</b> Online WebMap Layer Index or Layer Definition using the <b>ArcGIS API</b> for Python",
       "description": "Two important code snippets. As of the <b>ArcGIS API</b> for Python version 2.4.0 the WebMap class was replaced by the Map class which now has a&nbsp;...",
