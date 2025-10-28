@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (27-10-2025)",
+  "title": "Combined ArcGIS Feeds (28-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-27T01:39:18.364Z",
+  "lastUpdated": "2025-10-28T01:22:28.192Z",
   "items": [
+    {
+      "title": "Convert <b>ArcGIS</b> Online Date Epoch to DD/MM/YYYY or other format using the <b>ArcGIS API</b> for Python",
+      "description": "Convert <b>ArcGIS</b> Online Date Epoch to DD/MM/YYYY or other format using the <b>ArcGIS API</b> for Python. 4 views · 2 hours ago ...more&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=eDWhb_5MevQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:3895895778680290239",
+      "author": "",
+      "date": "2025-10-27T17:51:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Sr. GIS Engineer - Global Community Engagement - Esri - Redlands, CA - Dice",
       "description": "Sr. GIS Engineer - Global Community Engagement &middot; Job Details &middot; Similar Jobs &middot; Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScriptJob Title - Sr. &middot; Sr.",
