@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-10-2025)",
+  "title": "ArcGIS ESRI Dev Feed (29-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-28T01:22:32.674Z",
+  "lastUpdated": "2025-10-29T01:28:07.574Z",
   "items": [
+    {
+      "title": "\n        Merge pull request #385 from Esri/dependabot/nuget/pro-sdk/read-json-…\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #385 from Esri/dependabot/nuget/pro-sdk/read-json-webmap-data-into-webmaplayerinfo/SearchPortalTest/System.Text.Json-8.0.4\n\nBump System.Text.Json from 4.7.1 to 8.0.4 in /pro-sdk/read-json-webmap-data-into-webmaplayerinfo/SearchPortalTest</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/2a1daacb8ce35dc3a3415af9e17af8b4dd848ecc",
+      "guid": "tag:github.com,2008:Grit::Commit/2a1daacb8ce35dc3a3415af9e17af8b4dd848ecc",
+      "author": "tsimons6",
+      "date": "2025-10-28T15:24:17.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Security enhancements and fixes related to SQL injection vulnerabilities have been included in the latest versions of ArcGIS Enterprise.",
+      "processed": true
+    },
+    {
+      "title": "\n        Merge pull request #404 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #404 from woriginales/master\n\nAdded new samples and updated existing samples</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/55251a2b844f6bac0e4856583de9846906f1ff4c",
+      "guid": "tag:github.com,2008:Grit::Commit/55251a2b844f6bac0e4856583de9846906f1ff4c",
+      "author": "tsimons6",
+      "date": "2025-10-28T15:19:44.000Z",
+      "category": "Source code",
+      "topicsProduct": "Web technologies",
+      "summary": "Fix for issue with barriers not being shown in certain configurations.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Signs Strategic Collaboration Agreement with AWS to Advance Generative AI in <b>ArcGIS</b>",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2025 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... Stock Quote <b>API</b> &amp; Stock News <b>API</b>&nbsp;...",
+      "link": "https://markets.financialcontent.com/stocks/article/bizwire-2025-10-28-esri-signs-strategic-collaboration-agreement-with-aws-to-advance-generative-ai-in-arcgis",
+      "guid": "tag:google.com,2013:googlealerts/feed:3936283895190123949",
+      "author": "",
+      "date": "2025-10-28T12:20:38.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri signs strategic collaboration agreement with AWS to advance generative AI in ArcGIS.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS Javascript API</b> - YouTube",
+      "description": "<b>ArcGIS Javascript API</b>. <b>ArcGIS</b> Mastery. Playlist•10 videos•No views. [Private video] &middot; [Private video] &middot; [Private video] &middot; [Private video]&nbsp;...",
+      "link": "https://www.youtube.com/playlist?list=PLN8bE5l3MwLFyY9wCHHkhNg1qUG-sgWzK",
+      "guid": "tag:google.com,2013:googlealerts/feed:1973694301331401611",
+      "author": "",
+      "date": "2025-10-28T05:56:51.000Z",
+      "category": "Video",
+      "topicsProduct": "Web technologies",
+      "summary": "Learn how to leverage web technologies in the ArcGIS platform with this Youtube playlist.",
+      "processed": true
+    },
     {
       "title": "Convert <b>ArcGIS</b> Online Date Epoch to DD/MM/YYYY or other format using the <b>ArcGIS API</b> for Python",
       "description": "Convert <b>ArcGIS</b> Online Date Epoch to DD/MM/YYYY or other format using the <b>ArcGIS API</b> for Python. 4 views · 2 hours ago ...more&nbsp;...",
