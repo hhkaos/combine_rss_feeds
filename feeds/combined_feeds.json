@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (29-10-2025)",
+  "title": "Combined ArcGIS Feeds (30-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-29T01:27:55.566Z",
+  "lastUpdated": "2025-10-30T01:27:15.563Z",
   "items": [
+    {
+      "title": "What&#39;s New in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> September 2025 - Tracks - YouTube",
+      "description": "From Where to When: Visualizing Movement with Tracks <b>Esri&#39;s</b> ... What&#39;s New in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> September 2025 - Tracks. 2&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=qRrl7uBuoIo",
+      "guid": "tag:google.com,2013:googlealerts/feed:987828985419125595",
+      "author": "",
+      "date": "2025-10-29T17:40:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "India&#39;s GeoAI momentum grows, but data access is still a hurdle: Agendra Kumar, <b>Esri</b> India",
+      "description": "India&#39;s GeoAI momentum grows, but data access is still a hurdle: Agendra Kumar, <b>Esri</b> India ... Please enable <b>JavaScript</b> to view the. Sign up for&nbsp;...",
+      "link": "https://www.techcircle.in/2025/10/29/india-s-geoai-momentum-grows-but-data-access-is-still-a-hurdle-agendra-kumar-esri-india",
+      "guid": "tag:google.com,2013:googlealerts/feed:13897741052168541653",
+      "author": "",
+      "date": "2025-10-29T16:12:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #385 from Esri/dependabot/nuget/pro-sdk/read-json-…\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #385 from Esri/dependabot/nuget/pro-sdk/read-json-webmap-data-into-webmaplayerinfo/SearchPortalTest/System.Text.Json-8.0.4\n\nBump System.Text.Json from 4.7.1 to 8.0.4 in /pro-sdk/read-json-webmap-data-into-webmaplayerinfo/SearchPortalTest</pre>\n    ",
