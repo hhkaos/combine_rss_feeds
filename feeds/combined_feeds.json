@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (30-10-2025)",
+  "title": "Combined ArcGIS Feeds (31-10-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-10-30T01:27:15.563Z",
+  "lastUpdated": "2025-10-31T01:24:39.725Z",
   "items": [
+    {
+      "title": "Apogee Integration, Llc Geospatial Developer, Mid Reston - ZipRecruiter",
+      "description": "Job description ; Required. Develop custom web applications using <b>ArcGIS Maps SDK for</b> JavaScript; Integrate third-party APIs and libraries with <b>ArcGIS</b>&nbsp;...",
+      "link": "https://www.ziprecruiter.com/c/Apogee-Integration,-Llc/Job/Geospatial-Developer,-Mid/-in-Reston,VA?jid=4814c16165f1e22e",
+      "guid": "tag:google.com,2013:googlealerts/feed:7133227809456351252",
+      "author": "",
+      "date": "2025-10-30T12:47:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Geospatial Developer - Mid Level (Hiring Now) - ZipRecruiter",
+      "description": "Job description ; Develop custom web applications using <b>ArcGIS Maps SDK for</b> JavaScript; Integrate third-party APIs and libraries with <b>ArcGIS Maps SDK</b>&nbsp;...",
+      "link": "https://www.ziprecruiter.com/c/Apogee-Integration-LLC/Job/Geospatial-Developer-Mid-Level/-in-Chantilly,VA?jid=55ee2d3cd1678fc3",
+      "guid": "tag:google.com,2013:googlealerts/feed:9828444677634578459",
+      "author": "",
+      "date": "2025-10-30T00:43:39.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "What&#39;s New in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> September 2025 - Tracks - YouTube",
       "description": "From Where to When: Visualizing Movement with Tracks <b>Esri&#39;s</b> ... What&#39;s New in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> September 2025 - Tracks. 2&nbsp;...",
