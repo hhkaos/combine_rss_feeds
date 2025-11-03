@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (03-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-02T01:37:49.443Z",
+  "lastUpdated": "2025-11-03T01:28:45.303Z",
   "items": [
+    {
+      "title": "What Basemaps are Available for my WebMaps in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python?",
+      "description": "... <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python? 4 views · 2 hours ago #ArcGISAPIforPython #ArcGISOnline #<b>Esri</b> ...more. Final Draft Mapping. 127.",
+      "link": "https://www.youtube.com/watch?v=Wb6m2FQKBvw",
+      "guid": "tag:google.com,2013:googlealerts/feed:13415819012013804080",
+      "author": "",
+      "date": "2025-11-02T14:16:45.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom web app using ArcGIS Online in this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Web Developer I - UI for <b>ArcGIS</b> Enterprise Job at <b>Esri</b> in Redlands - Mediabistro",
+      "description": "Web Developer II <b>JavaScript</b> Job at <b>Esri</b> in Redlands. <b>Esri</b>, Redlands, CA ... See all Web Developer I - UI for <b>ArcGIS</b> Enterprise Job at <b>Esri</b> in Redland...",
+      "link": "https://www.mediabistro.com/jobs/1743416873-web-developer-i-ui-for-arcgis-enterprise-job-at-esri-in-redlands",
+      "guid": "tag:google.com,2013:googlealerts/feed:16001902189047168721",
+      "author": "",
+      "date": "2025-11-02T05:17:50.000Z",
+      "category": "Job",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri is looking for a Web Developer I - UI for ArcGIS Enterprise in Redlands. Apply now!",
+      "processed": true
+    },
     {
       "title": "What's New in ArcGIS Experience Builder (October 2025)",
       "description": "<P>Introduce enhanced theme system, two new widgets - Login and Image Collection Explorer, page visibility restriction, and split and merge editing tools.&nbsp;&nbsp;</P>",
