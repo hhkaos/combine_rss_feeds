@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (03-11-2025)",
+  "title": "Combined ArcGIS Feeds (04-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-03T01:28:36.192Z",
+  "lastUpdated": "2025-11-04T01:25:42.291Z",
   "items": [
+    {
+      "title": "Spexi and SkyWatch Partner to Bring First-Ever Standardized Drone Imagery to <b>Esri</b> and ...",
+      "description": "... <b>ArcGIS</b>, simplifying data discovery and delivery for <b>Esri ArcGIS</b> users. ... <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes delayed at&nbsp;...",
+      "link": "https://markets.financialcontent.com/wral/article/accwirecq-2025-11-3-spexi-and-skywatch-partner-to-bring-first-ever-standardized-drone-imagery-to-esri-and-skywatch-users",
+      "guid": "tag:google.com,2013:googlealerts/feed:14774628509059129393",
+      "author": "",
+      "date": "2025-11-03T15:37:48.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "What Basemaps are Available for my WebMaps in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python?",
       "description": "... <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python? 4 views · 2 hours ago #ArcGISAPIforPython #ArcGISOnline #<b>Esri</b> ...more. Final Draft Mapping. 127.",
