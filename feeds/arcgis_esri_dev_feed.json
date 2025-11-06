@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (05-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (06-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-05T01:26:49.023Z",
+  "lastUpdated": "2025-11-06T01:26:21.179Z",
   "items": [
+    {
+      "title": "Geospatial - Group - Open Data SA - City of San Antonio",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; IMP Street. The Infrastructure Management Program (IMP) is a five-&nbsp;...",
+      "link": "https://data.sanantonio.gov/group/79b6c35c-8858-494f-841c-e41a9f5075eb?res_format=GeoJSON&res_format=CSV",
+      "guid": "tag:google.com,2013:googlealerts/feed:17304503544428107315",
+      "author": "",
+      "date": "2025-11-05T05:31:57.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a new hosted feature layer in ArcGIS Online using Python scripts.",
+      "processed": true
+    },
+    {
+      "title": "NVIDIA Partners Bring Physical AI, New Smart City Technologies to Dublin, Ho Chi Minh ...",
+      "description": "<b>Esri</b>. Mapping and spatial analytics company <b>Esri</b> is working with NVIDIA ... <b>JavaScript</b> if it is disabled in your browser. Building on its&nbsp;...",
+      "link": "https://blogs.nvidia.com/blog/physical-ai-smart-city-expo-world-congress/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11114224469412429524",
+      "author": "",
+      "date": "2025-11-05T05:19:50.000Z",
+      "category": "Blog",
+      "topicsProduct": "Other",
+      "summary": "NVIDIA announces a collaboration with AI City to bring physical AI to the Smart City Expo World Congress, demonstrating how AI can optimize urban environments.",
+      "processed": true
+    },
     {
       "title": "ArcGIS JSAPI 高级教程- RenderNode 后处理应用- 图层美化效果（亮度、饱和度、对比度等）",
       "description": "<b>ArcGIS Maps SDK for</b> JavaScript 从 4.29 开始增加 RenderNode 类，可以添加数据以及操作 FBO（ManagedFBO） ；. 通过操作FBO，可以通过后处理实现很多效果，官方&nbsp;...",
