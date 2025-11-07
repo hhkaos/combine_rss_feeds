@@ -1,8 +1,80 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (06-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (07-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-06T01:26:21.179Z",
+  "lastUpdated": "2025-11-07T01:26:19.388Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | AnitaB.org Job Board",
+      "description": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b>. <b>Esri</b>. Software ... Demonstrable familiarity with Python or <b>JavaScript</b> for&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/61735221-product-engineer-ii-arcgis-enterprise-sharing-api",
+      "guid": "tag:google.com,2013:googlealerts/feed:8425356747340066439",
+      "author": "",
+      "date": "2025-11-06T20:40:05.000Z",
+      "category": "Job",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri is seeking a Product Engineer II for the ArcGIS Enterprise Sharing API. Join the team and contribute to the development of this important aspect of the ArcGIS Enterprise platform.",
+      "processed": true
+    },
+    {
+      "title": "Front-End Developer (with <b>ArcGIS</b> Maps <b>SDK</b> or similar) - Вакансії | DOU",
+      "description": "3+ years of experience with web-based map technologies with a strong preference to <b>ArcGIS</b> Maps <b>SDK</b> for <b>Javascript</b>; Strong proficiency in <b>JavaScript</b> (&nbsp;...",
+      "link": "https://jobs.dou.ua/companies/insart/vacancies/332005/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3898608511708607963",
+      "author": "",
+      "date": "2025-11-06T15:51:42.000Z",
+      "category": "Documentation",
+      "topicsProduct": "Experience Builder",
+      "summary": "New release of Experience Builder includes enhancements for building interactive web apps with improved templates and widgets.",
+      "processed": true
+    },
+    {
+      "title": "Shadow DOM and Slots in ArcGIS Map Components",
+      "description": "",
+      "link": "https://odoe.net/blog/shadow-dom-slots-map-components/",
+      "guid": "https://odoe.net/blog/shadow-dom-slots-map-components/",
+      "author": "",
+      "date": "2025-11-06T10:00:00.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to work with Shadow DOM slots in map components to improve the performance of web applications.",
+      "processed": true
+    },
+    {
+      "title": "GIS Ontwikkelaar at Net4s BV - Remote Rocketship",
+      "description": "Net4s BV &middot; WebsiteLinkedInAll Job Openings. BIM • GIS • Data management • <b>ArcGIS</b> • <b>ESRI</b> ... <b>SDK</b>, ArcObjects en webservices (REST <b>API</b>, JSON, SOAP).",
+      "link": "https://www.remoterocketship.com/company/net4s-nl/jobs/gis-ontwikkelaar-netherlands-remote/",
+      "guid": "tag:google.com,2013:googlealerts/feed:10199328683165085815",
+      "author": "",
+      "date": "2025-11-06T09:59:26.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "A new GIS developer opportunity in the Netherlands with remote work available.",
+      "processed": true
+    },
+    {
+      "title": "Need <b>ArcGIS</b> Support Analyst - Remote - Radiantze - Dice",
+      "description": "Take up development for minor enhancements using Python, Angular JS, <b>ArcGIS JavaScript API</b>, ASP.NET (C#). ... Development and coding experiences using&nbsp;...",
+      "link": "https://www.dice.com/job-detail/954f241d-7eb6-4a05-9d49-0902d8ea1cd3",
+      "guid": "tag:google.com,2013:googlealerts/feed:4205924586479566693",
+      "author": "",
+      "date": "2025-11-05T19:50:00.000Z",
+      "category": "Documentation",
+      "topicsProduct": "\"ArcGIS Pro SDK\"",
+      "summary": "Esri releases new updates for the ArcGIS Pro SDK with improved functionalities and bug fixes.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. username | password required. User Name:.",
+      "link": "https://npvc.treasury.go.th/arcgis/rest/login?redirect=https%3A//npvc.treasury.go.th/arcgis/rest/services/TD_STATE_PROP/TD_APV_LAYERS/FeatureServer/0",
+      "guid": "tag:google.com,2013:googlealerts/feed:4574385634623680840",
+      "author": "",
+      "date": "2025-11-05T10:39:38.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Check out the new feature service \"TD_APV_LAYERS\" available in the TD_STATE_PROP service on ArcGIS Online.",
+      "processed": true
+    },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; IMP Street. The Infrastructure Management Program (IMP) is a five-&nbsp;...",
