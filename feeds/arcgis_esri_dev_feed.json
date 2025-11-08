@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (07-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (08-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-07T01:26:19.388Z",
+  "lastUpdated": "2025-11-08T01:21:37.344Z",
   "items": [
+    {
+      "title": "Rise in youth unemployment &#39;worrying trend&#39; - <b>ESRI</b> - RTE",
+      "description": "Your browser does not support <b>Javascript</b>. Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu icon. RTE logo &middot; News &middot; Sport&nbsp;...",
+      "link": "https://www.rte.ie/news/business/2025/1106/1542478-rise-in-youth-unemployment-worrying-trend-esri/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3342731000617986610",
+      "author": "",
+      "date": "2025-11-07T20:12:54.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "The rise in youth unemployment is a worrying trend according to a recent report from Esri.",
+      "processed": true
+    },
+    {
+      "title": "Senior Automation Architect (Make.com, <b>ArcGIS</b>, ClickUp). - 2 to 6 years of experience - Naukri.com",
+      "description": "Job description &middot; Design and develop Make scenarios connecting ClickUp, SharePoint/OneDrive, SQL databases, and <b>ArcGIS</b> (<b>Esri</b>) via REST <b>API</b> and webhooks&nbsp;...",
+      "link": "https://www.naukri.com/job-listings-senior-automation-architect-make-com-arcgis-clickup-gcl-environmental-hyderabad-bengaluru-delhi-ncr-2-to-6-years-071125001616",
+      "guid": "tag:google.com,2013:googlealerts/feed:12080368380177011173",
+      "author": "",
+      "date": "2025-11-07T00:08:09.000Z",
+      "category": "Job Offer",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Senior Automation Architect needed at Make.com to work with ArcGIS. 2 to 6 years experience required in Hyderabad, Bengaluru, and Delhi NCR.",
+      "processed": true
+    },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | AnitaB.org Job Board",
       "description": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b>. <b>Esri</b>. Software ... Demonstrable familiarity with Python or <b>JavaScript</b> for&nbsp;...",
@@ -13,6 +37,18 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri is seeking a Product Engineer II for the ArcGIS Enterprise Sharing API. Join the team and contribute to the development of this important aspect of the ArcGIS Enterprise platform.",
+      "processed": true
+    },
+    {
+      "title": "5 Best Mapping Software Platforms for 2025 - Analytics Insight",
+      "description": "... <b>API</b> functionality. <b>ArcGIS</b> by <b>Esri</b>: The Enterprise Powerhouse. <b>ArcGIS</b> maintains its position as the comprehensive Geographic Information System for&nbsp;...",
+      "link": "https://www.analyticsinsight.net/tech-news/5-best-mapping-software-platforms-for-2025",
+      "guid": "tag:google.com,2013:googlealerts/feed:15809022745672027773",
+      "author": "",
+      "date": "2025-11-06T19:36:36.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Discover the 5 best mapping software platforms for 2025, including ArcGIS Online, in this insightful article.",
       "processed": true
     },
     {
