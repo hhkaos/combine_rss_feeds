@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (10-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-09T01:37:10.482Z",
+  "lastUpdated": "2025-11-10T01:38:25.717Z",
   "items": [
+    {
+      "title": "Constrained triangulation of polygons",
+      "description": "<P>Not for most, but it is one option.</P>",
+      "link": "https://community.esri.com/t5/python-blog/constrained-triangulation-of-polygons/ba-p/1664488",
+      "guid": "https://community.esri.com/t5/python-blog/constrained-triangulation-of-polygons/ba-p/1664488",
+      "author": "DanPatterson",
+      "date": "2025-11-09T23:35:11.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Learn how to perform constrained triangulation of polygons using ArcGIS API for Python to better manage and analyze spatial data.",
+      "processed": true
+    },
     {
       "title": "Automating CI/CD and Testing Best Practices for ArcGIS Maps SDK Projects",
       "description": "",
