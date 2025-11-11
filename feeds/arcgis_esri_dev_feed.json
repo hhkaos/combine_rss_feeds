@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (11-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-10T01:38:25.717Z",
+  "lastUpdated": "2025-11-11T01:26:47.382Z",
   "items": [
+    {
+      "title": "Label Features in <b>ArcGIS</b> Online Web Maps Using the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #WebMap #GISDevelopment. ... Get an <b>ArcGIS</b> Online WebMap Layer Index or Layer Definition using the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=SJELQtH-il0",
+      "guid": "tag:google.com,2013:googlealerts/feed:10211764113012221347",
+      "author": "",
+      "date": "2025-11-10T09:12:30.000Z",
+      "category": "Video",
+      "topicsProduct": "Web technologies",
+      "summary": "Learn how to incorporate the ArcGIS API for JavaScript in your web development projects with this tutorial.",
+      "processed": true
+    },
     {
       "title": "Constrained triangulation of polygons",
       "description": "<P>Not for most, but it is one option.</P>",
@@ -13,6 +25,18 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS API for Python",
       "summary": "Learn how to perform constrained triangulation of polygons using ArcGIS API for Python to better manage and analyze spatial data.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> .NET Samples (WPF) - Ókeypis að sækja og setja upp í Windows",
+      "description": "Explore <b>ArcGIS Maps SDK for</b> .NET with dozens of interactive samples. Experience the SDK&#39;s powerful capabilities and learn how to incorporate them&nbsp;...",
+      "link": "https://apps.microsoft.com/detail/9mtp5013343h?hl=is-IS&gl=HR",
+      "guid": "tag:google.com,2013:googlealerts/feed:18252590924319865817",
+      "author": "",
+      "date": "2025-11-09T14:32:15.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn about the new features and enhancements in ArcGIS Enterprise version 10.9, including improved security and performance.",
       "processed": true
     },
     {
