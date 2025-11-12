@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (11-11-2025)",
+  "title": "Combined ArcGIS Feeds (12-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-11T01:26:40.515Z",
+  "lastUpdated": "2025-11-12T01:26:07.480Z",
   "items": [
+    {
+      "title": "Truncate layer in <b>ArcGIS</b> Online using <b>arcgis</b>.gis - GIS Stack Exchange",
+      "description": "Perhaps, the <b>Esri</b> community is a bit more comprehensive, where one can find more details when working with the <b>ArcGIS API</b> for Python.",
+      "link": "https://gis.stackexchange.com/questions/498046/truncate-layer-in-arcgis-online-using-arcgis-gis",
+      "guid": "tag:google.com,2013:googlealerts/feed:14896819647676937913",
+      "author": "",
+      "date": "2025-11-11T16:10:59.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "DevOps Engineer II - <b>ArcGIS</b> Native Maps SDKs - <b>Esri</b> - Redlands, CA - Dice",
+      "description": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>Job Title - Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> &middot; <b>Esri</b>Company Name - <b>Esri</b>.",
+      "link": "https://www.dice.com/job-detail/85c0908d-0d8f-4dd0-a248-287ec0bb8115",
+      "guid": "tag:google.com,2013:googlealerts/feed:291695080417246482",
+      "author": "",
+      "date": "2025-11-11T03:15:06.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Maps <b>SDK</b> for .NET Samples (WPF) - Microsoft Store",
+      "description": "... <b>Esri</b>/<b>arcgis</b>-maps-<b>sdk</b> ... This page requires <b>JavaScript</b>. Otse põhisisu juurde. Universaalne Microsofti veebisait Microsoft Store&#39;i&nbsp;...",
+      "link": "https://apps.microsoft.com/detail/9mtp5013343h?hl=et-EE&gl=HR",
+      "guid": "tag:google.com,2013:googlealerts/feed:9439979817220478802",
+      "author": "",
+      "date": "2025-11-11T02:37:31.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Series of Snowflake notebook demonstrating using <b>ArcGIS</b> python <b>SDK</b> natively in ...",
+      "description": "Series of Snowflake notebook demonstrating using <b>ArcGIS</b> python <b>SDK</b> natively in Snowflake - DEMO_BATCH_GEOCODING_SPROC ... <b>arcgis</b> - <b>ArcGIS API</b> for Python&nbsp;...",
+      "link": "https://gist.github.com/sfc-gh-vsekar/59bf11691d279739f7b2f6fb26a660bf",
+      "guid": "tag:google.com,2013:googlealerts/feed:4113222605054908631",
+      "author": "",
+      "date": "2025-11-11T01:39:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - vnsdi",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://vnsdi.mae.gov.vn/basemap/rest/login?redirect=https%3A//vnsdi.mae.gov.vn/basemap/rest/services/Pleiku/BinhDoAnh/MapServer/kml/regions/22-1931524-3356402.kmz%3F",
+      "guid": "tag:google.com,2013:googlealerts/feed:8210556968407433231",
+      "author": "",
+      "date": "2025-11-10T19:27:03.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Label Features in <b>ArcGIS</b> Online Web Maps Using the <b>ArcGIS API</b> for Python - YouTube",
       "description": "... <b>Esri</b> #WebMap #GISDevelopment. ... Get an <b>ArcGIS</b> Online WebMap Layer Index or Layer Definition using the <b>ArcGIS API</b> for Python.",
