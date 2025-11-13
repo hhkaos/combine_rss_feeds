@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (12-11-2025)",
+  "title": "Combined ArcGIS Feeds (13-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-12T01:26:07.480Z",
+  "lastUpdated": "2025-11-13T01:27:02.994Z",
   "items": [
+    {
+      "title": "What's Coming in ArcGIS Experience Builder in ArcGIS Enterprise 12.0",
+      "description": "<P>New features in Experience Builder in ArcGIS Enterprise 12.0</P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-in/ba-p/1665230",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-in/ba-p/1665230",
+      "author": "Jianxia",
+      "date": "2025-11-12T19:25:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Lead Gis Software Developer Job in Bethlehem, PA at Langan - ZipRecruiter",
+      "description": "Architect, design, and develop ArcGIS-based web and desktop applications using React and the <b>ArcGIS Maps SDK for</b> JavaScript;; Implement map&nbsp;...",
+      "link": "https://www.ziprecruiter.com/c/langan/Job/Lead-GIS-Software-Developer/-in-Bethlehem,PA?jid=6aee9fd59aa8e7c5",
+      "guid": "tag:google.com,2013:googlealerts/feed:4243742028608863987",
+      "author": "",
+      "date": "2025-11-12T12:38:24.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://www.gis.dcnr.pa.gov/agsprod/rest/login?redirect=https%3A//www.gis.dcnr.pa.gov/agsprod/rest/services/Parks/StateParksWaterUtilitiesEDITFieldMaps/MapServer/5/metadata",
+      "guid": "tag:google.com,2013:googlealerts/feed:16173408535746629188",
+      "author": "",
+      "date": "2025-11-11T22:27:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Truncate layer in <b>ArcGIS</b> Online using <b>arcgis</b>.gis - GIS Stack Exchange",
       "description": "Perhaps, the <b>Esri</b> community is a bit more comprehensive, where one can find more details when working with the <b>ArcGIS API</b> for Python.",
