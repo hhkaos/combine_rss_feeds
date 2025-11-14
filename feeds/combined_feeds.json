@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (13-11-2025)",
+  "title": "Combined ArcGIS Feeds (14-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-13T01:27:02.994Z",
+  "lastUpdated": "2025-11-14T01:27:08.024Z",
   "items": [
+    {
+      "title": "Leveraging new capabilities today to prepare for tomorrow - <b>Esri</b> UK Welsh Conference 2025",
+      "description": "... <b>ArcGIS</b> Enterprise <b>SDK ArcGIS</b> Experience Builder (Developer Edition) <b>ArcGIS</b> Pro <b>SDK</b> for . Automate <b>ArcGIS API</b> for Python <b>ArcGIS</b> Rest JS ArcPy R-<b>ArcGIS</b>&nbsp;...",
+      "link": "https://www.slideshare.net/slideshow/leveraging-new-capabilities-today-to-prepare-for-tomorrow-esri-uk-welsh-conference-2025/284139960",
+      "guid": "tag:google.com,2013:googlealerts/feed:13530610397414851514",
+      "author": "",
+      "date": "2025-11-13T16:35:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "The 3 Most Powerful Cloud-based Mapping Software [Sponsored]",
+      "description": "While <b>ArcGIS</b> by <b>Esri</b> and Google Maps offer strong feature sets, Maptive combines sophisticated analytical tools with an intuitive interface that&nbsp;...",
+      "link": "https://www.digitalinformationworld.com/2025/11/the-3-most-powerful-cloud-based-mapping.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:15909480256616465812",
+      "author": "",
+      "date": "2025-11-13T12:16:42.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Releases <b>ArcGIS</b> Analytics for IoT - BigDATAwire - HPCwire",
+      "description": "<b>Esri</b> Releases <b>ArcGIS</b> Analytics for IoT. Manufacturing. March 11, 2020 ... Your browser does not support <b>JavaScript</b>! Go to... Could you brief&nbsp;...",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/esri-releases-arcgis-analytics-for-iot/",
+      "guid": "tag:google.com,2013:googlealerts/feed:880835816265209136",
+      "author": "",
+      "date": "2025-11-13T04:39:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "What's Coming in ArcGIS Experience Builder in ArcGIS Enterprise 12.0",
       "description": "<P>New features in Experience Builder in ArcGIS Enterprise 12.0</P>",
@@ -10,6 +46,30 @@
       "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-coming-in-arcgis-experience-builder-in/ba-p/1665230",
       "author": "Jianxia",
       "date": "2025-11-12T19:25:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Avalonia Powers MAUI&#39;s Leap to Linux and Web: A .NET Revolution - WebProNews",
+      "description": "... <b>Esri</b> Community forums where users sought &#39;Avalonia UI Support (<b>ArcGIS</b> .NET <b>SDK</b>)&#39; for Linux projects. ... For browsers, WebAssembly ensures no <b>JavaScript</b>&nbsp;...",
+      "link": "https://www.webpronews.com/avalonia-powers-mauis-leap-to-linux-and-web-a-net-revolution/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2314113450731985624",
+      "author": "",
+      "date": "2025-11-12T19:06:40.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | Jobright.ai",
+      "description": "Design, develop, test, document, release, and support the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (including core <b>API</b>, web components, and libraries) to&nbsp;...",
+      "link": "https://jobright.ai/jobs/info/68ff23dce0c73b3a11199d94",
+      "guid": "tag:google.com,2013:googlealerts/feed:2315065048597588613",
+      "author": "",
+      "date": "2025-11-12T16:48:38.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
