@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (14-11-2025)",
+  "title": "Combined ArcGIS Feeds (15-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-14T01:27:08.024Z",
+  "lastUpdated": "2025-11-15T01:24:03.210Z",
   "items": [
+    {
+      "title": "From Point A to Powerful: How Developers Are Taking Location Services to the Next Level",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/how-developers-are-taking-location-services-to-the-next-level",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2947979",
+      "author": "Alison Thomas",
+      "date": "2025-11-13T20:41:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Existing Bike Network (2024) - <b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. Download. <b>ArcGIS</b> GeoServices REST <b>API</b>. URL: https://services.<b>arcgis</b>.com/sFnw0xNflSi8J0uh/<b>arcgis</b>/rest/services&nbsp;...",
+      "link": "https://data.boston.gov/dataset/existing-bike-network-2024/resource/27d145dd-6550-4002-b6d7-a1d6c40fc8fa",
+      "guid": "tag:google.com,2013:googlealerts/feed:2733828731932311609",
+      "author": "",
+      "date": "2025-11-13T20:07:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Finding Multiple SubAddresses and POIs with a Single Address",
+      "description": "Use ArcGIS Geocoding capabilities to learn more about an address.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/announcements/finding-multiple-subaddresses-and-pois-with-a-single-address",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2947928",
+      "author": "Robert Jensen",
+      "date": "2025-11-13T19:23:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Leveraging new capabilities today to prepare for tomorrow - <b>Esri</b> UK Welsh Conference 2025",
       "description": "... <b>ArcGIS</b> Enterprise <b>SDK ArcGIS</b> Experience Builder (Developer Edition) <b>ArcGIS</b> Pro <b>SDK</b> for . Automate <b>ArcGIS API</b> for Python <b>ArcGIS</b> Rest JS ArcPy R-<b>ArcGIS</b>&nbsp;...",
