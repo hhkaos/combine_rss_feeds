@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (15-11-2025)",
+  "title": "Combined ArcGIS Feeds (16-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-15T01:24:03.210Z",
+  "lastUpdated": "2025-11-16T01:39:25.339Z",
   "items": [
+    {
+      "title": "Princeton It Services Full Stack Net Developer Job New York - ZipRecruiter",
+      "description": "NET Core, .NET 9.0, Entity Framework, JavaScript libraries, and <b>ArcGIS Maps SDK for</b> .NET. • Identify, analyze, and develop interfaces and integration&nbsp;...",
+      "link": "https://www.ziprecruiter.com/c/Princeton-IT-Services/Job/Full-Stack-.NET-Developer-(GIS)/-in-New-York,NY?jid=145dec4cd5847603",
+      "guid": "tag:google.com,2013:googlealerts/feed:7898413452546871666",
+      "author": "",
+      "date": "2025-11-15T08:27:09.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "From Point A to Powerful: How Developers Are Taking Location Services to the Next Level",
       "description": "",
