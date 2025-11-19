@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (18-11-2025)",
+  "title": "Combined ArcGIS Feeds (19-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-18T01:26:09.261Z",
+  "lastUpdated": "2025-11-19T01:25:49.458Z",
   "items": [
+    {
+      "title": "ArcGIS Maps Get A Voice at Fluttercon",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/arcgis-maps-get-a-voice-at-fluttercon",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2946829",
+      "author": "Martino Yovo",
+      "date": "2025-11-18T07:33:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Anyone can create a map! 🗺️",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/4digxJpwffs",
+      "guid": "yt:video:4digxJpwffs",
+      "author": "Courtney Yatteau",
+      "date": "2025-11-18T04:23:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Create a Map With One HTML Element 🗺️",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=cyN8WlqJ01w",
+      "guid": "yt:video:cyN8WlqJ01w",
+      "author": "Courtney Yatteau",
+      "date": "2025-11-18T03:50:06.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Coding Maps: A 5-Day Beginner Series",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=T7VZ0xtlUuk",
+      "guid": "yt:video:T7VZ0xtlUuk",
+      "author": "Courtney Yatteau",
+      "date": "2025-11-18T02:20:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Analyze Boston",
+      "description": "140 datasets found. Licenses: Open Data Commons Public Domain Dedication and License (PDDL) Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>&nbsp;...",
+      "link": "https://data.boston.gov/dataset/?license_id=odc-pddl&q=&res_format=ArcGIS+GeoServices+REST+API&res_format=CSV&sort=views_total+desc",
+      "guid": "tag:google.com,2013:googlealerts/feed:404292359786028",
+      "author": "",
+      "date": "2025-11-17T20:29:10.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Create Rectangle Buffers for Point Features in ArcGIS Pro Using ArcPy | Custom Script Tool Tutorial",
       "description": "<P><SPAN>Learn how to build <STRONG>a custom ArcGIS Pro script tool</STRONG> that creates <STRONG>rectangular buffers around point features</STRONG> using<STRONG> ArcPy</STRONG>&nbsp;based on user input or from field attributes.</SPAN></P>",
