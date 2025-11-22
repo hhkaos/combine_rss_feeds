@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (21-11-2025)",
+  "title": "Combined ArcGIS Feeds (22-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-21T01:25:27.267Z",
+  "lastUpdated": "2025-11-22T01:22:53.369Z",
   "items": [
+    {
+      "title": "Map Directions in One Tag",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=TVT9457UOqM",
+      "guid": "yt:video:TVT9457UOqM",
+      "author": "Courtney Yatteau",
+      "date": "2025-11-21T17:52:02.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Code a website map",
       "description": "",
@@ -34,6 +46,18 @@
       "guid": "yt:video:ndUeOeQnHUE",
       "author": "Courtney Yatteau",
       "date": "2025-11-20T23:26:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Sr. Software Development Engineer - <b>JavaScript</b>/RDBMS @ <b>Esri</b> | FireUp Job Board",
+      "description": "Working knowledge of the <b>Esri</b> Calcite Design System and <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>, or similar mapping frameworks, to build interactive and&nbsp;...",
+      "link": "https://jobs.fire-up.net/companies/esri/jobs/62427385-sr-software-development-engineer-javascript-rdbms",
+      "guid": "tag:google.com,2013:googlealerts/feed:12746050814867037781",
+      "author": "",
+      "date": "2025-11-20T22:49:23.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
