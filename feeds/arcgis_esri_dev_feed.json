@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (22-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (23-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-22T01:23:00.269Z",
+  "lastUpdated": "2025-11-23T01:45:52.808Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> - Job at <b>ESRI</b> - Milwaukee Jobs",
+      "description": "Responsibilities. Design, develop, test, document, release, and support the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (including core <b>API</b>, web components, and&nbsp;...",
+      "link": "https://www.milwaukeejobs.com/j/t-Product-Engineer-II-ArcGIS-Maps-SDK-for-JavaScript-e-ESRI-l-Redlands,-CA-jobs-j85048377.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:9827403325791793402",
+      "author": "",
+      "date": "2025-11-22T16:34:08.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "ESRI is looking for a Product Engineer II for the ArcGIS Maps SDK for JavaScript in Redlands, CA.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - Analyze Boston",
+      "description": "84 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> ZIP. Filter Results. 36inch Sea Level Rise 1pct Annual&nbsp;...",
+      "link": "https://data.boston.gov/dataset/?_res_format_limit=0&res_format=ArcGIS+GeoServices+REST+API&res_format=ZIP&page=5",
+      "guid": "tag:google.com,2013:googlealerts/feed:3792365863750235406",
+      "author": "",
+      "date": "2025-11-21T22:08:58.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New updates to ArcGIS Enterprise include improved scalability and performance.",
+      "processed": true
+    },
+    {
+      "title": "<b>ESRI</b> Scraping - Bionic Teaching",
+      "description": "... <b>arcgis</b>-item-browser-table-row&#39; );. const data = Array ... Doesn&#39;t shadowroot sound so cool? Posted in Data, ExamplesTagged Data, <b>ESRI</b>, <b>javascript</b>&nbsp;...",
+      "link": "https://bionicteaching.com/esri-scraping/",
+      "guid": "tag:google.com,2013:googlealerts/feed:6782730419981446992",
+      "author": "",
+      "date": "2025-11-21T20:44:48.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to scrape and extract information from Esri's ArcGIS Online platform using Python with this helpful tutorial.",
+      "processed": true
+    },
     {
       "title": "Map Directions in One Tag",
       "description": "",
@@ -13,6 +49,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Watch this video to learn about the latest updates and enhancements in ArcGIS Enterprise.",
+      "processed": true
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScript - Job at ESRI - Milwaukee Jobs",
+      "description": "ESRI now hiring Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScript - Job at ESRI in Redlands, CA - apply today!",
+      "link": "https://www.milwaukeejobs.com/j/t-Sr-Product-Engineer-ArcGIS-Maps-SDK-for-JavaScript-e-ESRI-l-Redlands,-CA-jobs-j85017394.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:4203013652289987776",
+      "author": "",
+      "date": "2025-11-21T17:34:05.000Z",
+      "category": "Job Listing",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "ESRI is looking for a Senior Product Engineer for ArcGIS Maps SDK for JavaScript in Redlands, CA.",
       "processed": true
     },
     {

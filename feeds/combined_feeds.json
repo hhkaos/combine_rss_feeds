@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (22-11-2025)",
+  "title": "Combined ArcGIS Feeds (23-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-22T01:22:53.369Z",
+  "lastUpdated": "2025-11-23T01:45:42.738Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> - Job at <b>ESRI</b> - Milwaukee Jobs",
+      "description": "Responsibilities. Design, develop, test, document, release, and support the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (including core <b>API</b>, web components, and&nbsp;...",
+      "link": "https://www.milwaukeejobs.com/j/t-Product-Engineer-II-ArcGIS-Maps-SDK-for-JavaScript-e-ESRI-l-Redlands,-CA-jobs-j85048377.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:9827403325791793402",
+      "author": "",
+      "date": "2025-11-22T16:34:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Analyze Boston",
+      "description": "84 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> ZIP. Filter Results. 36inch Sea Level Rise 1pct Annual&nbsp;...",
+      "link": "https://data.boston.gov/dataset/?_res_format_limit=0&res_format=ArcGIS+GeoServices+REST+API&res_format=ZIP&page=5",
+      "guid": "tag:google.com,2013:googlealerts/feed:3792365863750235406",
+      "author": "",
+      "date": "2025-11-21T22:08:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ESRI</b> Scraping - Bionic Teaching",
+      "description": "... <b>arcgis</b>-item-browser-table-row&#39; );. const data = Array ... Doesn&#39;t shadowroot sound so cool? Posted in Data, ExamplesTagged Data, <b>ESRI</b>, <b>javascript</b>&nbsp;...",
+      "link": "https://bionicteaching.com/esri-scraping/",
+      "guid": "tag:google.com,2013:googlealerts/feed:6782730419981446992",
+      "author": "",
+      "date": "2025-11-21T20:44:48.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Map Directions in One Tag",
       "description": "",
@@ -10,6 +46,18 @@
       "guid": "yt:video:TVT9457UOqM",
       "author": "Courtney Yatteau",
       "date": "2025-11-21T17:52:02.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScript - Job at ESRI - Milwaukee Jobs",
+      "description": "ESRI now hiring Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScript - Job at ESRI in Redlands, CA - apply today!",
+      "link": "https://www.milwaukeejobs.com/j/t-Sr-Product-Engineer-ArcGIS-Maps-SDK-for-JavaScript-e-ESRI-l-Redlands,-CA-jobs-j85017394.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:4203013652289987776",
+      "author": "",
+      "date": "2025-11-21T17:34:05.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
