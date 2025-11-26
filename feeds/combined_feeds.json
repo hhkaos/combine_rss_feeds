@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (25-11-2025)",
+  "title": "Combined ArcGIS Feeds (26-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-25T01:26:43.440Z",
+  "lastUpdated": "2025-11-26T01:26:33.114Z",
   "items": [
+    {
+      "title": "Unser Rückblick auf den Esri European Dev & Tech Summit 2025",
+      "description": "<P><STRONG>„It’s all about people with passion“</STRONG>– dieses war unser gelebtes Motto und prägte den diesjährigen Esri European Dev &amp; Tech Summit.</P>",
+      "link": "https://community.esri.com/t5/geodev-germany-blog/unser-r%C3%BCckblick-auf-den-esri-european-dev-amp-tech/ba-p/1668160",
+      "guid": "https://community.esri.com/t5/geodev-germany-blog/unser-r%C3%BCckblick-auf-den-esri-european-dev-amp-tech/ba-p/1668160",
+      "author": "Jan-Tschada",
+      "date": "2025-11-25T09:43:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> - Job at <b>ESRI</b> - Milwaukee Jobs",
       "description": "Responsibilities. Design, develop, test, document, release, and support the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (including core <b>API</b>, web components, and&nbsp;...",
