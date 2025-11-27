@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (26-11-2025)",
+  "title": "Combined ArcGIS Feeds (27-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-26T01:26:33.114Z",
+  "lastUpdated": "2025-11-27T01:25:41.554Z",
   "items": [
+    {
+      "title": "ArcGIS Maps Get A Voice at Fluttercon",
+      "description": "<P><SPAN><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"IMG_7968 (1).jpg\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/144492i831554CC12BE2693/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"IMG_7968 (1).jpg\" alt=\"IMG_7968 (1).jpg\" /></span></SPAN></P><P><SPAN>This year, our Flutter Maps SDK team had the privilege of taking the stage at both Fluttercon USA and Fluttercon EU, where we showcased our latest capabilities, such as Geotriggers and Navigation to show how location intelligence can elevate Flutter applications.</SPAN></P><P><SPAN>Read the full recap:&nbsp;</SPAN><SPAN><A href=\"https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/arcgis-maps-get-a-voice-at-fluttercon\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/arcgis-maps-get-a-voice-at-fluttercon</A></SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-get-a-voice-at-fluttercon/ba-p/1668936",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-get-a-voice-at-fluttercon/ba-p/1668936",
+      "author": "kossiyovo",
+      "date": "2025-11-26T22:01:01.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Unser Rückblick auf den Esri European Dev & Tech Summit 2025",
       "description": "<P><STRONG>„It’s all about people with passion“</STRONG>– dieses war unser gelebtes Motto und prägte den diesjährigen Esri European Dev &amp; Tech Summit.</P>",
