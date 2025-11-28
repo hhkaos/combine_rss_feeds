@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (27-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (28-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-27T01:25:49.067Z",
+  "lastUpdated": "2025-11-28T01:25:00.745Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | Jobright.ai",
+      "description": "Apply to Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> at <b>Esri</b> on Jobright: Elevate Your Search with an AI Copiloted Experience.",
+      "link": "https://jobright.ai/jobs/info/690c0394221b890c277fa89f",
+      "guid": "tag:google.com,2013:googlealerts/feed:13489162145360560455",
+      "author": "",
+      "date": "2025-11-27T16:25:33.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri is improving the user interface of ArcGIS Online with a new look and feel, making it easier for users to navigate and access their content.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer Job in CG-VAK Software &amp; Exports Ltd. at Haryana - Shine.com",
+      "description": "<b>ESRI</b> Arc GIS <b>SDK</b> for Net; <b>ESRI</b> Arc GIS <b>JavaScript API</b>; ASP Net MVC Framework; Web <b>API</b>; IZenda Adhoc; Google Map <b>API</b>; AGOL <b>ArcGIS</b> Online; Web app&nbsp;...",
+      "link": "https://www.shine.com/jobs/arcgis-developer/cg-vak-software-exports-ltd/18161622",
+      "guid": "tag:google.com,2013:googlealerts/feed:1160749580354272127",
+      "author": "",
+      "date": "2025-11-27T15:21:15.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A job offer for an ArcGIS Developer position at CG-VAK Software Exports Ltd.",
+      "processed": true
+    },
+    {
+      "title": "ICEYE and <b>Esri</b> Australia (through Boustead Geospatial) partner to deliver unprecedented ...",
+      "description": "... <b>ArcGIS</b> platform. For organisations already using <b>Esri&#39;s</b> industry-leading GIS technology, ICEYE&#39;s data will now be available directly through&nbsp;...",
+      "link": "https://www.thailand-business-news.com/pr-news/iceye-and-esri-australia-through-boustead-geospatial-partner-to-deliver-unprecedented-hazard-intelligence-across-australia-and-southeast-asia",
+      "guid": "tag:google.com,2013:googlealerts/feed:2064955944531784656",
+      "author": "",
+      "date": "2025-11-27T13:41:05.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ICEYE and Esri Australia partner to deliver unprecedented hazard intelligence across Australia and Southeast Asia.",
+      "processed": true
+    },
+    {
+      "title": "Geospatial - Topic - San Jose CA Open Data Portal",
+      "description": "Data is published on Mondays on a weekly basis. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Park. This dataset includes open,&nbsp;...",
+      "link": "https://data.sanjoseca.gov/group/b40eb18b-a19e-4659-bbb9-1c46dd551a56?_tags_limit=0&res_format=CSV&res_format=HTML&res_format=GeoJSON",
+      "guid": "tag:google.com,2013:googlealerts/feed:749357983576750227",
+      "author": "",
+      "date": "2025-11-27T06:24:20.000Z",
+      "category": "Documentation",
+      "topicsProduct": "\"ArcGIS Online\"",
+      "summary": "New features and updates for ArcGIS Online have been released, including improved collaboration tools and enhanced security features.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Maps Get A Voice at Fluttercon",
       "description": "<P><SPAN><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"IMG_7968 (1).jpg\" style=\"width: 999px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/144492i831554CC12BE2693/image-size/large?v=v2&amp;px=999\" role=\"button\" title=\"IMG_7968 (1).jpg\" alt=\"IMG_7968 (1).jpg\" /></span></SPAN></P><P><SPAN>This year, our Flutter Maps SDK team had the privilege of taking the stage at both Fluttercon USA and Fluttercon EU, where we showcased our latest capabilities, such as Geotriggers and Navigation to show how location intelligence can elevate Flutter applications.</SPAN></P><P><SPAN>Read the full recap:&nbsp;</SPAN><SPAN><A href=\"https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/arcgis-maps-get-a-voice-at-fluttercon\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.esri.com/arcgis-blog/products/sdk-flutter/developers/arcgis-maps-get-a-voice-at-fluttercon</A></SPAN></P>",
@@ -13,6 +61,18 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Maps SDK for Flutter",
       "summary": "ArcGIS Maps SDK for Flutter gets a voice at FlutterCon, showing its integration capabilities and features for native mapping in Flutter apps.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - California Natural Resources Agency Open Data",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; CNDDB-tracked Elements by County [ds2852] Extended Table. This dataset provides basic&nbsp;...",
+      "link": "https://data.cnra.ca.gov/dataset/?_organization_limit=0&_res_format_limit=0&_tags_limit=0&q=california&res_format=CSV&license_id=cc-by",
+      "guid": "tag:google.com,2013:googlealerts/feed:423121407486029680",
+      "author": "",
+      "date": "2025-11-26T21:19:33.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and share custom basemaps in ArcGIS Online using the Vector Tile Style Editor.",
       "processed": true
     },
     {
