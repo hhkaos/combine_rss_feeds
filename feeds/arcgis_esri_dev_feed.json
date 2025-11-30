@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-11-2025)",
+  "title": "ArcGIS ESRI Dev Feed (30-11-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-11-29T01:25:05.799Z",
+  "lastUpdated": "2025-11-30T01:44:58.880Z",
   "items": [
+    {
+      "title": "ArcGIS Technical Architect/Lead with .NET exp. - NYC, NY Onsite from day 1 - Job Details",
+      "description": "NET Core, .NET 9.0, Entity Framework, JavaScript libraries, and <b>ArcGIS Maps SDK for</b> .NET. Identify, analyze, and develop interfaces and integration&nbsp;...",
+      "link": "https://nvoids.com/job_details.jsp?id=2958001&uid=0be02b15ffe54bdab8c3159222673423",
+      "guid": "tag:google.com,2013:googlealerts/feed:11636245784861293270",
+      "author": "",
+      "date": "2025-11-29T00:52:16.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New improvements in ArcGIS Online allow users to collaborate more efficiently and customize their maps with enhanced features.",
+      "processed": true
+    },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | Jobright.ai",
       "description": "Apply to Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> at <b>Esri</b> on Jobright: Elevate Your Search with an AI Copiloted Experience.",
