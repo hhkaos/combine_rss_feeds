@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (01-12-2025)",
+  "title": "Combined ArcGIS Feeds (02-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-01T01:51:52.433Z",
+  "lastUpdated": "2025-12-02T01:28:22.889Z",
   "items": [
+    {
+      "title": "Qt: Lessons from Swapping Out Our Authentication System",
+      "description": "<P>In&nbsp;<STRONG><A href=\"http://Qt%20Maps SDK team\" target=\"_self\">this recent blog post</A></STRONG>,&nbsp;discover lessons learned by the&nbsp;<SPAN>Qt Maps SDK team when they swapped out a foundational system in their codebase, the authentication system.</SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/qt-lessons-from-swapping-out-our-authentication/ba-p/1669525",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/qt-lessons-from-swapping-out-our-authentication/ba-p/1669525",
+      "author": "Mara",
+      "date": "2025-12-02T01:11:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Announcement: AI-Powered Mapping for the ArcGIS Web Developer - Season 2 (2025)",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=wvWTFjLazA0",
+      "guid": "yt:video:wvWTFjLazA0",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-02T00:16:40.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Flutter Maps SDK compatibility notes for 200.8.0",
+      "description": "<P>Flutter is evolving rapidly, and so is our SDK. With each new Flutter release, we strive to maintain compatibility and deliver a smooth integration experience.</P><P>Because Flutter versions often ship between our release cycles, each new release of our package is built and certified against the latest Flutter version available at that time. When Flutter introduces a new version between our releases, we’ll share guidance on compatibility with our most recent SDK.</P><P>Although we have not completed full certification across all supported devices, our high-level testing confirms that the <STRONG>200.8.0</STRONG> release works with <STRONG>Flutter 3.38.1 and later</STRONG>.</P><P>This post highlights key compatibility considerations and dependency requirements for supporting our SDK on <STRONG>Flutter 3.38.x</STRONG>.</P><P><STRONG><FONT size=\"5\">1. <FONT face=\"andale mono,times\">argis_maps</FONT> package</FONT></STRONG></P><P>When using <FONT face=\"andale mono,times\">arcgis_maps</FONT> 200.8.0 with Flutter 3.38.x, you may experience the following error:</P><P>Error:</P><LI-CODE lang=\"markdown\">Dependency 'androidx.browser:browser:1.9.0' requires Android Gradle plugin 8.9.1 or higher.\r\nThis build currently uses Android Gradle plugin 8.7.3.</LI-CODE><P>This error is due to a conflict with the <FONT face=\"andale mono,times\">url_launcher_android</FONT> dependency version 6.3.26 or later, which requires Android Gradle Plugin (AGP) 8.9.1 or higher.</P><P><STRONG><FONT size=\"5\">How to fix this issue</FONT></STRONG></P><P>You have two options:</P><P><STRONG><FONT size=\"4\">Option 1: Upgrade the AGP</FONT></STRONG></P><P>Update your Android project to use <STRONG>AGP 8.9.1 or newer</STRONG>.<BR />This AGP version is compatible with <FONT face=\"andale mono,times\">url_launcher_android</FONT> 6.3.26.</P><P><FONT size=\"4\"><STRONG>Option 2: Pin the compatible version of&nbsp; <FONT face=\"andale mono,times\">url_launcher_android</FONT></STRONG></FONT></P><P>If you prefer not to upgrade your Android Gradle Plugin, add the following override to your <FONT face=\"andale mono,times\">pubspec.yaml</FONT>:</P><LI-CODE lang=\"markdown\">dependency_overrides:\r\nurl_launcher_android: 6.3.25 # or newer</LI-CODE><P>&nbsp;</P><P><STRONG><FONT size=\"5\">2.&nbsp;</FONT><FONT face=\"andale mono,times\" size=\"5\">arcgis_maps_toolkit</FONT></STRONG></P><P>The following error may be experienced when using our toolkit on Flutter 3.38.x:</P><P>Error:</P><LI-CODE lang=\"markdown\">Type argument is not within its bounds: should be subtype of 'Any'</LI-CODE><P>What is happening is that our toolkit depends on <FONT face=\"andale mono,times\">webview_flutter</FONT>&nbsp;and its Android implementation (<FONT face=\"andale mono,times\">webview_flutter_android</FONT>). Newest version of <FONT face=\"andale mono,times\">webview_flutter_android</FONT>&nbsp;(4.10.5) generates Kotlin code that is incompatible with older Kotlin compiler versions.</P><P><STRONG><FONT size=\"5\">How to fix this issue</FONT></STRONG></P><P>You have two options:</P><P><FONT size=\"4\"><STRONG>Option 1: Upgrade Kotlin</STRONG></FONT></P><P>Update your Android project to use <STRONG>Kotlin 2.2.0 or newer</STRONG>.<BR />This Kotlin version is compatible with <FONT face=\"andale mono,times\">webview_flutter_android</FONT> 4.10.5 and above.</P><P><STRONG><FONT size=\"4\">Option 2: Pin the compatible WebView version</FONT></STRONG></P><P>Add the following override to your <FONT face=\"andale mono,times\">pubspec.yaml</FONT>:</P><LI-CODE lang=\"markdown\">dependency_overrides:\r\nwebview_flutter_android: 4.10.5 # or newer</LI-CODE><P><U><STRONG>Note:</STRONG></U></P><P>This issue occurs due to a recent point release update to <FONT face=\"andale mono,times\">webview_flutter_android</FONT> and can also affect projects using Flutter 3.35.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/flutter-maps-sdk-compatibility-notes-for-200-8-0/ba-p/1669465",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/flutter-maps-sdk-compatibility-notes-for-200-8-0/ba-p/1669465",
+      "author": "kossiyovo",
+      "date": "2025-12-01T22:42:21.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "A More Seamless Path for Deliveries this Holiday Season",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/decision-support/a-more-seamless-path-for-deliveries-this-holiday-season",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2949646",
+      "author": "Elizabeth Ole",
+      "date": "2025-12-01T18:18:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS Technical Architect/Lead with .NET exp. - NYC, NY Onsite from day 1 - Job Details",
       "description": "NET Core, .NET 9.0, Entity Framework, JavaScript libraries, and <b>ArcGIS Maps SDK for</b> .NET. Identify, analyze, and develop interfaces and integration&nbsp;...",
