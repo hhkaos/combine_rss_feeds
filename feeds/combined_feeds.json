@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (02-12-2025)",
+  "title": "Combined ArcGIS Feeds (03-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-02T01:28:22.889Z",
+  "lastUpdated": "2025-12-03T01:28:18.468Z",
   "items": [
+    {
+      "title": "Code a snack generator with AI 🍿",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/3KuU5xYuFao",
+      "guid": "yt:video:3KuU5xYuFao",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-02T21:29:21.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDK for Flutter - 200.8.0 compatibility notes for Flutter 3.38.x",
+      "description": "<P>This post highlights key compatibility considerations and dependency requirements for supporting our SDK on Flutter 3.38.x</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-sdk-for-flutter-200-8-0-compatibility/ba-p/1669465",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-sdk-for-flutter-200-8-0-compatibility/ba-p/1669465",
+      "author": "kossiyovo",
+      "date": "2025-12-02T18:02:31.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Karnataka Bank Adopts IBM Cloud Pak To Upgrade <b>API</b> Platform - SMEStreet",
+      "description": "... (<b>API</b>) platform while reducing total cost of ownership and reinforcing ... <b>Esri</b>&nbsp;...",
+      "link": "https://smestreet.in/technology/karnataka-bank-adopts-ibm-cloud-pak-to-upgrade-api-platform-10831514",
+      "guid": "tag:google.com,2013:googlealerts/feed:907709479707988796",
+      "author": "",
+      "date": "2025-12-02T16:53:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Brings New GeoAnalytics and Mapping Tools to Microsoft Fabric | Geo Week News",
+      "description": "... <b>Esri&#39;s</b> spatial analysis tools and curated datasets inside their existing Fabric workflows. <b>ArcGIS</b> Maps for Microsoft Fabric is also live in public&nbsp;...",
+      "link": "https://www.geoweeknews.com/news/esri-brings-new-geoanalytics-and-mapping-tools-to-microsoft-fabric",
+      "guid": "tag:google.com,2013:googlealerts/feed:11046275571260421877",
+      "author": "",
+      "date": "2025-12-02T16:34:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> India Adds Bharat ENVI To Enhance <b>ArcGIS</b> Imagery Workflows - SMEStreet",
+      "description": "It is tightly integrated with <b>Esri&#39;s ArcGIS</b> platform and lets GIS users seamlessly access and analyze imagery to solve critical problems with&nbsp;...",
+      "link": "https://smestreet.in/technology/esri-india-adds-bharat-envi-to-enhance-arcgis-imagery-workflows-10831479",
+      "guid": "tag:google.com,2013:googlealerts/feed:14608328073978148723",
+      "author": "",
+      "date": "2025-12-02T12:03:26.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Turn Map Clicks into Recipes",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=EWanaIMUHhU",
+      "guid": "yt:video:EWanaIMUHhU",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-02T03:48:01.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Qt: Lessons from Swapping Out Our Authentication System",
       "description": "<P>In&nbsp;<STRONG><A href=\"http://Qt%20Maps SDK team\" target=\"_self\">this recent blog post</A></STRONG>,&nbsp;discover lessons learned by the&nbsp;<SPAN>Qt Maps SDK team when they swapped out a foundational system in their codebase, the authentication system.</SPAN></P>",
