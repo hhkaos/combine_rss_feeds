@@ -1,8 +1,70 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (04-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-03T01:28:33.784Z",
+  "lastUpdated": "2025-12-04T01:38:02.753Z",
   "items": [
+    {
+      "title": "<b>Esri</b> Launches Content Store for <b>ArcGIS</b> to Provide Easier Access to On-Demand, GIS-Ready Imagery",
+      "description": "24, 2025 — <b>Esri</b> is launching Content Store for <b>ArcGIS</b>, a new web app ... Your browser does not support <b>JavaScript</b>! Go to... Could you brief&nbsp;...",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/esri-launches-content-store-for-arcgis-to-provide-easier-access-to-on-demand-gis-ready-imagery/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2293630508922306627",
+      "author": "",
+      "date": "2025-12-03T17:59:41.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri has launched a content store within ArcGIS Online to provide easier access to on-demand GIS-ready imagery.",
+      "processed": true
+    },
+    {
+      "title": "Announcing ArcGIS Maps SDK 2.2 for Unreal Engine",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/unreal-engine/announcements/announcing-arcgis-maps-sdk-2-2-for-unreal-engine",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2950377",
+      "author": "Mike Branscomb",
+      "date": "2025-12-03T15:00:52.000Z",
+      "category": "Blog",
+      "topicsProduct": "Game Engines",
+      "summary": "Announcing ArcGIS Maps SDK 2.2 for Unreal Engine, providing developers with new features and improvements for integrating ArcGIS maps into Unreal Engine projects.",
+      "processed": true
+    },
+    {
+      "title": "Announcing ArcGIS Maps SDK 2.2 for Unity",
+      "description": "Unity Maps SDK 2.2 adds point cloud support, identify for 3D object feature attributes, and custom materials for building scene layers.",
+      "link": "https://www.esri.com/arcgis-blog/products/unity/announcements/announcing-arcgis-maps-sdk-2-2-for-unity",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2950385",
+      "author": "Mike Branscomb",
+      "date": "2025-12-03T15:00:21.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Unity",
+      "summary": "Esri has announced the release of ArcGIS Maps SDK 2.2 for Unity, providing improved capabilities for integrating maps and location services into Unity applications.",
+      "processed": true
+    },
+    {
+      "title": "The Journey of Making Our First <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> Application (Making ... - YouTube",
+      "description": "The Journey of Making Our First <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> Application (Making WHAIFinder v3).",
+      "link": "https://www.youtube.com/watch?v=dKRny_K38RM",
+      "guid": "tag:google.com,2013:googlealerts/feed:6051135833450833056",
+      "author": "",
+      "date": "2025-12-03T02:21:05.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Build a Map You Can Text With 💬",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=JCK28jE5u5U",
+      "guid": "yt:video:JCK28jE5u5U",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-03T01:47:09.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to use dynamic text in ArcGIS Online to create engaging and informative maps.",
+      "processed": true
+    },
     {
       "title": "Code a snack generator with AI 🍿",
       "description": "",
