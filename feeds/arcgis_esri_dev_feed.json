@@ -1,8 +1,60 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (04-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (05-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-04T01:38:02.753Z",
+  "lastUpdated": "2025-12-05T01:38:35.846Z",
   "items": [
+    {
+      "title": "Map Styling Made Easy: Smarter Basemap Picks",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=i9TAnlHZcH8",
+      "guid": "yt:video:i9TAnlHZcH8",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-05T01:29:26.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create visually stunning story maps using ArcGIS Online with this tutorial for beginners.",
+      "processed": true
+    },
+    {
+      "title": "Code a Smart Map Compass 🧭",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/SY0hcV_wCCM",
+      "guid": "yt:video:SY0hcV_wCCM",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-04T23:35:40.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+    },
+    {
+      "title": "Geospatial - Group - Open Data SA - City of San Antonio",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; IMP Street. The Infrastructure Management Program (IMP) is a five-&nbsp;...",
+      "link": "https://data.sanantonio.gov/group/79b6c35c-8858-494f-841c-e41a9f5075eb?res_format=KML&res_format=GeoJSON",
+      "guid": "tag:google.com,2013:googlealerts/feed:15792807131740430753",
+      "author": "",
+      "date": "2025-12-04T05:44:04.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Narrate Your 3D Map With AI",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=7pJA4K_auFY",
+      "guid": "yt:video:7pJA4K_auFY",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-04T04:37:10.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to configure ArcGIS Enterprise to optimize performance and scalability in this informative video tutorial.",
+      "processed": true
+    },
     {
       "title": "<b>Esri</b> Launches Content Store for <b>ArcGIS</b> to Provide Easier Access to On-Demand, GIS-Ready Imagery",
       "description": "24, 2025 — <b>Esri</b> is launching Content Store for <b>ArcGIS</b>, a new web app ... Your browser does not support <b>JavaScript</b>! Go to... Could you brief&nbsp;...",
