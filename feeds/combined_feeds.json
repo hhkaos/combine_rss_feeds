@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (05-12-2025)",
+  "title": "Combined ArcGIS Feeds (06-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-05T01:38:23.958Z",
+  "lastUpdated": "2025-12-06T01:24:26.012Z",
   "items": [
+    {
+      "title": "Create a Map Storyteller for the Web 📚",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=hUGcnys7L1E",
+      "guid": "yt:video:hUGcnys7L1E",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-05T21:58:16.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge pull request #406 from Esri/see-edit-info-soe\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #406 from Esri/see-edit-info-soe\n\nAdded seeEditInfo SOE source code and documentation</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/d021b609d43151e831eaf8cb5d60541b6418b5f6",
+      "guid": "tag:github.com,2008:Grit::Commit/d021b609d43151e831eaf8cb5d60541b6418b5f6",
+      "author": "nPerez00",
+      "date": "2025-12-05T19:30:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataminr and <b>Esri</b> Expand Partnership to Transform Location Intelligence with Real ... - HPCwire",
+      "description": "Dataminr users will benefit from <b>ArcGIS</b> mapping and <b>location services</b> technology within Dataminr&#39;s industry-leading AI platform, while <b>Esri</b> users&nbsp;...",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/dataminr-and-esri-expand-partnership-to-transform-location-intelligence-with-real-time-event-detection/",
+      "guid": "tag:google.com,2013:googlealerts/feed:14769877350558331619",
+      "author": "",
+      "date": "2025-12-05T11:55:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Senior Dotnet Developer (GIS/Clinical) | New York | JobLeads.com",
+      "description": "NET Core, .NET 9.0, Entity Framework, MVC, SQL Server, and Azure. Hands-on development experience with <b>ArcGIS Maps SDK for</b> .NET, Python,&nbsp;...",
+      "link": "https://www.jobleads.com/us/job/senior-dotnet-developer-gis-clinical--new-york--e92b254ab1aee837b3009b579dad4004d",
+      "guid": "tag:google.com,2013:googlealerts/feed:18243503708332088181",
+      "author": "",
+      "date": "2025-12-05T02:12:26.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Map Styling Made Easy: Smarter Basemap Picks",
       "description": "",
