@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (07-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (08-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-07T01:45:10.359Z",
+  "lastUpdated": "2025-12-08T01:38:49.295Z",
   "items": [
+    {
+      "title": "南宁网站建设博信wordpress后台改中文 - neutronadmin.com",
+      "description": "... MapView的常用方法在<b>ArcGIS Maps SDK for</b> JavaScript 中，Map 和MapView 是两个重要的概念，用于创建和展示地图应用程序。 Map Map 表示一个地图…",
+      "link": "http://wiki.neutronadmin.com/news/258366/",
+      "guid": "tag:google.com,2013:googlealerts/feed:817488407724747728",
+      "author": "",
+      "date": "2025-12-06T23:04:40.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri has introduced new capabilities to ArcGIS Online, including enhancements to the map viewer, collaboration tools, and spatial analysis features.",
+      "processed": true
+    },
+    {
+      "title": "IS Applications Analyst 1 - GIS - Job Bulletin",
+      "description": "Minimum Qualifications. Two (2) years of experience in Python 3.x, <b>ArcGIS Maps SDK for</b> JavaScript, React, TypeScript, and Visual Studio,&nbsp;...",
+      "link": "https://www.governmentjobs.com/careers/nashville/jobs/newprint/5157388",
+      "guid": "tag:google.com,2013:googlealerts/feed:11563956135975280799",
+      "author": "",
+      "date": "2025-12-06T21:34:02.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Nashville utilizes ArcGIS Online to encourage residents to participate in the city's Bike Month Challenge, promoting biking and healthy activities.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. username | password required. User Name:.",
+      "link": "https://gis.arboretum.harvard.edu/arcgis/rest/login?redirect=https%3A//gis.arboretum.harvard.edu/arcgis/rest/services/Maps/Dashboard/MapServer/legend",
+      "guid": "tag:google.com,2013:googlealerts/feed:14170650102038545639",
+      "author": "",
+      "date": "2025-12-06T19:35:39.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Check out this 3D dashboard built using ArcGIS Enterprise to visualize data in a spatial context.",
+      "processed": true
+    },
+    {
+      "title": "Software Development Engineer II - Android SDK @ Esri | FireUp Job Board",
+      "description": "Shape the way users of the <b>ArcGIS Maps SDK for</b> Android consume our cutting-edge location technologies and enable them to build unique experiences&nbsp;...",
+      "link": "https://jobs.fire-up.net/companies/esri/jobs/63235179-software-development-engineer-ii-android-sdk",
+      "guid": "tag:google.com,2013:googlealerts/feed:18311170072988895487",
+      "author": "",
+      "date": "2025-12-06T18:22:09.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri announces new updates to ArcGIS Online platform, including improved collaboration tools and enhanced data visualization capabilities.",
+      "processed": true
+    },
     {
       "title": "Create a Map Storyteller for the Web 📚",
       "description": "",
