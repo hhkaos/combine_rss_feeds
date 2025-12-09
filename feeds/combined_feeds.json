@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (08-12-2025)",
+  "title": "Combined ArcGIS Feeds (09-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-08T01:38:38.615Z",
+  "lastUpdated": "2025-12-09T01:37:42.143Z",
   "items": [
+    {
+      "title": "It's Computer Science Education Week 2025 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/9o9CCApCA3g",
+      "guid": "yt:video:9o9CCApCA3g",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-09T00:40:02.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "How to Auto-Translate Map Locations 📍",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=A5vQGKDClm0",
+      "guid": "yt:video:A5vQGKDClm0",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-08T21:02:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge pull request #407 from Esri/PaulGibbs3rd-patch-2\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #407 from Esri/PaulGibbs3rd-patch-2\n\nAdd seeEditInfo SOE readme</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/31c2b366161c27b13d5a446b3f4ee888b5dc690d",
+      "guid": "tag:github.com,2008:Grit::Commit/31c2b366161c27b13d5a446b3f4ee888b5dc690d",
+      "author": "nPerez00",
+      "date": "2025-12-08T17:46:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "\n        Add seeEditInfo SOE readme\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add seeEditInfo SOE readme\n\nIntroduced the seeEditInfo SOE for ArcGIS Enterprise, enabling retrieval of editor-tracking information directly from feature services without external requests.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/398201e017e3aed06065b513502e02fa520f072c",
+      "guid": "tag:github.com,2008:Grit::Commit/398201e017e3aed06065b513502e02fa520f072c",
+      "author": "PaulGibbs3rd",
+      "date": "2025-12-08T17:21:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> releases CityEngine 2025.1 - CG Channel",
+      "description": "... <b>JavaScript</b> if it is ... <b>API</b>. The software is now available rental-only, via <b>Esri&#39;s ArcGIS</b> Professional and Professional Plus subscriptions.",
+      "link": "https://www.cgchannel.com/2025/12/esri-releases-cityengine-2025/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16941573085093725442",
+      "author": "",
+      "date": "2025-12-08T16:14:31.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Winchester VA",
+      "description": "5 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> GDB KML TXT ZIP. Filter Results&nbsp;...",
+      "link": "https://opendata.winchesterva.gov/dataset/?res_format=GDB&res_format=KML&res_format=TXT&res_format=ZIP&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:4308736569202841480",
+      "author": "",
+      "date": "2025-12-07T18:10:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "南宁网站建设博信wordpress后台改中文 - neutronadmin.com",
       "description": "... MapView的常用方法在<b>ArcGIS Maps SDK for</b> JavaScript 中，Map 和MapView 是两个重要的概念，用于创建和展示地图应用程序。 Map Map 表示一个地图…",
