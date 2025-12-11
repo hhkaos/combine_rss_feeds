@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (10-12-2025)",
+  "title": "Combined ArcGIS Feeds (11-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-10T01:40:10.588Z",
+  "lastUpdated": "2025-12-11T01:40:33.976Z",
   "items": [
+    {
+      "title": "Create a 3D Self-Describing Map 🌍",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=eyF0HHRRDls",
+      "guid": "yt:video:eyF0HHRRDls",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-11T01:36:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "HTML Tags Every Beginner Should Know",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/fEQPIPzhix8",
+      "guid": "yt:video:fEQPIPzhix8",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-10T13:23:37.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript: Latest Updates in Version 4.34",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=UHCxDeM-nnU",
+      "guid": "yt:video:UHCxDeM-nnU",
+      "author": "Esri Developers",
+      "date": "2025-12-10T05:50:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Build an Indoor Maps Explorer 🏢",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=TaDohpf3c8o",
+      "guid": "yt:video:TaDohpf3c8o",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-10T03:18:48.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Launched CityEngine 2025.1 - 80 Level",
+      "description": "... <b>JavaScript</b> if it is disabled in your browser. ... Also, a new Python 3 scripting <b>API</b> is available in beta, allowing users to customize the software&#39;s&nbsp;...",
+      "link": "https://80.lv/articles/esri-launched-cityengine-2025-1",
+      "guid": "tag:google.com,2013:googlealerts/feed:15554669825251934861",
+      "author": "",
+      "date": "2025-12-10T00:26:10.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #408 from woriginales/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #408 from woriginales/master\n\nUpdated sample Layer List with Attribute Table Toggle</pre>\n    ",
