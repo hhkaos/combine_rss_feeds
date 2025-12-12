@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (11-12-2025)",
+  "title": "Combined ArcGIS Feeds (12-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-11T01:40:33.976Z",
+  "lastUpdated": "2025-12-12T01:39:57.706Z",
   "items": [
+    {
+      "title": "Code a 3D Map Slice Descriptor ",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=hLlMtv_FhOs",
+      "guid": "yt:video:hLlMtv_FhOs",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-12T00:35:45.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Visual Studio Code not rendering Maps using <b>ArcGIS</b> Python <b>API</b> · Issue #17193 - GitHub",
+      "description": "Visual Studio Code not rendering Maps using <b>ArcGIS</b> Python <b>API</b> #17193 &middot; Description &middot; Environment data &middot; Expected behaviour &middot; Actual behaviour &middot; Steps to&nbsp;...",
+      "link": "https://github.com/microsoft/vscode-jupyter/issues/17193",
+      "guid": "tag:google.com,2013:googlealerts/feed:18023717112016178986",
+      "author": "",
+      "date": "2025-12-11T19:53:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Built with Qt: <b>Esri ArcGIS</b> Runtime <b>SDK</b> for Qt",
+      "description": "The <b>esri ArcGIS</b> Runtime <b>SDK</b> lets you build native apps with <b>ArcGIS</b> and Qt ... <b>JavaScript</b> if it is disabled in your browser. Built with Qt: <b>Esri</b>&nbsp;...",
+      "link": "https://www.qt.io/development/resources/videos/built-with-qt-esri-arcgis-runtime-sdk-for-qt?hsLang=en",
+      "guid": "tag:google.com,2013:googlealerts/feed:6524310584586276095",
+      "author": "",
+      "date": "2025-12-11T15:25:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "HTML Explained: 3 Simple Analogies 👩🏻‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/GC7Nb7G1F6o",
+      "guid": "yt:video:GC7Nb7G1F6o",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-11T04:18:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Create a 3D Self-Describing Map 🌍",
       "description": "",
@@ -10,6 +58,18 @@
       "guid": "yt:video:eyF0HHRRDls",
       "author": "Courtney Yatteau",
       "date": "2025-12-11T01:36:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://maps.mckinneytexas.org/mckinney/rest/login?redirect=https%3A//maps.mckinneytexas.org/mckinney/rest/services/MapServices/BasemapsCurrentPlanning/MapServer/20",
+      "guid": "tag:google.com,2013:googlealerts/feed:70376639476502476",
+      "author": "",
+      "date": "2025-12-10T23:14:02.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
