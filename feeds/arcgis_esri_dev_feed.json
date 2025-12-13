@@ -1,8 +1,104 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (12-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (13-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-12T01:40:07.309Z",
+  "lastUpdated": "2025-12-13T01:26:27.875Z",
   "items": [
+    {
+      "title": "\n        Merge pull request #409 from nPerez00/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #409 from nPerez00/master\n\nAdding sample custom ExB widgets</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/13a54121e614bc12910965a8709804806098262c",
+      "guid": "tag:github.com,2008:Grit::Commit/13a54121e614bc12910965a8709804806098262c",
+      "author": "PaulGibbs3rd",
+      "date": "2025-12-12T21:28:17.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Fixes Portal sharing diagnostics reports that are not generated for large volumes of data when the ArcGIS Monitor agent was installed in the environment. Bug fixed for ArcGIS Enterprise 10.9.1 Patch 2.",
+      "processed": true
+    },
+    {
+      "title": "Build a Map That Suggests Nearby Stops 📍",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=k_jswykrbDY",
+      "guid": "yt:video:k_jswykrbDY",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-12T21:25:04.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to optimize your web map for ArcGIS Online in this insightful tutorial.",
+      "processed": true
+    },
+    {
+      "title": "\n        Adding sample custom ExB widget\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Adding sample custom ExB widget\n\nCommitting sample custom widgets for Experience Builder Developer Edition</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/e7a06680896f2e4e3409c2f99a1cd8d9d58d02ad",
+      "guid": "tag:github.com,2008:Grit::Commit/e7a06680896f2e4e3409c2f99a1cd8d9d58d02ad",
+      "author": "nPerez00",
+      "date": "2025-12-12T21:22:27.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Fix for missing attributes when adding feature to a hosted feature service in ArcGIS Enterprise.",
+      "processed": true
+    },
+    {
+      "title": "Economy could grow by 2% annually over decade - <b>ESRI</b> - RTE",
+      "description": "The <b>ESRI</b> has said its Economic Outlook is not an economic forecast but is a projection before the effects of any shocks to the economy are taken into&nbsp;...",
+      "link": "https://www.rte.ie/news/ireland/2025/1212/1548535-domestic-economy-esri/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8595368808051908981",
+      "author": "",
+      "date": "2025-12-12T16:30:20.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A report by the ESRI predicts that employment in the domestic economy will grow by 4% in 2026.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Runtime <b>SDK</b> Samples - You Might Also Like - App Store",
+      "description": "Browse apps and games similar to <b>ArcGIS</b> Runtime <b>SDK</b> Samples and more on the App Store.",
+      "link": "https://apps.apple.com/au/app/1180714771?see-all=customers-also-bought-apps&platform=iphone",
+      "guid": "tag:google.com,2013:googlealerts/feed:10384644696012607241",
+      "author": "",
+      "date": "2025-12-12T13:57:25.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri has released a new blog post highlighting the latest updates and enhancements in ArcGIS Online, including new features for data visualization and analysis.",
+      "processed": true
+    },
+    {
+      "title": "Best Python Libraries for GIS and Mapping - Analytics Insight",
+      "description": "For organisations using <b>Esri</b> tools, <b>ArcGIS API</b> for Python and ArcPy enable automation, analysis, publishing, and <b>ArcGIS</b> Online integration.",
+      "link": "https://www.analyticsinsight.net/photo/best-python-libraries-for-gis-and-mapping",
+      "guid": "tag:google.com,2013:googlealerts/feed:7226376053999392246",
+      "author": "",
+      "date": "2025-12-12T12:10:58.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Discover the best Python libraries for GIS and mapping to enhance your ArcGIS API for Python projects.",
+      "processed": true
+    },
+    {
+      "title": "HTML Mistakes to Avoid 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/s_Hkr6qF-Rc",
+      "guid": "yt:video:s_Hkr6qF-Rc",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-12T04:42:05.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Watch this short video to learn some quick tips and tricks for using ArcGIS Online more efficiently.",
+      "processed": true
+    },
+    {
+      "title": "$63k-$350k Executive Gis Mapping Jobs in New York City, NY - ZipRecruiter",
+      "description": "NET 9.0, Entity Framework, JavaScript libraries, and <b>ArcGIS Maps SDK for</b> .NET. • ... with executives, managers, and subject matter experts. • Strong&nbsp;...",
+      "link": "https://www.ziprecruiter.com/Jobs/Executive-Gis-Mapping/-in-New-York-City,NY",
+      "guid": "tag:google.com,2013:googlealerts/feed:9050131790916859970",
+      "author": "",
+      "date": "2025-12-12T03:36:36.000Z",
+      "category": "Job posting",
+      "topicsProduct": "Other",
+      "summary": "Esri is currently seeking an Executive GIS Mapping professional in New York City, NY.",
+      "processed": true
+    },
     {
       "title": "Code a 3D Map Slice Descriptor ",
       "description": "",
@@ -25,6 +121,18 @@
       "category": "Source code",
       "topicsProduct": "ArcGIS Online",
       "summary": "Issue opened requesting a way to download CSV files from ArcGIS Online directly into a Jupyter notebook using arcpy.",
+      "processed": true
+    },
+    {
+      "title": "CityEngine 2025.1 Expands CGA Geometry Tools and Introduces Python 3 <b>API</b>",
+      "description": "Facade components have been added to <b>ESRI</b> ... Instead of a closed automation layer, Python now connects CityEngine to ArcPy, the <b>ArcGIS API</b> for Python,&nbsp;...",
+      "link": "https://digitalproduction.com/2025/12/11/cityengine-2025-1-expands-cga-geometry-tools-and-introduces-python-3-api/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8374494911995394543",
+      "author": "",
+      "date": "2025-12-11T19:02:08.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS CityEngine",
+      "summary": "CityEngine 2025.1 expands CGA geometry tools and introduces Python 3 API.",
       "processed": true
     },
     {
