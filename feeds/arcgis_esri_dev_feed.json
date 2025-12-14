@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (13-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (14-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-13T01:26:27.875Z",
+  "lastUpdated": "2025-12-14T01:45:46.047Z",
   "items": [
+    {
+      "title": "Software Development Engineer II - Android <b>SDK</b> @ <b>Esri</b> | FireUp Job Board",
+      "description": "... <b>ArcGIS</b> Maps <b>SDK</b>. You will collaborate with a multidisciplinary team to ... Experience with <b>Esri ArcGIS</b> software or other geospatial technologies&nbsp;...",
+      "link": "https://jobs.fire-up.net/companies/esri/jobs/63588366-software-development-engineer-ii-android-sdk",
+      "guid": "tag:google.com,2013:googlealerts/feed:14262498611880969322",
+      "author": "",
+      "date": "2025-12-13T17:53:30.000Z",
+      "category": "Job Listing",
+      "topicsProduct": "ArcGIS Maps SDK for Android",
+      "summary": "Esri is looking for a Software Development Engineer II for their Android SDK team, responsible for developing and maintaining the ArcGIS Maps SDK for Android.",
+      "processed": true
+    },
+    {
+      "title": "NATO Joint Military Symbology APP6-(B) - Übersicht",
+      "description": "This style supports a configuration for modeling locations as ordered anchor points or full geometries. Required Software: <b>ArcGIS Maps SDK for</b>&nbsp;...",
+      "link": "https://rbk3.rbkdv.de/portal/home/item.html?id=756657aa5f4f4657a89b64d300de39bd",
+      "guid": "tag:google.com,2013:googlealerts/feed:9754642369406620126",
+      "author": "",
+      "date": "2025-12-13T07:19:56.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri launches new features for ArcGIS Online to improve data visualization and analysis capabilities for users.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - Winchester VA",
+      "description": "159 datasets found. Organizations: City of Winchester Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> HTML KML ZIP.",
+      "link": "https://opendata.winchesterva.gov/dataset/?organization=city-of-winchester&res_format=HTML&res_format=KML&res_format=ZIP&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:13309811445323129676",
+      "author": "",
+      "date": "2025-12-13T05:34:06.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri introduces new capabilities in ArcGIS Enterprise 10.9, offering improved performance and security features.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - vnsdi",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://vnsdi.mae.gov.vn/basemap/rest/login?redirect=https%3A//vnsdi.mae.gov.vn/basemap/rest/services/Pleiku/BinhDoAnh/MapServer/kml/regions/22-1932014-3355256.kmz%3F",
+      "guid": "tag:google.com,2013:googlealerts/feed:953497475874655335",
+      "author": "",
+      "date": "2025-12-13T01:42:25.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to improve your maps with this new guide on symbology and labeling in ArcGIS Online.",
+      "processed": true
+    },
     {
       "title": "\n        Merge pull request #409 from nPerez00/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #409 from nPerez00/master\n\nAdding sample custom ExB widgets</pre>\n    ",
