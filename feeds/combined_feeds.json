@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (14-12-2025)",
+  "title": "Combined ArcGIS Feeds (15-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-14T01:45:35.753Z",
+  "lastUpdated": "2025-12-15T01:43:44.397Z",
   "items": [
+    {
+      "title": "Update Item Thumbnail in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Update Item Thumbnail in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python | Item Object.",
+      "link": "https://www.youtube.com/watch?v=ZneWcN7R6P0",
+      "guid": "tag:google.com,2013:googlealerts/feed:529181626509844061",
+      "author": "",
+      "date": "2025-12-14T14:32:59.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Feature Layer Collection Object with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Feature Layer Collection Object with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online.",
+      "link": "https://www.youtube.com/watch?v=pB9kGyf2s3g",
+      "guid": "tag:google.com,2013:googlealerts/feed:7590455686681844004",
+      "author": "",
+      "date": "2025-12-14T13:31:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Automate <b>ArcGIS</b> Online Feature Service Workflows with the <b>ArcGIS API</b> for Python",
+      "description": "A set of videos detailing <b>ArcGIS</b> Online Feature Services workflows using the <b>ArcGIS API</b> for Python. We will do a deep dive into properties and&nbsp;...",
+      "link": "https://www.youtube.com/playlist?list=PLWlgkWEhTvz0oqrq6PP6ZbkMqCLXXMNsT",
+      "guid": "tag:google.com,2013:googlealerts/feed:12515072694407156512",
+      "author": "",
+      "date": "2025-12-14T13:31:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS API</b> for Python Item Object Class Properties - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Create a Hosted Feature Service in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=UYhvvDPchfA",
+      "guid": "tag:google.com,2013:googlealerts/feed:7265163781202485132",
+      "author": "",
+      "date": "2025-12-14T13:16:42.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Update Feature Layer Collection Properties with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Update Feature Layer Collection Properties with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online.",
+      "link": "https://www.youtube.com/watch?v=KAmI9IR4iJ4",
+      "guid": "tag:google.com,2013:googlealerts/feed:200524590926336324",
+      "author": "",
+      "date": "2025-12-14T13:05:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Check if an <b>ArcGIS</b> Online Feature Service Name Exists or Not with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... <b>ArcGIS API</b> for Python Item Object Class Properties | <b>ArcGIS</b> Online | Documentation.",
+      "link": "https://www.youtube.com/watch?v=jEVtHgS5-zM",
+      "guid": "tag:google.com,2013:googlealerts/feed:12383611778159271639",
+      "author": "",
+      "date": "2025-12-14T11:50:10.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Software Development Engineer II - Android <b>SDK</b> @ <b>Esri</b> | FireUp Job Board",
       "description": "... <b>ArcGIS</b> Maps <b>SDK</b>. You will collaborate with a multidisciplinary team to ... Experience with <b>Esri ArcGIS</b> software or other geospatial technologies&nbsp;...",
