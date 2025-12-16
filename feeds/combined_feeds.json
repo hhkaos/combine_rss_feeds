@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (15-12-2025)",
+  "title": "Combined ArcGIS Feeds (16-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-15T01:43:44.397Z",
+  "lastUpdated": "2025-12-16T01:41:09.977Z",
   "items": [
+    {
+      "title": "Introducing the Updated Billing Page and Dashboard for ArcGIS Location Platform",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/introducing-the-updated-billing-page-and-dashboard-for-arcgis-location-platform",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2951710",
+      "author": "Alison Walker",
+      "date": "2025-12-15T18:54:39.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Nouveautés de la version 2.2 des <b>ArcGIS Maps SDK for</b> Game Engines - CodeTheMap",
+      "description": "Nouveautés de la version 2.2 des <b>ArcGIS Maps SDK for</b> Game Engines ... C&#39;est la dernière mise à jour de l&#39;année pour les SDKs d&#39;ArcGIS pour Unity et&nbsp;...",
+      "link": "https://www.codethemap.fr/2025/12/nouveautes-de-la-version-22-des-arcgis.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:1938444873514761191",
+      "author": "",
+      "date": "2025-12-15T13:31:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "décembre 2025 - CodeTheMap",
+      "description": "Nouveautés de la version 2.2 des <b>ArcGIS Maps SDK for</b> Game Engines. lundi, décembre 15, 2025 0. C&#39;est la dernière mise à jour de l&#39;année pour les&nbsp;...",
+      "link": "https://www.codethemap.fr/2025/12/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16008187760862191384",
+      "author": "",
+      "date": "2025-12-15T13:31:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Product Engineer - 6AM City Job Board",
+      "description": "Product Engineer II - <b>ArcGIS Maps SDK for</b> JavaScript. Esri. CA, USA. Dec 06, 2025. Esri. Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScript. Esri.",
+      "link": "https://jobs.6amcity.com/job/411024/product-engineer/",
+      "guid": "tag:google.com,2013:googlealerts/feed:14153176422125914999",
+      "author": "",
+      "date": "2025-12-14T21:20:22.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Update Item Thumbnail in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
       "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Update Item Thumbnail in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python | Item Object.",
