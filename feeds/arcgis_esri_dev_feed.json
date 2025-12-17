@@ -1,8 +1,58 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (17-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-16T01:41:19.808Z",
+  "lastUpdated": "2025-12-17T01:27:24.589Z",
   "items": [
+    {
+      "title": "Testing ArcGIS Maps SDKs for Native Apps: A Behind‑the‑Scenes Look",
+      "description": "This is a behind the scenes look on the testing processes and challenges for ArcGIS Native Maps SDKs.",
+      "link": "https://www.esri.com/en-us/software-engineering/blog/articles/testing-arcgis-maps-sdks-for-native-apps-a-behind%e2%80%91the%e2%80%91scenes-look",
+      "guid": "https://www.esri.com/en-us/software-engineering/blog/articles/testing-arcgis-maps-sdks-for-native-apps-a-behind%e2%80%91the%e2%80%91scenes-look",
+      "author": "Koushik Hajra",
+      "date": "2025-12-16T23:33:00.000Z",
+      "category": "Blog",
+      "topicsProduct": "Native SDKs",
+      "summary": "Learn about the testing process for ArcGIS Maps SDKs for Native apps and get a behind-the-scenes look at how it is done.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Releases Getting to Know <b>ArcGIS</b> Enterprise | News - The Bakersfield Californian",
+      "description": "<b>Esri</b> Releases Getting to Know <b>ArcGIS</b> Enterprise. Business Wire; Dec 16 ... This page requires <b>Javascript</b>. <b>Javascript</b> is required for you to be able to&nbsp;...",
+      "link": "https://www.bakersfield.com/ap/news/esri-releases-getting-to-know-arcgis-enterprise/article_986e9fc7-2672-519d-9636-59e924d127c8.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:13315277557855899314",
+      "author": "",
+      "date": "2025-12-16T13:23:20.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri releases new resources for users to get to know ArcGIS Enterprise better, including tutorials and training materials.",
+      "processed": true
+    },
+    {
+      "title": "Proper HTML Structure for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/dYGhtaUng3g",
+      "guid": "yt:video:dYGhtaUng3g",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-16T06:56:27.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante. No está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "Custom Software Engineer - Accenture | Built In Chennai",
+      "description": "<b>Arcgis Javascript Api</b>. Arcobjects. Arcpy. <b>Esri Arcgis</b>. Fme. Microsoft Dot Net. Oracle. Postgres. SQL Server. Sqlite. Accenture Chennai, Tamil Nadu,&nbsp;...",
+      "link": "https://builtinchennai.in/job/custom-software-engineer/7947931",
+      "guid": "tag:google.com,2013:googlealerts/feed:4250774071835957821",
+      "author": "",
+      "date": "2025-12-16T04:16:36.000Z",
+      "category": "Documentation",
+      "topicsProduct": "Native SDKs",
+      "summary": "Esri released updates to the ArcGIS Runtime SDK for iOS, Android, and Java with new features and enhancements for developers.",
+      "processed": true
+    },
     {
       "title": "Introducing the Updated Billing Page and Dashboard for ArcGIS Location Platform",
       "description": "",

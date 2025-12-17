@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (16-12-2025)",
+  "title": "Combined ArcGIS Feeds (17-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-16T01:41:09.977Z",
+  "lastUpdated": "2025-12-17T01:27:14.977Z",
   "items": [
+    {
+      "title": "Testing ArcGIS Maps SDKs for Native Apps: A Behind‑the‑Scenes Look",
+      "description": "This is a behind the scenes look on the testing processes and challenges for ArcGIS Native Maps SDKs.",
+      "link": "https://www.esri.com/en-us/software-engineering/blog/articles/testing-arcgis-maps-sdks-for-native-apps-a-behind%e2%80%91the%e2%80%91scenes-look",
+      "guid": "https://www.esri.com/en-us/software-engineering/blog/articles/testing-arcgis-maps-sdks-for-native-apps-a-behind%e2%80%91the%e2%80%91scenes-look",
+      "author": "Koushik Hajra",
+      "date": "2025-12-16T23:33:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Releases Getting to Know <b>ArcGIS</b> Enterprise | News - The Bakersfield Californian",
+      "description": "<b>Esri</b> Releases Getting to Know <b>ArcGIS</b> Enterprise. Business Wire; Dec 16 ... This page requires <b>Javascript</b>. <b>Javascript</b> is required for you to be able to&nbsp;...",
+      "link": "https://www.bakersfield.com/ap/news/esri-releases-getting-to-know-arcgis-enterprise/article_986e9fc7-2672-519d-9636-59e924d127c8.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:13315277557855899314",
+      "author": "",
+      "date": "2025-12-16T13:23:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Proper HTML Structure for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/dYGhtaUng3g",
+      "guid": "yt:video:dYGhtaUng3g",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-16T06:56:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Custom Software Engineer - Accenture | Built In Chennai",
+      "description": "<b>Arcgis Javascript Api</b>. Arcobjects. Arcpy. <b>Esri Arcgis</b>. Fme. Microsoft Dot Net. Oracle. Postgres. SQL Server. Sqlite. Accenture Chennai, Tamil Nadu,&nbsp;...",
+      "link": "https://builtinchennai.in/job/custom-software-engineer/7947931",
+      "guid": "tag:google.com,2013:googlealerts/feed:4250774071835957821",
+      "author": "",
+      "date": "2025-12-16T04:16:36.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Introducing the Updated Billing Page and Dashboard for ArcGIS Location Platform",
       "description": "",
