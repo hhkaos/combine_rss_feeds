@@ -1,8 +1,58 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (18-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (19-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-18T01:28:04.556Z",
+  "lastUpdated": "2025-12-19T01:40:27.100Z",
   "items": [
+    {
+      "title": "Make Your HTML Project a Real Live Website 💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/wZQyThOjWkY",
+      "guid": "yt:video:wZQyThOjWkY",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-18T16:29:44.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Testing ArcGIS Maps SDKs for Native Apps: A Behind‑the‑Scenes Look",
+      "description": "<P><SPAN><A href=\"https://www.esri.com/en-us/software-engineering/blog/articles/testing-arcgis-maps-sdks-for-native-apps-a-behind%e2%80%91the%e2%80%91scenes-look\" target=\"_blank\" rel=\"noopener\">New Esri Software Engineering Blog Post!</A>&nbsp; Get an insider's look at how ArcGIS Maps SDKs for Native Apps maximizes their testing efforts and handles challenges, such as platform-specific failures, to ensure each release is of the highest quality.</SPAN></P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/testing-arcgis-maps-sdks-for-native-apps-a-behind/ba-p/1673979",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/testing-arcgis-maps-sdks-for-native-apps-a-behind/ba-p/1673979",
+      "author": "Mara",
+      "date": "2025-12-18T16:24:45.000Z",
+      "category": "Blog",
+      "topicsProduct": "Native SDKs",
+      "summary": "Learn about the testing process of ArcGIS Maps SDKs for native apps and get a behind-the-scenes look at the development.",
+      "processed": true
+    },
+    {
+      "title": "Budget to lead to 1.3% drop in disposable incomes - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... The <b>ESRI</b> has left its forecast for house completions this year&nbsp;...",
+      "link": "https://www.rte.ie/news/business/2025/1218/1549547-esri-forecast/",
+      "guid": "tag:google.com,2013:googlealerts/feed:15234669456669604813",
+      "author": "",
+      "date": "2025-12-18T15:48:30.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Esri forecasts continued growth and success for ArcGIS Enterprise in the coming years.",
+      "processed": true
+    },
+    {
+      "title": "Code a Photo Shoot Planner for a 3D Map",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=p5upo7gp-A8",
+      "guid": "yt:video:p5upo7gp-A8",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-18T13:56:33.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri has released a new ArcGIS Online update with improved usability and new features for web mapping applications.",
+      "processed": true
+    },
     {
       "title": "Three HTML Beginner Project Ideas",
       "description": "",
