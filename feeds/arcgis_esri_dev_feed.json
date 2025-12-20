@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (20-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-19T01:40:27.100Z",
+  "lastUpdated": "2025-12-20T01:26:45.108Z",
   "items": [
+    {
+      "title": "New Lidar Updates in World Elevation Layers – Dec 2025",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/announcements/new-lidar-updates-in-world-elevation-layers-dec-2025",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2952323",
+      "author": "Rajinder Nagi",
+      "date": "2025-12-19T18:10:56.000Z",
+      "category": "Blog",
+      "topicsProduct": "Living Atlas",
+      "summary": "New LiDAR updates have been added to World Elevation Layers in December 2025, improving the accuracy and coverage of elevation data.",
+      "processed": true
+    },
+    {
+      "title": "GIS Data Engineer - Mitchell Martin, Inc. - Toronto, ON - Dice",
+      "description": "Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScriptJob Title - Sr. Product Engineer - <b>ArcGIS Maps SDK for</b> JavaScript &middot; EsriCompany Name - Esri. Remote.",
+      "link": "https://www.dice.com/job-detail/322d5b0e-5f00-4fc7-8325-407e48525796",
+      "guid": "tag:google.com,2013:googlealerts/feed:9127289267626427023",
+      "author": "",
+      "date": "2025-12-19T14:50:38.000Z",
+      "category": "Course",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and share impactful maps and data using ArcGIS Online with this new course.",
+      "processed": true
+    },
     {
       "title": "Make Your HTML Project a Real Live Website 💻",
       "description": "",
