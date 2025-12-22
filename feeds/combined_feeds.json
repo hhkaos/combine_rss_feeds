@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (21-12-2025)",
+  "title": "Combined ArcGIS Feeds (22-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-21T01:45:40.832Z",
+  "lastUpdated": "2025-12-22T01:45:10.154Z",
   "items": [
+    {
+      "title": "CSS Analogies for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/Cr19aB3eIgk",
+      "guid": "yt:video:Cr19aB3eIgk",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-22T00:48:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - CKAN - National Data Platform",
+      "description": "5 datasets found. Tags: Threatened Species Critical Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter Results&nbsp;...",
+      "link": "https://nationaldataplatform.org/catalog/dataset/?_tags_limit=0&tags=Threatened+Species&tags=Critical&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:15530426503118546951",
+      "author": "",
+      "date": "2025-12-21T12:07:45.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "HTML Expand Trick 💡",
       "description": "",
