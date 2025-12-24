@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (23-12-2025)",
+  "title": "Combined ArcGIS Feeds (24-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-23T01:40:41.680Z",
+  "lastUpdated": "2025-12-24T01:39:28.495Z",
   "items": [
+    {
+      "title": "Time to transition from the Oriented Imagery Classic widget for Experience Builder",
+      "description": "<P>Heads up for ArcGIS Online users:&nbsp;The&nbsp;Oriented Imagery Classic widget for Experience Builder,&nbsp;deprecated in&nbsp;2025,&nbsp;will be removed in February 2026. If your apps rely on this widget, now is the time to plan your migration to the new integrated oriented imagery capability for a smooth transition.&nbsp;&nbsp;</P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/time-to-transition-from-the-oriented-imagery/ba-p/1674795",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/time-to-transition-from-the-oriented-imagery/ba-p/1674795",
+      "author": "ShareUser",
+      "date": "2025-12-23T22:34:56.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Build a Sentiment-Aware ArcGIS Weather Map 🌦️",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=ylrdwtKNymk",
+      "guid": "yt:video:ylrdwtKNymk",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-23T16:03:36.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Flutter Maps SDK: Building Apps",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=tS3tNaNnnwg",
+      "guid": "yt:video:tS3tNaNnnwg",
+      "author": "Esri Developers",
+      "date": "2025-12-23T15:31:32.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Control an ArcGIS Map Swipe with OpenAI",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=kicB7E5lg6A",
+      "guid": "yt:video:kicB7E5lg6A",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-23T02:39:32.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Geospatial - Group - Laredo TX",
+      "description": "The City of Laredo follows a semiannual schedule for voluntary annexations. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT&nbsp;...",
+      "link": "https://data.openlaredo.com/group/805a1033-d3b8-4a9b-b53e-c77413bf45b1?res_format=XLSX&res_format=GPKG",
+      "guid": "tag:google.com,2013:googlealerts/feed:17264004826610906247",
+      "author": "",
+      "date": "2025-12-22T15:35:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Villages. The city of Phoenix is divided into 15 Urban Villages. Each Village has a Village&nbsp;...",
+      "link": "https://phoenixopendata.com/dataset/?groups=mapping&license_id=cc-by&organization=enterprise&res_format=ArcGIS+GeoServices+REST+API&res_format=KML&page=3",
+      "guid": "tag:google.com,2013:googlealerts/feed:10140901585341039484",
+      "author": "",
+      "date": "2025-12-22T05:14:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "CSS Analogies for Beginners",
       "description": "",
