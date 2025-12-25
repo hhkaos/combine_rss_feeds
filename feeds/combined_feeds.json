@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (24-12-2025)",
+  "title": "Combined ArcGIS Feeds (25-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-24T01:39:28.495Z",
+  "lastUpdated": "2025-12-25T01:41:07.778Z",
   "items": [
+    {
+      "title": "Hover Acronyms in HTML 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/dSOQu1eA3Fc",
+      "guid": "yt:video:dSOQu1eA3Fc",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-24T21:12:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Field Apps: An Introduction and What's New",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=3YuoMRchGNA",
+      "guid": "yt:video:3YuoMRchGNA",
+      "author": "Esri Developers",
+      "date": "2025-12-24T16:14:24.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Time to transition from the Oriented Imagery Classic widget for Experience Builder",
       "description": "<P>Heads up for ArcGIS Online users:&nbsp;The&nbsp;Oriented Imagery Classic widget for Experience Builder,&nbsp;deprecated in&nbsp;2025,&nbsp;will be removed in February 2026. If your apps rely on this widget, now is the time to plan your migration to the new integrated oriented imagery capability for a smooth transition.&nbsp;&nbsp;</P>",
