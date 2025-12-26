@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (25-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (26-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-25T01:41:14.056Z",
+  "lastUpdated": "2025-12-26T01:40:40.950Z",
   "items": [
+    {
+      "title": "An HTML Tag for Emphasis 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/rRr9XZThHBw",
+      "guid": "yt:video:rRr9XZThHBw",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-25T17:25:25.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to use Arcade expressions to dynamically display data in pop-ups on ArcGIS Online maps.",
+      "processed": true
+    },
     {
       "title": "Hover Acronyms in HTML 👩‍💻",
       "description": "",

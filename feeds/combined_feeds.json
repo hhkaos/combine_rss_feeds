@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (25-12-2025)",
+  "title": "Combined ArcGIS Feeds (26-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-25T01:41:07.778Z",
+  "lastUpdated": "2025-12-26T01:40:34.833Z",
   "items": [
+    {
+      "title": "An HTML Tag for Emphasis 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/rRr9XZThHBw",
+      "guid": "yt:video:rRr9XZThHBw",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-25T17:25:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Hover Acronyms in HTML 👩‍💻",
       "description": "",
