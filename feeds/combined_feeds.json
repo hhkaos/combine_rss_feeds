@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (26-12-2025)",
+  "title": "Combined ArcGIS Feeds (27-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-26T01:40:34.833Z",
+  "lastUpdated": "2025-12-27T01:38:23.762Z",
   "items": [
+    {
+      "title": "Make Your Website Snow With CSS 🌨️",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/ZCEFonancX0",
+      "guid": "yt:video:ZCEFonancX0",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-26T20:52:27.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Project Ideas for HTML Beginners 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/dT3PQ49XlnY",
+      "guid": "yt:video:dT3PQ49XlnY",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-26T16:46:59.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "An HTML Tag for Emphasis 👩‍💻",
       "description": "",

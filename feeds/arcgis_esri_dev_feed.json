@@ -1,8 +1,36 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (26-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (27-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-26T01:40:40.950Z",
+  "lastUpdated": "2025-12-27T01:38:30.955Z",
   "items": [
+    {
+      "title": "Make Your Website Snow With CSS 🌨️",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/ZCEFonancX0",
+      "guid": "yt:video:ZCEFonancX0",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-26T20:52:27.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+    },
+    {
+      "title": "Project Ideas for HTML Beginners 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/dT3PQ49XlnY",
+      "guid": "yt:video:dT3PQ49XlnY",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-26T16:46:59.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
     {
       "title": "An HTML Tag for Emphasis 👩‍💻",
       "description": "",
