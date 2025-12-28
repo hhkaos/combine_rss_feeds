@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (27-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (28-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-27T01:38:30.955Z",
+  "lastUpdated": "2025-12-28T01:50:50.614Z",
   "items": [
+    {
+      "title": "Learn How to Code a Website Tab Icon 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/GYZthm9-iq8",
+      "guid": "yt:video:GYZthm9-iq8",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-27T20:34:24.000Z",
+      "category": "Video",
+      "topicsProduct": "General",
+      "summary": "A short video explaining how to create a presentation guide in ArcGIS Online for your organization.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 65 - Dataset - Catalog - Data.gov",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. Federal. Wildfire Hazard Potential, Classified (Image Service). Department of Agriculture —. This dataset is the 2023&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/?tags=ecology&_tags_limit=0&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:200654905614276140",
+      "author": "",
+      "date": "2025-12-27T12:35:37.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New security enhancements and authentication methods have been implemented in ArcGIS Enterprise to improve data protection and access control.",
+      "processed": true
+    },
     {
       "title": "Make Your Website Snow With CSS 🌨️",
       "description": "",
