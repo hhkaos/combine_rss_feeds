@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (29-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-28T01:50:50.614Z",
+  "lastUpdated": "2025-12-29T01:49:19.387Z",
   "items": [
+    {
+      "title": "CSS Beginner Tip - class vs. id 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/uvUSdVabPA0",
+      "guid": "yt:video:uvUSdVabPA0",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-28T22:37:42.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante."
+    },
+    {
+      "title": "ArcGIS大师之路500技---001手动分割面的几种法方原创 - CSDN博客",
+      "description": "arcgis-maps-sdk-unreal-engine-documentation-1-0-0 &middot; 《<b>ArcGIS Maps SDK for</b> Unreal Engine 文档1.0.0》 <b>ArcGIS</b>&nbsp;...",
+      "link": "https://blog.csdn.net/qq_22323149/article/details/156350741",
+      "guid": "tag:google.com,2013:googlealerts/feed:8939027949261108770",
+      "author": "",
+      "date": "2025-12-28T11:59:33.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up in ArcGIS Online using Arcade expressions and customize your map pop-ups.",
+      "processed": true
+    },
     {
       "title": "Learn How to Code a Website Tab Icon 👩‍💻",
       "description": "",

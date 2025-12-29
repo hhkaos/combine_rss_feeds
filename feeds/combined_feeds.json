@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (28-12-2025)",
+  "title": "Combined ArcGIS Feeds (29-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-28T01:50:43.598Z",
+  "lastUpdated": "2025-12-29T01:49:11.640Z",
   "items": [
+    {
+      "title": "CSS Beginner Tip - class vs. id 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/uvUSdVabPA0",
+      "guid": "yt:video:uvUSdVabPA0",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-28T22:37:42.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS大师之路500技---001手动分割面的几种法方原创 - CSDN博客",
+      "description": "arcgis-maps-sdk-unreal-engine-documentation-1-0-0 &middot; 《<b>ArcGIS Maps SDK for</b> Unreal Engine 文档1.0.0》 <b>ArcGIS</b>&nbsp;...",
+      "link": "https://blog.csdn.net/qq_22323149/article/details/156350741",
+      "guid": "tag:google.com,2013:googlealerts/feed:8939027949261108770",
+      "author": "",
+      "date": "2025-12-28T11:59:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Learn How to Code a Website Tab Icon 👩‍💻",
       "description": "",
