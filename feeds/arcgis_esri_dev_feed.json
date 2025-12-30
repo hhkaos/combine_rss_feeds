@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (30-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-29T01:49:19.387Z",
+  "lastUpdated": "2025-12-30T01:41:39.326Z",
   "items": [
+    {
+      "title": "Website Maps Explained: Image Tiles",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/gxbmLflqXCo",
+      "guid": "yt:video:gxbmLflqXCo",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-30T01:31:54.000Z",
+      "category": "Video",
+      "topicsProduct": "Other",
+      "summary": "Watch this short video to learn more about the latest updates in the ArcGIS platform.",
+      "processed": true
+    },
+    {
+      "title": "Code a Shadow Analysis 3D Map App 🌏",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=ooj5--3vlNI",
+      "guid": "yt:video:ooj5--3vlNI",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-29T19:50:48.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to secure your ArcGIS Enterprise deployment with this informative video tutorial on implementing security best practices.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript: Capabilities and Techniques",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=So3eUwPzBhU",
+      "guid": "yt:video:So3eUwPzBhU",
+      "author": "Esri Developers",
+      "date": "2025-12-29T17:03:00.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create web apps in ArcGIS Online using Web AppBuilder for ArcGIS with this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Experience Builder: Getting Started with Developer Edition",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=YLBxBio96a8",
+      "guid": "yt:video:YLBxBio96a8",
+      "author": "Esri Developers",
+      "date": "2025-12-29T16:46:05.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up in ArcGIS Online using Arcade expressions to display attribute information in a clear and informative way.",
+      "processed": true
+    },
+    {
+      "title": "Sr. <b>JavaScript</b>/TypeScript Developer – <b>ArcGIS</b> Excalibur @ <b>Esri</b> - Teal",
+      "description": "Familiarity with GIS/<b>Esri</b> software and the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>; Familiarity and experience with <b>ArcGIS</b> Enterprise and <b>ArcGIS</b> Online&nbsp;...",
+      "link": "https://www.tealhq.com/job/sr-javascript-typescript-developer_7ea1a95cb0ab2469b172d753af51da05dc5b1",
+      "guid": "tag:google.com,2013:googlealerts/feed:5961818802524488373",
+      "author": "",
+      "date": "2025-12-29T04:04:26.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Esri released version 4.21 of ArcGIS API for JavaScript, which brings new features and enhancements for web mapping applications.",
+      "processed": true
+    },
     {
       "title": "CSS Beginner Tip - class vs. id 👩‍💻",
       "description": "",
@@ -16,6 +76,18 @@
       "processed": true,
       "ignored": true,
       "ignoreReason": ": Contenido no relevante."
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> - Lerer Hippeau Job Board",
+      "description": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>. PowerToFly. Software Engineering, Product. Redlands, CA, USA. Posted on Dec 28, 2025.",
+      "link": "https://jobs.lererhippeau.com/companies/powertofly/jobs/64245128-sr-product-engineer-arcgis-maps-sdk-for-javascript",
+      "guid": "tag:google.com,2013:googlealerts/feed:5985074642433554226",
+      "author": "",
+      "date": "2025-12-28T20:53:34.000Z",
+      "category": "Job offer",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Senior product engineer position available for ArcGIS Maps SDK for Javascript.",
+      "processed": true
     },
     {
       "title": "ArcGIS大师之路500技---001手动分割面的几种法方原创 - CSDN博客",
