@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (30-12-2025)",
+  "title": "ArcGIS ESRI Dev Feed (31-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-30T01:41:39.326Z",
+  "lastUpdated": "2025-12-31T01:42:07.298Z",
   "items": [
+    {
+      "title": "Website Maps Explained: Vector Tiles",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/4yjtE90ypOI",
+      "guid": "yt:video:4yjtE90ypOI",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-31T00:35:19.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "Build a Smart Map Routing App",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Lw25rHSEsPc",
+      "guid": "yt:video:Lw25rHSEsPc",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-31T00:21:46.000Z",
+      "category": "Video",
+      "topicsProduct": "Web technologies",
+      "summary": "Learn how to create a Python virtual environment to manage dependencies and packages for your ArcGIS API for Python projects.",
+      "processed": true
+    },
     {
       "title": "Website Maps Explained: Image Tiles",
       "description": "",

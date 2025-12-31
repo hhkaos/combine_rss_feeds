@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (30-12-2025)",
+  "title": "Combined ArcGIS Feeds (31-12-2025)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2025-12-30T01:41:25.241Z",
+  "lastUpdated": "2025-12-31T01:42:00.165Z",
   "items": [
+    {
+      "title": "Website Maps Explained: Vector Tiles",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/4yjtE90ypOI",
+      "guid": "yt:video:4yjtE90ypOI",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-31T00:35:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Build a Smart Map Routing App",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Lw25rHSEsPc",
+      "guid": "yt:video:Lw25rHSEsPc",
+      "author": "Courtney Yatteau",
+      "date": "2025-12-31T00:21:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Website Maps Explained: Image Tiles",
       "description": "",
