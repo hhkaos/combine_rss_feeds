@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (01-01-2026)",
+  "title": "Combined ArcGIS Feeds (02-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-01T01:51:36.555Z",
+  "lastUpdated": "2026-01-02T01:43:19.662Z",
   "items": [
+    {
+      "title": "ホーム | ページ 110 - ArcGISブログ",
+      "description": "番外編 はじめてのWeb マッピングアプリケーション開発：多言語のべースマップ活用編. 2020/8/19 ヒント／テクニック <b>ArcGIS Maps SDK for</b> JavaScript Esri&nbsp;...",
+      "link": "https://blog.esrij.com/home/page/110",
+      "guid": "tag:google.com,2013:googlealerts/feed:9544330331448940220",
+      "author": "",
+      "date": "2026-01-01T02:48:59.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ページ 23 - ArcGISブログ",
+      "description": "【Esri Community Blog】 こちらは、ArcGIS アドベントカレンダー 2024の5日目の記事です。他の記事もぜひ... 記事を読む &middot; <b>ArcGIS Maps SDK for</b> JavaScript&nbsp;...",
+      "link": "https://blog.esrij.com/page/23",
+      "guid": "tag:google.com,2013:googlealerts/feed:7010667320584181008",
+      "author": "",
+      "date": "2025-12-31T22:48:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #411 from chrisk817/patch-1\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #411 from chrisk817/patch-1\n\nDelete pro-sdk/PluginDatasourceWithJoin/SimplePointPluginTest/SimpleP…</pre>\n    ",
