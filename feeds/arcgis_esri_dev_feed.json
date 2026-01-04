@@ -1,8 +1,22 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (04-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-03T01:37:57.822Z",
+  "lastUpdated": "2026-01-04T01:51:59.865Z",
   "items": [
+    {
+      "title": "CSS Trick: Remove Default Borders 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/6bHt0oYs6-I",
+      "guid": "yt:video:6bHt0oYs6-I",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-03T21:08:39.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
     {
       "title": "Easy HTML Expand/Collapse Trick",
       "description": "",

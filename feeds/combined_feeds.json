@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (03-01-2026)",
+  "title": "Combined ArcGIS Feeds (04-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-03T01:37:41.680Z",
+  "lastUpdated": "2026-01-04T01:51:54.160Z",
   "items": [
+    {
+      "title": "CSS Trick: Remove Default Borders 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/6bHt0oYs6-I",
+      "guid": "yt:video:6bHt0oYs6-I",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-03T21:08:39.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Easy HTML Expand/Collapse Trick",
       "description": "",
