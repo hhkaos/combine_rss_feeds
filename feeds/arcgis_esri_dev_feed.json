@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (04-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (05-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-04T01:51:59.865Z",
+  "lastUpdated": "2026-01-05T01:51:56.428Z",
   "items": [
+    {
+      "title": "ページ 126 - ArcGISブログ - ESRIジャパン",
+      "description": "ArcGIS API for JavaScript バージョン 4.13 およびバージョン 3.30 をリリースしました！ 2019/11/27 製品／リリース情報 <b>ArcGIS Maps SDK for</b> JavaScript.",
+      "link": "https://blog.esrij.com/page/126?a8=HUzSJU.vYq_EovBK.FQLERTacL01QquyhFQUnpZXLEbvYqzU8quUnqQPnq0rurZ_nEILy9zanUzSOs00000014290001",
+      "guid": "tag:google.com,2013:googlealerts/feed:15211340035787443714",
+      "author": "",
+      "date": "2026-01-04T02:19:31.000Z",
+      "category": "Course",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "ArcGIS Enterprise 10.9.1 Administration: Workflows and Best Practices is now available on-demand. This course covers various administration tasks and best practices for ArcGIS Enterprise.",
+      "processed": true
+    },
     {
       "title": "CSS Trick: Remove Default Borders 👩‍💻",
       "description": "",
