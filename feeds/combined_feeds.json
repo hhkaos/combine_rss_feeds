@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (05-01-2026)",
+  "title": "Combined ArcGIS Feeds (06-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-05T01:51:50.798Z",
+  "lastUpdated": "2026-01-06T01:43:17.303Z",
   "items": [
+    {
+      "title": "Build a Longitude/Latitude Picker in JavaScript 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/ljCq2H7zgK4",
+      "guid": "yt:video:ljCq2H7zgK4",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-05T21:56:28.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Table Object JSON Properties with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #Table #GISAutomation #LearnArcGIS. ... Table Object JSON Properties with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online Feature Service Table.",
+      "link": "https://www.youtube.com/watch?v=nJ-qykoK_3I",
+      "guid": "tag:google.com,2013:googlealerts/feed:610847433253610036",
+      "author": "",
+      "date": "2026-01-05T09:35:52.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "CSS z-index Explained for Beginners 👩‍💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/PYbucEW5Opw",
+      "guid": "yt:video:PYbucEW5Opw",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-05T02:53:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Leveraging Data for Community Risk Reduction with NERIS - Fire Engineering",
+      "description": "... <b>ESRI</b>: https://www.<b>esri</b>.com/en-us/home. We&#39;re sorry but Podbean Player doesn&#39;t work properly without <b>JavaScript</b> enabled. Please enable it to&nbsp;...",
+      "link": "https://www.fireengineering.com/fire-safety/fire-prevention/leveraging-data-for-community-risk-reduction-with-neris/",
+      "guid": "tag:google.com,2013:googlealerts/feed:17611353028496805631",
+      "author": "",
+      "date": "2026-01-05T00:43:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Omar Kawach&#39;s Portfolio",
+      "description": "... <b>ArcGIS Maps SDK for</b> JavaScript, promoting resource fluidity and modernizing Web GIS initiatives. · Enhance product quality, meet customer&nbsp;...",
+      "link": "https://omarkawach.com/experience/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1059556237921122944",
+      "author": "",
+      "date": "2026-01-04T18:17:02.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ページ 126 - ArcGISブログ - ESRIジャパン",
       "description": "ArcGIS API for JavaScript バージョン 4.13 およびバージョン 3.30 をリリースしました！ 2019/11/27 製品／リリース情報 <b>ArcGIS Maps SDK for</b> JavaScript.",
