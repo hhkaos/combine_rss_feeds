@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (06-01-2026)",
+  "title": "Combined ArcGIS Feeds (07-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-06T01:43:17.303Z",
+  "lastUpdated": "2026-01-07T01:42:58.683Z",
   "items": [
+    {
+      "title": "CSS Layout: Margin vs Padding",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/xbj49t8BceE",
+      "guid": "yt:video:xbj49t8BceE",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-07T01:30:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Developer Job in Brooklyn, NY at Interon It Solutions - ZipRecruiter",
+      "description": "Mastery of the <b>ArcGIS Maps SDK for</b> JavaScript (4.x) series, particularly creating custom widgets and handling 3D visualizations. Proficiency in&nbsp;...",
+      "link": "https://www.ziprecruiter.com/c/Interon-IT-Solutions/Job/ArcGIS-Developer/-in-New-York,NY?jid=db6183270b543071",
+      "guid": "tag:google.com,2013:googlealerts/feed:16724459062302917095",
+      "author": "",
+      "date": "2026-01-06T13:52:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Build a Longitude/Latitude Picker in JavaScript 👩‍💻",
       "description": "",
