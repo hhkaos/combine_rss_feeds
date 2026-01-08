@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (07-01-2026)",
+  "title": "Combined ArcGIS Feeds (08-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-07T01:42:58.683Z",
+  "lastUpdated": "2026-01-08T01:43:27.866Z",
   "items": [
+    {
+      "title": "Announcing ArcGIS Runtime SDK for Android 100.15.8 with 16KB page size support",
+      "description": "<P>We’re pleased to announce a special <A href=\"https://developers.arcgis.com/android/\" target=\"_self\">ArcGIS Runtime SDK for Android</A> 100.15.8 patch release, adding 16KB page size support.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/announcing-arcgis-runtime-sdk-for-android-100-15-8/ba-p/1650998",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/announcing-arcgis-runtime-sdk-for-android-100-15-8/ba-p/1650998",
+      "author": "Nicholas-Furness",
+      "date": "2026-01-07T19:36:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Field Apps: The Road Ahead",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=JKUqDOG1dq4",
+      "guid": "yt:video:JKUqDOG1dq4",
+      "author": "Esri Developers",
+      "date": "2026-01-07T17:11:37.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Website Spacing Simplified 💻",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/99Jq0Aiwx3o",
+      "guid": "yt:video:99Jq0Aiwx3o",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-07T02:10:40.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "CSS Layout: Margin vs Padding",
       "description": "",
@@ -10,6 +46,18 @@
       "guid": "yt:video:xbj49t8BceE",
       "author": "Courtney Yatteau",
       "date": "2026-01-07T01:30:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Analyst with Arc Py, <b>JavaScript</b>/TypeScript, HTML5, CSS3, and <b>ESRI JavaScript API</b>",
+      "description": "1-6-2026 - Hello, Zenosys is looking <b>ArcGIS</b> Analyst with Arc Py, <b>JavaScript</b>/TypeScript, HTML5, CSS3, and <b>ESRI JavaScript API</b> client Chicago,&nbsp;...",
+      "link": "https://www.dice.com/job-detail/3e097891-0ab6-4581-9006-29b134a5560d",
+      "guid": "tag:google.com,2013:googlealerts/feed:15748036338611728673",
+      "author": "",
+      "date": "2026-01-06T20:50:28.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
