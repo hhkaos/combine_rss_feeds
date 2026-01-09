@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (08-01-2026)",
+  "title": "Combined ArcGIS Feeds (09-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-08T01:43:27.866Z",
+  "lastUpdated": "2026-01-09T01:43:50.016Z",
   "items": [
+    {
+      "title": "Adaptive CSS Layout with Sibling Count",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/VH3zfSkfurk",
+      "guid": "yt:video:VH3zfSkfurk",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-08T22:17:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript: Road Ahead",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=NHcTQns4WV8",
+      "guid": "yt:video:NHcTQns4WV8",
+      "author": "Esri Developers",
+      "date": "2026-01-08T18:04:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "What is Geocoding?",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/mekMxeZF9cw",
+      "guid": "yt:video:mekMxeZF9cw",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-08T03:56:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://web-map.prescott-az.gov/arcgis/rest/login?redirect=http%3A//web-map.prescott-az.gov/arcgis/rest/services/Encompass/encompass_sync_service/MapServer/65",
+      "guid": "tag:google.com,2013:googlealerts/feed:16042672647302503816",
+      "author": "",
+      "date": "2026-01-08T02:45:52.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "arcgis/lumina - npmmirror 镜像站",
+      "description": "No Esri Technical Support included. Package that is part of the <b>ArcGIS Maps SDK for</b> JavaScript. It is not intended to be used directly, but rather&nbsp;...",
+      "link": "https://npmmirror.com/package/@arcgis/lumina?version=4.34.2",
+      "guid": "tag:google.com,2013:googlealerts/feed:1452805160588806576",
+      "author": "",
+      "date": "2026-01-07T20:06:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Announcing ArcGIS Runtime SDK for Android 100.15.8 with 16KB page size support",
       "description": "<P>We’re pleased to announce a special <A href=\"https://developers.arcgis.com/android/\" target=\"_self\">ArcGIS Runtime SDK for Android</A> 100.15.8 patch release, adding 16KB page size support.</P>",
