@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (10-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-09T01:44:05.109Z",
+  "lastUpdated": "2026-01-10T01:40:47.357Z",
   "items": [
+    {
+      "title": "Chart.js Starter Tutorial 📈",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/LZkKgzXleRM",
+      "guid": "yt:video:LZkKgzXleRM",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-09T19:09:56.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "Software Development Engineer II - Android SDK @ Esri | AnitaB.org Job Board",
+      "description": "Responsibilities. Shape the way users of the <b>ArcGIS Maps SDK for</b> Android consume our cutting-edge location technologies and enable them to build&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/64830385-software-development-engineer-ii-android-sdk",
+      "guid": "tag:google.com,2013:googlealerts/feed:16920403761983829186",
+      "author": "",
+      "date": "2026-01-09T13:40:58.000Z",
+      "category": "Job Posting",
+      "topicsProduct": "ArcGIS Maps SDK for Android",
+      "summary": "Esri is looking for a Software Development Engineer II specializing in the Android SDK to join their team.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - gistest.penndot.gov",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://gistest.penndot.pa.gov/gis/rest/login?redirect=https%3A//gistest.penndot.pa.gov/gis/rest/services/hbmsgis/hbmssurveysubmit/FeatureServer/0/query",
+      "guid": "tag:google.com,2013:googlealerts/feed:7037623102222498187",
+      "author": "",
+      "date": "2026-01-09T07:59:09.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to integrate ArcGIS Online with your web applications using OAuth 2.0 for secure authentication.",
+      "processed": true
+    },
     {
       "title": "Adaptive CSS Layout with Sibling Count",
       "description": "",
@@ -13,6 +51,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a web app using ArcGIS Online in just a few minutes with this short tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - DetroitData",
+      "description": "The Liquor Licenses data set is updated from data published by... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG&nbsp;...",
+      "link": "https://detroitdata.org/dataset/?res_format=ArcGIS+GeoServices+REST+API&_tags_limit=0&tags=licensing",
+      "guid": "tag:google.com,2013:googlealerts/feed:3215563175645459057",
+      "author": "",
+      "date": "2026-01-08T19:45:29.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Check out the latest updates and improvements to ArcGIS Online with the new features in the latest release.",
       "processed": true
     },
     {
