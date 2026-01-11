@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (10-01-2026)",
+  "title": "Combined ArcGIS Feeds (11-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-10T01:40:35.338Z",
+  "lastUpdated": "2026-01-11T01:51:58.421Z",
   "items": [
+    {
+      "title": "Flock Safety <b>API</b> Key Leak Exposes Nationwide Surveillance Data Risks - WebProNews",
+      "description": "A security researcher uncovered a hardcoded <b>ArcGIS API</b> key embedded in the company&#39;s public-facing <b>JavaScript</b> bundles, granting unrestricted access to&nbsp;...",
+      "link": "https://www.webpronews.com/flock-safety-api-key-leak-exposes-nationwide-surveillance-data-risks/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2766556252781498024",
+      "author": "",
+      "date": "2026-01-10T18:15:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> - <b>Esri</b> - Redlands, CA - Dice",
+      "description": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b>. <b>Esri</b>. Redlands, CA ... <b>Javascript</b> is disabled or blocked by an extension (ad blocker for example)&nbsp;...",
+      "link": "https://www.dice.com/job-detail/47e1391c-0334-4dd2-97f4-e44965be61c6",
+      "guid": "tag:google.com,2013:googlealerts/feed:4808284932296776614",
+      "author": "",
+      "date": "2026-01-10T00:42:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Open Data SA - City of San Antonio",
+      "description": "This is a graphical polygon dataset depicts the Sector Plan District boundaries. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT&nbsp;...",
+      "link": "https://data.sanantonio.gov/dataset/?res_format=GeoJSON&res_format=TXT&page=4",
+      "guid": "tag:google.com,2013:googlealerts/feed:6799874007838712624",
+      "author": "",
+      "date": "2026-01-09T22:49:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Analyst - Chicago, IL (Hybrid) - Locals to IL - Job Details",
+      "description": "Experience with <b>ESRI ArcGIS</b> technology. Proficiency in Arc Py, <b>JavaScript</b>/TypeScript, HTML5, CSS3, and <b>ESRI JavaScript API</b> Ability to manage and&nbsp;...",
+      "link": "https://nvoids.com/job_details.jsp?id=3040810&uid=f845cdd5bbc84af3ace4e40ac1763003",
+      "guid": "tag:google.com,2013:googlealerts/feed:1389999394287749976",
+      "author": "",
+      "date": "2026-01-09T19:40:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Chart.js Starter Tutorial 📈",
       "description": "",
