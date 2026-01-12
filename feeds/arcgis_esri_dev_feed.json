@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (12-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-11T01:52:10.819Z",
+  "lastUpdated": "2026-01-12T01:48:42.654Z",
   "items": [
+    {
+      "title": "Windows kaqpi ASS GIS kaqman huk hukpa rantinpi kaq - Microsoft Llamkanakuna",
+      "description": "... <b>ArcGIS Maps SDK for</b> .NET Samples (WPF). Mana qullqipaq &middot; auditsoft. Mana qullqipaq &middot; YouLord - YT 4K Video Downloader. -33%. S/ 16.50 S/ 11.05.",
+      "link": "https://apps.microsoft.com/related/9ppjd49g7wxs?hl=qu-PE&gl=PE",
+      "guid": "tag:google.com,2013:googlealerts/feed:16001350445433203233",
+      "author": "",
+      "date": "2026-01-11T09:33:36.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New updates to ArcGIS Online enhance collaboration and data sharing capabilities, streamlining workflows for users.",
+      "processed": true
+    },
+    {
+      "title": "Flock Safety <b>API</b> Key Leak Exposes Nationwide Surveillance Data Risks - One News Page",
+      "description": "A security researcher exposed Flock Safety&#39;s hardcoded <b>ArcGIS API</b> key in 53 <b>JavaScript</b> instances,.. • Internet • One News Page: Saturday,&nbsp;...",
+      "link": "https://www.onenewspage.com/n/Internet/1ztdom1rpv/Flock-Safety-API-Key-Leak-Exposes-Nationwide-Surveillance.htm",
+      "guid": "tag:google.com,2013:googlealerts/feed:12711417037635927504",
+      "author": "",
+      "date": "2026-01-10T20:35:55.000Z",
+      "category": "Other",
+      "topicsProduct": "Security and authentication",
+      "summary": "Flock Safety API Key Leak Exposes Nationwide Surveillance. A security breach in Flock Safety's API exposed sensitive data related to license plate recognition surveillance systems.",
+      "processed": true
+    },
     {
       "title": "Flock Safety <b>API</b> Key Leak Exposes Nationwide Surveillance Data Risks - WebProNews",
       "description": "A security researcher uncovered a hardcoded <b>ArcGIS API</b> key embedded in the company&#39;s public-facing <b>JavaScript</b> bundles, granting unrestricted access to&nbsp;...",
