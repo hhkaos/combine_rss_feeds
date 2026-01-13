@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (12-01-2026)",
+  "title": "Combined ArcGIS Feeds (13-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-12T01:48:34.283Z",
+  "lastUpdated": "2026-01-13T01:40:18.834Z",
   "items": [
+    {
+      "title": "Simple HTML Bold Tip",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/UXVBD3wEaf0",
+      "guid": "yt:video:UXVBD3wEaf0",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-12T21:02:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "ページ 98 - ArcGISブログ - Esri Japan",
+      "description": "「地理院地図 Vector」(仮称) を ArcGIS で表示してみました-第3弾. 2021/4/7 ヒント／テクニック Developer , <b>ArcGIS Maps SDK for</b> JavaScript Esri Community&nbsp;...",
+      "link": "https://blog.esrij.com/page/98?__BASEURI=http%253A%252F%252Fblog.esrij.com%252F&__CAMVID=gGnGEedCGgDCjCh&_c_d=1&__urlmid=137248&__CAMSID=GNgeEdCGGdcjCh-59&__CAMCID=JfKCrKCgLg-248&adtype=mail",
+      "guid": "tag:google.com,2013:googlealerts/feed:16295847633694185277",
+      "author": "",
+      "date": "2026-01-12T01:38:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "SaschaBrunnerCH/<b>arcgis</b>-maps-<b>sdk</b>-js-ai-context - GitHub",
+      "description": "<div type=\"html\"/>",
+      "link": "https://github.com/SaschaBrunnerCH/arcgis-maps-sdk-js-ai-context/tree/master/contexts/4.34/claude/arcgis-coordinates-projection",
+      "guid": "tag:google.com,2013:googlealerts/feed:3452807339075195824",
+      "author": "",
+      "date": "2026-01-11T22:59:24.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | Jobright.ai",
+      "description": "Apply to Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> on Jobright: Elevate Your Search with an AI Copiloted Experience.",
+      "link": "https://jobright.ai/jobs/info/68dad1cf0b832179ca4b1407",
+      "guid": "tag:google.com,2013:googlealerts/feed:18386923725408313523",
+      "author": "",
+      "date": "2026-01-11T22:33:32.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer - Hybrid Job in Brooklyn | Burgeon IT Services - DevITjobs",
+      "description": "Become <b>ArcGIS</b> Developer - Hybrid at Burgeon IT Services in Brooklyn. Earn $88000 - 128000 per year. Technologies: <b>API</b>, Angular, Architect.",
+      "link": "https://devitjobs.com/jobs/Burgeon-IT-Services-ArcGIS-Developer---Hybrid",
+      "guid": "tag:google.com,2013:googlealerts/feed:3289726191208378687",
+      "author": "",
+      "date": "2026-01-11T21:17:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Windows kaqpi ASS GIS kaqman huk hukpa rantinpi kaq - Microsoft Llamkanakuna",
       "description": "... <b>ArcGIS Maps SDK for</b> .NET Samples (WPF). Mana qullqipaq &middot; auditsoft. Mana qullqipaq &middot; YouLord - YT 4K Video Downloader. -33%. S/ 16.50 S/ 11.05.",
