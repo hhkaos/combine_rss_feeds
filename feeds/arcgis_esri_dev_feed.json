@@ -1,8 +1,70 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (13-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (14-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-13T01:40:29.992Z",
+  "lastUpdated": "2026-01-14T01:47:48.455Z",
   "items": [
+    {
+      "title": "CSS Can Count Siblings: sibling-index()",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/pOIa3sZwZ38",
+      "guid": "yt:video:pOIa3sZwZ38",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-14T01:25:19.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "What’s New with the ArcGIS Geocoding Service? Explore January 2026 Updates",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/whats-new-with-the-arcgis-geocoding-service-explore-january-2026-updates",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2951045",
+      "author": "Robert Jensen",
+      "date": "2026-01-14T00:52:25.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS GeoAnalytics Engine",
+      "summary": "Discover the latest updates to the ArcGIS GeoAnalytics service, including enhancements to spatial libraries, data processing capabilities, and performance improvements.",
+      "processed": true
+    },
+    {
+      "title": "Using ArcGIS Maps SDK for Qt in a JavaFX based application",
+      "description": "<P>In this <A href=\"https://www.esri.com/arcgis-blog/products/sdk-java/developers/using-arcgis-maps-sdk-for-qt-in-a-javafx-based-application\" target=\"_self\"><STRONG>just-released blog</STRONG></A>, the Native Maps SDKs team responds to requests from JavaFX app developers who want to extend the life of their JavaFX app by embedding a map control from a different Native Maps SDK into their JavaFX app. The blog, accompanied by <A href=\"https://github.com/aji13187/JavaFxQt\" target=\"_self\">example code in a repo</A>, steps through how to embed a map control from Qt Maps SDK into a JavaFX app by showing how to call a Qt method from Java and how to listen to events between Java and Qt.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/using-arcgis-maps-sdk-for-qt-in-a-javafx-based/ba-p/1677676",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/using-arcgis-maps-sdk-for-qt-in-a-javafx-based/ba-p/1677676",
+      "author": "Mara",
+      "date": "2026-01-13T21:28:36.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Qt",
+      "summary": "Learn how to use ArcGIS Maps SDK for Qt in a JavaFX-based application to create dynamic and interactive mapping experiences.",
+      "processed": true
+    },
+    {
+      "title": "Using ArcGIS Maps SDK for Qt in a JavaFX based application",
+      "description": "One way to extend the life of your JavaFX based app is to embed a map control from Qt Maps SDK into it.",
+      "link": "https://www.esri.com/arcgis-blog/products/sdk-java/developers/using-arcgis-maps-sdk-for-qt-in-a-javafx-based-application",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2953714",
+      "author": "Mara Dolan",
+      "date": "2026-01-13T18:00:07.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Qt",
+      "summary": "Learn how to use the ArcGIS Maps SDK for Qt in a JavaFX-based application to enhance your mapping capabilities.",
+      "processed": true
+    },
+    {
+      "title": "App Development with Components Part 3: User Experience",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=s764lTveN3o",
+      "guid": "yt:video:s764lTveN3o",
+      "author": "Esri Developers",
+      "date": "2026-01-13T17:39:46.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to improve your data visualization skills in ArcGIS Online by watching this informative tutorial.",
+      "processed": true
+    },
     {
       "title": "Simple HTML Bold Tip",
       "description": "",
@@ -16,6 +78,42 @@
       "processed": true,
       "ignored": true,
       "ignoreReason": ": Contenido sin fecha"
+    },
+    {
+      "title": "35600+ Accenture Jobs in India (Updated 2026) | AmbitionBox",
+      "description": "<b>ESRI ArcGIS</b>. Good to have skills :NA Minimum 5 year(s) of experience is ... <b>SDK</b>, <b>ArcGIS Javascript</b> APIs, ArcPy, UNM (utility network model)",
+      "link": "https://www.ambitionbox.com/jobs/accenture-jobs-cmp?rid=naukri_120126923655",
+      "guid": "tag:google.com,2013:googlealerts/feed:7594025540261273922",
+      "author": "",
+      "date": "2026-01-12T20:26:37.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Esri released a new version of the ArcGIS Pro SDK with enhanced features and improved performance.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> India and Mahindra University Commend India&#39;s Youth on National Youth Day",
+      "description": "<b>Esri</b> India and Mahindra University Commend India&#39;s Youth on National Youth Day ... <b>JavaScript</b> if it is disabled in your browser. https://youtu.be&nbsp;...",
+      "link": "https://businessnewsthisweek.com/business/esri-india-and-mahindra-university-commend-indias-youth-on-national-youth-day/",
+      "guid": "tag:google.com,2013:googlealerts/feed:10273107698157382357",
+      "author": "",
+      "date": "2026-01-12T15:57:40.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Esri India and Mahindra University recognize India's youth on National Youth Day.",
+      "processed": true
+    },
+    {
+      "title": "OHM Advisors Partners with GEO Jobe to Modernize <b>ArcGIS</b> Enterprise Environment - Florida Today",
+      "description": "Their guidance helped us implement <b>Esri ArcGIS</b> Enterprise, creating a scalable, reliable platform benefiting clients and our firm.” — Michael Cousins,&nbsp;...",
+      "link": "https://www.floridatoday.com/press-release/story/61584/ohm-advisors-partners-with-geo-jobe-to-modernize-arcgis-enterprise-environment/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4407423450564739554",
+      "author": "",
+      "date": "2026-01-12T09:17:09.000Z",
+      "category": "Press release",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Ohm Advisors partners with Geo Jobe to modernize ArcGIS Enterprise environment.",
+      "processed": true
     },
     {
       "title": "ページ 98 - ArcGISブログ - Esri Japan",
