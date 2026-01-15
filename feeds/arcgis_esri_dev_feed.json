@@ -1,8 +1,70 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (15-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-14T01:47:48.455Z",
+  "lastUpdated": "2026-01-15T01:42:54.976Z",
   "items": [
+    {
+      "title": "Flutter Maps SDK: Advanced Workflows",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=sBSiupag7Sw",
+      "guid": "yt:video:sBSiupag7Sw",
+      "author": "Esri Developers",
+      "date": "2026-01-14T19:11:50.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create custom ArcGIS Online pop-ups using Arcade expressions in this informative tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Vacancies for &quot;<b>esri javascript api</b>&quot; - UNjobs",
+      "description": "... <b>ArcGIS</b>, <b>Esri JavaScript API</b>, Leaflet, OpenLayers, Python (arcpy, shapely), or related programming languages. Create and manage. Africa Insect&nbsp;...",
+      "link": "https://unjobs.org/skills/esri-javascript-api",
+      "guid": "tag:google.com,2013:googlealerts/feed:4527268266934369539",
+      "author": "",
+      "date": "2026-01-14T16:58:01.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Esri has released a new version of the ArcGIS Maps SDK for Javascript with improved performance and new features.",
+      "processed": true
+    },
+    {
+      "title": "Set the Content Status for an <b>ArcGIS</b> Online Content Item with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Set the Content Status for an <b>ArcGIS</b> Online Content Item with the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=6Q6U6WDJ3-w",
+      "guid": "tag:google.com,2013:googlealerts/feed:18219767083636670875",
+      "author": "",
+      "date": "2026-01-14T09:33:51.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante."
+    },
+    {
+      "title": "Delete Protection for a Feature Service Item in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Enable Editing Sync and Extract on a Feature Service in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=Tc9yVJH0qns",
+      "guid": "tag:google.com,2013:googlealerts/feed:241727062953795261",
+      "author": "",
+      "date": "2026-01-14T09:32:14.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a simple map in ArcGIS Online using different layers and symbols.",
+      "processed": true
+    },
+    {
+      "title": "Software Developer I - Python <b>API</b> @ <b>Esri</b> | Jobright.ai",
+      "description": "<b>Esri</b> is a leading company in GIS technology, and they are seeking a Software Developer I to work on the <b>ArcGIS API</b> for Python. In this role, you&nbsp;...",
+      "link": "https://jobright.ai/jobs/info/6966af7e5ad3a93f82320039",
+      "guid": "tag:google.com,2013:googlealerts/feed:16045008529686753762",
+      "author": "",
+      "date": "2026-01-14T03:55:49.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to optimize performance of ArcGIS Enterprise deployments by tuning the software and hardware configurations.",
+      "processed": true
+    },
     {
       "title": "CSS Can Count Siblings: sibling-index()",
       "description": "",
@@ -42,6 +104,20 @@
       "processed": true
     },
     {
+      "title": "geospatial - 1410 - Dataset - Catalog - Data.gov",
+      "description": "Fiscal years run from July 1 to June 30.The data comes from the... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; 5 more in&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/?organization_type=City+Government&res_format=ArcGIS+GeoServices+REST+API&metadata_type=geospatial",
+      "guid": "tag:google.com,2013:googlealerts/feed:16045274194660034691",
+      "author": "",
+      "date": "2026-01-13T19:14:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante. Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
       "title": "Using ArcGIS Maps SDK for Qt in a JavaFX based application",
       "description": "One way to extend the life of your JavaFX based app is to embed a map control from Qt Maps SDK into it.",
       "link": "https://www.esri.com/arcgis-blog/products/sdk-java/developers/using-arcgis-maps-sdk-for-qt-in-a-javafx-based-application",
@@ -51,6 +127,18 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Maps SDK for Qt",
       "summary": "Learn how to use the ArcGIS Maps SDK for Qt in a JavaFX-based application to enhance your mapping capabilities.",
+      "processed": true
+    },
+    {
+      "title": "Locals in NY/ NJ Only | ArcGIS Developer | Brooklyn, NY - Hybrid - Job Details",
+      "description": "mapping applications using the <b>ArcGIS Maps SDK for</b> JavaScript and Java, Spring Boot Python: Advanced scripting for geoprocessing. SQL: Proficiency&nbsp;...",
+      "link": "https://nvoids.com/job_details.jsp?id=3048465&uid=b5769e60222147489586b3e0b35fcef9",
+      "guid": "tag:google.com,2013:googlealerts/feed:654539787859974345",
+      "author": "",
+      "date": "2026-01-13T17:49:43.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ArcGIS Online introduces new feature for real-time tracking of field workers.",
       "processed": true
     },
     {
