@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (15-01-2026)",
+  "title": "Combined ArcGIS Feeds (16-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-15T01:42:41.709Z",
+  "lastUpdated": "2026-01-16T01:44:24.670Z",
   "items": [
+    {
+      "title": "ArcGIS Experience Builder: Overview",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=BP6FA5a5xVs",
+      "guid": "yt:video:BP6FA5a5xVs",
+      "author": "Esri Developers",
+      "date": "2026-01-15T20:03:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Immigration levels overestimated by public, says <b>ESRI</b>",
+      "description": "... <b>ESRI</b> ... Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu&nbsp;...",
+      "link": "https://www.rte.ie/news/2026/0115/1553157-migration-esri/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16242547151098178038",
+      "author": "",
+      "date": "2026-01-15T03:36:31.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "GeoJSON for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/AYkjmyjZTuE",
+      "guid": "yt:video:AYkjmyjZTuE",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-15T01:56:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Flutter Maps SDK: Advanced Workflows",
       "description": "",
@@ -22,6 +58,30 @@
       "guid": "tag:google.com,2013:googlealerts/feed:4527268266934369539",
       "author": "",
       "date": "2026-01-14T16:58:01.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Roghainn eile airson ArcGIS StoryMaps Briefings ann an Windows - Microsoft Store",
+      "description": "Fidir barrachd &middot; ArcGIS AppStudio Player &middot; ArcGIS QuickCapture &middot; <b>ArcGIS Maps SDK for</b> .NET Samples (WPF) &middot; ArcGIS Survey123 Connect &middot; ArcGIS Earth &middot; ArcGIS&nbsp;...",
+      "link": "https://apps.microsoft.com/related/9n42ft9v1sr1?hl=gd-GB&gl=GB",
+      "guid": "tag:google.com,2013:googlealerts/feed:6107266665280380309",
+      "author": "",
+      "date": "2026-01-14T16:46:13.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Spring Schedule of Workshops offered by Research Partnership | Announce - News",
+      "description": "<b>ArcGIS</b> StoryMaps: Telling Stories with Maps Feb 3, 10 – 11 a.m., Love ... Some parts of this site work best with <b>JavaScript</b> enabled. Search&nbsp;...",
+      "link": "https://newsroom.unl.edu/announce/libraries/19774/105598",
+      "guid": "tag:google.com,2013:googlealerts/feed:8596077434816505185",
+      "author": "",
+      "date": "2026-01-14T13:05:10.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
