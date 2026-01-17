@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (17-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-16T01:44:41.801Z",
+  "lastUpdated": "2026-01-17T01:39:34.509Z",
   "items": [
+    {
+      "title": "‎<b>ArcGIS</b> Maps <b>SDK</b> Samples - You Might Also Like - App Store",
+      "description": "Browse apps and games similar to <b>ArcGIS</b> Maps <b>SDK</b> Samples and more on the App Store.",
+      "link": "https://apps.apple.com/gb/app/1630449018?see-all=customers-also-bought-apps&platform=iphone",
+      "guid": "tag:google.com,2013:googlealerts/feed:13347328863445999923",
+      "author": "",
+      "date": "2026-01-16T14:00:01.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "ArcGIS Online introduces new features for improved collaboration and data visualization.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Experience Builder: Overview",
       "description": "",
@@ -13,6 +25,42 @@
       "category": "Video",
       "topicsProduct": "Web technologies",
       "summary": "Learn how to build a simple web app using ArcGIS API for JavaScript and visualize location-based data in a user-friendly way.",
+      "processed": true
+    },
+    {
+      "title": "Principal C#/.NET Software Development Engineer - <b>SDK</b> @ <b>Esri</b> | AnitaB.org Job Board",
+      "description": "Design, develop and test modern APIs for <b>ArcGIS</b> ... Collaborate with <b>API</b> designers and developers throughout the development process across many teams&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/65257762-principal-c-net-software-development-engineer-sdk",
+      "guid": "tag:google.com,2013:googlealerts/feed:9486968495852333708",
+      "author": "",
+      "date": "2026-01-15T16:59:12.000Z",
+      "category": "Job posting",
+      "topicsProduct": "ArcGIS Maps SDK for .NET",
+      "summary": "Esri is looking for a Principal C# .NET Software Development Engineer for SDK development.",
+      "processed": true
+    },
+    {
+      "title": "Weather Map API Integration Samples - Visual Crossing",
+      "description": "To add an ESRI example, you can use the <b>ArcGIS Maps SDK for</b> JavaScript. For XYZ tile services like Visual Crossing, the appropriate class to use&nbsp;...",
+      "link": "https://www.visualcrossing.com/resources/documentation/weather-api/weather-map-api-integration-samples/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16177879298201548959",
+      "author": "",
+      "date": "2026-01-15T16:09:05.000Z",
+      "category": "Documentation",
+      "topicsProduct": "Other",
+      "summary": "Learn how to integrate weather maps into your application using Visual Crossing's Weather Map API.",
+      "processed": true
+    },
+    {
+      "title": "Enable Attachments for Feature Layers &amp; Tables in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Enable Attachments for Feature Layers &amp; Tables in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=-Z_cfV_cTS0",
+      "guid": "tag:google.com,2013:googlealerts/feed:18094598486980621752",
+      "author": "",
+      "date": "2026-01-15T08:39:13.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up in ArcGIS Online using Arcade expressions.",
       "processed": true
     },
     {
