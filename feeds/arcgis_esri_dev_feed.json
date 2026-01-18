@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (17-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (18-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-17T01:39:34.509Z",
+  "lastUpdated": "2026-01-18T01:50:47.795Z",
   "items": [
+    {
+      "title": "JSON for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/PEzSnl5xSuk",
+      "guid": "yt:video:PEzSnl5xSuk",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-17T19:25:55.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to customize pop-ups in ArcGIS Online with this quick tutorial video.",
+      "processed": true
+    },
     {
       "title": "‎<b>ArcGIS</b> Maps <b>SDK</b> Samples - You Might Also Like - App Store",
       "description": "Browse apps and games similar to <b>ArcGIS</b> Maps <b>SDK</b> Samples and more on the App Store.",
