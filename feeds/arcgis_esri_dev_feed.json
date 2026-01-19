@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (18-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (19-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-18T01:50:47.795Z",
+  "lastUpdated": "2026-01-19T01:49:23.087Z",
   "items": [
     {
       "title": "JSON for Beginners",
@@ -13,6 +13,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to customize pop-ups in ArcGIS Online with this quick tutorial video.",
+      "processed": true
+    },
+    {
+      "title": "3DM Plugins - Orbit GT",
+      "description": "3DM PLUGINS. <b>ESRI</b> - AUTOCAD - QGIS - <b>API</b>/<b>SDK</b>. Display Image &amp; Point Cloud ... The Orbit Plugin for AutoCAD Map, <b>ArcGIS</b> for Desktop, ArcOnline&nbsp;...",
+      "link": "https://orbitgt.com/products/3dm-plugins.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:16573092820464930957",
+      "author": "",
+      "date": "2026-01-17T08:43:16.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Orbit GT 3DM plugins is now certified on ArcGIS Enterprise providing advanced 3D Mapping solutions",
       "processed": true
     },
     {

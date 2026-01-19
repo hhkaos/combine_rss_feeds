@@ -1,7 +1,7 @@
 {
-  "title": "Combined ArcGIS Feeds (18-01-2026)",
+  "title": "Combined ArcGIS Feeds (19-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-18T01:50:40.561Z",
+  "lastUpdated": "2026-01-19T01:49:17.360Z",
   "items": [
     {
       "title": "JSON for Beginners",
@@ -10,6 +10,18 @@
       "guid": "yt:video:PEzSnl5xSuk",
       "author": "Courtney Yatteau",
       "date": "2026-01-17T19:25:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "3DM Plugins - Orbit GT",
+      "description": "3DM PLUGINS. <b>ESRI</b> - AUTOCAD - QGIS - <b>API</b>/<b>SDK</b>. Display Image &amp; Point Cloud ... The Orbit Plugin for AutoCAD Map, <b>ArcGIS</b> for Desktop, ArcOnline&nbsp;...",
+      "link": "https://orbitgt.com/products/3dm-plugins.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:16573092820464930957",
+      "author": "",
+      "date": "2026-01-17T08:43:16.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
