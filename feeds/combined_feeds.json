@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (19-01-2026)",
+  "title": "Combined ArcGIS Feeds (20-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-19T01:49:17.360Z",
+  "lastUpdated": "2026-01-20T01:44:12.631Z",
   "items": [
+    {
+      "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
+      "description": "<b>Esri</b> Gold Partner Migrates Utility to Cloud-Hosted <b>ArcGIS</b> Platform, Achieving 99.99% Availability and Processing 15+ Million Requests.",
+      "link": "https://www.einpresswire.com/article/883757645/cybertech-delivers-mission-critical-arcgis-enterprise-transformation-for-central-arkansas-water",
+      "guid": "tag:google.com,2013:googlealerts/feed:3997276469958729733",
+      "author": "",
+      "date": "2026-01-19T19:18:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "NATO Joint Military Symbology APP6-(E) - Ülevaade",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript 4.31 or higher ArcGIS Maps SDKs for ... <b>ArcGIS Maps SDK for</b> JavaScript, Military Symbology. Muuda märksõnu.",
+      "link": "https://gis.tallinn.ee/portal/home/item.html?id=280a6cc5e03c4b5b813fc7de7ad097e3",
+      "guid": "tag:google.com,2013:googlealerts/feed:1761218806366659151",
+      "author": "",
+      "date": "2026-01-19T08:02:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "JSON for Beginners",
       "description": "",
