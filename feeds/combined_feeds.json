@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (20-01-2026)",
+  "title": "Combined ArcGIS Feeds (21-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-20T01:44:12.631Z",
+  "lastUpdated": "2026-01-21T01:47:08.889Z",
   "items": [
+    {
+      "title": "ArcGIS Maps SDK for JavaScript: A Look Under the Hood",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Yv979Ye9p3A",
+      "guid": "yt:video:Yv979Ye9p3A",
+      "author": "Esri Developers",
+      "date": "2026-01-20T18:20:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "31600+ Accenture Jobs in India (Updated 2026) | AmbitionBox",
+      "description": "... <b>Javascript API&#39;s</b>, ArcPy, ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>, FME-Define ... The candidate should have minimum 3 years of experience in <b>ESRI ArcGIS</b>.",
+      "link": "https://www.ambitionbox.com/jobs/accenture-jobs-cmp?rid=naukri_190126924797",
+      "guid": "tag:google.com,2013:googlealerts/feed:14711918554929808031",
+      "author": "",
+      "date": "2026-01-19T19:33:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
       "description": "<b>Esri</b> Gold Partner Migrates Utility to Cloud-Hosted <b>ArcGIS</b> Platform, Achieving 99.99% Availability and Processing 15+ Million Requests.",
