@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (21-01-2026)",
+  "title": "Combined ArcGIS Feeds (22-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-21T01:47:08.889Z",
+  "lastUpdated": "2026-01-22T01:47:02.964Z",
   "items": [
+    {
+      "title": "Quick & Easy CSS Centering",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/aD9vR5pHGks",
+      "guid": "yt:video:aD9vR5pHGks",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-22T01:25:56.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Native Maps SDKs: Overview and What's New",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=T8Dp7AewiVs",
+      "guid": "yt:video:T8Dp7AewiVs",
+      "author": "Esri Developers",
+      "date": "2026-01-22T00:55:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS Maps SDK for JavaScript: A Look Under the Hood",
       "description": "",
@@ -10,6 +34,18 @@
       "guid": "yt:video:Yv979Ye9p3A",
       "author": "Esri Developers",
       "date": "2026-01-20T18:20:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
+      "description": "... <b>API</b> requests processed since go-live ... The successful <b>ArcGIS</b> Enterprise migration has positioned CAW for continued innovation within the <b>Esri</b>&nbsp;...",
+      "link": "https://www.blufftontoday.com/press-release/story/38709/cybertech-delivers-mission-critical-arcgis-enterprise-transformation-for-central-arkansas-water/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12542658647448128254",
+      "author": "",
+      "date": "2026-01-20T09:33:43.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",

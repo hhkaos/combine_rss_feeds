@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (21-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (22-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-21T01:47:18.221Z",
+  "lastUpdated": "2026-01-22T01:47:13.595Z",
   "items": [
+    {
+      "title": "Quick & Easy CSS Centering",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/aD9vR5pHGks",
+      "guid": "yt:video:aD9vR5pHGks",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-22T01:25:56.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante: La noticia no está relacionada con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "Native Maps SDKs: Overview and What's New",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=T8Dp7AewiVs",
+      "guid": "yt:video:T8Dp7AewiVs",
+      "author": "Esri Developers",
+      "date": "2026-01-22T00:55:15.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to update your ArcGIS applications for improved security with ArcGIS Online's latest security enhancements.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Maps SDK for JavaScript: A Look Under the Hood",
       "description": "",
@@ -13,6 +39,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom report template in ArcGIS Online using AppStudio for ArcGIS.",
+      "processed": true
+    },
+    {
+      "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
+      "description": "... <b>API</b> requests processed since go-live ... The successful <b>ArcGIS</b> Enterprise migration has positioned CAW for continued innovation within the <b>Esri</b>&nbsp;...",
+      "link": "https://www.blufftontoday.com/press-release/story/38709/cybertech-delivers-mission-critical-arcgis-enterprise-transformation-for-central-arkansas-water/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12542658647448128254",
+      "author": "",
+      "date": "2026-01-20T09:33:43.000Z",
+      "category": "In-person event",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "CyberTech has successfully delivered a mission-critical ArcGIS Enterprise transformation for Central Arkansas Water, enhancing their GIS capabilities and operations.",
       "processed": true
     },
     {
