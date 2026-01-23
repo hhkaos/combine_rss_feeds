@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (22-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (23-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-22T01:47:13.595Z",
+  "lastUpdated": "2026-01-23T01:44:21.035Z",
   "items": [
+    {
+      "title": "Native App Development in a Multiplatform World",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=yRVSOWBAU3w",
+      "guid": "yt:video:yRVSOWBAU3w",
+      "author": "Esri Developers",
+      "date": "2026-01-22T21:11:49.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante."
+    },
+    {
+      "title": "Code Heatmaps with OpenAI Styling",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/o4XgMOxcn0Y",
+      "guid": "yt:video:o4XgMOxcn0Y",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-22T21:09:57.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up in ArcGIS Online to display information about your features in a more dynamic and engaging way.",
+      "processed": true
+    },
+    {
+      "title": "CSS Grid Centering for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/e1SE0nqOU0w",
+      "guid": "yt:video:e1SE0nqOU0w",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-22T17:06:25.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create your own custom map styles in ArcGIS Online using the Map Viewer Beta!",
+      "processed": true
+    },
     {
       "title": "Quick & Easy CSS Centering",
       "description": "",

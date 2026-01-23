@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (22-01-2026)",
+  "title": "Combined ArcGIS Feeds (23-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-22T01:47:02.964Z",
+  "lastUpdated": "2026-01-23T01:44:11.465Z",
   "items": [
+    {
+      "title": "Native App Development in a Multiplatform World",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=yRVSOWBAU3w",
+      "guid": "yt:video:yRVSOWBAU3w",
+      "author": "Esri Developers",
+      "date": "2026-01-22T21:11:49.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Code Heatmaps with OpenAI Styling",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/o4XgMOxcn0Y",
+      "guid": "yt:video:o4XgMOxcn0Y",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-22T21:09:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "CSS Grid Centering for Beginners",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/e1SE0nqOU0w",
+      "guid": "yt:video:e1SE0nqOU0w",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-22T17:06:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Quick & Easy CSS Centering",
       "description": "",
