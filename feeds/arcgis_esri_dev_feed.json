@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (24-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (25-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-24T01:41:58.149Z",
+  "lastUpdated": "2026-01-25T01:53:55.383Z",
   "items": [
+    {
+      "title": "Request Administrative Token from <b>ArcGIS</b> Enterprise using <b>ArcGIS</b> REST <b>API</b> &quot;Token&quot; endpoint",
+      "description": "This...may be complicated to explain. We are trying to create Feature Service webhooks in <b>ArcGIS</b> Enterprise. <b>ESRI</b> documentation indicates that&nbsp;...",
+      "link": "https://community.safe.com/authoring-6/request-administrative-token-from-arcgis-enterprise-using-arcgis-rest-api-token-endpoint-39815",
+      "guid": "tag:google.com,2013:googlealerts/feed:4107668204652826379",
+      "author": "",
+      "date": "2026-01-23T03:31:17.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to request an administrative token from ArcGIS Enterprise using the ArcGIS REST API token endpoint.",
+      "processed": true
+    },
     {
       "title": "Native App Development in a Multiplatform World",
       "description": "",

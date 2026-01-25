@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (24-01-2026)",
+  "title": "Combined ArcGIS Feeds (25-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-24T01:41:54.928Z",
+  "lastUpdated": "2026-01-25T01:53:48.169Z",
   "items": [
+    {
+      "title": "Request Administrative Token from <b>ArcGIS</b> Enterprise using <b>ArcGIS</b> REST <b>API</b> &quot;Token&quot; endpoint",
+      "description": "This...may be complicated to explain. We are trying to create Feature Service webhooks in <b>ArcGIS</b> Enterprise. <b>ESRI</b> documentation indicates that&nbsp;...",
+      "link": "https://community.safe.com/authoring-6/request-administrative-token-from-arcgis-enterprise-using-arcgis-rest-api-token-endpoint-39815",
+      "guid": "tag:google.com,2013:googlealerts/feed:4107668204652826379",
+      "author": "",
+      "date": "2026-01-23T03:31:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Native App Development in a Multiplatform World",
       "description": "",
