@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (26-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (27-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-26T01:53:08.355Z",
+  "lastUpdated": "2026-01-27T01:50:22.835Z",
   "items": [
+    {
+      "title": "Use external object detection training data within ArcGIS",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/use-external-object-detection-training-data-within-arcgis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2952878",
+      "author": "Pavan Yadav",
+      "date": "2026-01-26T11:54:48.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Learn how to use external object detection training data within ArcGIS Pro to improve your GeoAI workflows.",
+      "processed": true
+    },
+    {
+      "title": "Sr. Product Manager - 3D Web Development | Remote Jobs USA",
+      "description": "... <b>ArcGIS Maps SDK for</b> JavaScript and other web development technologies delivered by Esri. You will identify, synthesize, and prioritize&nbsp;...",
+      "link": "https://employify.mysmartpros.com/job/994331",
+      "guid": "tag:google.com,2013:googlealerts/feed:11856141038950220134",
+      "author": "",
+      "date": "2026-01-26T08:16:58.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri's ArcGIS Online platform provides a simple, secure, and flexible way to share maps and data with others.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 圆形动态效果-动态螺旋效果",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript 从 4.29 开始增加 RenderNode 类，可以添加数据以及操作 FBO（ManagedFBO） ；. 通过操作FBO，可以通过后处理实现很多效果，官方&nbsp;...",
+      "link": "https://blog.csdn.net/linzi19900517/article/details/156186647",
+      "guid": "tag:google.com,2013:googlealerts/feed:12668300293518477645",
+      "author": "",
+      "date": "2026-01-26T02:33:13.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Dashboards",
+      "summary": "Learn how to create custom symbols and themes with the Calcite Design System in ArcGIS Dashboards.",
+      "processed": true
+    },
     {
       "title": "Request Administrative Token from <b>ArcGIS</b> Enterprise using <b>ArcGIS</b> REST <b>API</b> &quot;Token&quot; endpoint",
       "description": "This...may be complicated to explain. We are trying to create Feature Service webhooks in <b>ArcGIS</b> Enterprise. <b>ESRI</b> documentation indicates that&nbsp;...",
