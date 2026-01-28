@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (27-01-2026)",
+  "title": "Combined ArcGIS Feeds (28-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-27T01:50:14.616Z",
+  "lastUpdated": "2026-01-28T01:46:40.801Z",
   "items": [
+    {
+      "title": "Create a 3D Printable STL with ArcGIS Pro",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/3d-gis/create-a-3d-printable-stl-with-arcgis-pro",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2954732",
+      "author": "Paul Gibbs",
+      "date": "2026-01-27T19:51:31.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Children in Ireland missing more days of school - <b>ESRI</b> - RTE",
+      "description": "The level of school absence has grown since the pandemic and is showing little sign of improvement, according to a report from the <b>ESRI</b>.",
+      "link": "https://www.rte.ie/news/2026/0126/1555060-absenteeism-school/",
+      "guid": "tag:google.com,2013:googlealerts/feed:13702487437792017136",
+      "author": "",
+      "date": "2026-01-27T00:55:39.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Use external object detection training data within ArcGIS",
       "description": "",
@@ -22,6 +46,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:11856141038950220134",
       "author": "",
       "date": "2026-01-26T08:16:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. username | password required. User Name:.",
+      "link": "https://www.ocgis.com/arcpub/rest/login?redirect=https%3A//www.ocgis.com/arcpub/rest/services/Map_Layers/Parcels_with_Attributes/MapServer/0%3Ftoken%3DfAu0sehV6UpJs31Z8c8G_MxKEsgxUd1u4BvMjBR8kYLOe_awu13BN1x9i3a3gl58aeP1E8Mw0asn5SQEx60ircyYNE1fsQeOMbglMky6Jmo",
+      "guid": "tag:google.com,2013:googlealerts/feed:15885450387578345267",
+      "author": "",
+      "date": "2026-01-26T04:10:34.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
