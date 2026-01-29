@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (28-01-2026)",
+  "title": "Combined ArcGIS Feeds (29-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-28T01:46:40.801Z",
+  "lastUpdated": "2026-01-29T01:59:17.304Z",
   "items": [
+    {
+      "title": "Using the ArcGIS API for Python for Administration",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=GRSFtMAL1ik",
+      "guid": "yt:video:GRSFtMAL1ik",
+      "author": "Esri Developers",
+      "date": "2026-01-28T18:21:06.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Create a 3D Printable STL with ArcGIS Pro",
       "description": "",
