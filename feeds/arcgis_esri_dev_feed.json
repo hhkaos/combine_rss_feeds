@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-01-2026)",
+  "title": "ArcGIS ESRI Dev Feed (30-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-29T01:59:22.399Z",
+  "lastUpdated": "2026-01-30T01:59:44.536Z",
   "items": [
+    {
+      "title": "200.8.1 LTS patch for ArcGIS Maps SDKs for Native Apps is now available",
+      "description": "<P>The first LTS patch release for 200.8 is now available for .NET, Kotlin, Qt, and Swift SDKs.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/200-8-1-lts-patch-for-arcgis-maps-sdks-for-native/ba-p/1680838",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/200-8-1-lts-patch-for-arcgis-maps-sdks-for-native/ba-p/1680838",
+      "author": "Nicholas-Furness",
+      "date": "2026-01-29T21:51:17.000Z",
+      "category": "Blog",
+      "topicsProduct": "Native SDKs",
+      "summary": "Esri has released the 200.8.1 LTS Patch for ArcGIS Maps SDKs for Native, addressing various issues and providing updates for developers.",
+      "processed": true
+    },
+    {
+      "title": "Maplibre ArcGIS Plugin Demo",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/vkUHjs4e-Dk",
+      "guid": "yt:video:vkUHjs4e-Dk",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-29T03:12:06.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
+    {
+      "title": "Software Engineer - 3D <b>ArcGIS Maps SDK for</b> JavaScript @ Esri | AnitaB.org Job Board",
+      "description": "At the Esri R&amp;D Center-Zurich, we lead the development of Esri&#39;s core 3D web technologies: the <b>ArcGIS Maps SDK for</b> JavaScript and the 3D Scene Viewer&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/66266997-software-engineer-3d-arcgis-maps-sdk-for-javascript",
+      "guid": "tag:google.com,2013:googlealerts/feed:15980772382206357925",
+      "author": "",
+      "date": "2026-01-28T22:29:25.000Z",
+      "category": "Job offer",
+      "topicsProduct": "ArcGIS Maps SDK for JavaScript",
+      "summary": "Esri is looking for a Software Engineer to work on 3D functionality within the ArcGIS Maps SDK for JavaScript.",
+      "processed": true
+    },
     {
       "title": "Using the ArcGIS API for Python for Administration",
       "description": "",
