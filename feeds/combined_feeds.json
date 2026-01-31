@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (30-01-2026)",
+  "title": "Combined ArcGIS Feeds (31-01-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-30T01:59:30.526Z",
+  "lastUpdated": "2026-01-31T01:55:30.957Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> @ <b>Esri</b> | AnitaB.org Job Board",
+      "description": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> &middot; 2+ years of experience working in a similar role and scripting skills in Python, <b>JavaScript</b>, or Java&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/66446313-product-engineer-ii-arcgis-online-rest-api",
+      "guid": "tag:google.com,2013:googlealerts/feed:6391269184085215434",
+      "author": "",
+      "date": "2026-01-30T22:23:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Java Full Stack Developer with <b>ArcGIS</b> (F2F Interview) - Zeforge LLC - Remote | Dice.com",
+      "description": "Experience with the <b>Esri ArcGIS</b> Maps <b>API</b>/<b>SDK</b> for <b>Javascript</b>; Knowledge and experience with the following: ArcPro/ArcObjects, GeoEvent Processor&nbsp;...",
+      "link": "https://www.dice.com/job-detail/a05279e3-115b-4308-a87a-f5ad7bb08ba1",
+      "guid": "tag:google.com,2013:googlealerts/feed:8024991867116562925",
+      "author": "",
+      "date": "2026-01-30T20:49:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Securing ArcGIS Hub with Hardened Docker Images",
+      "description": "How Hub DevOps transformed Docker image management with hardened base images and continuous security automation for FedRAMP.",
+      "link": "https://www.esri.com/en-us/software-engineering/blog/articles/securing-arcgis-hub-with-hardened-docker-images",
+      "guid": "https://www.esri.com/en-us/software-engineering/blog/articles/securing-arcgis-hub-with-hardened-docker-images",
+      "author": "Haoliang Yu",
+      "date": "2026-01-30T19:51:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Best Practices with ArcGIS Basemap: Styles, Static Basemap Tiles and Static Maps #EsriDevSummit2025",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Nh3NsIC9tp4",
+      "guid": "yt:video:Nh3NsIC9tp4",
+      "author": "Esri Developers",
+      "date": "2026-01-30T15:42:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "200.8.1 LTS patch for ArcGIS Maps SDKs for Native Apps is now available",
       "description": "<P>The first LTS patch release for 200.8 is now available for .NET, Kotlin, Qt, and Swift SDKs.</P>",
@@ -10,6 +58,18 @@
       "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/200-8-1-lts-patch-for-arcgis-maps-sdks-for-native/ba-p/1680838",
       "author": "Nicholas-Furness",
       "date": "2026-01-29T21:51:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Earns ISO Certification, Reinforcing Commitment to Data Security - AFP.com",
+      "description": "AFP <b>API</b> ... Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b>&nbsp;...",
+      "link": "https://www.afp.com/en/infos/esri-earns-iso-certification-reinforcing-commitment-data-security",
+      "guid": "tag:google.com,2013:googlealerts/feed:16522983196087786344",
+      "author": "",
+      "date": "2026-01-29T21:04:18.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
