@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (31-01-2026)",
+  "title": "Combined ArcGIS Feeds (01-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-01-31T01:55:30.957Z",
+  "lastUpdated": "2026-02-01T02:23:18.259Z",
   "items": [
+    {
+      "title": "Open Source February",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/5AnZ1RJHBb0",
+      "guid": "yt:video:5AnZ1RJHBb0",
+      "author": "Courtney Yatteau",
+      "date": "2026-01-31T21:35:04.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> @ <b>Esri</b> | AnitaB.org Job Board",
       "description": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> &middot; 2+ years of experience working in a similar role and scripting skills in Python, <b>JavaScript</b>, or Java&nbsp;...",
