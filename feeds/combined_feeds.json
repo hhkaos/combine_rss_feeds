@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (01-02-2026)",
+  "title": "Combined ArcGIS Feeds (02-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-01T02:23:18.259Z",
+  "lastUpdated": "2026-02-02T02:07:28.478Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> - <b>Esri</b> - Redlands, CA, US | Dice.com",
+      "description": "<b>Esri</b>. Apply Now. Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b>. Redlands, CA, US • Posted 3 hours ago • Updated 3 hours ago. Full Time. On-site. USD&nbsp;...",
+      "link": "https://www.dice.com/job-detail/c40ce685-7fda-4c98-bb72-23e676261a93",
+      "guid": "tag:google.com,2013:googlealerts/feed:8448591333981493550",
+      "author": "",
+      "date": "2026-02-02T00:33:18.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Test local installation of <b>ArcGIS Maps SDK for</b> JavaScript",
+      "description": "<div type=\"html\"/>",
+      "link": "https://www.msil.go.jp/arcgis_js_api/javascript/4.32/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3635912943015665221",
+      "author": "",
+      "date": "2026-02-01T08:00:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Open Source February",
       "description": "",
@@ -10,6 +34,18 @@
       "guid": "yt:video:5AnZ1RJHBb0",
       "author": "Courtney Yatteau",
       "date": "2026-01-31T21:35:04.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Roghainn eile airson PGPS ann an Windows – Aplacaidean Microsoft",
+      "description": "Fidir barrachd &middot; beautiful PG &middot; PGP Tool &middot; GpgFrontend - An OpenPGP Crypto Tool &middot; Data Digester V2 &middot; Developer Tools UWP &middot; <b>ArcGIS Maps SDK for</b> .NET Samples&nbsp;...",
+      "link": "https://apps.microsoft.com/related/9nblggh5g9z1?hl=gd-GB&gl=GB",
+      "guid": "tag:google.com,2013:googlealerts/feed:17993564196668158803",
+      "author": "",
+      "date": "2026-01-31T14:29:23.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",

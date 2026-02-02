@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (01-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (02-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-01T02:23:23.772Z",
+  "lastUpdated": "2026-02-02T02:07:40.157Z",
   "items": [
+    {
+      "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> - <b>Esri</b> - Redlands, CA, US | Dice.com",
+      "description": "<b>Esri</b>. Apply Now. Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b>. Redlands, CA, US • Posted 3 hours ago • Updated 3 hours ago. Full Time. On-site. USD&nbsp;...",
+      "link": "https://www.dice.com/job-detail/c40ce685-7fda-4c98-bb72-23e676261a93",
+      "guid": "tag:google.com,2013:googlealerts/feed:8448591333981493550",
+      "author": "",
+      "date": "2026-02-02T00:33:18.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New updates to ArcGIS Online allow users to easily create and share interactive maps and data visualizations online.",
+      "processed": true
+    },
+    {
+      "title": "Test local installation of <b>ArcGIS Maps SDK for</b> JavaScript",
+      "description": "<div type=\"html\"/>",
+      "link": "https://www.msil.go.jp/arcgis_js_api/javascript/4.32/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3635912943015665221",
+      "author": "",
+      "date": "2026-02-01T08:00:43.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS API for Javascript",
+      "summary": "The latest version 4.32 of the ArcGIS API for JavaScript has been released with new features and enhancements.",
+      "processed": true
+    },
     {
       "title": "Open Source February",
       "description": "",
@@ -13,6 +37,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom pop-up for your web map in ArcGIS Online using Arcade expressions.",
+      "processed": true
+    },
+    {
+      "title": "Roghainn eile airson PGPS ann an Windows – Aplacaidean Microsoft",
+      "description": "Fidir barrachd &middot; beautiful PG &middot; PGP Tool &middot; GpgFrontend - An OpenPGP Crypto Tool &middot; Data Digester V2 &middot; Developer Tools UWP &middot; <b>ArcGIS Maps SDK for</b> .NET Samples&nbsp;...",
+      "link": "https://apps.microsoft.com/related/9nblggh5g9z1?hl=gd-GB&gl=GB",
+      "guid": "tag:google.com,2013:googlealerts/feed:17993564196668158803",
+      "author": "",
+      "date": "2026-01-31T14:29:23.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up in ArcGIS Online with this tutorial.",
       "processed": true
     },
     {
