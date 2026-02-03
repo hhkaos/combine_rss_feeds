@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (02-02-2026)",
+  "title": "Combined ArcGIS Feeds (03-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-02T02:07:28.478Z",
+  "lastUpdated": "2026-02-03T02:05:58.179Z",
   "items": [
+    {
+      "title": "Build your own Leaflet Map",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/G6u4GEZeRE4",
+      "guid": "yt:video:G6u4GEZeRE4",
+      "author": "Courtney Yatteau",
+      "date": "2026-02-03T01:06:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "3D Shadow Cast App",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/DuzLkTJa86M",
+      "guid": "yt:video:DuzLkTJa86M",
+      "author": "Courtney Yatteau",
+      "date": "2026-02-02T21:04:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Securing ArcGIS Hub with Hardened Docker Images",
+      "description": "<P><A href=\"https://www.esri.com/en-us/software-engineering/blog/articles/securing-arcgis-hub-with-hardened-docker-images\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">New Esri Software Engineering Blog Post!</A>&nbsp;If you’ve ever wondered what makes the industry regard Esri’s platform as one of the most secure, you might enjoy this new blog, which offers a close look at one product's journey to achieving FedRAMP authorization.&nbsp;</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/securing-arcgis-hub-with-hardened-docker-images/ba-p/1681551",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/securing-arcgis-hub-with-hardened-docker-images/ba-p/1681551",
+      "author": "Mara",
+      "date": "2026-02-02T17:42:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Add Coded or Range Domains to a Field in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Add Coded or Range Domains to a Field in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=pLcwwdMhSYQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:1382240149310079079",
+      "author": "",
+      "date": "2026-02-02T14:21:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://portal.mra.gov.pg/arcgis/rest/login?redirect=https%3A//portal.mra.gov.pg/arcgis/rest/services/Prod/Geology/MapServer/23/query",
+      "guid": "tag:google.com,2013:googlealerts/feed:762247255057269459",
+      "author": "",
+      "date": "2026-02-02T04:53:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> - <b>Esri</b> - Redlands, CA, US | Dice.com",
       "description": "<b>Esri</b>. Apply Now. Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b>. Redlands, CA, US • Posted 3 hours ago • Updated 3 hours ago. Full Time. On-site. USD&nbsp;...",
