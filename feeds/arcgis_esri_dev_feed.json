@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (04-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-03T02:06:13.035Z",
+  "lastUpdated": "2026-02-04T02:01:05.857Z",
   "items": [
+    {
+      "title": "ArcGIS Experience Builder 2026 Roadmap",
+      "description": "<P>Looking ahead to 2026! Expect Web AppBuilder parity, better accessibility, and exciting new AI features.&nbsp;</P>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/arcgis-experience-builder-2026-roadmap/ba-p/1681918",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/arcgis-experience-builder-2026-roadmap/ba-p/1681918",
+      "author": "Jianxia",
+      "date": "2026-02-03T23:55:10.000Z",
+      "category": "Blog",
+      "topicsProduct": "Experience Builder",
+      "summary": "Check out the ArcGIS Experience Builder 2026 Roadmap to learn about upcoming features, improvements, and enhancements in the platform.",
+      "processed": true
+    },
+    {
+      "title": "Escape the Map! 🗺️ Using Reference Elements in ArcGIS Maps SDK for JS | #EsriDevelopers",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=bXBSatkc6Vw",
+      "guid": "yt:video:bXBSatkc6Vw",
+      "author": "Rene Rubalcava",
+      "date": "2026-02-03T14:42:39.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+    },
     {
       "title": "Build your own Leaflet Map",
       "description": "",
@@ -27,6 +53,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create stunning 3D maps with ArcGIS Online in this short tutorial video. Enhance your visualization skills today!",
+      "processed": true
+    },
+    {
+      "title": "ページ 14 - ArcGISブログ - Esriジャパン",
+      "description": "ArcGIS Engine からの移行について ～第二弾：開発者向けコンポーネント～. 2025/7/8 製品／リリース情報 ArcGIS Engine / Developer Kit , <b>ArcGIS Maps SDK for</b> .",
+      "link": "https://blog.esrij.com/page/14?%2Fphotos%2Funcategorized%2F2013%2F09%2F06%2F1_3_png",
+      "guid": "tag:google.com,2013:googlealerts/feed:13905069875512347997",
+      "author": "",
+      "date": "2026-02-02T19:25:07.000Z",
+      "category": "Blog",
+      "topicsProduct": "Web technologies",
+      "summary": "The latest advancements in web technologies for ArcGIS are now available, enhancing user experience and performance.",
       "processed": true
     },
     {
