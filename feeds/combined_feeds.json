@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (06-02-2026)",
+  "title": "Combined ArcGIS Feeds (07-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-06T02:01:59.156Z",
+  "lastUpdated": "2026-02-07T01:57:45.431Z",
   "items": [
+    {
+      "title": "اشتراک‌ها: آرشیو گروه‌های اشتراک‌های Geospatial، صفحه ۱ - NET Tips",
+      "description": "منابع متعددی برای توسعه‌دهندگان در دسترس است، از جمله لینک‌های مربوط به <b>ArcGIS Maps SDK for</b> .NET، وبلاگ Calcite .NET toolkit و پلتفرم ArcGIS&nbsp;...",
+      "link": "https://www.dntips.ir/news-tag/Geospatial",
+      "guid": "tag:google.com,2013:googlealerts/feed:1038390801645113061",
+      "author": "",
+      "date": "2026-02-06T09:34:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "کیت توسعه .NET Maps SDK: ساخت برنامه های کاربردی مکانی - NET Tips",
+      "description": "ﻣﻨﺎﺑﻊ ﻣﺘعﺪدی ﺑﺮای ﺗﻮﺳﻌﻪ دﻫﻨﺪﮔﺎن در دﺳﺘﺮس اﺳﺖ، از ﺟﻤﻠﻪ ﻟﯿﻨﮏ ﻫﺎی ﻣﺮﺑﻮط ﺑﻪ <b>ArcGIS Maps SDK for</b> .NET، وﺑﻼگ. Esri Developer Summit ﻫﻤﭽﻨﯿﻦ، وﯾﺪﯾﻮﻫﺎی&nbsp;...",
+      "link": "https://www.dntips.ir/exports/news/www.dntips.ir-news-23701.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:11936677362019299993",
+      "author": "",
+      "date": "2026-02-06T07:01:26.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Best Online GIS Certificate Programs: Graduate-level Paths in Geographic Information Systems",
+      "description": "It aligns with professional credentials including the GISP, <b>Esri&#39;s ArcGIS</b> ... <b>JavaScript</b>, <b>ArcGIS</b> Online, and Mapbox; Estimated Total Cost — $6,372.",
+      "link": "https://www.directionsmag.com/articles/best-online-gis-certificate-programs-graduate-level-paths-in-geographic-information-systems",
+      "guid": "tag:google.com,2013:googlealerts/feed:1619806350117741817",
+      "author": "",
+      "date": "2026-02-06T06:07:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Advanced GIS reshaping infrastructure, utilities and urban governance",
+      "description": "... (<b>API</b>)-enabled platform supporting multiple national applications in ... Using <b>ArcGIS</b> Urban and <b>ArcGIS</b> Pro, local land use and transport data&nbsp;...",
+      "link": "https://themalaysianreserve.com/2026/02/06/advanced-gis-reshaping-infrastructure-utilities-and-urban-governance/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5722217386634890782",
+      "author": "",
+      "date": "2026-02-06T04:55:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Create a Website Tour Guide with Shepherd.js",
       "description": "",
