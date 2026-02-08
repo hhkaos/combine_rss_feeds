@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (07-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (08-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-07T01:57:55.700Z",
+  "lastUpdated": "2026-02-08T02:31:04.858Z",
   "items": [
+    {
+      "title": "Dataset - California Open Data",
+      "description": "21 datasets found. Organizations: California State Lands Commission Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> ... <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; MISP Data&nbsp;...",
+      "link": "https://data.ca.gov/dataset/?_tags_limit=0&organization=california-state-lands-commission&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:11402540275343743824",
+      "author": "",
+      "date": "2026-02-07T13:19:54.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to optimize the performance of your ArcGIS Enterprise deployment with these best practices and tips.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://gis2.co.dakota.mn.us/arcgis/rest/login?redirect=https%3A//gis2.co.dakota.mn.us/arcgis/rest/services/EditingCounty/DC_OL_HWGeneratorsEdit/FeatureServer/0/query",
+      "guid": "tag:google.com,2013:googlealerts/feed:14914480376860327240",
+      "author": "",
+      "date": "2026-02-07T08:57:28.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New feature service available for HWGeneratorsEdit in Dakota County Editing County service.",
+      "processed": true
+    },
     {
       "title": "اشتراک‌ها: آرشیو گروه‌های اشتراک‌های Geospatial، صفحه ۱ - NET Tips",
       "description": "منابع متعددی برای توسعه‌دهندگان در دسترس است، از جمله لینک‌های مربوط به <b>ArcGIS Maps SDK for</b> .NET، وبلاگ Calcite .NET toolkit و پلتفرم ArcGIS&nbsp;...",
