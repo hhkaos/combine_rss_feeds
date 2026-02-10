@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (09-02-2026)",
+  "title": "Combined ArcGIS Feeds (10-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-09T02:09:12.468Z",
+  "lastUpdated": "2026-02-10T02:25:33.184Z",
   "items": [
+    {
+      "title": "Calcite Design System: Latest Updates in Version 5.0",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=b0ru4oRR3qE",
+      "guid": "yt:video:b0ru4oRR3qE",
+      "author": "Esri Developers",
+      "date": "2026-02-09T15:09:51.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Home-buying process leads to overbidding, delays - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... (<b>ESRI</b>) has found. The research showed that while half of buyers&nbsp;...",
+      "link": "https://www.rte.ie/news/business/2026/0209/1557385-esri-home-buying/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11642167791490279091",
+      "author": "",
+      "date": "2026-02-09T13:31:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "GIS Data - Organizations - Open Data SA - City of San Antonio",
       "description": "The Board of Adjustment reviews for variances, special exceptions, and... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX&nbsp;...",
