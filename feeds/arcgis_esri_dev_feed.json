@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (11-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-10T02:25:41.745Z",
+  "lastUpdated": "2026-02-11T02:22:22.846Z",
   "items": [
+    {
+      "title": "Unlocking Your Data&#39;s Potential: A Gentle Dive Into the <b>ArcGIS API</b> for Python - Oreate AI",
+      "description": "... <b>Esri</b> ecosystem. Whether you&#39;re working with <b>ArcGIS</b> Online, <b>ArcGIS</b> Enterprise, or the <b>ArcGIS</b> Location Platform, this <b>API</b> lets you automate tasks&nbsp;...",
+      "link": "http://oreateai.com/blog/unlocking-your-datas-potential-a-gentle-dive-into-the-arcgis-api-for-python/15739c13a624ff8e7bb0c57176f9ff53",
+      "guid": "tag:google.com,2013:googlealerts/feed:15373381988686003231",
+      "author": "",
+      "date": "2026-02-10T10:15:22.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Learn how to unlock your data's potential with a gentle dive into the ArcGIS API for Python.",
+      "processed": true
+    },
     {
       "title": "Calcite Design System: Latest Updates in Version 5.0",
       "description": "",
