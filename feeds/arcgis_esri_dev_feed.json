@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (12-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-11T02:22:22.846Z",
+  "lastUpdated": "2026-02-12T02:09:14.301Z",
   "items": [
+    {
+      "title": "Calcite Design System 5.0 released!",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/calcite-design-system-5-0-released",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2954685",
+      "author": "Kitty Hurley",
+      "date": "2026-02-11T16:30:16.000Z",
+      "category": "Blog",
+      "topicsProduct": "Calcite Design System",
+      "summary": "Calcite Design System 5.0 has been released with new features and improvements for a better user experience.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Dashboards: Extending with ArcGIS Arcade | #EsriDevSummit2025",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=0HZokGYcmKE",
+      "guid": "yt:video:0HZokGYcmKE",
+      "author": "Esri Developers",
+      "date": "2026-02-11T15:15:39.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create an optimized web map in ArcGIS Online by following these best practices and tips.",
+      "processed": true
+    },
+    {
+      "title": "<b>Arcgis maps sdk for</b> unreal engine github - uldeso.gay",
+      "description": "<b>Arcgis maps sdk for</b> unreal engine github. The Git Setup For Unreal Engine No One Tells You About!. Testing &quot;ArcGIS maps sdk Unity Samples&quot; from&nbsp;...",
+      "link": "https://uldeso.gay/qkv1p2ittweg8knoyuqqzlp089364.xml",
+      "guid": "tag:google.com,2013:googlealerts/feed:17695799831754499464",
+      "author": "",
+      "date": "2026-02-11T05:36:04.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to optimize your ArcGIS Enterprise deployment with the new ArcGIS Enterprise HealthCheck Tool.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Developer - Cloud and Things - Brooklyn, NY, US | Dice.com",
+      "description": "Mastery of the <b>ArcGIS Maps SDK for</b> JavaScript (4.x) series, particularly creating custom widgets and handling 3D visualizations. Proficiency in&nbsp;...",
+      "link": "https://www.dice.com/job-detail/760be656-99a9-4bca-b35c-f87842a4560c?q=ArcGIS",
+      "guid": "tag:google.com,2013:googlealerts/feed:13520784652790038059",
+      "author": "",
+      "date": "2026-02-11T01:16:08.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to optimize your spatial big data management using ArcGIS GeoAnalytics Engine.",
+      "processed": true
+    },
     {
       "title": "Unlocking Your Data&#39;s Potential: A Gentle Dive Into the <b>ArcGIS API</b> for Python - Oreate AI",
       "description": "... <b>Esri</b> ecosystem. Whether you&#39;re working with <b>ArcGIS</b> Online, <b>ArcGIS</b> Enterprise, or the <b>ArcGIS</b> Location Platform, this <b>API</b> lets you automate tasks&nbsp;...",
