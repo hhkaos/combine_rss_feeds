@@ -1,8 +1,104 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (12-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (13-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-12T02:09:14.301Z",
+  "lastUpdated": "2026-02-13T02:11:43.259Z",
   "items": [
+    {
+      "title": "Security and Authentication for Custom Applications | #EsriDevSummit2025",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=UbpoGftwclI",
+      "guid": "yt:video:UbpoGftwclI",
+      "author": "Esri Developers",
+      "date": "2026-02-12T13:00:59.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create web mapping applications using ArcGIS Online in this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Nick Franchino: LARIAC, Maps, and LA28",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=mV0BojFlLpI",
+      "guid": "yt:video:mV0BojFlLpI",
+      "author": "Rene Rubalcava",
+      "date": "2026-02-12T12:19:57.000Z",
+      "category": "Video",
+      "topicsProduct": "Web technologies",
+      "summary": "Learn how to create custom pop-ups in ArcGIS Online using the Arcade language.",
+      "processed": true
+    },
+    {
+      "title": "Nick Franchino: LARIAC, Maps, and LA28",
+      "description": "<p>In this episode, <a href='https://www.linkedin.com/in/nick-franchino-4gis007/'>Nick Franchino</a>, GIS Manager for LA County Planning, discusses how his team is using story maps, LARIAC imagery, open data, and dashboards to prepare for the LA28 Olympics. He explains jurisdictional challenges across 88 cities, transportation planning (including shuttle routes and games route networks), venue naming complexities, and the importance of digital twins for event planning and operations.</p>\n<p>Nick also shares practical advice for GIS professionals: identify gaps, build tools that help your community, and pursue passion projects that add long-term value beyond the event.</p>\n<ul>\n<li><a href='https://lariac-lacounty.hub.arcgis.com/'>LARIAC</a></li>\n<li><a href='https://storymaps.arcgis.com/stories/084b53eba83940c5b2529cf8d5832c99'>LA28 StoryMap</a></li>\n</ul>\n<p>The Bounding Box merchandise is now available (including new mugs!), if you would like to support the show - <a href='https://the-bounding-box.printify.me/'>the-bounding-box.printify.me</a></p>\n<p>Visit <a href='https://odoe.net/'>odoe.net</a> for more information!</p>\n",
+      "link": "https://theboundingbox.podbean.com/e/mapping-the-games-how-la-county-gis-is-preparing-for-la-28/",
+      "guid": "theboundingbox.podbean.com/9b126e4c-121e-3b8d-838e-788e42051f27",
+      "author": "",
+      "date": "2026-02-12T12:00:00.000Z",
+      "category": "Podcast",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how LA County GIS is preparing for LA 2028 with gaming technology.",
+      "processed": true
+    },
+    {
+      "title": "Introduction to ArcGIS Location Platform - Getting started",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=IoFzxHhTInI",
+      "guid": "yt:video:IoFzxHhTInI",
+      "author": "Esri Developers",
+      "date": "2026-02-12T11:12:43.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to share Living Atlas content publicly and invite users to collaborate in ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Walk through - Get to Know ArcGIS Location Platform",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=crcrlaekM8Y",
+      "guid": "yt:video:crcrlaekM8Y",
+      "author": "Esri Developers",
+      "date": "2026-02-12T07:53:27.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to use Arcade expressions to customize pop-ups in ArcGIS Online and improve your data visualization.",
+      "processed": true
+    },
+    {
+      "title": "Data Drives Delivery - Engineering News-Record",
+      "description": "These feeds are then mapped in <b>ArcGIS</b>, <b>Esri&#39;s</b> ... To improve oversight, WSP developed an automated review and approval workflow using the <b>ArcGIS API</b> for&nbsp;...",
+      "link": "https://www.enr.com/articles/62511-data-drives-delivery",
+      "guid": "tag:google.com,2013:googlealerts/feed:13532131422644477705",
+      "author": "",
+      "date": "2026-02-11T22:41:01.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Data-driven delivery is the key to successful project outcomes. Learn how ArcGIS Enterprise provides the tools needed to effectively manage and analyze data for successful project delivery.",
+      "processed": true
+    },
+    {
+      "title": "Procom hiring Geospatial Application Developer - Senior Job in Calgary | Glassdoor",
+      "description": "The project involves utilizing the <b>ESRI</b> toolset and working with <b>ArcGIS</b> Pro <b>SDK</b> using C# .NET and Python (ArcPy) to build and maintain scalable&nbsp;...",
+      "link": "https://www.glassdoor.ca/job-listing/geospatial-application-developer-senior-procom-JV_IC2275123_KO0,39_KE40,46.htm?jl=1010028901293",
+      "guid": "tag:google.com,2013:googlealerts/feed:10278098757725239309",
+      "author": "",
+      "date": "2026-02-11T21:33:00.000Z",
+      "category": "Job Posting",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Procom is looking for a Geospatial Application Developer with experience working on ArcGIS Enterprise projects.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer - Cloud and Things - Brooklyn, NY, US | Dice.com",
+      "description": "Develop custom map widgets and 3D visualizations using <b>ArcGIS JavaScript SDK</b>. ... Experience using <b>ArcGIS API</b> for Python for &quot;DevOps for GIS&nbsp;...",
+      "link": "https://www.dice.com/job-detail/760be656-99a9-4bca-b35c-f87842a4560c?q=GIS+Consultant",
+      "guid": "tag:google.com,2013:googlealerts/feed:9743372490235533104",
+      "author": "",
+      "date": "2026-02-11T20:08:45.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up in ArcGIS Online using Arcade expressions to enhance your web maps.",
+      "processed": true
+    },
     {
       "title": "Calcite Design System 5.0 released!",
       "description": "",
@@ -25,6 +121,18 @@
       "category": "Video",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create an optimized web map in ArcGIS Online by following these best practices and tips.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Senior <b>ArcGIS</b> Maps <b>SDK</b> Documentation Engineer Job Portland - ZipRecruiter",
+      "description": "Easy 1-Click Apply <b>Esri</b> Senior <b>ArcGIS</b> Maps <b>SDK</b> Documentation Engineer ($59 - $76) job opening hiring now in Portland, OR 97204.",
+      "link": "https://www.ziprecruiter.com/c/Esri/Job/Senior-ArcGIS-Maps-SDK-Documentation-Engineer/-in-Portland,OR?jid=6c78f9021c7e1ef1",
+      "guid": "tag:google.com,2013:googlealerts/feed:11825046377667327427",
+      "author": "",
+      "date": "2026-02-11T12:59:43.000Z",
+      "category": "Job Posting",
+      "topicsProduct": "ArcGIS Maps SDK for Swift",
+      "summary": "Esri is looking for a Senior ArcGIS Maps SDK Documentation Engineer in Portland, OR. Apply now!",
       "processed": true
     },
     {
