@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (15-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-14T02:00:07.573Z",
+  "lastUpdated": "2026-02-15T02:11:06.876Z",
   "items": [
+    {
+      "title": "Build GIS Maintenance Optimization Plugin / App (<b>ArcGIS</b> + <b>API</b>) - Upwork",
+      "description": "... <b>SDK</b> web app or • Python backend (FastAPI) + simple ... Build GIS Maintenance Optimization Plugin / App (<b>ArcGIS</b> + <b>API</b>) – Fixed Budget $3,500.",
+      "link": "https://www.upwork.com/freelance-jobs/apply/Build-GIS-Maintenance-Optimization-Plugin-App-ArcGIS-API-Fixed-Budget-500_~022022626837957997762/",
+      "guid": "tag:google.com,2013:googlealerts/feed:9332177337199932327",
+      "author": "",
+      "date": "2026-02-14T14:31:58.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS API for Python",
+      "summary": "Developer needed to build GIS Maintenance Optimization Plugin App for ArcGIS API with a fixed budget of $500.",
+      "processed": true
+    },
+    {
+      "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
+      "description": "... <b>API</b> requests processed since go-live ... The successful <b>ArcGIS</b> Enterprise migration has positioned CAW for continued innovation within the <b>Esri</b>&nbsp;...",
+      "link": "https://www.floridatoday.com/press-release/story/66834/cybertech-delivers-mission-critical-arcgis-enterprise-transformation-for-central-arkansas-water/",
+      "guid": "tag:google.com,2013:googlealerts/feed:15801852525932762908",
+      "author": "",
+      "date": "2026-02-14T08:08:49.000Z",
+      "category": "Press Release",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Cybertech recently delivered a mission-critical ArcGIS Enterprise transformation for Central Arkansas Water, enhancing their operational capabilities.",
+      "processed": true
+    },
     {
       "title": "Instant \"Time Language\" for Your App with Day.js",
       "description": "",
@@ -27,6 +51,18 @@
       "category": "Blog",
       "topicsProduct": "Experience Builder",
       "summary": "Learn about the upcoming features and enhancements in ArcGIS Experience Builder.",
+      "processed": true
+    },
+    {
+      "title": "Advance your career in geosciences with Texas A&amp;M University - Study International",
+      "description": "... <b>ArcGIS</b> online. “We got to do HTML, <b>JavaScript</b>, and Python,” he says. “They took things I knew little about, and they expanded it and showed how&nbsp;...",
+      "link": "https://studyinternational.com/news/texas-am-university-develop-in-demand-skills-for-geoscience-online/",
+      "guid": "tag:google.com,2013:googlealerts/feed:14851767127169898889",
+      "author": "",
+      "date": "2026-02-13T04:07:05.000Z",
+      "category": "Course",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Texas A&M University is offering an online course to develop in-demand geoscience skills.",
       "processed": true
     },
     {
