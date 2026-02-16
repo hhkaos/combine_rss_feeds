@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (15-02-2026)",
+  "title": "Combined ArcGIS Feeds (16-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-15T02:10:57.476Z",
+  "lastUpdated": "2026-02-16T02:06:58.319Z",
   "items": [
+    {
+      "title": "NATO Joint Military Symbology APP6-(B) - Overview",
+      "description": "This style supports a configuration for modeling locations as ordered anchor points or full geometries. Required Software: <b>ArcGIS Maps SDK for</b>&nbsp;...",
+      "link": "https://webmaps.sandiego.gov/portal/home/item.html?id=756657aa5f4f4657a89b64d300de39bd",
+      "guid": "tag:google.com,2013:googlealerts/feed:3392722816886464759",
+      "author": "",
+      "date": "2026-02-15T04:50:49.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Geospatial Application Developer - Senior at TEKsystems - Hybrid - Jobs.ca",
+      "description": "Develop and maintain GIS applications using <b>ArcGIS</b> Pro <b>SDK</b> with C# .NET WPF and Python ArcPy. Build and support solutions using .NET Core for&nbsp;...",
+      "link": "https://www.jobs.ca/job/89f5864b-bc2d-490d-ac6c-69db3214a500",
+      "guid": "tag:google.com,2013:googlealerts/feed:2010296307891134265",
+      "author": "",
+      "date": "2026-02-14T15:59:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Build GIS Maintenance Optimization Plugin / App (<b>ArcGIS</b> + <b>API</b>) - Upwork",
       "description": "... <b>SDK</b> web app or • Python backend (FastAPI) + simple ... Build GIS Maintenance Optimization Plugin / App (<b>ArcGIS</b> + <b>API</b>) – Fixed Budget $3,500.",
