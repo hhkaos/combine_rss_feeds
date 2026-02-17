@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (16-02-2026)",
+  "title": "Combined ArcGIS Feeds (17-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-16T02:06:58.319Z",
+  "lastUpdated": "2026-02-17T02:04:21.136Z",
   "items": [
+    {
+      "title": "GIS Software Developer at <b>Esri</b> Canada (Toronto, Ontario) - ITjobs.ca",
+      "description": "Working experience with <b>JavaScript</b> frameworks. Experience with <b>Esri</b> Calcite Design System. ArcMaps <b>SDK</b> for JS; Working experience developing <b>ArcGIS</b>&nbsp;...",
+      "link": "https://www.itjobs.ca/job/f2f963cb-c5ad-4666-940d-0c62edec9e31",
+      "guid": "tag:google.com,2013:googlealerts/feed:13364179082292774497",
+      "author": "",
+      "date": "2026-02-16T04:24:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Farmers pessimistic on bovine TB eradication - <b>ESRI</b> - RTE",
+      "description": "... <b>ESRI</b> ... Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu&nbsp;...",
+      "link": "https://www.rte.ie/news/ireland/2026/0216/1558660-tb-eradication-esri/",
+      "guid": "tag:google.com,2013:googlealerts/feed:9328404556330768870",
+      "author": "",
+      "date": "2026-02-16T03:43:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Overview",
       "description": "This style supports a configuration for modeling locations as ordered anchor points or full geometries. Required Software: <b>ArcGIS Maps SDK for</b>&nbsp;...",
