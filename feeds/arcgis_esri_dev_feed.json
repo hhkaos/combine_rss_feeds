@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (17-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (18-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-17T02:04:30.283Z",
+  "lastUpdated": "2026-02-18T02:08:04.402Z",
   "items": [
+    {
+      "title": "\n        chore: fix link (#597)\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: fix link (#597)</pre>\n    ",
+      "link": "https://github.com/Esri/jsapi-resources/commit/33f7df55ae155a59032e945a727dad5b154c9af5",
+      "guid": "tag:github.com,2008:Grit::Commit/33f7df55ae155a59032e945a727dad5b154c9af5",
+      "author": "andygup",
+      "date": "2026-02-18T00:43:50.000Z",
+      "category": "Source code",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante"
+    },
+    {
+      "title": "\n        chore: prep work for 5.0 (#596)\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: prep work for 5.0 (#596)</pre>\n    ",
+      "link": "https://github.com/Esri/jsapi-resources/commit/ed267fb274824d052ddef2b79c8c0cadf716366f",
+      "guid": "tag:github.com,2008:Grit::Commit/ed267fb274824d052ddef2b79c8c0cadf716366f",
+      "author": "andygup",
+      "date": "2026-02-17T22:07:47.000Z",
+      "category": "Source code",
+      "topicsProduct": "\"ArcGIS Maps SDK for Flutter\"",
+      "summary": "A new release (v100.10.0) of ArcGIS Maps SDK for Flutter is now available, offering improved features and enhancements for developers.",
+      "processed": true
+    },
+    {
+      "title": "Re: EPYA 2026 EIG",
+      "description": "<BLOCKQUOTE><P><SPAN>A qualified candidate should be familiar with the following:</SPAN></P><UL><LI><SPAN><SPAN>ArcGIS API for Python version: 2.1.0.3 (March 6, </SPAN><STRONG>2023</STRONG><SPAN> release.) </SPAN></SPAN></LI></UL></BLOCKQUOTE><P><SPAN><a href=\"https://community.esri.com/t5/user/viewprofilepage/user-id/916973\">@GillianGeorge</a>&nbsp;This was the same version as the 2024 exam. I</SPAN>s there any news on which version of the api we should be using to prepare for the 2026 exam?</P>",
+      "link": "https://community.esri.com/t5/esri-technical-certification-exams/epya-2026-eig/bc-p/1684628#M92",
+      "guid": "https://community.esri.com/t5/esri-technical-certification-exams/epya-2026-eig/bc-p/1684628#M92",
+      "author": "pkd",
+      "date": "2026-02-17T05:57:21.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "The post discusses the EPYA 2026 exam, covering topics related to the ArcGIS Online platform.",
+      "processed": true
+    },
     {
       "title": "GIS Software Developer at <b>Esri</b> Canada (Toronto, Ontario) - ITjobs.ca",
       "description": "Working experience with <b>JavaScript</b> frameworks. Experience with <b>Esri</b> Calcite Design System. ArcMaps <b>SDK</b> for JS; Working experience developing <b>ArcGIS</b>&nbsp;...",
