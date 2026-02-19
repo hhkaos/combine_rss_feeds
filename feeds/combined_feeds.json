@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (18-02-2026)",
+  "title": "Combined ArcGIS Feeds (19-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-18T02:07:54.962Z",
+  "lastUpdated": "2026-02-19T02:06:41.924Z",
   "items": [
+    {
+      "title": "ArcGIS Enterprise: An Introduction for Developers | #EsriDevSummit2025",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=oYxbOAIZkco",
+      "guid": "yt:video:oYxbOAIZkco",
+      "author": "Esri Developers",
+      "date": "2026-02-18T18:04:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Custom Software Engineer - Accenture | Built In Mumbai",
+      "description": "<b>Esri Arcgis</b>,Arcfm,Fme,Microsoft .Net,<b>Arcgis Javascript Api</b>,Arcpy,Arcobjects,<b>Arcgis</b> Pro <b>Sdk</b>,Fme Workbench,Oracle,Sql Server,Sqlite,Postgres,<b>Javascript</b>&nbsp;...",
+      "link": "https://builtinmumbai.in/job/custom-software-engineer/8522104",
+      "guid": "tag:google.com,2013:googlealerts/feed:10350968771355274359",
+      "author": "",
+      "date": "2026-02-18T09:59:30.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Swift Maps SDK: Building Apps | #EsriDevSummit2025",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=yCtFk2V53B0",
+      "guid": "yt:video:yCtFk2V53B0",
+      "author": "Esri Developers",
+      "date": "2026-02-18T02:39:40.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        chore: fix link (#597)\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: fix link (#597)</pre>\n    ",
