@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (20-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-19T02:06:52.788Z",
+  "lastUpdated": "2026-02-20T02:02:52.693Z",
   "items": [
+    {
+      "title": "34% back higher taxes for better services - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... (<b>ESRI</b>) has found. The report said 35% believed that taxes were too&nbsp;...",
+      "link": "https://www.rte.ie/news/ireland/2026/0218/1559048-esri-tax-study/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2135336180501225022",
+      "author": "",
+      "date": "2026-02-19T14:34:38.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri study highlights how property tax could be linked to carbon emissions in Ireland, promoting sustainable practices.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Enterprise: An Introduction for Developers | #EsriDevSummit2025",
       "description": "",
@@ -27,6 +39,18 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "A new job opportunity for a custom software engineer is available.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> and Pix4D Launch Real-Time Terrestrial Mapping Workflow - BigDATAwire - HPCwire",
+      "description": "The generated high precision georeferenced records can now be published into <b>Esri&#39;s ArcGIS</b> Online. ... Your browser does not support <b>JavaScript</b>!",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/esri-and-pix4d-launch-real-time-terrestrial-mapping-workflow/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11190678307884672489",
+      "author": "",
+      "date": "2026-02-18T09:04:28.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri and Pix4D have partnered to launch a real-time terrestrial mapping workflow using ArcGIS Online.",
       "processed": true
     },
     {
