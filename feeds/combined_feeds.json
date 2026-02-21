@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (20-02-2026)",
+  "title": "Combined ArcGIS Feeds (21-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-20T02:02:45.142Z",
+  "lastUpdated": "2026-02-21T01:57:22.485Z",
   "items": [
+    {
+      "title": "Geo-located attendance data for CITES Conferences of the Parties - Nature",
+      "description": "... <b>JavaScript</b>. Advertisement. Advertisement ... <b>Esri</b>. <b>Arcgis</b> world geocoding service. https://developers.<b>arcgis</b>.com/rest/geocode/<b>api</b>-reference/ (2024).",
+      "link": "https://www.nature.com/articles/s41597-026-06799-y",
+      "guid": "tag:google.com,2013:googlealerts/feed:17182267453652857583",
+      "author": "",
+      "date": "2026-02-20T11:46:38.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Add Records to an <b>ArcGIS</b> Online Table with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Update Fields in a Feature Layer or Table in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=JbZUkTtznfM",
+      "guid": "tag:google.com,2013:googlealerts/feed:11540573506195451441",
+      "author": "",
+      "date": "2026-02-20T11:36:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Add Point Features to an <b>ArcGIS</b> Online Feature Layer with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Add Fields to a Feature Layer or Table in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=WvqJ40y_c2k",
+      "guid": "tag:google.com,2013:googlealerts/feed:14119932688520673887",
+      "author": "",
+      "date": "2026-02-20T11:31:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Visualizing Flood Simulations: from ArcGIS Pro to the Web with Flow Rendering",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/3d-gis/arcgis-flowrenderer-flood-simulation-visualization",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2951683",
+      "author": "Matteo Rizzi",
+      "date": "2026-02-20T10:30:52.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "34% back higher taxes for better services - <b>ESRI</b> - RTE",
       "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... (<b>ESRI</b>) has found. The report said 35% believed that taxes were too&nbsp;...",
