@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (21-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (22-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-21T01:57:32.864Z",
+  "lastUpdated": "2026-02-22T02:06:46.840Z",
   "items": [
+    {
+      "title": "Dataset - Open Data SA - City of San Antonio",
+      "description": "16 datasets found. Organizations: COVID-19 Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> CSV KML. Filter Results&nbsp;...",
+      "link": "https://data.sanantonio.gov/dataset/?organization=covid-19&res_format=ArcGIS+GeoServices+REST+API&res_format=CSV&res_format=KML",
+      "guid": "tag:google.com,2013:googlealerts/feed:178516452954080824",
+      "author": "",
+      "date": "2026-02-21T03:29:48.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New updates to ArcGIS Online include improved performance and enhanced collaboration features for users.",
+      "processed": true
+    },
     {
       "title": "Geo-located attendance data for CITES Conferences of the Parties - Nature",
       "description": "... <b>JavaScript</b>. Advertisement. Advertisement ... <b>Esri</b>. <b>Arcgis</b> world geocoding service. https://developers.<b>arcgis</b>.com/rest/geocode/<b>api</b>-reference/ (2024).",
