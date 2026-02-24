@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (23-02-2026)",
+  "title": "Combined ArcGIS Feeds (24-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-23T02:07:23.284Z",
+  "lastUpdated": "2026-02-24T02:04:11.391Z",
   "items": [
+    {
+      "title": "Where On Earth Does the ArcGIS Geocoding Service Reach?",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/mapping/where-on-earth-does-the-arcgis-geocoding-service-reach",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2956427",
+      "author": "Elizabeth Ole",
+      "date": "2026-02-23T20:02:28.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "\n        chore: update links to zip files (#599)\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: update links to zip files (#599)</pre>\n    ",
+      "link": "https://github.com/Esri/jsapi-resources/commit/6b6d4eef36aec9243230c5850acfca521f7242ba",
+      "guid": "tag:github.com,2008:Grit::Commit/6b6d4eef36aec9243230c5850acfca521f7242ba",
+      "author": "omarkawach",
+      "date": "2026-02-23T19:24:51.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "\n        chore: update repo for v.5.0 release (#598)\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: update repo for v.5.0 release (#598)\n\n* chore: update repo for v.5.0 release\n\n* chore: exclude 2 templates for now\n\n* chore: remove 2 zip files\n\n* Update templates/js-maps-sdk-node/README.md\n\nCo-authored-by: Dasa Paddock &lt;dpaddock@esri.com&gt;\n\n---------\n\nCo-authored-by: Dasa Paddock &lt;dpaddock@esri.com&gt;</pre>\n    ",
+      "link": "https://github.com/Esri/jsapi-resources/commit/99e5451029cd625752b1feb112d30673926464b0",
+      "guid": "tag:github.com,2008:Grit::Commit/99e5451029cd625752b1feb112d30673926464b0",
+      "author": "omarkawach",
+      "date": "2026-02-23T19:04:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Dataset - Open Data SA - City of San Antonio",
       "description": "16 datasets found. Organizations: COVID-19 Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> CSV KML. Filter Results&nbsp;...",
