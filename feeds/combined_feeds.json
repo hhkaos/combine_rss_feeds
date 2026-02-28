@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (27-02-2026)",
+  "title": "Combined ArcGIS Feeds (28-02-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-27T02:01:12.451Z",
+  "lastUpdated": "2026-02-28T01:51:19.796Z",
   "items": [
+    {
+      "title": "\n        chore: update deps and READMEs (#603)\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: update deps and READMEs (#603)</pre>\n    ",
+      "link": "https://github.com/Esri/jsapi-resources/commit/10bcd5c60a9fc078726061f80d8ab7de909b3bbf",
+      "guid": "tag:github.com,2008:Grit::Commit/10bcd5c60a9fc078726061f80d8ab7de909b3bbf",
+      "author": "omarkawach",
+      "date": "2026-02-27T17:51:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Capella Space Data Featured in <b>Esri</b> Demonstration of New SAR Analytics - TipRanks.com",
+      "description": "... <b>ArcGIS</b> platform, using workflows powered by Capella&#39;s SAR dataset. The post suggests that <b>Esri&#39;s</b> tools are making advanced SAR imagery more&nbsp;...",
+      "link": "https://www.tipranks.com/news/private-companies/capella-space-data-featured-in-esri-demonstration-of-new-sar-analytics",
+      "guid": "tag:google.com,2013:googlealerts/feed:2968746668770168813",
+      "author": "",
+      "date": "2026-02-27T00:30:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Custom Software Engineer - GIS Application Developer - Apna Jobs",
+      "description": "... <b>ArcGIS</b>/ArcFM/FME -Fluent in and passionate about development with ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>/ArcPy/FME Workbench/<b>ArcGIS JavaScript API</b> s -A&nbsp;...",
+      "link": "https://apna.co/job/pune/custom-software-engineer-1443443882",
+      "guid": "tag:google.com,2013:googlealerts/feed:14157795510689998740",
+      "author": "",
+      "date": "2026-02-26T23:43:40.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Press Most Popular Ebooks Available in the <b>Esri</b> Store | MEXC News",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b> ... <b>API</b> Services&nbsp;...",
+      "link": "https://www.mexc.com/news/808390",
+      "guid": "tag:google.com,2013:googlealerts/feed:8506074183171656297",
+      "author": "",
+      "date": "2026-02-26T23:18:49.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS StoryMaps: URL Parameters, Custom Domains, Python Automation, and More | #EsriDevSummit2025",
       "description": "",
@@ -130,6 +178,18 @@
       "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/what-s-new-in-near-me-february-2026-arcgis-online/ba-p/1686946",
       "author": "AzizaParveen1",
       "date": "2026-02-26T16:29:28.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Custom Software Engineer Job in Accenture Solutions Pvt Ltd | AmbitionBox",
+      "description": "... <b>Javascript API</b> s, ArcPy, ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>, FME-Define ... The candidate should have minimum 3 years of experience in <b>ESRI ArcGIS</b>.",
+      "link": "https://www.ambitionbox.com/jobs/custom-software-engineer-in-accenture-solutions-pvt-ltd-naukri_250226932922-jdp",
+      "guid": "tag:google.com,2013:googlealerts/feed:2708649234319784248",
+      "author": "",
+      "date": "2026-02-26T15:30:11.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
