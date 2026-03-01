@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-02-2026)",
+  "title": "ArcGIS ESRI Dev Feed (01-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-02-28T01:51:33.008Z",
+  "lastUpdated": "2026-03-01T02:13:25.495Z",
   "items": [
+    {
+      "title": "Enterprise GIS - Departments - San Jose CA Open Data Portal",
+      "description": "Data is published on Mondays on a... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Abandoned Sanitary Manholes. Abandoned or&nbsp;...",
+      "link": "https://data.sanjoseca.gov/organization/maps-data?groups=geospatial&license_id=cc-by&organization=maps-data&res_format=GeoJSON&res_format=HTML",
+      "guid": "tag:google.com,2013:googlealerts/feed:5361394719238332774",
+      "author": "",
+      "date": "2026-02-28T04:47:26.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "San Jose, California, provides a variety of maps & data including GeoJSON files under a CC-BY license.",
+      "processed": true
+    },
     {
       "title": "\n        chore: update deps and READMEs (#603)\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: update deps and READMEs (#603)</pre>\n    ",
