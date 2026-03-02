@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (01-03-2026)",
+  "title": "Combined ArcGIS Feeds (02-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-01T02:13:19.435Z",
+  "lastUpdated": "2026-03-02T02:04:33.030Z",
   "items": [
+    {
+      "title": "ArcGIS开发：Qt Linux 原创 - CSDN博客",
+      "description": "ArcGIS-Maps-SDK-Qt-Linux64-200-1-0.tar.gz &middot; <b>ArcGIS Maps SDK for</b> Qt 是Esri公司为开发地图应用提供的一款强大的工具，尤其针对Linux&nbsp;...",
+      "link": "https://blog.csdn.net/quantum7/article/details/158502919",
+      "guid": "tag:google.com,2013:googlealerts/feed:9037860904425692451",
+      "author": "",
+      "date": "2026-03-01T02:14:08.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Enterprise GIS - Departments - San Jose CA Open Data Portal",
       "description": "Data is published on Mondays on a... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Abandoned Sanitary Manholes. Abandoned or&nbsp;...",
