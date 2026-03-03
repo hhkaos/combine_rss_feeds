@@ -432,6 +432,7 @@ function getDateString() {
     'https://odoe.net/rss.xml',
     'https://josiahparry.com/index.xml',
     'https://highearthorbit.com/feed/',
+    'https://adventuresinmapping.com/feed/',
     'https://github.com/esri/developer-support/commits/master.atom',
     'https://github.com/Esri/jsapi-resources/commits.atom',
     'https://www.esri.com/arcgis-blog/products/developers/feed',
