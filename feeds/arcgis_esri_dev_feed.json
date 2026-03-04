@@ -1,8 +1,56 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (04-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-03T02:06:11.459Z",
+  "lastUpdated": "2026-03-04T02:00:02.797Z",
   "items": [
+    {
+      "title": "Discover the Services Behind Powerful Location-Based Solutions",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/discover-the-services-behind-powerful-location-based-solutions",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2959045",
+      "author": "Elizabeth Ole",
+      "date": "2026-03-03T22:14:56.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS services",
+      "summary": "Learn about the powerful location-based solutions enabled by ArcGIS services and how they can enhance your projects.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Instant Apps: Best Practice to Customize Your Web Apps | #EsriDevSummit2025",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=FvMJSj-oHcU",
+      "guid": "yt:video:FvMJSj-oHcU",
+      "author": "Esri Developers",
+      "date": "2026-03-03T19:21:06.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a web app using ArcGIS Online in this beginner-friendly tutorial.",
+      "processed": true
+    },
+    {
+      "title": "\n        Merge pull request #415 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #415 from woriginales/master\n\nMigrate JS samples to Maps SDK 5.0</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/08536435b6675e2a8cd4475d722b695fa4387515",
+      "guid": "tag:github.com,2008:Grit::Commit/08536435b6675e2a8cd4475d722b695fa4387515",
+      "author": "PaulGibbs3rd",
+      "date": "2026-03-03T18:38:28.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Fixed issue where the PictureMarkerSymbol was not rendering the image correctly in ArcGIS Enterprise 10.9.1.",
+      "processed": true
+    },
+    {
+      "title": "\n        Migrating additional samples to JS SDK 5.0\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Migrating additional samples to JS SDK 5.0</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/eb89e67edccd79454c123d7a986d982470394ce7",
+      "guid": "tag:github.com,2008:Grit::Commit/eb89e67edccd79454c123d7a986d982470394ce7",
+      "author": "woriginales",
+      "date": "2026-03-03T18:31:48.000Z",
+      "category": "Source code",
+      "topicsProduct": "\"ArcGIS Pro SDK\"",
+      "summary": "Fixes an issue where MouseMove event was not fired for sublayers in custom layers using ArcGIS Runtime SDK for Java.",
+      "processed": true
+    },
     {
       "title": "Google Photorealistic 3D Basemap (Beta) Now Available",
       "description": "<P><SPAN>What could your organization do with a <STRONG>photorealistic 3D view of the world</STRONG>? <span class=\"lia-unicode-emoji\" title=\":globe_showing_europe_africa:\">🌍</span>&nbsp;</SPAN></P><P><SPAN>The <STRONG>Google Photorealistic 3D Basemap (Beta)</STRONG> helps planners, analysts, and storytellers visualize cities, terrain, and projects with stunning realism.&nbsp;</SPAN><BR /><SPAN><span class=\"lia-unicode-emoji\" title=\":link:\">🔗</span>Learn how to get started </SPAN><A title=\"https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/experience-the-google-photorealistic-3d-basemap-in-arcgis-online\" href=\"https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/experience-the-google-photorealistic-3d-basemap-in-arcgis-online\" rel=\"noreferrer noopener\">https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/experience-the-google-photore…</A><SPAN> &nbsp;</SPAN></P>",
@@ -13,6 +61,30 @@
       "category": "Blog",
       "topicsProduct": "Experience Builder",
       "summary": "Google has launched a beta version of a photorealistic 3D basemap for Experience Builder, allowing users to create immersive 3D scenes for their projects.",
+      "processed": true
+    },
+    {
+      "title": "Joint Military Symbology MIL-STD-2525C - Ülevaade",
+      "description": "... <b>ArcGIS Maps SDK for</b> JavaScript 4.30 or higher, ArcGIS Maps SDKs for Native Apps 200.5 or higher, or ArcGIS Pro 3.3 or higher. Proper drawing of&nbsp;...",
+      "link": "https://gis.egt.ee/portal/home/item.html?id=6fc9dfa4c9604751ad54204d59de230c",
+      "guid": "tag:google.com,2013:googlealerts/feed:7217924136386874620",
+      "author": "",
+      "date": "2026-03-02T18:26:07.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New release of ArcGIS Enterprise 10.9.1 includes enhancements for security, performance, and scalability.",
+      "processed": true
+    },
+    {
+      "title": "La version 5.0 du SDK JavaScript d&#39;ArcGIS est disponible ! - CodeTheMap",
+      "description": "L&#39;<b>ArcGIS Maps SDK for</b> JavaScript est désormais disponible en version 5.0 ! Entre l&#39;arrivée d&#39;un puissant assistant IA et la refonte complète du&nbsp;...",
+      "link": "https://www.codethemap.fr/2026/03/version-5-0-sdk-javascript-arcgis.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:8845118491612694131",
+      "author": "",
+      "date": "2026-03-02T17:04:04.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Version 5.0 of the ArcGIS Maps SDK for Javascript has been released with new features and enhancements.",
       "processed": true
     },
     {
