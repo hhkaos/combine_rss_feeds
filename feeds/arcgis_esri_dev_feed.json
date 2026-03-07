@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (06-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (07-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-06T02:03:21.374Z",
+  "lastUpdated": "2026-03-07T01:55:35.162Z",
   "items": [
+    {
+      "title": "ArcGIS Maps SDKs for Game Engines at the 2026 Esri Developer & Technology Summit",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/arcgis-maps-sdks-for-game-engines-at-the-2026-esri-developer-technology-summit",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2959379",
+      "author": "Rex Hansen",
+      "date": "2026-03-06T20:15:22.000Z",
+      "category": "Blog",
+      "topicsProduct": "Game Engines",
+      "summary": "Esri launches ArcGIS Maps SDKs for Unity, Unreal Engine, and Godot at the 2026 Esri Developer Technology Summit, empowering game developers to integrate GIS data.",
+      "processed": true
+    },
+    {
+      "title": "All things Web Development at the Esri Developer and Technology Summit 2026!",
+      "description": "Join us March 10-13 in Palm Springs! Connect with the Esri technical team, explore in-depth sessions, and maximize your experience.",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/all-things-web-development-at-the-esri-developer-and-technology-summit-2026",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2959317",
+      "author": "Sneha Suresh",
+      "date": "2026-03-06T18:05:05.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Discover the latest news in web development at the Esri Developer and Technology Summit 2026, including sessions on TypeScript, React, Angular, and more.",
+      "processed": true
+    },
+    {
+      "title": "9 Cheaper Alternatives To <b>ArcGIS</b> For Businesses - Geek Vibes Nation",
+      "description": "<b>ArcGIS</b> by <b>Esri</b> has been the standard in geographic information system ... Mapbox is free to start building with, and most of its <b>API</b> and <b>SDK</b>&nbsp;...",
+      "link": "https://geekvibesnation.com/9-cheaper-alternatives-to-arcgis-for-businesses/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11208604069730714615",
+      "author": "",
+      "date": "2026-03-06T15:15:27.000Z",
+      "category": "Blog",
+      "topicsProduct": "Other",
+      "summary": "Discover 9 cheaper alternatives to ArcGIS that can be used by businesses looking for cost-effective spatial analysis solutions.",
+      "processed": true
+    },
+    {
+      "title": "Michigan Hand Map Poster",
+      "description": "We in Michigan have been using our hand as the world&#8217;s most convenient cartographic resource since 1837. It gets a little gnarly when you include the Upper Peninsula, but that&#8217;s ok it still gets the job done. I&#8217;m an advocate of hand reference cartography for gesticulating your hometown to anyone remotely familiar with your state &#8230;",
+      "link": "https://adventuresinmapping.com/2026/03/06/michigan-hand-map-poster/",
+      "guid": "https://adventuresinmapping.com/?p=8305",
+      "author": "John",
+      "date": "2026-03-06T13:04:07.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A hand-drawn map poster of Michigan explores the concept of \"mapping by hand\" and the unique perspective it brings to geographic understanding.",
+      "processed": true
+    },
+    {
+      "title": "Spatineo Launches AI-powered GIS Search Tool - FinancialContent",
+      "description": "... <b>ArcGIS</b> Pro. Spatineo, a geospatial technology company, today ... Stock Quote <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes&nbsp;...",
+      "link": "https://markets.financialcontent.com/stocks/article/bizwire-2026-3-6-one-of-the-geospatial-industrys-most-persistent-data-discovery-bottlenecks-tackled-spatineo-launches-ai-powered-gis-search-tool",
+      "guid": "tag:google.com,2013:googlealerts/feed:18334648368436737546",
+      "author": "",
+      "date": "2026-03-06T08:36:22.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Spatineo launches an AI-powered GIS search tool to tackle one of the geospatial industry's most persistent data discovery bottlenecks.",
+      "processed": true
+    },
     {
       "title": "What's New in ArcGIS Experience Builder (February 2026)",
       "description": "<P>Try the&nbsp;Arcade Assistant (Beta), plus two new widgets—Date Filter&nbsp;and&nbsp;Theme Mode Switcher.</P>",
@@ -25,6 +85,18 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Maps SDK for Native Apps",
       "summary": "Esri announces the release of ArcGIS Maps SDKs for native apps at the Developer Technology Summit, providing developers with new tools and functionalities for building location-based applications.",
+      "processed": true
+    },
+    {
+      "title": ".NET Technical Lead (GIS, <b>ArcGIS</b>) - Morph Enterprise LLC - New York, NY, US - Dice",
+      "description": "... <b>JavaScript</b> libraries, and <b>ArcGIS</b> Maps <b>SDK</b> for .NET. Identify, analyze ... Demonstrated proficiency with <b>ESRI</b> product suite, including <b>ArcGIS</b> Pro, <b>ArcGIS</b>&nbsp;...",
+      "link": "https://www.dice.com/job-detail/5778e5dc-5905-42de-9ded-fee9863e1a43",
+      "guid": "tag:google.com,2013:googlealerts/feed:792803318861582177",
+      "author": "",
+      "date": "2026-03-05T21:51:25.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom pop-up for your ArcGIS Online web app using Arcade expressions for a more dynamic user experience.",
       "processed": true
     },
     {
@@ -52,6 +124,18 @@
       "processed": true
     },
     {
+      "title": "New Viewlink Software Update Released – Version 4.2.0_0225 - Financial Content",
+      "description": "Added multiple map provider options: AutoNavi, <b>ArcGIS</b>, Bing, and Google. ... Stock Quote <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes&nbsp;...",
+      "link": "https://markets.financialcontent.com/stocks/article/abnewswire-2026-3-5-new-viewlink-software-update-released-version-420_0225",
+      "guid": "tag:google.com,2013:googlealerts/feed:3853528991901377235",
+      "author": "",
+      "date": "2026-03-05T17:30:24.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New ViewLink Software update released, version 4.20, offers enhanced functionality and improvements.",
+      "processed": true
+    },
+    {
       "title": "Building Accessible Custom Widgets in ArcGIS Experience Builder with Jimu UI, Calcite, and JavaScript Maps SDK Components",
       "description": "Create accessible ArcGIS Experience Builder widgets with Jimu UI, Calcite, and JavaScript Maps SDK components.",
       "link": "https://www.esri.com/arcgis-blog/products/experience-builder/developers/building-accessible-custom-widgets-in-arcgis-experience-builder-with-jimu-ui-calcite-and-map-components",
@@ -64,6 +148,18 @@
       "processed": true
     },
     {
+      "title": "How ArcGIS StreetMap Premium and ArcGIS GeoAnalytics Engine Transform Location Analysis Across Industries",
+      "description": "Let&#039;s learn how industries are improving their workflows and cutting costs with these ArcGIS StreetMap Premium and ArcGIS GeoAnalytics Engine.",
+      "link": "https://www.esri.com/arcgis-blog/products/geoanalytics-engine/analytics/how-arcgis-streetmap-premium-and-arcgis-geoanalytics-engine-transform-location-analysis-across-industries",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2956471",
+      "author": "Priscilla Kim",
+      "date": "2026-03-05T16:00:42.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS GeoAnalytics Engine",
+      "summary": "Learn how the combination of ArcGIS StreetMap Premium and ArcGIS GeoAnalytics Engine is revolutionizing location analysis across various industries.",
+      "processed": true
+    },
+    {
       "title": "Teachers feel &#39;closer&#39; to middle-class children - study - RTE",
       "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... The <b>ESRI</b> said the findings point to the importance of conditions&nbsp;...",
       "link": "https://www.rte.ie/news/education/2026/0305/1561727-esri-education-ireland/",
@@ -73,6 +169,18 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri partners with T4 - Transforming Teaching Through Technology to provide teachers in Ireland with free access to ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Senior C# (.Net) Developer to build <b>ESRI</b> solutions utilizing <b>ArcGIS</b> Pro <b>SDK</b> and Windows ...",
+      "description": "... <b>ESRI</b> toolset. 5 years working experience with <b>ArcGIS</b> Pro <b>SDK</b> and Windows Presentation Foundation (WPF) 3 years&#39;&#39; experience with with <b>ArcGIS</b> pro.",
+      "link": "https://ca.jobrapido.com/jobpreview/972132443341455360",
+      "guid": "tag:google.com,2013:googlealerts/feed:12569035104214218501",
+      "author": "",
+      "date": "2026-03-05T13:44:13.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Announcing new options for customizing feature attribute display in pop-ups with Arcade expressions.",
       "processed": true
     },
     {
