@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (07-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (08-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-07T01:55:35.162Z",
+  "lastUpdated": "2026-03-08T02:04:53.045Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://gis2.co.dakota.mn.us/arcgis/rest/login?redirect=https%3A//gis2.co.dakota.mn.us/arcgis/rest/services/EditingCounty/DC_OL_HWGeneratorsEdit/MapServer/export%3Fbbox%3D451856.20894343447%2C77381.29526869678%2C703636.46784324%2C282266.227062662",
+      "guid": "tag:google.com,2013:googlealerts/feed:15309264887200269730",
+      "author": "",
+      "date": "2026-03-07T19:33:03.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New update enhances collaboration tools and improves user experience for ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - California Open Data",
+      "description": "76 datasets found. Topics: Health and Human Services Licenses: Creative Commons Attribution Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>&nbsp;...",
+      "link": "https://data.ca.gov/dataset/?groups=health-human-services&license_id=cc-by&res_format=ArcGIS+GeoServices+REST+API&res_format=HTML",
+      "guid": "tag:google.com,2013:googlealerts/feed:2543372207292010481",
+      "author": "",
+      "date": "2026-03-07T12:51:51.000Z",
+      "category": "Training seminar",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to optimize your data visualization using smart mapping techniques in ArcGIS Online.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Maps SDKs for Game Engines at the 2026 Esri Developer & Technology Summit",
       "description": "",
@@ -25,6 +49,18 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Discover the latest news in web development at the Esri Developer and Technology Summit 2026, including sessions on TypeScript, React, Angular, and more.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Runtime <b>SDK</b> Samples - You Might Also Like - App Store - Apple",
+      "description": "Browse apps and games similar to <b>ArcGIS</b> Runtime <b>SDK</b> Samples and more on the App Store.",
+      "link": "https://apps.apple.com/us/app/arcgis-runtime-sdk-samples/id1180714771?l=zh-Hans-CN&see-all=customers-also-bought-apps&platform=iphone",
+      "guid": "tag:google.com,2013:googlealerts/feed:11379461112385226304",
+      "author": "",
+      "date": "2026-03-06T16:53:24.000Z",
+      "category": "Source code",
+      "topicsProduct": "Native SDKs",
+      "summary": "Esri released a new update for the ArcGIS Runtime SDK Samples app, providing developers with sample code and templates to jumpstart their app development using Esri's native SDKs.",
       "processed": true
     },
     {
