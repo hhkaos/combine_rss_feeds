@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (08-03-2026)",
+  "title": "Combined ArcGIS Feeds (09-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-08T02:04:43.036Z",
+  "lastUpdated": "2026-03-09T02:05:52.118Z",
   "items": [
+    {
+      "title": "Avolve Recognized as an <b>Esri</b> Gold Partner, Advancing Location Intelligence within Plan Review",
+      "description": "Combining Avolve&#39;s proven plan review solutions (ProjectDox and DigEplan), with <b>Esri&#39;s ArcGIS</b> ... Broadcom $100&nbsp;...",
+      "link": "https://www.jacksonville.com/press-release/story/1001667/avolve-recognized-as-an-esri-gold-partner-advancing-location-intelligence-within-plan-review/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5143480902648330284",
+      "author": "",
+      "date": "2026-03-08T19:30:33.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
       "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
