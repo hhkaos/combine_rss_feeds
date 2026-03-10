@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (10-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-09T02:05:58.591Z",
+  "lastUpdated": "2026-03-10T01:58:21.649Z",
   "items": [
+    {
+      "title": "Eagleview Recognized as an <b>Esri</b> Cornerstone Partner for 20 - GlobeNewswire",
+      "description": "... <b>ArcGIS</b> software. Eagleview has a long history of serving customers ... <b>Javascript</b>. Recommended Reading. March 04, 2026 09:00 ET | Source&nbsp;...",
+      "link": "https://www.globenewswire.com/news-release/2026/03/09/3252079/0/en/Eagleview-Recognized-as-an-Esri-Cornerstone-Partner-for-20-Years-of-Partnership-Serving-GIS-Professionals.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:6429174581345898029",
+      "author": "",
+      "date": "2026-03-09T16:10:18.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "EagleView has been recognized as an Esri Cornerstone Partner for their 20-year partnership serving GIS professionals.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Recognizes Bartlett &amp; West as a Cornerstone Partner | RiverBender.com",
+      "description": "<b>Esri</b> Recognizes Bartlett &amp; West as a Cornerstone Partner ... Try watching this video on www.youtube.com, or enable <b>JavaScript</b> if it is disabled in your&nbsp;...",
+      "link": "https://www.riverbender.com/news/details/esri-recognizes-bartlett--west-as-a-cornerstone-partner-91427.cfm",
+      "guid": "tag:google.com,2013:googlealerts/feed:5993526521828444399",
+      "author": "",
+      "date": "2026-03-09T14:54:34.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Esri recognizes Bartlett & West as a cornerstone partner.",
+      "processed": true
+    },
+    {
+      "title": "Introduction to <b>Javascript</b> - <b>ArcGIS Javascript API</b> - YouTube",
+      "description": "To Learn more.. Join <b>ArcGIS</b> Mastery Course with 25% discount ... Introduction to <b>Javascript</b> - <b>ArcGIS Javascript API</b>. 4 views · 13 minutes&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=HVhPm1UZrPo",
+      "guid": "tag:google.com,2013:googlealerts/feed:11973030776959604549",
+      "author": "",
+      "date": "2026-03-09T07:13:28.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a pop-up in ArcGIS Online to display information about features on a map. Watch this tutorial to improve your mapping skills!",
+      "processed": true
+    },
     {
       "title": "Avolve Recognized as an <b>Esri</b> Gold Partner, Advancing Location Intelligence within Plan Review",
       "description": "Combining Avolve&#39;s proven plan review solutions (ProjectDox and DigEplan), with <b>Esri&#39;s ArcGIS</b> ... Broadcom $100&nbsp;...",
