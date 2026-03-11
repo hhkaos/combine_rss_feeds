@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (11-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-10T01:58:21.649Z",
+  "lastUpdated": "2026-03-11T01:58:04.829Z",
   "items": [
+    {
+      "title": "Ireland &#39;lagging&#39; on home heating retrofit targets - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... Today&#39;s <b>ESRI</b> report shows this target is likely to be missed by a large&nbsp;...",
+      "link": "https://www.rte.ie/news/2026/0310/1562514-climate-targets/",
+      "guid": "tag:google.com,2013:googlealerts/feed:13014713825859715842",
+      "author": "",
+      "date": "2026-03-11T00:01:28.000Z",
+      "category": "Livestream",
+      "topicsProduct": "Other",
+      "summary": "World leaders agree on new climate targets to reduce greenhouse gas emissions and limit global warming to 1.5 degrees Celsius.",
+      "processed": true
+    },
+    {
+      "title": "8 Mapping Software Providers for Advanced Spatial Analysis - The Good Men Project",
+      "description": "<b>Esri ArcGIS</b> has held its position as the reference point for geographic ... <b>ArcGIS</b> Pro also includes ArcPy, a Python <b>API</b>, and <b>ArcGIS</b>&nbsp;...",
+      "link": "https://goodmenproject.com/technology/8-mapping-software-providers-for-advanced-spatial-analysis/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16397374424202637653",
+      "author": "",
+      "date": "2026-03-10T01:53:16.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Discover 8 mapping software providers for advanced spatial analysis, including ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "React Gis Developer Jobs in California (NOW HIRING) Mar 26 - ZipRecruiter",
+      "description": "Experience Builder Developer Edition, React, Git, ESRI <b>ArcGIS Maps SDK for</b> JavaScript (v4.x) and familiarity with Calcite components.",
+      "link": "https://www.ziprecruiter.com/Jobs/React-Gis-Developer/--in-California",
+      "guid": "tag:google.com,2013:googlealerts/feed:13113530445299917672",
+      "author": "",
+      "date": "2026-03-09T22:24:33.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New job opportunity for React GIS Developer in California",
+      "processed": true
+    },
     {
       "title": "Eagleview Recognized as an <b>Esri</b> Cornerstone Partner for 20 - GlobeNewswire",
       "description": "... <b>ArcGIS</b> software. Eagleview has a long history of serving customers ... <b>Javascript</b>. Recommended Reading. March 04, 2026 09:00 ET | Source&nbsp;...",
