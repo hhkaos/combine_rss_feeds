@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (11-03-2026)",
+  "title": "Combined ArcGIS Feeds (12-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-11T01:57:54.207Z",
+  "lastUpdated": "2026-03-12T02:04:31.018Z",
   "items": [
+    {
+      "title": "ArcGIS Maps SDK for Flutter - 200.8.0 compatibility notes for Flutter 3.41.x",
+      "description": "<P>This post highlights key compatibility considerations and dependency requirements for supporting our SDK on<SPAN>&nbsp;</SPAN><STRONG>Flutter 3.41.x</STRONG>.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-sdk-for-flutter-200-8-0-compatibility/ba-p/1689634",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-sdk-for-flutter-200-8-0-compatibility/ba-p/1689634",
+      "author": "JenMerritt",
+      "date": "2026-03-11T13:10:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Ireland &#39;lagging&#39; on home heating retrofit targets - <b>ESRI</b> - RTE",
       "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... Today&#39;s <b>ESRI</b> report shows this target is likely to be missed by a large&nbsp;...",
@@ -10,6 +22,30 @@
       "guid": "tag:google.com,2013:googlealerts/feed:13014713825859715842",
       "author": "",
       "date": "2026-03-11T00:01:28.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Adding Attachments to a Feature in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Adding Attachments to a Feature in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python | Feature Service.",
+      "link": "https://www.youtube.com/watch?v=ojukHqq6k2o",
+      "guid": "tag:google.com,2013:googlealerts/feed:9330409725470792977",
+      "author": "",
+      "date": "2026-03-10T22:33:24.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Delete Attachments from a Feature in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Delete Attachments from a Feature in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python | Feature&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=lwJ09LVbNy4",
+      "guid": "tag:google.com,2013:googlealerts/feed:12273383936396626179",
+      "author": "",
+      "date": "2026-03-10T14:17:04.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
