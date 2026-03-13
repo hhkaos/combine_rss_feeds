@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (12-03-2026)",
+  "title": "Combined ArcGIS Feeds (13-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-12T02:04:31.018Z",
+  "lastUpdated": "2026-03-13T02:02:07.513Z",
   "items": [
+    {
+      "title": "Building and Operating Modern, Well-Architected ArcGIS Systems",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis/analytics/building-and-operating-modern-well-architected-arcgis-systems",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2960175",
+      "author": "Aawaj Joshi",
+      "date": "2026-03-12T07:32:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Create your first <b>Javascript</b> GIS Application - <b>ArcGIS Javascript API</b> - YouTube",
+      "description": "Create your first <b>Javascript</b> GIS Application - <b>ArcGIS Javascript API</b>. No views · 17 minutes ago ...more. <b>ArcGIS</b> Mastery. 13.9K. Subscribe.",
+      "link": "https://www.youtube.com/watch?v=i2jWGKZYUfs",
+      "guid": "tag:google.com,2013:googlealerts/feed:7357672978061315233",
+      "author": "",
+      "date": "2026-03-12T07:17:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer - Career &amp; Professional Development",
+      "description": "Experience with the <b>Esri ArcGIS</b> Maps <b>API</b>/<b>SDK</b> for <b>Javascript</b> Required – 1 Years; Knowledge and experience with the following: ArcPro/ArcObjects&nbsp;...",
+      "link": "https://careers.wgu.edu/jobs/professional-technology-integration-inc-arcgis-developer/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11558805132997573947",
+      "author": "",
+      "date": "2026-03-12T01:07:24.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
+      "description": "Data last updated, March 8, 2026. Metadata last updated, March 8, 2026. Created, December 18, 2023. Format, <b>ArcGIS</b> GeoServices REST <b>API</b>.",
+      "link": "https://data.boston.gov/dataset/boston-landmarks-commission-blc-landmarks/resource/faa6faec-7561-460d-a531-2b477d269620",
+      "guid": "tag:google.com,2013:googlealerts/feed:2413549610375854557",
+      "author": "",
+      "date": "2026-03-12T00:17:03.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS Maps SDK for Flutter - 200.8.0 compatibility notes for Flutter 3.41.x",
       "description": "<P>This post highlights key compatibility considerations and dependency requirements for supporting our SDK on<SPAN>&nbsp;</SPAN><STRONG>Flutter 3.41.x</STRONG>.</P>",
@@ -10,6 +58,18 @@
       "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/arcgis-maps-sdk-for-flutter-200-8-0-compatibility/ba-p/1689634",
       "author": "JenMerritt",
       "date": "2026-03-11T13:10:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Offline maps from app&#39;s resources using <b>ArcGIS</b> Kotlin <b>SDK</b> - Jacek Mleczek - Medium",
+      "description": "Offline maps from app&#39;s resources using <b>ArcGIS</b> Kotlin <b>SDK</b> Some <b>ArcGIS</b> map-based apps don&#39;t need information about the whole globe.",
+      "link": "https://medium.com/@jaccek.m/offline-maps-from-apps-resources-using-arcgis-kotlin-sdk-5ea081623f94",
+      "guid": "tag:google.com,2013:googlealerts/feed:16369494006614627688",
+      "author": "",
+      "date": "2026-03-11T08:48:28.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
