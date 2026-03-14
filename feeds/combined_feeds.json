@@ -1,8 +1,68 @@
 {
-  "title": "Combined ArcGIS Feeds (13-03-2026)",
+  "title": "Combined ArcGIS Feeds (14-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-13T02:02:07.513Z",
+  "lastUpdated": "2026-03-14T01:59:20.316Z",
   "items": [
+    {
+      "title": "Dataset - Analyze Boston",
+      "description": "Updated nightly and shared publicly. Modified on March 13, 2026. 2483 total views. GeoJSON &middot; CSV &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; HTML &middot; KML. BPRD&nbsp;...",
+      "link": "https://data.boston.gov/dataset/?_groups_limit=0&_res_format_limit=0&_tags_limit=0&license_id=odc-pddl&res_format=ArcGIS+GeoServices+REST+API&res_format=CSV&page=1",
+      "guid": "tag:google.com,2013:googlealerts/feed:16887944586993137495",
+      "author": "",
+      "date": "2026-03-13T18:59:09.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Expert Reviews MAPS in MOVIES",
+      "description": "Join Peter Atwood and me as we nerd out on maps in movies (and TV) in an &#8220;experts review&#8221; (I use that term loosely and reluctantly in my case) bonanza. We chat about what cinematic cartography gets right, what they might get wrong, and what we like about it all. 0:00 Intro0:27 Indiana Jones2:36 Lord &#8230;",
+      "link": "https://adventuresinmapping.com/2026/03/13/expert-reviews-maps-in-movies/",
+      "guid": "https://adventuresinmapping.com/?p=8320",
+      "author": "John",
+      "date": "2026-03-13T17:26:01.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Waze, Life360, <b>ArcGIS</b>, FlightRadar24: Which navigation apps stay online to help you find directions?",
+      "description": "These widespread outages usually point to backend infrastructure failures, cloud service issues, or <b>API</b> outages that impact many users simultaneously.",
+      "link": "https://community.designtaxi.com/topic/24918-waze-life360-arcgis-flightradar24-which-navigation-apps-stay-online-to-help-you-find-directions/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1416048671106906538",
+      "author": "",
+      "date": "2026-03-13T14:07:37.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "LC results vary more by school than neighbourhood - <b>ESRI</b> - RTE",
+      "description": "... <b>ESRI</b> study has found ... Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu&nbsp;...",
+      "link": "https://www.rte.ie/news/education/2026/0312/1563099-disadvantage-lc-performance/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1234639339006188610",
+      "author": "",
+      "date": "2026-03-13T03:36:14.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer - Harrisburg Job in Harrisburg | Professional Technology Integration, Inc.",
+      "description": "Become <b>ArcGIS</b> Developer - Harrisburg at Professional Technology Integration, Inc ... You need to enable <b>JavaScript</b> to see this website -&gt; go to your&nbsp;...",
+      "link": "https://devitjobs.com/jobs/Professional-Technology-Integration-Inc-ArcGIS-Developer---Harrisburg",
+      "guid": "tag:google.com,2013:googlealerts/feed:13594044605224886369",
+      "author": "",
+      "date": "2026-03-12T20:26:51.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Building and Operating Modern, Well-Architected ArcGIS Systems",
       "description": "",
