@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (15-03-2026)",
+  "title": "Combined ArcGIS Feeds (16-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-15T02:24:21.349Z",
+  "lastUpdated": "2026-03-16T02:25:36.493Z",
   "items": [
+    {
+      "title": "Home energy upgrades: Perfect the enemy of good - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie ... The <b>ESRI</b> review suggests one of the key reasons why there is so little&nbsp;...",
+      "link": "https://www.rte.ie/news/2026/0315/1563466-energy-retrofitting-analysis/",
+      "guid": "tag:google.com,2013:googlealerts/feed:6479256203909150603",
+      "author": "",
+      "date": "2026-03-15T16:44:26.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "AI + ArcGIS Maps SDK for Javascript -Spinning Up an Emergency Field App in Minutes",
+      "description": "<P class=\"\">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class=\"\">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class=\"\">The answer surprised me.</P><P class=\"\"><STRONG>The Scenario</STRONG></P><P class=\"\">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class=\"\">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class=\"\">Full walkthrough: from ArcGIS Online setup to a working field app.</P><P class=\"\"><div class=\"lia-vid-container video-embed-center\"><div id=\"lia-vid-6390973049112w960h540r121\" class=\"lia-video-brightcove-player-container\"><video-js data-video-id=\"6390973049112\" data-account=\"6161463677001\" data-player=\"default\" data-embed=\"default\" class=\"vjs-fluid\" controls=\"\" data-application-id=\"\" style=\"width: 100%; height: 100%;\"></video-js></div><script src=\"https://players.brightcove.net/6161463677001/default_default/index.min.js\"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r121');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class=\"video-embed-link\" href=\"https://community.esri.com/t5/video/gallerypage/video-id/6390973049112\">(view in My Videos)</a></div></P><P class=\"\"><STRONG>The Tools</STRONG></P><P class=\"\">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class=\"\">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=\"\"><STRONG>The Process</STRONG></P><P class=\"\">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class=\"\">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class=\"\">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=\"\"><STRONG>What I Learned</STRONG></P><P class=\"\">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class=\"\">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class=\"\">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class=\"\">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=\"\"><STRONG>What This Means for GIS Professionals</STRONG></P><P class=\"\">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from \"I need this\" to \"here it is.\" And for emergency response, that speed saves lives.</P><P class=\"\">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class=\"\">Stay safe out there.</P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1690683",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1690683",
+      "author": "MatthewDriscoll",
+      "date": "2026-03-15T15:45:13.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS SDK</b> Consultant(ios) Contract Job",
+      "description": "Apply to this <b>ArcGIS SDK</b> Consultant(ios) job on Quality Contracts. The only jobsite built by contractors, for contractors.",
+      "link": "https://qualitycontracts.co.uk/contract-jobs/remote-arcgis-sdk-consultant-ios-in-remote-1773371457",
+      "guid": "tag:google.com,2013:googlealerts/feed:586277321825066472",
+      "author": "",
+      "date": "2026-03-14T16:38:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Analyze Boston",
+      "description": "City of Boston boundary that excludes water. Modified on March 8, 2026. 2197 total views. GeoJSON &middot; CSV &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; HTML &middot; KML&nbsp;...",
+      "link": "https://data.boston.gov/dataset/?organization=boston-maps&res_format=KML&res_format=SHP&sort=views_recent+desc&page=2",
+      "guid": "tag:google.com,2013:googlealerts/feed:6712324406200500207",
+      "author": "",
+      "date": "2026-03-14T07:31:04.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Dataset - Analyze Boston",
       "description": "Updated nightly and shared publicly. Modified on March 13, 2026. 2483 total views. GeoJSON &middot; CSV &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; HTML &middot; KML. BPRD&nbsp;...",
