@@ -417,6 +417,7 @@ function getDateString() {
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw',
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=esri-leaflet-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog',
