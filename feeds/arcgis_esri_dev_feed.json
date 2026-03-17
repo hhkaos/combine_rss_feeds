@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (17-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-16T02:25:49.716Z",
+  "lastUpdated": "2026-03-17T02:05:00.981Z",
   "items": [
+    {
+      "title": "\n        chore: update gitignore and hono dep (#608)\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>chore: update gitignore and hono dep (#608)</pre>\n    ",
+      "link": "https://github.com/Esri/jsapi-resources/commit/47dbd4d551581ad3bf5d122d04c02fa8f1f3437d",
+      "guid": "tag:github.com,2008:Grit::Commit/47dbd4d551581ad3bf5d122d04c02fa8f1f3437d",
+      "author": "omarkawach",
+      "date": "2026-03-16T22:24:12.000Z",
+      "category": "Source code",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "New content and updates for the ArcGIS Online Assistant tool",
+      "processed": true
+    },
+    {
+      "title": "Cartography Workshop: 5 May 2026, Oslo Norway",
+      "description": "I&#8217;ll be visiting Oslo Norway this May for a one-day cartographic workshop! Hope to see you there my Nordic map friends! Learn more about the workshop, here: https://www.geodata.no/kurs/kurs/gleden-ved-a-lage-kart Love, John",
+      "link": "https://adventuresinmapping.com/2026/03/16/cartography-workshop-5-may-2026-oslo-norway/",
+      "guid": "https://adventuresinmapping.com/?p=8329",
+      "author": "John",
+      "date": "2026-03-16T13:25:47.000Z",
+      "category": "In-person event",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "A cartography workshop will take place in Oslo, Norway on May 5th, 2026. Join to learn about the latest trends and techniques in mapping.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> - AI Assistant Components - YouTube",
+      "description": "In this video I show case the latest AI components in the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>. Note that this video was cut when the product was still&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=QbgM4raxqqM",
+      "guid": "tag:google.com,2013:googlealerts/feed:12163292844665001746",
+      "author": "",
+      "date": "2026-03-16T12:32:18.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to customize the printing service in ArcGIS Enterprise to meet your organization's specific needs.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> JS <b>API</b> Reference - YouTube",
+      "description": "<b>ArcGIS</b> JS <b>API</b> Reference - <b>ArcGIS Javascript API</b>. 1 view · 3 hours ago ...more. <b>ArcGIS</b> Mastery. 14K. Subscribe. 0. Share. Save.",
+      "link": "https://www.youtube.com/watch?v=lW4b74Hyorg&vl=ru",
+      "guid": "tag:google.com,2013:googlealerts/feed:7624870762935733224",
+      "author": "",
+      "date": "2026-03-16T10:13:40.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create stunning 3D scenes in ArcGIS Online with this helpful tutorial.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Rest <b>API</b> - Subcounty Boundaries (2014) - openAFRICA",
+      "description": "<b>Esri</b> Rest <b>API</b>. URL: https://services2.<b>arcgis</b>.com/D6cgxWzepFC1quJH/<b>arcgis</b>/rest/services/Subcounty_Boundaries_2014/FeatureServer/0. Dataset&nbsp;...",
+      "link": "https://open.africa/ne/dataset/subcounty-boundaries-2014/resource/ca897124-0907-46d9-ab84-075a1e1b5117",
+      "guid": "tag:google.com,2013:googlealerts/feed:11482623849594225799",
+      "author": "",
+      "date": "2026-03-16T04:51:46.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom symbol style using 3D models in ArcGIS Online.",
+      "processed": true
+    },
     {
       "title": "Home energy upgrades: Perfect the enemy of good - RTE",
       "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie ... The <b>ESRI</b> review suggests one of the key reasons why there is so little&nbsp;...",
