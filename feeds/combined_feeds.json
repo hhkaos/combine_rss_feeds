@@ -1,7 +1,7 @@
 {
-  "title": "Combined ArcGIS Feeds (17-03-2026)",
+  "title": "Combined ArcGIS Feeds (18-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-17T02:04:47.329Z",
+  "lastUpdated": "2026-03-18T02:08:28.748Z",
   "items": [
     {
       "title": "\n        chore: update gitignore and hono dep (#608)\n    ",
@@ -10,6 +10,30 @@
       "guid": "tag:github.com,2008:Grit::Commit/47dbd4d551581ad3bf5d122d04c02fa8f1f3437d",
       "author": "omarkawach",
       "date": "2026-03-16T22:24:12.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> JS <b>API</b> Reference - YouTube",
+      "description": "<b>ArcGIS</b> JS <b>API</b> Reference - <b>ArcGIS Javascript API</b>. 19 views · 15 hours ago ...more. <b>ArcGIS</b> Mastery. 14K. Subscribe. 0. Share. Save.",
+      "link": "https://m.youtube.com/watch?v=lW4b74Hyorg",
+      "guid": "tag:google.com,2013:googlealerts/feed:8666741563413640190",
+      "author": "",
+      "date": "2026-03-16T22:23:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "AI Assistant Components - ArcGIS Maps SDK for JavaScript",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=5vctPAANRfA",
+      "guid": "yt:video:5vctPAANRfA",
+      "author": "GeoAI Smith",
+      "date": "2026-03-16T22:01:11.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",

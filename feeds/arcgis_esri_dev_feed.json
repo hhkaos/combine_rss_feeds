@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (17-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (18-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-17T02:05:00.981Z",
+  "lastUpdated": "2026-03-18T02:08:36.097Z",
   "items": [
     {
       "title": "\n        chore: update gitignore and hono dep (#608)\n    ",
@@ -13,6 +13,32 @@
       "category": "Source code",
       "topicsProduct": "ArcGIS Online",
       "summary": "New content and updates for the ArcGIS Online Assistant tool",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> JS <b>API</b> Reference - YouTube",
+      "description": "<b>ArcGIS</b> JS <b>API</b> Reference - <b>ArcGIS Javascript API</b>. 19 views · 15 hours ago ...more. <b>ArcGIS</b> Mastery. 14K. Subscribe. 0. Share. Save.",
+      "link": "https://m.youtube.com/watch?v=lW4b74Hyorg",
+      "guid": "tag:google.com,2013:googlealerts/feed:8666741563413640190",
+      "author": "",
+      "date": "2026-03-16T22:23:46.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "AI Assistant Components - ArcGIS Maps SDK for JavaScript",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=5vctPAANRfA",
+      "guid": "yt:video:5vctPAANRfA",
+      "author": "GeoAI Smith",
+      "date": "2026-03-16T22:01:11.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Dashboards",
+      "summary": "Learn how to create visually stunning and interactive dashboards with ArcGIS Dashboards in this tutorial video.",
       "processed": true
     },
     {
