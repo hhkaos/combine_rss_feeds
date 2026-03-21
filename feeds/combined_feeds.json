@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (20-03-2026)",
+  "title": "Combined ArcGIS Feeds (21-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-20T02:03:34.692Z",
+  "lastUpdated": "2026-03-21T01:57:45.607Z",
   "items": [
+    {
+      "title": "Adding Map and Layers - <b>ArcGIS Javascript API</b> - YouTube",
+      "description": "Adding Map and Layers - <b>ArcGIS Javascript API</b>. 9 views · 1 day ago ...more. <b>ArcGIS</b> Mastery. 14K. Subscribe. 1. Share. Save.",
+      "link": "https://m.youtube.com/watch?v=dIBQk8cA7Bw",
+      "guid": "tag:google.com,2013:googlealerts/feed:7168548327573943336",
+      "author": "",
+      "date": "2026-03-20T07:17:53.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
+      "description": "White – Individuals who are of... HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; 5 more in dataset.",
+      "link": "https://catalog.data.gov/dataset/?metadata_type=geospatial&publisher=Lake+County+Illinois+GIS&page=2",
+      "guid": "tag:google.com,2013:googlealerts/feed:11798313406878906981",
+      "author": "",
+      "date": "2026-03-20T06:32:21.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Fully Remote - GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required)",
+      "description": "Apply for Fully Remote - GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required) job with TEKsystems in Calgary, Alberta, Canada ... <b>ESRI</b>&nbsp;...",
+      "link": "https://careers.teksystems.com/us/en/job/JP-005903602/Fully-Remote-GIS-Developer-ArcGIS-Pro-SDK-For-NET-Skills-Required",
+      "guid": "tag:google.com,2013:googlealerts/feed:17186954991610246669",
+      "author": "",
+      "date": "2026-03-19T22:40:26.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS API for Python Associate Version Comparison",
       "description": "<P>Is the ArcGIS API for Python Associate Certification exam part of your certification journey? If so, this article presents the details related to the ArcGIS API for Python Associate Certification exam, its unique versions, and exam development opportunities.</P>",
