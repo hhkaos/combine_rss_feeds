@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (21-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (22-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-21T01:57:54.541Z",
+  "lastUpdated": "2026-03-22T02:10:29.177Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. username | password required. User Name:.",
+      "link": "https://gis.arboretum.harvard.edu/arcgis/rest/login?redirect=https%3A//gis.arboretum.harvard.edu/arcgis/rest/services/Maps/Dashboard/MapServer/legend%3FdynamicLayers%3D%255B%255D%26",
+      "guid": "tag:google.com,2013:googlealerts/feed:9385154674516282007",
+      "author": "",
+      "date": "2026-03-21T00:49:11.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New security enhancements have been implemented in the latest version of ArcGIS Enterprise to provide better protection against cyber threats.",
+      "processed": true
+    },
+    {
+      "title": "<b>Esri</b> Releases New Edition of Best-Selling GIS Map Design Guide - BigDATAwire - HPCwire",
+      "description": "Interested retailers can contact <b>Esri</b> Press book distributor Ingram Publisher Services. About <b>Esri</b> ... <b>JavaScript</b>! Go to... Could you brief your team on&nbsp;...",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/esri-releases-new-edition-of-best-selling-gis-map-design-guide/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16141039558375943760",
+      "author": "",
+      "date": "2026-03-20T23:23:21.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Esri releases a new edition of best-selling GIS map design guide.",
+      "processed": true
+    },
+    {
+      "title": "GIS Data - Organizations - Open Data SA - City of San Antonio",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; SAFD Battalion AOR. The administrative boundaries are the product&nbsp;...",
+      "link": "https://data.sanantonio.gov/organization/gis-data?groups=geospatial&page=4",
+      "guid": "tag:google.com,2013:googlealerts/feed:13127650845627015114",
+      "author": "",
+      "date": "2026-03-20T22:45:22.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Check out the latest GIS data available in San Antonio through the GIS Data Portal.",
+      "processed": true
+    },
     {
       "title": "Adding Map and Layers - <b>ArcGIS Javascript API</b> - YouTube",
       "description": "Adding Map and Layers - <b>ArcGIS Javascript API</b>. 9 views · 1 day ago ...more. <b>ArcGIS</b> Mastery. 14K. Subscribe. 1. Share. Save.",
