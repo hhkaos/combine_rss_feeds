@@ -1,8 +1,68 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (23-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (24-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-23T02:11:13.151Z",
+  "lastUpdated": "2026-03-24T02:03:34.261Z",
   "items": [
+    {
+      "title": "Federal Technical Webinar Series",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/federal-technical-webinar-series",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2961187",
+      "author": "Amy Niessen",
+      "date": "2026-03-23T21:54:04.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn about the upcoming Federal Technical Webinar Series focusing on ArcGIS Enterprise and other Esri technology developments.",
+      "processed": true
+    },
+    {
+      "title": "Adding And Drawing Graphics - <b>ArcGIS Javascript API</b> - YouTube",
+      "description": "Adding And Drawing Graphics - <b>ArcGIS Javascript API</b>. 2 views · 45 minutes ago ...more. <b>ArcGIS</b> Mastery. 14K. Subscribe. 0. Share. Save.",
+      "link": "https://www.youtube.com/watch?v=O6fghHY5uEM&vl=de",
+      "guid": "tag:google.com,2013:googlealerts/feed:7837510750790219026",
+      "author": "",
+      "date": "2026-03-23T07:46:17.000Z",
+      "category": "Video",
+      "topicsProduct": "\"ArcGIS Online\"",
+      "summary": "Learn how to create and share a map on ArcGIS Online with this tutorial for beginners.",
+      "processed": true
+    },
+    {
+      "title": "lumina-<b>arcgis</b>-maps-<b>sdk</b>-for-<b>javascript</b>-demo CDN by jsDelivr - A CDN for npm and GitHub",
+      "description": "Public <b>API</b> &middot; Globalping &middot; GitHub &middot; Twitter &middot; Discord. Package lumina-<b>arcgis</b>-maps-<b>sdk</b>-for-<b>javascript</b>-demo failed to load. There might be a problem with&nbsp;...",
+      "link": "https://www.jsdelivr.com/package/npm/lumina-arcgis-maps-sdk-for-javascript-demo",
+      "guid": "tag:google.com,2013:googlealerts/feed:14308272835418216570",
+      "author": "",
+      "date": "2026-03-22T20:42:17.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Lumina launched a demo for ArcGIS Maps SDK for JavaScript, providing a preview of its capabilities and features.",
+      "processed": true
+    },
+    {
+      "title": "<b>arcgis</b>-js-<b>api</b>-calcite-lit-example CDN by jsDelivr - A CDN for npm and GitHub",
+      "description": "A free, fast, and reliable CDN for <b>arcgis</b>-js-<b>api</b>-calcite-lit-example. An example web component that includes the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>&nbsp;...",
+      "link": "https://www.jsdelivr.com/package/npm/arcgis-js-api-calcite-lit-example",
+      "guid": "tag:google.com,2013:googlealerts/feed:1503462205303505082",
+      "author": "",
+      "date": "2026-03-22T19:56:47.000Z",
+      "category": "Source code",
+      "topicsProduct": "Calcite Design System",
+      "summary": "Learn how to integrate Calcite design system with ArcGIS JavaScript API in this example.",
+      "processed": true
+    },
+    {
+      "title": "GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required) | Calgary | JobLeads.com",
+      "description": "10+ years of experience with the <b>ESRI</b> toolset. 7+ years developing applications using <b>ArcGIS</b> Pro <b>SDK</b>. Experience with both .NET and Python (ArcPy)&nbsp;...",
+      "link": "https://www.jobleads.com/ca/job/fully-remote-gis-developer-arcgis-pro-sdk-for-net-skills-required--calgary--e93b5185d36ee0daddc946dcdccf61423",
+      "guid": "tag:google.com,2013:googlealerts/feed:12585428016627284082",
+      "author": "",
+      "date": "2026-03-22T19:31:32.000Z",
+      "category": "Job Offer",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Fully remote GIS developer with ArcGIS Pro SDK for .NET skills required in Calgary.",
+      "processed": true
+    },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
       "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. username | password required. User Name:.",
