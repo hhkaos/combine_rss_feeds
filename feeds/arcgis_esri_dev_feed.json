@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (24-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (25-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-24T02:03:34.261Z",
+  "lastUpdated": "2026-03-25T02:08:52.178Z",
   "items": [
+    {
+      "title": "Building Apps with Open Source APIs  | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=F6zkfIr1QRU",
+      "guid": "yt:video:F6zkfIr1QRU",
+      "author": "Esri Developers",
+      "date": "2026-03-24T20:07:34.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a web mapping application using ArcGIS Online and deploy it to your organization in this tutorial video.",
+      "processed": true
+    },
+    {
+      "title": "Lidar Updates to World Elevation Layers | ArcGIS Living Atlas – March 2026",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/announcements/lidar-updates-to-world-elevation-layers-arcgis-living-atlas-march-2026",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2960865",
+      "author": "Rajinder Nagi",
+      "date": "2026-03-24T17:16:14.000Z",
+      "category": "Blog",
+      "topicsProduct": "Living Atlas",
+      "summary": "New updates to the World Elevation Layers in ArcGIS Living Atlas improve the accuracy and detail of Lidar data for March 2026.",
+      "processed": true
+    },
+    {
+      "title": "Product Engineer II - ArcGIS Maps SDKs for Kotlin @ Esri | AnitaB.org Job Board",
+      "description": "In this role you will build developer resources for <b>ArcGIS Maps SDK for</b> Kotlin, documenting best patterns and practices. You will also get the&nbsp;...",
+      "link": "https://jobs.anitab.org/companies/esri/jobs/71759396-product-engineer-ii-arcgis-maps-sdks-for-kotlin",
+      "guid": "tag:google.com,2013:googlealerts/feed:9183843240667001824",
+      "author": "",
+      "date": "2026-03-24T01:49:13.000Z",
+      "category": "Job Posting",
+      "topicsProduct": "ArcGIS Maps SDK for Kotlin",
+      "summary": "Esri is looking for a Product Engineer II for the ArcGIS Maps SDK for Kotlin. Join the team to work on cutting-edge mapping technology!",
+      "processed": true
+    },
     {
       "title": "Federal Technical Webinar Series",
       "description": "",
