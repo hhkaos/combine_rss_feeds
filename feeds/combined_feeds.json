@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (28-03-2026)",
+  "title": "Combined ArcGIS Feeds (29-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-28T02:06:46.536Z",
+  "lastUpdated": "2026-03-29T02:26:13.281Z",
   "items": [
+    {
+      "title": "Get Ready! VertiGIS Studio Mobile 5.41 Release Candidate is Here!",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript 200.8.1: This update includes critical stability improvements and memory leak fixes from Esri. Next-Gen iOS&nbsp;...",
+      "link": "https://support.vertigis.com/hc/en-us/community/posts/34376566113170-Get-Ready-VertiGIS-Studio-Mobile-5-41-Release-Candidate-is-Here",
+      "guid": "tag:google.com,2013:googlealerts/feed:11130603589187844377",
+      "author": "",
+      "date": "2026-03-28T05:13:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Minimally supervised learning on sub-meter satellite imagery reveals slum expansion during ...",
       "description": "... <b>JavaScript</b>. ... We obtained a total of 2,754,870 images from the World Imagery Wayback through the <b>ESRI ArcGIS</b> REST <b>API</b>, accessible through an <b>ArcGIS</b>&nbsp;...",
@@ -10,6 +22,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:9351137322720749162",
       "author": "",
       "date": "2026-03-27T14:51:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Enterprise - Departments - City of Phoenix Open Data",
+      "description": "6 datasets found. Tags: property Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> ZIP Licenses: Creative Commons Attribution&nbsp;...",
+      "link": "https://www.phoenixopendata.com/organization/enterprise?tags=property&res_format=ArcGIS+GeoServices+REST+API&res_format=ZIP&license_id=cc-by&organization=enterprise&groups=mapping",
+      "guid": "tag:google.com,2013:googlealerts/feed:13074268419679193521",
+      "author": "",
+      "date": "2026-03-27T14:03:39.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
