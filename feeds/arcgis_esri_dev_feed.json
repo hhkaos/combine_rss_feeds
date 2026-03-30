@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (30-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-29T02:26:20.776Z",
+  "lastUpdated": "2026-03-30T02:29:08.381Z",
   "items": [
+    {
+      "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. County. City of Waukegan. Lake County, Illinois —. City of Waukegan. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>. County. Newport&nbsp;...",
+      "link": "https://catalog.data.gov/dataset/?metadata_type=geospatial&publisher=Lake+County+Illinois+GIS&tags=individual-district-map",
+      "guid": "tag:google.com,2013:googlealerts/feed:5764769958848761494",
+      "author": "",
+      "date": "2026-03-29T03:00:08.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Discover how to create individual district maps using Lake County Illinois GIS data on ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS QuickCapture | Windows 应用- Crx搜搜",
+      "description": "更多来自该开发者(9) ; ArcGIS Earth ; <b>ArcGIS Maps SDK for</b> .NET Samples (WPF).",
+      "link": "https://www.crxsoso.com/store/detail/9nqr9g41bzr8",
+      "guid": "tag:google.com,2013:googlealerts/feed:8190866273892451362",
+      "author": "",
+      "date": "2026-03-28T22:16:43.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New release of ArcGIS Enterprise 10.9 now available for download with improved performance and security enhancements.",
+      "processed": true
+    },
     {
       "title": "Get Ready! VertiGIS Studio Mobile 5.41 Release Candidate is Here!",
       "description": "<b>ArcGIS Maps SDK for</b> JavaScript 200.8.1: This update includes critical stability improvements and memory leak fixes from Esri. Next-Gen iOS&nbsp;...",
