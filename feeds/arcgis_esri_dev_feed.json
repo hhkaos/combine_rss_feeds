@@ -1,8 +1,80 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (30-03-2026)",
+  "title": "ArcGIS ESRI Dev Feed (31-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-30T02:29:08.381Z",
+  "lastUpdated": "2026-03-31T02:24:00.474Z",
   "items": [
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "All current traffic restrictions at intersections shown as points. Updated hourly. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?res_format=ZIP&page=1",
+      "guid": "tag:google.com,2013:googlealerts/feed:5866437933105976506",
+      "author": "",
+      "date": "2026-03-30T20:44:36.000Z",
+      "category": "Documentation",
+      "topicsProduct": "\"ArcGIS Enterprise\"",
+      "summary": "New update for ArcGIS Enterprise released, including enhancements to security and scalability features.",
+      "processed": true
+    },
+    {
+      "title": "C# / .NET / <b>ArcGIS</b> Pro <b>SDK</b> - Freelance Job in Desktop Application Development - Upwork",
+      "description": "We are building a production-grade <b>ArcGIS</b> Pro add-in that integrates a proprietary REST <b>API</b> into the <b>ArcGIS</b> Pro desktop environment ... <b>ArcGIS</b> Pro <b>SDK</b>&nbsp;...",
+      "link": "https://www.upwork.com/freelance-jobs/apply/ArcGIS-Pro-Add-Developer-NET-ArcGIS-Pro-SDK_~022038580312746654035/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5057836319636692087",
+      "author": "",
+      "date": "2026-03-30T16:42:35.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Freelance job opportunity for an ArcGIS Pro Add-in Developer with .NET and ArcGIS Pro SDK experience.",
+      "processed": true
+    },
+    {
+      "title": "Build Mapping Apps & Geoenable Systems",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=s6A2KiOK0Ww",
+      "guid": "yt:video:s6A2KiOK0Ww",
+      "author": "Esri Developers",
+      "date": "2026-03-30T15:22:17.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and share a custom web app using ArcGIS Online in this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Agentic GIS Meets MCP: Building an ArcGIS AI App.",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=fz4QGr099ws",
+      "guid": "yt:video:fz4QGr099ws",
+      "author": "GeoAI Smith",
+      "date": "2026-03-30T11:13:15.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Watch this tutorial to learn how to use Web AppBuilder for ArcGIS Online to create interactive maps with your own data.",
+      "processed": true
+    },
+    {
+      "title": "Editing FeatureLayer - <b>ArcGIS Javascript API</b> - YouTube",
+      "description": "Editing FeatureLayer - <b>ArcGIS Javascript API</b>. 5 views · 2 hours ago",
+      "link": "https://www.youtube.com/watch?v=o5otZF0ZfUE",
+      "guid": "tag:google.com,2013:googlealerts/feed:2975211993707057382",
+      "author": "",
+      "date": "2026-03-30T09:05:28.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to use the analysis tools available in ArcGIS Online to create a buffer around point features in this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://cadastre.mines.gov.gn/arcgis/rest/login?redirect=https%3A//cadastre.mines.gov.gn/arcgis/rest/services/Commodities/MapServer/export",
+      "guid": "tag:google.com,2013:googlealerts/feed:4951643353032755825",
+      "author": "",
+      "date": "2026-03-30T05:35:44.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to improve data visualization in ArcGIS Online with the latest updates and enhancements.",
+      "processed": true
+    },
     {
       "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. County. City of Waukegan. Lake County, Illinois —. City of Waukegan. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>. County. Newport&nbsp;...",

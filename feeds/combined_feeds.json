@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (30-03-2026)",
+  "title": "Combined ArcGIS Feeds (31-03-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-03-30T02:28:57.371Z",
+  "lastUpdated": "2026-03-31T02:23:47.508Z",
   "items": [
+    {
+      "title": "Dataset - City of Phoenix Open Data",
+      "description": "All current traffic restrictions at intersections shown as points. Updated hourly. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML&nbsp;...",
+      "link": "https://www.phoenixopendata.com/dataset/?res_format=ZIP&page=1",
+      "guid": "tag:google.com,2013:googlealerts/feed:5866437933105976506",
+      "author": "",
+      "date": "2026-03-30T20:44:36.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "C# / .NET / <b>ArcGIS</b> Pro <b>SDK</b> - Freelance Job in Desktop Application Development - Upwork",
+      "description": "We are building a production-grade <b>ArcGIS</b> Pro add-in that integrates a proprietary REST <b>API</b> into the <b>ArcGIS</b> Pro desktop environment ... <b>ArcGIS</b> Pro <b>SDK</b>&nbsp;...",
+      "link": "https://www.upwork.com/freelance-jobs/apply/ArcGIS-Pro-Add-Developer-NET-ArcGIS-Pro-SDK_~022038580312746654035/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5057836319636692087",
+      "author": "",
+      "date": "2026-03-30T16:42:35.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Build Mapping Apps & Geoenable Systems",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=s6A2KiOK0Ww",
+      "guid": "yt:video:s6A2KiOK0Ww",
+      "author": "Esri Developers",
+      "date": "2026-03-30T15:22:17.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Agentic GIS Meets MCP: Building an ArcGIS AI App.",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=fz4QGr099ws",
+      "guid": "yt:video:fz4QGr099ws",
+      "author": "GeoAI Smith",
+      "date": "2026-03-30T11:13:15.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Editing FeatureLayer - <b>ArcGIS Javascript API</b> - YouTube",
+      "description": "Editing FeatureLayer - <b>ArcGIS Javascript API</b>. 5 views · 2 hours ago",
+      "link": "https://www.youtube.com/watch?v=o5otZF0ZfUE",
+      "guid": "tag:google.com,2013:googlealerts/feed:2975211993707057382",
+      "author": "",
+      "date": "2026-03-30T09:05:28.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; Help | <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. User Name: Password:",
+      "link": "https://cadastre.mines.gov.gn/arcgis/rest/login?redirect=https%3A//cadastre.mines.gov.gn/arcgis/rest/services/Commodities/MapServer/export",
+      "guid": "tag:google.com,2013:googlealerts/feed:4951643353032755825",
+      "author": "",
+      "date": "2026-03-30T05:35:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b>. County. City of Waukegan. Lake County, Illinois —. City of Waukegan. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b>. County. Newport&nbsp;...",
