@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (04-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (05-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-04T02:07:21.505Z",
+  "lastUpdated": "2026-04-05T02:28:30.263Z",
   "items": [
+    {
+      "title": "Case studies - MAGIS",
+      "description": "Keywords : <b>ArcGIS</b> · Python · VB.net · <b>Esri JavaScript API</b>. View project ... Keywords : <b>ArcGIS</b> Pro 2.9 · <b>ArcGIS SDK</b> · C# · PostgreSQL 12&nbsp;...",
+      "link": "https://www.magis.nc/en/case-studies/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3000411528080943722",
+      "author": "",
+      "date": "2026-04-04T06:44:26.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how MAGIS helps organizations optimize their field operations and improve decision-making with ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "To Install the ArcGIS Projection Engine Data",
+      "description": "Close Civil 3D. Go to https://developers.arcgis.com/downloads. In the ArcGIS Maps SDKs section, click <b>ArcGIS Maps SDK for</b> Qt. In&nbsp;...",
+      "link": "https://help.autodesk.com/cloudhelp/2027/ENU/Civil3D-UserGuide/files/GUID-5EC3D753-1072-4283-AAAC-438467B55488.htm",
+      "guid": "tag:google.com,2013:googlealerts/feed:12867839812311931408",
+      "author": "",
+      "date": "2026-04-03T19:39:04.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New update for ArcGIS Enterprise includes improved performance and security features.",
+      "processed": true
+    },
     {
       "title": "<b>ArcGIS API</b> for Python Components used throughout the Automate <b>ArcGIS</b> Online WebMap ...",
       "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Downloading Attachments from a Feature Service in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python.",
@@ -28,6 +52,18 @@
       "processed": true,
       "ignored": true,
       "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+    },
+    {
+      "title": "Fully Remote - GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required) | Novaedge",
+      "description": "Fully Remote - GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required) ... <b>ESRI</b> toolset to support the development enhancement and maintenance of&nbsp;...",
+      "link": "https://novaedge.page.gd/job/fully-remote-gis-developer-arcgis-pro-sdk-for-net-skills-required",
+      "guid": "tag:google.com,2013:googlealerts/feed:16962424302014452741",
+      "author": "",
+      "date": "2026-04-03T13:08:45.000Z",
+      "category": "Job",
+      "topicsProduct": "ArcGIS Maps SDK for .NET",
+      "summary": "Fully remote GIS developer with ArcGIS Pro SDK for .NET skills required for a job opportunity.",
+      "processed": true
     },
     {
       "title": "Automate <b>ArcGIS</b> Online WebMap Workflows with the <b>ArcGIS API</b> for Python | Course Setup",
