@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (05-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (06-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-05T02:28:30.263Z",
+  "lastUpdated": "2026-04-06T02:29:29.355Z",
   "items": [
+    {
+      "title": "Senior C# (.Net Developer to utilize <b>ESRI</b> toolset,<b>ArcGIS</b> Pro <b>SDK</b> and FME to develop geospatial",
+      "description": "Fast &amp; Free job site: Senior C# (.Net Developer to utilize <b>ESRI</b> toolset, <b>ArcGIS</b> Pro <b>SDK</b> and FME to develop geospatial ; Req job, Calgary area&nbsp;...",
+      "link": "https://www.learn4good.com/jobs/calgary/canada/info_technology/4993177452/e/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5507334736675089600",
+      "author": "",
+      "date": "2026-04-05T06:42:33.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "New release of ArcGIS Enterprise 10.9.1 includes updates to improve performance and security.",
+      "processed": true
+    },
     {
       "title": "Case studies - MAGIS",
       "description": "Keywords : <b>ArcGIS</b> · Python · VB.net · <b>Esri JavaScript API</b>. View project ... Keywords : <b>ArcGIS</b> Pro 2.9 · <b>ArcGIS SDK</b> · C# · PostgreSQL 12&nbsp;...",
