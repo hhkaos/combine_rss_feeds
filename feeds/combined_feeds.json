@@ -1,8 +1,32 @@
 {
-  "title": "Combined ArcGIS Feeds (06-04-2026)",
+  "title": "Combined ArcGIS Feeds (07-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-06T02:29:22.833Z",
+  "lastUpdated": "2026-04-07T02:24:49.986Z",
   "items": [
+    {
+      "title": "List Basemap Layers with the BasemapManager layers property | <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... List Basemap Layers with the BasemapManager layers property | <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online.",
+      "link": "https://www.youtube.com/watch?v=8HXuX8_PqLQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:14704453085270387121",
+      "author": "",
+      "date": "2026-04-06T18:59:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS Javascript API</b> 3.x vs 4.x - YouTube",
+      "description": "<b>ArcGIS Javascript API</b> 3.x vs 4.x - <b>ArcGIS Javascript API</b>. 4 views · 19 minutes ago ...more. <b>ArcGIS</b> Mastery. 14.1K. Subscribe. 1. Share. Save.",
+      "link": "https://www.youtube.com/watch?v=xyugM1ZZ-kk",
+      "guid": "tag:google.com,2013:googlealerts/feed:8794416835112366106",
+      "author": "",
+      "date": "2026-04-06T07:20:32.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Senior C# (.Net Developer to utilize <b>ESRI</b> toolset,<b>ArcGIS</b> Pro <b>SDK</b> and FME to develop geospatial",
       "description": "Fast &amp; Free job site: Senior C# (.Net Developer to utilize <b>ESRI</b> toolset, <b>ArcGIS</b> Pro <b>SDK</b> and FME to develop geospatial ; Req job, Calgary area&nbsp;...",
