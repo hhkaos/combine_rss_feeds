@@ -1,8 +1,92 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (08-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (09-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-08T02:25:55.309Z",
+  "lastUpdated": "2026-04-09T02:12:21.778Z",
   "items": [
+    {
+      "title": "Retirement of custom widgets in ArcGIS Experience Builder built with Maps SDK for JavaScript",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/apps/announcements/retirement-of-custom-widgets-in-arcgis-experience-builder-built-with-maps-sdk-for-javascript",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2962295",
+      "author": "Sarah Jane O’Keefe",
+      "date": "2026-04-08T20:42:44.000Z",
+      "category": "Blog",
+      "topicsProduct": "Experience Builder, ArcGIS Maps SDK for Javascript",
+      "summary": "Esri announced the retirement of custom widgets in ArcGIS Experience Builder built with Maps SDK for JavaScript.",
+      "processed": true
+    },
+    {
+      "title": "Puget Systems expands server portfolio - AEC Magazine",
+      "description": "<b>ArcGIS</b> Maps <b>SDK</b> for Unreal Engine launches &middot; AEC Magazine reporting live from Autodesk University 2015 &middot; NEWS: Leica Geosystems selects Bentley&#39;s&nbsp;...",
+      "link": "https://aecmag.com/hardware/puget-systems-expands-server-portfolio/",
+      "guid": "tag:google.com,2013:googlealerts/feed:13033946178477132008",
+      "author": "",
+      "date": "2026-04-08T19:06:25.000Z",
+      "category": "Other",
+      "topicsProduct": "Other",
+      "summary": "Puget Systems expands its server portfolio with new offerings designed to improve performance and reliability.",
+      "processed": true
+    },
+    {
+      "title": "GIS Developer (<b>ArcGIS</b> + Angular + .Net) | Bavdhan | JobLeads.com",
+      "description": "<b>JavaScript</b>. PostgreSQL. <b>ESRI ArcGIS</b>. HTML5. CSS3. Git. TFS. Tools. <b>ArcGIS</b> Pro. <b>ArcGIS</b> Online. <b>ESRI ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> v4.x. Job&nbsp;...",
+      "link": "https://www.jobleads.com/in/job/gis-developer-arcgis-angular-net--bavdhan--ee72a477c84cd77e43e82d0494a8fad6f",
+      "guid": "tag:google.com,2013:googlealerts/feed:3628680792451631622",
+      "author": "",
+      "date": "2026-04-08T15:18:12.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "A GIS Developer position is open for candidates with experience in ArcGIS, Angular, and .NET in Bavdhan.",
+      "processed": true
+    },
+    {
+      "title": "C++ Software Engineer - Mapping <b>SDK</b> at <b>Esri</b> - United Kingdom - Jaabz Jobs",
+      "description": "Apply for C++ Software Engineer - Mapping <b>SDK</b> at <b>Esri</b> in United Kingdom. &amp; relocation package available. Apply now!",
+      "link": "https://jaabz.com/jobs/194098-c-software-engineer-ii-arcgis-maps-sdks-for-native-apps",
+      "guid": "tag:google.com,2013:googlealerts/feed:10534834143056674080",
+      "author": "",
+      "date": "2026-04-08T06:25:25.000Z",
+      "category": "Job Posting",
+      "topicsProduct": "ArcGIS Maps SDK for Native Apps",
+      "summary": "Join Esri as a C++ Software Engineer II to work on the ArcGIS Maps SDKs for native apps, creating mapping solutions for developers on multiple platforms.",
+      "processed": true
+    },
+    {
+      "title": "Updating Item JSON Data for a Feature Service Item in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> ...",
+      "description": "... <b>esri</b>.com/ Learn how to update the *Item JSON data* for a Feature Service in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python. In this video, you will&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=8czBTiVVhLA",
+      "guid": "tag:google.com,2013:googlealerts/feed:9628842373370468831",
+      "author": "",
+      "date": "2026-04-08T06:07:22.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create custom ArcGIS Online web applications using the AppStudio for ArcGIS with this tutorial video.",
+      "processed": true
+    },
+    {
+      "title": "Web Map Item Object JSON Properties with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Web Map Item Object JSON Properties with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online WebMap.",
+      "link": "https://www.youtube.com/watch?v=1bSi1kOguj8",
+      "guid": "tag:google.com,2013:googlealerts/feed:9987708018774644718",
+      "author": "",
+      "date": "2026-04-08T04:54:08.000Z",
+      "category": "Video",
+      "topicsProduct": "Web technologies",
+      "summary": "Learn how to create and deploy a custom basemap style using ArcGIS Vector Tile Style Editor. Customize your maps with your own unique style!",
+      "processed": true
+    },
+    {
+      "title": "Switch the Basemap in an <b>ArcGIS</b> Online WebMap with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>ArcGIS</b> Online #ArcGISOnline #ArcGISAPIforPython #GIS #PythonGIS #<b>Esri</b> #WebMap #GISAutomation #LearnArcGIS.",
+      "link": "https://www.youtube.com/watch?v=90TdAW33R3M",
+      "guid": "tag:google.com,2013:googlealerts/feed:17944878448114191201",
+      "author": "",
+      "date": "2026-04-08T00:26:21.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom report template in ArcGIS Online using the Report Templates tool.",
+      "processed": true
+    },
     {
       "title": "ArcGIS Online Administration Associate: 2026 v 2024 Version Comparison",
       "description": "<P>Is the ArcGIS Online Administration Associate Certification Exam part of your certification journey? If so, this article presents the details related to the ArcGIS Online Administration Associate Certification Exam, its unique versions, and exam development opportunities.</P>",
@@ -13,6 +97,42 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "The upcoming changes to the ArcGIS Online Administration Associate certification exam will be based on ArcGIS Online 9.3, highlighting new features and improvements.",
+      "processed": true
+    },
+    {
+      "title": "Web Map Item Object with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Manipulate the Basemap JSON Definition for a Webmap in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python.",
+      "link": "https://m.youtube.com/watch?v=FdPmVrB8USc",
+      "guid": "tag:google.com,2013:googlealerts/feed:6676748197137014078",
+      "author": "",
+      "date": "2026-04-07T22:58:45.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create visually appealing legend designs to enhance your web maps in ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "East wakefield nh gis map - krkfws.today",
+      "description": "The Journey of Making Our First <b>ArcGIS Maps SDK for</b> JavaScript Application (Making WHAIFinder v3). NHDES OneStop Data Mapper Introductory Video&nbsp;...",
+      "link": "https://krkfws.today/as3l9oqwy8etmkniws8cmv07423.xml",
+      "guid": "tag:google.com,2013:googlealerts/feed:2694277944877354457",
+      "author": "",
+      "date": "2026-04-07T20:22:52.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create interactive web maps using ArcGIS Online in this new tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Autodesk deepens <b>Esri</b> integration across Info360 Asset and Insight - One Water Blog",
+      "description": "Info360 now uses <b>Esri</b> as its primary mapping engine, integrating with <b>ArcGIS</b> through the <b>Esri</b> Maps <b>SDK</b> and <b>ArcGIS</b> Location Platform. This brings&nbsp;...",
+      "link": "https://www.autodesk.com/blogs/water/2026/04/07/autodesk-deepens-esri-integration-across-info360-asset-and-insight/",
+      "guid": "tag:google.com,2013:googlealerts/feed:18347655656280324566",
+      "author": "",
+      "date": "2026-04-07T19:56:06.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Autodesk is deepening its integration with Esri across the Info360 platform, enhancing asset and insight capabilities for users.",
       "processed": true
     },
     {
@@ -37,6 +157,44 @@
       "category": "Other",
       "topicsProduct": "Living Atlas",
       "summary": "Check out the Great Northern dataset now available in ArcGIS GeoServices REST API.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Maps SDKs for Game Engines  | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=2o8NnfBEk0g",
+      "guid": "yt:video:2o8NnfBEk0g",
+      "author": "Esri Developers",
+      "date": "2026-04-07T12:00:13.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to quickly generate a heat map in ArcGIS Online using this tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Build ArcGIS Apps Faster with GitHub Copilot (Weather App Demo)",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=kXhutoAAvcM",
+      "guid": "yt:video:kXhutoAAvcM",
+      "author": "GeoAI Smith",
+      "date": "2026-04-07T10:37:13.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Saudi Arabia Launches COVID-19 Dashboard Using <b>Esri</b> Technology - BigDATAwire - HPCwire",
+      "description": "Created in cooperation with <b>Esri</b> Saudi Arabia and the country&#39;s Ministry of Health (MoH), the dashboard is now the official source of data for&nbsp;...",
+      "link": "https://hpcwire.com/bigdatawire/this-just-in/saudi-arabia-launches-covid-19-dashboard-using-esri-technology/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11739640750689574071",
+      "author": "",
+      "date": "2026-04-07T08:37:52.000Z",
+      "category": "In-person event",
+      "topicsProduct": "ArcGIS Dashboards",
+      "summary": "Saudi Arabia launches COVID-19 dashboard using Esri technology to track and display pandemic data.",
       "processed": true
     },
     {
