@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (10-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-09T02:12:21.778Z",
+  "lastUpdated": "2026-04-10T02:31:40.047Z",
   "items": [
+    {
+      "title": "ArcGIS Maps SDKs for Native Apps | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=AdZ6Y4p-_Cs",
+      "guid": "yt:video:AdZ6Y4p-_Cs",
+      "author": "Esri Developers",
+      "date": "2026-04-09T19:08:00.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a custom dashboard in ArcGIS Online using Operations Dashboard for ArcGIS.",
+      "processed": true
+    },
+    {
+      "title": "What is <b>ArcGIS</b> Hub - <b>ArcGIS</b> Hub - YouTube",
+      "description": "<b>ArcGIS</b> Mastery•268 views &middot; 24:51 &middot; Go to channel <b>ArcGIS</b> Mastery &middot; Create your first <b>Javascript</b> GIS Application - <b>ArcGIS Javascript API</b>. <b>ArcGIS</b> Mastery&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=BVZpyS55xXQ&vl=ru",
+      "guid": "tag:google.com,2013:googlealerts/feed:10300062207642349034",
+      "author": "",
+      "date": "2026-04-09T14:30:00.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante."
+    },
+    {
+      "title": "ArcGIS REST JS for Client-Side API Access",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/kl21v9KlZFI",
+      "guid": "yt:video:kl21v9KlZFI",
+      "author": "Esri Developers",
+      "date": "2026-04-09T13:44:06.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a web map from a CSV file in ArcGIS Online in just a few simple steps.",
+      "processed": true
+    },
     {
       "title": "Retirement of custom widgets in ArcGIS Experience Builder built with Maps SDK for JavaScript",
       "description": "",
