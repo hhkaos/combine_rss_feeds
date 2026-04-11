@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (10-04-2026)",
+  "title": "Combined ArcGIS Feeds (11-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-10T02:31:30.519Z",
+  "lastUpdated": "2026-04-11T02:10:39.281Z",
   "items": [
+    {
+      "title": "Episode 60 - Say Hello, Jaws",
+      "description": "I built an autonomous AI agent that runs 24/7 on a Mac Mini, manages my home office, triages my email, helps write content, and improves itself every night at 3 AM. Here's an introduction to how it actually works.",
+      "link": "https://christophermoravec.com/episode-60-say-hello-jaws/",
+      "guid": "69d9621caa0d15000117d90a",
+      "author": "Christopher Moravec",
+      "date": "2026-04-10T21:24:57.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Map Images with ArcGIS Static Maps",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/vdeihyVmKwg",
+      "guid": "yt:video:vdeihyVmKwg",
+      "author": "Esri Developers",
+      "date": "2026-04-10T15:37:25.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer – Career Hub | Duke University",
+      "description": "Experience with the <b>Esri ArcGIS</b> Maps <b>API</b>/<b>SDK</b> for <b>Javascript</b> Required – 1 Years; Knowledge and experience with the following: ArcPro/ArcObjects&nbsp;...",
+      "link": "https://careerhub.students.duke.edu/jobs/professional-technology-integration-inc-arcgis-developer-2/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8111976093755131710",
+      "author": "",
+      "date": "2026-04-10T07:13:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Senior Esri Visualization Engineer – VirtualVocations – Oferta de trabajo Puerto Rico",
+      "description": "3+ years of experience with the <b>ArcGIS Maps SDK for</b> JavaScript, focusing on 3D capabilities. Strong JavaScript / TypeScript skills, with experience&nbsp;...",
+      "link": "https://pr.talent.com/view?id=614359101265150676",
+      "guid": "tag:google.com,2013:googlealerts/feed:3817773305503350637",
+      "author": "",
+      "date": "2026-04-10T04:51:29.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "The &#39;winners and losers&#39; in the adoption of AI - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie ... A new study from the Economic and Social Research Institute (<b>ESRI</b>) and&nbsp;...",
+      "link": "https://www.rte.ie/news/analysis-and-comment/2026/0409/1567304-ai-analysis-esri/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16266627302269866500",
+      "author": "",
+      "date": "2026-04-10T03:32:47.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "AI use in Irish firms likely to lead to job losses - <b>ESRI</b> - RTE",
+      "description": "Please turn <b>Javascript</b> on to get the best experience from rte.ie. Menu ... <b>ESRI</b> said. Physically demanding jobs least at risk. In terms of the&nbsp;...",
+      "link": "https://www.rte.ie/news/business/2026/0409/1567303-ai-use-in-irish-firms-likely-to-lead-to-job-losses-esri/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2692569527987815609",
+      "author": "",
+      "date": "2026-04-09T22:00:54.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "ArcGIS Maps SDKs for Native Apps | #EsriDevTech2026",
       "description": "",
