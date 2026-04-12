@@ -1,8 +1,32 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (12-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-11T02:10:56.450Z",
+  "lastUpdated": "2026-04-12T02:33:18.301Z",
   "items": [
+    {
+      "title": "NJ : ArcGIS Developer | Brooklyn, NY - Hybrid - 3 Days Onsite - Job Details",
+      "description": "ArcGIS Server, and Data Store. Application Development: Build and deploy interactive web mapping applications using the <b>ArcGIS Maps SDK for</b> JavaScript&nbsp;...",
+      "link": "https://nvoids.com/job_details.jsp?id=3286478&uid=9a182661d3694f2ea8882c9528d1903a",
+      "guid": "tag:google.com,2013:googlealerts/feed:13371219579966079160",
+      "author": "",
+      "date": "2026-04-11T08:02:34.000Z",
+      "category": "Documentation",
+      "topicsProduct": "\"ArcGIS GeoAnalytics Engine\"",
+      "summary": "Esri released updates to ArcGIS GeoAnalytics Server, making it easier to analyze large volumes of data at scale.",
+      "processed": true
+    },
+    {
+      "title": "Job Details - Jobs Nvoids",
+      "description": "Build and deploy interactive web mapping applications using the <b>ArcGIS Maps SDK for</b> JavaScript and Java, Spring Boot ... <b>ArcGIS Maps SDK for</b> JavaScript&nbsp;...",
+      "link": "https://nvoids.com/job_details.jsp?id=3289218&uid=f90a5aeb60d0400fa0f0859f57a59b22",
+      "guid": "tag:google.com,2013:googlealerts/feed:3336574604011420464",
+      "author": "",
+      "date": "2026-04-11T00:18:14.000Z",
+      "category": "Livestream",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Esri is hosting a webinar on how to leverage ArcGIS Online to build interactive data visualizations and share them with the public.",
+      "processed": true
+    },
     {
       "title": "Episode 60 - Say Hello, Jaws",
       "description": "I built an autonomous AI agent that runs 24/7 on a Mac Mini, manages my home office, triages my email, helps write content, and improves itself every night at 3 AM. Here's an introduction to how it actually works.",
