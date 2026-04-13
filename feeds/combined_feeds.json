@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (12-04-2026)",
+  "title": "Combined ArcGIS Feeds (13-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-12T02:33:10.018Z",
+  "lastUpdated": "2026-04-13T02:38:10.673Z",
   "items": [
+    {
+      "title": "Show a Map and Find Nearby Places",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/1M4uiKFyuno",
+      "guid": "yt:video:1M4uiKFyuno",
+      "author": "Esri Developers",
+      "date": "2026-04-12T14:40:00.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Senior <b>Esri</b> Visualization Engineer | United States | JobLeads.com",
+      "description": "Skills &middot; Build interactive 3D scene visualizations using the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> &middot; Integrate <b>Esri</b> 3D visualization components into a&nbsp;...",
+      "link": "https://www.jobleads.com/us/job/senior-esri-visualization-engineer--united-states--efffe51b397c8431a1097ac0f2ebabfd6",
+      "guid": "tag:google.com,2013:googlealerts/feed:5399503296230007687",
+      "author": "",
+      "date": "2026-04-12T04:45:52.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "COVID-19 - Organizations - Open Data SA - City of San Antonio",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; Vaccinations Weekly Totals - Public Share. This table contains the&nbsp;...",
+      "link": "https://data.sanantonio.gov/organization/89ab1c77-b02a-47a8-aadc-2c970c2da42c?res_format=GDB&res_format=KML&res_format=GeoJSON",
+      "guid": "tag:google.com,2013:googlealerts/feed:8920328363526576496",
+      "author": "",
+      "date": "2026-04-12T03:27:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "NJ : ArcGIS Developer | Brooklyn, NY - Hybrid - 3 Days Onsite - Job Details",
       "description": "ArcGIS Server, and Data Store. Application Development: Build and deploy interactive web mapping applications using the <b>ArcGIS Maps SDK for</b> JavaScript&nbsp;...",
