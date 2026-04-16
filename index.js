@@ -414,10 +414,67 @@ function getDateString() {
   const dateStr = getDateString();
 
   const curatedUrls = [
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ',
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA',
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw',
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w',
+    // Youtube channels
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw', // Esri Developers
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ', // Rene Rubalcava
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA', // Andrew's GIS & Technology Lessons
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw', // Courtney Yatteau
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w', // GeoAI Smith
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A', // Josiah Parry
+
+    // ArcGIS Blog
+    'https://www.esri.com/arcgis-blog/products/developers/feed',
+    'https://www.esri.com/arcgis-blog/products/experience-builder/feed',
+    'https://www.esri.com/arcgis-blog/products/api-python/feed',
+    'https://www.esri.com/arcgis-blog/products/arcgis-pro-net/feed',
+    'https://www.esri.com/arcgis-blog/products/sdk-net/feed',
+    'https://www.esri.com/arcgis-blog/products/sdk-flutter/feed',
+    'https://www.esri.com/arcgis-blog/products/sdk-kotlin/feed',
+    'https://www.esri.com/arcgis-blog/products/sdk-swift/feed',
+    'https://www.esri.com/arcgis-blog/products/unity/feed',
+    'https://www.esri.com/arcgis-blog/products/unreal-engine/feed',
+    'https://www.esri.com/arcgis-blog/category/arcade/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-location-services/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-data/feed',
+    'https://www.esri.com/arcgis-blog/tag/batch-geocoding/feed',
+    'https://www.esri.com/arcgis-blog/tag/elevation-service/feed',
+    'https://www.esri.com/arcgis-blog/tag/geoenrichment-service/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-vector-tile-style-editor/feed',
+    'https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed',
+    'https://www.esri.com/arcgis-blog/tag/basemap-styles/feed',
+    'https://www.esri.com/arcgis-blog/tag/basemap-styles-service/feed',
+    'https://www.esri.com/arcgis-blog/tag/vector-basemaps/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-geocoding-service/feed',
+    'https://www.esri.com/arcgis-blog/tag/geocoding/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-places-service/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-geoenrichment-service/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcgis-places/feed',
+    'https://www.esri.com/arcgis-blog/products/api-python/feed',
+    'https://www.esri.com/arcgis-blog/products/api-rest/feed',
+    'https://www.esri.com/arcgis-blog/tag/calcite-design-system/feed',
+    'https://www.esri.com/arcgis-blog/tag/api-for-python/feed',
+    'https://www.esri.com/arcgis-blog/tag/python-scripts/feed',
+    'https://www.esri.com/arcgis-blog/tag/devsummit/feed',
+    'https://www.esri.com/arcgis-blog/tag/developer-summit/feed',
+    'https://www.esri.com/arcgis-blog/tag/web-development/feed',
+    'https://www.esri.com/arcgis-blog/tag/arcpy/feed',
+
+    // Other Esri Blogs
+    'https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog',
+    'https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed',
+    'https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed',
+    'https://medium.com/feed/geoai',
+
+    // Some Esri repositories
+    'https://github.com/esri/developer-support/commits/master.atom',
+    'https://github.com/Esri/jsapi-resources/commits.atom',
+    'https://github.com/EsriJapan/arcgis-dev-resources/commits.atom',
+    'https://github.com/Esri/maplibre-arcgis/commits.atom',
+    'https://github.com/esri/esri-leaflet/commits.atom',
+    'https://github.com/Esri/arcgis-rest-js/commits.atom',
+    'https://github.com/Esri/maplibre-arcgis/commits.atom',
+
+    // Blogs at Esri Community
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=esri-leaflet-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog',
@@ -425,25 +482,16 @@ function getDateString() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog',
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw',
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A',
-    'https://medium.com/feed/geoai',
-    'https://feed.podbean.com/theboundingbox/feed.xml',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
     'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
+
+    // Employee blogs and podcasts
+    'https://feed.podbean.com/theboundingbox/feed.xml',
     'https://odoe.net/rss.xml',
     'https://josiahparry.com/index.xml',
     'https://highearthorbit.com/feed/',
     'https://christophermoravec.com/rss/',
-    'https://adventuresinmapping.com/feed/',
-    'https://github.com/esri/developer-support/commits/master.atom',
-    'https://github.com/Esri/jsapi-resources/commits.atom',
-    'https://github.com/EsriJapan/arcgis-dev-resources/commits.atom',
-    'https://www.esri.com/arcgis-blog/products/developers/feed',
-    'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
-    'https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers',
-    'https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog',
-    'https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed',
-    'https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed'
+    'https://adventuresinmapping.com/feed/'
   ];
 
   const googleAlertUrls = [
