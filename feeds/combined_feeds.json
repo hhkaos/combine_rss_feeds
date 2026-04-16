@@ -1,8 +1,44 @@
 {
-  "title": "Combined ArcGIS Feeds (15-04-2026)",
+  "title": "Combined ArcGIS Feeds (16-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-15T02:30:11.372Z",
+  "lastUpdated": "2026-04-16T02:36:54.706Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Pro <b>SDK</b> | #EsriDevTech2026 - YouTube",
+      "description": "Uma Harano, Product Engineer, showcases <b>ArcGIS</b> Pro <b>SDK</b> extensibility patterns. The demo illustrates how <b>ArcGIS</b> ... <b>esri</b> #<b>arcgis</b> #geodev #python #gis #",
+      "link": "https://www.youtube.com/watch?v=_AD7MBIgoOM",
+      "guid": "tag:google.com,2013:googlealerts/feed:5349315346394540996",
+      "author": "",
+      "date": "2026-04-15T21:23:59.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Search",
+      "description": "<b>ArcGIS</b> &middot; Home &middot; Gallery &middot; Map &middot; Scene &middot; Groups &middot; Help. Sign In. Home &middot; Gallery &middot; Map &middot; Scene &middot; Groups &middot; Help ... <b>Esri</b> Portuguese Portugal. View &middot; View&nbsp;...",
+      "link": "https://gis.sncoapps.us/gisportal/home/search.html?t=content&q=tags:%22minimizar%22",
+      "guid": "tag:google.com,2013:googlealerts/feed:17031900255968654992",
+      "author": "",
+      "date": "2026-04-15T09:34:44.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "The Power of WebGIS – Neue Funktionen und Demos",
+      "description": "<DIV><EM>Was der Developer &amp; Technology Summit 2026 für uns Developer bedeutet.</EM></DIV>",
+      "link": "https://community.esri.com/t5/geodev-germany-blog/the-power-of-webgis-neue-funktionen-und-demos/ba-p/1693309",
+      "guid": "https://community.esri.com/t5/geodev-germany-blog/the-power-of-webgis-neue-funktionen-und-demos/ba-p/1693309",
+      "author": "Jan-Tschada",
+      "date": "2026-04-15T06:54:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #419 from PaulGibbs3rd/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #419 from PaulGibbs3rd/master\n\nAdded SODA3 API to Socrata CDF sample</pre>\n    ",
