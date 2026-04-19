@@ -1,8 +1,44 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (18-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (19-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-18T02:24:19.918Z",
+  "lastUpdated": "2026-04-19T02:38:48.987Z",
   "items": [
+    {
+      "title": "Frontend GIS Developer — <b>ArcGIS</b> &amp; Web Maps | Pittsburgh | JobLeads.com",
+      "description": "Strong proficiency in front-end web development languages like <b>JavaScript</b>, TypeScript, HTML5, and CSS3. Experience using the <b>ArcGIS</b> Maps <b>SDK</b>.",
+      "link": "https://www.jobleads.com/us/job/frontend-gis-developer-arcgis-web-maps--pittsburgh--ea8f9cebf74131d903fba169d76d222e5",
+      "guid": "tag:google.com,2013:googlealerts/feed:5524594496998927538",
+      "author": "",
+      "date": "2026-04-18T23:45:19.000Z",
+      "category": "Job",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "\"Frontend GIS Developer position available in Pittsburgh to work with ArcGIS web maps.\"",
+      "processed": true
+    },
+    {
+      "title": "NYC FDNY <b>ArcGIS</b> Developer at Voyatek in BROOKLYN, New York | Disabled Persons",
+      "description": "<b>ArcGIS API</b> for Python: Experience using this for &quot;DevOps for GIS ... <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (4.x): Mastery of the 4.x series&nbsp;...",
+      "link": "https://www.disabledperson.com/jobs/71559912-nyc-fdny-arcgis-developer",
+      "guid": "tag:google.com,2013:googlealerts/feed:6135690586842668587",
+      "author": "",
+      "date": "2026-04-17T22:11:26.000Z",
+      "category": "Other",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "NYC FDNY is looking for an ArcGIS Developer to work in New York City. Apply now!",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> | #EsriDevTech2026 - YouTube",
+      "description": "... <b>Esri</b> Community! Community forums: https://community.<b>esri</b>.com/t5/<b>arcgis</b>-maps-<b>sdk</b>-for-<b>javascript</b>/ct-p/<b>arcgis</b>-<b>api</b>-for-<b>javascript</b> More <b>Esri</b>&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=RqvkC4qNrDc",
+      "guid": "tag:google.com,2013:googlealerts/feed:13665342293776692827",
+      "author": "",
+      "date": "2026-04-17T22:07:24.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Enterprise SDK",
+      "summary": "Learn how to extend the capabilities of ArcGIS Enterprise with custom tools and extensions using the ArcGIS Enterprise SDK.",
+      "processed": true
+    },
     {
       "title": "\n        Merge pull request #1304 from Esri/parser-edge-cases\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #1304 from Esri/parser-edge-cases\n\nPBF Parser geometry Z coordinates and M values</pre>\n    ",
@@ -13,6 +49,18 @@
       "category": "Source code",
       "topicsProduct": "ArcGIS REST JS",
       "summary": "Fixes issue where unsubscribing was not working in WatchableImpl class from #685",
+      "processed": true
+    },
+    {
+      "title": "GIS Developer (M/W) – BGX - Brix Global Consulting, Lda – Emprego Lisbon, Lisbon",
+      "description": "Implement and update existing web mapping functionalities, using modern frameworks, such as <b>ArcGIS Maps SDK for</b> JavaScript. Integrate spatial data&nbsp;...",
+      "link": "https://pt.talent.com/view?id=615316008272206109",
+      "guid": "tag:google.com,2013:googlealerts/feed:2272862172613539787",
+      "author": "",
+      "date": "2026-04-17T17:37:54.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and share a custom pop-up in ArcGIS Online using Arcade expressions.",
       "processed": true
     },
     {
