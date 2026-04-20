@@ -1,7 +1,7 @@
 {
-  "title": "Combined ArcGIS Feeds (19-04-2026)",
+  "title": "Combined ArcGIS Feeds (20-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-19T02:38:20.724Z",
+  "lastUpdated": "2026-04-20T02:38:58.958Z",
   "items": [
     {
       "title": "Frontend GIS Developer — <b>ArcGIS</b> &amp; Web Maps | Pittsburgh | JobLeads.com",
@@ -10,6 +10,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:5524594496998927538",
       "author": "",
       "date": "2026-04-18T23:45:19.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Geographic Information System Developer - <b>Esri</b> India - BeBee",
+      "description": "... <b>Esri</b> India Technologies Pvt. Ltd. (<b>Esri</b> India), the market. ... Experience with <b>ArcGIS Javascript API</b>; Strong experience with Core&nbsp;...",
+      "link": "https://bebee.com/in/jobs/geographic-information-system-developer-esri-india-mumbai--tideri-7dbd1c2d-b679-4808-ae9f-ac500dc13252",
+      "guid": "tag:google.com,2013:googlealerts/feed:10080248794357026291",
+      "author": "",
+      "date": "2026-04-18T20:05:40.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",

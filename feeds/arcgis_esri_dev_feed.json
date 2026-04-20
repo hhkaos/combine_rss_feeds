@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (20-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-19T02:38:48.987Z",
+  "lastUpdated": "2026-04-20T02:39:13.379Z",
   "items": [
     {
       "title": "Frontend GIS Developer — <b>ArcGIS</b> &amp; Web Maps | Pittsburgh | JobLeads.com",
@@ -13,6 +13,18 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Online",
       "summary": "\"Frontend GIS Developer position available in Pittsburgh to work with ArcGIS web maps.\"",
+      "processed": true
+    },
+    {
+      "title": "Geographic Information System Developer - <b>Esri</b> India - BeBee",
+      "description": "... <b>Esri</b> India Technologies Pvt. Ltd. (<b>Esri</b> India), the market. ... Experience with <b>ArcGIS Javascript API</b>; Strong experience with Core&nbsp;...",
+      "link": "https://bebee.com/in/jobs/geographic-information-system-developer-esri-india-mumbai--tideri-7dbd1c2d-b679-4808-ae9f-ac500dc13252",
+      "guid": "tag:google.com,2013:googlealerts/feed:10080248794357026291",
+      "author": "",
+      "date": "2026-04-18T20:05:40.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Learn about the new features and improvements in the latest release of the ArcGIS Pro SDK.",
       "processed": true
     },
     {
