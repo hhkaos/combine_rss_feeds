@@ -1,8 +1,70 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (20-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (21-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-20T02:39:13.379Z",
+  "lastUpdated": "2026-04-21T02:34:34.305Z",
   "items": [
+    {
+      "title": "How to model water flow through streets and buildings with FlowRenderer? 🌊 🛠️ 🖥️",
+      "description": "<P>Static flood maps don’t tell the full story. A blue polygon can’t show where water comes from, how fast it moves, or where it will breach first.<BR />This blog walks through how physics‑based flood simulations created in ArcGIS Pro can be brought to the web using FlowRenderer—visualizing water velocity and direction as animated streamlines in 3D scenes. By publishing results to ArcGIS Online and viewing them in Scene Viewer or ArcGIS Maps SDK for JavaScript, complex flood behavior becomes intuitive, interactive, and accessible for decision‑makers.</P><P><STRONG>Read the full blog:</STRONG> <A href=\"https://www.esri.com/arcgis-blog/products/arcgis-online/3d-gis/arcgis-flowrenderer-flood-simulation-visualization\" rel=\"noopener\">https://www.esri.com/arcgis-blog/products/arcgis-online/3d-gis/arcgis-flowrenderer-flood-simulation-visualization</A></P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/how-to-model-water-flow-through-streets-and/ba-p/1697313",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/how-to-model-water-flow-through-streets-and/ba-p/1697313",
+      "author": "SnehaSuresh",
+      "date": "2026-04-20T19:43:08.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "Learn how to model water flow through streets and buildings using ArcGIS Maps SDK for Javascript in this informative blog post.",
+      "processed": true
+    },
+    {
+      "title": "Site Layout 2/6 - <b>ArcGIS</b> Hub - YouTube",
+      "description": "To Learn more.. Join <b>ArcGIS</b> Mastery Course with 25% discount. Check ... Introduction to <b>Javascript</b> - <b>ArcGIS Javascript API</b>. <b>ArcGIS</b> Mastery•111&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=mHRZzenVRR0",
+      "guid": "tag:google.com,2013:googlealerts/feed:6922686226591540162",
+      "author": "",
+      "date": "2026-04-20T12:33:44.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Dropdown List or Freetext User Input for <b>ArcGIS</b> Pro Custom Script Tool - YouTube",
+      "description": "... Final Draft Mapping &middot; Adding a Feature Service to a WebMap in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python. Final Draft Mapping. New. 10 views &middot; 9:22.",
+      "link": "https://www.youtube.com/watch?v=UkONzmE86TM",
+      "guid": "tag:google.com,2013:googlealerts/feed:16290008151412977180",
+      "author": "",
+      "date": "2026-04-20T09:27:08.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to quickly share your maps and data with colleagues, clients, and the public using ArcGIS Online.",
+      "processed": true
+    },
+    {
+      "title": "Updating Popup Titles for Feature Layers and Tables in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python",
+      "description": "... <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python. In this tutorial, you ... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS.",
+      "link": "https://www.youtube.com/watch?v=Pknb4owK0WQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:17221726422042587631",
+      "author": "",
+      "date": "2026-04-20T07:35:37.000Z",
+      "category": "Video",
+      "topicsProduct": "Native SDKs",
+      "summary": "Learn how to develop mobile applications with Native SDKs for ArcGIS.",
+      "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
+      "description": "<b>ArcGIS</b> REST Services Directory, Login | Get Token &middot; Home &middot; <b>API</b> Reference. <b>ArcGIS</b> Server REST <b>API</b> Login. username | password required. User Name:.",
+      "link": "https://sig.cm-coimbra.pt/arcgis/rest/login?redirect=https%3A//sig.cm-coimbra.pt/arcgis/rest/services/CARTOGRAFIA/CARTA_Planos/MapServer/export%3Fbbox%3D-40188.57286558562%2C54819.40825657393%2C491.19599395210025%2C77401.64092103926",
+      "guid": "tag:google.com,2013:googlealerts/feed:14804475893752790784",
+      "author": "",
+      "date": "2026-04-19T11:07:25.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Explore how to create and share custom map styles in ArcGIS Online using the new styling tools.",
+      "processed": true
+    },
     {
       "title": "Frontend GIS Developer — <b>ArcGIS</b> &amp; Web Maps | Pittsburgh | JobLeads.com",
       "description": "Strong proficiency in front-end web development languages like <b>JavaScript</b>, TypeScript, HTML5, and CSS3. Experience using the <b>ArcGIS</b> Maps <b>SDK</b>.",
