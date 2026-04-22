@@ -1,8 +1,80 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (21-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (22-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-21T02:34:34.305Z",
+  "lastUpdated": "2026-04-22T02:32:57.473Z",
   "items": [
+    {
+      "title": "What's new in ArcGIS Maps SDK for Flutter - 300.0 release",
+      "description": "<P>Find out what to expect in the 300.0 release of the Flutter Maps SDK!</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-new-in-arcgis-maps-sdk-for-flutter-300-0/ba-p/1696070",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-new-in-arcgis-maps-sdk-for-flutter-300-0/ba-p/1696070",
+      "author": "JenMerritt",
+      "date": "2026-04-21T19:00:00.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Flutter",
+      "summary": "Learn about the latest updates in version 3.0.0 of the ArcGIS Maps SDK for Flutter, including improved symbology support, new layers, and more.",
+      "processed": true
+    },
+    {
+      "title": "Announcing ArcGIS Maps SDK 2.3 for Unreal Engine",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/unreal-engine/announcements/announcing-arcgis-maps-sdk-2-3-for-unreal-engine",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2962943",
+      "author": "Mike Branscomb",
+      "date": "2026-04-21T14:35:29.000Z",
+      "category": "Blog",
+      "topicsProduct": "Game Engines",
+      "summary": "Esri announces the release of ArcGIS Maps SDK 2.3 for Unreal Engine, allowing developers to integrate GIS data directly into Unreal Engine projects.",
+      "processed": true
+    },
+    {
+      "title": "Announcing ArcGIS Maps SDK 2.3 for Unity",
+      "description": "Unity Maps SDK 2.3 adds 3D point scene layers, identify for building scene layers, and smaller, faster app deployments.",
+      "link": "https://www.esri.com/arcgis-blog/products/unity/announcements/announcing-arcgis-maps-sdk-2-3-for-unity",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2962941",
+      "author": "Mike Branscomb",
+      "date": "2026-04-21T14:34:56.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Unity",
+      "summary": "Esri has announced the release of ArcGIS Maps SDK 2.3 for Unity, providing enhanced capabilities for integrating ArcGIS mapping and geospatial analysis into Unity projects.",
+      "processed": true
+    },
+    {
+      "title": "What’s new in ArcGIS Maps SDKs for Native Apps 300.0",
+      "description": "ArcGIS Maps SDKs for Native Apps 300.0 adds key new features including local scenes, building scene layer, and high-performance spatial analysis.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/whats-new-in-arcgis-maps-sdks-for-native-apps-300-0",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2963262",
+      "author": "Nick Furness",
+      "date": "2026-04-21T13:37:47.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Maps SDK for Javascript",
+      "summary": "The latest version 3.0.0 of ArcGIS Maps SDK for Native Apps has been released, providing improved performance, usability, and new features for developers.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS is Advancing – Technische Neuerungen für moderne GeoAI Apps",
+      "description": "<P><SPAN>ArcGIS wurde über das gesamte Portfolio modernisiert und in vielen Bereichen funktional vertieft. Im Bereich Web Mapping erhielt ArcGIS neue Möglichkeiten für datengetriebene Symbolisierung, verbesserte Rechenleistung und standardisierte Interaktion über Web- und Mobile-Anwendungen.</SPAN></P>",
+      "link": "https://community.esri.com/t5/geodev-germany-blog/arcgis-is-advancing-technische-neuerungen-f%C3%BCr/ba-p/1697420",
+      "guid": "https://community.esri.com/t5/geodev-germany-blog/arcgis-is-advancing-technische-neuerungen-f%C3%BCr/ba-p/1697420",
+      "author": "Jan-Tschada",
+      "date": "2026-04-21T12:25:12.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Discover the latest technical advancements in ArcGIS Enterprise including enhancements in administration, mapping, analysis, and sharing capabilities.",
+      "processed": true
+    },
+    {
+      "title": "GIS Developer Job in Epic Tech Research at All India - Shine.com",
+      "description": "Net, Java, Python using Angular, ReactJS, JQuery, or any frontend technology - Proficiency in ESRI <b>ArcGIS Maps SDK for</b> JavaScript v4.x, ArcGIS&nbsp;...",
+      "link": "https://www.shine.com/jobs/gis-developer/epic-tech-research/18987432",
+      "guid": "tag:google.com,2013:googlealerts/feed:7467849116205108468",
+      "author": "",
+      "date": "2026-04-21T08:01:05.000Z",
+      "category": "Job offer",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Epic Tech Research is looking for a GIS Developer. Join their team to work with ArcGIS Online and other GIS technologies.",
+      "processed": true
+    },
     {
       "title": "How to model water flow through streets and buildings with FlowRenderer? 🌊 🛠️ 🖥️",
       "description": "<P>Static flood maps don’t tell the full story. A blue polygon can’t show where water comes from, how fast it moves, or where it will breach first.<BR />This blog walks through how physics‑based flood simulations created in ArcGIS Pro can be brought to the web using FlowRenderer—visualizing water velocity and direction as animated streamlines in 3D scenes. By publishing results to ArcGIS Online and viewing them in Scene Viewer or ArcGIS Maps SDK for JavaScript, complex flood behavior becomes intuitive, interactive, and accessible for decision‑makers.</P><P><STRONG>Read the full blog:</STRONG> <A href=\"https://www.esri.com/arcgis-blog/products/arcgis-online/3d-gis/arcgis-flowrenderer-flood-simulation-visualization\" rel=\"noopener\">https://www.esri.com/arcgis-blog/products/arcgis-online/3d-gis/arcgis-flowrenderer-flood-simulation-visualization</A></P>",
@@ -14,6 +86,32 @@
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Learn how to model water flow through streets and buildings using ArcGIS Maps SDK for Javascript in this informative blog post.",
       "processed": true
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer - Brooklyn NY - Local Candidates Only @ Talent Factor Ltd. | Jobright.ai",
+      "description": "... <b>JavaScript</b>JavaSpring BootPython scriptingSQL spatial queries<b>ArcGIS API</b> for PythonWeb Frameworks ... <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> and Java, Spring Boot.",
+      "link": "https://jobright.ai/jobs/info/69e13044fd1c0456f3facf4b?visit=network-engineer-with-experience-in-sccm%2C-intune%2C-experience-with-government-projects-or-state-agenciesdot-only-w2-candidates-and-local-candidates-will-be-considered-jobs-in-united-states",
+      "guid": "tag:google.com,2013:googlealerts/feed:5987060915268726111",
+      "author": "",
+      "date": "2026-04-20T19:23:18.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a survey in ArcGIS Online and analyze the collected data to gain insights and make informed decisions.",
+      "processed": true
+    },
+    {
+      "title": "Dataset - California Natural Resources Agency Open Data",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; i06 SingleBeam Bathymetry. This service, (i06_SingleBeam_Bathymetry) is a service containing&nbsp;...",
+      "link": "https://data.cnra.ca.gov/dataset/?organization=dwr&q=+PX06&page=1",
+      "guid": "tag:google.com,2013:googlealerts/feed:4348631897107000832",
+      "author": "",
+      "date": "2026-04-20T18:48:49.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
     },
     {
       "title": "Site Layout 2/6 - <b>ArcGIS</b> Hub - YouTube",
