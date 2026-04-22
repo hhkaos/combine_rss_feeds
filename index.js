@@ -474,6 +474,7 @@ function getDateString() {
     'https://github.com/Esri/arcgis-rest-js/commits.atom',
     'https://github.com/Esri/maplibre-arcgis/commits.atom',
     'https://github.com/Esri/arcpy/commits.atom',
+    'https://github.com/esrips/gen-ai-toolkit/commits.atom',
 
     // Blogs at Esri Community
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
