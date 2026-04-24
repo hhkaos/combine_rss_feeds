@@ -469,7 +469,6 @@ function getDateString() {
     'https://github.com/esri/developer-support/commits/master.atom',
     'https://github.com/Esri/jsapi-resources/commits.atom',
     'https://github.com/EsriJapan/arcgis-dev-resources/commits.atom',
-    'https://github.com/Esri/maplibre-arcgis/commits.atom',
     'https://github.com/esri/esri-leaflet/commits.atom',
     'https://github.com/Esri/arcgis-rest-js/commits.atom',
     'https://github.com/Esri/maplibre-arcgis/commits.atom',
@@ -486,6 +485,7 @@ function getDateString() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
     'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
 
     // Employee blogs and podcasts
     'https://feed.podbean.com/theboundingbox/feed.xml',
