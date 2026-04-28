@@ -1,8 +1,48 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (27-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (28-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-27T00:40:57.713Z",
+  "lastUpdated": "2026-04-28T00:43:40.091Z",
   "items": [
+    {
+      "title": "Arcgis Api For Javascript",
+      "description": "c638deebe2 <b>ArcGIS Maps SDK for</b> JavaScript: Latest Updates in. Version 4.34 - <b>ArcGIS Maps SDK for</b> JavaScript: Latest Updates in. Version 4.34 46&nbsp;...",
+      "link": "https://iss.dashboard.health.gov.mw/zcrashh/xmissb/48952IL/121652240426/arcgis_api__for-javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:16578827418892850091",
+      "author": "",
+      "date": "2026-04-27T13:42:16.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS API for Javascript",
+      "summary": "New features added to ArcGIS API for Javascript enhance user experience and improve performance.",
+      "processed": true
+    },
+    {
+      "title": "Site Layout 4/6 - <b>ArcGIS</b> Hub - YouTube",
+      "description": "Comments &middot; Site Layout 1/6 - <b>ArcGIS</b> Hub &middot; <b>ArcGIS Javascript API</b> 3. &middot; MCEU - From Skills to trusted signals &middot; Couple Builds a Dream A-Frame Cabin in the&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=4W48qIv7ZHc",
+      "guid": "tag:google.com,2013:googlealerts/feed:7040736327451109470",
+      "author": "",
+      "date": "2026-04-27T08:41:31.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Site Layout 4/6 - <b>ArcGIS</b> Hub - YouTube",
+      "description": "<b>ArcGIS</b> Mastery•108 views &middot; 40:12 &middot; Go to channel <b>ArcGIS</b> Mastery &middot; <b>ArcGIS Javascript API</b> 3.x vs 4.x - <b>ArcGIS Javascript API</b>. <b>ArcGIS</b> Mastery•108 views.",
+      "link": "https://www.youtube.com/watch?v=4W48qIv7ZHc&vl=ru",
+      "guid": "tag:google.com,2013:googlealerts/feed:11369013891787149084",
+      "author": "",
+      "date": "2026-04-27T08:41:20.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": ": Contenido sin fecha"
+    },
     {
       "title": "Product Engineer I (Python) - Raster &amp; Imagery @ <b>Esri</b> | SpaceTalent Job Board",
       "description": "... <b>API</b> for <b>ArcGIS</b>, as well as arcpy <b>API</b>. As a Python Product Engineer, you ... <b>Esri</b> Privacy <b>Esri</b> takes our responsibility to protect your privacy seriously&nbsp;...",
