@@ -433,6 +433,7 @@ function getDateString() {
     'https://www.esri.com/arcgis-blog/products/sdk-swift/feed',
     'https://www.esri.com/arcgis-blog/products/unity/feed',
     'https://www.esri.com/arcgis-blog/products/unreal-engine/feed',
+    'https://www.esri.com/arcgis-blog/category/developers/feed',
     'https://www.esri.com/arcgis-blog/category/arcade/feed',
     'https://www.esri.com/arcgis-blog/tag/arcgis-location-services/feed',
     'https://www.esri.com/arcgis-blog/tag/arcgis-data/feed',
