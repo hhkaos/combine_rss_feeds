@@ -485,6 +485,7 @@ function getDateString() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog',
     'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
 
