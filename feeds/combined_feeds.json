@@ -1,8 +1,56 @@
 {
-  "title": "Combined ArcGIS Feeds (29-04-2026)",
+  "title": "Combined ArcGIS Feeds (30-04-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-29T00:44:38.866Z",
+  "lastUpdated": "2026-04-30T00:44:41.267Z",
   "items": [
+    {
+      "title": "What's New for Developers: Migrating to .NET 10 with ArcGIS Pro 3.7",
+      "description": "<P class=\"\">With the upcoming release of ArcGIS Pro 3.7, the ArcGIS Pro SDK is making the move to .NET 10, Microsoft's latest Long Term Support (LTS) release.</P><P class=\"\">The most important thing to know is that your existing Add-ins built for Pro 3.0–3.6 will continue to run on 3.7 without re-compilation. However, to leverage the latest features and ensure future-proofing, we recommend upgrading your development environment.</P>",
+      "link": "https://community.esri.com/t5/arcgis-pro-sdk-blog/what-s-new-for-developers-migrating-to-net-10-with/ba-p/1699112",
+      "guid": "https://community.esri.com/t5/arcgis-pro-sdk-blog/what-s-new-for-developers-migrating-to-net-10-with/ba-p/1699112",
+      "author": "VedantBajaj",
+      "date": "2026-04-29T19:54:56.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Applying WebMap Layer Transparency in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Labelling a WebMap Layer in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python | Label Class.",
+      "link": "https://www.youtube.com/watch?v=NAqLuJFrU5o",
+      "guid": "tag:google.com,2013:googlealerts/feed:10199038335122459772",
+      "author": "",
+      "date": "2026-04-29T06:22:24.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Applying a Filter to a WebMap Layer in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
+      "description": "... <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python. In this hands ... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS.",
+      "link": "https://www.youtube.com/watch?v=WbVcsZ1mfBg",
+      "guid": "tag:google.com,2013:googlealerts/feed:16960357330784622428",
+      "author": "",
+      "date": "2026-04-29T06:07:58.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Labelling a WebMap Layer in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python. In this tutorial, you ... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS.",
+      "link": "https://www.youtube.com/watch?v=SYEf44MAY_c",
+      "guid": "tag:google.com,2013:googlealerts/feed:10236488742915962152",
+      "author": "",
+      "date": "2026-04-29T06:06:50.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Python | #EsriDevTech2026 - YouTube",
       "description": "The team will also share two scripting examples using the <b>ArcGIS API</b> ... <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>: Latest Updates in Version 5.0. <b>Esri</b>&nbsp;...",
