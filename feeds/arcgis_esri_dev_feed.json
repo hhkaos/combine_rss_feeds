@@ -1,8 +1,82 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (30-04-2026)",
+  "title": "ArcGIS ESRI Dev Feed (01-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-04-30T00:44:53.080Z",
+  "lastUpdated": "2026-05-01T00:47:26.464Z",
   "items": [
+    {
+      "title": "Feature vertices to points ... for Basic ArcGIS Pro",
+      "description": "<P>The license level for this tool is Advanced.&nbsp; To bad.</P>",
+      "link": "https://community.esri.com/t5/python-blog/feature-vertices-to-points-for-basic-arcgis-pro/ba-p/1699484",
+      "guid": "https://community.esri.com/t5/python-blog/feature-vertices-to-points-for-basic-arcgis-pro/ba-p/1699484",
+      "author": "DanPatterson",
+      "date": "2026-04-30T23:06:22.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Pro SDK",
+      "summary": "Learn how to convert feature vertices to points using ArcGIS Pro SDK in this helpful tutorial.",
+      "processed": true
+    },
+    {
+      "title": "From BIM to Dashboard: Building a 3D Construction Progress Dashboard with ArcGIS",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/3d-gis/from-bim-to-dashboard-building-a-3d-construction-progress-dashboard-with-arcgis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2963355",
+      "author": "Brett Heist",
+      "date": "2026-04-30T20:27:06.000Z",
+      "category": "Blog",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to create a 3D construction progress dashboard using BIM data in ArcGIS Enterprise.",
+      "processed": true
+    },
+    {
+      "title": "Use <b>ArcGIS</b> Pro Help to Find Tools #<b>arcgis</b> #gis #education #sorts #sort #viral #viralshorts #map",
+      "description": "... <b>api</b> #<b>arcgis javascript</b> #<b>arcgis javascript api</b> #<b>arcgis javascript api</b> ... <b>ESRI</b> #GISTraining #RemoteSensing #GeoInformatics #LearnGIS #ArcGISShortcuts #",
+      "link": "https://www.youtube.com/shorts/6eEw4wqGTlw",
+      "guid": "tag:google.com,2013:googlealerts/feed:11481670455689198771",
+      "author": "",
+      "date": "2026-04-30T18:59:07.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante."
+    },
+    {
+      "title": "Raleigh Built 2800+ Apps with No Code",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/gwnop7Cmqoc",
+      "guid": "yt:video:gwnop7Cmqoc",
+      "author": "Esri Developers",
+      "date": "2026-04-30T15:12:04.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create custom pop-ups in ArcGIS Online to enhance the user experience and convey important information effectively.",
+      "processed": true
+    },
+    {
+      "title": "Site Layout 5/6 - <b>ArcGIS</b> Hub - YouTube",
+      "description": "33:23 &middot; Go to channel <b>ArcGIS</b> Mastery &middot; <b>ArcGIS</b> JS <b>API</b> Reference - <b>ArcGIS Javascript API</b>. <b>ArcGIS</b> Mastery•81 views &middot; 16:41 &middot; Go to channel <b>ArcGIS</b> Mastery&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=zpNYTPmaEro",
+      "guid": "tag:google.com,2013:googlealerts/feed:7478582096356486867",
+      "author": "",
+      "date": "2026-04-30T07:13:54.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Dashboards",
+      "summary": "Learn how to enhance your ArcGIS Dashboards with custom configurations and settings in this informative video tutorial.",
+      "processed": true
+    },
+    {
+      "title": "Raleigh's Digital Twin",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/YPbU5T0wSYo",
+      "guid": "yt:video:YPbU5T0wSYo",
+      "author": "Esri Developers",
+      "date": "2026-04-29T21:54:39.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to share maps and data with others through ArcGIS Online in this short tutorial video.",
+      "processed": true
+    },
     {
       "title": "What's New for Developers: Migrating to .NET 10 with ArcGIS Pro 3.7",
       "description": "<P class=\"\">With the upcoming release of ArcGIS Pro 3.7, the ArcGIS Pro SDK is making the move to .NET 10, Microsoft's latest Long Term Support (LTS) release.</P><P class=\"\">The most important thing to know is that your existing Add-ins built for Pro 3.0–3.6 will continue to run on 3.7 without re-compilation. However, to leverage the latest features and ensure future-proofing, we recommend upgrading your development environment.</P>",
@@ -13,6 +87,30 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Check out the new enhancements and features for developers migrating to .NET 10 with ArcGIS Pro SDK, including improved performance and new capabilities.",
+      "processed": true
+    },
+    {
+      "title": "Spatial Analysis and Data Science | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=1B1dtEi9pxc",
+      "guid": "yt:video:1B1dtEi9pxc",
+      "author": "Esri Developers",
+      "date": "2026-04-29T15:25:47.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create and share interactive maps using ArcGIS Online in this tutorial video.",
+      "processed": true
+    },
+    {
+      "title": "ArcGIS Field Maps + AI | Smart Data Collection EP 12",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=5OXGLSVJiAs",
+      "guid": "yt:video:5OXGLSVJiAs",
+      "author": "GeoAI Smith",
+      "date": "2026-04-29T11:00:20.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Watch this video tutorial to learn how to configure automatic updates for ArcGIS Enterprise on Linux using the Esri Update service.",
       "processed": true
     },
     {
