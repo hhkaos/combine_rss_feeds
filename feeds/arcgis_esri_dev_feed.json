@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (03-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-02T00:43:19.849Z",
+  "lastUpdated": "2026-05-03T00:45:36.191Z",
   "items": [
     {
       "title": "Identify By Query",
@@ -40,6 +40,18 @@
       "processed": true
     },
     {
+      "title": "GeoAI",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=HIyZ9yxDMHY",
+      "guid": "yt:video:HIyZ9yxDMHY",
+      "author": "Esri Developers",
+      "date": "2026-05-01T18:43:23.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to create a new web map in ArcGIS Online and customize it with different layers and symbology.",
+      "processed": true
+    },
+    {
       "title": "Episode 63 - AI in ArcGIS, How to Start",
       "description": "Esri now has a whole family of AI assistants built into ArcGIS—Arcade, Pro, Survey123, Item Details, Story Maps, Hub, Documentation, and more. I suggest starting with a workflow you do every week so you can start to learn when to trust the AI tools.",
       "link": "https://christophermoravec.com/episode-63-ai-in-arcgis-how-to-start/",
@@ -61,6 +73,18 @@
       "category": "Other",
       "topicsProduct": "General",
       "summary": "This is an example of content that is not relevant to ArcGIS or Esri technologies.",
+      "processed": true
+    },
+    {
+      "title": "Sean Christian - Teach, Inspire, Repeat, passing GIS to the Next Generation",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=3alSchO8pIg",
+      "guid": "yt:video:3alSchO8pIg",
+      "author": "Rene Rubalcava",
+      "date": "2026-05-01T03:59:53.000Z",
+      "category": "Video",
+      "topicsProduct": "ArcGIS Online",
+      "summary": "Learn how to collaborate on projects and share maps in ArcGIS Online with this tutorial.",
       "processed": true
     },
     {

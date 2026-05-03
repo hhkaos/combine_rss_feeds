@@ -1,7 +1,7 @@
 {
-  "title": "Combined ArcGIS Feeds (02-05-2026)",
+  "title": "Combined ArcGIS Feeds (03-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-02T00:42:57.869Z",
+  "lastUpdated": "2026-05-03T00:45:23.957Z",
   "items": [
     {
       "title": "Identify By Query",
@@ -40,6 +40,18 @@
       "processed": false
     },
     {
+      "title": "GeoAI",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=HIyZ9yxDMHY",
+      "guid": "yt:video:HIyZ9yxDMHY",
+      "author": "Esri Developers",
+      "date": "2026-05-01T18:43:23.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
       "title": "Episode 63 - AI in ArcGIS, How to Start",
       "description": "Esri now has a whole family of AI assistants built into ArcGIS—Arcade, Pro, Survey123, Item Details, Story Maps, Hub, Documentation, and more. I suggest starting with a workflow you do every week so you can start to learn when to trust the AI tools.",
       "link": "https://christophermoravec.com/episode-63-ai-in-arcgis-how-to-start/",
@@ -58,6 +70,18 @@
       "guid": "tag:google.com,2013:googlealerts/feed:847100230363289878",
       "author": "",
       "date": "2026-05-01T08:00:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Sean Christian - Teach, Inspire, Repeat, passing GIS to the Next Generation",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=3alSchO8pIg",
+      "guid": "yt:video:3alSchO8pIg",
+      "author": "Rene Rubalcava",
+      "date": "2026-05-01T03:59:53.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
