@@ -1,8 +1,20 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (08-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (09-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-08T00:44:52.592Z",
+  "lastUpdated": "2026-05-09T00:44:57.468Z",
   "items": [
+    {
+      "title": "Episode 64 - Context is King",
+      "description": "The number one reason folks struggle with AI tools is they don't give the model enough to work with. Context is the cheapest upgrade you can make to any AI workflow today.",
+      "link": "https://christophermoravec.com/episode-64-context-is-king/",
+      "guid": "69fd52ee19576e000157c1c4",
+      "author": "Christopher Moravec",
+      "date": "2026-05-08T15:15:41.000Z",
+      "category": "Podcast",
+      "topicsProduct": "Experience Builder",
+      "summary": "Learn about the importance of context in designing web maps and apps with Experience Builder in this podcast episode.",
+      "processed": true
+    },
     {
       "title": "\n        Merge pull request #421 from PaulGibbs3rd/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #421 from PaulGibbs3rd/master\n\nPassthrough Provider best practices</pre>\n    ",
@@ -64,6 +76,32 @@
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Bug fix related to memory leak when working with TableViews in ArcGIS Pro SDK.",
       "processed": true
+    },
+    {
+      "title": "Mastering <b>Arcgis</b> Server Development With <b>Javascript</b> Pdf",
+      "description": "beginning, Mastering <b>Arcgis</b> Server Development With <b>Javascript</b> Pdf invites readers into a narrative landscape that is both captivating. 2d0cf1dc7b.",
+      "link": "https://shop.digicelgroup.com/hkicky/224156/9D3996Y611/jexcusex/mastering__arcgis_server_development_with_javascript-pdf.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:7521075077799947932",
+      "author": "",
+      "date": "2026-05-07T21:20:07.000Z",
+      "category": "Documentation",
+      "topicsProduct": "ArcGIS Enterprise",
+      "summary": "Learn how to master ArcGIS Server development with JavaScript in this comprehensive PDF guide.",
+      "processed": true
+    },
+    {
+      "title": "I'm speaking at JS Tek 2026!",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/QQN8IjYnrUc",
+      "guid": "yt:video:QQN8IjYnrUc",
+      "author": "Courtney Yatteau",
+      "date": "2026-05-07T20:37:43.000Z",
+      "category": "Video",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
     },
     {
       "title": "\n        Merge pull request #11 from Esri/scw/resync-3.7\n    ",

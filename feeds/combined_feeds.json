@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (08-05-2026)",
+  "title": "Combined ArcGIS Feeds (09-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-08T00:44:29.611Z",
+  "lastUpdated": "2026-05-09T00:44:43.035Z",
   "items": [
+    {
+      "title": "Episode 64 - Context is King",
+      "description": "The number one reason folks struggle with AI tools is they don't give the model enough to work with. Context is the cheapest upgrade you can make to any AI workflow today.",
+      "link": "https://christophermoravec.com/episode-64-context-is-king/",
+      "guid": "69fd52ee19576e000157c1c4",
+      "author": "Christopher Moravec",
+      "date": "2026-05-08T15:15:41.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #421 from PaulGibbs3rd/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #421 from PaulGibbs3rd/master\n\nPassthrough Provider best practices</pre>\n    ",
@@ -58,6 +70,30 @@
       "guid": "tag:github.com,2008:Grit::Commit/fce10df7db32c84ef221be87a46be7dc7a78d0cf",
       "author": "PaulGibbs3rd",
       "date": "2026-05-07T22:20:46.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Mastering <b>Arcgis</b> Server Development With <b>Javascript</b> Pdf",
+      "description": "beginning, Mastering <b>Arcgis</b> Server Development With <b>Javascript</b> Pdf invites readers into a narrative landscape that is both captivating. 2d0cf1dc7b.",
+      "link": "https://shop.digicelgroup.com/hkicky/224156/9D3996Y611/jexcusex/mastering__arcgis_server_development_with_javascript-pdf.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:7521075077799947932",
+      "author": "",
+      "date": "2026-05-07T21:20:07.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "I'm speaking at JS Tek 2026!",
+      "description": "",
+      "link": "https://www.youtube.com/shorts/QQN8IjYnrUc",
+      "guid": "yt:video:QQN8IjYnrUc",
+      "author": "Courtney Yatteau",
+      "date": "2026-05-07T20:37:43.000Z",
       "category": "",
       "topicsProduct": "",
       "summary": "",
