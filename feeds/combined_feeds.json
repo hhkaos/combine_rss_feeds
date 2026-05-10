@@ -1,8 +1,80 @@
 {
-  "title": "Combined ArcGIS Feeds (09-05-2026)",
+  "title": "Combined ArcGIS Feeds (10-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-09T00:44:43.035Z",
+  "lastUpdated": "2026-05-10T00:46:46.629Z",
   "items": [
+    {
+      "title": "Il programma completo della Conferenza Esri Italia - 14 maggio 2026",
+      "description": "<b>ArcGIS Maps SDK for</b> Game Engines: GIS incontra Unreal Engine e Unity Orario: 11:30 - 12:15. Sala: Sala Orange II. Alessandro Caccamo — WhereTech&nbsp;...",
+      "link": "https://www.rivistageomedia.it/geodata/il-programma-completo-della-conferenza-esri-italia-14-maggio-2026",
+      "guid": "tag:google.com,2013:googlealerts/feed:6158421368904404462",
+      "author": "",
+      "date": "2026-05-09T09:14:43.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Engenheiro de Software - Nível Pleno - Bizpoke - BeBee",
+      "description": "Projetar e implementar aplicações web geoespaciais com o <b>ArcGIS Maps SDK for</b> JavaScript, incluindo widgets customizados para Experience Builder;&nbsp;...",
+      "link": "https://bebee.com/br/jobs/engenheiro-de-software-nivel-pleno-bizpoke-sao-jose-dos-campos-sao-paulo--theirstack-679578820",
+      "guid": "tag:google.com,2013:googlealerts/feed:14406135563316314547",
+      "author": "",
+      "date": "2026-05-09T02:17:11.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "GIS ANALYST - Stellar IT Solution - Hybrid in Towson, MD, US | Dice.com",
+      "description": "NET, <b>JavaScript</b>, HTML, C#, and Python. Experience with <b>ESRI ArcGIS</b> technologies including <b>ArcGIS</b> Server, <b>ArcGIS API&#39;s</b>, <b>ArcGIS JavaScript API</b>&nbsp;...",
+      "link": "https://www.dice.com/job-detail/8263cdd1-d210-4d84-9540-b52809773b14",
+      "guid": "tag:google.com,2013:googlealerts/feed:10838669078351234696",
+      "author": "",
+      "date": "2026-05-08T22:41:06.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Sr GIS Analyst / Programmer - Information Resource Group, Inc. - Hybrid in Towson, MD, US",
+      "description": "Strong experience with <b>ESRI ArcGIS</b> technologies, including: <b>ArcGIS</b> Server; <b>ArcGIS</b> APIs and <b>JavaScript API</b>; <b>ArcGIS</b> Web AppBuilder; ArcSDE, <b>ArcGIS</b>&nbsp;...",
+      "link": "https://www.dice.com/job-detail/59aa098a-3486-49e0-8284-15bd7f90ff4a",
+      "guid": "tag:google.com,2013:googlealerts/feed:13395427523322184372",
+      "author": "",
+      "date": "2026-05-08T22:41:05.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "Arcgis Api For Javascript",
+      "description": "#EsriDevSummit2025 - <b>ArcGIS Maps SDK for</b> JavaScript: A Look Under the Hood. | ... operators ff9c848cab <b>ArcGIS Maps SDK for</b> JavaScript: Capabilities and.",
+      "link": "https://shop.digicelgroup.com/qdiscoverh/cpumpo/E223C97/175900080526/arcgis_api-for__javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:751438360876346184",
+      "author": "",
+      "date": "2026-05-08T19:56:20.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
+    {
+      "title": "<b>Arcgis</b> kml service no display 3D in ge <b>API</b> - Google Groups",
+      "description": "link <b>arcgis</b> configuration to be visited from web ge <b>api</b>? thanks four your help. Josh L&#39;s profile photo&nbsp;...",
+      "link": "https://groups.google.com/g/google-earth-browser-plugin/c/i4oG3oV1tGc",
+      "guid": "tag:google.com,2013:googlealerts/feed:14585964260839968026",
+      "author": "",
+      "date": "2026-05-08T18:27:55.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Episode 64 - Context is King",
       "description": "The number one reason folks struggle with AI tools is they don't give the model enough to work with. Context is the cheapest upgrade you can make to any AI workflow today.",
