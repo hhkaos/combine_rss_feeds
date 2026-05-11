@@ -1,8 +1,20 @@
 {
-  "title": "Combined ArcGIS Feeds (10-05-2026)",
+  "title": "Combined ArcGIS Feeds (11-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-10T00:46:46.629Z",
+  "lastUpdated": "2026-05-11T00:47:12.839Z",
   "items": [
+    {
+      "title": "详情 - 图书馆书目检索系统",
+      "description": "移动GIS开发与应用:基于<b>ArcGIS Maps SDK for</b> Kotlin. 移动GIS开发与应用:基于<b>ArcGIS Maps SDK for</b> Kotlin. 董昱著. 基于开源软件的GIS应用开发简明教程. 基于&nbsp;...",
+      "link": "https://opac.nnnu.edu.cn/mspace/searchDetailLocal/m1709446e333f8525df628affe9072f43",
+      "guid": "tag:google.com,2013:googlealerts/feed:10746314076813401206",
+      "author": "",
+      "date": "2026-05-10T00:06:06.000Z",
+      "category": "",
+      "topicsProduct": "",
+      "summary": "",
+      "processed": false
+    },
     {
       "title": "Il programma completo della Conferenza Esri Italia - 14 maggio 2026",
       "description": "<b>ArcGIS Maps SDK for</b> Game Engines: GIS incontra Unreal Engine e Unity Orario: 11:30 - 12:15. Sala: Sala Orange II. Alessandro Caccamo — WhereTech&nbsp;...",
