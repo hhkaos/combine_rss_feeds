@@ -23,6 +23,15 @@
     {
       "condition": "Si es un issue de GitHub",
       "description": "Si es un issue de GitHub"
+    },
+    {
+      "condition": "If the content is from Economic and Social Research Institute (ESRI)",
+      "description": "From the Irish Government or comes from rte.ie"
+    },
+    {
+      "condition": "Si es un dataset de datos abiertos",
+      "description": "Si es un dataset de un portal de datos abiertos o similar o endpoint de un ESRI REST API"
     }
+    
   ]
 } 

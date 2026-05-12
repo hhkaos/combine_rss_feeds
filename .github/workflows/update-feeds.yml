@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Run script
-        run: node index.js
+        run: node src/index.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 

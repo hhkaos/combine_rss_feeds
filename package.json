@@ -1,20 +1,18 @@
 {
-  "name": "arcgis-rss-agent",
+  "name": "combine_rss_feeds",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Combine multiple RSS feeds into one",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fast-xml-parser": "^5.2.3",
-    "fs": "^0.0.1-security",
-    "openai": "^5.1.1",
-    "path": "^0.12.7",
+    "rss-parser": "^3.13.0",
     "rss": "^1.2.2",
-    "rss-parser": "^3.13.0"
-  },
-  "description": ""
+    "fast-xml-parser": "^4.2.7",
+    "openai": "^4.28.0"
+  }
 }
