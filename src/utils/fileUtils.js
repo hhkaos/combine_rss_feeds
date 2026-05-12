@@ -32,6 +32,40 @@ function saveJsonFeed(filePath, data) {
   }
 }
 
+function getDecisionId(url) {
+  return String(url || '').trim().toLowerCase();
+}
+
+function loadCurationDecisions(filePath) {
+  const decisions = new Map();
+
+  try {
+    if (!fs.existsSync(filePath)) {
+      return decisions;
+    }
+
+    const lines = fs.readFileSync(filePath, 'utf8')
+      .split(/\r?\n/)
+      .filter(line => line.trim());
+
+    lines.forEach((line, index) => {
+      try {
+        const decision = JSON.parse(line);
+        const id = getDecisionId(decision.url || decision.id);
+        if (id) {
+          decisions.set(id, decision);
+        }
+      } catch (err) {
+        console.warn(`Invalid curation decision on line ${index + 1}: ${err.message}`);
+      }
+    });
+  } catch (err) {
+    console.error(`Error loading curation decisions: ${err.message}`);
+  }
+
+  return decisions;
+}
+
 // Format current date as DD-MM-YYYY
 function getDateString() {
   const now = new Date();
@@ -44,6 +78,8 @@ function getDateString() {
 module.exports = {
   ensureDirSync,
   loadJsonFeed,
+  loadCurationDecisions,
+  getDecisionId,
   saveJsonFeed,
   getDateString
 }; 

@@ -3,12 +3,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <script type="module" src=https://js.arcgis.com/calcite-components/2.13.0/calcite.esm.js></script>
-    <link rel="stylesheet" type="text/css" href=https://js.arcgis.com/calcite-components/2.13.0/calcite.css />
+    <link rel="icon" href="data:,">
     <title>Esri Dev. content - Activity Monitor</title>
     <script>
       // Load the table
       try {
+        let currentReviewTab = 'pending';
+        let currentPage = 1;
+        let feedItems = [];
+        let decisionsCache = {};
+        let decisionsHydrated = false;
+        let itemByDecisionId = new Map();
+        let ignoreDialogItem = null;
+        const PAGE_SIZE = 100;
+        const DECISION_STORAGE_KEY = 'curationDecisionsV1';
+        const CUSTOM_IGNORE_REASONS_KEY = 'customIgnoreReasonsV1';
+        const REVIEW_STATUSES = ['accepted', 'rejected', 'needs_rule'];
+        const ARCHIVED_STATUSES = ['archived'];
+        const IGNORE_REASONS = [
+          { value: 'irrelevant', label: 'No relevante' },
+          { value: 'job_offer', label: 'Empleo' },
+          { value: 'forum_question', label: 'Foro/pregunta' },
+          { value: 'dataset_or_rest_endpoint', label: 'Dataset/API' },
+          { value: 'wrong_esri', label: 'Otro ESRI' },
+          { value: 'duplicate', label: 'Duplicado' },
+          { value: 'old_content', label: 'Antiguo' },
+          { value: 'spam_pdf', label: 'Spam/PDF' },
+          { value: 'bad_ai_classification', label: 'IA falló' },
+          { value: 'other', label: 'Otro' }
+        ];
+
         // Load and process the JSON feed
         async function loadFeed() {
           try {
@@ -25,7 +49,16 @@
         async function initializeApp() {
           try {
             const items = await loadFeed();
-            populateTable(items);
+            feedItems = items;
+            indexFeedItems();
+            await loadPersistedDecisions();
+            cleanupAcceptedDecisions();
+            includeDecisionOnlyItems();
+            indexFeedItems();
+            renderReviewTable();
+            setupViewSwitching();
+            setupCurationControls();
+            updateDecisionCount();
 
             if(!localStorage.getItem("tourDisplayed")){
               introJs().start();
@@ -36,30 +69,504 @@
           }
         }
 
-        // Populate the table with items
-        function populateTable(items) {
+        function setupViewSwitching() {
+          document.querySelector('#reviewTabs').addEventListener('click', event => {
+            const tabButton = event.target.closest('[data-review-tab]');
+            if (!tabButton) return;
+
+            currentReviewTab = tabButton.dataset.reviewTab;
+            currentPage = 1;
+            renderReviewTable();
+          });
+        }
+
+        function setupCurationControls() {
+          document.querySelector('#exportDecisionsButton').addEventListener('click', exportDecisions);
+          document.querySelector('#syncDecisionsButton').addEventListener('click', async () => {
+            clearDecisions();
+            const result = await loadPersistedDecisions();
+            cleanupAcceptedDecisions();
+            includeDecisionOnlyItems();
+            indexFeedItems();
+            currentReviewTab = 'pending';
+            currentPage = 1;
+            renderReviewTable();
+            updateSyncStatus(result);
+          });
+          document.querySelector('#importDecisionsInput').addEventListener('change', importDecisionFile);
+          document.querySelector('#infoButton').addEventListener('click', () => {
+            document.querySelector('#infoDialog').showModal();
+          });
+          document.querySelector('#closeInfoDialog').addEventListener('click', () => {
+            document.querySelector('#infoDialog').close();
+          });
+          document.querySelector('#prevPageButton').addEventListener('click', () => {
+            if (currentPage > 1) {
+              currentPage--;
+              renderReviewTable();
+            }
+          });
+          document.querySelector('#nextPageButton').addEventListener('click', () => {
+            const totalPages = getTotalPages(getItemsForCurrentTab());
+            if (currentPage < totalPages) {
+              currentPage++;
+              renderReviewTable();
+            }
+          });
+          document.querySelector('#closeIgnoreDialog').addEventListener('click', closeIgnoreDialog);
+          document.querySelector('#ignoreDialog').addEventListener('close', () => {
+            ignoreDialogItem = null;
+          });
+          document.querySelector('#addCustomReasonButton').addEventListener('click', addCustomIgnoreReason);
+          document.querySelector('#customReasonInput').addEventListener('keydown', event => {
+            if (event.key === 'Enter') {
+              event.preventDefault();
+              addCustomIgnoreReason();
+            }
+          });
+          document.querySelector('#ignoreReasonList').addEventListener('click', event => {
+            const button = event.target.closest('[data-ignore-reason]');
+            if (!button || !ignoreDialogItem) return;
+
+            setDecisionAndUpdateRow(ignoreDialogItem, 'rejected', button.dataset.ignoreReason);
+            closeIgnoreDialog();
+          });
+
+          document.querySelector('#feedTable').addEventListener('click', event => {
+            const ignoreButton = event.target.closest('[data-open-ignore]');
+            if (ignoreButton) {
+              const row = ignoreButton.closest('tr');
+              const item = itemByDecisionId.get(row.dataset.decisionId);
+              if (item) openIgnoreDialog(item);
+              return;
+            }
+
+            const button = event.target.closest('[data-action]');
+            if (!button) return;
+
+            const row = button.closest('tr');
+            const item = itemByDecisionId.get(row.dataset.decisionId);
+            if (!item) return;
+
+            setDecisionAndUpdateRow(item, button.dataset.action, getDefaultReason(button.dataset.action));
+          });
+        }
+
+        function setDecisionAndUpdateRow(item, status, reason) {
+          setDecision(item, status, reason);
+          renderReviewTable();
+          updateDecisionCount();
+        }
+
+        function resetTable() {
+          const tbody = document.querySelector('#feedTableBody');
+          tbody.textContent = '';
+          return tbody;
+        }
+
+        function addCell(row, value, options = {}) {
+          const cell = document.createElement('td');
+          if (options.className) cell.classList.add(...options.className.split(' '));
+          if (options.alignment) cell.classList.add(`align-${options.alignment}`);
+          if (options.html) {
+            cell.innerHTML = value;
+          } else {
+            cell.textContent = value;
+          }
+          row.appendChild(cell);
+        }
+
+        function escapeHtml(value) {
+          return String(value || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+        }
+
+        function loadDecisions() {
+          if (decisionsHydrated) return decisionsCache;
+
+          try {
+            decisionsCache = JSON.parse(localStorage.getItem(DECISION_STORAGE_KEY)) || {};
+          } catch (error) {
+            console.error('Error loading curation decisions:', error);
+            decisionsCache = {};
+          }
+
+          decisionsHydrated = true;
+          return decisionsCache;
+        }
+
+        function saveDecisions(decisions) {
+          decisionsCache = decisions;
+          decisionsHydrated = true;
+          localStorage.setItem(DECISION_STORAGE_KEY, JSON.stringify(decisions));
+        }
+
+        function clearDecisions() {
+          decisionsCache = {};
+          decisionsHydrated = true;
+          localStorage.removeItem(DECISION_STORAGE_KEY);
+        }
+
+        function cleanupAcceptedDecisions() {
+          const decisions = loadDecisions();
+          const cleanedDecisions = {};
+
+          Object.entries(decisions).forEach(([id, decision]) => {
+            if (decision.reason === 'baseline_existing_json') return;
+            cleanedDecisions[id] = decision;
+          });
+
+          saveDecisions(cleanedDecisions);
+        }
+
+        function includeDecisionOnlyItems() {
+          const knownUrls = new Set(feedItems.map(item => decisionId(item.link)));
+
+          Object.values(loadDecisions()).forEach(decision => {
+            const id = decisionId(decision.url || decision.id);
+            if (!id || knownUrls.has(id) || !REVIEW_STATUSES.includes(decision.status)) return;
+
+            feedItems.push({
+              title: decision.title || decision.url || 'Untitled item',
+              description: decision.summary || '',
+              link: decision.url || decision.id,
+              guid: decision.url || decision.id,
+              author: '',
+              date: decision.reviewedAt || '',
+              category: decision.category || '',
+              topicsProduct: decision.topicsProduct || '',
+              summary: decision.summary || '',
+              processed: true,
+              fromDecisionFile: true
+            });
+            knownUrls.add(id);
+          });
+        }
+
+        function parseDecisionJsonl(jsonl) {
+          const fileDecisions = {};
+
+          jsonl.split(/\r?\n/).forEach(line => {
+            if (!line.trim()) return;
+            try {
+              const decision = JSON.parse(line);
+              const id = decisionId(decision.url || decision.id);
+              if (id) fileDecisions[id] = decision;
+            } catch (error) {
+              console.error('Error parsing curation decision:', error);
+            }
+          });
+
+          return fileDecisions;
+        }
+
+        function mergePersistedDecisions(fileDecisions) {
+          const knownStatuses = [...REVIEW_STATUSES, ...ARCHIVED_STATUSES];
+          const localDecisions = Object.fromEntries(
+            Object.entries(loadDecisions()).filter(([, decision]) => (
+              knownStatuses.includes(decision.status) && decision.reason !== 'baseline_existing_json'
+            ))
+          );
+
+          saveDecisions({ ...fileDecisions, ...localDecisions });
+        }
+
+        function updateSyncStatus(result) {
+          const status = document.querySelector('#syncStatus');
+          if (!status || !result) return;
+
+          status.innerText = result.ok
+            ? `Archivo cargado: ${result.count} decisiones`
+            : `No se pudo cargar ${result.path}`;
+        }
+
+        async function loadPersistedDecisions() {
+          const path = `data/curation_decisions.jsonl?ts=${Date.now()}`;
+
+          try {
+            const response = await fetch(path, { cache: 'no-store' });
+            if (!response.ok) return { ok: false, path };
+
+            const jsonl = await response.text();
+            const fileDecisions = parseDecisionJsonl(jsonl);
+            mergePersistedDecisions(fileDecisions);
+
+            return { ok: true, count: Object.keys(fileDecisions).length, path };
+          } catch (error) {
+            console.info('No persisted curation decisions found yet.');
+            return { ok: false, path };
+          }
+        }
+
+        async function importDecisionFile(event) {
+          const file = event.target.files?.[0];
+          if (!file) return;
+
+          const jsonl = await file.text();
+          const fileDecisions = parseDecisionJsonl(jsonl);
+          clearDecisions();
+          mergePersistedDecisions(fileDecisions);
+          cleanupAcceptedDecisions();
+          includeDecisionOnlyItems();
+          indexFeedItems();
+          currentReviewTab = 'pending';
+          currentPage = 1;
+          renderReviewTable();
+          updateSyncStatus({ ok: true, count: Object.keys(fileDecisions).length, path: file.name });
+          event.target.value = '';
+        }
+
+        function loadCustomIgnoreReasons() {
+          try {
+            return JSON.parse(localStorage.getItem(CUSTOM_IGNORE_REASONS_KEY)) || [];
+          } catch (error) {
+            console.error('Error loading custom ignore reasons:', error);
+            return [];
+          }
+        }
+
+        function saveCustomIgnoreReasons(reasons) {
+          localStorage.setItem(CUSTOM_IGNORE_REASONS_KEY, JSON.stringify(reasons));
+        }
+
+        function decisionId(url) {
+          return String(url || '').trim().toLowerCase();
+        }
+
+        function indexFeedItems() {
+          itemByDecisionId = new Map(feedItems.map(item => [decisionId(item.link), item]));
+        }
+
+        function getDecision(item) {
+          return loadDecisions()[decisionId(item.link)] || null;
+        }
+
+        function setDecision(item, status, reason) {
+          const decisions = loadDecisions();
+          const id = decisionId(item.link);
+          decisions[id] = {
+            id,
+            url: item.link,
+            status,
+            reason,
+            reviewedAt: new Date().toISOString(),
+            title: item.title || '',
+            category: item.category || '',
+            topicsProduct: item.topicsProduct || '',
+            summary: item.summary || '',
+            notes: ''
+          };
+          saveDecisions(decisions);
+        }
+
+        function formatStatus(status) {
+          const labels = {
+            accepted: 'Añadido',
+            rejected: 'Ignorado',
+            needs_rule: 'Bloqueado',
+            archived: 'Archivado'
+          };
+          return labels[status] || 'Pendiente';
+        }
+
+        function getDefaultReason(status) {
+          const reasons = {
+            accepted: 'manual_accept',
+            needs_rule: 'block_similar'
+          };
+          return reasons[status] || 'other';
+        }
+
+        function getIgnoreReasons() {
+          const customReasons = loadCustomIgnoreReasons().map(reason => ({
+            value: reason,
+            label: reason,
+            custom: true
+          }));
+          return [...IGNORE_REASONS, ...customReasons];
+        }
+
+        function renderIgnoreReasons() {
+          document.querySelector('#ignoreReasonList').innerHTML = getIgnoreReasons().map(reason => {
+            const customLabel = reason.custom ? ' data-custom-reason="true"' : '';
+            return `<button type="button" class="reason-button" data-ignore-reason="${escapeHtml(reason.value)}"${customLabel}>${escapeHtml(reason.label)}</button>`;
+          }).join('');
+        }
+
+        function openIgnoreDialog(item) {
+          ignoreDialogItem = item;
+          document.querySelector('#ignoreDialogTitle').innerText = item.title || 'Untitled item';
+          document.querySelector('#customReasonInput').value = '';
+          renderIgnoreReasons();
+          document.querySelector('#ignoreDialog').showModal();
+        }
+
+        function closeIgnoreDialog() {
+          document.querySelector('#ignoreDialog').close();
+          ignoreDialogItem = null;
+        }
+
+        function addCustomIgnoreReason() {
+          const input = document.querySelector('#customReasonInput');
+          const reason = input.value.trim();
+          if (!reason) return;
+
+          const existingReasons = loadCustomIgnoreReasons();
+          const alreadyExists = getIgnoreReasons().some(existingReason => (
+            existingReason.value.toLowerCase() === reason.toLowerCase()
+          ));
+
+          if (!alreadyExists) {
+            saveCustomIgnoreReasons([...existingReasons, reason].sort((a, b) => a.localeCompare(b)));
+          }
+
+          input.value = '';
+          renderIgnoreReasons();
+        }
+
+        function getActionControls(item) {
+          return `<div class="review-controls">
+            <div class="primary-actions">
+              <button type="button" class="action-keep" data-action="accepted">Añadir</button>
+              <button type="button" class="action-ignore" data-open-ignore="true">Ignorar</button>
+              <button type="button" data-action="needs_rule" title="Marcar este caso para bloquear contenido parecido en el futuro">Bloquear similares</button>
+            </div>
+          </div>`;
+        }
+
+        function exportDecisions() {
+          const decisions = Object.values(loadDecisions())
+            .sort((a, b) => String(a.reviewedAt).localeCompare(String(b.reviewedAt)));
+
+          const jsonl = decisions.map(decision => JSON.stringify(decision)).join('\n');
+          const blob = new Blob([jsonl ? `${jsonl}\n` : ''], { type: 'application/x-ndjson' });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = 'curation_decisions.jsonl';
+          link.click();
+          URL.revokeObjectURL(url);
+        }
+
+        function updateDecisionCount(counts = getReviewCounts()) {
+          const reviewedCount = counts.accepted + counts.rejected + counts.needs_rule + counts.archived;
+          document.querySelector('#decisionCount').innerText = String(reviewedCount);
+          Object.entries(counts).forEach(([tab, count]) => {
+            const countElement = document.querySelector(`[data-review-count="${tab}"]`);
+            if (countElement) countElement.innerText = String(count);
+          });
+        }
+
+        function getItemStatus(item) {
+          const status = getDecision(item)?.status;
+          if (ARCHIVED_STATUSES.includes(status)) return status;
+          return REVIEW_STATUSES.includes(status) ? status : 'pending';
+        }
+
+        function getReviewCounts() {
+          return buildReviewState().counts;
+        }
+
+        function buildReviewState() {
+          const counts = {
+            pending: 0,
+            accepted: 0,
+            rejected: 0,
+            needs_rule: 0,
+            archived: 0
+          };
+          const itemsByStatus = {
+            pending: [],
+            accepted: [],
+            rejected: [],
+            needs_rule: [],
+            archived: []
+          };
+
+          feedItems.forEach(item => {
+            if (item.ignored) return;
+            const status = getItemStatus(item);
+            if (!itemsByStatus[status]) return;
+
+            counts[status]++;
+            itemsByStatus[status].push(item);
+          });
+
+          return {
+            counts,
+            itemsByStatus
+          };
+        }
+
+        function getItemsForCurrentTab() {
+          return buildReviewState().itemsByStatus[currentReviewTab] || [];
+        }
+
+        function getTotalPages(items) {
+          return Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+        }
+
+        function updateTabs() {
+          document.querySelectorAll('[data-review-tab]').forEach(tabButton => {
+            const isActive = tabButton.dataset.reviewTab === currentReviewTab;
+            tabButton.classList.toggle('active-tab', isActive);
+            tabButton.setAttribute('aria-selected', String(isActive));
+          });
+        }
+
+        function updatePagination(items) {
+          const totalPages = getTotalPages(items);
+          if (currentPage > totalPages) currentPage = totalPages;
+          const start = items.length === 0 ? 0 : ((currentPage - 1) * PAGE_SIZE) + 1;
+          const end = Math.min(currentPage * PAGE_SIZE, items.length);
+
+          document.querySelector('#paginationRange').innerText = `${start}-${end}`;
+          document.querySelector('#paginationTotal').innerText = String(items.length);
+          document.querySelector('#paginationPage').innerText = `${currentPage} / ${totalPages}`;
+          document.querySelector('#prevPageButton').disabled = currentPage <= 1;
+          document.querySelector('#nextPageButton').disabled = currentPage >= totalPages;
+        }
+
+        function renderReviewTable() {
+          const reviewState = buildReviewState();
+          const items = reviewState.itemsByStatus[currentReviewTab] || [];
+
+          updateTabs();
+          updateDecisionCount(reviewState.counts);
+          updatePagination(items);
+          populateFeedTable(items.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE));
+        }
+
+        function populateFeedTable(items) {
           if ("content" in document.createElement("template")) {
-            const tbody = document.querySelector("calcite-table");
-            const template = document.querySelector("#templateRow");
+            const tbody = resetTable();
+            const fragment = document.createDocumentFragment();
             
             items.filter(item => !item.ignored).forEach(item => {
-              const clone = template.content.cloneNode(true);
-              const row = clone.firstElementChild;
-              let isFeatured = '';
-              if(item.featured){
-                clone.firstElementChild.setAttribute("class","selected")
-                isFeatured = '⭐';
-              }
-              let td = clone.querySelectorAll("calcite-table-cell");
+              const row = document.createElement('tr');
+              const decision = getDecision(item);
+              row.dataset.decisionId = decisionId(item.link);
+              row.dataset.status = decision?.status || 'pending';
+              row.dataset.reason = decision?.reason || '';
+              addCell(row, formatStatus(decision?.status), { alignment: 'center', className: 'status-cell' });
+              row.lastChild.setAttribute('data-status-cell', '');
+              addCell(row, getActionControls(item), { html: true, className: 'review-cell' });
 
-              td[0].innerText = formatDate(item.date);
               if(item.link && item.link.toLowerCase() != 'n/a'){
-                td[1].innerHTML = `<a href="${item.link}" target="_blank" class="emoji">${isFeatured} ${item.title}</a>`;
+                addCell(row, formatDate(item.date), { alignment: 'center' });
+                addCell(row, `<a href="${escapeHtml(item.link)}" target="_blank" class="emoji">${escapeHtml(item.title)}</a>`, { html: true });
               }else{
-                td[1].innerHTML = `${isFeatured} ${item.title}`;
+                addCell(row, formatDate(item.date), { alignment: 'center' });
+                addCell(row, item.title);
               }
-              tbody.appendChild(clone);
+              fragment.appendChild(row);
             });
+
+            tbody.appendChild(fragment);
           }
         }
 
@@ -72,9 +579,6 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.css" integrity="sha512-4OzqLjfh1aJa7M33b5+h0CSx0Q3i9Qaxlrr1T/Z+Vz+9zs5A7GM3T3MFKXoreghi3iDOSbkPMXiMBhFO7UBW/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-      calcite-table {
-          width: 100%;
-      }
       .container{
         max-width: 960px;
         margin: 0 auto;
@@ -128,6 +632,283 @@
       .emoji{
         text-decoration: none;
       }
+      .view-switcher a{
+        display: inline-block;
+        padding: 0.2rem 0;
+      }
+      .view-switcher a.active-view{
+        color: #1a1a1a;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .url-cell a{
+        overflow-wrap: anywhere;
+      }
+      .page-heading{
+        align-items: center;
+        display: flex;
+        gap: 0.6rem;
+      }
+      .info-button{
+        align-items: center;
+        background: #ffffff;
+        border: 1px solid #8f8f8f;
+        border-radius: 50%;
+        color: #2c3e50;
+        cursor: pointer;
+        display: inline-flex;
+        font: 700 0.95rem Arial, sans-serif;
+        height: 28px;
+        justify-content: center;
+        margin-top: 0.35rem;
+        width: 28px;
+      }
+      .info-button:hover{
+        background: #f3f3f3;
+      }
+      .review-tabs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0 0.75rem;
+      }
+      .review-tabs button{
+        background: #ffffff;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        color: #1f1f1f;
+        cursor: pointer;
+        font: inherit;
+        min-height: 34px;
+        padding: 0.35rem 0.7rem;
+      }
+      .review-tabs button:hover,
+      .review-tabs button.active-tab{
+        background: #eef6fb;
+        border-color: #00619b;
+        color: #004b7a;
+        font-weight: 700;
+      }
+      .review-tabs span{
+        color: #666;
+        font-weight: 400;
+        margin-left: 0.25rem;
+      }
+      .curation-toolbar{
+        align-items: center;
+        display: flex;
+        gap: 0.75rem;
+        justify-content: flex-end;
+        margin: 0.75rem 0;
+      }
+      .pagination{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+        justify-content: flex-end;
+        margin: 0.75rem 0;
+      }
+      .pagination button{
+        background: #ffffff;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        color: #1f1f1f;
+        cursor: pointer;
+        font: inherit;
+        min-height: 30px;
+        padding: 0.25rem 0.55rem;
+      }
+      .pagination button:disabled{
+        color: #888;
+        cursor: default;
+        opacity: 0.55;
+      }
+      .curation-toolbar button,
+      .import-decisions,
+      .review-controls button{
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        background: #ffffff;
+        color: #1f1f1f;
+        font: inherit;
+        min-height: 30px;
+      }
+      .curation-toolbar button,
+      .import-decisions,
+      .review-controls button{
+        cursor: pointer;
+        padding: 0.25rem 0.55rem;
+      }
+      .curation-toolbar button:hover,
+      .import-decisions:hover,
+      .review-controls button:hover{
+        background: #f3f3f3;
+      }
+      .import-decisions input{
+        display: none;
+      }
+      .sync-status{
+        color: #666;
+        font-size: 0.9rem;
+        margin: -0.35rem 0 0.75rem;
+        text-align: right;
+      }
+      .review-controls{
+        display: grid;
+        gap: 0.45rem;
+        min-width: 260px;
+      }
+      .primary-actions,
+      .reason-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+      .primary-actions .action-keep{
+        border-color: #2e7d32;
+        color: #1b5e20;
+        font-weight: 700;
+      }
+      .primary-actions .action-ignore{
+        border-color: #a32929;
+        color: #8a1f1f;
+        font-weight: 700;
+      }
+      .reason-button{
+        font-size: 0.9rem;
+      }
+      .ignore-dialog{
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
+        max-width: 680px;
+        padding: 0;
+        width: min(92vw, 680px);
+      }
+      .ignore-dialog::backdrop{
+        background: rgba(0, 0, 0, 0.35);
+      }
+      .dialog-content{
+        display: grid;
+        gap: 1rem;
+        padding: 1.25rem;
+      }
+      .dialog-header{
+        align-items: start;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+      }
+      .dialog-header h2{
+        font-size: 1.1rem;
+        margin: 0;
+      }
+      .dialog-title{
+        color: #4a4a4a;
+        line-height: 1.4;
+        margin: 0.35rem 0 0;
+      }
+      .dialog-close{
+        background: #ffffff;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        cursor: pointer;
+        font: inherit;
+        min-height: 30px;
+      }
+      .reason-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .reason-buttons .reason-button{
+        background: #ffffff;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        color: #1f1f1f;
+        cursor: pointer;
+        font: inherit;
+        min-height: 34px;
+        padding: 0.35rem 0.65rem;
+      }
+      .reason-buttons .reason-button:hover{
+        background: #fff1f1;
+        border-color: #a32929;
+        color: #8a1f1f;
+      }
+      .custom-reason{
+        display: flex;
+        gap: 0.5rem;
+      }
+      .custom-reason input{
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        flex: 1;
+        font: inherit;
+        min-height: 34px;
+        padding: 0 0.55rem;
+      }
+      .custom-reason button{
+        background: #ffffff;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        cursor: pointer;
+        font: inherit;
+        padding: 0.35rem 0.65rem;
+      }
+      .decision-help{
+        display: grid;
+        gap: 0.35rem;
+      }
+      .decision-help p{
+        margin: 0;
+      }
+      .status-cell{
+        font-weight: 700;
+        min-width: 82px;
+      }
+      .table-wrap{
+        overflow-x: auto;
+      }
+      .feed-table{
+        border-collapse: collapse;
+        border: 1px solid #d3d3d3;
+        width: 100%;
+      }
+      .feed-table th,
+      .feed-table td{
+        border-bottom: 1px solid #d3d3d3;
+        padding: 0.65rem 0.75rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      .feed-table th{
+        background: #f8f8f8;
+        color: #333;
+        font-weight: 700;
+      }
+      .feed-table tbody tr:nth-child(odd){
+        background: #f3f3f3;
+      }
+      .feed-table tbody tr[data-status="accepted"]{
+        background: #eef8ef;
+      }
+      .feed-table tbody tr[data-status="rejected"]{
+        background: #fff1f1;
+      }
+      .feed-table tbody tr[data-status="needs_rule"]{
+        background: #fff8df;
+      }
+      .feed-table tbody tr[data-status="archived"]{
+        background: #f3f0ff;
+      }
+      .feed-table .align-center{
+        text-align: center;
+      }
+      .feed-table a{
+        overflow-wrap: anywhere;
+      }
       @media only screen and (max-width: 850px) {
         h1 {
           font-size: 1.2rem;
@@ -137,12 +918,6 @@
         .ribbon {
           display: none;
         }
-      }
-      .selected{
-        --calcite-table-row-background: #ade9ff
-      }
-      calcite-table-row:nth-child(odd of :not(.hidden)){
-        --calcite-table-row-background: #f3f3f3
       }
       .hidden{
         display: none;
@@ -156,11 +931,21 @@
         bottom: 10px;
         right: 10px;
       }
-      #help img{
-        width: 25px;
-      }
-      #help:hover{
+      #help button{
+        align-items: center;
+        background: #ffffff;
+        border: 1px solid #8f8f8f;
+        border-radius: 50%;
+        color: #2c3e50;
         cursor: pointer;
+        display: inline-flex;
+        font: 700 1rem Arial, sans-serif;
+        height: 32px;
+        justify-content: center;
+        width: 32px;
+      }
+      #help button:hover{
+        background: #f3f3f3;
       }
   </style>
 </head>
@@ -169,37 +954,108 @@
   <div class="container">
     
     <div class="row">
-      <h1 style="margin-bottom: 0;">Auto-generated feed for Esri Dev. content</h1>
-      <p>
+      <div class="page-heading">
+        <h1 style="margin-bottom: 0;">Auto-generated feed for Esri Dev. content</h1>
+        <button type="button" id="infoButton" class="info-button" aria-label="Explicar decisiones">i</button>
+      </div>
+      <p class="view-switcher">
         <a href="https://www.rauljimenez.info/esridevs-social-activity/">Check manually curated feed for Esri Dev. content</a>
-        |
-        <a href="https://github.com/hhkaos/combine_rss_feeds/blob/main/ignored_items.csv">Ignored items</a>
       </p>
       </span>
     </div>
 
-    <div data-intro="This timeline ⏳ include resources for developers using ArcGIS.<br/><br/>The LinkedIn and X (former Twitter) columns contain existing social media messages <b>we would like you to consider liking 👍🏻 or reposting 🔁</b>" data-step="1">
-      <calcite-table caption="Simple table" interaction-mode="static" bordered>
-          <calcite-table-row slot="table-header">
-              <calcite-table-header heading="Date" alignment="center"></calcite-table-header>
-              <calcite-table-header heading="Content title"></calcite-table-header>
-          </calcite-table-row>
-      </calcite-table>
+    <div id="reviewTabs" class="review-tabs" role="tablist" aria-label="Estados de revisión">
+      <button type="button" data-review-tab="pending" class="active-tab" role="tab" aria-selected="true">Pendientes <span data-review-count="pending">0</span></button>
+      <button type="button" data-review-tab="accepted" role="tab" aria-selected="false">Añadidos <span data-review-count="accepted">0</span></button>
+      <button type="button" data-review-tab="rejected" role="tab" aria-selected="false">Ignorados <span data-review-count="rejected">0</span></button>
+      <button type="button" data-review-tab="needs_rule" role="tab" aria-selected="false">Bloqueados <span data-review-count="needs_rule">0</span></button>
+      <button type="button" data-review-tab="archived" role="tab" aria-selected="false">Archivados <span data-review-count="archived">0</span></button>
+    </div>
+
+    <div class="curation-toolbar">
+      <span><span id="decisionCount">0</span> decisiones</span>
+      <button type="button" id="syncDecisionsButton">Sincronizar desde archivo</button>
+      <label class="import-decisions">
+        Importar JSONL
+        <input type="file" id="importDecisionsInput" accept=".jsonl,application/x-ndjson,application/json">
+      </label>
+      <button type="button" id="exportDecisionsButton">Exportar JSONL</button>
+    </div>
+    <p id="syncStatus" class="sync-status"></p>
+
+    <div class="pagination">
+      <button type="button" id="prevPageButton">Anterior</button>
+      <span>Mostrando <span id="paginationRange">0-0</span> de <span id="paginationTotal">0</span></span>
+      <span>Página <span id="paginationPage">1 / 1</span></span>
+      <button type="button" id="nextPageButton">Siguiente</button>
+    </div>
+
+    <div id="tableIntro" class="table-wrap" data-intro="This timeline ⏳ include resources for developers using ArcGIS.<br/><br/>The LinkedIn and X (former Twitter) columns contain existing social media messages <b>we would like you to consider liking 👍🏻 or reposting 🔁</b>" data-step="1">
+      <table id="feedTable" class="feed-table">
+        <caption class="hidden">Simple table</caption>
+        <thead>
+          <tr>
+            <th class="align-center" scope="col">Estado</th>
+            <th scope="col">Decisión</th>
+            <th class="align-center" scope="col">Fecha</th>
+            <th scope="col">Contenido</th>
+          </tr>
+        </thead>
+        <tbody id="feedTableBody"></tbody>
+      </table>
     </div>
   </div>
 
   <a href='https://github.com/hhkaos/combine_rss_feeds' class="ribbon" target="blank">CONTRIBUTE</a>
 
   <div id="help">
-    <img src="./assets/images/help.png" />
+    <button type="button" aria-label="Abrir ayuda">?</button>
   </div>
 
-  <template id="templateRow">
-    <calcite-table-row>
-      <calcite-table-cell alignment="center"></calcite-table-cell>
-      <calcite-table-cell></calcite-table-cell>
-    </calcite-table-row>
-  </template>
+  <dialog id="ignoreDialog" class="ignore-dialog">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <div>
+          <h2>Ignorar contenido</h2>
+          <p id="ignoreDialogTitle" class="dialog-title"></p>
+        </div>
+        <button type="button" id="closeIgnoreDialog" class="dialog-close">Cerrar</button>
+      </div>
+
+      <div>
+        <p>Elige la razón. Esta decisión se guardará para exportarla y usarla en el script.</p>
+        <div id="ignoreReasonList" class="reason-buttons"></div>
+      </div>
+
+      <div>
+        <p>Añadir una razón nueva</p>
+        <div class="custom-reason">
+          <input id="customReasonInput" type="text" placeholder="Ej. marketplace, nota de prensa, contenido duplicado..." />
+          <button type="button" id="addCustomReasonButton">Recordar razón</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="infoDialog" class="ignore-dialog">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <div>
+          <h2>Cómo clasificar contenido</h2>
+          <p class="dialog-title">Las pestañas organizan los items según la decisión que hayas tomado. Puedes cambiar la decisión desde cualquier pestaña.</p>
+        </div>
+        <button type="button" id="closeInfoDialog" class="dialog-close">Cerrar</button>
+      </div>
+
+      <div class="decision-help">
+        <p><strong>Añadir</strong>: este item sí debe pasar al feed curado.</p>
+        <p><strong>Ignorar</strong>: este item concreto no interesa. Elige una razón para poder analizar después qué se está descartando.</p>
+        <p><strong>Bloquear similares</strong>: este item revela un patrón que quieres automatizar, como un dominio, un tipo de URL, empleo, spam o datasets que deberían filtrarse en futuras ejecuciones.</p>
+        <p><strong>Sincronizar desde archivo</strong>: borra las decisiones locales del navegador y vuelve a cargar la línea base guardada en data/curation_decisions.jsonl.</p>
+        <p><strong>Importar JSONL</strong>: usa esta opción si la página no puede leer el archivo automáticamente, por ejemplo si la estás abriendo sin servidor local.</p>
+      </div>
+    </div>
+  </dialog>
 
   <script>
     document.querySelector('#help').addEventListener("click", e => introJs().start())

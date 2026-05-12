@@ -2,7 +2,7 @@ const Parser = require('rss-parser');
 const RSS = require('rss');
 const fs = require('fs');
 const { OpenAI } = require('openai');
-const { loadJsonFeed, saveJsonFeed } = require('../utils/fileUtils');
+const { getDecisionId, loadCurationDecisions, loadJsonFeed, saveJsonFeed } = require('../utils/fileUtils');
 const { cleanGoogleRedirectUrl, normalizeYouTubeUrl } = require('../utils/urlUtils');
 
 // Colores para la consola
@@ -23,6 +23,7 @@ class FeedService {
   constructor(config) {
     this.parser = new Parser();
     this.config = config;
+    this.curationDecisions = loadCurationDecisions(config.curationDecisionsPath || '');
     this.openai = new OpenAI({
       apiKey: process.env.OPENAI_API_KEY
     });
@@ -162,6 +163,35 @@ Descripción: ${cleanDesc}`;
     }
   }
 
+  applyManualDecision(item) {
+    const decision = this.curationDecisions.get(getDecisionId(item.link));
+    if (!decision) {
+      return false;
+    }
+
+    item.manualStatus = decision.status;
+    item.manualReason = decision.reason || '';
+    item.manualNotes = decision.notes || '';
+    item.reviewedAt = decision.reviewedAt || item.reviewedAt;
+
+    if (decision.status === 'rejected') {
+      item.ignored = true;
+      item.ignoreReason = decision.reason || 'manual rejection';
+      item.processed = true;
+    } else if (decision.status === 'accepted') {
+      item.ignored = false;
+      item.ignoreReason = '';
+      item.processed = true;
+    } else if (decision.status === 'needs_rule') {
+      item.needsReview = true;
+      item.processed = true;
+    } else if (decision.status === 'archived') {
+      item.processed = true;
+    }
+
+    return true;
+  }
+
   async combineFeeds(feedUrls, options) {
     console.log(`${colors.cyan}Iniciando combineFeeds con ${feedUrls.length} URLs${colors.reset}`);
     const { title, description, outputPath, filterLastHours, processWithOpenAI, jsonOutputPath } = options;
@@ -277,6 +307,16 @@ Descripción: ${cleanDesc}`;
     // Combine with existing items and sort newest first
     const combinedItems = [...existingItems, ...allItems];
     combinedItems.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    let manualDecisionCount = 0;
+    combinedItems.forEach(item => {
+      if (this.applyManualDecision(item)) {
+        manualDecisionCount++;
+      }
+    });
+    if (manualDecisionCount > 0) {
+      console.log(`${colors.green}Aplicadas ${manualDecisionCount} decisiones manuales de curación${colors.reset}`);
+    }
 
     // Evaluate ignore_rules with OpenAI if enabled (only unprocessed)
     if (processWithOpenAI) {

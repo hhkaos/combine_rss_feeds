@@ -11,3 +11,9 @@ Results can be explored in:
 ## Requirements
 
 It uses and OpenAI API key to summarize, extract the author, categorize, etc.
+
+## Manual curation
+
+The review page lets you mark feed items as accepted, rejected, or blocked. Blocked items are stored as `needs_rule`, meaning they are candidates for blocking similar content automatically later. Historical items that were already processed before this review workflow can be stored as `archived`; they are hidden from pending items without being counted as accepted. The page loads `data/curation_decisions.jsonl` on startup and merges it with local browser decisions. Export new decisions as JSONL and place the file at `data/curation_decisions.jsonl`.
+
+On the next run, `npm start` will apply those manual decisions before calling OpenAI, so reviewed items do not need to be classified again.

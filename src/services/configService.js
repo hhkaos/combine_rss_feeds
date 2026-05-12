@@ -12,7 +12,8 @@ function loadConfig() {
     return {
       socialMediaConfig,
       ignoreRules,
-      bannedConfig
+      bannedConfig,
+      curationDecisionsPath: path.join(__dirname, '../../data', 'curation_decisions.jsonl')
     };
   } catch (err) {
     console.error('Error loading configuration files:', err.message);
