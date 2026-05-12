@@ -1,0 +1,129 @@
+{
+  "banned_patterns": [
+    {
+      "name": "News - excluded sources",
+      "patterns": [
+        "rte.ie"
+      ]
+    },
+    {
+      "name": "Job boards - hostname/subdomain patterns",
+      "patterns": [
+        "jobs.",
+        "careers.",
+        "careerhub.",
+        ".myworkdayjobs.com",
+        "greenhouse.io",
+        "lever.co",
+        "ashbyhq.com",
+        "workable.com",
+        "bamboohr.com",
+        "smartrecruiters.com",
+        "talent.com",
+        "ziprecruiter.com",
+        "dice.com",
+        "indeed.com",
+        "monster.com",
+        "glassdoor.com",
+        "glassdoor.ca",
+        "linkedin.com/jobs",
+        "mediabistro.com",
+        "governmentjobs.com",
+        "getwork.com",
+        "remotive.com",
+        "jobgether.com",
+        "jobright.ai",
+        "remotefront.com",
+        "startup.jobs",
+        "bebee.com",
+        "upwork.com",
+        "shine.com",
+        "ambitionbox.com",
+        "jobleads.com",
+        "apna.co",
+        "iitjobs.com",
+        "nvoids.com",
+        "devitjobs.com",
+        "milwaukeejobs.com",
+        "qualitycontracts.co.uk",
+        "jaabz.com",
+        "spacetalent.org",
+        "careercrate.io",
+        "learn4good.com",
+        "mytat.co",
+        "employify.mysmartpros.com",
+        "itjobs.ca",
+        "jobs.ca",
+        "studyinternational.com",
+        "naukri.com",
+        "remoterocketship.com",
+        "swooped.co",
+        "unjobs.org",
+        "realign-llc.com",
+        "jobzmall.com"
+      ]
+    },
+    {
+      "name": "Job board URL paths",
+      "patterns": [
+        "/job-board/",
+        "/job-boards/",
+        "/job-details/",
+        "/job-listing/",
+        "/job-listings-",
+        "/job-opening/",
+        "/job-posting/",
+        "/jobspost/",
+        "/freelance-jobs/",
+        "/contract-jobs/",
+        "/empleo/",
+        "/vacante/",
+        "/vacantes/"
+      ]
+    },
+    {
+      "name": "Open data portals - hostnames",
+      "patterns": [
+        "ckan.",
+        "opendata.",
+        "geoportal.",
+        "catalog.data.gov",
+        "data.gov.uk",
+        "phoenixopendata.com",
+        "data.boston.gov",
+        "data.sanantonio.gov",
+        "data.ca.gov",
+        "data.cnra.ca.gov",
+        "data.openlaredo.com",
+        "data.sanjoseca.gov",
+        "data.chhs.ca.gov",
+        "data.amerigeoss.org",
+        "data.ccrpc.org",
+        "data.sugarlandtx.gov",
+        "detroitdata.org",
+        "wifire-data.sdsc.edu",
+        "catalog.dvrpc.org",
+        "open.africa",
+        "openafrica.net",
+        "datos.gob",
+        "nationaldataplatform.org"
+      ]
+    },
+    {
+      "name": "Open data portals - URL paths (CKAN-style)",
+      "patterns": [
+        "res_format=",
+        "hub.arcgis.com/datasets",
+        "hub.arcgis.com/maps/"
+      ]
+    },
+    {
+      "name": "ArcGIS REST API endpoints and login pages",
+      "patterns": [
+        "/arcgis/rest/login",
+        "/rest/login",
+        "/rest/services/"
+      ]
+    }
+  ]
+}

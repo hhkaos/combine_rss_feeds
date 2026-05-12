@@ -1,7 +1,7 @@
 {
   "title": "ArcGIS ESRI Dev Feed (12-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-12T00:42:51.867Z",
+  "lastUpdated": "2026-05-12T20:02:50.229Z",
   "items": [
     {
       "title": "Archived versions of the JavaScript Maps SDK website now available",
@@ -85,7 +85,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "New update for ArcGIS Pro SDK released with improved performance and new features for developers.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS ANALYST - Stellar IT Solution - Hybrid in Towson, MD, US | Dice.com",
@@ -97,7 +99,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create engaging web maps with the new feature enhancements in ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Sr GIS Analyst / Programmer - Information Resource Group, Inc. - Hybrid in Towson, MD, US",
@@ -109,7 +113,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduces new feature enhancements and updates to ArcGIS Online platform for better user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Arcgis Api For Javascript",
@@ -257,7 +263,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A new job opportunity as an ArcGIS support specialist in Rocky Hill, CT, USA.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Custom Software Engineer - Accenture",
@@ -295,7 +303,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Online\"",
       "summary": "Learn about the new updates and improvements to ArcGIS Online that streamline workflows and enhance user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS API for Python Associate: 2026 v 2024 Version Comparison",
@@ -345,7 +355,9 @@
       "category": "Documentation",
       "topicsProduct": "Native SDKs",
       "summary": "Esri releases new version of Native SDK for Android with improved performance and bug fixes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Resync JSON for Pro 3.7\n    ",
@@ -369,7 +381,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to optimize your web maps for high-performance viewing in ArcGIS Online with these helpful tips and tricks.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        resync for Pro 3.7\n    ",
@@ -469,7 +483,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to leverage ArcGIS Online for effective data management and sharing in this new blog post.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Writing Our Own File Geodatabase Parser",
@@ -543,7 +559,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to improve your spatial analysis skills with ArcGIS Online in this new course.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Übersicht",
@@ -567,7 +585,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New features for ArcGIS Online include enhanced security measures and improved user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Data - Organizations - Open Data SA - City of San Antonio",
@@ -579,7 +599,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a map with pop-up pictures in ArcGIS Online using this step-by-step tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Tech for Earth: Old Tools Out, New Intelligence In - Geoawesome",
@@ -699,7 +721,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri partners with SSE Airtricity to help tackle fuel poverty in Ireland by using ArcGIS Enterprise to improve energy efficiency and reduce costs.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Feature vertices to points ... for Basic ArcGIS Pro",
@@ -937,7 +961,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "A new job opportunity for an ArcGIS developer with expertise in ArcGIS Maps SDK for JavaScript and Java Spring Boot in New York.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Arcgis Api For Javascript",
@@ -989,7 +1015,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS API for Python",
       "summary": "Esri is looking for a Product Engineer I to work with Python and raster imagery.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -1001,7 +1029,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A new login page has been implemented for the LandfolioKenya_Admin Map Server in Kenya.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Enhancing NASA&#39;s Climate Visualizations: Integrating <b>ArcGIS SDK</b> and Interactive Media ...",
@@ -1049,7 +1079,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online allow users to easily create and share interactive web maps for data visualization.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Strategies for Scripting and Automating Using Python",
@@ -1111,7 +1143,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom color ramp in ArcGIS Online to enhance your maps.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "UI Developer with <b>ArcGIS</b> - Software People, Inc. - Hybrid in Harrisburg, PA, US | Dice.com",
@@ -1123,7 +1157,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create custom templates for your ArcGIS Online organization in this new blog post.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What's Coming in ArcGIS Experience Builder in ArcGIS Enterprise 12.1",
@@ -1209,7 +1245,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri has announced the release of the new ArcGIS Online update, which includes enhancements to labeling, pop-ups, and the ability to add directions to web apps.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Native Apps (.NET/Kotlin/Swift/Flutter) バージョン 300.0 をリリース",
@@ -1395,7 +1433,9 @@
       "category": "Blog",
       "topicsProduct": "Engineering",
       "summary": "Esri's engineering team has implemented a new feature in the ArcGIS platform to improve user experience and performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Announcing ArcGIS Maps SDK 2.3 for Unreal Engine",
@@ -1455,7 +1495,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS Online",
       "summary": "Epic Tech Research is looking for a GIS Developer. Join their team to work with ArcGIS Online and other GIS technologies.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "How to model water flow through streets and buildings with FlowRenderer? 🌊 🛠️ 🖥️",
@@ -1479,7 +1521,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a survey in ArcGIS Online and analyze the collected data to gain insights and make informed decisions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - California Natural Resources Agency Open Data",
@@ -1543,7 +1587,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Explore how to create and share custom map styles in ArcGIS Online using the new styling tools.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Frontend GIS Developer — <b>ArcGIS</b> &amp; Web Maps | Pittsburgh | JobLeads.com",
@@ -1555,7 +1601,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Online",
       "summary": "\"Frontend GIS Developer position available in Pittsburgh to work with ArcGIS web maps.\"",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geographic Information System Developer - <b>Esri</b> India - BeBee",
@@ -1567,7 +1615,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Learn about the new features and improvements in the latest release of the ArcGIS Pro SDK.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NYC FDNY <b>ArcGIS</b> Developer at Voyatek in BROOKLYN, New York | Disabled Persons",
@@ -1615,7 +1665,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share a custom pop-up in ArcGIS Online using Arcade expressions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Episode 61 - Ask Jaws",
@@ -1677,7 +1729,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "The cost of rental homes in Ireland is expected to increase due to rising construction costs and demand.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Now Available: VertiGIS Studio Web 5.41",
@@ -1749,7 +1803,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is looking for a Frontend Developer knowledgeable in ArcGIS Online for a job opportunity in Pittsburgh.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "29.9% discount for tenants with Cost Rental scheme - <b>ESRI</b> - RTE",
@@ -1761,7 +1817,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "The cost of renting in Ireland has increased by 7.3% in the last year, with the average monthly rent now standing at €1,614.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Portal - Organizations - Laredo TX",
@@ -1773,7 +1831,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "A new update to ArcGIS Online introduces enhancements for map viewer, experience builder, and other workflow improvements.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b>: cost rental model flawed but can help affordability - RTE",
@@ -1785,7 +1845,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Esri has partnered with Cost Rental to provide high-quality homes at affordable prices in Dublin, Ireland.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Pro <b>SDK</b> | #EsriDevTech2026 - YouTube",
@@ -1969,7 +2031,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri announces a partnership with Electricity Exchange to provide automated data streams for energy suppliers using ArcGIS Enterprise.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "🚀 Version 5.0 of ArcGIS Maps SDK for JavaScript Livestream! 🎥",
@@ -2105,7 +2169,9 @@
       "category": "Job Offer",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Are you a senior Esri Visualization Engineer looking for new challenges? Check out this job opportunity in the United States!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "COVID-19 - Organizations - Open Data SA - City of San Antonio",
@@ -2117,7 +2183,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New update for ArcGIS Enterprise includes enhancements in security and performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NJ : ArcGIS Developer | Brooklyn, NY - Hybrid - 3 Days Onsite - Job Details",
@@ -2129,7 +2197,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS GeoAnalytics Engine\"",
       "summary": "Esri released updates to ArcGIS GeoAnalytics Server, making it easier to analyze large volumes of data at scale.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Job Details - Jobs Nvoids",
@@ -2141,7 +2211,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is hosting a webinar on how to leverage ArcGIS Online to build interactive data visualizations and share them with the public.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Episode 60 - Say Hello, Jaws",
@@ -2179,7 +2251,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Professional Technology Integration Inc. is seeking an ArcGIS Developer 2. Check out the job opportunity here!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Senior Esri Visualization Engineer – VirtualVocations – Oferta de trabajo Puerto Rico",
@@ -2191,7 +2265,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share your own custom vector basemaps using ArcGIS Online in this new tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "The &#39;winners and losers&#39; in the adoption of AI - RTE",
@@ -2203,7 +2279,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri's AI Analysis tool will allow users to analyze and derive actionable insights from their ArcGIS Enterprise data, enhancing decision-making processes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AI use in Irish firms likely to lead to job losses - <b>ESRI</b> - RTE",
@@ -2215,7 +2293,9 @@
       "category": "Other",
       "topicsProduct": "General",
       "summary": "The use of AI in Irish firms is likely to lead to job losses, according to Esri.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Native Apps | #EsriDevTech2026",
@@ -2289,7 +2369,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "A GIS Developer position is open for candidates with experience in ArcGIS, Angular, and .NET in Bavdhan.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "C++ Software Engineer - Mapping <b>SDK</b> at <b>Esri</b> - United Kingdom - Jaabz Jobs",
@@ -2301,7 +2383,9 @@
       "category": "Job Posting",
       "topicsProduct": "ArcGIS Maps SDK for Native Apps",
       "summary": "Join Esri as a C++ Software Engineer II to work on the ArcGIS Maps SDKs for native apps, creating mapping solutions for developers on multiple platforms.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Updating Item JSON Data for a Feature Service Item in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> ...",
@@ -2409,7 +2493,9 @@
       "category": "Other",
       "topicsProduct": "Living Atlas",
       "summary": "Check out the Great Northern dataset now available in ArcGIS GeoServices REST API.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Game Engines  | #EsriDevTech2026",
@@ -2459,7 +2545,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New tutorial available on how to create a custom pop-up in ArcGIS Online using Arcade expressions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "List Basemap Layers with the BasemapManager layers property | <b>ArcGIS API</b> for Python",
@@ -2497,7 +2585,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New release of ArcGIS Enterprise 10.9.1 includes updates to improve performance and security.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Case studies - MAGIS",
@@ -2703,7 +2793,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Boston city government provides geospatial data through the use of ArcGIS Online to improve transparency and accessibility.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Add Widgets - <b>ArcGIS Javascript API</b> - YouTube",
@@ -2739,7 +2831,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New feature in ArcGIS Online allows users to create custom basemaps using vector tile layers.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Severity of disability higher in north than south - <b>ESRI</b> - RTE",
@@ -2751,7 +2845,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "A report from the ESRI revealed the barriers faced by people with disabilities when using websites, emphasizing the importance of accessibility.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> and RoboGarden Sign Strategic MOU to Advance Geospatial and Geomatics Education",
@@ -2883,7 +2979,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Esri announces that they will raise their minimum wage to $25 per hour, significantly higher than the federal minimum wage.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
@@ -2895,7 +2993,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create custom pop-ups in ArcGIS Online using the new Arcade expressions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -2907,7 +3007,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Enterprise\"",
       "summary": "New update for ArcGIS Enterprise released, including enhancements to security and scalability features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "C# / .NET / <b>ArcGIS</b> Pro <b>SDK</b> - Freelance Job in Desktop Application Development - Upwork",
@@ -2919,7 +3021,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Freelance job opportunity for an ArcGIS Pro Add-in Developer with .NET and ArcGIS Pro SDK experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build Mapping Apps & Geoenable Systems",
@@ -2967,7 +3071,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to improve data visualization in ArcGIS Online with the latest updates and enhancements.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
@@ -2979,7 +3085,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Discover how to create individual district maps using Lake County Illinois GIS data on ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS QuickCapture | Windows 应用- Crx搜搜",
@@ -3027,7 +3135,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS GeoAnalytics Engine",
       "summary": "Esri has released version 10.9.1 of ArcGIS GeoAnalytics Server, with new features and enhancements for big data analysis.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Web Developer - <b>Esri</b>/React Specialist | California City | JobLeads.com",
@@ -3039,7 +3149,9 @@
       "category": "Job Offer",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is looking for a GIS Web Developer and React Specialist to work remotely in California City.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What’s New in the ArcGIS Pro SDK",
@@ -3101,7 +3213,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A new job opportunity as an ArcGIS Support Specialist based in Rocky Hill, CT, USA has been posted.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -3113,7 +3227,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS services",
       "summary": "The City of Phoenix has published a dataset related to recreation using the ArcGIS GeoServices REST API.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS: A GeoSpatial AI Platform | #EsriDevTech2026",
@@ -3137,7 +3253,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri's latest quarterly economic commentary highlights the growing importance of location intelligence in decision-making processes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Developer Foundation: 2026 v 2201 Version Comparison",
@@ -3161,7 +3279,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Allegheny County private schools locations dataset is now available on ArcGIS Online for easy access and analysis.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "USSS - Sr. Application Developer (<b>JavaScript</b>/<b>ArcGIS</b> Experience Builder) - Jobgether",
@@ -3173,7 +3293,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Experience Builder",
       "summary": "Sr. Application Developer JavaScript needed for a job opportunity. Check the link for more details.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Canada launches ISO-certified <b>ArcGIS</b> Managed Cloud Services - IT Business Net",
@@ -3247,7 +3369,9 @@
       "category": "Job Posting",
       "topicsProduct": "ArcGIS Maps SDK for Kotlin",
       "summary": "Esri is looking for a Product Engineer II for the ArcGIS Maps SDK for Kotlin. Join the team to work on cutting-edge mapping technology!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Federal Technical Webinar Series",
@@ -3307,7 +3431,9 @@
       "category": "Job Offer",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Fully remote GIS developer with ArcGIS Pro SDK for .NET skills required in Calgary.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -3319,7 +3445,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New security enhancements have been implemented in the latest version of ArcGIS Enterprise to provide better protection against cyber threats.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases New Edition of Best-Selling GIS Map Design Guide - BigDATAwire - HPCwire",
@@ -3343,7 +3471,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Check out the latest GIS data available in San Antonio through the GIS Data Portal.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Adding Map and Layers - <b>ArcGIS Javascript API</b> - YouTube",
@@ -3369,7 +3499,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Lake County, Illinois GIS Department has published geospatial metadata on data.gov.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Fully Remote - GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required)",
@@ -3381,7 +3513,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Teksystems is looking for a Fully Remote GIS Developer with ArcGIS Pro SDK for .NET skills. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS API for Python Associate Version Comparison",
@@ -3513,7 +3647,9 @@
       "category": "Job opportunity",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri is hiring a Product Engineer I for Customization and Framework in Redlands, California.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Navigate Route | <b>ArcGIS Maps SDK For</b> Qt | Esri Developer",
@@ -3611,7 +3747,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom symbol style using 3D models in ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Home energy upgrades: Perfect the enemy of good - RTE",
@@ -3623,7 +3761,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Irish Prime Minister, Micheál Martin, announces Energy Retrofitting Analysis to combat climate change and create jobs.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AI + ArcGIS Maps SDK for Javascript -Spinning Up an Emergency Field App in Minutes",
@@ -3647,7 +3787,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Maps SDK for Swift",
       "summary": "Remote ArcGIS SDK Consultant (iOS) position open for a remote job opportunity.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Analyze Boston",
@@ -3659,7 +3801,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share color-coded maps to visualize data trends using ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Analyze Boston",
@@ -3671,7 +3815,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online introduces new feature to streamline collaboration and data sharing among team members.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Expert Reviews MAPS in MOVIES",
@@ -3707,7 +3853,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer - Harrisburg Job in Harrisburg | Professional Technology Integration, Inc.",
@@ -3719,7 +3867,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri released the new ArcGIS Online update with improved collaboration tools and enhanced user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Building and Operating Modern, Well-Architected ArcGIS Systems",
@@ -3755,7 +3905,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri has released a new update for ArcGIS Online, introducing new features and improvements for users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
@@ -3767,7 +3919,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create custom symbols for your layers in ArcGIS Online using SimpleMarkerSymbol and PictureMarkerSymbol classes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDK for Flutter - 200.8.0 compatibility notes for Flutter 3.41.x",
@@ -3803,7 +3957,9 @@
       "category": "Livestream",
       "topicsProduct": "Other",
       "summary": "World leaders agree on new climate targets to reduce greenhouse gas emissions and limit global warming to 1.5 degrees Celsius.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Adding Attachments to a Feature in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
@@ -3853,7 +4009,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "New job opportunity for React GIS Developer in California",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Eagleview Recognized as an <b>Esri</b> Cornerstone Partner for 20 - GlobeNewswire",
@@ -3913,7 +4071,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New update enhances collaboration tools and improves user experience for ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - California Open Data",
@@ -3925,7 +4085,9 @@
       "category": "Training seminar",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to optimize your data visualization using smart mapping techniques in ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Game Engines at the 2026 Esri Developer & Technology Summit",
@@ -4033,7 +4195,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom pop-up for your ArcGIS Online web app using Arcade expressions for a more dynamic user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Merge pull request #416 from ArifulIslamEsri/patch-1\n    ",
@@ -4105,7 +4269,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri partners with T4 - Transforming Teaching Through Technology to provide teachers in Ireland with free access to ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Senior C# (.Net) Developer to build <b>ESRI</b> solutions utilizing <b>ArcGIS</b> Pro <b>SDK</b> and Windows ...",
@@ -4203,7 +4369,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "The City of Detroit has released a dataset related to schools using the ArcGIS GeoServices REST API.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "How to enthingify maps with cartoon imagery and chunky overviews",
@@ -4323,7 +4491,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New geology map layer added to ArcGIS Online portal for Papua New Guinea.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS开发：Qt Linux 原创 - CSDN博客",
@@ -4347,7 +4517,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "San Jose, California, provides a variety of maps & data including GeoJSON files under a CC-BY license.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        chore: update deps and READMEs (#603)\n    ",
@@ -4383,7 +4555,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A custom software engineer job offer in Pune.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Press Most Popular Ebooks Available in the <b>Esri</b> Store | MEXC News",
@@ -4431,7 +4605,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A study conducted by the software company Esri found that over 85% of primary schools in Ireland are using ArcGIS Online for teaching and learning.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Introducing AI components (beta) in the ArcGIS Maps SDK for JavaScript",
@@ -4539,7 +4715,9 @@
       "category": "Training seminar",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create appealing and informative web mapping applications with the new capabilities of ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Remote <b>esri</b> jobs - RemoteFront",
@@ -4551,7 +4729,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Discover remote job opportunities in the field of Esri technologies.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Capella Space Gains Visibility Through <b>Esri</b>-Enabled SAR Analytics Integration - TipRanks",
@@ -4685,7 +4865,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom pop-up in ArcGIS Online maps using Arcade expressions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Top 5 Geolocation Software Tools Every Business Should Know - The River Journal",
@@ -4745,7 +4927,9 @@
       "category": "Job posting",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is hiring a Product Engineer II for ArcGIS Online Rest API. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Open Data SA - City of San Antonio",
@@ -4757,7 +4941,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online include improved performance and enhanced collaboration features for users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geo-located attendance data for CITES Conferences of the Parties - Nature",
@@ -4819,7 +5005,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri study highlights how property tax could be linked to carbon emissions in Ireland, promoting sustainable practices.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Enterprise: An Introduction for Developers | #EsriDevSummit2025",
@@ -4919,7 +5107,9 @@
       "category": "Documentation",
       "topicsProduct": "Experience Builder",
       "summary": "New template designs added to Experience Builder for creating dynamic web apps with minimal coding.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Farmers pessimistic on bovine TB eradication - <b>ESRI</b> - RTE",
@@ -4931,7 +5121,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Ireland has made significant progress in eradicating Tuberculosis with the help of GIS technology.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Overview",
@@ -4955,7 +5147,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online now allow users to analyze location data in real-time, making it easier to track and respond to changing conditions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build GIS Maintenance Optimization Plugin / App (<b>ArcGIS</b> + <b>API</b>) - Upwork",
@@ -4967,7 +5161,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS API for Python",
       "summary": "Developer needed to build GIS Maintenance Optimization Plugin App for ArcGIS API with a fixed budget of $500.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
@@ -5017,7 +5213,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Texas A&M University is offering an online course to develop in-demand geoscience skills.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Application Developer - Senior in Calgary, Alberta, Canada - TEKsystems Careers",
@@ -5029,7 +5227,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri acquires tech startup nFrames to integrate their cutting-edge 3D technology into ArcGIS Online, enhancing 3D data visualization capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Security and Authentication for Custom Applications | #EsriDevSummit2025",
@@ -5113,7 +5313,9 @@
       "category": "Job Posting",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Procom is looking for a Geospatial Application Developer with experience working on ArcGIS Enterprise projects.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer - Cloud and Things - Brooklyn, NY, US | Dice.com",
@@ -5125,7 +5327,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom pop-up in ArcGIS Online using Arcade expressions to enhance your web maps.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Calcite Design System 5.0 released!",
@@ -5161,7 +5365,9 @@
       "category": "Job Posting",
       "topicsProduct": "ArcGIS Maps SDK for Swift",
       "summary": "Esri is looking for a Senior ArcGIS Maps SDK Documentation Engineer in Portland, OR. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Arcgis maps sdk for</b> unreal engine github - uldeso.gay",
@@ -5185,7 +5391,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to optimize your spatial big data management using ArcGIS GeoAnalytics Engine.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unlocking Your Data&#39;s Potential: A Gentle Dive Into the <b>ArcGIS API</b> for Python - Oreate AI",
@@ -5221,7 +5429,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri has released a new tool that allows users to find out who paid for their home with public funds.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Data - Organizations - Open Data SA - City of San Antonio",
@@ -5233,7 +5443,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to effectively use custom basemaps in ArcGIS Online to enhance your maps and make them more informative and visually appealing.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - California Open Data",
@@ -5245,7 +5457,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to optimize the performance of your ArcGIS Enterprise deployment with these best practices and tips.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -5257,7 +5471,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New feature service available for HWGeneratorsEdit in Dakota County Editing County service.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "اشتراک‌ها: آرشیو گروه‌های اشتراک‌های Geospatial، صفحه ۱ - NET Tips",
@@ -5355,7 +5571,9 @@
       "category": "Job Offer",
       "topicsProduct": "ArcGIS Online",
       "summary": "A full-stack developer position with ArcGIS technology is available in Harrisburg, PA, USA.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "JavaScript Drag and Drop with SortableJS",
@@ -5471,7 +5689,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Login to ArcGIS Online portal and access geology mapping services.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> - <b>Esri</b> - Redlands, CA, US | Dice.com",
@@ -5483,7 +5703,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online allow users to easily create and share interactive maps and data visualizations online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Test local installation of <b>ArcGIS Maps SDK for</b> JavaScript",
@@ -5531,7 +5753,9 @@
       "category": "Job Listing",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is looking for a Product Engineer II to work on ArcGIS Online REST API.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Java Full Stack Developer with <b>ArcGIS</b> (F2F Interview) - Zeforge LLC - Remote | Dice.com",
@@ -5543,7 +5767,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online now supports the ability to set the visibility of layers in ArcGIS Online maps based on the current date or time.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Securing ArcGIS Hub with Hardened Docker Images",
@@ -5617,7 +5843,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "Esri is looking for a Software Engineer to work on 3D functionality within the ArcGIS Maps SDK for JavaScript.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Using the ArcGIS API for Python for Administration",
@@ -5653,7 +5881,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "The article discusses absenteeism in schools and how it affects students' education.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Use external object detection training data within ArcGIS",
@@ -5677,7 +5907,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri's ArcGIS Online platform provides a simple, secure, and flexible way to share maps and data with others.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -5689,7 +5921,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to enrich your ArcGIS Online maps by integrating them with parcel data using Map Layers.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 圆形动态效果-动态螺旋效果",
@@ -5813,7 +6047,9 @@
       "category": "Documentation",
       "topicsProduct": "Web technologies",
       "summary": "Esri announces the release of a new Web technology toolkit for developers to enhance web mapping applications.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
@@ -5897,7 +6133,9 @@
       "category": "Job posting",
       "topicsProduct": "ArcGIS Maps SDK for .NET",
       "summary": "Esri is looking for a Principal C# .NET Software Development Engineer for SDK development.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Weather Map API Integration Samples - Visual Crossing",
@@ -5933,7 +6171,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri has partnered with Elite Group to facilitate the migration of Toyota's mapping solution to ArcGIS Enterprise, improving performance and efficiency.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GeoJSON for Beginners",
@@ -5969,7 +6209,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Esri has released a new version of the ArcGIS Maps SDK for Javascript with improved performance and new features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Roghainn eile airson ArcGIS StoryMaps Briefings ann an Windows - Microsoft Store",
@@ -6031,7 +6273,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to optimize performance of ArcGIS Enterprise deployments by tuning the software and hardware configurations.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CSS Can Count Siblings: sibling-index()",
@@ -6107,7 +6351,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online introduces new feature for real-time tracking of field workers.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "App Development with Components Part 3: User Experience",
@@ -6145,7 +6391,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Esri released a new version of the ArcGIS Pro SDK with enhanced features and improved performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> India and Mahindra University Commend India&#39;s Youth on National Youth Day",
@@ -6205,7 +6453,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online is introducing new features to improve collaboration and data management for users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer - Hybrid Job in Brooklyn | Burgeon IT Services - DevITjobs",
@@ -6217,7 +6467,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online introduces new features for user collaboration and data sharing.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Windows kaqpi ASS GIS kaqman huk hukpa rantinpi kaq - Microsoft Llamkanakuna",
@@ -6265,7 +6517,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri provides resources to help organizations transition to ArcGIS Online to maximize their investment and streamline operations.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Open Data SA - City of San Antonio",
@@ -6277,7 +6531,9 @@
       "category": "\"Documentation\"",
       "topicsProduct": "\"ArcGIS Dashboards\"",
       "summary": "Esri released a new update for ArcGIS Dashboards with improved data visualization capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Analyst - Chicago, IL (Hybrid) - Locals to IL - Job Details",
@@ -6289,7 +6545,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New enhancements to the ArcGIS Online platform will improve collaboration and data management capabilities for users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Chart.js Starter Tutorial 📈",
@@ -6315,7 +6573,9 @@
       "category": "Job Posting",
       "topicsProduct": "ArcGIS Maps SDK for Android",
       "summary": "Esri is looking for a Software Development Engineer II specializing in the Android SDK to join their team.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - gistest.penndot.gov",
@@ -6327,7 +6587,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to integrate ArcGIS Online with your web applications using OAuth 2.0 for secure authentication.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Adaptive CSS Layout with Sibling Count",
@@ -6351,7 +6613,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Check out the latest updates and improvements to ArcGIS Online with the new features in the latest release.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDK for JavaScript: Road Ahead",
@@ -6389,7 +6653,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New version of ArcGIS Online available with enhanced features for collaboration and data analysis.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "arcgis/lumina - npmmirror 镜像站",
@@ -6461,7 +6727,9 @@
       "category": "Training seminar",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create interactive and visually appealing web maps using ArcGIS Online in this new training seminar.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Developer Job in Brooklyn, NY at Interon It Solutions - ZipRecruiter",
@@ -6473,7 +6741,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Interon IT Solutions is looking for an ArcGIS Developer in New York, NY. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build a Longitude/Latitude Picker in JavaScript 👩‍💻",
@@ -6623,7 +6893,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "San Antonio launches data portal with access to CSV and ZIP formats.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ページ 65 - ArcGISブログ",
@@ -6647,7 +6919,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create visually stunning and interactive maps with ArcGIS Online using the latest features and tools.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> for 9.2 - Spatially Adjusted by James Fee",
@@ -6795,7 +7069,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to upgrade the cache storage format in ArcGIS Online through this informative tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Website Maps Explained: Vector Tiles",
@@ -6907,7 +7183,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Senior product engineer position available for ArcGIS Maps SDK for Javascript.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS大师之路500技---001手动分割面的几种法方原创 - CSDN博客",
@@ -6943,7 +7221,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New security enhancements and authentication methods have been implemented in ArcGIS Enterprise to improve data protection and access control.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Make Your Website Snow With CSS 🌨️",
@@ -7067,7 +7347,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "New blog post showcases powerful analysis capabilities within ArcGIS Online, demonstrating how to leverage spatial analysis tools for data-driven decision making.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -7079,7 +7361,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create custom pop-ups in ArcGIS Online using Arcade expressions for a more interactive map experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CSS Analogies for Beginners",
@@ -7105,7 +7389,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduces new features in ArcGIS Online for better data visualization and analysis capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "HTML Expand Trick 💡",
@@ -7143,7 +7429,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share impactful maps and data using ArcGIS Online with this new course.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Make Your HTML Project a Real Live Website 💻",
@@ -7181,7 +7469,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri forecasts continued growth and success for ArcGIS Enterprise in the coming years.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Code a Photo Shoot Planner for a 3D Map",
@@ -7217,7 +7507,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Introducing new templates for web and mobile apps in ArcGIS Online to easily create beautiful and functional apps.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Testing ArcGIS Maps SDKs for Native Apps: A Behind‑the‑Scenes Look",
@@ -7241,7 +7533,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share web maps with ArcGIS Online in this new tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases Getting to Know <b>ArcGIS</b> Enterprise | News - The Bakersfield Californian",
@@ -7327,7 +7621,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Product Engineer role available at 6AM City, focusing on building digital products that deliver hyper-local news and providing a platform for community engagement.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Update Item Thumbnail in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
@@ -7413,7 +7709,9 @@
       "category": "Job Listing",
       "topicsProduct": "ArcGIS Maps SDK for Android",
       "summary": "Esri is looking for a Software Development Engineer II for their Android SDK team, responsible for developing and maintaining the ArcGIS Maps SDK for Android.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Übersicht",
@@ -7437,7 +7735,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri introduces new capabilities in ArcGIS Enterprise 10.9, offering improved performance and security features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - vnsdi",
@@ -7449,7 +7749,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to improve your maps with this new guide on symbology and labeling in ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Merge pull request #409 from nPerez00/master\n    ",
@@ -7497,7 +7799,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A report by the ESRI predicts that employment in the domestic economy will grow by 4% in 2026.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Runtime <b>SDK</b> Samples - You Might Also Like - App Store",
@@ -7545,7 +7849,9 @@
       "category": "Job posting",
       "topicsProduct": "Other",
       "summary": "Esri is currently seeking an Executive GIS Mapping professional in New York City, NY.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Code a 3D Map Slice Descriptor ",
@@ -7771,7 +8077,9 @@
       "category": "Training seminar",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a web app using ArcGIS Online and Web AppBuilder for ArcGIS, with step-by-step instructions and tips.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "How to Auto-Translate Map Locations 📍",
@@ -7831,7 +8139,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduced a new feature in ArcGIS Online that allows users to easily create and share interactive 3D scenes without the need for coding or advanced GIS skills.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "南宁网站建设博信wordpress后台改中文 - neutronadmin.com",
@@ -7855,7 +8165,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Nashville utilizes ArcGIS Online to encourage residents to participate in the city's Bike Month Challenge, promoting biking and healthy activities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -7867,7 +8179,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Check out this 3D dashboard built using ArcGIS Enterprise to visualize data in a spatial context.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Software Development Engineer II - Android SDK @ Esri | FireUp Job Board",
@@ -7879,7 +8193,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri announces new updates to ArcGIS Online platform, including improved collaboration tools and enhanced data visualization capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Create a Map Storyteller for the Web 📚",
@@ -7927,7 +8243,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Maps SDK for .NET",
       "summary": "Learn how to develop GIS applications using ArcGIS Maps SDK for .NET with this new course.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Map Styling Made Easy: Smarter Basemap Picks",
@@ -8173,7 +8491,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New improvements in ArcGIS Online allow users to collaborate more efficiently and customize their maps with enhanced features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | Jobright.ai",
@@ -8185,7 +8505,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is improving the user interface of ArcGIS Online with a new look and feel, making it easier for users to navigate and access their content.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer Job in CG-VAK Software &amp; Exports Ltd. at Haryana - Shine.com",
@@ -8197,7 +8519,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "A job offer for an ArcGIS Developer position at CG-VAK Software Exports Ltd.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ICEYE and <b>Esri</b> Australia (through Boustead Geospatial) partner to deliver unprecedented ...",
@@ -8221,7 +8545,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Online\"",
       "summary": "New features and updates for ArcGIS Online have been released, including improved collaboration tools and enhanced security features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps Get A Voice at Fluttercon",
@@ -8245,7 +8571,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share custom basemaps in ArcGIS Online using the Vector Tile Style Editor.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unser Rückblick auf den Esri European Dev & Tech Summit 2025",
@@ -8269,7 +8597,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "ESRI is looking for a Product Engineer II for the ArcGIS Maps SDK for JavaScript in Redlands, CA.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Analyze Boston",
@@ -8281,7 +8611,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New updates to ArcGIS Enterprise include improved scalability and performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b> Scraping - Bionic Teaching",
@@ -8317,7 +8649,9 @@
       "category": "Job Listing",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "ESRI is looking for a Senior Product Engineer for ArcGIS Maps SDK for JavaScript in Redlands, CA.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Code a website map",
@@ -8367,7 +8701,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Esri released version 4.17 of the ArcGIS API for JavaScript, featuring new enhancements and bug fixes for web mapping applications.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Add AI to your map",
@@ -8441,7 +8777,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Boston's GIS Department wins award using Esri's ArcGIS Enterprise for public safety & emergency management operations.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Cequence Security Ranked Number 128 Fastest-Growing Company in North America on the ...",
@@ -8513,7 +8851,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduces new privacy tools in ArcGIS Online to help organizations comply with data privacy regulations. Features include user deletion, profile visibility settings, and data retention policies.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": ".Net Developer with ArcGIS - RightTalents - New York, NY - Dice",
@@ -8525,7 +8865,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online introduces new features for collaboration and data visualization.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Accruent and <b>Esri</b> Form Strategic Partnership to Empower Smarter, Faster ... - Huntsville Item",
@@ -8645,7 +8987,9 @@
       "category": "Documentation",
       "topicsProduct": "Other",
       "summary": "Esri is releasing a new version of their popular mapping software with enhanced features and improved user interface.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Create Rectangle Buffers for Point Features in ArcGIS Pro Using ArcPy | Custom Script Tool Tutorial",
@@ -8705,7 +9049,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Check out this job offer for a Full Stack .NET Developer with GIS experience in New York, NY.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "From Point A to Powerful: How Developers Are Taking Location Services to the Next Level",
@@ -8729,7 +9075,9 @@
       "category": "Documentation",
       "topicsProduct": "Other",
       "summary": "The existing bike network in Boston is being updated for the year 2024.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Finding Multiple SubAddresses and POIs with a Single Address",
@@ -8813,7 +9161,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New security enhancements in ArcGIS Enterprise 10.9.1 release to improve authentication and protection of sensitive data.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lead Gis Software Developer Job in Bethlehem, PA at Langan - ZipRecruiter",
@@ -8825,7 +9175,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "A Lead GIS Software Developer job opportunity is available in Bethlehem, PA.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -8837,7 +9189,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "DCNR has created an ArcGIS Online integrated application to streamline the editing of water utilities in state parks.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Truncate layer in <b>ArcGIS</b> Online using <b>arcgis</b>.gis - GIS Stack Exchange",
@@ -8861,7 +9215,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Learn how to customize ArcGIS Pro with Python using the ArcGIS Pro SDK in this new blog post.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Maps <b>SDK</b> for .NET Samples (WPF) - Microsoft Store",
@@ -9033,7 +9389,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "The rise in youth unemployment is a worrying trend according to a recent report from Esri.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Maps <b>SDK</b> in Unity (Testing Samples) - YouTube",
@@ -9057,7 +9415,9 @@
       "category": "Job Offer",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Senior Automation Architect needed at Make.com to work with ArcGIS. 2 to 6 years experience required in Hyderabad, Bengaluru, and Delhi NCR.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | AnitaB.org Job Board",
@@ -9069,7 +9429,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri is seeking a Product Engineer II for the ArcGIS Enterprise Sharing API. Join the team and contribute to the development of this important aspect of the ArcGIS Enterprise platform.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "5 Best Mapping Software Platforms for 2025 - Analytics Insight",
@@ -9093,7 +9455,9 @@
       "category": "Documentation",
       "topicsProduct": "Experience Builder",
       "summary": "New release of Experience Builder includes enhancements for building interactive web apps with improved templates and widgets.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Shadow DOM and Slots in ArcGIS Map Components",
@@ -9117,7 +9481,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "A new GIS developer opportunity in the Netherlands with remote work available.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Need <b>ArcGIS</b> Support Analyst - Remote - Radiantze - Dice",
@@ -9129,7 +9495,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Pro SDK\"",
       "summary": "Esri releases new updates for the ArcGIS Pro SDK with improved functionalities and bug fixes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -9141,7 +9509,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Check out the new feature service \"TD_APV_LAYERS\" available in the TD_STATE_PROP service on ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
@@ -9153,7 +9523,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a new hosted feature layer in ArcGIS Online using Python scripts.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NVIDIA Partners Bring Physical AI, New Smart City Technologies to Dublin, Ho Chi Minh ...",
@@ -9225,7 +9597,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri is looking for a Web Developer I - UI for ArcGIS Enterprise in Redlands. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What's New in ArcGIS Experience Builder (October 2025)",
@@ -9297,7 +9671,9 @@
       "category": "Job",
       "topicsProduct": "Native SDKs",
       "summary": "Apogee Integration is looking for a Geospatial Developer in Reston, VA. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Developer - Mid Level (Hiring Now) - ZipRecruiter",
@@ -9309,7 +9685,9 @@
       "category": "Job Offer",
       "topicsProduct": "Other",
       "summary": "Apogee Integration LLC is seeking a Geospatial Developer at a mid-level in Chantilly, VA.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What&#39;s New in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> September 2025 - Tracks - YouTube",
@@ -9407,7 +9785,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Online\"",
       "summary": "New web map viewer in ArcGIS Online offers improved performance and functionality.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Get an <b>ArcGIS</b> Online WebMap Layer Index or Layer Definition using the <b>ArcGIS API</b> for Python",
@@ -9493,7 +9873,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New updates on the latest version of ArcGIS Enterprise including improvements in security features and enhanced collaboration tools.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> and UNFPA Extend Strategic Partnership to Support 2030 Census Round",
@@ -9541,7 +9923,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New dataset of recreation areas available for public use through ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -9615,7 +9999,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri announced the new release of ArcGIS Online, with improved features for data visualization and analysis.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Esri Canada Product Specialist Arcgis Developer Technology Spcialiste De Produit ...",
@@ -9627,7 +10013,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Esri Canada is hiring a Product Specialist for ArcGIS Developer Technology in Toronto, ON.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Couverture Bouygues Télécom | <b>ArcGIS Maps SDK for</b> JavaScript 4.32 - La Poste Mobile",
@@ -9675,7 +10063,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create your own custom pop-ups in ArcGIS Online using Arcade expressions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Application Developer - Accenture",
@@ -9903,7 +10293,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to use ArcGIS Online to create and share interactive maps with this new tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Accelerate Geospatial App Development using ArcGIS Portal Tools",
@@ -9963,7 +10355,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "The Pennsylvania Department of Conservation and Natural Resources (DCNR) has updated the State Parks Water Utilities Field Maps using ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Chinese hackers abuse geo-mapping tool for year-long persistence - Bleeping Computer",
@@ -10011,7 +10405,9 @@
       "category": "Job Opportunity",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "Esri is looking for a Senior Product Engineer for ArcGIS Maps SDK for JavaScript in the United States. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - ArcGIS Maps SDKs Developer Documentation - Esri - Redlands, CA",
@@ -10023,7 +10419,9 @@
       "category": "\"Blog\"",
       "topicsProduct": "\"ArcGIS StoryMaps\"",
       "summary": "ArcGIS StoryMaps updated with new features for creating immersive storytelling experiences.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Community Center Pools - <b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
@@ -10061,7 +10459,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri showcases new ArcGIS Enterprise features for better data management and collaboration.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "FacilityList - <b>ArcGIS</b> GeoService - California Health and Human Services Open Data Portal",
@@ -10073,7 +10473,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share your own interactive maps with ArcGIS Online in this beginner-friendly course.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Geocoding Service – Discover What’s New",
@@ -10121,7 +10523,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri has announced the launch of a new product feature in ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Location Platform d&#39;<b>Esri</b> ajoute une tarification à l&#39;utilisation par session pour les ...",
@@ -10241,7 +10645,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Red Gate Group is looking for a mid-level geospatial developer. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "University of Redlands Partnership Opens High-Tech Mapping Career Pathways for Arroyo ...",
@@ -10277,7 +10683,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Pro SDK\"",
       "summary": "Esri released an update for ArcGIS Pro SDK for .NET, featuring new capabilities and bug fixes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Developer - Careers",
@@ -10289,7 +10697,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "The article explains how to create a new custom Role within ArcGIS Enterprise using the ArcGIS Portal Administrator API.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "New Lidar Coverage in World Elevation Layers – Oct 2025",
@@ -10409,7 +10819,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Online",
       "summary": "Picarro Inc. is looking for a software GIS developer. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases New Book Demonstrating How GeoAI Powers Greater Automation, Prediction ...",
@@ -10445,7 +10857,9 @@
       "category": "Job Offer",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "Esri is looking for a Senior Product Engineer for the ArcGIS Maps SDK for JavaScript. Apply now for this remote eligible position!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | AnitaB.org Job Board",
@@ -10457,7 +10871,9 @@
       "category": "Job listing",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Esri is looking for a Sr. Product Engineer for ArcGIS Maps SDK for Javascript. Join the team to work on cutting-edge mapping technology!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | Jobright.ai",
@@ -10469,7 +10885,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New updates to ArcGIS Enterprise provide enhanced security features and improved scalability for enterprise users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Download SRTM DEM Data in <b>ArcGIS</b> Pro using Google Earth Engine Python <b>API</b>",
@@ -10529,7 +10947,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri is offering a new course on \"Getting Started with ArcGIS Online\" to help users learn the basics of the platform and effectively use its features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Hosted Data Services: Management tools differences",
@@ -10553,7 +10973,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri warns of risk to NI economy.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript - 自定义（GLSL）修改高亮图层样式- yfceshi - 博客园",
@@ -10577,7 +10999,9 @@
       "category": "Job posting",
       "topicsProduct": "ArcGIS Maps SDK for .NET",
       "summary": "Randstad Digital is looking for an Esri ArcGIS Application Developer.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS JSAPI 高级教程- 自由绘制线段、多边形 - CSDN博客",
@@ -10625,7 +11049,9 @@
       "category": "Job offer",
       "topicsProduct": "\"ArcGIS Pro SDK\"",
       "summary": "Mindverse Consulting Services is looking for an ArcGIS developer.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Layer disappears when zooming. <b>esri</b> leaflet with proj4leaflet - Stack Overflow",
@@ -10733,7 +11159,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to access and analyze historical imagery using ArcGIS Online in this helpful tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Datasets - WIFIRE Commons Data Catalog",
@@ -10745,7 +11173,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "A new update has been released for ArcGIS Online, providing users with new features and improvements for their online mapping and analysis projects.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - AMAP Geo",
@@ -10757,7 +11187,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create a custom renderer in ArcGIS Online using the Map Viewer.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "arcgis/arcade-languageservice - npmmirror 镜像站",
@@ -10781,7 +11213,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share story maps with ArcGIS Online in this new tutorial series.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Junior Software Engineer at Brooksource - Technical.ly",
@@ -10913,7 +11347,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri released a new version of ArcGIS Enterprise with enhanced security features and improved performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Fifth of children in poverty after housing costs - <b>ESRI</b> - RTE",
@@ -10925,7 +11361,9 @@
       "category": "Blog",
       "topicsProduct": "Other",
       "summary": "Esri has released a report highlighting the importance of teaching geospatial skills to children at an early age.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "National Interagency Fire Center - Organizations - WIFIRE Commons Data Catalog",
@@ -10937,7 +11375,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Dashboards",
       "summary": "Learn how to create dynamic and interactive dashboards with ArcGIS Dashboards in the latest tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Application Developer - Accenture",
@@ -10973,7 +11413,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "The City of Boston has made available a dataset of parcels for the year 2025, allowing users to access detailed information about property boundaries in the city.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Walk through - Get to Know ArcGIS Location Platform",
@@ -11021,7 +11463,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to delete cache with the CachingTools GP Server in ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Establishes <b>Esri</b> MX as a Geospatial Innovation Center for Mexico with Local Leadership",
@@ -11227,7 +11671,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create beautiful and informative story maps using ArcGIS Online in this new tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AutoCAD 2026 ヘルプ | FDO <b>ArcGIS</b> Pro | Autodesk",
@@ -11251,7 +11697,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to utilize ArcGIS Online to create interactive maps and share data easily with your organization or the public.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 3 - Dataset - Catalog - Data.gov",
@@ -11263,7 +11711,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates have been released for ArcGIS Online, including enhanced features for data visualization and analysis.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Find walking routes through urban green spaces with Flutter Maps SDK",
@@ -11299,7 +11749,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri Australia partners with GISA Corporation to expand ArcGIS Online adoption among Japanese businesses.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Oferta de trabajo (backfill)"
     },
     {
       "title": "Job Application for Software Developer I - Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> - Greenhouse",
@@ -11311,7 +11763,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to optimize your GIS infrastructure with the latest guidance from Esri in this new documentation.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Three ways to improve geocoding performance",
@@ -11347,7 +11801,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Lake County, Illinois, has made their GIS data available in a variety of formats, including PDFs, on their open data portal.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CIMIC brings your largest ACC AEC models into Unity and Esri ArcGIS | Autodesk University",
@@ -11395,7 +11851,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New improvements in ArcGIS Online allow users to collaborate more efficiently and effectively in their projects.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases Practical New Guide to Creating Visually Stunning and Effective Map Apps",
@@ -11431,7 +11889,9 @@
       "category": "Documentation",
       "topicsProduct": "'ArcGIS Online'",
       "summary": "Boston's police department uses ArcGIS Online to map accessible parks in the city for residents with disabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Mapping the World&#39;s Toughest Adventure Race | Red Bull X Alps - YouTube",
@@ -11515,7 +11975,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to log in to ArcGIS Online and access the lamp post layer to generate a renderer.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -11527,7 +11989,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS REST JS",
       "summary": "The latest version of the ArcGIS REST JavaScript client library has been released, offering improved performance and new features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Broadcasting: Scalars or vectors",
@@ -11577,7 +12041,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "ArcGIS Online introduces new collaborative features to enhance teamwork and productivity on mapping projects.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "California Conservation Easement Database - <b>ArcGIS</b> REST Service: CCED by Access Type",
@@ -11589,7 +12055,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "California launched a conservation easement database on ArcGIS Online for monitoring land conservation activities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "162 datasets found - DVRPC Data Catalog",
@@ -11601,7 +12069,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create effective web maps that engage and inform your audience with this new course on ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Map to Figma",
@@ -11661,7 +12131,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create web apps with custom widgets in ArcGIS Online using the ArcGIS API for JavaScript.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b> GIS Application developer - Random Trees - Remote - Dice",
@@ -11673,7 +12145,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri released ArcGIS Enterprise 10.9.1 with new features and improvements for better performance and usability.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "162 datasets found - DVRPC Data Catalog",
@@ -11685,7 +12159,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share maps using ArcGIS Online with this new tutorial series.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Continuous Integration With Internet Data Sources",
@@ -11709,7 +12185,9 @@
       "category": "Livestream",
       "topicsProduct": "\"ArcGIS Enterprise\"",
       "summary": "California Department of Parks and Recreation launches interactive map using ArcGIS Enterprise to showcase parks and recreation areas.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -11721,7 +12199,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New feature released in ArcGIS Online to generate renderer for agriculture indicators in Puglia.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "HTTPCaller truncating edit request with <b>ESRI&#39;s</b> REST <b>API</b> - FME Community",
@@ -11745,7 +12225,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to the ArcGIS Online platform enhance user experience and data visualization capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer | Kanpur | JobLeads.com",
@@ -11757,7 +12239,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Online",
       "summary": "A new ArcGIS developer job opportunity in Kanpur.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Around the Geospatial, 3D, and AEC Industries: <b>Esri</b> User Conference, AI, 3D Scanning",
@@ -11793,7 +12277,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share beautiful web maps with ArcGIS Online in this new tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -11805,7 +12291,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create visually stunning and interactive web maps using ArcGIS Online with this new tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "R-ArcGIS Bridge Highlights from the 2025 Esri User Conference",
@@ -11829,7 +12317,9 @@
       "category": "Training seminar",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to develop with ArcGIS Enterprise by attending this training seminar.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: ParcelTest",
@@ -11841,7 +12331,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New version of ArcGIS Online released with improved user interface and new features for data visualization.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Gis <b>Esri Javascript Api</b> Developer - Banjara Hills - WorkIndia.in",
@@ -11877,7 +12369,9 @@
       "category": "Documentation",
       "topicsProduct": "Survey123",
       "summary": "California Department of Fish and Wildlife partners with Esri to improve data collection and analysis using Survey123.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "移动GIS开发与应用——基于<b>ArcGIS Maps SDK for</b> Kotlin_董昱_9787302677031",
@@ -11901,7 +12395,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "The National Transit Map Stops dataset has been updated with new information.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unlocking the potential of ChatGPT in detecting the XCO2 hotspot captured by orbiting ...",
@@ -11937,7 +12433,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "The latest version of ArcGIS Enterprise 10.9.1 is now available with new features and enhancements for better performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unable to ignore shared_with DeprecatedWarning · Issue #2342 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>",
@@ -11973,7 +12471,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create stunning StoryMaps using ArcGIS Online with this new course!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Version 1.18 of ArcGIS Experience Builder Developer Edition is Now Available",
@@ -12057,7 +12557,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Online",
       "summary": "Capgemini is hiring a Senior GIS Application Developer in Mumbai with 6-11 years of experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "corps projects - <b>Esri</b> Rest <b>API</b> - AmeriGEOSS Community Platform DataHub. (BETA)",
@@ -12069,7 +12571,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and customize your own app with the new ArcGIS Online App Builder update.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Where is the point?",
@@ -12189,7 +12693,9 @@
       "category": "Blog",
       "topicsProduct": "Other",
       "summary": "Esri collaborates with a community charity to map poverty and support vulnerable populations in Ireland.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: DSECUnidade/Restaurant2020v2",
@@ -12215,7 +12721,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduces new updates for ArcGIS Online, including enhanced collaboration tools and improved data visualization capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: DSECUnidade/Building2020BaseCNv3",
@@ -12227,7 +12735,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create custom basemaps in ArcGIS Online using your own imagery and data to enhance your maps.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 23 - Dataset - Catalog - Data.gov",
@@ -12239,7 +12749,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri announces the release of ArcGIS Enterprise 10.9.1, featuring enhanced collaboration tools and improved performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: DSECUnidade/Building2020PTv12",
@@ -12251,7 +12763,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New features added to ArcGIS Online include enhanced collaboration tools and improved performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Apply to Senior <b>JavaScript</b> Developer <b>ArcGIS</b> @ Deloitte - JobzMall",
@@ -12263,7 +12777,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri announces new updates and enhancements for ArcGIS Online to improve user experience and functionality.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Introducing the ArcGIS Maps SDK for Swift Toolkit v200.8",
@@ -12385,7 +12901,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "California launches a new interactive map for residents to locate COVID-19 testing sites easily.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Digital Twins Move Beyond the Buzz at <b>Esri</b> User Conference | Geo Week News",
@@ -12469,7 +12987,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "San Antonio's open data portal offers access to data, maps, and apps to improve transparency and engagement with the community.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Frontend Developer (React OR Angular GIS exp <b>ArcGIS</b> ) at Luxoft - Djinni",
@@ -12505,7 +13025,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri released a new update for ArcGIS Online with improved performance and new features for better user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "C++ Software Development Engineer II - <b>SDK</b> at <b>Esri</b> - Swooped",
@@ -12517,7 +13039,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Esri is hiring a C++ Software Development Engineer II for SDK remote work, focusing on ArcGIS Pro SDK. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AEC Industry Turns to GIS for Coordination, Visualization, and Efficiency | Geo Week News",
@@ -12675,7 +13199,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create and share web maps in ArcGIS Online using this tutorial.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Three Takeaways from the 2025 <b>Esri</b> User Conference | Geo Week News",
@@ -12711,7 +13237,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "Discover how ArcGIS Online is revolutionizing data analysis and visualization for organizations of all sizes.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS Maps SDK for</b> JavaScript - EV MAGAZINE + ELECTRIC CARS",
@@ -12723,7 +13251,9 @@
       "category": "Job posting",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "Esri is looking for a Product Engineer II for the ArcGIS Maps SDK for JavaScript. Apply now!",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> Job in Redlands, CA - Getwork",
@@ -12735,7 +13265,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Online\"",
       "summary": "ArcGIS Online introduced a new feature for collaborating and sharing web maps.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - ORRSC GIS",
@@ -12747,7 +13279,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New feature updates for ArcGIS Enterprise released, including improved performance and security enhancements.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Checking the <b>ArcGIS API</b> for Python version being utilised by your IDE - YouTube",
@@ -12773,7 +13307,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri announces new updates to ArcGIS Online platform, including improved collaboration tools and enhanced data visualization capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - DetroitData",
@@ -12785,7 +13321,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "ArcGIS Enterprise 10.9.1 Patch 2 is now available. This patch resolves multiple issues to improve stability and performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b> Developer @ Tech Synergy Sources - Jobs - CareerCrate.io",
@@ -12797,7 +13335,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS StoryMaps\"",
       "summary": "Esri released a new version of ArcGIS StoryMaps with improved functionalities and user-friendly features, enhancing storytelling capabilities for users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> - CareerCrate.io",
@@ -12809,7 +13349,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to optimize your ArcGIS Online subscription with expert tips and tricks in this webinar.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": ".NET <b>SDK</b> consultant Contract Job",
@@ -12821,7 +13363,9 @@
       "category": "Course",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New course available on how to optimize performance and scalability in your ArcGIS Enterprise deployment.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Getting started with <b>ArcGIS</b> Python <b>API</b> and Geopandas | GeoDev - YouTube",
@@ -12869,7 +13413,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri announced new updates to ArcGIS Online, including enhanced mapping capabilities and improved user experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> Unity 加载wmts - 51CTO博客",
@@ -12907,7 +13453,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "City of St. George, Utah, enhances GIS capabilities with ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Data4Land: How to enrich land-use/land-cover with historical vector(s) - ScienceDirect",
@@ -12931,7 +13479,9 @@
       "category": "Podcast",
       "topicsProduct": "ArcGIS Online",
       "summary": "Skye Perry, host of the podcast, speaks with Renata Souza, a GIS analyst and developer at Conservation International, about her experience using ArcGIS Online for conservation projects.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -12943,7 +13493,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri announces the release of ArcGIS Enterprise 10.9 with new features and enhancements.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": ".NET <b>SDK</b> consultant - Enterprise Minds - Remote - Dice",
@@ -12955,7 +13507,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri announces updates to ArcGIS Online with new features for improved collaboration and data visualization.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "City of Tempe - Organizations - Dataset - Catalog",
@@ -12967,7 +13521,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to configure ArcGIS Enterprise to use an existing PKI infrastructure for SSL. Follow these best practices for a secure deployment.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "bulk update · Issue #2327 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b> - GitHub",
@@ -13027,7 +13583,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS Online\"",
       "summary": "Esri introduces new features in the ArcGIS Online platform to enhance spatial analysis capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "OfflineContentManager export_items for Hosted Feature Layer created from Service ... - GitHub",
@@ -13101,7 +13659,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Irish government agency turns to ArcGIS Online for improved decision-making and data analysis capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Collaborates with Microsoft to Bring <b>ArcGIS</b> Users New AI Enhancements",
@@ -13269,7 +13829,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online have been released, improving user accessibility and functionality.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Maratha Military Landscapes of India - UNESCO World Heritage Centre",
@@ -13305,7 +13867,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn about the new features and improvements in the latest version of ArcGIS Enterprise, including enhanced security and performance upgrades.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Application Developer - Senior - CA-Procom - Monster.ca",
@@ -13329,7 +13893,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS REST JS",
       "summary": "Check out the new updates and improvements in the ArcGIS REST JS library for building web mapping applications.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Analyze Boston",
@@ -13341,7 +13907,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Boston City's geospatial data is now available through the Boston Maps Geo Data Portal.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Melissa Debuts Listware® for <b>ArcGIS</b> Pro at <b>Esri</b> User Conference 2025 | News | bakersfield.com",
@@ -13365,7 +13933,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduces new ArcGIS Online updates to improve user experience and enhance functionality.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS - Departments - Sugar Land&#39;s Open Data Portal",
@@ -13377,7 +13947,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "The latest security updates for ArcGIS Enterprise have been released to improve system protection and prevent potential vulnerabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Department of Health Care Services - California Health and Human Services Open Data Portal",
@@ -13389,7 +13961,9 @@
       "category": "Livestream",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to create visually appealing and informative StoryMaps using ArcGIS Online with this comprehensive webinar.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Laredo TX",
@@ -13401,7 +13975,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri introduces a new feature in ArcGIS Online for improved data visualization and analysis.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: LandUsePlanning/LandscapeSettings_RecIntensity",
@@ -13413,7 +13989,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Multnomah County develops and uses GIS applications to assess sustainability outcomes for the community.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Melissa Debuts Listware® for <b>ArcGIS</b> Pro at <b>Esri</b> User Conference 2025 - GlobeNewswire",
@@ -13473,7 +14051,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online make it easier to create and share maps with improved collaboration features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -13485,7 +14065,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New feature added to ArcGIS Online allows users to easily create and share survey forms for data collection.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "3 Arcgis Maps Sdk Javascript Jobs in Maharashtra - Shine",
@@ -13497,7 +14079,9 @@
       "category": "Job",
       "topicsProduct": "ArcGIS Maps SDK for Javascript",
       "summary": "Tata Consultancy Services is looking for an ArcGIS Maps SDK for Javascript developer for a job opportunity.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 2 - Dataset - Catalog - Data.gov",
@@ -13509,7 +14093,9 @@
       "category": "Documentation",
       "topicsProduct": "\"ArcGIS GeoAnalytics Engine\"",
       "summary": "Esri releases update for ArcGIS GeoAnalytics Engine with new features and enhancements to optimize big data processing.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: IAS_RODNIKI",
@@ -13521,7 +14107,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri launches the new version of ArcGIS Enterprise with improved performance and new features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Merge pull request #402 from nPerez00/master\n    ",
@@ -13557,7 +14145,9 @@
       "category": "Training seminar",
       "topicsProduct": "ArcGIS StoryMaps",
       "summary": "Learn how to create engaging and interactive story maps to communicate your data effectively.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript中Button怎么导入 - 51CTO博客",
@@ -13607,7 +14197,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New update to ArcGIS Online allows users to quickly create and share maps with improved collaboration features.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Experience Builder at the 2025 ESRI User Conference",
@@ -13631,7 +14223,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "New updates to ArcGIS Online have been released, providing users with enhanced features for mapping and data visualization.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Uploading sample code under a new folder called java-maps-sdk\n    ",
@@ -13667,7 +14261,9 @@
       "category": "Job Posting",
       "topicsProduct": "Other",
       "summary": "Realign LLC is looking for an IT Specialist in Springfield, Virginia. This position requires experience with ArcGIS and other technologies.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Issue 37: Summer 2025 - Technology Record",
@@ -13703,7 +14299,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "New update for ArcGIS Enterprise includes enhanced security features and improved performance.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Analyze Boston",
@@ -13715,7 +14313,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Boston's open data platform has a variety of datasets available in different formats for download.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Graitec updates PowerPack for Advance Steel - AEC Magazine",
@@ -13763,7 +14363,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "New features for ArcGIS Online include improved data visualization tools and enhanced collaboration capabilities.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Web Development | Rent | 9781617291616 - Valore",
@@ -13787,7 +14389,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn about the new version of ArcGIS Enterprise and its advanced features for spatial analysis and visualization.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "dnrops/<b>arcgis</b>-maps-<b>sdk</b>-swift-toolkit - GitLink",
@@ -13859,7 +14463,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Pro SDK",
       "summary": "Learn how to customize ArcGIS Pro with ArcGIS Pro SDK using the new resources available in the 2.9 release.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Storytelling with tracks",
@@ -14113,7 +14719,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS Maps SDK for JavaScript",
       "summary": "Tata Consultancy Services is looking for an ArcGIS Maps SDK for JavaScript developer.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "&lt;Item&gt;.attachments_size is always &quot;None&quot; · Issue #2308 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b> - GitHub",
@@ -14161,7 +14769,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Esri report highlights the need for care beds and home support services to meet the demands of an ageing population.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI ArcGIS</b> (.NET <b>SDK</b>) Graphics not Clearing - Stack Overflow",
@@ -14211,7 +14821,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "City of Winchester launches new flood data dataset on their ArcGIS Online platform.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Python Scripting Using the <b>ArcGIS API</b> for Python - Emory University Career Center",
@@ -14247,7 +14859,9 @@
       "category": "Job offer",
       "topicsProduct": "ArcGIS",
       "summary": "Sofomation Energy Consultants is looking for a Senior ArcGIS Developer in Pune with 10-15 years of experience.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "[Inline Editable]: add read only mode · Issue #12418 · <b>Esri</b>/calcite-design-system - GitHub",
@@ -14379,7 +14993,9 @@
       "category": "Other",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri has announced plans to build a new headquarters in Redlands, California, to accommodate its growing workforce and expand operations.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        My First Project\n    ",
@@ -14487,7 +15103,9 @@
       "category": "Blog",
       "topicsProduct": "ArcGIS Online",
       "summary": "Esri's ArcGIS Online platform now supports updated Emergency Management solutions for better disaster response and recovery.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lidar derived high resolution data updates to Living Atlas World Elevation Layers (June 2025)",
@@ -14583,7 +15201,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to share your data securely with specific organizations or groups using ArcGIS Online's membership options.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Developer Summit at UC 2025",
@@ -14619,7 +15239,9 @@
       "category": "Documentation",
       "topicsProduct": "ArcGIS Online",
       "summary": "Learn how to access and extract changes from a specific feature service using ArcGIS Online.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Application Program Interface (<b>API</b>) for Flex - VA.gov",
@@ -14643,7 +15265,9 @@
       "category": "Job posting",
       "topicsProduct": "ArcGIS",
       "summary": "GIS Developer job opportunity requiring skills in ArcGIS, Angular, and .NET for Epic Tech Research Pvt Ltd in Hyderabad, Pune, and Bengaluru.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Over 900 extra GPs needed to meet demand, says <b>ESRI</b> - RTE",
@@ -14655,7 +15279,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "Ireland is experiencing a shortage of GPs, with some areas having no family doctor. The situation is worsening in rural regions.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS",
@@ -14885,7 +15511,9 @@
       "category": "Livestream",
       "topicsProduct": "\"ArcGIS Online\"",
       "summary": "New updates to ArcGIS Online enhance collaboration and data visualization capabilities for users.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "More than 1300 SLO County PG&amp;E customers lose power in outage",
@@ -14933,7 +15561,9 @@
       "category": "Other",
       "topicsProduct": "Other",
       "summary": "A new report by Esri suggests that child benefits should be linked to parents' income to reduce child poverty in Ireland.",
-      "processed": true
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build smarter location-aware apps with Geotriggers in ArcGIS Maps SDK for Flutter",

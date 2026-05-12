@@ -1,37 +1,36 @@
 {
   "ignore_rules": [
     {
-      "condition": "Contenido no relevante",
-      "description": "Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "condition": "Contenido no relacionado con Esri/ArcGIS",
+      "description": "Ignorar si el contenido NO trata sobre Esri, ArcGIS, GIS, ni sus tecnologías (SDKs, APIs, herramientas geoespaciales). Ej.: noticias de bolsa, política, deportes, productos no-Esri."
     },
     {
       "condition": "Contenido obsoleto",
-      "description": "Ignorar si el contenido es obsoleto o ya no es relevante"
+      "description": "Ignorar si tiene más de 5 años o se refiere a productos descontinuados (ArcView, ArcInfo Workstation, ArcGIS 10.x antiguo, etc.) y no es relevante hoy."
     },
     {
       "condition": "Contenido sin fecha",
-      "description": "Ignorar si la noticia no tiene fecha de publicación"
+      "description": "Ignorar si el item no tiene fecha de publicación."
     },
     {
-      "condition": "Pregunta de comunidad",
-      "description": "Si es una pregunta en community.esri.com, stackoverflow, reddit, stackexchange, o similar."
+      "condition": "Pregunta de comunidad o foro",
+      "description": "Ignorar si es una pregunta en community.esri.com, stackoverflow.com, stackexchange.com (incl. gis.stackexchange.com), reddit.com, gisstackexchange, o foros similares. Ej.: '¿Cómo soluciono X error?' en community.esri.com."
     },
     {
-      "condition": "Si es una oferta de trabajo",
-      "description": "Si es una oferta de empleo"
+      "condition": "Oferta de trabajo / empleo",
+      "description": "Ignorar si es una oferta de empleo, vacante, anuncio de 'hiring', 'now hiring', 'apply now/today/here', listado de jobs/careers, descripción de puesto (Senior X at Y), o item de portales como ziprecruiter, dice, indeed, linkedin/jobs, greenhouse, lever, workday, jobs.* o careers.*. Ej.: 'ArcGIS Developer Job - Harrisburg', 'Senior GIS Engineer @ Esri | Job Board'."
     },
     {
-      "condition": "Si es un issue de GitHub",
-      "description": "Si es un issue de GitHub"
+      "condition": "Issue o pull request de GitHub",
+      "description": "Ignorar si la URL contiene github.com/.../issues/ o github.com/.../pull/. Mantener releases, commits y READMEs."
     },
     {
-      "condition": "If the content is from Economic and Social Research Institute (ESRI)",
-      "description": "From the Irish Government or comes from rte.ie"
+      "condition": "ESRI irlandés (Economic and Social Research Institute)",
+      "description": "Ignorar si el contenido es del Economic and Social Research Institute irlandés (NO Esri Inc.). Suele venir de rte.ie, esri.ie, irishtimes.com, o menciona 'Irish economy', 'Ireland', 'minimum wage Ireland', 'ESRI report'."
     },
     {
-      "condition": "Si es un dataset de datos abiertos",
-      "description": "Si es un dataset de un portal de datos abiertos o similar o endpoint de un ESRI REST API"
+      "condition": "Dataset de datos abiertos o REST endpoint",
+      "description": "Ignorar si es un dataset de un portal de datos abiertos (hub.arcgis.com/datasets, opendata portals) o un endpoint de ArcGIS REST API (services*.arcgis.com/rest/services, FeatureServer, MapServer). Ej.: 'Madrid neighborhoods (FeatureServer)'."
     }
-    
   ]
-} 
+}

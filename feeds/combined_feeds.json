@@ -1,7 +1,7 @@
 {
   "title": "Combined ArcGIS Feeds (12-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-12T00:42:39.411Z",
+  "lastUpdated": "2026-05-12T20:02:50.154Z",
   "items": [
     {
       "title": "Archived versions of the JavaScript Maps SDK website now available",
@@ -85,7 +85,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS ANALYST - Stellar IT Solution - Hybrid in Towson, MD, US | Dice.com",
@@ -97,7 +99,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Sr GIS Analyst / Programmer - Information Resource Group, Inc. - Hybrid in Towson, MD, US",
@@ -109,7 +113,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Arcgis Api For Javascript",
@@ -253,7 +259,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Custom Software Engineer - Accenture",
@@ -289,7 +297,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS API for Python Associate: 2026 v 2024 Version Comparison",
@@ -337,7 +347,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Resync JSON for Pro 3.7\n    ",
@@ -361,7 +373,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        resync for Pro 3.7\n    ",
@@ -457,7 +471,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Writing Our Own File Geodatabase Parser",
@@ -529,7 +545,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Übersicht",
@@ -553,7 +571,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Data - Organizations - Open Data SA - City of San Antonio",
@@ -565,7 +585,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Tech for Earth: Old Tools Out, New Intelligence In - Geoawesome",
@@ -685,7 +707,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Feature vertices to points ... for Basic ArcGIS Pro",
@@ -913,7 +937,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Arcgis Api For Javascript",
@@ -961,7 +987,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -973,7 +1001,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Enhancing NASA&#39;s Climate Visualizations: Integrating <b>ArcGIS SDK</b> and Interactive Media ...",
@@ -1021,7 +1051,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Strategies for Scripting and Automating Using Python",
@@ -1081,7 +1113,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "UI Developer with <b>ArcGIS</b> - Software People, Inc. - Hybrid in Harrisburg, PA, US | Dice.com",
@@ -1093,7 +1127,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What's Coming in ArcGIS Experience Builder in ArcGIS Enterprise 12.1",
@@ -1177,7 +1213,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Native Apps (.NET/Kotlin/Swift/Flutter) バージョン 300.0 をリリース",
@@ -1357,7 +1395,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Announcing ArcGIS Maps SDK 2.3 for Unreal Engine",
@@ -1417,7 +1457,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "How to model water flow through streets and buildings with FlowRenderer? 🌊 🛠️ 🖥️",
@@ -1441,7 +1483,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - California Natural Resources Agency Open Data",
@@ -1453,7 +1497,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Site Layout 2/6 - <b>ArcGIS</b> Hub - YouTube",
@@ -1501,7 +1547,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Frontend GIS Developer — <b>ArcGIS</b> &amp; Web Maps | Pittsburgh | JobLeads.com",
@@ -1513,7 +1561,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geographic Information System Developer - <b>Esri</b> India - BeBee",
@@ -1525,7 +1575,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NYC FDNY <b>ArcGIS</b> Developer at Voyatek in BROOKLYN, New York | Disabled Persons",
@@ -1573,7 +1625,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Episode 61 - Ask Jaws",
@@ -1633,7 +1687,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Now Available: VertiGIS Studio Web 5.41",
@@ -1705,7 +1761,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "29.9% discount for tenants with Cost Rental scheme - <b>ESRI</b> - RTE",
@@ -1717,7 +1775,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Portal - Organizations - Laredo TX",
@@ -1729,7 +1789,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b>: cost rental model flawed but can help affordability - RTE",
@@ -1741,7 +1803,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Pro <b>SDK</b> | #EsriDevTech2026 - YouTube",
@@ -1921,7 +1985,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "🚀 Version 5.0 of ArcGIS Maps SDK for JavaScript Livestream! 🎥",
@@ -2053,7 +2119,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "COVID-19 - Organizations - Open Data SA - City of San Antonio",
@@ -2065,7 +2133,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NJ : ArcGIS Developer | Brooklyn, NY - Hybrid - 3 Days Onsite - Job Details",
@@ -2077,7 +2147,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Job Details - Jobs Nvoids",
@@ -2089,7 +2161,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Episode 60 - Say Hello, Jaws",
@@ -2125,7 +2199,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Senior Esri Visualization Engineer – VirtualVocations – Oferta de trabajo Puerto Rico",
@@ -2137,7 +2213,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "The &#39;winners and losers&#39; in the adoption of AI - RTE",
@@ -2149,7 +2227,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AI use in Irish firms likely to lead to job losses - <b>ESRI</b> - RTE",
@@ -2161,7 +2241,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Native Apps | #EsriDevTech2026",
@@ -2233,7 +2315,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "C++ Software Engineer - Mapping <b>SDK</b> at <b>Esri</b> - United Kingdom - Jaabz Jobs",
@@ -2245,7 +2329,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Updating Item JSON Data for a Feature Service Item in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> ...",
@@ -2353,7 +2439,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Game Engines  | #EsriDevTech2026",
@@ -2401,7 +2489,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "List Basemap Layers with the BasemapManager layers property | <b>ArcGIS API</b> for Python",
@@ -2437,7 +2527,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Case studies - MAGIS",
@@ -2641,7 +2733,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Add Widgets - <b>ArcGIS Javascript API</b> - YouTube",
@@ -2677,7 +2771,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Severity of disability higher in north than south - <b>ESRI</b> - RTE",
@@ -2689,7 +2785,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> and RoboGarden Sign Strategic MOU to Advance Geospatial and Geomatics Education",
@@ -2821,7 +2919,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
@@ -2833,7 +2933,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -2845,7 +2947,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "C# / .NET / <b>ArcGIS</b> Pro <b>SDK</b> - Freelance Job in Desktop Application Development - Upwork",
@@ -2857,7 +2961,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build Mapping Apps & Geoenable Systems",
@@ -2905,7 +3011,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
@@ -2917,7 +3025,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS QuickCapture | Windows 应用- Crx搜搜",
@@ -2965,7 +3075,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Web Developer - <b>Esri</b>/React Specialist | California City | JobLeads.com",
@@ -2977,7 +3089,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What’s New in the ArcGIS Pro SDK",
@@ -3037,7 +3151,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -3049,7 +3165,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS: A GeoSpatial AI Platform | #EsriDevTech2026",
@@ -3073,7 +3191,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Developer Foundation: 2026 v 2201 Version Comparison",
@@ -3097,7 +3217,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "USSS - Sr. Application Developer (<b>JavaScript</b>/<b>ArcGIS</b> Experience Builder) - Jobgether",
@@ -3109,7 +3231,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Canada launches ISO-certified <b>ArcGIS</b> Managed Cloud Services - IT Business Net",
@@ -3145,7 +3269,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lidar Updates to World Elevation Layers | ArcGIS Living Atlas – March 2026",
@@ -3181,7 +3307,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Federal Technical Webinar Series",
@@ -3241,7 +3369,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -3253,7 +3383,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases New Edition of Best-Selling GIS Map Design Guide - BigDATAwire - HPCwire",
@@ -3277,7 +3409,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Adding Map and Layers - <b>ArcGIS Javascript API</b> - YouTube",
@@ -3301,7 +3435,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Fully Remote - GIS Developer (<b>ArcGIS</b> Pro <b>SDK</b> For .NET Skills Required)",
@@ -3313,7 +3449,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS API for Python Associate Version Comparison",
@@ -3445,7 +3583,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Navigate Route | <b>ArcGIS Maps SDK For</b> Qt | Esri Developer",
@@ -3541,7 +3681,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Home energy upgrades: Perfect the enemy of good - RTE",
@@ -3553,7 +3695,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AI + ArcGIS Maps SDK for Javascript -Spinning Up an Emergency Field App in Minutes",
@@ -3577,7 +3721,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Analyze Boston",
@@ -3589,7 +3735,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Analyze Boston",
@@ -3601,7 +3749,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Expert Reviews MAPS in MOVIES",
@@ -3637,7 +3787,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer - Harrisburg Job in Harrisburg | Professional Technology Integration, Inc.",
@@ -3649,7 +3801,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Building and Operating Modern, Well-Architected ArcGIS Systems",
@@ -3685,7 +3839,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
@@ -3697,7 +3853,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDK for Flutter - 200.8.0 compatibility notes for Flutter 3.41.x",
@@ -3733,7 +3891,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Adding Attachments to a Feature in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
@@ -3781,7 +3941,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Eagleview Recognized as an <b>Esri</b> Cornerstone Partner for 20 - GlobeNewswire",
@@ -3841,7 +4003,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - California Open Data",
@@ -3853,7 +4017,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDKs for Game Engines at the 2026 Esri Developer & Technology Summit",
@@ -3961,7 +4127,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Merge pull request #416 from ArifulIslamEsri/patch-1\n    ",
@@ -4033,7 +4201,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Senior C# (.Net) Developer to build <b>ESRI</b> solutions utilizing <b>ArcGIS</b> Pro <b>SDK</b> and Windows ...",
@@ -4129,7 +4299,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "How to enthingify maps with cartoon imagery and chunky overviews",
@@ -4249,7 +4421,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS开发：Qt Linux 原创 - CSDN博客",
@@ -4273,7 +4447,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        chore: update deps and READMEs (#603)\n    ",
@@ -4309,7 +4485,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Press Most Popular Ebooks Available in the <b>Esri</b> Store | MEXC News",
@@ -4357,7 +4535,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Introducing AI components (beta) in the ArcGIS Maps SDK for JavaScript",
@@ -4465,7 +4645,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Remote <b>esri</b> jobs - RemoteFront",
@@ -4477,7 +4659,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Capella Space Gains Visibility Through <b>Esri</b>-Enabled SAR Analytics Integration - TipRanks",
@@ -4609,7 +4793,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Top 5 Geolocation Software Tools Every Business Should Know - The River Journal",
@@ -4669,7 +4855,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Open Data SA - City of San Antonio",
@@ -4681,7 +4869,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geo-located attendance data for CITES Conferences of the Parties - Nature",
@@ -4741,7 +4931,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Enterprise: An Introduction for Developers | #EsriDevSummit2025",
@@ -4837,7 +5029,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Farmers pessimistic on bovine TB eradication - <b>ESRI</b> - RTE",
@@ -4849,7 +5043,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Overview",
@@ -4873,7 +5069,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build GIS Maintenance Optimization Plugin / App (<b>ArcGIS</b> + <b>API</b>) - Upwork",
@@ -4885,7 +5083,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
@@ -4933,7 +5133,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Application Developer - Senior in Calgary, Alberta, Canada - TEKsystems Careers",
@@ -4945,7 +5147,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Security and Authentication for Custom Applications | #EsriDevSummit2025",
@@ -5029,7 +5233,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer - Cloud and Things - Brooklyn, NY, US | Dice.com",
@@ -5041,7 +5247,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Calcite Design System 5.0 released!",
@@ -5077,7 +5285,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Arcgis maps sdk for</b> unreal engine github - uldeso.gay",
@@ -5101,7 +5311,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unlocking Your Data&#39;s Potential: A Gentle Dive Into the <b>ArcGIS API</b> for Python - Oreate AI",
@@ -5137,7 +5349,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS Data - Organizations - Open Data SA - City of San Antonio",
@@ -5149,7 +5363,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - California Open Data",
@@ -5161,7 +5377,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -5173,7 +5391,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "اشتراک‌ها: آرشیو گروه‌های اشتراک‌های Geospatial، صفحه ۱ - NET Tips",
@@ -5269,7 +5489,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "JavaScript Drag and Drop with SortableJS",
@@ -5377,7 +5599,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Online Rest <b>API</b> - <b>Esri</b> - Redlands, CA, US | Dice.com",
@@ -5389,7 +5613,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Test local installation of <b>ArcGIS Maps SDK for</b> JavaScript",
@@ -5437,7 +5663,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Java Full Stack Developer with <b>ArcGIS</b> (F2F Interview) - Zeforge LLC - Remote | Dice.com",
@@ -5449,7 +5677,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Securing ArcGIS Hub with Hardened Docker Images",
@@ -5521,7 +5751,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Using the ArcGIS API for Python for Administration",
@@ -5557,7 +5789,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Use external object detection training data within ArcGIS",
@@ -5581,7 +5815,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -5593,7 +5829,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 圆形动态效果-动态螺旋效果",
@@ -5713,7 +5951,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CyberTech Delivers Mission-Critical <b>ArcGIS</b> Enterprise Transformation for Central Arkansas Water",
@@ -5797,7 +6037,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Weather Map API Integration Samples - Visual Crossing",
@@ -5833,7 +6075,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GeoJSON for Beginners",
@@ -5869,7 +6113,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Roghainn eile airson ArcGIS StoryMaps Briefings ann an Windows - Microsoft Store",
@@ -5929,7 +6175,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CSS Can Count Siblings: sibling-index()",
@@ -5977,7 +6225,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Using ArcGIS Maps SDK for Qt in a JavaFX based application",
@@ -6001,7 +6251,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "App Development with Components Part 3: User Experience",
@@ -6037,7 +6289,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> India and Mahindra University Commend India&#39;s Youth on National Youth Day",
@@ -6097,7 +6351,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer - Hybrid Job in Brooklyn | Burgeon IT Services - DevITjobs",
@@ -6109,7 +6365,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Windows kaqpi ASS GIS kaqman huk hukpa rantinpi kaq - Microsoft Llamkanakuna",
@@ -6157,7 +6415,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Open Data SA - City of San Antonio",
@@ -6169,7 +6429,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Analyst - Chicago, IL (Hybrid) - Locals to IL - Job Details",
@@ -6181,7 +6443,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Chart.js Starter Tutorial 📈",
@@ -6205,7 +6469,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - gistest.penndot.gov",
@@ -6217,7 +6483,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Adaptive CSS Layout with Sibling Count",
@@ -6241,7 +6509,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps SDK for JavaScript: Road Ahead",
@@ -6277,7 +6547,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "arcgis/lumina - npmmirror 镜像站",
@@ -6349,7 +6621,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Developer Job in Brooklyn, NY at Interon It Solutions - ZipRecruiter",
@@ -6361,7 +6635,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build a Longitude/Latitude Picker in JavaScript 👩‍💻",
@@ -6505,7 +6781,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ページ 65 - ArcGISブログ",
@@ -6529,7 +6807,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> for 9.2 - Spatially Adjusted by James Fee",
@@ -6673,7 +6953,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Website Maps Explained: Vector Tiles",
@@ -6781,7 +7063,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS大师之路500技---001手动分割面的几种法方原创 - CSDN博客",
@@ -6817,7 +7101,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Make Your Website Snow With CSS 🌨️",
@@ -6937,7 +7223,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -6949,7 +7237,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CSS Analogies for Beginners",
@@ -6973,7 +7263,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "HTML Expand Trick 💡",
@@ -7009,7 +7301,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Make Your HTML Project a Real Live Website 💻",
@@ -7045,7 +7339,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Code a Photo Shoot Planner for a 3D Map",
@@ -7081,7 +7377,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Testing ArcGIS Maps SDKs for Native Apps: A Behind‑the‑Scenes Look",
@@ -7105,7 +7403,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases Getting to Know <b>ArcGIS</b> Enterprise | News - The Bakersfield Californian",
@@ -7189,7 +7489,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Update Item Thumbnail in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
@@ -7273,7 +7575,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NATO Joint Military Symbology APP6-(B) - Übersicht",
@@ -7297,7 +7601,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - vnsdi",
@@ -7309,7 +7615,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Merge pull request #409 from nPerez00/master\n    ",
@@ -7357,7 +7665,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Runtime <b>SDK</b> Samples - You Might Also Like - App Store",
@@ -7405,7 +7715,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Code a 3D Map Slice Descriptor ",
@@ -7489,7 +7801,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "HTML Tags Every Beginner Should Know",
@@ -7621,7 +7935,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "How to Auto-Translate Map Locations 📍",
@@ -7681,7 +7997,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "南宁网站建设博信wordpress后台改中文 - neutronadmin.com",
@@ -7705,7 +8023,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -7717,7 +8037,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Software Development Engineer II - Android SDK @ Esri | FireUp Job Board",
@@ -7729,7 +8051,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Create a Map Storyteller for the Web 📚",
@@ -7777,7 +8101,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Map Styling Made Easy: Smarter Basemap Picks",
@@ -7813,7 +8139,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Narrate Your 3D Map With AI",
@@ -8017,7 +8345,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | Jobright.ai",
@@ -8029,7 +8359,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer Job in CG-VAK Software &amp; Exports Ltd. at Haryana - Shine.com",
@@ -8041,7 +8373,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ICEYE and <b>Esri</b> Australia (through Boustead Geospatial) partner to deliver unprecedented ...",
@@ -8065,7 +8399,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Maps Get A Voice at Fluttercon",
@@ -8089,7 +8425,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unser Rückblick auf den Esri European Dev & Tech Summit 2025",
@@ -8113,7 +8451,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Analyze Boston",
@@ -8125,7 +8465,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b> Scraping - Bionic Teaching",
@@ -8161,7 +8503,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Code a website map",
@@ -8209,7 +8553,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Add AI to your map",
@@ -8281,7 +8627,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Cequence Security Ranked Number 128 Fastest-Growing Company in North America on the ...",
@@ -8353,7 +8701,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": ".Net Developer with ArcGIS - RightTalents - New York, NY - Dice",
@@ -8365,7 +8715,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Accruent and <b>Esri</b> Form Strategic Partnership to Empower Smarter, Faster ... - Huntsville Item",
@@ -8485,7 +8837,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Create Rectangle Buffers for Point Features in ArcGIS Pro Using ArcPy | Custom Script Tool Tutorial",
@@ -8545,7 +8899,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "From Point A to Powerful: How Developers Are Taking Location Services to the Next Level",
@@ -8569,7 +8925,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Finding Multiple SubAddresses and POIs with a Single Address",
@@ -8653,7 +9011,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lead Gis Software Developer Job in Bethlehem, PA at Langan - ZipRecruiter",
@@ -8665,7 +9025,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -8677,7 +9039,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Truncate layer in <b>ArcGIS</b> Online using <b>arcgis</b>.gis - GIS Stack Exchange",
@@ -8701,7 +9065,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Maps <b>SDK</b> for .NET Samples (WPF) - Microsoft Store",
@@ -8737,7 +9103,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Label Features in <b>ArcGIS</b> Online Web Maps Using the <b>ArcGIS API</b> for Python - YouTube",
@@ -8869,7 +9237,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Maps <b>SDK</b> in Unity (Testing Samples) - YouTube",
@@ -8893,7 +9263,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Enterprise Sharing <b>API</b> @ <b>Esri</b> | AnitaB.org Job Board",
@@ -8905,7 +9277,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "5 Best Mapping Software Platforms for 2025 - Analytics Insight",
@@ -8929,7 +9303,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Shadow DOM and Slots in ArcGIS Map Components",
@@ -8953,7 +9329,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Need <b>ArcGIS</b> Support Analyst - Remote - Radiantze - Dice",
@@ -8965,7 +9343,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -8977,7 +9357,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
@@ -8989,7 +9371,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "NVIDIA Partners Bring Physical AI, New Smart City Technologies to Dublin, Ho Chi Minh ...",
@@ -9061,7 +9445,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What's New in ArcGIS Experience Builder (October 2025)",
@@ -9133,7 +9519,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Developer - Mid Level (Hiring Now) - ZipRecruiter",
@@ -9145,7 +9533,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "What&#39;s New in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> September 2025 - Tracks - YouTube",
@@ -9241,7 +9631,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Get an <b>ArcGIS</b> Online WebMap Layer Index or Layer Definition using the <b>ArcGIS API</b> for Python",
@@ -9277,7 +9669,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Shadow DOM, Slots, No CSS! ArcGIS JS SDK 4.34 Map Components Update",
@@ -9325,7 +9719,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> and UNFPA Extend Strategic Partnership to Support 2030 Census Round",
@@ -9373,7 +9769,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -9385,7 +9783,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Re: ArcGIS Online Administration Associate Exam",
@@ -9445,7 +9845,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Esri Canada Product Specialist Arcgis Developer Technology Spcialiste De Produit ...",
@@ -9457,7 +9859,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Couverture Bouygues Télécom | <b>ArcGIS Maps SDK for</b> JavaScript 4.32 - La Poste Mobile",
@@ -9505,7 +9909,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Application Developer - Accenture",
@@ -9733,7 +10139,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Accelerate Geospatial App Development using ArcGIS Portal Tools",
@@ -9793,7 +10201,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Chinese hackers abuse geo-mapping tool for year-long persistence - Bleeping Computer",
@@ -9841,7 +10251,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - ArcGIS Maps SDKs Developer Documentation - Esri - Redlands, CA",
@@ -9853,7 +10265,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Community Center Pools - <b>ArcGIS</b> GeoServices REST <b>API</b> - Analyze Boston",
@@ -9865,7 +10279,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GEODNET and UTTO Official Partnership - FinancialContent",
@@ -9889,7 +10305,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "FacilityList - <b>ArcGIS</b> GeoService - California Health and Human Services Open Data Portal",
@@ -9901,7 +10319,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Geocoding Service – Discover What’s New",
@@ -9949,7 +10369,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Location Platform d&#39;<b>Esri</b> ajoute une tarification à l&#39;utilisation par session pour les ...",
@@ -10069,7 +10491,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "University of Redlands Partnership Opens High-Tech Mapping Career Pathways for Arroyo ...",
@@ -10105,7 +10529,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Developer - Careers",
@@ -10117,7 +10543,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "New Lidar Coverage in World Elevation Layers – Oct 2025",
@@ -10237,7 +10665,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases New Book Demonstrating How GeoAI Powers Greater Automation, Prediction ...",
@@ -10273,7 +10703,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | AnitaB.org Job Board",
@@ -10285,7 +10717,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Sr. Product Engineer - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> | Jobright.ai",
@@ -10297,7 +10731,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Download SRTM DEM Data in <b>ArcGIS</b> Pro using Google Earth Engine Python <b>API</b>",
@@ -10357,7 +10793,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Hosted Data Services: Management tools differences",
@@ -10381,7 +10819,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript - 自定义（GLSL）修改高亮图层样式- yfceshi - 博客园",
@@ -10405,7 +10845,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS JSAPI 高级教程- 自由绘制线段、多边形 - CSDN博客",
@@ -10453,7 +10895,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Layer disappears when zooming. <b>esri</b> leaflet with proj4leaflet - Stack Overflow",
@@ -10561,7 +11005,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Datasets - WIFIRE Commons Data Catalog",
@@ -10573,7 +11019,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - AMAP Geo",
@@ -10585,7 +11033,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "arcgis/arcade-languageservice - npmmirror 镜像站",
@@ -10609,7 +11059,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Junior Software Engineer at Brooksource - Technical.ly",
@@ -10741,7 +11193,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Fifth of children in poverty after housing costs - <b>ESRI</b> - RTE",
@@ -10753,7 +11207,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "National Interagency Fire Center - Organizations - WIFIRE Commons Data Catalog",
@@ -10765,7 +11221,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Application Developer - Accenture",
@@ -10801,7 +11259,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Walk through - Get to Know ArcGIS Location Platform",
@@ -10849,7 +11309,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Establishes <b>Esri</b> MX as a Geospatial Innovation Center for Mexico with Local Leadership",
@@ -11053,7 +11515,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AutoCAD 2026 ヘルプ | FDO <b>ArcGIS</b> Pro | Autodesk",
@@ -11077,7 +11541,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 3 - Dataset - Catalog - Data.gov",
@@ -11089,7 +11555,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Find walking routes through urban green spaces with Flutter Maps SDK",
@@ -11125,7 +11593,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Oferta de trabajo (backfill)"
     },
     {
       "title": "Job Application for Software Developer I - Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> - Greenhouse",
@@ -11137,7 +11607,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Three ways to improve geocoding performance",
@@ -11173,7 +11645,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "CIMIC brings your largest ACC AEC models into Unity and Esri ArcGIS | Autodesk University",
@@ -11221,7 +11695,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Releases Practical New Guide to Creating Visually Stunning and Effective Map Apps",
@@ -11257,7 +11733,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Mapping the World&#39;s Toughest Adventure Race | Red Bull X Alps - YouTube",
@@ -11341,7 +11819,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -11353,7 +11833,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Broadcasting: Scalars or vectors",
@@ -11389,7 +11871,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -11401,7 +11885,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "California Conservation Easement Database - <b>ArcGIS</b> REST Service: CCED by Access Type",
@@ -11413,7 +11899,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "162 datasets found - DVRPC Data Catalog",
@@ -11425,7 +11913,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Map to Figma",
@@ -11485,7 +11975,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b> GIS Application developer - Random Trees - Remote - Dice",
@@ -11497,7 +11989,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "162 datasets found - DVRPC Data Catalog",
@@ -11509,7 +12003,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Continuous Integration With Internet Data Sources",
@@ -11533,7 +12029,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -11545,7 +12043,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "HTTPCaller truncating edit request with <b>ESRI&#39;s</b> REST <b>API</b> - FME Community",
@@ -11569,7 +12069,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Developer | Kanpur | JobLeads.com",
@@ -11581,7 +12083,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Around the Geospatial, 3D, and AEC Industries: <b>Esri</b> User Conference, AI, 3D Scanning",
@@ -11617,7 +12121,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -11629,7 +12135,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "R-ArcGIS Bridge Highlights from the 2025 Esri User Conference",
@@ -11653,7 +12161,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: ParcelTest",
@@ -11665,7 +12175,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Gis <b>Esri Javascript Api</b> Developer - Banjara Hills - WorkIndia.in",
@@ -11701,7 +12213,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "移动GIS开发与应用——基于<b>ArcGIS Maps SDK for</b> Kotlin_董昱_9787302677031",
@@ -11725,7 +12239,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unlocking the potential of ChatGPT in detecting the XCO2 hotspot captured by orbiting ...",
@@ -11761,7 +12277,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Unable to ignore shared_with DeprecatedWarning · Issue #2342 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b>",
@@ -11797,7 +12315,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Version 1.18 of ArcGIS Experience Builder Developer Edition is Now Available",
@@ -11881,7 +12401,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "corps projects - <b>Esri</b> Rest <b>API</b> - AmeriGEOSS Community Platform DataHub. (BETA)",
@@ -11893,7 +12415,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Where is the point?",
@@ -12013,7 +12537,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: DSECUnidade/Restaurant2020v2",
@@ -12025,7 +12551,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "25-529.B - Sr. GIS Analyst - Hilcorp",
@@ -12037,7 +12565,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: DSECUnidade/Building2020BaseCNv3",
@@ -12049,7 +12579,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 23 - Dataset - Catalog - Data.gov",
@@ -12061,7 +12593,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: DSECUnidade/Building2020PTv12",
@@ -12073,7 +12607,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Apply to Senior <b>JavaScript</b> Developer <b>ArcGIS</b> @ Deloitte - JobzMall",
@@ -12085,7 +12621,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Introducing the ArcGIS Maps SDK for Swift Toolkit v200.8",
@@ -12133,7 +12671,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Logging into the future: Introducing the Next Generation of Authentication in ArcGIS Maps SDK for Qt",
@@ -12205,7 +12745,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Digital Twins Move Beyond the Buzz at <b>Esri</b> User Conference | Geo Week News",
@@ -12289,7 +12831,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Frontend Developer (React OR Angular GIS exp <b>ArcGIS</b> ) at Luxoft - Djinni",
@@ -12325,7 +12869,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "C++ Software Development Engineer II - <b>SDK</b> at <b>Esri</b> - Swooped",
@@ -12337,7 +12883,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "AEC Industry Turns to GIS for Coordination, Visualization, and Efficiency | Geo Week News",
@@ -12457,7 +13005,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>arcgis</b>-location-services-mcp",
@@ -12493,7 +13043,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Three Takeaways from the 2025 <b>Esri</b> User Conference | Geo Week News",
@@ -12529,7 +13081,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS Maps SDK for</b> JavaScript - EV MAGAZINE + ELECTRIC CARS",
@@ -12541,7 +13095,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> Job in Redlands, CA - Getwork",
@@ -12553,7 +13109,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login - ORRSC GIS",
@@ -12565,7 +13123,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Checking the <b>ArcGIS API</b> for Python version being utilised by your IDE - YouTube",
@@ -12589,7 +13149,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - DetroitData",
@@ -12601,7 +13163,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI</b> Developer @ Tech Synergy Sources - Jobs - CareerCrate.io",
@@ -12613,7 +13177,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Product Engineer II - <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> @ <b>Esri</b> - CareerCrate.io",
@@ -12625,7 +13191,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": ".NET <b>SDK</b> consultant Contract Job",
@@ -12637,7 +13205,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Getting started with <b>ArcGIS</b> Python <b>API</b> and Geopandas | GeoDev - YouTube",
@@ -12685,7 +13255,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> Unity 加载wmts - 51CTO博客",
@@ -12709,7 +13281,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -12721,7 +13295,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Data4Land: How to enrich land-use/land-cover with historical vector(s) - ScienceDirect",
@@ -12745,7 +13321,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - City of Phoenix Open Data",
@@ -12757,7 +13335,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": ".NET <b>SDK</b> consultant - Enterprise Minds - Remote - Dice",
@@ -12769,7 +13349,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "City of Tempe - Organizations - Dataset - Catalog",
@@ -12781,7 +13363,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "bulk update · Issue #2327 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b> - GitHub",
@@ -12841,7 +13425,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "OfflineContentManager export_items for Hosted Feature Layer created from Service ... - GitHub",
@@ -12913,7 +13499,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>Esri</b> Collaborates with Microsoft to Bring <b>ArcGIS</b> Users New AI Enhancements",
@@ -13081,7 +13669,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Maratha Military Landscapes of India - UNESCO World Heritage Centre",
@@ -13117,7 +13707,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial Application Developer - Senior - CA-Procom - Monster.ca",
@@ -13141,7 +13733,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Analyze Boston",
@@ -13153,7 +13747,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Melissa Debuts Listware® for <b>ArcGIS</b> Pro at <b>Esri</b> User Conference 2025 | News | bakersfield.com",
@@ -13177,7 +13773,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "GIS - Departments - Sugar Land&#39;s Open Data Portal",
@@ -13189,7 +13787,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Department of Health Care Services - California Health and Human Services Open Data Portal",
@@ -13201,7 +13801,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Dataset - Laredo TX",
@@ -13213,7 +13815,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: LandUsePlanning/LandscapeSettings_RecIntensity",
@@ -13225,7 +13829,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Melissa Debuts Listware® for <b>ArcGIS</b> Pro at <b>Esri</b> User Conference 2025 - GlobeNewswire",
@@ -13285,7 +13891,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -13297,7 +13905,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "3 Arcgis Maps Sdk Javascript Jobs in Maharashtra - Shine",
@@ -13309,7 +13919,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> GeoServices REST <b>API</b> - 2 - Dataset - Catalog - Data.gov",
@@ -13321,7 +13933,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS JavaScript API</b>: IAS_RODNIKI",
@@ -13333,7 +13947,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Merge pull request #402 from nPerez00/master\n    ",
@@ -13369,7 +13985,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript中Button怎么导入 - 51CTO博客",
@@ -13405,7 +14023,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Department of Health Care Access and Information",
@@ -13417,7 +14037,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "ArcGIS Experience Builder at the 2025 ESRI User Conference",
@@ -13441,7 +14063,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        Uploading sample code under a new folder called java-maps-sdk\n    ",
@@ -13477,7 +14101,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Issue 37: Summer 2025 - Technology Record",
@@ -13513,7 +14139,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Geospatial - Group - Analyze Boston",
@@ -13525,7 +14153,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Graitec updates PowerPack for Advance Steel - AEC Magazine",
@@ -13573,7 +14203,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Web Development | Rent | 9781617291616 - Valore",
@@ -13597,7 +14229,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "dnrops/<b>arcgis</b>-maps-<b>sdk</b>-swift-toolkit - GitLink",
@@ -13669,7 +14303,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Storytelling with tracks",
@@ -13921,7 +14557,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "&lt;Item&gt;.attachments_size is always &quot;None&quot; · Issue #2308 · <b>Esri</b>/<b>arcgis</b>-python-<b>api</b> - GitHub",
@@ -13969,7 +14607,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ESRI ArcGIS</b> (.NET <b>SDK</b>) Graphics not Clearing - Stack Overflow",
@@ -14017,7 +14657,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Python Scripting Using the <b>ArcGIS API</b> for Python - Emory University Career Center",
@@ -14053,7 +14695,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "[Inline Editable]: add read only mode · Issue #12418 · <b>Esri</b>/calcite-design-system - GitHub",
@@ -14185,7 +14829,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "\n        My First Project\n    ",
@@ -14293,7 +14939,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Lidar derived high resolution data updates to Living Atlas World Elevation Layers (June 2025)",
@@ -14389,7 +15037,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Developer Summit at UC 2025",
@@ -14425,7 +15075,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "<b>ArcGIS</b> Application Program Interface (<b>API</b>) for Flex - VA.gov",
@@ -14449,7 +15101,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Over 900 extra GPs needed to meet demand, says <b>ESRI</b> - RTE",
@@ -14461,7 +15115,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Animating ArcGIS Feature services using WebGL with Pulse #builtWithArcGIS",
@@ -14689,7 +15345,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "More than 1300 SLO County PG&amp;E customers lose power in outage",
@@ -14737,7 +15395,9 @@
       "category": "",
       "topicsProduct": "",
       "summary": "",
-      "processed": false
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "URL prohibida (backfill)"
     },
     {
       "title": "Build smarter location-aware apps with Geotriggers in ArcGIS Maps SDK for Flutter",

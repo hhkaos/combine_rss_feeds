@@ -9,12 +9,6 @@
     <script>
       // Load the table
       try {
-        // Load configuration files
-        async function loadConfig(file) {
-          const response = await fetch(`config/${file}`);
-          return await response.json();
-        }
-
         // Load and process the JSON feed
         async function loadFeed() {
           try {
@@ -30,41 +24,13 @@
         // Initialize the application
         async function initializeApp() {
           try {
-            // Load all configuration files
-            const [topicsProduct, categories, authors] = await Promise.all([
-              loadConfig('topics_product.json'),
-              loadConfig('categories.json'),
-              loadConfig('authors.json')
-            ]);
-
-            // Generate technologies from topics_product values
-            const technologies = topicsProduct.topics_product.map(t => t.value);
-            loadCombobox(technologies, "#topics", "#templateTopicRow");
-
-            // Generate categories from categories.json
-            const categoriesList = categories.categories.map(c => c.value);
-            loadCombobox(categoriesList, "#category", "#templateTopicRow");
-
-            // Generate authors from authors.json
-            const authorsList = authors.authors.map(a => a.value);
-            loadCombobox(authorsList, "#author", "#templateTopicRow");
-
-            // Load the feed data
             const items = await loadFeed();
             populateTable(items);
 
-            // Trigger initial filter events
-            const event = new Event("calciteComboboxChange");
-            document.querySelector('#topics').dispatchEvent(event);
-            document.querySelector('#category').dispatchEvent(event);
-            document.querySelector('#author').dispatchEvent(event);
-
-            // Show tour if not shown before
             if(!localStorage.getItem("tourDisplayed")){
               introJs().start();
               localStorage.setItem("tourDisplayed", true);
             }
-
           } catch (error) {
             console.error('Error initializing app:', error);
           }
@@ -92,13 +58,6 @@
               }else{
                 td[1].innerHTML = `${isFeatured} ${item.title}`;
               }
-              td[2].innerText = item.author;
-              row.setAttribute("data-authors", item.author)
-              td[3].innerText = item.topicsProduct;
-              row.setAttribute("data-technologies", item.topicsProduct)
-              td[4].innerText = item.category;
-              row.setAttribute("data-categories", item.category)
-              td[5].innerText = item.summary || '';
               tbody.appendChild(clone);
             });
           }
@@ -169,14 +128,6 @@
       .emoji{
         text-decoration: none;
       }
-      calcite-combobox{
-        width:33%;
-        margin-right: .3%;
-      }
-      .mb1{
-        margin-bottom: 1rem;
-      }
-
       @media only screen and (max-width: 850px) {
         h1 {
           font-size: 1.2rem;
@@ -227,29 +178,11 @@
       </span>
     </div>
 
-    <div class="row mb1" data-intro="🔎 Filter activity and <b>explore only what interests you</b>. <br/><br/>If you save this page as a bookmark ⭐️, the filters will remain in your next visit" data-step="10">
-      <calcite-combobox placeholder="Select topics" id="topics" selection-display="fit">
-        
-      </calcite-combobox>
-
-      <calcite-combobox placeholder="Content type" id="category" selection-display="fit">
-        
-      </calcite-combobox>
-
-      <calcite-combobox placeholder="Author" id="author" selection-display="fit">
-        
-      </calcite-combobox>
-      </div>
-
     <div data-intro="This timeline ⏳ include resources for developers using ArcGIS.<br/><br/>The LinkedIn and X (former Twitter) columns contain existing social media messages <b>we would like you to consider liking 👍🏻 or reposting 🔁</b>" data-step="1">
       <calcite-table caption="Simple table" interaction-mode="static" bordered>
           <calcite-table-row slot="table-header">
               <calcite-table-header heading="Date" alignment="center"></calcite-table-header>
               <calcite-table-header heading="Content title"></calcite-table-header>
-              <calcite-table-header heading="Author" alignment="center"></calcite-table-header>
-              <calcite-table-header heading="Technology"></calcite-table-header>
-              <calcite-table-header heading="Content type" alignment="center"></calcite-table-header>
-              <calcite-table-header heading="Summary"></calcite-table-header>
           </calcite-table-row>
       </calcite-table>
     </div>
@@ -265,111 +198,10 @@
     <calcite-table-row>
       <calcite-table-cell alignment="center"></calcite-table-cell>
       <calcite-table-cell></calcite-table-cell>
-      <calcite-table-cell alignment="center"></calcite-table-cell>
-      <calcite-table-cell></calcite-table-cell>
-      <calcite-table-cell alignment="center"></calcite-table-cell>
-      <calcite-table-cell></calcite-table-cell>
     </calcite-table-row>
   </template>
 
-  <template id="templateTopicRow">
-    <calcite-combobox-item value="" text-label=""></calcite-combobox-item>
-  </template>
-  <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
-  
   <script>
-    let flags
-
-    try{
-      const parts = new URL(window.location.href);
-      if (parts.hash == '') {
-        throw new Error('No hash');
-      }
-      flags = JSON.parse(LZString.decompressFromBase64(parts.hash.substr(1)));
-    }catch(error){
-      flags = {
-        "technologies": {},
-        "categories": {},
-        "authors": {},
-      }
-    }
-
-    const findValueInNestedJSON = (jsonObject, targetKey) => {
-        for (const outerKey in jsonObject) {
-            if (jsonObject.hasOwnProperty(outerKey)) {
-                const innerObject = jsonObject[outerKey];
-                if (innerObject.hasOwnProperty(targetKey)) {
-                    return innerObject[targetKey];
-                }
-            }
-        }
-        return null; 
-    };
-
-    const loadCombobox = (options, idContainer, templateId) => {
-        const topicsSelector = document.querySelector(idContainer);
-        const template = document.querySelector(templateId);
-        
-        options.forEach((e, i , array) => {
-          const clone = template.content.cloneNode(true);
-          clone.firstElementChild.setAttribute("value", e)
-          clone.firstElementChild.setAttribute("text-label", e)
-          // If check flags
-          const val = findValueInNestedJSON(flags, e)
-          if(val === 1 || val === null){
-            clone.firstElementChild.setAttribute("selected", null)
-          }
-          topicsSelector.appendChild(clone);
-        });
-    };
-
-    const updateFlags = (e, keyword) => {
-      e.currentTarget.querySelectorAll(':not([selected])').forEach(e => {
-        flags[keyword][e.value] = 0;
-        const filter = `calcite-table-row[data-${keyword}='${e.value}']`;
-        document.querySelectorAll(filter).forEach(e => {
-          e.classList.add("hidden");
-        })
-      });
-
-      e.currentTarget.querySelectorAll('[selected]').forEach(e => {
-        flags[keyword][e.value] = 1;
-        
-        const filter = `calcite-table-row[data-${keyword}='${e.value}']`;
-        document.querySelectorAll(filter).forEach(e => {
-          if( flags.authors[e.dataset.authors] &&
-              flags.technologies[e.dataset.technologies] &&
-              flags.categories[e.dataset.categories]){
-                e.classList.remove("hidden");
-          }
-          e.dataset.authors
-        })
-      });
-
-      window.history.pushState( { title: "Services" }, "servicespage", "#"+LZString.compressToBase64(JSON.stringify(flags)));
-    }
-
-    document.querySelector('#topics').addEventListener("calciteComboboxChange",  (e) => updateFlags(e, 'technologies') );
-    document.querySelector('#category').addEventListener("calciteComboboxChange",  (e) => updateFlags(e, 'categories') );
-    document.querySelector('#author').addEventListener("calciteComboboxChange",  (e) => updateFlags(e, 'authors') );
-
-    const initApp = () => {
-      const hidrated = document.querySelector('#author').getAttribute("calcite-hydrated");
-      if(hidrated != ''){
-        setTimeout(initApp, 1000);
-      }else{
-        const event = new Event("calciteComboboxChange");
-        document.querySelector('#topics').dispatchEvent(event);
-        document.querySelector('#category').dispatchEvent(event);
-        document.querySelector('#author').dispatchEvent(event);
-        if(!localStorage.getItem("tourDisplayed")){
-          introJs().start();
-          localStorage.setItem("tourDisplayed", true);
-        }
-      }
-    }
-    initApp();
-
     document.querySelector('#help').addEventListener("click", e => introJs().start())
 
     // Function to format the date to "DD Month YYYY"
