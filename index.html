@@ -21,16 +21,16 @@
         const REVIEW_STATUSES = ['accepted', 'rejected', 'needs_rule'];
         const ARCHIVED_STATUSES = ['archived'];
         const IGNORE_REASONS = [
-          { value: 'irrelevant', label: 'No relevante' },
-          { value: 'job_offer', label: 'Empleo' },
-          { value: 'forum_question', label: 'Foro/pregunta' },
+          { value: 'irrelevant', label: 'Not relevant' },
+          { value: 'job_offer', label: 'Job post' },
+          { value: 'forum_question', label: 'Forum/question' },
           { value: 'dataset_or_rest_endpoint', label: 'Dataset/API' },
-          { value: 'wrong_esri', label: 'Otro ESRI' },
-          { value: 'duplicate', label: 'Duplicado' },
-          { value: 'old_content', label: 'Antiguo' },
+          { value: 'wrong_esri', label: 'Other Esri' },
+          { value: 'duplicate', label: 'Duplicate' },
+          { value: 'old_content', label: 'Old content' },
           { value: 'spam_pdf', label: 'Spam/PDF' },
-          { value: 'bad_ai_classification', label: 'IA falló' },
-          { value: 'other', label: 'Otro' }
+          { value: 'bad_ai_classification', label: 'AI miss' },
+          { value: 'other', label: 'Other' }
         ];
 
         // Load and process the JSON feed
@@ -83,6 +83,11 @@
         function setupCurationControls() {
           document.querySelector('#exportDecisionsButton').addEventListener('click', exportDecisions);
           document.querySelector('#syncDecisionsButton').addEventListener('click', async () => {
+            const shouldSync = window.confirm(
+              'Syncing from file will replace the decisions stored in this browser. Continue?'
+            );
+            if (!shouldSync) return;
+
             clearDecisions();
             const result = await loadPersistedDecisions();
             cleanupAcceptedDecisions();
@@ -280,8 +285,8 @@
           if (!status || !result) return;
 
           status.innerText = result.ok
-            ? `Archivo cargado: ${result.count} decisiones`
-            : `No se pudo cargar ${result.path}`;
+            ? `Loaded ${result.count} decisions from file`
+            : `Could not load ${result.path}`;
         }
 
         async function loadPersistedDecisions() {
@@ -365,12 +370,12 @@
 
         function formatStatus(status) {
           const labels = {
-            accepted: 'Añadido',
-            rejected: 'Ignorado',
-            needs_rule: 'Bloqueado',
-            archived: 'Archivado'
+            accepted: 'Added',
+            rejected: 'Ignored',
+            needs_rule: 'Blocked',
+            archived: 'Archived'
           };
-          return labels[status] || 'Pendiente';
+          return labels[status] || 'Pending';
         }
 
         function getDefaultReason(status) {
@@ -431,9 +436,9 @@
         function getActionControls(item) {
           return `<div class="review-controls">
             <div class="primary-actions">
-              <button type="button" class="action-keep" data-action="accepted">Añadir</button>
-              <button type="button" class="action-ignore" data-open-ignore="true">Ignorar</button>
-              <button type="button" data-action="needs_rule" title="Marcar este caso para bloquear contenido parecido en el futuro">Bloquear similares</button>
+              <button type="button" class="action-keep" data-action="accepted">Add</button>
+              <button type="button" class="action-ignore" data-open-ignore="true">Ignore</button>
+              <button type="button" data-action="needs_rule" title="Flag this case so similar content can be blocked later">Block similar</button>
             </div>
           </div>`;
         }
@@ -545,16 +550,26 @@
           if ("content" in document.createElement("template")) {
             const tbody = resetTable();
             const fragment = document.createDocumentFragment();
-            
-            items.filter(item => !item.ignored).forEach(item => {
+            const visibleItems = items.filter(item => !item.ignored);
+
+            if (!visibleItems.length) {
+              const emptyRow = document.createElement('tr');
+              const emptyCell = document.createElement('td');
+              emptyCell.className = 'empty-state';
+              emptyCell.colSpan = 3;
+              emptyCell.textContent = `No ${currentReviewTab.replace('_', ' ')} items to review.`;
+              emptyRow.appendChild(emptyCell);
+              fragment.appendChild(emptyRow);
+              tbody.appendChild(fragment);
+              return;
+            }
+
+            visibleItems.forEach(item => {
               const row = document.createElement('tr');
               const decision = getDecision(item);
               row.dataset.decisionId = decisionId(item.link);
               row.dataset.status = decision?.status || 'pending';
               row.dataset.reason = decision?.reason || '';
-              addCell(row, formatStatus(decision?.status), { alignment: 'center', className: 'status-cell' });
-              row.lastChild.setAttribute('data-status-cell', '');
-              addCell(row, getActionControls(item), { html: true, className: 'review-cell' });
 
               if(item.link && item.link.toLowerCase() != 'n/a'){
                 addCell(row, formatDate(item.date), { alignment: 'center' });
@@ -563,6 +578,8 @@
                 addCell(row, formatDate(item.date), { alignment: 'center' });
                 addCell(row, item.title);
               }
+
+              addCell(row, getActionControls(item), { html: true, className: 'review-cell' });
               fragment.appendChild(row);
             });
 
@@ -579,10 +596,53 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.css" integrity="sha512-4OzqLjfh1aJa7M33b5+h0CSx0Q3i9Qaxlrr1T/Z+Vz+9zs5A7GM3T3MFKXoreghi3iDOSbkPMXiMBhFO7UBW/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+      :root{
+        color-scheme: light;
+        --bg: #f6f8fb;
+        --surface: #ffffff;
+        --surface-muted: #eef4fb;
+        --surface-hover: #f8fbff;
+        --border: #d7dde7;
+        --border-strong: #b7c1d0;
+        --text: #1b1b1f;
+        --muted: #5f6368;
+        --link: #0b57d0;
+        --primary: #0b57d0;
+        --primary-hover: #0842a0;
+        --primary-soft: #d3e3fd;
+        --secondary: #006a6a;
+        --secondary-soft: #d9eeee;
+        --danger: #b3261e;
+        --danger-soft: #fceeee;
+        --success: #146c2e;
+        --success-soft: #edf8f0;
+        --warning: #875300;
+        --warning-soft: #fff3d6;
+        --archived: #6750a4;
+        --archived-soft: #f1ecff;
+        --shadow: 0 1px 2px rgba(60, 64, 67, 0.12), 0 8px 24px rgba(60, 64, 67, 0.08);
+      }
+      *{
+        box-sizing: border-box;
+      }
+      html{
+        background: var(--bg);
+      }
+      body{
+        background:
+          linear-gradient(180deg, #ffffff 0, #f8fbff 300px, var(--bg) 100%);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        min-height: 100vh;
+      }
       .container{
-        max-width: 960px;
         margin: 0 auto;
-        width: 90%;
+        max-width: 1400px;
+        padding: 40px 28px 56px;
+        width: min(100%, 1480px);
       }
       .row {
         display: flex;
@@ -601,178 +661,231 @@
         padding-left: 2rem;
       }
       .ribbon {
-        /* positioning */
         position: fixed;
-        padding: 5px 45px;
-        width: 128px;
-        /* top right of the page */
-        top: 50px;
-        right: -50px;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        /* effects with some shadow */
-        box-shadow: 0 0 0 3px #141412, 0 0 20px -3px rgba(0, 0, 0, 0.5);
-        text-shadow: 0 0 0 #ffffff, 0 0 5px rgba(0, 0, 0, 0.3);
-        /* looks */
-        background-color: #141412;
+        bottom: 16px;
+        box-shadow: 0 1px 2px rgba(60, 64, 67, 0.14), 0 8px 24px rgba(60, 64, 67, 0.16);
+        background-color: #1b1b1f;
+        border-radius: 999px;
         color: #ffffff;
-        font-size: 13px;
-        font-family: sans-serif;
+        font-size: 0.82rem;
         text-decoration: none;
-        font-weight: bold;
-        /* ribbon effects */
-        border: 2px dotted #ffffff;
-        /* webkit antialias fix */
-        -webkit-backface-visibility: hidden;
-        letter-spacing: .5px;
+        font-weight: 750;
+        left: 16px;
+        letter-spacing: 0;
+        padding: 0.7rem 1rem;
+        right: auto;
         text-align: center;
+        top: auto;
+        width: auto;
+        z-index: 5;
       }
       .emoji{
         text-decoration: none;
       }
-      .view-switcher a{
-        display: inline-block;
-        padding: 0.2rem 0;
+      a{
+        color: var(--link);
+        font-weight: 650;
+        text-underline-offset: 0.16em;
       }
-      .view-switcher a.active-view{
-        color: #1a1a1a;
-        font-weight: 700;
-        text-decoration: none;
+      a:hover{
+        color: #083d74;
+      }
+      .subtitle{
+        color: var(--muted);
+        font-size: 1.03rem;
+        line-height: 1.55;
+        margin: 0;
+        max-width: 760px;
       }
       .url-cell a{
         overflow-wrap: anywhere;
       }
+      h1{
+        font-size: clamp(2rem, 4vw, 4rem);
+        line-height: 0.95;
+        margin: 0;
+        max-width: 920px;
+      }
+      button,
+      input{
+        font: inherit;
+      }
       .page-heading{
-        align-items: center;
+        align-items: flex-start;
         display: flex;
-        gap: 0.6rem;
+        margin: 0;
+        width: 100%;
+      }
+      .row:first-child{
+        align-items: flex-start;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: minmax(0, 1fr);
+        margin-bottom: 26px;
       }
       .info-button{
         align-items: center;
-        background: #ffffff;
-        border: 1px solid #8f8f8f;
-        border-radius: 50%;
-        color: #2c3e50;
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        color: var(--muted);
         cursor: pointer;
         display: inline-flex;
-        font: 700 0.95rem Arial, sans-serif;
-        height: 28px;
+        flex: 0 0 auto;
+        font-weight: 800;
+        height: 34px;
         justify-content: center;
-        margin-top: 0.35rem;
-        width: 28px;
+        margin-top: 0.18rem;
+        width: 34px;
       }
       .info-button:hover{
-        background: #f3f3f3;
+        background: var(--surface-muted);
+        color: var(--text);
+      }
+      .decision-heading{
+        align-items: center;
+        display: inline-flex;
+        gap: 0.45rem;
+      }
+      .decision-heading .info-button{
+        height: 26px;
+        margin-top: 0;
+        width: 26px;
       }
       .review-tabs{
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        box-shadow: var(--shadow);
         display: flex;
         flex-wrap: wrap;
-        gap: 0.5rem;
-        margin: 1rem 0 0.75rem;
+        gap: 6px;
+        margin: 0 0 16px;
+        padding: 8px;
       }
       .review-tabs button{
-        background: #ffffff;
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
-        color: #1f1f1f;
+        background: transparent;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        color: var(--muted);
         cursor: pointer;
-        font: inherit;
-        min-height: 34px;
-        padding: 0.35rem 0.7rem;
+        font-weight: 700;
+        min-height: 40px;
+        padding: 0.45rem 0.78rem;
       }
       .review-tabs button:hover,
       .review-tabs button.active-tab{
-        background: #eef6fb;
-        border-color: #00619b;
-        color: #004b7a;
-        font-weight: 700;
+        background: var(--primary-soft);
+        border-color: transparent;
+        color: #041e49;
       }
       .review-tabs span{
-        color: #666;
+        color: inherit;
         font-weight: 400;
-        margin-left: 0.25rem;
+        margin-left: 0.35rem;
+        opacity: 0.78;
       }
       .curation-toolbar{
-        align-items: center;
-        display: flex;
-        gap: 0.75rem;
-        justify-content: flex-end;
-        margin: 0.75rem 0;
-      }
-      .pagination{
         align-items: center;
         display: flex;
         flex-wrap: wrap;
         gap: 0.65rem;
         justify-content: flex-end;
-        margin: 0.75rem 0;
+        margin: 18px 0 8px;
       }
-      .pagination button{
-        background: #ffffff;
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
-        color: #1f1f1f;
-        cursor: pointer;
-        font: inherit;
-        min-height: 30px;
-        padding: 0.25rem 0.55rem;
+      .pagination{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+        justify-content: flex-end;
+        margin: 10px 0 20px;
+      }
+      .curation-toolbar span,
+      .pagination span{
+        color: var(--muted);
+        font-weight: 650;
       }
       .pagination button:disabled{
-        color: #888;
+        color: #8a969f;
         cursor: default;
         opacity: 0.55;
       }
+      .pagination button,
       .curation-toolbar button,
       .import-decisions,
       .review-controls button{
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
-        background: #ffffff;
-        color: #1f1f1f;
-        font: inherit;
-        min-height: 30px;
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--text);
+        font-weight: 700;
+        min-height: 36px;
+        transition: background 140ms ease, border-color 140ms ease, color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
       }
+      .pagination button,
       .curation-toolbar button,
       .import-decisions,
       .review-controls button{
         cursor: pointer;
-        padding: 0.25rem 0.55rem;
+        padding: 0.42rem 0.72rem;
       }
+      .pagination button:hover:not(:disabled),
       .curation-toolbar button:hover,
       .import-decisions:hover,
       .review-controls button:hover{
-        background: #f3f3f3;
+        background: var(--surface-hover);
+        border-color: #8aa0ae;
+        box-shadow: 0 5px 14px rgba(23, 33, 43, 0.08);
+        transform: translateY(-1px);
+      }
+      #syncDecisionsButton{
+        background: var(--primary);
+        border-color: var(--primary);
+        color: #ffffff;
+      }
+      #syncDecisionsButton:hover{
+        background: var(--primary-hover);
+        border-color: var(--primary-hover);
+      }
+      #exportDecisionsButton,
+      .import-decisions{
+        background: #ffffff;
+        color: var(--primary);
       }
       .import-decisions input{
         display: none;
       }
       .sync-status{
-        color: #666;
-        font-size: 0.9rem;
-        margin: -0.35rem 0 0.75rem;
+        color: var(--muted);
+        font-size: 0.92rem;
+        margin: 0 0 8px;
         text-align: right;
       }
       .review-controls{
         display: grid;
-        gap: 0.45rem;
-        min-width: 260px;
+        gap: 0.5rem;
+        min-width: 300px;
       }
       .primary-actions,
       .reason-buttons{
         display: flex;
-        flex-wrap: wrap;
-        gap: 0.35rem;
+        flex-wrap: nowrap;
+        gap: 0.45rem;
+      }
+      .primary-actions{
+        white-space: nowrap;
       }
       .primary-actions .action-keep{
-        border-color: #2e7d32;
-        color: #1b5e20;
+        background: var(--success);
+        border-color: var(--success);
+        color: #ffffff;
         font-weight: 700;
       }
       .primary-actions .action-ignore{
-        border-color: #a32929;
-        color: #8a1f1f;
+        background: var(--danger-soft);
+        border-color: #efa7aa;
+        color: var(--danger);
         font-weight: 700;
       }
       .reason-button{
@@ -780,19 +893,19 @@
       }
       .ignore-dialog{
         border: 0;
-        border-radius: 8px;
-        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
+        border-radius: 18px;
+        box-shadow: 0 24px 80px rgba(23, 33, 43, 0.25);
         max-width: 680px;
         padding: 0;
         width: min(92vw, 680px);
       }
       .ignore-dialog::backdrop{
-        background: rgba(0, 0, 0, 0.35);
+        background: rgba(23, 33, 43, 0.45);
       }
       .dialog-content{
         display: grid;
-        gap: 1rem;
-        padding: 1.25rem;
+        gap: 1.1rem;
+        padding: 1.35rem;
       }
       .dialog-header{
         align-items: start;
@@ -801,20 +914,20 @@
         justify-content: space-between;
       }
       .dialog-header h2{
-        font-size: 1.1rem;
+        font-size: 1.25rem;
         margin: 0;
       }
       .dialog-title{
-        color: #4a4a4a;
+        color: var(--muted);
         line-height: 1.4;
         margin: 0.35rem 0 0;
       }
       .dialog-close{
-        background: #ffffff;
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
         cursor: pointer;
-        font: inherit;
+        font-weight: 700;
         min-height: 30px;
       }
       .reason-buttons{
@@ -823,38 +936,37 @@
         gap: 0.5rem;
       }
       .reason-buttons .reason-button{
-        background: #ffffff;
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
-        color: #1f1f1f;
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        color: var(--text);
         cursor: pointer;
-        font: inherit;
+        font-weight: 700;
         min-height: 34px;
         padding: 0.35rem 0.65rem;
       }
       .reason-buttons .reason-button:hover{
-        background: #fff1f1;
-        border-color: #a32929;
-        color: #8a1f1f;
+        background: var(--danger-soft);
+        border-color: #efa7aa;
+        color: var(--danger);
       }
       .custom-reason{
         display: flex;
         gap: 0.5rem;
       }
       .custom-reason input{
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
+        border: 1px solid var(--border-strong);
+        border-radius: 8px;
         flex: 1;
-        font: inherit;
         min-height: 34px;
         padding: 0 0.55rem;
       }
       .custom-reason button{
-        background: #ffffff;
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
         cursor: pointer;
-        font: inherit;
+        font-weight: 700;
         padding: 0.35rem 0.65rem;
       }
       .decision-help{
@@ -864,44 +976,67 @@
       .decision-help p{
         margin: 0;
       }
-      .status-cell{
-        font-weight: 700;
-        min-width: 82px;
-      }
       .table-wrap{
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
         overflow-x: auto;
       }
       .feed-table{
-        border-collapse: collapse;
-        border: 1px solid #d3d3d3;
+        border-collapse: separate;
+        border-spacing: 0;
         width: 100%;
       }
       .feed-table th,
       .feed-table td{
-        border-bottom: 1px solid #d3d3d3;
-        padding: 0.65rem 0.75rem;
+        border-bottom: 1px solid var(--border);
+        padding: 0.82rem 1rem;
         text-align: left;
         vertical-align: top;
       }
       .feed-table th{
-        background: #f8f8f8;
-        color: #333;
-        font-weight: 700;
+        background: #f8fafb;
+        color: #40505d;
+        font-size: 0.78rem;
+        font-weight: 800;
+        position: sticky;
+        text-transform: uppercase;
+        top: 0;
+        z-index: 1;
       }
       .feed-table tbody tr:nth-child(odd){
-        background: #f3f3f3;
+        background: #fbfcfd;
+      }
+      .feed-table tbody tr:hover{
+        background: #f2f7f8;
       }
       .feed-table tbody tr[data-status="accepted"]{
-        background: #eef8ef;
+        background: inherit;
       }
       .feed-table tbody tr[data-status="rejected"]{
-        background: #fff1f1;
+        background: inherit;
       }
       .feed-table tbody tr[data-status="needs_rule"]{
-        background: #fff8df;
+        background: inherit;
       }
       .feed-table tbody tr[data-status="archived"]{
-        background: #f3f0ff;
+        background: inherit;
+      }
+      .feed-table tbody tr[data-status="accepted"] td:first-child{
+        border-left: 4px solid var(--success);
+      }
+      .feed-table tbody tr[data-status="rejected"] td:first-child{
+        border-left: 4px solid var(--danger);
+      }
+      .feed-table tbody tr[data-status="needs_rule"] td:first-child{
+        border-left: 4px solid var(--warning);
+      }
+      .feed-table tbody tr[data-status="archived"] td:first-child{
+        border-left: 4px solid var(--archived);
+      }
+      .feed-table tbody tr:last-child td{
+        border-bottom: 0;
       }
       .feed-table .align-center{
         text-align: center;
@@ -909,14 +1044,56 @@
       .feed-table a{
         overflow-wrap: anywhere;
       }
+      .feed-table td:nth-child(3){
+        min-width: 320px;
+      }
+      .feed-table td:nth-child(1){
+        color: var(--muted);
+        font-weight: 650;
+        min-width: 120px;
+      }
+      .feed-table td:nth-child(2){
+        font-size: 1.02rem;
+        max-width: 780px;
+      }
+      .review-cell{
+        width: 330px;
+      }
+      .empty-state{
+        color: var(--muted);
+        font-size: 1rem;
+        font-weight: 650;
+        padding: 2rem 1rem !important;
+        text-align: center !important;
+      }
       @media only screen and (max-width: 850px) {
         h1 {
-          font-size: 1.2rem;
+          font-size: 2rem;
+          line-height: 1.04;
+        }
+        .container{
+          padding: 26px 16px 40px;
+        }
+        .row:first-child{
+          grid-template-columns: 1fr;
+        }
+        .curation-toolbar,
+        .pagination{
+          justify-content: flex-start;
+        }
+        .feed-table{
+          min-width: 760px;
         }
       }
       @media only screen and (max-width: 600px) {
         .ribbon {
           display: none;
+        }
+        .review-tabs button{
+          flex: 1 1 150px;
+        }
+        .custom-reason{
+          flex-direction: column;
         }
       }
       .hidden{
@@ -928,24 +1105,25 @@
       }
       #help{
         position: fixed;
-        bottom: 10px;
-        right: 10px;
+        bottom: 16px;
+        right: 16px;
       }
       #help button{
         align-items: center;
-        background: #ffffff;
-        border: 1px solid #8f8f8f;
+        background: var(--text);
+        border: 1px solid var(--text);
         border-radius: 50%;
-        color: #2c3e50;
+        color: #ffffff;
         cursor: pointer;
         display: inline-flex;
-        font: 700 1rem Arial, sans-serif;
-        height: 32px;
+        font-weight: 800;
+        height: 42px;
         justify-content: center;
-        width: 32px;
+        box-shadow: 0 10px 28px rgba(23, 33, 43, 0.24);
+        width: 42px;
       }
       #help button:hover{
-        background: #f3f3f3;
+        background: #2a3744;
       }
   </style>
 </head>
@@ -955,39 +1133,38 @@
     
     <div class="row">
       <div class="page-heading">
-        <h1 style="margin-bottom: 0;">Auto-generated feed for Esri Dev. content</h1>
-        <button type="button" id="infoButton" class="info-button" aria-label="Explicar decisiones">i</button>
+        <h1>Auto-generated feed</h1>
       </div>
-      <p class="view-switcher">
-        <a href="https://www.rauljimenez.info/esridevs-social-activity/">Check manually curated feed for Esri Dev. content</a>
+      <p class="subtitle">
+        Review and filter incoming Esri Dev content here before it gets published to the
+        <a href="https://www.rauljimenez.info/esridevs-social-activity/">manually curated feed</a>.
       </p>
-      </span>
     </div>
 
-    <div id="reviewTabs" class="review-tabs" role="tablist" aria-label="Estados de revisión">
-      <button type="button" data-review-tab="pending" class="active-tab" role="tab" aria-selected="true">Pendientes <span data-review-count="pending">0</span></button>
-      <button type="button" data-review-tab="accepted" role="tab" aria-selected="false">Añadidos <span data-review-count="accepted">0</span></button>
-      <button type="button" data-review-tab="rejected" role="tab" aria-selected="false">Ignorados <span data-review-count="rejected">0</span></button>
-      <button type="button" data-review-tab="needs_rule" role="tab" aria-selected="false">Bloqueados <span data-review-count="needs_rule">0</span></button>
-      <button type="button" data-review-tab="archived" role="tab" aria-selected="false">Archivados <span data-review-count="archived">0</span></button>
+    <div id="reviewTabs" class="review-tabs" role="tablist" aria-label="Review status">
+      <button type="button" data-review-tab="pending" class="active-tab" role="tab" aria-selected="true">Pending <span data-review-count="pending">0</span></button>
+      <button type="button" data-review-tab="accepted" role="tab" aria-selected="false">Added <span data-review-count="accepted">0</span></button>
+      <button type="button" data-review-tab="rejected" role="tab" aria-selected="false">Ignored <span data-review-count="rejected">0</span></button>
+      <button type="button" data-review-tab="needs_rule" role="tab" aria-selected="false">Blocked <span data-review-count="needs_rule">0</span></button>
+      <button type="button" data-review-tab="archived" role="tab" aria-selected="false">Archived <span data-review-count="archived">0</span></button>
     </div>
 
     <div class="curation-toolbar">
-      <span><span id="decisionCount">0</span> decisiones</span>
-      <button type="button" id="syncDecisionsButton">Sincronizar desde archivo</button>
+      <span><span id="decisionCount">0</span> decisions</span>
+      <button type="button" id="syncDecisionsButton">Sync from file</button>
       <label class="import-decisions">
-        Importar JSONL
+        Import JSONL
         <input type="file" id="importDecisionsInput" accept=".jsonl,application/x-ndjson,application/json">
       </label>
-      <button type="button" id="exportDecisionsButton">Exportar JSONL</button>
+      <button type="button" id="exportDecisionsButton">Export JSONL</button>
     </div>
     <p id="syncStatus" class="sync-status"></p>
 
     <div class="pagination">
-      <button type="button" id="prevPageButton">Anterior</button>
-      <span>Mostrando <span id="paginationRange">0-0</span> de <span id="paginationTotal">0</span></span>
-      <span>Página <span id="paginationPage">1 / 1</span></span>
-      <button type="button" id="nextPageButton">Siguiente</button>
+      <button type="button" id="prevPageButton">Previous</button>
+      <span>Showing <span id="paginationRange">0-0</span> of <span id="paginationTotal">0</span></span>
+      <span>Page <span id="paginationPage">1 / 1</span></span>
+      <button type="button" id="nextPageButton">Next</button>
     </div>
 
     <div id="tableIntro" class="table-wrap" data-intro="This timeline ⏳ include resources for developers using ArcGIS.<br/><br/>The LinkedIn and X (former Twitter) columns contain existing social media messages <b>we would like you to consider liking 👍🏻 or reposting 🔁</b>" data-step="1">
@@ -995,10 +1172,14 @@
         <caption class="hidden">Simple table</caption>
         <thead>
           <tr>
-            <th class="align-center" scope="col">Estado</th>
-            <th scope="col">Decisión</th>
-            <th class="align-center" scope="col">Fecha</th>
-            <th scope="col">Contenido</th>
+            <th class="align-center" scope="col">Date</th>
+            <th scope="col">Content</th>
+            <th scope="col">
+              <span class="decision-heading">
+                Decision
+                <button type="button" id="infoButton" class="info-button" aria-label="Explain decisions">i</button>
+              </span>
+            </th>
           </tr>
         </thead>
         <tbody id="feedTableBody"></tbody>
@@ -1009,29 +1190,29 @@
   <a href='https://github.com/hhkaos/combine_rss_feeds' class="ribbon" target="blank">CONTRIBUTE</a>
 
   <div id="help">
-    <button type="button" aria-label="Abrir ayuda">?</button>
+    <button type="button" aria-label="Open help">?</button>
   </div>
 
   <dialog id="ignoreDialog" class="ignore-dialog">
     <div class="dialog-content">
       <div class="dialog-header">
         <div>
-          <h2>Ignorar contenido</h2>
+          <h2>Ignore content</h2>
           <p id="ignoreDialogTitle" class="dialog-title"></p>
         </div>
-        <button type="button" id="closeIgnoreDialog" class="dialog-close">Cerrar</button>
+        <button type="button" id="closeIgnoreDialog" class="dialog-close">Close</button>
       </div>
 
       <div>
-        <p>Elige la razón. Esta decisión se guardará para exportarla y usarla en el script.</p>
+        <p>Choose a reason. This decision will be saved so it can be exported and used by the script.</p>
         <div id="ignoreReasonList" class="reason-buttons"></div>
       </div>
 
       <div>
-        <p>Añadir una razón nueva</p>
+        <p>Add a custom reason</p>
         <div class="custom-reason">
-          <input id="customReasonInput" type="text" placeholder="Ej. marketplace, nota de prensa, contenido duplicado..." />
-          <button type="button" id="addCustomReasonButton">Recordar razón</button>
+          <input id="customReasonInput" type="text" placeholder="Example: marketplace, press release, duplicated content..." />
+          <button type="button" id="addCustomReasonButton">Save reason</button>
         </div>
       </div>
     </div>
@@ -1041,18 +1222,18 @@
     <div class="dialog-content">
       <div class="dialog-header">
         <div>
-          <h2>Cómo clasificar contenido</h2>
-          <p class="dialog-title">Las pestañas organizan los items según la decisión que hayas tomado. Puedes cambiar la decisión desde cualquier pestaña.</p>
+          <h2>How to classify content</h2>
+          <p class="dialog-title">Tabs organize items by the decision you have made. You can change a decision from any tab.</p>
         </div>
-        <button type="button" id="closeInfoDialog" class="dialog-close">Cerrar</button>
+        <button type="button" id="closeInfoDialog" class="dialog-close">Close</button>
       </div>
 
       <div class="decision-help">
-        <p><strong>Añadir</strong>: este item sí debe pasar al feed curado.</p>
-        <p><strong>Ignorar</strong>: este item concreto no interesa. Elige una razón para poder analizar después qué se está descartando.</p>
-        <p><strong>Bloquear similares</strong>: este item revela un patrón que quieres automatizar, como un dominio, un tipo de URL, empleo, spam o datasets que deberían filtrarse en futuras ejecuciones.</p>
-        <p><strong>Sincronizar desde archivo</strong>: borra las decisiones locales del navegador y vuelve a cargar la línea base guardada en data/curation_decisions.jsonl.</p>
-        <p><strong>Importar JSONL</strong>: usa esta opción si la página no puede leer el archivo automáticamente, por ejemplo si la estás abriendo sin servidor local.</p>
+        <p><strong>Add</strong>: this item should be included in the curated feed.</p>
+        <p><strong>Ignore</strong>: this specific item is not useful. Pick a reason so discarded content can be analyzed later.</p>
+        <p><strong>Block similar</strong>: this item exposes a pattern to automate later, such as a domain, URL type, job post, spam, or datasets that should be filtered in future runs.</p>
+        <p><strong>Sync from file</strong>: clears local browser decisions and reloads the baseline saved in data/curation_decisions.jsonl.</p>
+        <p><strong>Import JSONL</strong>: use this if the page cannot read the file automatically, for example when opening it without a local server.</p>
       </div>
     </div>
   </dialog>
