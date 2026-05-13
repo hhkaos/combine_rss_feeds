@@ -20,6 +20,7 @@
         const CUSTOM_IGNORE_REASONS_KEY = 'customIgnoreReasonsV1';
         const REVIEW_STATUSES = ['accepted', 'rejected', 'needs_rule'];
         const ARCHIVED_STATUSES = ['archived'];
+        const AUTO_IGNORED_STATUS = 'auto_ignored';
         const IGNORE_REASONS = [
           { value: 'irrelevant', label: 'Not relevant' },
           { value: 'job_offer', label: 'Job post' },
@@ -45,11 +46,92 @@
           }
         }
 
+        function parseCsvLine(line) {
+          const values = [];
+          let value = '';
+          let quoted = false;
+
+          for (let i = 0; i < line.length; i++) {
+            const char = line[i];
+            const next = line[i + 1];
+
+            if (char === '"' && quoted && next === '"') {
+              value += '"';
+              i++;
+            } else if (char === '"') {
+              quoted = !quoted;
+            } else if (char === ',' && !quoted) {
+              values.push(value);
+              value = '';
+            } else {
+              value += char;
+            }
+          }
+
+          values.push(value);
+          return values;
+        }
+
+        async function loadAutoIgnoredCsvItems() {
+          try {
+            const response = await fetch(`ignored_items.csv?ts=${Date.now()}`, { cache: 'no-store' });
+            if (!response.ok) return [];
+
+            const csv = await response.text();
+            return csv.split(/\r?\n/)
+              .slice(1)
+              .filter(line => line.trim())
+              .map(line => {
+                const [url, reason, title, date] = parseCsvLine(line);
+                return {
+                  title: title || url || 'Ignored item',
+                  description: '',
+                  link: url,
+                  guid: url,
+                  author: '',
+                  date,
+                  ignored: true,
+                  ignoreReason: reason || 'Pre-processing rule',
+                  processed: true,
+                  autoIgnored: true,
+                  autoIgnoredSource: 'ignored_items.csv'
+                };
+              });
+          } catch (error) {
+            console.info('No ignored_items.csv file available for review.');
+            return [];
+          }
+        }
+
+        function mergeAutoIgnoredItems(items, csvItems) {
+          const itemMap = new Map();
+
+          [...items, ...csvItems].forEach(item => {
+            const id = decisionId(item.link);
+            if (!id) return;
+
+            const existing = itemMap.get(id);
+            if (!existing) {
+              itemMap.set(id, item);
+              return;
+            }
+
+            if (existing.ignored && item.ignored && !existing.ignoreReason) {
+              existing.ignoreReason = item.ignoreReason || existing.ignoreReason;
+              existing.autoIgnored = true;
+              existing.autoIgnoredSource = item.autoIgnoredSource || existing.autoIgnoredSource;
+            }
+          });
+
+          return Array.from(itemMap.values());
+        }
+
         // Initialize the application
         async function initializeApp() {
           try {
             const items = await loadFeed();
-            feedItems = items;
+            const autoIgnoredCsvItems = await loadAutoIgnoredCsvItems();
+            feedItems = mergeAutoIgnoredItems(items, autoIgnoredCsvItems);
             indexFeedItems();
             await loadPersistedDecisions();
             cleanupAcceptedDecisions();
@@ -353,6 +435,13 @@
         function setDecision(item, status, reason) {
           const decisions = loadDecisions();
           const id = decisionId(item.link);
+          const autoIgnoreDetails = item.ignored ? {
+            autoIgnored: true,
+            autoIgnoreReason: item.ignoreReason || 'unknown reason',
+            autoIgnoreSource: item.autoIgnoredSource || 'feed-json',
+            autoIgnoreCorrection: status === 'accepted' ? 'false_positive' : 'confirmed_or_refined'
+          } : {};
+
           decisions[id] = {
             id,
             url: item.link,
@@ -363,7 +452,10 @@
             category: item.category || '',
             topicsProduct: item.topicsProduct || '',
             summary: item.summary || '',
-            notes: ''
+            notes: item.ignored
+              ? `Correction for auto-ignored item: ${item.ignoreReason || 'unknown reason'}`
+              : '',
+            ...autoIgnoreDetails
           };
           saveDecisions(decisions);
         }
@@ -443,6 +535,18 @@
           </div>`;
         }
 
+        function getContentCellHtml(item) {
+          const title = escapeHtml(item.title || item.link || 'Untitled item');
+          const link = item.link && item.link.toLowerCase() !== 'n/a'
+            ? `<a href="${escapeHtml(item.link)}" target="_blank" class="emoji">${title}</a>`
+            : title;
+          const meta = item.ignored
+            ? `<div class="auto-ignore-meta"><span>Auto ignored</span><span>${escapeHtml(item.ignoreReason || 'No reason recorded')}</span></div>`
+            : '';
+
+          return `${link}${meta}`;
+        }
+
         function exportDecisions() {
           const decisions = Object.values(loadDecisions())
             .sort((a, b) => String(a.reviewedAt).localeCompare(String(b.reviewedAt)));
@@ -469,7 +573,8 @@
         function getItemStatus(item) {
           const status = getDecision(item)?.status;
           if (ARCHIVED_STATUSES.includes(status)) return status;
-          return REVIEW_STATUSES.includes(status) ? status : 'pending';
+          if (REVIEW_STATUSES.includes(status)) return status;
+          return item.ignored ? AUTO_IGNORED_STATUS : 'pending';
         }
 
         function getReviewCounts() {
@@ -482,18 +587,19 @@
             accepted: 0,
             rejected: 0,
             needs_rule: 0,
-            archived: 0
+            archived: 0,
+            auto_ignored: 0
           };
           const itemsByStatus = {
             pending: [],
             accepted: [],
             rejected: [],
             needs_rule: [],
-            archived: []
+            archived: [],
+            auto_ignored: []
           };
 
           feedItems.forEach(item => {
-            if (item.ignored) return;
             const status = getItemStatus(item);
             if (!itemsByStatus[status]) return;
 
@@ -550,7 +656,7 @@
           if ("content" in document.createElement("template")) {
             const tbody = resetTable();
             const fragment = document.createDocumentFragment();
-            const visibleItems = items.filter(item => !item.ignored);
+            const visibleItems = items;
 
             if (!visibleItems.length) {
               const emptyRow = document.createElement('tr');
@@ -567,16 +673,17 @@
             visibleItems.forEach(item => {
               const row = document.createElement('tr');
               const decision = getDecision(item);
+              const status = getItemStatus(item);
               row.dataset.decisionId = decisionId(item.link);
-              row.dataset.status = decision?.status || 'pending';
+              row.dataset.status = status;
               row.dataset.reason = decision?.reason || '';
 
               if(item.link && item.link.toLowerCase() != 'n/a'){
                 addCell(row, formatDate(item.date), { alignment: 'center' });
-                addCell(row, `<a href="${escapeHtml(item.link)}" target="_blank" class="emoji">${escapeHtml(item.title)}</a>`, { html: true });
+                addCell(row, getContentCellHtml(item), { html: true });
               }else{
                 addCell(row, formatDate(item.date), { alignment: 'center' });
-                addCell(row, item.title);
+                addCell(row, getContentCellHtml(item), { html: true });
               }
 
               addCell(row, getActionControls(item), { html: true, className: 'review-cell' });
@@ -1023,6 +1130,9 @@
       .feed-table tbody tr[data-status="archived"]{
         background: inherit;
       }
+      .feed-table tbody tr[data-status="auto_ignored"]{
+        background: #fff9f5;
+      }
       .feed-table tbody tr[data-status="accepted"] td:first-child{
         border-left: 4px solid var(--success);
       }
@@ -1035,6 +1145,9 @@
       .feed-table tbody tr[data-status="archived"] td:first-child{
         border-left: 4px solid var(--archived);
       }
+      .feed-table tbody tr[data-status="auto_ignored"] td:first-child{
+        border-left: 4px solid var(--danger);
+      }
       .feed-table tbody tr:last-child td{
         border-bottom: 0;
       }
@@ -1043,6 +1156,23 @@
       }
       .feed-table a{
         overflow-wrap: anywhere;
+      }
+      .auto-ignore-meta{
+        align-items: center;
+        color: var(--muted);
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.86rem;
+        gap: 0.4rem;
+        margin-top: 0.45rem;
+      }
+      .auto-ignore-meta span:first-child{
+        background: var(--danger-soft);
+        border: 1px solid #efa7aa;
+        border-radius: 999px;
+        color: var(--danger);
+        font-weight: 800;
+        padding: 0.12rem 0.45rem;
       }
       .feed-table td:nth-child(3){
         min-width: 320px;
@@ -1145,6 +1275,7 @@
       <button type="button" data-review-tab="pending" class="active-tab" role="tab" aria-selected="true">Pending <span data-review-count="pending">0</span></button>
       <button type="button" data-review-tab="accepted" role="tab" aria-selected="false">Added <span data-review-count="accepted">0</span></button>
       <button type="button" data-review-tab="rejected" role="tab" aria-selected="false">Ignored <span data-review-count="rejected">0</span></button>
+      <button type="button" data-review-tab="auto_ignored" role="tab" aria-selected="false">Auto ignored <span data-review-count="auto_ignored">0</span></button>
       <button type="button" data-review-tab="needs_rule" role="tab" aria-selected="false">Blocked <span data-review-count="needs_rule">0</span></button>
       <button type="button" data-review-tab="archived" role="tab" aria-selected="false">Archived <span data-review-count="archived">0</span></button>
     </div>
@@ -1231,6 +1362,7 @@
       <div class="decision-help">
         <p><strong>Add</strong>: this item should be included in the curated feed.</p>
         <p><strong>Ignore</strong>: this specific item is not useful. Pick a reason so discarded content can be analyzed later.</p>
+        <p><strong>Auto ignored</strong>: items discarded by rules or AI. Use Add when the algorithm made a mistake; export the JSONL so the next run can keep it.</p>
         <p><strong>Block similar</strong>: this item exposes a pattern to automate later, such as a domain, URL type, job post, spam, or datasets that should be filtered in future runs.</p>
         <p><strong>Sync from file</strong>: clears local browser decisions and reloads the baseline saved in data/curation_decisions.jsonl.</p>
         <p><strong>Import JSONL</strong>: use this if the page cannot read the file automatically, for example when opening it without a local server.</p>

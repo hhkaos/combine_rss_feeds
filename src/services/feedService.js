@@ -56,6 +56,10 @@ class FeedService {
     }
   }
 
+  getManualDecisionForUrl(url) {
+    return this.curationDecisions.get(getDecisionId(url));
+  }
+
   stripHtml(text) {
     if (!text) return '';
     return String(text)
@@ -240,24 +244,26 @@ Descripción: ${cleanDesc}`;
               continue;
             }
 
+            const rawDescription = item.content || item.contentSnippet || item.summary || '';
+            const manualDecision = this.getManualDecisionForUrl(cleanUrl);
+            const isManuallyAccepted = manualDecision?.status === 'accepted';
+
             // Check if URL is from social media
-            if (this.isSocialMediaUrl(cleanUrl)) {
+            if (!isManuallyAccepted && this.isSocialMediaUrl(cleanUrl)) {
               console.log(`${colors.yellow}Ignorando URL de red social: ${cleanUrl}${colors.reset}`);
               this.addIgnoredItem(cleanUrl, 'URL de red social', item.title, date.toISOString());
               continue;
             }
 
             // Check if URL is banned
-            if (this.isBannedUrl(cleanUrl)) {
+            if (!isManuallyAccepted && this.isBannedUrl(cleanUrl)) {
               console.log(`${colors.yellow}Ignorando URL prohibida: ${cleanUrl}${colors.reset}`);
               this.addIgnoredItem(cleanUrl, 'URL prohibida', item.title, date.toISOString());
               continue;
             }
 
-            const rawDescription = item.content || item.contentSnippet || item.summary || '';
-
             // Deterministic job-offer detection (no AI tokens)
-            if (this.isJobOffer(item.title, rawDescription)) {
+            if (!isManuallyAccepted && this.isJobOffer(item.title, rawDescription)) {
               console.log(`${colors.yellow}Ignorando oferta de trabajo: ${cleanUrl}${colors.reset}`);
               this.addIgnoredItem(cleanUrl, 'Oferta de trabajo', item.title, date.toISOString());
               continue;
