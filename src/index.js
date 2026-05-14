@@ -60,15 +60,17 @@ async function main() {
     'https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed',
     'https://medium.com/feed/geoai',
 
-    // Some Esri repositories
+    // Some Esri repositories (coomits)
     'https://github.com/esri/developer-support/commits/master.atom',
     'https://github.com/Esri/jsapi-resources/commits.atom',
     'https://github.com/EsriJapan/arcgis-dev-resources/commits.atom',
-    'https://github.com/esri/esri-leaflet/commits.atom',
-    'https://github.com/Esri/arcgis-rest-js/commits.atom',
-    'https://github.com/Esri/maplibre-arcgis/commits.atom',
     'https://github.com/Esri/arcpy/commits.atom',
     'https://github.com/esrips/gen-ai-toolkit/commits.atom',
+
+    // Some Esri repositories (releases)
+    'https://github.com/Esri/esri-leaflet/releases.atom',
+    'https://github.com/Esri/arcgis-rest-js/releases.atom',
+    'https://github.com/Esri/maplibre-arcgis/releases.atom',
 
     // Blogs at Esri Community
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
