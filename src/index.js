@@ -11,10 +11,11 @@ async function main() {
     // Youtube channels
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw', // Esri Developers
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ', // Rene Rubalcava
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA', // Andrew's GIS & Technology Lessons
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA', // Andrew's GIS & Technology Lessons (Andrew Chapkowski)
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw', // Courtney Yatteau
-    'https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w', // GeoAI Smith
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w', // GeoAI Smith (Rami Alouta)
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A', // Josiah Parry
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ', // Sean Stone
 
     // ArcGIS Blog
     'https://www.esri.com/arcgis-blog/products/developers/feed',
@@ -60,15 +61,17 @@ async function main() {
     'https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed',
     'https://medium.com/feed/geoai',
 
-    // Some Esri repositories
+    // Some Esri repositories (coomits)
     'https://github.com/esri/developer-support/commits/master.atom',
     'https://github.com/Esri/jsapi-resources/commits.atom',
     'https://github.com/EsriJapan/arcgis-dev-resources/commits.atom',
-    'https://github.com/esri/esri-leaflet/commits.atom',
-    'https://github.com/Esri/arcgis-rest-js/commits.atom',
-    'https://github.com/Esri/maplibre-arcgis/commits.atom',
     'https://github.com/Esri/arcpy/commits.atom',
     'https://github.com/esrips/gen-ai-toolkit/commits.atom',
+
+    // Some Esri repositories (releases)
+    'https://github.com/Esri/esri-leaflet/releases.atom',
+    'https://github.com/Esri/arcgis-rest-js/releases.atom',
+    'https://github.com/Esri/maplibre-arcgis/releases.atom',
 
     // Blogs at Esri Community
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
@@ -82,6 +85,10 @@ async function main() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog',
     'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
+
+    // RSS Monitoring changes on some "Release notes" and "What's new pages"
+    'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml',
+    'https://rss.rauljimenez.info/arcgis-whats-new-monitor-health.xml', // Checking possible errors in the monitor
 
     // Employee blogs and podcasts
     'https://feed.podbean.com/theboundingbox/feed.xml',
