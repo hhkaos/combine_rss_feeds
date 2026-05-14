@@ -1,8 +1,35 @@
 {
-  "title": "Combined ArcGIS Feeds (13-05-2026)",
+  "title": "Combined ArcGIS Feeds (14-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-13T00:22:12.699Z",
+  "lastUpdated": "2026-05-14T00:23:30.008Z",
   "items": [
+    {
+      "title": "Precision Mapping ​in the Field | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Td-uqVSD6eE",
+      "guid": "yt:video:Td-uqVSD6eE",
+      "author": "Esri Developers",
+      "date": "2026-05-13T23:35:29.000Z",
+      "processed": false
+    },
+    {
+      "title": "Create ArcGIS Pro Projects with Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=UWfLQBSWPrM",
+      "guid": "yt:video:UWfLQBSWPrM",
+      "author": "Esri Developers",
+      "date": "2026-05-13T15:28:22.000Z",
+      "processed": false
+    },
+    {
+      "title": "What’s changed for curves in ArcGIS Maps SDKs for Native Apps 300.0",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/sdk-net/developers/whats-changed-for-curves-in-arcgis-maps-sdks-for-native-apps-300-0",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2964670",
+      "author": "Hamish Duff",
+      "date": "2026-05-13T15:00:40.000Z",
+      "processed": false
+    },
     {
       "title": "Software Development Engineer II - Android SDK - Experteer UK",
       "description": "In this role you will advance indoor GIS experiences by integrating location technologies into the <b>ArcGIS Maps SDK for</b> Android.",
