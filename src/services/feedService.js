@@ -70,8 +70,113 @@ class FeedService {
       .replace(/&gt;/gi, '>')
       .replace(/&quot;/gi, '"')
       .replace(/&#39;/gi, "'")
+      .replace(/<[^>]+>/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
+  }
+
+  decodeHtml(text) {
+    return this.stripHtml(text);
+  }
+
+  resolveFeedSource(feedSource) {
+    if (typeof feedSource === 'string') {
+      return {
+        url: feedSource,
+        relevanceMode: 'balanced'
+      };
+    }
+
+    return {
+      url: feedSource.url,
+      relevanceMode: feedSource.relevanceMode || 'balanced',
+      label: feedSource.label || ''
+    };
+  }
+
+  buildItemText(item) {
+    return [
+      item.title,
+      item.description,
+      item.link
+    ].map(value => this.decodeHtml(value || '')).join(' ');
+  }
+
+  getDeterministicIgnoreReason(item) {
+    const url = item.link || '';
+
+    if (this.isSocialMediaUrl(url)) {
+      return 'URL de red social';
+    }
+
+    if (this.isBannedUrl(url)) {
+      return 'URL prohibida';
+    }
+
+    if (this.isJobOffer(item.title, item.description)) {
+      return 'Oferta de trabajo';
+    }
+
+    try {
+      const urlObj = new URL(url);
+      const hostname = urlObj.hostname.toLowerCase();
+      const pathname = urlObj.pathname.toLowerCase();
+      if (
+        (hostname === 'github.com' || hostname.endsWith('.github.com')) &&
+        /\/(issues|pull)\/\d+/i.test(pathname)
+      ) {
+        return 'Issue o pull request de GitHub';
+      }
+
+      if (
+        hostname.endsWith('.stackoverflow.com') ||
+        hostname.endsWith('.stackexchange.com') ||
+        hostname === 'reddit.com' ||
+        hostname.endsWith('.reddit.com') ||
+        (hostname === 'community.esri.com' && /\/td-p\//i.test(pathname))
+      ) {
+        return 'Pregunta de comunidad o foro';
+      }
+
+      const fullUrl = `${hostname}${pathname}`;
+      if (
+        /\/rest\/services\//i.test(fullUrl) ||
+        /\/datasets?\//i.test(fullUrl) ||
+        /\b(FeatureServer|MapServer)\b/i.test(url)
+      ) {
+        return 'Dataset de datos abiertos o REST endpoint';
+      }
+    } catch (err) {
+      // Invalid URLs are handled elsewhere; do not ignore only because parsing failed here.
+    }
+
+    const text = this.buildItemText(item);
+    if (/\b(Economic and Social Research Institute|Irish economy|Ireland|minimum wage Ireland|ESRI report)\b/i.test(text)) {
+      return 'ESRI irlandés (Economic and Social Research Institute)';
+    }
+
+    return '';
+  }
+
+  hasStrongDeveloperProductSignal(item) {
+    const text = this.buildItemText(item);
+    const productPatterns = [
+      /\bArcGIS\s+Maps\s+SDK\s+for\s+(JavaScript|\.NET|Kotlin|Swift|Flutter|Qt|Java|Android|iOS|Unity|Unreal Engine)\b/i,
+      /\bArcGIS\s+Runtime\s+SDK\b/i,
+      /\bArcGIS\s+API\s+for\s+Python\b/i,
+      /\bArcGIS\s+REST\s+JS\b/i,
+      /\bEsri\s+Leaflet\b/i,
+      /\bArcGIS\s+Experience\s+Builder\s+Developer\s+Edition\b/i,
+      /\bArcGIS\s+Developer(s)?\b/i,
+      /\bArcGIS\s+Location\s+(Platform|Services)\b/i,
+      /\bCalcite\s+Design\s+System\b/i,
+      /\bArcGIS\s+Maps\s+SDK\b/i,
+      /\bArcGIS\s+Instant\s+Apps\b/i,
+      /\bArcGIS\s+Arcade\b|\bArcade\s+expression/i,
+      /\bArcPy\b/i
+    ];
+
+    return productPatterns.some(pattern => pattern.test(text));
   }
 
   // Deterministic job-offer detection (no AI tokens).
@@ -117,8 +222,23 @@ class FeedService {
     try {
       const cleanDesc = this.stripHtml(item.description).slice(0, 400);
       const cleanTitle = this.stripHtml(item.title);
+      const relevanceMode = item.sourceRelevanceMode || 'balanced';
+      const strictnessInstructions = {
+        trusted: `Modo de fuente: TRUSTED.
+La fuente ya está curada hacia Esri/ArcGIS developer content. NO ignores por la regla "contenido no relacionado" salvo que el item contradiga claramente la temática. Sí debes ignorar reglas duras: empleo, foros/preguntas, issues/pulls, datasets/endpoints, ESRI irlandés u obsoleto.`,
+        balanced: `Modo de fuente: BALANCED.
+Aplica las reglas normalmente. Mantén el item si trata razonablemente sobre Esri, ArcGIS, GIS developer tools, SDKs, APIs, automatización geoespacial o productos relacionados.`,
+        strict: `Modo de fuente: STRICT.
+La fuente es ruidosa, por ejemplo Google Alerts. Mantén solo si hay una relación clara con Esri Inc., ArcGIS o tecnologías geoespaciales para desarrolladores. Mencionar ArcGIS solo como formato de dataset, endpoint REST, requisito de un empleo o tecnología secundaria no basta.`
+      };
 
       const systemMsg = `Eres un clasificador que decide si un item de un feed RSS sobre tecnologías de Esri/ArcGIS para desarrolladores debe ignorarse.
+
+${strictnessInstructions[relevanceMode] || strictnessInstructions.balanced}
+
+Importante:
+- El título, la descripción o la URL pueden traer marcado HTML de Google Alerts, como <b>ArcGIS</b>. Interpreta ese marcado como texto normal.
+- Si aparece un producto developer explícito de Esri, como "ArcGIS Maps SDK for JavaScript", "ArcGIS Maps SDK for .NET", "ArcGIS API for Python", "ArcGIS REST JS", "Esri Leaflet", "Calcite Design System" o "Experience Builder Developer Edition", considéralo una señal fuerte de relevancia salvo que encaje en una regla dura de ignorar.
 
 Reglas para IGNORAR:
 1. Contenido NO relacionado con ArcGIS, Esri, GIS, o sus tecnologías (SDKs, APIs, etc.).
@@ -140,7 +260,8 @@ Ejemplos:
 
 Responde EXACTAMENTE con una sola palabra en mayúsculas: "IGNORE" o "KEEP", seguida opcionalmente de ": <razón breve>". Nada más.`;
 
-      const userMsg = `Título: ${cleanTitle}
+      const userMsg = `Modo de relevancia de la fuente: ${relevanceMode}
+Título: ${cleanTitle}
 URL: ${item.link}
 Descripción: ${cleanDesc}`;
 
@@ -216,9 +337,11 @@ Descripción: ${cleanDesc}`;
     }
 
     console.log(`${colors.cyan}Iniciando procesamiento de feeds...${colors.reset}`);
-    for (const url of feedUrls) {
+    for (const feedSource of feedUrls) {
+      const source = this.resolveFeedSource(feedSource);
+      const url = source.url;
       try {
-        console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url}${colors.reset}`);
+        console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url} (relevance: ${source.relevanceMode})${colors.reset}`);
         const feed = await parser.parseURL(url);
         console.log(`${colors.green}Feed ${url}: ${feed.items.length} items${colors.reset}`);
         
@@ -237,7 +360,7 @@ Descripción: ${cleanDesc}`;
             }
 
             const date = new Date(dateStr);
-            const cleanUrl = normalizeYouTubeUrl(cleanGoogleRedirectUrl(item.link));
+            const cleanUrl = normalizeYouTubeUrl(cleanGoogleRedirectUrl(this.decodeHtml(item.link)));
             
             if (!cleanUrl) {
               console.warn(`${colors.yellow}URL inválida en feed ${url}: ${item.title || 'Sin título'}${colors.reset}`);
@@ -278,6 +401,8 @@ Descripción: ${cleanDesc}`;
                 guid: item.guid || item.id || cleanUrl,
                 author: item.creator || item.author || '',
                 date: date.toISOString(),
+                sourceFeedUrl: url,
+                sourceRelevanceMode: source.relevanceMode,
                 processed: false
               });
             } else {
@@ -332,6 +457,31 @@ Descripción: ${cleanDesc}`;
       for (const item of combinedItems) {
         if (!item.processed) {
           idx++;
+          const deterministicReason = this.getDeterministicIgnoreReason(item);
+          if (deterministicReason) {
+            item.ignored = true;
+            item.ignoreReason = deterministicReason;
+            item.processed = true;
+            console.log(`${colors.yellow}[${idx}/${pending}] IGNORE ${item.link} - ${deterministicReason}${colors.reset}`);
+            continue;
+          }
+
+          if (this.hasStrongDeveloperProductSignal(item)) {
+            item.ignored = false;
+            item.ignoreReason = '';
+            item.processed = true;
+            console.log(`${colors.green}[${idx}/${pending}] KEEP ${item.link} - strong Esri developer product signal${colors.reset}`);
+            continue;
+          }
+
+          if ((item.sourceRelevanceMode || 'balanced') === 'trusted') {
+            item.ignored = false;
+            item.ignoreReason = '';
+            item.processed = true;
+            console.log(`${colors.green}[${idx}/${pending}] KEEP ${item.link} - trusted source${colors.reset}`);
+            continue;
+          }
+
           const result = await this.evaluateIgnoreRules(item);
           item.ignored = result.ignored;
           item.ignoreReason = result.reason;

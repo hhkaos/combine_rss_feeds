@@ -102,12 +102,27 @@ async function main() {
     'https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033'
   ];
 
+  const sourceRelevanceOverrides = new Map([
+    // Curated personal feeds: useful, but not every item is necessarily Esri/ArcGIS developer content.
+    ['https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw', 'balanced'], // Courtney Yatteau
+    ['https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A', 'balanced'], // Josiah Parry
+    ['https://josiahparry.com/index.xml', 'balanced']
+  ]);
+
+  const withRelevanceMode = (urls, relevanceMode, overrides = new Map()) => urls.map(url => ({
+    url,
+    relevanceMode: overrides.get(url) || relevanceMode
+  }));
+
   // Cargar configuración
   const config = loadConfig();
   const feedService = new FeedService(config);
 
   // Combinar todos los feeds en un solo archivo
-  const allUrls = [...curatedUrls, ...googleAlertUrls];
+  const allUrls = [
+    ...withRelevanceMode(curatedUrls, 'trusted', sourceRelevanceOverrides),
+    ...withRelevanceMode(googleAlertUrls, 'strict')
+  ];
   const { items: allItems, ignoredItems } = await feedService.combineFeeds(allUrls, {
     title: `Combined ArcGIS Feeds (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
