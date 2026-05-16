@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (15-05-2026)",
+  "title": "Combined ArcGIS Feeds (16-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-15T00:21:15.989Z",
+  "lastUpdated": "2026-05-16T00:19:17.372Z",
   "items": [
+    {
+      "title": "ArcGIS Toolboxes in Visual Studio Code",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=DUCF_pOA1-8",
+      "guid": "yt:video:DUCF_pOA1-8",
+      "author": "Esri Developers",
+      "date": "2026-05-15T17:10:36.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Episode 65 - How to tend a codebase",
+      "description": "I double down on the idea that keeping up with AI-generated code looks a lot like gardening: seeds, soil, water, pruning, weeding, and sometimes pulling up a plant. ",
+      "link": "https://christophermoravec.com/episode-65-how-to-tend-a-codebase/",
+      "guid": "6a05f3e0d28cbb0001e9ff68",
+      "author": "Christopher Moravec",
+      "date": "2026-05-15T16:10:36.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Display Attachments in a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Display Attachments in a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python | Feature Layer.",
+      "link": "https://www.youtube.com/watch?v=dbLWk9UCdmg",
+      "guid": "tag:google.com,2013:googlealerts/feed:18443208927281133926",
+      "author": "",
+      "date": "2026-05-15T02:28:43.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "React JS Developer ( <b>ArcGIS</b> expertise) with 5 - 8 Years of Experience at exasoft pte. ltd. in ... - foundit",
+      "description": "... <b>ArcGIS</b> to join our team as a contractor. This role requires a deep understanding of both React JS and <b>ArcGIS JavaScript API</b>, as well as the&nbsp;...",
+      "link": "https://www.foundit.sg/job/react-js-developer-arcgis-expertise-exasoft-pte-ltd-singapore-52832876",
+      "guid": "tag:google.com,2013:googlealerts/feed:9068190636839864534",
+      "author": "",
+      "date": "2026-05-15T01:53:30.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "What's New: Esri Developer Experience (May 2026)",
       "description": "",
