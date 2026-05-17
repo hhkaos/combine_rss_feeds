@@ -1,8 +1,21 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (17-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-16T00:19:29.704Z",
+  "lastUpdated": "2026-05-17T00:19:51.492Z",
   "items": [
+    {
+      "title": "Table tools for ArcGIS Pro",
+      "description": "<P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"Table_tools.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152542i771940FA5870A0AF/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"Table_tools.png\" alt=\"Table_tools.png\" /></span></P><P>Time for an update...</P><P>The original...&nbsp;<A href=\"https://community.esri.com/t5/python-blog/table-tools-for-pro/ba-p/904042\" target=\"_blank\" rel=\"noopener\">Table tools for Pro... circa 2020</A>&nbsp;</P><P>The toolbox locations</P><UL><LI><A href=\"https://github.com/Dan-Patterson/Tools_for_ArcGIS_Pro\" target=\"_self\">Tools_for_ArcGIS_Pro</A>&nbsp; and inside there.</LI><LI><A href=\"https://github.com/Dan-Patterson/Tools_for_ArcGIS_Pro/tree/master/TableTools\" target=\"_self\">Table Tools</A></LI></UL><P>Updates are related to changes in the esri arcgis pro ecosystem and enhancements and changes in NumPy.</P><P>Lots of tools to choose from</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"2026-05-15_20-29-00.png\" style=\"width: 190px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152543i37037FABD9C8EF85/image-size/medium?v=v2&amp;px=400\" role=\"button\" title=\"2026-05-15_20-29-00.png\" alt=\"2026-05-15_20-29-00.png\" /></span></P><P>Enjoy</P>",
+      "link": "https://community.esri.com/t5/python-blog/table-tools-for-arcgis-pro/ba-p/1702377",
+      "guid": "https://community.esri.com/t5/python-blog/table-tools-for-arcgis-pro/ba-p/1702377",
+      "author": "DanPatterson",
+      "date": "2026-05-16T00:31:33.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "ArcGIS Toolboxes in Visual Studio Code",
       "description": "",
