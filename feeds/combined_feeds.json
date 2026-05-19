@@ -1,8 +1,63 @@
 {
-  "title": "Combined ArcGIS Feeds (18-05-2026)",
+  "title": "Combined ArcGIS Feeds (19-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-18T00:20:56.461Z",
+  "lastUpdated": "2026-05-19T00:24:36.048Z",
   "items": [
+    {
+      "title": "The Expanding Impact of Local Road Data Corrections: From GIS Teams to Entire Communities",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/accurate-local-road-data-is-far-more-than-a-technical-gis-responsibility-it-is-a-foundational-component-of-modern-public-infrastructure-emergency-response-utility-coordination-and-everyda",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2965529",
+      "author": "Shane Matthews",
+      "date": "2026-05-18T20:14:01.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Deprecation notice: Branch Version Management widget in ArcGIS Experience Builder",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/announcements/deprecation-notice-branch-version-management-widget-in-arcgis-experience-builder",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966275",
+      "author": "Alix Vézina",
+      "date": "2026-05-18T19:00:03.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "What's changed for curves in ArcGIS Maps SDKs for Native Apps 300.0",
+      "description": "<P><STRONG><A href=\"https://www.esri.com/arcgis-blog/products/sdk-net/developers/whats-changed-for-curves-in-arcgis-maps-sdks-for-native-apps-300-0\" target=\"_self\">This new ArcGIS Blog post</A></STRONG> provides a concise overview of what's new in curves, including the ability to edit true curves with GeometryEditor and use SupportedCurveTypes to ensure edits are appropriate to the service type. The blog also takes a deeper dive into new behaviors designed to expand support for true curves, such as the new default setting for ServiceCurveGeometryMode, which causes your app to behave as a true curve client.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-changed-for-curves-in-arcgis-maps-sdks-for/ba-p/1702438",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-changed-for-curves-in-arcgis-maps-sdks-for/ba-p/1702438",
+      "author": "Mara",
+      "date": "2026-05-18T15:00:00.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Explorer for ArcGIS Beta | Windows 应用- Crx搜搜",
+      "description": "更多来自该开发者(10) ; ArcGIS Earth ; <b>ArcGIS Maps SDK for</b> .NET Samples (WPF).",
+      "link": "https://www.crxsoso.com/store/detail/9p47gjtlm9nt",
+      "guid": "tag:google.com,2013:googlealerts/feed:9809724030491902656",
+      "author": "",
+      "date": "2026-05-18T07:36:04.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "149 datasets found. Organizations: Fairfax County Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter Results. Easements.",
+      "link": "https://data.virginia.gov/dataset/?organization=fairfax-county&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:948476554351051091",
+      "author": "",
+      "date": "2026-05-17T22:41:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Dataset - Virginia Open Data Portal",
       "description": "324 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> GDB. Filter Results. Police Offense Reports. This dataset&nbsp;...",
