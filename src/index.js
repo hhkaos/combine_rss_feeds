@@ -7,6 +7,10 @@ const FeedService = require('./services/feedService');
 async function main() {
   const dateStr = getDateString();
 
+  // Still missing sources:
+  // Esri Training Courses: https://www.esri.com/training/catalog/search/
+  // Technical Support - Knowledge base (How tos, FAQs, etc) - Dev Products: https://support.esri.com/en-us/search?s=Newest&cardtype=support_technical_articles&product=arcgis+api+for+javascript&product=arcgis+runtime+sdks&product=arcgis+pro+sdk&product=arcgisobjects+sdk&product=arcgis+api+for+python&product=arcgis+configurable+apps&product=arcgis+dashboards&product=arcgis+experience+builder&product=arcgis+maps+sdk+for+javascript&product=arcgis+maps+sdk+for+kotlin&product=arcgis+maps+sdk+for+net&product=arcgis+maps+sdk+for+swift&product=arcgis+maps+sdk+for+qt&product=arcgis+maps+sdk+for+unity&product=arcgis+maps+sdk+for+unreal+engine&product=arcgis+world+geocoder&product=esri+demographics&product=arcgis+location+platform
+
   const curatedUrls = [
     // Youtube channels
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw', // Esri Developers
