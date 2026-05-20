@@ -85,6 +85,7 @@ async function main() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog',
     'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog',
 
     // RSS Monitoring changes on some "Release notes" and "What's new pages"
     'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml',
