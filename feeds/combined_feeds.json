@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (21-05-2026)",
+  "title": "Combined ArcGIS Feeds (22-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-21T00:25:11.699Z",
+  "lastUpdated": "2026-05-22T00:23:31.591Z",
   "items": [
+    {
+      "title": "Welcome to the Developer’s Lounge: Where Curiosity Meets Code",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/welcome-to-the-developers-lounge-where-curiosity-meets-code",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2967207",
+      "author": "Elizabeth Ole",
+      "date": "2026-05-21T22:50:04.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "What’s new in ArcGIS Roads and Highways and ArcGIS Pipeline Referencing: May 2026",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/data-management/whats-new-arcgis-roads-highways-pipeline-referencing-may-2026",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966325",
+      "author": "Kyle Chin",
+      "date": "2026-05-21T16:20:00.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "The GroupLayer object layers property with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "The GroupLayer object layers property with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online. 2 views · 18 hours ago. #<b>Esri</b> #GIS #ArcGISOnline ...more&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=ZAAoIeW_J20",
+      "guid": "tag:google.com,2013:googlealerts/feed:13847324024273798970",
+      "author": "",
+      "date": "2026-05-21T02:28:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Web GIS Developer (<b>ArcGIS</b> / <b>JavaScript</b> / Python) with 0 - Foundit.in",
+      "description": "Debug, test, and improve application performance. Qualifications. Strong experience in <b>JavaScript</b> (<b>ArcGIS</b> JS <b>API</b> / Leaflet / OpenLayers); Good&nbsp;...",
+      "link": "https://www.foundit.in/job/web-gis-developer-arcgis-javascript-python-leighton-asia-mumbai-53306522",
+      "guid": "tag:google.com,2013:googlealerts/feed:2470716095268548441",
+      "author": "",
+      "date": "2026-05-20T17:38:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Introducing the GroupLayer object with the <b>ArcGIS API</b> for Python for a WebMap in ... - YouTube",
       "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Enable Feature Search in a WebMap in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python.",
@@ -34,6 +78,17 @@
       "date": "2026-05-20T08:19:11.000Z",
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=0gekWZy8k3w",
+      "guid": "yt:video:0gekWZy8k3w",
+      "author": "Esri Developers",
+      "date": "2026-05-20T07:47:33.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
       "processed": false
     },
     {
