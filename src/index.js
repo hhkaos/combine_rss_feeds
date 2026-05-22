@@ -103,6 +103,15 @@ async function main() {
     'https://christophermoravec.com/rss/',
     'https://adventuresinmapping.com/feed/',
 
+    // Dev.to
+    'https://dev.to/feed/gisfromscratch', // Jan Tschada
+    'https://dev.to/feed/hhkaos', // Raul
+    'https://dev.to/feed/odoenet', // Rene
+    'https://dev.to/feed/jf990', // John Foster
+    'https://dev.to/feed/c_yatteau', // Courtney
+    'https://dev.to/feed/gavinr', // Gavin
+    'https://dev.to/feed/vivek_shukla_4b01a254d1ac', // Vivek
+
     // Local-only (preserved during merge 2026-05-12)
     'https://feeds.feedburner.com/Codethemap',
     'https://learn.finaldraftmapping.com/feed/'
