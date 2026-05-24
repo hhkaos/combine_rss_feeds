@@ -1,8 +1,21 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (23-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (24-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-23T00:22:57.169Z",
+  "lastUpdated": "2026-05-24T00:21:59.153Z",
   "items": [
+    {
+      "title": "Arcgis Api For Javascript",
+      "description": "Creating view layers 46b698a8bd Feature Widget 46b698a8bd <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS ... <b>ArcGIS Maps SDK for</b> JavaScript:&nbsp;...",
+      "link": "https://fusion.stats.gov.mv/course!/010655/4C6869N/arcgis__api__for-javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:16636665434376276757",
+      "author": "",
+      "date": "2026-05-23T07:16:22.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "ArcGIS Utility Network Associate: 2026 v 2024 Version Comparison",
       "description": "<P>Is the ArcGIS Utility Network Associate Certification Exam part of your certification journey? If so, this article presents the details related to the ArcGIS Utility Network Associate Certification Exam, its unique versions, and exam development opportunities.</P>",
