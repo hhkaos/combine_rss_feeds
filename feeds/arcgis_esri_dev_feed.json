@@ -1,8 +1,21 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (24-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (25-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-24T00:21:59.153Z",
+  "lastUpdated": "2026-05-25T00:23:35.040Z",
   "items": [
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Trout Streams / Rivers. This is a reference dataset for the Virginia Water Quality Standards&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?res_format=ZIP&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:14438932864340083360",
+      "author": "",
+      "date": "2026-05-24T00:24:35.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
     {
       "title": "Arcgis Api For Javascript",
       "description": "Creating view layers 46b698a8bd Feature Widget 46b698a8bd <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS ... <b>ArcGIS Maps SDK for</b> JavaScript:&nbsp;...",
