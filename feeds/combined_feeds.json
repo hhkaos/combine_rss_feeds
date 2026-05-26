@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (25-05-2026)",
+  "title": "Combined ArcGIS Feeds (26-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-25T00:23:19.196Z",
+  "lastUpdated": "2026-05-26T00:22:57.791Z",
   "items": [
+    {
+      "title": "\n        ライセンスページから不要な文言を削除\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページから不要な文言を削除</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc",
+      "guid": "tag:github.com,2008:Grit::Commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc",
+      "author": "",
+      "date": "2026-05-26T00:12:54.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        ライセンスページのリンクの修正、内容統一\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページのリンクの修正、内容統一</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/f98e06436959f9933c3098313ebde924b2bb96b5",
+      "guid": "tag:github.com,2008:Grit::Commit/f98e06436959f9933c3098313ebde924b2bb96b5",
+      "author": "",
+      "date": "2026-05-25T09:52:42.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        ライセンス関連記事を300.xに更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンス関連記事を300.xに更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/ebf9ac152a1075d05e3595e5db2e34d26c67eba8",
+      "guid": "tag:github.com,2008:Grit::Commit/ebf9ac152a1075d05e3595e5db2e34d26c67eba8",
+      "author": "",
+      "date": "2026-05-25T09:16:05.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Arcgis Api For Javascript",
+      "description": "Add 420af85b7b <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS Maps SDK for JavaScript | #EsriDevTech2026 24 minutes - Bjorn Svensson&nbsp;...",
+      "link": "https://fusion.stats.gov.mv/doc_/230526/72960N9S04/arcgis_api__for_javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:5587965703879200996",
+      "author": "",
+      "date": "2026-05-24T23:47:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Dataset - Virginia Open Data Portal",
       "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Trout Streams / Rivers. This is a reference dataset for the Virginia Water Quality Standards&nbsp;...",
