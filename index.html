@@ -80,7 +80,7 @@
           alert.innerHTML = `
             <div>
               <strong>${failedSources.length} curated feed${failedSources.length === 1 ? '' : 's'} failed</strong>
-              <span>Last check: ${escapeHtml(updatedAt)}. Review <a href="https://github.com/hhkaos/combine_rss_feeds/blob/main/src/index.js#L14" target="_blank" rel="noreferrer">src/index.js</a>, then run the GitHub Action manually after a fix.</span>
+              <span>Last check: ${escapeHtml(updatedAt)}. Review <a href="https://github.com/hhkaos/combine_rss_feeds/blob/main/src/index.js#L14" target="_blank" rel="noreferrer">src/index.js</a>, then <a href="https://github.com/hhkaos/combine_rss_feeds/actions/workflows/update-feeds.yml" target="_blank" rel="noreferrer">run the GitHub Action manually</a> after a fix.</span>
             </div>
             <ul>${failureItems}${extraCount ? `<li><span>${extraCount} more failure${extraCount === 1 ? '' : 's'} in feeds/feed_status.json</span></li>` : ''}</ul>
           `;
