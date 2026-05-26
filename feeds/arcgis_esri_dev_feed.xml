@@ -4,10 +4,17 @@
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>https://developers.arcgis.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 May 2026 00:23:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 May 2026 14:44:10 GMT</lastBuildDate>
         <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/arcgis_esri_dev_feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 May 2026 00:23:06 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 14:44:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Developer’s Lounge: Over 50 Ways to Style a Map with One Service]]></title>
+            <link>https://www.esri.com/arcgis-blog/products/developers/mapping/developers-lounge-over-50-ways-to-style-a-map-with-one-service</link>
+            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2966718</guid>
+            <dc:creator><![CDATA[Elizabeth Ole]]></dc:creator>
+            <pubDate>Tue, 26 May 2026 13:53:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[
         ライセンスページから不要な文言を削除
@@ -18,6 +25,13 @@
             <link>https://github.com/EsriJapan/arcgis-dev-resources/commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc</link>
             <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc</guid>
             <pubDate>Tue, 26 May 2026 00:12:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI-Infused Development: Lessons Learned and Patterns from Esri Engineers]]></title>
+            <link>https://www.youtube.com/watch?v=QlsXxDXEXTY</link>
+            <guid isPermaLink="false">yt:video:QlsXxDXEXTY</guid>
+            <dc:creator><![CDATA[Esri Developers]]></dc:creator>
+            <pubDate>Mon, 25 May 2026 16:00:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[

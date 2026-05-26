@@ -1,8 +1,19 @@
 {
   "title": "Combined ArcGIS Feeds (26-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-26T00:22:57.791Z",
+  "lastUpdated": "2026-05-26T14:44:02.067Z",
   "items": [
+    {
+      "title": "Developer’s Lounge: Over 50 Ways to Style a Map with One Service",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/mapping/developers-lounge-over-50-ways-to-style-a-map-with-one-service",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966718",
+      "author": "Elizabeth Ole",
+      "date": "2026-05-26T13:53:50.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "\n        ライセンスページから不要な文言を削除\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページから不要な文言を削除</pre>\n    ",
@@ -11,6 +22,17 @@
       "author": "",
       "date": "2026-05-26T00:12:54.000Z",
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "AI-Infused Development: Lessons Learned and Patterns from Esri Engineers",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=QlsXxDXEXTY",
+      "guid": "yt:video:QlsXxDXEXTY",
+      "author": "Esri Developers",
+      "date": "2026-05-25T16:00:33.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "sourceRelevanceMode": "trusted",
       "processed": false
     },
