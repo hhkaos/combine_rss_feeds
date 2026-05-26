@@ -63,6 +63,10 @@ function writeFeedStatus(status) {
 async function main() {
   const dateStr = getDateString();
 
+  // Still missing sources:
+  // Esri Training Courses: https://www.esri.com/training/catalog/search/
+  // Technical Support - Knowledge base (How tos, FAQs, etc) - Dev Products: https://support.esri.com/en-us/search?s=Newest&cardtype=support_technical_articles&product=arcgis+api+for+javascript&product=arcgis+runtime+sdks&product=arcgis+pro+sdk&product=arcgisobjects+sdk&product=arcgis+api+for+python&product=arcgis+configurable+apps&product=arcgis+dashboards&product=arcgis+experience+builder&product=arcgis+maps+sdk+for+javascript&product=arcgis+maps+sdk+for+kotlin&product=arcgis+maps+sdk+for+net&product=arcgis+maps+sdk+for+swift&product=arcgis+maps+sdk+for+qt&product=arcgis+maps+sdk+for+unity&product=arcgis+maps+sdk+for+unreal+engine&product=arcgis+world+geocoder&product=esri+demographics&product=arcgis+location+platform
+
   const curatedUrls = [
     // Youtube channels
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw', // Esri Developers
@@ -141,6 +145,7 @@ async function main() {
     'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog',
     'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
     'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
+    'https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog',
 
     // RSS Monitoring changes on some "Release notes" and "What's new pages"
     'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml',
@@ -153,6 +158,15 @@ async function main() {
     'https://highearthorbit.com/feed/',
     'https://christophermoravec.com/rss/',
     'https://adventuresinmapping.com/feed/',
+
+    // Dev.to
+    'https://dev.to/feed/gisfromscratch', // Jan Tschada
+    'https://dev.to/feed/hhkaos', // Raul
+    'https://dev.to/feed/odoenet', // Rene
+    'https://dev.to/feed/jf990', // John Foster
+    'https://dev.to/feed/c_yatteau', // Courtney
+    'https://dev.to/feed/gavinr', // Gavin
+    'https://dev.to/feed/vivek_shukla_4b01a254d1ac', // Vivek
 
     // Local-only (preserved during merge 2026-05-12)
     'https://feeds.feedburner.com/Codethemap',

@@ -1,8 +1,852 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (26-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-14T00:23:41.232Z",
+  "lastUpdated": "2026-05-26T00:23:06.308Z",
   "items": [
+    {
+      "title": "\n        ライセンスページから不要な文言を削除\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページから不要な文言を削除</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc",
+      "guid": "tag:github.com,2008:Grit::Commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc",
+      "author": "",
+      "date": "2026-05-26T00:12:54.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        ライセンスページのリンクの修正、内容統一\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページのリンクの修正、内容統一</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/f98e06436959f9933c3098313ebde924b2bb96b5",
+      "guid": "tag:github.com,2008:Grit::Commit/f98e06436959f9933c3098313ebde924b2bb96b5",
+      "author": "",
+      "date": "2026-05-25T09:52:42.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        ライセンス関連記事を300.xに更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ライセンス関連記事を300.xに更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/ebf9ac152a1075d05e3595e5db2e34d26c67eba8",
+      "guid": "tag:github.com,2008:Grit::Commit/ebf9ac152a1075d05e3595e5db2e34d26c67eba8",
+      "author": "",
+      "date": "2026-05-25T09:16:05.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Arcgis Api For Javascript",
+      "description": "Add 420af85b7b <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS Maps SDK for JavaScript | #EsriDevTech2026 24 minutes - Bjorn Svensson&nbsp;...",
+      "link": "https://fusion.stats.gov.mv/doc_/230526/72960N9S04/arcgis_api__for_javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:5587965703879200996",
+      "author": "",
+      "date": "2026-05-24T23:47:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Trout Streams / Rivers. This is a reference dataset for the Virginia Water Quality Standards&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?res_format=ZIP&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:14438932864340083360",
+      "author": "",
+      "date": "2026-05-24T00:24:35.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "Arcgis Api For Javascript",
+      "description": "Creating view layers 46b698a8bd Feature Widget 46b698a8bd <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS ... <b>ArcGIS Maps SDK for</b> JavaScript:&nbsp;...",
+      "link": "https://fusion.stats.gov.mv/course!/010655/4C6869N/arcgis__api__for-javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:16636665434376276757",
+      "author": "",
+      "date": "2026-05-23T07:16:22.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Utility Network Associate: 2026 v 2024 Version Comparison",
+      "description": "<P>Is the ArcGIS Utility Network Associate Certification Exam part of your certification journey? If so, this article presents the details related to the ArcGIS Utility Network Associate Certification Exam, its unique versions, and exam development opportunities.</P>",
+      "link": "https://community.esri.com/t5/esri-technical-certification-exams/arcgis-utility-network-associate-2026-v-2024/ba-p/1655349",
+      "guid": "https://community.esri.com/t5/esri-technical-certification-exams/arcgis-utility-network-associate-2026-v-2024/ba-p/1655349",
+      "author": "GillianGeorge",
+      "date": "2026-05-22T22:16:55.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Episode 66 - Don’t Tell Claude Who to Be",
+      "description": "Tell it what task it's doing and what scope it's working in. The \"you are an expert\" prompt is mostly cargo cult now; a list of NEVER statements is brittle.",
+      "link": "https://christophermoravec.com/episode-66-dont-tell-claude-who-to-be/",
+      "guid": "6a10a3f2fa04b9000186949e",
+      "author": "Christopher Moravec",
+      "date": "2026-05-22T19:27:26.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Topographic Mapping at ArcGIS Pro 3.7 and ArcGIS Enterprise 12.1",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/announcements/arcgis-topographic-mapping-at-arcgis-pro-3-7-and-arcgis-enterprise-12-1",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2965581",
+      "author": "Josue",
+      "date": "2026-05-22T17:00:25.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS for Excel (2026 年 4 月アップデート) の新機能",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET, <b>ArcGIS Maps SDK for</b> JavaScript, <b>ArcGIS Maps SDK for</b> Kotlin, <b>ArcGIS Maps SDK for</b> Swift, <b>ArcGIS Maps SDK for</b> Unity, <b>ArcGIS</b>&nbsp;...",
+      "link": "https://blog.esrij.com/archives/70324",
+      "guid": "tag:google.com,2013:googlealerts/feed:5488397357855847474",
+      "author": "",
+      "date": "2026-05-22T01:47:34.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Welcome to the Developer’s Lounge: Where Curiosity Meets Code",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/welcome-to-the-developers-lounge-where-curiosity-meets-code",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2967207",
+      "author": "Elizabeth Ole",
+      "date": "2026-05-21T22:50:04.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "To view all records, please use the tabular version... 428 total views. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Crime&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?_organization_limit=0&res_format=ZIP&sort=views_recent+desc&organization=city-of-lynchburg-gis-portal",
+      "guid": "tag:google.com,2013:googlealerts/feed:5831793285965902697",
+      "author": "",
+      "date": "2026-05-21T22:00:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "What’s new in ArcGIS Roads and Highways and ArcGIS Pipeline Referencing: May 2026",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/data-management/whats-new-arcgis-roads-highways-pipeline-referencing-may-2026",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966325",
+      "author": "Kyle Chin",
+      "date": "2026-05-21T16:20:00.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "The GroupLayer object layers property with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "The GroupLayer object layers property with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online. 2 views · 18 hours ago. #<b>Esri</b> #GIS #ArcGISOnline ...more&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=ZAAoIeW_J20",
+      "guid": "tag:google.com,2013:googlealerts/feed:13847324024273798970",
+      "author": "",
+      "date": "2026-05-21T02:28:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Web GIS Developer (<b>ArcGIS</b> / <b>JavaScript</b> / Python) with 0 - Foundit.in",
+      "description": "Debug, test, and improve application performance. Qualifications. Strong experience in <b>JavaScript</b> (<b>ArcGIS</b> JS <b>API</b> / Leaflet / OpenLayers); Good&nbsp;...",
+      "link": "https://www.foundit.in/job/web-gis-developer-arcgis-javascript-python-leighton-asia-mumbai-53306522",
+      "guid": "tag:google.com,2013:googlealerts/feed:2470716095268548441",
+      "author": "",
+      "date": "2026-05-20T17:38:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "oferta de empleo"
+    },
+    {
+      "title": "Introducing the GroupLayer object with the <b>ArcGIS API</b> for Python for a WebMap in ... - YouTube",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Enable Feature Search in a WebMap in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python.",
+      "link": "https://www.youtube.com/watch?v=3KAbmKE0VLM",
+      "guid": "tag:google.com,2013:googlealerts/feed:13570392066787618307",
+      "author": "",
+      "date": "2026-05-20T09:12:47.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Setting a Group Layer name in an <b>ArcGIS</b> Online WebMap using the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. Setting a Group Layer name in an <b>ArcGIS</b> Online WebMap using the <b>ArcGIS API</b> for Python. 2 views · 19&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=pOtpa21CUZk",
+      "guid": "tag:google.com,2013:googlealerts/feed:7018193347262858528",
+      "author": "",
+      "date": "2026-05-20T08:20:08.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Setting Layer Visibility with a WebMap Group Layer using the <b>ArcGIS API</b> for Python",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Setting Layer Visibility with a WebMap Group Layer using the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online.",
+      "link": "https://www.youtube.com/watch?v=6Tu2z3VW4VQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:10825103830754369887",
+      "author": "",
+      "date": "2026-05-20T08:19:11.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=0gekWZy8k3w",
+      "guid": "yt:video:0gekWZy8k3w",
+      "author": "Esri Developers",
+      "date": "2026-05-20T07:47:33.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> Unity加载本地地形避坑指南：为什么你的tpkx文件地形不明显？ 原创",
+      "description": "<b>ArcGIS Maps SDK for</b> Unity地形加载效果优化实战指南. 引言：为什么你的地形总是&quot;平平无奇&quot;？ 很多开发者在Unity中使用ArcGIS Maps SDK加载本地地形数据时，&nbsp;...",
+      "link": "https://blog.csdn.net/weixin_28728715/article/details/161246860",
+      "guid": "tag:google.com,2013:googlealerts/feed:7055660337131656950",
+      "author": "",
+      "date": "2026-05-20T06:47:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "What’s New in ArcGIS Geocoding for ArcGIS Pro 3.7",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/announcements/whats-new-in-arcgis-geocoding-arcgis-pro-3-7-release",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966486",
+      "author": "Robert Jensen",
+      "date": "2026-05-20T00:51:58.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "What's new in ArcGIS tutorials April 2026",
+      "description": "<DIV class=\"\"><STRONG>New Esri tutorials</STRONG></DIV><DIV class=\"\">&nbsp;</DIV><DIV class=\"\">Esri tutorials are step-by-step workflows that use real-world scenarios to&nbsp;introduce key ArcGIS tools, products and modern best practices.&nbsp;</DIV><DIV class=\"\"><STRONG>Check out the newest additions to the gallery—just released last month!</STRONG></DIV><DIV class=\"\">&nbsp;</DIV><DIV class=\"\"><H5><STRONG><A title=\"Set up a flood simulation\" href=\"https://learn.arcgis.com/en/projects/set-up-a-flood-simulation/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Set up a flood simulation</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152655i2321BE71D1A3BE8C/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P>In 2024, the United States experienced 27 weather- and climate-related events that resulted in damage of more than $1 billion each to affected communities and their infrastructure. Severe rainfall and flooding events make up a significant portion of these costs, with Hurricane Helene alone causing $79.6 billion in damage to the southeastern United States. Understanding and preparing for flooding caused by these extreme weather events has become a critical need for communities.</P><P>In this two-part<SPAN>&nbsp;</SPAN><A href=\"https://learn.arcgis.com/en/paths/simulate-a-flood-in-arcgis-pro/\" target=\"_blank\" rel=\"noopener\">tutorial series</A>, you'll use<SPAN>&nbsp;</SPAN><SPAN class=\"\">ArcGIS Pro</SPAN><SPAN>&nbsp;</SPAN>to perform a sophisticated flood simulation for a hypothetical high rainfall event in Houston, Texas. By analyzing the results alongside structure and road data, it's possible to predict how infrastructure might be impacted by such an event.</P><P>In this tutorial, the first in the series, you'll prepare the data necessary to perform the simulation. In particular, you'll use land cover and impervious surface data to create a water infiltration raster layer that shows how quickly water enters the soil, with areas of low infiltration being more susceptible to flooding. In the<SPAN>&nbsp;</SPAN><A href=\"https://learn.arcgis.com/en/projects/simulate-a-flood/\" target=\"_blank\" rel=\"noopener\">second tutorial</A>, you'll use the data you prepared to simulate flooding and analyze potential impacts to infrastructure.</P><P>&nbsp;</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Simulate a flood\" href=\"https://learn.arcgis.com/en/projects/simulate-a-flood/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Simulate a flood</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152656i64040E4EC1047B3B/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P>In this tutorial, the second in the series, you'll use the prepared data to perform the simulation. Then, you'll export the results as a flood depth raster, which you'll compare to buildings and roads data to determine how much infrastructure might be impacted by the flood event. You'll also configure flood depth charts to quickly view the impacts at different flood levels.</P><P>&nbsp;</P><P>&nbsp;</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Calculate a field in Map Viewer\" href=\"https://learn.arcgis.com/en/projects/calculate-a-field-in-map-viewer/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Calculate a field in Map Viewer</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152657iE4EA38D0EB8E878B/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P><SPAN>You've received sales data from a colleague for your company's store locations. You must identify any regional or spatial patterns in the data that might explain how stores are performing. After mapping the data, you notice that the dataset is missing a key metric—net operating income (NOI)—that you'll need to calculate. There are several options for calculating data in&nbsp;</SPAN><SPAN class=\"\">Map Viewer</SPAN><SPAN>. In this tutorial, you'll decide on the best method for your goals and calculate a new field in&nbsp;</SPAN><SPAN class=\"\">Map Viewer</SPAN><SPAN>&nbsp;to better understand regional performance patterns.</SPAN></P><P>&nbsp;</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Clip raster data\" href=\"https://learn.arcgis.com/en/projects/clip-raster-data/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Clip raster data</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152658i301EEAA67E1C3078/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P><SPAN>You have a raster image of a historical paper map of Hallstatt, Austria, that you want to use as a background layer in&nbsp;</SPAN><SPAN class=\"\">ArcGIS Pro</SPAN><SPAN>. However, the image is much larger than your area of interest. The unneeded parts of the image take up storage space and increase the image processing time. In this tutorial, you'll make a copy of the raster image that is clipped to the area of interest. Because you have other raster datasets you want to clip for the same reason, you'll perform batch processing to clip all of them at once. Lastly, you'll package the results as a project package so they can all be shared as one file.</SPAN></P><P>&nbsp;</P><DIV class=\"\"><H5><STRONG><A title=\"Combine raster data into a mosaic\" href=\"https://learn.arcgis.com/en/projects/combine-raster-data-into-a-mosaic/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Combine raster data into a mosaic</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152659iA5FF1C60628EB627/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P><SPAN>To properly visualize and analyze raster data, it's sometimes necessary to merge multiple raster datasets into one. A mosaic is a combination of two or more images. In this tutorial, you have two elevation datasets for the area of Hallstatt, Austria. You want to compare these datasets to another layer and use them for analysis. Rather than compare and analyze each dataset individually, you'll create a mosaic that combines them.</SPAN></P><P>&nbsp;</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Create a 3D subsurface visualization of aquifers\" href=\"https://learn.arcgis.com/en/projects/create-a-3d-subsurface-visualization-of-aquifers/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Create a 3D subsurface visualization of aquifers</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152660i350A7BC6019975A5/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P>Kent and Sussex counties in Delaware depend on groundwater for household consumption, agriculture, and industry. To effectively use and manage this critical natural resource, it is important to understand the geographic extent and thickness of the aquifers. Geologists used borehole records to identify the depth to, and thickness of, 12 confined aquifers throughout the counties.</P><P>In this tutorial, you'll create a public visualization of the aquifers. You'll create 3D models in<SPAN>&nbsp;</SPAN><SPAN class=\"\">ArcGIS Pro</SPAN><SPAN>&nbsp;</SPAN>and publish them in<SPAN>&nbsp;</SPAN><SPAN class=\"\">ArcGIS Online</SPAN><SPAN>&nbsp;</SPAN>to view in<SPAN>&nbsp;</SPAN><SPAN class=\"\">Scene Viewer</SPAN>.</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Get started with ArcGIS Data Pipelines\" href=\"https://learn.arcgis.com/en/projects/get-started-with-arcgis-data-pipelines/arcgis-enterprise/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Get started with ArcGIS Data Pipelines</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152661i866E8D714CB20D18/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P>The New York City Department of Parks and Recreation (DPR) maintains a database of capital improvement projects as a<SPAN>&nbsp;</SPAN><SPAN class=\"\">.csv</SPAN><SPAN>&nbsp;</SPAN>table. However, other departments within the city would like to know additional information about each capital project, such as the age of each project from its initial design or which neighborhood contains each capital project.</P><P>In the past, adding more information to this list of park projects has been a time-consuming, manual process. Specifically, it entails the following:</P><UL><LI>Querying projects that are in the construction phase</LI><LI>Projecting data to an appropriate coordinate system for New York City</LI><LI>Calculating the amount of time that has passed since the project was initially designed</LI><LI>Determining which neighborhood tabulation area the project falls within</LI><LI>Determining which community district each project falls within</LI><LI>Removing numerous attributes that are not necessary for the stakeholders</LI><LI>Renaming three attribute fields whose current names are vague and unintuitive</LI></UL><P>To automate this workflow and keep your data up to date, you'll use<SPAN>&nbsp;</SPAN><SPAN class=\"\">ArcGIS Data Pipelines</SPAN><SPAN>&nbsp;</SPAN>to extract information from the New York City OpenData website, load it into<SPAN>&nbsp;</SPAN><SPAN class=\"\">ArcGIS Enterprise</SPAN>, and transform it by adding the requested attributes. Finally, you'll have this data pipeline run on a schedule to keep your list of capital projects current.</P><P>&nbsp;</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Inspect and visualize imagery\" href=\"https://learn.arcgis.com/en/projects/inspect-and-visualize-imagery/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Inspect and visualize imagery</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152662iAB141D4E52A42603/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P><SPAN>Imagery is an important type of data used in most remote sensing-based workflows. Imagery can be any optical satellite or aerial image. You can use it as a backdrop for other layers or analyze it to extract information beyond what the eye can see. In this introductory tutorial, you'll learn how to understand and display imagery in&nbsp;</SPAN><SPAN class=\"\">ArcGIS Pro</SPAN><SPAN>. First, you'll inspect the properties of an imagery dataset to learn more about its cell size, pixel characteristics, and spectral bands. Then, you'll change the image's appearance to make it smoother and more vivid. Lastly, you'll change the band combination to better distinguish vegetation in the image. The skills you'll learn in this tutorial can be applied to nearly any imagery workflow in&nbsp;</SPAN><SPAN class=\"\">ArcGIS Pro</SPAN><SPAN>.</SPAN></P><P>&nbsp;</P></DIV><DIV class=\"\"><H5><STRONG><A title=\"Solve common projection issues\" href=\"https://learn.arcgis.com/en/projects/solve-common-projection-issues/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Solve common projection issues</A>&nbsp;</STRONG></H5><P><span class=\"lia-inline-image-display-wrapper lia-image-align-right\" image-alt=\"image.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152663i0C4386B9F624EFB0/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"image.png\" alt=\"image.png\" /></span></P><P>Projections are calculations that allow you to draw the round earth on a flat screen or piece of paper. To function in a GIS, every layer needs to be defined within a coordinate system, which allows it to be projected onto the map. Issues with the projection can cause data to not appear correctly or at all.</P><P>In this tutorial, you'll identify and fix the following three common projection issues:</P><UL><LI>A layer with no defined projection, causing it to appear in the wrong place</LI><LI>A layer with a projection that is different than the one used in the project</LI><LI>A layer that is misaligned with the other map layers</LI></UL><P>You'll primarily work with raster data, although the issues and their solutions also apply to other types of data, such as feature classes. To learn how to resolve projection issues for a feature class, try the<SPAN>&nbsp;</SPAN><A href=\"https://learn.arcgis.com/en/projects/fix-data-when-it-appears-in-the-wrong-place/\" target=\"_blank\" rel=\"noopener\">Fix data when it appears in the wrong place</A><SPAN>&nbsp;</SPAN>tutorial.</P><P>&nbsp;</P></DIV></DIV>",
+      "link": "https://community.esri.com/t5/esri-tutorials-blog/what-s-new-in-arcgis-tutorials-april-2026/ba-p/1702863",
+      "guid": "https://community.esri.com/t5/esri-tutorials-blog/what-s-new-in-arcgis-tutorials-april-2026/ba-p/1702863",
+      "author": "SilpaGadi",
+      "date": "2026-05-19T21:41:02.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "# Optimizing Feature Layer Queries in <b>ArcGIS</b> Pro <b>SDK</b> - DEV Community",
+      "description": "While working with large enterprise GIS datasets in <b>ArcGIS</b> Pro <b>SDK</b>, one issue I frequently ... This guide contains an overview of improvements, <b>API</b>&nbsp;...",
+      "link": "https://dev.to/vivek_shukla_4b01a254d1ac/-optimizing-feature-layer-queries-in-arcgis-pro-sdk-1mjp",
+      "guid": "tag:google.com,2013:googlealerts/feed:4174891906282500320",
+      "author": "",
+      "date": "2026-05-19T21:04:51.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        Update README.md\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Update README.md\n\ngive context for JSON</pre>\n    ",
+      "link": "https://github.com/Esri/arcpy/commit/743aef472d21c041647208e8499b3867cf52c969",
+      "guid": "tag:github.com,2008:Grit::Commit/743aef472d21c041647208e8499b3867cf52c969",
+      "author": "scw",
+      "date": "2026-05-19T19:47:15.000Z",
+      "sourceFeedUrl": "https://github.com/Esri/arcpy/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "193 datasets found. Organizations: Arlington County - GIS Portal Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> HTML. Filter Results&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?organization=arlington-gis-portal&res_format=HTML&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:5222382779344423129",
+      "author": "",
+      "date": "2026-05-19T19:37:25.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "ArcGIS Pro Layout Redesign volume 2",
+      "description": "We geographers can dig pretty deep in the weeds of data collection and analysis, reveling in the fun of precision, process, statistics, even visualization. But when it comes to crafting the geographic message in the form of a map layout, sometimes we can feel a little overwhelmed. Out of place? I know I’ve been there. &#8230;",
+      "link": "https://adventuresinmapping.com/2026/05/19/arcgis-pro-layout-redesign-volume-2/",
+      "guid": "https://adventuresinmapping.com/?p=8417",
+      "author": "John",
+      "date": "2026-05-19T19:02:43.000Z",
+      "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "SceneView Improvements in ArcGIS Maps SDKs for Native Apps 300.0",
+      "description": "<P>Pack your bags—we're going on a tour!&nbsp;&nbsp;<STRONG>In this recent developer's blog post&nbsp;</STRONG><SPAN>(</SPAN><A href=\"https://www.esri.com/arcgis-blog/products/developers/3d-gis/sceneview-improvements-in-native-maps-sdk-300-0\" rel=\"nofollow noreferrer\">find it here on the ArcGIS Blog</A><SPAN>), you'll see eye-catching scenes while learning about new capabilities, speed improvements, and simplified workflows introduced in Native Maps SDKs 300.0.</SPAN></P><P>&nbsp;</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/sceneview-improvements-in-arcgis-maps-sdks-for/ba-p/1702670",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/sceneview-improvements-in-arcgis-maps-sdks-for/ba-p/1702670",
+      "author": "Mara",
+      "date": "2026-05-19T16:13:42.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>ArcGIS</b> Layer Rename Tutorial Review - YouTube",
+      "description": "... <b>ArcGIS</b> rename layer arcpy management, arcpy.Rename_management layer, <b>ArcGIS</b> Pro rename layer Python toolbox, rename layer using <b>ArcGIS</b> REST <b>API</b>,&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=XS4iB94x4EE",
+      "guid": "tag:google.com,2013:googlealerts/feed:11724911067456243386",
+      "author": "",
+      "date": "2026-05-19T14:57:11.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Editor’s Corner — True Curve Drawing Tools in ArcGIS Online",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/web-editor/data-management/editors-corner-true-curve-tools",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966088",
+      "author": "Emily Garding",
+      "date": "2026-05-19T12:02:50.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "149 datasets found. Organizations: Fairfax County Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> GeoJSON. Filter Results&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?organization=fairfax-county&res_format=ArcGIS+GeoServices+REST+API&res_format=GeoJSON&sort=views_recent+desc",
+      "guid": "tag:google.com,2013:googlealerts/feed:16576420264250200192",
+      "author": "",
+      "date": "2026-05-19T07:12:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "The Expanding Impact of Local Road Data Corrections: From GIS Teams to Entire Communities",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/accurate-local-road-data-is-far-more-than-a-technical-gis-responsibility-it-is-a-foundational-component-of-modern-public-infrastructure-emergency-response-utility-coordination-and-everyda",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2965529",
+      "author": "Shane Matthews",
+      "date": "2026-05-18T20:14:01.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; Hanover Parcels. This dataset has no description. 243 total views.",
+      "link": "https://data.virginia.gov/dataset/?organization=hanover-county&res_format=KML&res_format=TXT&res_format=ZIP",
+      "guid": "tag:google.com,2013:googlealerts/feed:10089318597436661402",
+      "author": "",
+      "date": "2026-05-18T19:12:54.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "Deprecation notice: Branch Version Management widget in ArcGIS Experience Builder",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/announcements/deprecation-notice-branch-version-management-widget-in-arcgis-experience-builder",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2966275",
+      "author": "Alix Vézina",
+      "date": "2026-05-18T19:00:03.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "What's changed for curves in ArcGIS Maps SDKs for Native Apps 300.0",
+      "description": "<P><STRONG><A href=\"https://www.esri.com/arcgis-blog/products/sdk-net/developers/whats-changed-for-curves-in-arcgis-maps-sdks-for-native-apps-300-0\" target=\"_self\">This new ArcGIS Blog post</A></STRONG> provides a concise overview of what's new in curves, including the ability to edit true curves with GeometryEditor and use SupportedCurveTypes to ensure edits are appropriate to the service type. The blog also takes a deeper dive into new behaviors designed to expand support for true curves, such as the new default setting for ServiceCurveGeometryMode, which causes your app to behave as a true curve client.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-changed-for-curves-in-arcgis-maps-sdks-for/ba-p/1702438",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-changed-for-curves-in-arcgis-maps-sdks-for/ba-p/1702438",
+      "author": "Mara",
+      "date": "2026-05-18T15:00:00.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Explorer for ArcGIS Beta | Windows 应用- Crx搜搜",
+      "description": "更多来自该开发者(10) ; ArcGIS Earth ; <b>ArcGIS Maps SDK for</b> .NET Samples (WPF).",
+      "link": "https://www.crxsoso.com/store/detail/9p47gjtlm9nt",
+      "guid": "tag:google.com,2013:googlealerts/feed:9809724030491902656",
+      "author": "",
+      "date": "2026-05-18T07:36:04.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "149 datasets found. Organizations: Fairfax County Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter Results. Easements.",
+      "link": "https://data.virginia.gov/dataset/?organization=fairfax-county&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:948476554351051091",
+      "author": "",
+      "date": "2026-05-17T22:41:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "324 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> GDB. Filter Results. Police Offense Reports. This dataset&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?_res_format_limit=0&res_format=ArcGIS+GeoServices+REST+API&res_format=GDB",
+      "guid": "tag:google.com,2013:googlealerts/feed:9177472263444767569",
+      "author": "",
+      "date": "2026-05-17T17:27:43.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
+    },
+    {
+      "title": "Enterprise GIS Developer (.NET, <b>ArcGIS</b> Pro <b>SDK</b>, PostgreSQL/PostGIS) - SimplyHired",
+      "description": "We are looking for a motivated and hands-on GIS professional with expertise in <b>ArcGIS</b> Pro <b>SDK</b> (. ... GIS Web Developer - <b>Esri</b>/React Specialist.",
+      "link": "https://www.simplyhired.co.in/job/KDbPDfTXx43dLnJgwHFe1ikhnmNxPAJ8gmHASyKcs7siP6fQst8jww",
+      "guid": "tag:google.com,2013:googlealerts/feed:17560471683604234223",
+      "author": "",
+      "date": "2026-05-17T16:07:09.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "oferta de empleo"
+    },
+    {
+      "title": "Table tools for ArcGIS Pro",
+      "description": "<P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"Table_tools.png\" style=\"width: 200px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152542i771940FA5870A0AF/image-size/small?v=v2&amp;px=200\" role=\"button\" title=\"Table_tools.png\" alt=\"Table_tools.png\" /></span></P><P>Time for an update...</P><P>The original...&nbsp;<A href=\"https://community.esri.com/t5/python-blog/table-tools-for-pro/ba-p/904042\" target=\"_blank\" rel=\"noopener\">Table tools for Pro... circa 2020</A>&nbsp;</P><P>The toolbox locations</P><UL><LI><A href=\"https://github.com/Dan-Patterson/Tools_for_ArcGIS_Pro\" target=\"_self\">Tools_for_ArcGIS_Pro</A>&nbsp; and inside there.</LI><LI><A href=\"https://github.com/Dan-Patterson/Tools_for_ArcGIS_Pro/tree/master/TableTools\" target=\"_self\">Table Tools</A></LI></UL><P>Updates are related to changes in the esri arcgis pro ecosystem and enhancements and changes in NumPy.</P><P>Lots of tools to choose from</P><P><span class=\"lia-inline-image-display-wrapper lia-image-align-inline\" image-alt=\"2026-05-15_20-29-00.png\" style=\"width: 190px;\"><img src=\"https://community.esri.com/t5/image/serverpage/image-id/152543i37037FABD9C8EF85/image-size/medium?v=v2&amp;px=400\" role=\"button\" title=\"2026-05-15_20-29-00.png\" alt=\"2026-05-15_20-29-00.png\" /></span></P><P>Enjoy</P>",
+      "link": "https://community.esri.com/t5/python-blog/table-tools-for-arcgis-pro/ba-p/1702377",
+      "guid": "https://community.esri.com/t5/python-blog/table-tools-for-arcgis-pro/ba-p/1702377",
+      "author": "DanPatterson",
+      "date": "2026-05-16T00:31:33.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Toolboxes in Visual Studio Code",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=DUCF_pOA1-8",
+      "guid": "yt:video:DUCF_pOA1-8",
+      "author": "Esri Developers",
+      "date": "2026-05-15T17:10:36.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Episode 65 - How to tend a codebase",
+      "description": "I double down on the idea that keeping up with AI-generated code looks a lot like gardening: seeds, soil, water, pruning, weeding, and sometimes pulling up a plant. ",
+      "link": "https://christophermoravec.com/episode-65-how-to-tend-a-codebase/",
+      "guid": "6a05f3e0d28cbb0001e9ff68",
+      "author": "Christopher Moravec",
+      "date": "2026-05-15T16:10:36.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Display Attachments in a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>Esri</b> #FeatureService #GISAutomation #LearnArcGIS. ... Display Attachments in a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python | Feature Layer.",
+      "link": "https://www.youtube.com/watch?v=dbLWk9UCdmg",
+      "guid": "tag:google.com,2013:googlealerts/feed:18443208927281133926",
+      "author": "",
+      "date": "2026-05-15T02:28:43.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "React JS Developer ( <b>ArcGIS</b> expertise) with 5 - 8 Years of Experience at exasoft pte. ltd. in ... - foundit",
+      "description": "... <b>ArcGIS</b> to join our team as a contractor. This role requires a deep understanding of both React JS and <b>ArcGIS JavaScript API</b>, as well as the&nbsp;...",
+      "link": "https://www.foundit.sg/job/react-js-developer-arcgis-expertise-exasoft-pte-ltd-singapore-52832876",
+      "guid": "tag:google.com,2013:googlealerts/feed:9068190636839864534",
+      "author": "",
+      "date": "2026-05-15T01:53:30.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "oferta de empleo"
+    },
+    {
+      "title": "What's New: Esri Developer Experience (May 2026)",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=XbtAclPyJDk",
+      "guid": "yt:video:XbtAclPyJDk",
+      "author": "Esri Developers",
+      "date": "2026-05-14T17:00:19.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Moving a Layer in a WebMap in <b>ArcGIS</b> Online to the Basemap Layers using the <b>ArcGIS API</b> ...",
+      "description": "... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Display Attachments in a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python | Feature Layer.",
+      "link": "https://www.youtube.com/watch?v=OlAP36znPaI",
+      "guid": "tag:google.com,2013:googlealerts/feed:15667791320899035052",
+      "author": "",
+      "date": "2026-05-14T14:59:58.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Moving Basemap Layers to the WebMap Layers in an <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
+      "description": "... <b>ArcGIS API</b> for Python and <b>ArcGIS</b> Online. In this tutorial, you&#39;ll use ... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS.",
+      "link": "https://www.youtube.com/watch?v=lKVRbaowegk",
+      "guid": "tag:google.com,2013:googlealerts/feed:4465549546244446319",
+      "author": "",
+      "date": "2026-05-14T14:59:47.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "200.8.2 LTS patch for ArcGIS Maps SDKs for Native Apps is now available",
+      "description": "<P>The latest LTS patch release for 200.8 is now available for .NET, Kotlin, Qt, and Swift SDKs.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/200-8-2-lts-patch-for-arcgis-maps-sdks-for-native/ba-p/1702039",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/200-8-2-lts-patch-for-arcgis-maps-sdks-for-native/ba-p/1702039",
+      "author": "Nicholas-Furness",
+      "date": "2026-05-14T14:10:23.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise SDK Custom Data Feeds What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/enterprise-sdk/guide/custom-data-feeds/whats-new-12-0-cdf/",
+      "guid": "https://rss.rauljimenez.info/events/16",
+      "author": "",
+      "date": "2026-05-14T09:17:07.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise SDK Java What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/enterprise-sdk/guide/java/whats-new-12-0-java/",
+      "guid": "https://rss.rauljimenez.info/events/17",
+      "author": "",
+      "date": "2026-05-14T09:17:05.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise SDK .NET What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/enterprise-sdk/guide/net/whats-new-12-0-net/",
+      "guid": "https://rss.rauljimenez.info/events/15",
+      "author": "",
+      "date": "2026-05-14T09:17:04.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS API for Python What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/python/latest/guide/release-notes-243/",
+      "guid": "https://rss.rauljimenez.info/events/14",
+      "author": "",
+      "date": "2026-05-14T09:17:02.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/documentation/mapping-and-location-services/popular-topics/",
+      "guid": "https://rss.rauljimenez.info/events/13",
+      "author": "",
+      "date": "2026-05-14T09:17:01.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Pro SDK for .NET What's New / Release notes Page | last modified: 2026-05-12",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://doc.esri.com/en/arcgis-pro/latest/sdk/api-reference/conceptdocs/docs/Home.html",
+      "guid": "https://rss.rauljimenez.info/events/8",
+      "author": "",
+      "date": "2026-05-14T09:17:01.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Architecture What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://architecture.arcgis.com/en/overview/well-architected-framework/release-notes.html",
+      "guid": "https://rss.rauljimenez.info/events/1",
+      "author": "",
+      "date": "2026-05-14T09:17:00.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "activity_sheet_match",
+      "manualNotes": "Matched with manually curated Activity sheet.",
+      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: Arcade What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/arcade/guide/release-notes/",
+      "guid": "https://rss.rauljimenez.info/events/11",
+      "author": "",
+      "date": "2026-05-14T09:16:59.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/users-groups-and-items/whats-new-in-users-groups-and-items/",
+      "guid": "https://rss.rauljimenez.info/events/10",
+      "author": "",
+      "date": "2026-05-14T09:16:58.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/",
+      "guid": "https://rss.rauljimenez.info/events/3",
+      "author": "",
+      "date": "2026-05-14T09:16:58.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/geocode/whats-new-world-geocoding-service/",
+      "guid": "https://rss.rauljimenez.info/events/5",
+      "author": "",
+      "date": "2026-05-14T09:16:57.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Feature service What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/services-reference/enterprise/feature-service/",
+      "guid": "https://rss.rauljimenez.info/events/4",
+      "author": "",
+      "date": "2026-05-14T09:16:57.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/basemap-styles/release-notes/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/2",
+      "author": "",
+      "date": "2026-05-14T09:16:57.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "activity_sheet_match",
+      "manualNotes": "Matched with manually curated Activity sheet.",
+      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: Experience Builder What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/experience-builder/guide/whats-new/",
+      "guid": "https://rss.rauljimenez.info/events/12",
+      "author": "",
+      "date": "2026-05-14T09:16:56.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "activity_sheet_match",
+      "manualNotes": "Matched with manually curated Activity sheet.",
+      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/routing/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/9",
+      "author": "",
+      "date": "2026-05-14T09:16:56.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/places/release-notes/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/7",
+      "author": "",
+      "date": "2026-05-14T09:16:56.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
+      "description": "Current tracked snapshot added to the feed.",
+      "link": "https://developers.arcgis.com/rest/services-reference/enterprise/map-service/",
+      "guid": "https://rss.rauljimenez.info/events/6",
+      "author": "",
+      "date": "2026-05-14T09:16:56.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Precision Mapping ​in the Field | #EsriDevTech2026",
       "description": "",
@@ -12,7 +856,11 @@
       "date": "2026-05-13T23:35:29.000Z",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-14T06:29:23.822Z"
     },
     {
       "title": "Create ArcGIS Pro Projects with Python",
@@ -23,7 +871,11 @@
       "date": "2026-05-13T15:28:22.000Z",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-14T06:29:24.566Z"
     },
     {
       "title": "What’s changed for curves in ArcGIS Maps SDKs for Native Apps 300.0",
@@ -32,6 +884,23 @@
       "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2964670",
       "author": "Hamish Duff",
       "date": "2026-05-13T15:00:40.000Z",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-14T06:29:25.262Z"
+    },
+    {
+      "title": "What’s changed for curves in ArcGIS Maps SDKs for Native Apps 300.0",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/whats-changed-for-curves-in-arcgis-maps-sdks-for-native-apps-300-0",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2964670",
+      "author": "Hamish Duff",
+      "date": "2026-05-13T15:00:40.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
@@ -74,7 +943,11 @@
       "date": "2026-05-11T19:19:26.000Z",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-13T07:21:28.502Z"
     },
     {
       "title": "Arcgis Api For Javascript",
@@ -103,10 +976,12 @@
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Learn how to integrate work orders with ArcGIS in this informative article.",
       "processed": true,
-      "manualStatus": "archived",
-      "manualReason": "historical_not_in_activity_sheet",
-      "manualNotes": "Historical item from existing JSON; hidden from pending because it was already processed before this review workflow.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z"
+      "manualStatus": "rejected",
+      "manualReason": "Not related with ArcGIS developer tehcnologies",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-14T07:42:43.931Z",
+      "ignored": true,
+      "ignoreReason": "Not related with ArcGIS developer tehcnologies"
     },
     {
       "title": "[B!] <b>ArcGIS Maps SDK for</b> JavaScript アプリケーション プログラミング | ESRIジャパン株式会社",
@@ -225,10 +1100,12 @@
       "topicsProduct": "ArcGIS Enterprise",
       "summary": "Esri introduces new capabilities for ArcGIS Enterprise including enhanced security features and improved user experience.",
       "processed": true,
-      "manualStatus": "archived",
-      "manualReason": "historical_not_in_activity_sheet",
-      "manualNotes": "Historical item from existing JSON; hidden from pending because it was already processed before this review workflow.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z"
+      "manualStatus": "rejected",
+      "manualReason": "old_content",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-14T07:43:09.435Z",
+      "ignored": true,
+      "ignoreReason": "old_content"
     },
     {
       "title": "Episode 64 - Context is King",
@@ -457,8 +1334,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-13T06:31:29.004Z"
     },
     {
       "title": "Mailing Labels Custom Widget",
@@ -549,8 +1430,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante, Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante, Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-13T06:31:31.749Z"
     },
     {
       "title": "Swap or Replace a WebMap Layer in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
@@ -617,8 +1502,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-13T06:31:37.699Z"
     },
     {
       "title": "Setting the Content Status for a WebMap Item in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
@@ -1011,8 +1900,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-13T06:31:45.528Z"
     },
     {
       "title": "Raleigh Built 2800+ Apps with No Code",
@@ -1165,8 +2058,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri",
+      "reviewedAt": "2026-05-13T06:31:59.252Z"
     },
     {
       "title": "Python | #EsriDevTech2026 - YouTube",
@@ -1247,8 +2144,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri",
+      "reviewedAt": "2026-05-13T06:32:01.000Z"
     },
     {
       "title": "Renaming a WebMap Table in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python - YouTube",
@@ -1261,8 +2162,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante. No está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante. No está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-13T06:32:06.564Z"
     },
     {
       "title": "<b>ArcGIS</b> Developer (<b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> and Java, Spring Boot) | New York",
@@ -1423,8 +2328,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-13T06:32:29.236Z"
     },
     {
       "title": "📢 Upcoming Webinar: Strategies for Web Development",
@@ -1751,8 +2660,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante.",
+      "reviewedAt": "2026-05-13T06:32:43.680Z"
     },
     {
       "title": "Add Layers &amp; Tables to an <b>ArcGIS</b> Online WebMap with MapContent Options &amp; the ... - YouTube",
@@ -1765,8 +2678,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-13T06:32:46.971Z"
     },
     {
       "title": "Removing All Layers &amp; Tables from a WebMap in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
@@ -1779,8 +2696,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante. El contenido del video no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante. El contenido del video no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-13T06:32:53.686Z"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> Kotlin 300.x 完整使用指南 - 稀土掘金",
@@ -2177,8 +3098,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido obsoleto"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido obsoleto",
+      "reviewedAt": "2026-05-13T06:33:21.038Z"
     },
     {
       "title": "Revisiting the WebMap JSON Definition with added Layers and Tables | <b>ArcGIS API</b> for Python",
@@ -2467,8 +3392,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante",
+      "reviewedAt": "2026-05-14T06:32:21.074Z"
     },
     {
       "title": "\n        Delete enterprise-sdk/CDFSocrataSoda3Provider directory\n    ",
@@ -2731,8 +3660,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri, ya que el item no proporciona información sobre ningún producto o tecnología de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri, ya que el item no proporciona información sobre ningún producto o tecnología de Esri.",
+      "reviewedAt": "2026-05-13T06:33:30.775Z"
     },
     {
       "title": "Site Settings - <b>ArcGIS</b> Hub - YouTube",
@@ -3223,8 +4156,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:34:00.139Z"
     },
     {
       "title": "Saudi Arabia Launches COVID-19 Dashboard Using <b>Esri</b> Technology - BigDATAwire - HPCwire",
@@ -3267,8 +4204,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:30:01.982Z"
     },
     {
       "title": "<b>ArcGIS Javascript API</b> 3.x vs 4.x - YouTube",
@@ -4081,8 +5022,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:35:35.559Z"
     },
     {
       "title": "What’s New for the R-ArcGIS Bridge (Spring 2026)",
@@ -4439,8 +5384,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:36:14.230Z"
     },
     {
       "title": "Lake County, Illinois - Dataset - Catalog - Data.gov",
@@ -4693,8 +5642,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:36:23.087Z"
     },
     {
       "title": "AI Assistant Components - ArcGIS Maps SDK for JavaScript",
@@ -5053,8 +6006,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante. No está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante. No está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:30:10.326Z"
     },
     {
       "title": "8 Mapping Software Providers for Advanced Spatial Analysis - The Good Men Project",
@@ -5501,8 +6458,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:36:59.911Z"
     },
     {
       "title": "Creating a Cinematic Scene with ArcGIS Maps SDK for Unity",
@@ -6149,8 +7110,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:37:24.039Z"
     },
     {
       "title": "ArcGIS Maps SDK for JavaScript – Version 5.0 Release",
@@ -6343,8 +7308,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri",
+      "reviewedAt": "2026-05-14T06:37:34.222Z"
     },
     {
       "title": "Visualizing Flood Simulations: from ArcGIS Pro to the Web with Flow Rendering",
@@ -6389,8 +7358,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:37:39.127Z"
     },
     {
       "title": "Custom Software Engineer - Accenture | Built In Mumbai",
@@ -6587,8 +7560,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri",
+      "reviewedAt": "2026-05-14T06:40:44.547Z"
     },
     {
       "title": "What's Coming in ArcGIS Experience Builder (February 2026)",
@@ -7013,8 +7990,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:41:45.020Z"
     },
     {
       "title": "Mixing environments for working with python",
@@ -7109,8 +8090,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:43:30.553Z"
     },
     {
       "title": "Build your own Leaflet Map",
@@ -7123,8 +8108,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:44:21.056Z"
     },
     {
       "title": "3D Shadow Cast App",
@@ -7187,8 +8176,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:45:32.386Z"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -7373,8 +8366,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T06:46:25.250Z"
     },
     {
       "title": "Software Engineer - 3D <b>ArcGIS Maps SDK for</b> JavaScript @ Esri | AnitaB.org Job Board",
@@ -7531,8 +8528,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:52:37.706Z"
     },
     {
       "title": "Code Heatmaps with OpenAI Styling",
@@ -7903,8 +8904,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante.",
+      "reviewedAt": "2026-05-14T06:59:44.483Z"
     },
     {
       "title": "Delete Protection for a Feature Service Item in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python",
@@ -8499,8 +9504,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T07:01:46.397Z"
     },
     {
       "title": "Table Object JSON Properties with the <b>ArcGIS API</b> for Python - YouTube",
@@ -8513,8 +9522,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T07:02:34.558Z"
     },
     {
       "title": "CSS z-index Explained for Beginners 👩‍💻",
@@ -8907,8 +9920,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T07:03:55.432Z"
     },
     {
       "title": "Build a Smart Map Routing App",
@@ -9587,8 +10604,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS or Esri technologies."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS or Esri technologies.",
+      "reviewedAt": "2026-05-14T07:06:08.844Z"
     },
     {
       "title": "Feature Layer Collection Object with the <b>ArcGIS API</b> for Python - YouTube",
@@ -9955,8 +10976,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T07:07:13.846Z"
     },
     {
       "title": "<b>ArcGIS</b> Server REST <b>API</b> Login",
@@ -10381,8 +11406,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri",
+      "reviewedAt": "2026-05-14T07:08:22.677Z"
     },
     {
       "title": "Geospatial - Group - Open Data SA - City of San Antonio",
@@ -10479,8 +11508,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T07:14:06.336Z"
     },
     {
       "title": "Build a Map You Can Text With 💬",
@@ -10917,8 +11950,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido obsoleto"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido obsoleto",
+      "reviewedAt": "2026-05-14T07:17:44.066Z"
     },
     {
       "title": "Sr. Software Development Engineer - <b>JavaScript</b>/RDBMS @ <b>Esri</b> | FireUp Job Board",
@@ -10963,8 +12000,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": ": Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: : Contenido no relevante - Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T07:17:20.546Z"
     },
     {
       "title": "Building Future-Proof Custom Widgets for Experience Builder",
@@ -11765,8 +12806,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T07:19:11.100Z"
     },
     {
       "title": "App Development with Components Part 2: Using Frameworks",
@@ -12307,8 +13352,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T07:20:40.158Z"
     },
     {
       "title": "Sr. GIS Engineer - Global Community Engagement - Esri - Redlands, CA - Dice",
@@ -14846,7 +15895,11 @@
       "summary": "Esri Australia partners with GISA Corporation to expand ArcGIS Online adoption among Japanese businesses.",
       "processed": true,
       "ignored": true,
-      "ignoreReason": "Oferta de trabajo (backfill)"
+      "ignoreReason": "Not related with ArcGIS developer tehcnologies",
+      "manualStatus": "rejected",
+      "manualReason": "Not related with ArcGIS developer tehcnologies",
+      "manualNotes": "Correction for auto-ignored item: Oferta de trabajo (backfill)",
+      "reviewedAt": "2026-05-14T07:42:06.552Z"
     },
     {
       "title": "Job Application for Software Developer I - Maps <b>SDK</b> for <b>JavaScript</b> at <b>Esri</b> - Greenhouse",
@@ -16737,8 +17790,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri"
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri",
+      "reviewedAt": "2026-05-14T07:35:35.152Z"
     },
     {
       "title": "U.S. Fish &amp; Wildlife Service - Organizations - WIFIRE Commons Data Catalog",
@@ -18171,8 +19228,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante.",
+      "reviewedAt": "2026-05-14T07:38:23.492Z"
     },
     {
       "title": "ArcGIS Location Services: What’s New for Developers in June 2025?",
@@ -19223,8 +20284,12 @@
       "topicsProduct": "",
       "summary": "",
       "processed": true,
-      "ignored": true,
-      "ignoreReason": "- Contenido no relevante\nRazón: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri."
+      "ignored": false,
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "Correction for auto-ignored item: - Contenido no relevante\nRazón: Ignorar si el contenido no está relacionado con ArcGIS o tecnologías de Esri.",
+      "reviewedAt": "2026-05-14T07:39:50.678Z"
     },
     {
       "title": "Issues · <b>Esri</b>/calcite-design-system - GitHub",

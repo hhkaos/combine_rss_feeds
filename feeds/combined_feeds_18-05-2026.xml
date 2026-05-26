@@ -1,290 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (26-05-2026)]]></title>
+        <title><![CDATA[Combined ArcGIS Feeds (18-05-2026)]]></title>
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>https://developers.arcgis.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 May 2026 00:23:06 GMT</lastBuildDate>
-        <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/arcgis_esri_dev_feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 May 2026 00:23:06 GMT</pubDate>
+        <lastBuildDate>Mon, 18 May 2026 00:20:56 GMT</lastBuildDate>
+        <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/combined_feeds_18-05-2026.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 18 May 2026 00:20:56 GMT</pubDate>
         <language><![CDATA[en]]></language>
-        <item>
-            <title><![CDATA[
-        ライセンスページから不要な文言を削除
-    ]]></title>
-            <description><![CDATA[
-      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページから不要な文言を削除</pre>
-    ]]></description>
-            <link>https://github.com/EsriJapan/arcgis-dev-resources/commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc</link>
-            <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/1d1d5cc8225d4a642e9acc064980497e4ea330bc</guid>
-            <pubDate>Tue, 26 May 2026 00:12:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[
-        ライセンスページのリンクの修正、内容統一
-    ]]></title>
-            <description><![CDATA[
-      <pre style='white-space:pre-wrap;width:81ex'>ライセンスページのリンクの修正、内容統一</pre>
-    ]]></description>
-            <link>https://github.com/EsriJapan/arcgis-dev-resources/commit/f98e06436959f9933c3098313ebde924b2bb96b5</link>
-            <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/f98e06436959f9933c3098313ebde924b2bb96b5</guid>
-            <pubDate>Mon, 25 May 2026 09:52:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[
-        ライセンス関連記事を300.xに更新
-    ]]></title>
-            <description><![CDATA[
-      <pre style='white-space:pre-wrap;width:81ex'>ライセンス関連記事を300.xに更新</pre>
-    ]]></description>
-            <link>https://github.com/EsriJapan/arcgis-dev-resources/commit/ebf9ac152a1075d05e3595e5db2e34d26c67eba8</link>
-            <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/ebf9ac152a1075d05e3595e5db2e34d26c67eba8</guid>
-            <pubDate>Mon, 25 May 2026 09:16:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Arcgis Api For Javascript]]></title>
-            <description><![CDATA[Add 420af85b7b <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS Maps SDK for JavaScript | #EsriDevTech2026 24 minutes - Bjorn Svensson&nbsp;...]]></description>
-            <link>https://fusion.stats.gov.mv/doc_/230526/72960N9S04/arcgis_api__for_javascript.pdf</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5587965703879200996</guid>
-            <pubDate>Sun, 24 May 2026 23:47:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
-            <description><![CDATA[<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Trout Streams / Rivers. This is a reference dataset for the Virginia Water Quality Standards&nbsp;...]]></description>
-            <link>https://data.virginia.gov/dataset/?res_format=ZIP&amp;res_format=ArcGIS+GeoServices+REST+API</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:14438932864340083360</guid>
-            <pubDate>Sun, 24 May 2026 00:24:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Arcgis Api For Javascript]]></title>
-            <description><![CDATA[Creating view layers 46b698a8bd Feature Widget 46b698a8bd <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - ArcGIS ... <b>ArcGIS Maps SDK for</b> JavaScript:&nbsp;...]]></description>
-            <link>https://fusion.stats.gov.mv/course!/010655/4C6869N/arcgis__api__for-javascript.pdf</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:16636665434376276757</guid>
-            <pubDate>Sat, 23 May 2026 07:16:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcGIS Utility Network Associate: 2026 v 2024 Version Comparison]]></title>
-            <description><![CDATA[<P>Is the ArcGIS Utility Network Associate Certification Exam part of your certification journey? If so, this article presents the details related to the ArcGIS Utility Network Associate Certification Exam, its unique versions, and exam development opportunities.</P>]]></description>
-            <link>https://community.esri.com/t5/esri-technical-certification-exams/arcgis-utility-network-associate-2026-v-2024/ba-p/1655349</link>
-            <guid isPermaLink="false">https://community.esri.com/t5/esri-technical-certification-exams/arcgis-utility-network-associate-2026-v-2024/ba-p/1655349</guid>
-            <dc:creator><![CDATA[GillianGeorge]]></dc:creator>
-            <pubDate>Fri, 22 May 2026 22:16:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Episode 66 - Don’t Tell Claude Who to Be]]></title>
-            <description><![CDATA[Tell it what task it's doing and what scope it's working in. The "you are an expert" prompt is mostly cargo cult now; a list of NEVER statements is brittle.]]></description>
-            <link>https://christophermoravec.com/episode-66-dont-tell-claude-who-to-be/</link>
-            <guid isPermaLink="false">6a10a3f2fa04b9000186949e</guid>
-            <dc:creator><![CDATA[Christopher Moravec]]></dc:creator>
-            <pubDate>Fri, 22 May 2026 19:27:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcGIS Topographic Mapping at ArcGIS Pro 3.7 and ArcGIS Enterprise 12.1]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/arcgis-enterprise/announcements/arcgis-topographic-mapping-at-arcgis-pro-3-7-and-arcgis-enterprise-12-1</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2965581</guid>
-            <dc:creator><![CDATA[Josue]]></dc:creator>
-            <pubDate>Fri, 22 May 2026 17:00:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcGIS for Excel (2026 年 4 月アップデート) の新機能]]></title>
-            <description><![CDATA[<b>ArcGIS Maps SDK for</b> .NET, <b>ArcGIS Maps SDK for</b> JavaScript, <b>ArcGIS Maps SDK for</b> Kotlin, <b>ArcGIS Maps SDK for</b> Swift, <b>ArcGIS Maps SDK for</b> Unity, <b>ArcGIS</b>&nbsp;...]]></description>
-            <link>https://blog.esrij.com/archives/70324</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5488397357855847474</guid>
-            <pubDate>Fri, 22 May 2026 01:47:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Welcome to the Developer’s Lounge: Where Curiosity Meets Code]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/developers/announcements/welcome-to-the-developers-lounge-where-curiosity-meets-code</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2967207</guid>
-            <dc:creator><![CDATA[Elizabeth Ole]]></dc:creator>
-            <pubDate>Thu, 21 May 2026 22:50:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
-            <description><![CDATA[To view all records, please use the tabular version... 428 total views. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Crime&nbsp;...]]></description>
-            <link>https://data.virginia.gov/dataset/?_organization_limit=0&amp;res_format=ZIP&amp;sort=views_recent+desc&amp;organization=city-of-lynchburg-gis-portal</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5831793285965902697</guid>
-            <pubDate>Thu, 21 May 2026 22:00:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What’s new in ArcGIS Roads and Highways and ArcGIS Pipeline Referencing: May 2026]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/arcgis-pro/data-management/whats-new-arcgis-roads-highways-pipeline-referencing-may-2026</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2966325</guid>
-            <dc:creator><![CDATA[Kyle Chin]]></dc:creator>
-            <pubDate>Thu, 21 May 2026 16:20:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The GroupLayer object layers property with the <b>ArcGIS API</b> for Python - YouTube]]></title>
-            <description><![CDATA[The GroupLayer object layers property with the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online. 2 views · 18 hours ago. #<b>Esri</b> #GIS #ArcGISOnline ...more&nbsp;...]]></description>
-            <link>https://www.youtube.com/watch?v=ZAAoIeW_J20</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:13847324024273798970</guid>
-            <pubDate>Thu, 21 May 2026 02:28:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Web GIS Developer (<b>ArcGIS</b> / <b>JavaScript</b> / Python) with 0 - Foundit.in]]></title>
-            <description><![CDATA[Debug, test, and improve application performance. Qualifications. Strong experience in <b>JavaScript</b> (<b>ArcGIS</b> JS <b>API</b> / Leaflet / OpenLayers); Good&nbsp;...]]></description>
-            <link>https://www.foundit.in/job/web-gis-developer-arcgis-javascript-python-leighton-asia-mumbai-53306522</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:2470716095268548441</guid>
-            <pubDate>Wed, 20 May 2026 17:38:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing the GroupLayer object with the <b>ArcGIS API</b> for Python for a WebMap in ... - YouTube]]></title>
-            <description><![CDATA[... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Enable Feature Search in a WebMap in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python.]]></description>
-            <link>https://www.youtube.com/watch?v=3KAbmKE0VLM</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:13570392066787618307</guid>
-            <pubDate>Wed, 20 May 2026 09:12:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Setting a Group Layer name in an <b>ArcGIS</b> Online WebMap using the <b>ArcGIS API</b> for Python]]></title>
-            <description><![CDATA[... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. Setting a Group Layer name in an <b>ArcGIS</b> Online WebMap using the <b>ArcGIS API</b> for Python. 2 views · 19&nbsp;...]]></description>
-            <link>https://www.youtube.com/watch?v=pOtpa21CUZk</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:7018193347262858528</guid>
-            <pubDate>Wed, 20 May 2026 08:20:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Setting Layer Visibility with a WebMap Group Layer using the <b>ArcGIS API</b> for Python]]></title>
-            <description><![CDATA[... <b>Esri</b> #WebMap #GISAutomation #LearnArcGIS. ... Setting Layer Visibility with a WebMap Group Layer using the <b>ArcGIS API</b> for Python | <b>ArcGIS</b> Online.]]></description>
-            <link>https://www.youtube.com/watch?v=6Tu2z3VW4VQ</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:10825103830754369887</guid>
-            <pubDate>Wed, 20 May 2026 08:19:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services | #EsriDevTech2026]]></title>
-            <link>https://www.youtube.com/watch?v=0gekWZy8k3w</link>
-            <guid isPermaLink="false">yt:video:0gekWZy8k3w</guid>
-            <dc:creator><![CDATA[Esri Developers]]></dc:creator>
-            <pubDate>Wed, 20 May 2026 07:47:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[<b>ArcGIS Maps SDK for</b> Unity加载本地地形避坑指南：为什么你的tpkx文件地形不明显？ 原创]]></title>
-            <description><![CDATA[<b>ArcGIS Maps SDK for</b> Unity地形加载效果优化实战指南. 引言：为什么你的地形总是&quot;平平无奇&quot;？ 很多开发者在Unity中使用ArcGIS Maps SDK加载本地地形数据时，&nbsp;...]]></description>
-            <link>https://blog.csdn.net/weixin_28728715/article/details/161246860</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:7055660337131656950</guid>
-            <pubDate>Wed, 20 May 2026 06:47:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What’s New in ArcGIS Geocoding for ArcGIS Pro 3.7]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/arcgis-pro/announcements/whats-new-in-arcgis-geocoding-arcgis-pro-3-7-release</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2966486</guid>
-            <dc:creator><![CDATA[Robert Jensen]]></dc:creator>
-            <pubDate>Wed, 20 May 2026 00:51:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What's new in ArcGIS tutorials April 2026]]></title>
-            <description><![CDATA[<DIV class=""><STRONG>New Esri tutorials</STRONG></DIV><DIV class="">&nbsp;</DIV><DIV class="">Esri tutorials are step-by-step workflows that use real-world scenarios to&nbsp;introduce key ArcGIS tools, products and modern best practices.&nbsp;</DIV><DIV class=""><STRONG>Check out the newest additions to the gallery—just released last month!</STRONG></DIV><DIV class="">&nbsp;</DIV><DIV class=""><H5><STRONG><A title="Set up a flood simulation" href="https://learn.arcgis.com/en/projects/set-up-a-flood-simulation/" target="_blank" rel="nofollow noopener noreferrer">Set up a flood simulation</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152655i2321BE71D1A3BE8C/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P>In 2024, the United States experienced 27 weather- and climate-related events that resulted in damage of more than $1 billion each to affected communities and their infrastructure. Severe rainfall and flooding events make up a significant portion of these costs, with Hurricane Helene alone causing $79.6 billion in damage to the southeastern United States. Understanding and preparing for flooding caused by these extreme weather events has become a critical need for communities.</P><P>In this two-part<SPAN>&nbsp;</SPAN><A href="https://learn.arcgis.com/en/paths/simulate-a-flood-in-arcgis-pro/" target="_blank" rel="noopener">tutorial series</A>, you'll use<SPAN>&nbsp;</SPAN><SPAN class="">ArcGIS Pro</SPAN><SPAN>&nbsp;</SPAN>to perform a sophisticated flood simulation for a hypothetical high rainfall event in Houston, Texas. By analyzing the results alongside structure and road data, it's possible to predict how infrastructure might be impacted by such an event.</P><P>In this tutorial, the first in the series, you'll prepare the data necessary to perform the simulation. In particular, you'll use land cover and impervious surface data to create a water infiltration raster layer that shows how quickly water enters the soil, with areas of low infiltration being more susceptible to flooding. In the<SPAN>&nbsp;</SPAN><A href="https://learn.arcgis.com/en/projects/simulate-a-flood/" target="_blank" rel="noopener">second tutorial</A>, you'll use the data you prepared to simulate flooding and analyze potential impacts to infrastructure.</P><P>&nbsp;</P></DIV><DIV class=""><H5><STRONG><A title="Simulate a flood" href="https://learn.arcgis.com/en/projects/simulate-a-flood/" target="_blank" rel="nofollow noopener noreferrer">Simulate a flood</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152656i64040E4EC1047B3B/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P>In this tutorial, the second in the series, you'll use the prepared data to perform the simulation. Then, you'll export the results as a flood depth raster, which you'll compare to buildings and roads data to determine how much infrastructure might be impacted by the flood event. You'll also configure flood depth charts to quickly view the impacts at different flood levels.</P><P>&nbsp;</P><P>&nbsp;</P></DIV><DIV class=""><H5><STRONG><A title="Calculate a field in Map Viewer" href="https://learn.arcgis.com/en/projects/calculate-a-field-in-map-viewer/" target="_blank" rel="nofollow noopener noreferrer">Calculate a field in Map Viewer</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152657iE4EA38D0EB8E878B/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P><SPAN>You've received sales data from a colleague for your company's store locations. You must identify any regional or spatial patterns in the data that might explain how stores are performing. After mapping the data, you notice that the dataset is missing a key metric—net operating income (NOI)—that you'll need to calculate. There are several options for calculating data in&nbsp;</SPAN><SPAN class="">Map Viewer</SPAN><SPAN>. In this tutorial, you'll decide on the best method for your goals and calculate a new field in&nbsp;</SPAN><SPAN class="">Map Viewer</SPAN><SPAN>&nbsp;to better understand regional performance patterns.</SPAN></P><P>&nbsp;</P></DIV><DIV class=""><H5><STRONG><A title="Clip raster data" href="https://learn.arcgis.com/en/projects/clip-raster-data/" target="_blank" rel="nofollow noopener noreferrer">Clip raster data</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152658i301EEAA67E1C3078/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P><SPAN>You have a raster image of a historical paper map of Hallstatt, Austria, that you want to use as a background layer in&nbsp;</SPAN><SPAN class="">ArcGIS Pro</SPAN><SPAN>. However, the image is much larger than your area of interest. The unneeded parts of the image take up storage space and increase the image processing time. In this tutorial, you'll make a copy of the raster image that is clipped to the area of interest. Because you have other raster datasets you want to clip for the same reason, you'll perform batch processing to clip all of them at once. Lastly, you'll package the results as a project package so they can all be shared as one file.</SPAN></P><P>&nbsp;</P><DIV class=""><H5><STRONG><A title="Combine raster data into a mosaic" href="https://learn.arcgis.com/en/projects/combine-raster-data-into-a-mosaic/" target="_blank" rel="nofollow noopener noreferrer">Combine raster data into a mosaic</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152659iA5FF1C60628EB627/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P><SPAN>To properly visualize and analyze raster data, it's sometimes necessary to merge multiple raster datasets into one. A mosaic is a combination of two or more images. In this tutorial, you have two elevation datasets for the area of Hallstatt, Austria. You want to compare these datasets to another layer and use them for analysis. Rather than compare and analyze each dataset individually, you'll create a mosaic that combines them.</SPAN></P><P>&nbsp;</P></DIV><DIV class=""><H5><STRONG><A title="Create a 3D subsurface visualization of aquifers" href="https://learn.arcgis.com/en/projects/create-a-3d-subsurface-visualization-of-aquifers/" target="_blank" rel="nofollow noopener noreferrer">Create a 3D subsurface visualization of aquifers</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152660i350A7BC6019975A5/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P>Kent and Sussex counties in Delaware depend on groundwater for household consumption, agriculture, and industry. To effectively use and manage this critical natural resource, it is important to understand the geographic extent and thickness of the aquifers. Geologists used borehole records to identify the depth to, and thickness of, 12 confined aquifers throughout the counties.</P><P>In this tutorial, you'll create a public visualization of the aquifers. You'll create 3D models in<SPAN>&nbsp;</SPAN><SPAN class="">ArcGIS Pro</SPAN><SPAN>&nbsp;</SPAN>and publish them in<SPAN>&nbsp;</SPAN><SPAN class="">ArcGIS Online</SPAN><SPAN>&nbsp;</SPAN>to view in<SPAN>&nbsp;</SPAN><SPAN class="">Scene Viewer</SPAN>.</P></DIV><DIV class=""><H5><STRONG><A title="Get started with ArcGIS Data Pipelines" href="https://learn.arcgis.com/en/projects/get-started-with-arcgis-data-pipelines/arcgis-enterprise/" target="_blank" rel="nofollow noopener noreferrer">Get started with ArcGIS Data Pipelines</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152661i866E8D714CB20D18/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P>The New York City Department of Parks and Recreation (DPR) maintains a database of capital improvement projects as a<SPAN>&nbsp;</SPAN><SPAN class="">.csv</SPAN><SPAN>&nbsp;</SPAN>table. However, other departments within the city would like to know additional information about each capital project, such as the age of each project from its initial design or which neighborhood contains each capital project.</P><P>In the past, adding more information to this list of park projects has been a time-consuming, manual process. Specifically, it entails the following:</P><UL><LI>Querying projects that are in the construction phase</LI><LI>Projecting data to an appropriate coordinate system for New York City</LI><LI>Calculating the amount of time that has passed since the project was initially designed</LI><LI>Determining which neighborhood tabulation area the project falls within</LI><LI>Determining which community district each project falls within</LI><LI>Removing numerous attributes that are not necessary for the stakeholders</LI><LI>Renaming three attribute fields whose current names are vague and unintuitive</LI></UL><P>To automate this workflow and keep your data up to date, you'll use<SPAN>&nbsp;</SPAN><SPAN class="">ArcGIS Data Pipelines</SPAN><SPAN>&nbsp;</SPAN>to extract information from the New York City OpenData website, load it into<SPAN>&nbsp;</SPAN><SPAN class="">ArcGIS Enterprise</SPAN>, and transform it by adding the requested attributes. Finally, you'll have this data pipeline run on a schedule to keep your list of capital projects current.</P><P>&nbsp;</P></DIV><DIV class=""><H5><STRONG><A title="Inspect and visualize imagery" href="https://learn.arcgis.com/en/projects/inspect-and-visualize-imagery/" target="_blank" rel="nofollow noopener noreferrer">Inspect and visualize imagery</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152662iAB141D4E52A42603/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P><SPAN>Imagery is an important type of data used in most remote sensing-based workflows. Imagery can be any optical satellite or aerial image. You can use it as a backdrop for other layers or analyze it to extract information beyond what the eye can see. In this introductory tutorial, you'll learn how to understand and display imagery in&nbsp;</SPAN><SPAN class="">ArcGIS Pro</SPAN><SPAN>. First, you'll inspect the properties of an imagery dataset to learn more about its cell size, pixel characteristics, and spectral bands. Then, you'll change the image's appearance to make it smoother and more vivid. Lastly, you'll change the band combination to better distinguish vegetation in the image. The skills you'll learn in this tutorial can be applied to nearly any imagery workflow in&nbsp;</SPAN><SPAN class="">ArcGIS Pro</SPAN><SPAN>.</SPAN></P><P>&nbsp;</P></DIV><DIV class=""><H5><STRONG><A title="Solve common projection issues" href="https://learn.arcgis.com/en/projects/solve-common-projection-issues/" target="_blank" rel="nofollow noopener noreferrer">Solve common projection issues</A>&nbsp;</STRONG></H5><P><span class="lia-inline-image-display-wrapper lia-image-align-right" image-alt="image.png" style="width: 200px;"><img src="https://community.esri.com/t5/image/serverpage/image-id/152663i0C4386B9F624EFB0/image-size/small?v=v2&amp;px=200" role="button" title="image.png" alt="image.png" /></span></P><P>Projections are calculations that allow you to draw the round earth on a flat screen or piece of paper. To function in a GIS, every layer needs to be defined within a coordinate system, which allows it to be projected onto the map. Issues with the projection can cause data to not appear correctly or at all.</P><P>In this tutorial, you'll identify and fix the following three common projection issues:</P><UL><LI>A layer with no defined projection, causing it to appear in the wrong place</LI><LI>A layer with a projection that is different than the one used in the project</LI><LI>A layer that is misaligned with the other map layers</LI></UL><P>You'll primarily work with raster data, although the issues and their solutions also apply to other types of data, such as feature classes. To learn how to resolve projection issues for a feature class, try the<SPAN>&nbsp;</SPAN><A href="https://learn.arcgis.com/en/projects/fix-data-when-it-appears-in-the-wrong-place/" target="_blank" rel="noopener">Fix data when it appears in the wrong place</A><SPAN>&nbsp;</SPAN>tutorial.</P><P>&nbsp;</P></DIV></DIV>]]></description>
-            <link>https://community.esri.com/t5/esri-tutorials-blog/what-s-new-in-arcgis-tutorials-april-2026/ba-p/1702863</link>
-            <guid isPermaLink="false">https://community.esri.com/t5/esri-tutorials-blog/what-s-new-in-arcgis-tutorials-april-2026/ba-p/1702863</guid>
-            <dc:creator><![CDATA[SilpaGadi]]></dc:creator>
-            <pubDate>Tue, 19 May 2026 21:41:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[# Optimizing Feature Layer Queries in <b>ArcGIS</b> Pro <b>SDK</b> - DEV Community]]></title>
-            <description><![CDATA[While working with large enterprise GIS datasets in <b>ArcGIS</b> Pro <b>SDK</b>, one issue I frequently ... This guide contains an overview of improvements, <b>API</b>&nbsp;...]]></description>
-            <link>https://dev.to/vivek_shukla_4b01a254d1ac/-optimizing-feature-layer-queries-in-arcgis-pro-sdk-1mjp</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:4174891906282500320</guid>
-            <pubDate>Tue, 19 May 2026 21:04:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[
-        Update README.md
-    ]]></title>
-            <description><![CDATA[
-      <pre style='white-space:pre-wrap;width:81ex'>Update README.md
-
-give context for JSON</pre>
-    ]]></description>
-            <link>https://github.com/Esri/arcpy/commit/743aef472d21c041647208e8499b3867cf52c969</link>
-            <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/743aef472d21c041647208e8499b3867cf52c969</guid>
-            <dc:creator><![CDATA[scw]]></dc:creator>
-            <pubDate>Tue, 19 May 2026 19:47:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
-            <description><![CDATA[193 datasets found. Organizations: Arlington County - GIS Portal Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> HTML. Filter Results&nbsp;...]]></description>
-            <link>https://data.virginia.gov/dataset/?organization=arlington-gis-portal&amp;res_format=HTML&amp;res_format=ArcGIS+GeoServices+REST+API</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:5222382779344423129</guid>
-            <pubDate>Tue, 19 May 2026 19:37:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcGIS Pro Layout Redesign volume 2]]></title>
-            <description><![CDATA[We geographers can dig pretty deep in the weeds of data collection and analysis, reveling in the fun of precision, process, statistics, even visualization. But when it comes to crafting the geographic message in the form of a map layout, sometimes we can feel a little overwhelmed. Out of place? I know I’ve been there. &#8230;]]></description>
-            <link>https://adventuresinmapping.com/2026/05/19/arcgis-pro-layout-redesign-volume-2/</link>
-            <guid isPermaLink="false">https://adventuresinmapping.com/?p=8417</guid>
-            <dc:creator><![CDATA[John]]></dc:creator>
-            <pubDate>Tue, 19 May 2026 19:02:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SceneView Improvements in ArcGIS Maps SDKs for Native Apps 300.0]]></title>
-            <description><![CDATA[<P>Pack your bags—we're going on a tour!&nbsp;&nbsp;<STRONG>In this recent developer's blog post&nbsp;</STRONG><SPAN>(</SPAN><A href="https://www.esri.com/arcgis-blog/products/developers/3d-gis/sceneview-improvements-in-native-maps-sdk-300-0" rel="nofollow noreferrer">find it here on the ArcGIS Blog</A><SPAN>), you'll see eye-catching scenes while learning about new capabilities, speed improvements, and simplified workflows introduced in Native Maps SDKs 300.0.</SPAN></P><P>&nbsp;</P>]]></description>
-            <link>https://community.esri.com/t5/arcgis-maps-sdks-native-blog/sceneview-improvements-in-arcgis-maps-sdks-for/ba-p/1702670</link>
-            <guid isPermaLink="false">https://community.esri.com/t5/arcgis-maps-sdks-native-blog/sceneview-improvements-in-arcgis-maps-sdks-for/ba-p/1702670</guid>
-            <dc:creator><![CDATA[Mara]]></dc:creator>
-            <pubDate>Tue, 19 May 2026 16:13:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[<b>ArcGIS</b> Layer Rename Tutorial Review - YouTube]]></title>
-            <description><![CDATA[... <b>ArcGIS</b> rename layer arcpy management, arcpy.Rename_management layer, <b>ArcGIS</b> Pro rename layer Python toolbox, rename layer using <b>ArcGIS</b> REST <b>API</b>,&nbsp;...]]></description>
-            <link>https://www.youtube.com/watch?v=XS4iB94x4EE</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:11724911067456243386</guid>
-            <pubDate>Tue, 19 May 2026 14:57:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Editor’s Corner — True Curve Drawing Tools in ArcGIS Online]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/web-editor/data-management/editors-corner-true-curve-tools</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2966088</guid>
-            <dc:creator><![CDATA[Emily Garding]]></dc:creator>
-            <pubDate>Tue, 19 May 2026 12:02:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
-            <description><![CDATA[149 datasets found. Organizations: Fairfax County Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> GeoJSON. Filter Results&nbsp;...]]></description>
-            <link>https://data.virginia.gov/dataset/?organization=fairfax-county&amp;res_format=ArcGIS+GeoServices+REST+API&amp;res_format=GeoJSON&amp;sort=views_recent+desc</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:16576420264250200192</guid>
-            <pubDate>Tue, 19 May 2026 07:12:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The Expanding Impact of Local Road Data Corrections: From GIS Teams to Entire Communities]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/accurate-local-road-data-is-far-more-than-a-technical-gis-responsibility-it-is-a-foundational-component-of-modern-public-infrastructure-emergency-response-utility-coordination-and-everyda</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2965529</guid>
-            <dc:creator><![CDATA[Shane Matthews]]></dc:creator>
-            <pubDate>Mon, 18 May 2026 20:14:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
-            <description><![CDATA[<b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; TXT &middot; XLSX &middot; GPKG &middot; GDB &middot; Hanover Parcels. This dataset has no description. 243 total views.]]></description>
-            <link>https://data.virginia.gov/dataset/?organization=hanover-county&amp;res_format=KML&amp;res_format=TXT&amp;res_format=ZIP</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:10089318597436661402</guid>
-            <pubDate>Mon, 18 May 2026 19:12:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Deprecation notice: Branch Version Management widget in ArcGIS Experience Builder]]></title>
-            <link>https://www.esri.com/arcgis-blog/products/experience-builder/announcements/deprecation-notice-branch-version-management-widget-in-arcgis-experience-builder</link>
-            <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2966275</guid>
-            <dc:creator><![CDATA[Alix Vézina]]></dc:creator>
-            <pubDate>Mon, 18 May 2026 19:00:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What's changed for curves in ArcGIS Maps SDKs for Native Apps 300.0]]></title>
-            <description><![CDATA[<P><STRONG><A href="https://www.esri.com/arcgis-blog/products/sdk-net/developers/whats-changed-for-curves-in-arcgis-maps-sdks-for-native-apps-300-0" target="_self">This new ArcGIS Blog post</A></STRONG> provides a concise overview of what's new in curves, including the ability to edit true curves with GeometryEditor and use SupportedCurveTypes to ensure edits are appropriate to the service type. The blog also takes a deeper dive into new behaviors designed to expand support for true curves, such as the new default setting for ServiceCurveGeometryMode, which causes your app to behave as a true curve client.</P>]]></description>
-            <link>https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-changed-for-curves-in-arcgis-maps-sdks-for/ba-p/1702438</link>
-            <guid isPermaLink="false">https://community.esri.com/t5/arcgis-maps-sdks-native-blog/what-s-changed-for-curves-in-arcgis-maps-sdks-for/ba-p/1702438</guid>
-            <dc:creator><![CDATA[Mara]]></dc:creator>
-            <pubDate>Mon, 18 May 2026 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Explorer for ArcGIS Beta | Windows 应用- Crx搜搜]]></title>
-            <description><![CDATA[更多来自该开发者(10) ; ArcGIS Earth ; <b>ArcGIS Maps SDK for</b> .NET Samples (WPF).]]></description>
-            <link>https://www.crxsoso.com/store/detail/9p47gjtlm9nt</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:9809724030491902656</guid>
-            <pubDate>Mon, 18 May 2026 07:36:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
-            <description><![CDATA[149 datasets found. Organizations: Fairfax County Formats: <b>ArcGIS</b> GeoServices REST <b>API</b>. Filter Results. Easements.]]></description>
-            <link>https://data.virginia.gov/dataset/?organization=fairfax-county&amp;res_format=ArcGIS+GeoServices+REST+API</link>
-            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:948476554351051091</guid>
-            <pubDate>Sun, 17 May 2026 22:41:45 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
             <description><![CDATA[324 datasets found. Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> GDB. Filter Results. Police Offense Reports. This dataset&nbsp;...]]></description>
@@ -2691,7 +2414,7 @@ Extended CDF Socrata pass through sample to use Soda 3 rest endpoint</pre>
         </item>
         <item>
             <title><![CDATA[AI + ArcGIS Maps SDK for JavaScript - Spinning Up an Emergency Field App in Minutes]]></title>
-            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to working field app.</P><P><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r703" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r703');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
+            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to working field app.</P><P><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r563" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r563');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
             <link>https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1691352</link>
             <guid isPermaLink="false">https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1691352</guid>
             <dc:creator><![CDATA[MatthewDriscoll]]></dc:creator>
@@ -2775,7 +2498,7 @@ Extended CDF Socrata pass through sample to use Soda 3 rest endpoint</pre>
         </item>
         <item>
             <title><![CDATA[AI + ArcGIS Maps SDK for Javascript -Spinning Up an Emergency Field App in Minutes]]></title>
-            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to a working field app.</P><P class=""><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r614" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r614');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
+            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to a working field app.</P><P class=""><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r121" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r121');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
             <link>https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1690683</link>
             <guid isPermaLink="false">https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1690683</guid>
             <dc:creator><![CDATA[MatthewDriscoll]]></dc:creator>
@@ -11419,6 +11142,13 @@ Created Extent Helper Tool</pre>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2809082</guid>
             <dc:creator><![CDATA[Martino Yovo]]></dc:creator>
             <pubDate>Tue, 10 Jun 2025 14:30:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...]]></title>
+            <description><![CDATA[Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...]]></description>
+            <link>https://x.com/EsriDevs/status/1932226258546430291</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:15857777943308089375</guid>
+            <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>
