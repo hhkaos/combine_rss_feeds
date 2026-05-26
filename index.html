@@ -46,6 +46,46 @@
           }
         }
 
+        async function loadFeedStatus() {
+          try {
+            const response = await fetch(`feeds/feed_status.json?ts=${Date.now()}`, { cache: 'no-store' });
+            if (!response.ok) return null;
+            return response.json();
+          } catch (error) {
+            console.info('No feed_status.json file available yet.');
+            return null;
+          }
+        }
+
+        function renderFeedStatusAlert(status) {
+          const alert = document.querySelector('#feedStatusAlert');
+          if (!alert || !status) return;
+
+          const failedSources = (status.sources || []).filter(source => source.status !== 'ok');
+          if (!failedSources.length) {
+            alert.classList.add('hidden');
+            alert.innerHTML = '';
+            return;
+          }
+
+          const failureItems = failedSources.slice(0, 8).map(source => {
+            const firstError = source.errors?.[0];
+            const message = firstError?.message || 'Unknown error';
+            return `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.url)}</a><span>${escapeHtml(message)}</span></li>`;
+          }).join('');
+          const extraCount = failedSources.length > 8 ? failedSources.length - 8 : 0;
+          const updatedAt = status.lastUpdated ? formatDateTime(status.lastUpdated) : 'unknown time';
+
+          alert.classList.remove('hidden');
+          alert.innerHTML = `
+            <div>
+              <strong>${failedSources.length} curated feed${failedSources.length === 1 ? '' : 's'} failed</strong>
+              <span>Last check: ${escapeHtml(updatedAt)}. Review <a href="https://github.com/hhkaos/combine_rss_feeds/blob/main/src/index.js#L14" target="_blank" rel="noreferrer">src/index.js</a>, then run the GitHub Action manually after a fix.</span>
+            </div>
+            <ul>${failureItems}${extraCount ? `<li><span>${extraCount} more failure${extraCount === 1 ? '' : 's'} in feeds/feed_status.json</span></li>` : ''}</ul>
+          `;
+        }
+
         function parseCsvLine(line) {
           const values = [];
           let value = '';
@@ -129,7 +169,8 @@
         // Initialize the application
         async function initializeApp() {
           try {
-            const items = await loadFeed();
+            const [items, feedStatus] = await Promise.all([loadFeed(), loadFeedStatus()]);
+            renderFeedStatusAlert(feedStatus);
             const autoIgnoredCsvItems = await loadAutoIgnoredCsvItems();
             feedItems = mergeAutoIgnoredItems(items, autoIgnoredCsvItems);
             indexFeedItems();
@@ -969,6 +1010,40 @@
         margin: 0 0 8px;
         text-align: right;
       }
+      .feed-status-alert{
+        background: var(--danger-soft);
+        border: 1px solid #efa7aa;
+        border-left: 5px solid var(--danger);
+        border-radius: 12px;
+        color: var(--text);
+        display: grid;
+        gap: 0.65rem;
+        margin: 0 0 18px;
+        padding: 0.85rem 1rem;
+      }
+      .feed-status-alert strong{
+        color: var(--danger);
+        display: block;
+        font-size: 1rem;
+      }
+      .feed-status-alert span{
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .feed-status-alert ul{
+        display: grid;
+        gap: 0.4rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .feed-status-alert li{
+        display: grid;
+        gap: 0.1rem;
+      }
+      .feed-status-alert a{
+        overflow-wrap: anywhere;
+      }
       .review-controls{
         display: grid;
         gap: 0.5rem;
@@ -1271,6 +1346,8 @@
       </p>
     </div>
 
+    <section id="feedStatusAlert" class="feed-status-alert hidden" aria-live="polite"></section>
+
     <div id="reviewTabs" class="review-tabs" role="tablist" aria-label="Review status">
       <button type="button" data-review-tab="pending" class="active-tab" role="tab" aria-selected="true">Pending <span data-review-count="pending">0</span></button>
       <button type="button" data-review-tab="accepted" role="tab" aria-selected="false">Added <span data-review-count="accepted">0</span></button>
@@ -1387,6 +1464,19 @@
 
       // Return formatted string as "DD Month YYYY"
       return `${month} ${day} ${year}`;
+    }
+
+    function formatDateTime(dateString) {
+      const date = new Date(dateString);
+      if (isNaN(date)) return dateString;
+
+      return date.toLocaleString('default', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
     }
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.js" integrity="sha512-f26fxKZJiF0AjutUaQHNJ5KnXSisqyUQ3oyfaoen2apB1wLa5ccW3lmtaRe2jdP5kh4LF2gAHP9xQbx7wYhU5w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Ejecutar diariamente a las 00:00 UTC
   workflow_dispatch:  # Permitir ejecución manual
+    inputs:
+      reason:
+        description: 'Why are you running the feed update manually?'
+        required: false
+        default: 'Retry feed update'
 
 jobs:
   update:
@@ -24,6 +29,7 @@ jobs:
         run: node src/index.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MANUAL_RUN_REASON: ${{ github.event.inputs.reason }}
 
       - name: Commit and push changes
         run: |

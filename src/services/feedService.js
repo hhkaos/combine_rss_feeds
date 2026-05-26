@@ -323,6 +323,7 @@ Descripción: ${cleanDesc}`;
     const parser = new Parser();
     let allItems = [];
     const seenUrls = new Set();
+    const sourceReports = [];
     this.ignoredUrls = new Set();
     this.ignoredItems = [];
 
@@ -340,15 +341,33 @@ Descripción: ${cleanDesc}`;
     for (const feedSource of feedUrls) {
       const source = this.resolveFeedSource(feedSource);
       const url = source.url;
+      const sourceReport = {
+        url,
+        label: source.label || '',
+        relevanceMode: source.relevanceMode,
+        status: 'ok',
+        itemCount: 0,
+        processedItems: 0,
+        errors: []
+      };
+      sourceReports.push(sourceReport);
+
       try {
         console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url} (relevance: ${source.relevanceMode})${colors.reset}`);
         const feed = await parser.parseURL(url);
-        console.log(`${colors.green}Feed ${url}: ${feed.items.length} items${colors.reset}`);
         
         if (!feed.items || !Array.isArray(feed.items)) {
           console.warn(`${colors.yellow}Feed ${url} no tiene items o no es un array${colors.reset}`);
+          sourceReport.status = 'failed';
+          sourceReport.errors.push({
+            stage: 'read_feed',
+            message: 'Feed without a valid items array'
+          });
           continue;
         }
+
+        sourceReport.itemCount = feed.items.length;
+        console.log(`${colors.green}Feed ${url}: ${feed.items.length} items${colors.reset}`);
 
         let processedItems = 0;
         for (const item of feed.items) {
@@ -416,12 +435,24 @@ Descripción: ${cleanDesc}`;
             }
           } catch (itemErr) {
             console.error(`${colors.red}Error procesando item en feed ${url}: ${itemErr.message}${colors.reset}`);
+            sourceReport.status = 'partial';
+            sourceReport.errors.push({
+              stage: 'process_item',
+              message: itemErr.message,
+              itemTitle: item.title || ''
+            });
             continue;
           }
         }
+        sourceReport.processedItems = processedItems;
         console.log(`${colors.green}Feed ${url} completado. Items procesados: ${processedItems}${colors.reset}`);
       } catch (err) {
         console.error(`${colors.red}Error parsing feed ${url}: ${err.message}${colors.reset}`);
+        sourceReport.status = 'failed';
+        sourceReport.errors.push({
+          stage: 'parse_feed',
+          message: err.message
+        });
         continue;
       }
     }
@@ -531,7 +562,7 @@ Descripción: ${cleanDesc}`;
     fs.writeFileSync(outputPath, xml, 'utf8');
     console.log(`Feed combinado escrito en ${outputPath}`);
 
-    return { items: combinedItems, ignoredItems: this.ignoredItems };
+    return { items: combinedItems, ignoredItems: this.ignoredItems, sourceReports };
   }
 
   addIgnoredItem(url, reason, title, date) {

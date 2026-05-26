@@ -4,6 +4,62 @@ const { getDateString } = require('./utils/fileUtils');
 const { loadConfig } = require('./services/configService');
 const FeedService = require('./services/feedService');
 
+function buildFeedStatus(sourceReports, monitoredUrls) {
+  const monitoredUrlSet = new Set(monitoredUrls);
+  const reportsByUrl = new Map();
+
+  sourceReports.forEach(report => {
+    if (!monitoredUrlSet.has(report.url)) return;
+
+    const existing = reportsByUrl.get(report.url);
+    if (!existing) {
+      reportsByUrl.set(report.url, { ...report, errors: [...(report.errors || [])] });
+      return;
+    }
+
+    const statusPriority = { failed: 3, partial: 2, ok: 1 };
+    if ((statusPriority[report.status] || 0) > (statusPriority[existing.status] || 0)) {
+      existing.status = report.status;
+    }
+    existing.itemCount = Math.max(existing.itemCount || 0, report.itemCount || 0);
+    existing.processedItems = Math.max(existing.processedItems || 0, report.processedItems || 0);
+    existing.errors.push(...(report.errors || []));
+  });
+
+  monitoredUrls.forEach(url => {
+    if (!reportsByUrl.has(url)) {
+      reportsByUrl.set(url, {
+        url,
+        status: 'failed',
+        itemCount: 0,
+        processedItems: 0,
+        errors: [{
+          stage: 'monitoring',
+          message: 'Feed was not checked during this run'
+        }]
+      });
+    }
+  });
+
+  const sources = Array.from(reportsByUrl.values());
+  const failedSources = sources.filter(source => source.status !== 'ok');
+
+  return {
+    lastUpdated: new Date().toISOString(),
+    totalSources: sources.length,
+    failedSources: failedSources.length,
+    ok: failedSources.length === 0,
+    sources
+  };
+}
+
+function writeFeedStatus(status) {
+  const statusPath = path.join(__dirname, '../feeds', 'feed_status.json');
+  fs.mkdirSync(path.dirname(statusPath), { recursive: true });
+  fs.writeFileSync(statusPath, JSON.stringify(status, null, 2), 'utf8');
+  console.log(`Estado de feeds generado en ${statusPath}`);
+}
+
 async function main() {
   const dateStr = getDateString();
 
@@ -130,7 +186,7 @@ async function main() {
     ...withRelevanceMode(curatedUrls, 'trusted', sourceRelevanceOverrides),
     ...withRelevanceMode(googleAlertUrls, 'strict')
   ];
-  const { items: allItems, ignoredItems } = await feedService.combineFeeds(allUrls, {
+  const { items: allItems, ignoredItems, sourceReports: allSourceReports } = await feedService.combineFeeds(allUrls, {
     title: `Combined ArcGIS Feeds (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, '../feeds', `combined_feeds_${dateStr}.xml`),
@@ -139,7 +195,7 @@ async function main() {
   });
 
   // Mantener el feed principal de ArcGIS ESRI Dev
-  const { items: arcgisDevItems } = await feedService.combineFeeds(allUrls, {
+  const { items: arcgisDevItems, sourceReports: arcgisDevSourceReports } = await feedService.combineFeeds(allUrls, {
     title: `ArcGIS ESRI Dev Feed (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
     outputPath: path.join(__dirname, '../feeds', 'arcgis_esri_dev_feed.xml'),
@@ -147,6 +203,11 @@ async function main() {
     filterLastHours: 48,
     processWithOpenAI: true
   });
+
+  writeFeedStatus(buildFeedStatus([
+    ...(allSourceReports || []),
+    ...(arcgisDevSourceReports || [])
+  ], curatedUrls));
 
   // Guardar noticias ignoradas en CSV
   if (ignoredItems.length > 0) {
