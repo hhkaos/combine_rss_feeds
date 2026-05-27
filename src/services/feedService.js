@@ -19,6 +19,15 @@ const colors = {
   white: '\x1b[37m'
 };
 
+const FEED_FETCH_DEFAULTS = {
+  timeoutMs: 20000,
+  maxAttempts: 3,
+  youtubeMaxAttempts: 5,
+  baseRetryDelayMs: 1500,
+  youtubeBaseRetryDelayMs: 5000,
+  youtubeInterRequestDelayMs: 2000
+};
+
 class FeedService {
   constructor(config) {
     this.parser = new Parser();
@@ -92,6 +101,125 @@ class FeedService {
       relevanceMode: feedSource.relevanceMode || 'balanced',
       label: feedSource.label || ''
     };
+  }
+
+  sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  isYouTubeFeedUrl(url) {
+    try {
+      const { hostname, pathname } = new URL(url);
+      const host = hostname.toLowerCase();
+      return (
+        (host === 'youtube.com' || host.endsWith('.youtube.com')) &&
+        pathname === '/feeds/videos.xml'
+      );
+    } catch (err) {
+      return false;
+    }
+  }
+
+  getRetryDelayMs(attempt, isYouTubeFeed, retryAfterHeader) {
+    if (retryAfterHeader) {
+      const retryAfterSeconds = Number(retryAfterHeader);
+      if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0) {
+        return Math.min(retryAfterSeconds * 1000, 60000);
+      }
+
+      const retryAfterDate = new Date(retryAfterHeader);
+      if (!Number.isNaN(retryAfterDate.getTime())) {
+        return Math.min(Math.max(retryAfterDate.getTime() - Date.now(), 0), 60000);
+      }
+    }
+
+    const baseDelay = isYouTubeFeed
+      ? FEED_FETCH_DEFAULTS.youtubeBaseRetryDelayMs
+      : FEED_FETCH_DEFAULTS.baseRetryDelayMs;
+    const exponentialDelay = baseDelay * (2 ** (attempt - 1));
+    const jitter = Math.floor(Math.random() * 750);
+    return Math.min(exponentialDelay + jitter, 60000);
+  }
+
+  shouldRetryFeedFetch(status, isYouTubeFeed, err) {
+    if (!status) return Boolean(err?.isFetchError || err?.name === 'AbortError');
+    if ([408, 425, 429, 500, 502, 503, 504].includes(status)) return true;
+
+    // YouTube sometimes returns transient 404s for valid channel feeds.
+    return isYouTubeFeed && status === 404;
+  }
+
+  async fetchFeedXml(url, isYouTubeFeed) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), FEED_FETCH_DEFAULTS.timeoutMs);
+
+    try {
+      const response = await fetch(url, {
+        signal: controller.signal,
+        redirect: 'follow',
+        headers: {
+          'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+          'Accept-Language': 'en-US,en;q=0.9,es;q=0.8',
+          'Cache-Control': isYouTubeFeed ? 'no-cache' : 'max-age=0',
+          'User-Agent': 'Mozilla/5.0 (compatible; ArcGISDeveloperFeedBot/1.0; +https://developers.arcgis.com)'
+        }
+      });
+
+      if (!response.ok) {
+        const err = new Error(`HTTP ${response.status} ${response.statusText}`.trim());
+        err.status = response.status;
+        err.retryAfter = response.headers.get('retry-after');
+        throw err;
+      }
+
+      return await response.text();
+    } catch (err) {
+      if (!err.status) {
+        err.isFetchError = true;
+      }
+      throw err;
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  async parseFeedWithRetries(parser, url) {
+    const isYouTubeFeed = this.isYouTubeFeedUrl(url);
+    const maxAttempts = isYouTubeFeed
+      ? FEED_FETCH_DEFAULTS.youtubeMaxAttempts
+      : FEED_FETCH_DEFAULTS.maxAttempts;
+    let lastError;
+    let lastStatus = null;
+
+    if (isYouTubeFeed) {
+      await this.sleep(FEED_FETCH_DEFAULTS.youtubeInterRequestDelayMs);
+    }
+
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        const xml = await this.fetchFeedXml(url, isYouTubeFeed);
+        const feed = await parser.parseString(xml);
+        return { feed, attempts: attempt, lastStatus: 200 };
+      } catch (err) {
+        lastError = err;
+        lastStatus = err.status || null;
+        const retryable = attempt < maxAttempts && this.shouldRetryFeedFetch(lastStatus, isYouTubeFeed, err);
+
+        if (!retryable) {
+          err.attempts = attempt;
+          err.lastStatus = lastStatus;
+          throw err;
+        }
+
+        const delayMs = this.getRetryDelayMs(attempt, isYouTubeFeed, err.retryAfter);
+        console.warn(`${colors.yellow}Error leyendo feed ${url} (intento ${attempt}/${maxAttempts}): ${err.message}. Reintentando en ${(delayMs / 1000).toFixed(1)}s${colors.reset}`);
+        await this.sleep(delayMs);
+      }
+    }
+
+    lastError.attempts = maxAttempts;
+    lastError.lastStatus = lastStatus;
+    throw lastError;
   }
 
   buildItemText(item) {
@@ -348,13 +476,17 @@ Descripción: ${cleanDesc}`;
         status: 'ok',
         itemCount: 0,
         processedItems: 0,
+        fetchAttempts: 0,
+        lastHttpStatus: null,
         errors: []
       };
       sourceReports.push(sourceReport);
 
       try {
         console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url} (relevance: ${source.relevanceMode})${colors.reset}`);
-        const feed = await parser.parseURL(url);
+        const { feed, attempts, lastStatus } = await this.parseFeedWithRetries(parser, url);
+        sourceReport.fetchAttempts = attempts;
+        sourceReport.lastHttpStatus = lastStatus;
         
         if (!feed.items || !Array.isArray(feed.items)) {
           console.warn(`${colors.yellow}Feed ${url} no tiene items o no es un array${colors.reset}`);
@@ -449,9 +581,13 @@ Descripción: ${cleanDesc}`;
       } catch (err) {
         console.error(`${colors.red}Error parsing feed ${url}: ${err.message}${colors.reset}`);
         sourceReport.status = 'failed';
+        sourceReport.fetchAttempts = err.attempts || sourceReport.fetchAttempts;
+        sourceReport.lastHttpStatus = err.lastStatus || err.status || sourceReport.lastHttpStatus;
         sourceReport.errors.push({
           stage: 'parse_feed',
-          message: err.message
+          message: err.message,
+          attempts: sourceReport.fetchAttempts,
+          httpStatus: sourceReport.lastHttpStatus
         });
         continue;
       }
