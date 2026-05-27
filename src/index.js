@@ -152,7 +152,7 @@ async function main() {
     // Employee blogs and podcasts
     'https://feed.podbean.com/theboundingbox/feed.xml',
     'https://odoe.net/rss.xml',
-    'https://josiahparry.com/index.xml',
+    //'https://josiahparry.com/index.xml', // Migrated to https://josiah.rs/ (not RSS feed yet)
     'https://highearthorbit.com/feed/',
     'https://christophermoravec.com/rss/',
     'https://adventuresinmapping.com/feed/',
