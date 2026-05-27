@@ -1,44 +1,80 @@
 {
-  "lastUpdated": "2026-05-26T14:44:10.209Z",
-  "totalSources": 84,
-  "failedSources": 4,
+  "lastUpdated": "2026-05-27T00:24:44.883Z",
+  "totalSources": 82,
+  "failedSources": 8,
   "ok": false,
   "sources": [
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "errors": []
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "errors": []
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "errors": []
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
       "label": "",
       "relevanceMode": "balanced",
-      "status": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "errors": []
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 500"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
@@ -53,19 +89,37 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
       "label": "",
       "relevanceMode": "balanced",
-      "status": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "errors": []
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "itemCount": 1,
-      "processedItems": 1,
-      "errors": []
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
     },
     {
       "url": "https://www.esri.com/arcgis-blog/products/developers/feed",
@@ -210,24 +264,6 @@
       "itemCount": 1,
       "processedItems": 1,
       "errors": []
-    },
-    {
-      "url": "https://www.esri.com/arcgis-blog/tag/geoenrichment-service/feed",
-      "label": "",
-      "relevanceMode": "trusted",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        }
-      ]
     },
     {
       "url": "https://www.esri.com/arcgis-blog/tag/arcgis-vector-tile-style-editor/feed",
@@ -480,24 +516,6 @@
       "itemCount": 20,
       "processedItems": 20,
       "errors": []
-    },
-    {
-      "url": "https://github.com/esrips/gen-ai-toolkit/commits.atom",
-      "label": "",
-      "relevanceMode": "trusted",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        }
-      ]
     },
     {
       "url": "https://github.com/Esri/esri-leaflet/releases.atom",

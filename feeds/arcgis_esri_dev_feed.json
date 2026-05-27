@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (26-05-2026)",
+  "title": "ArcGIS ESRI Dev Feed (27-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-26T14:44:10.164Z",
+  "lastUpdated": "2026-05-27T00:24:44.851Z",
   "items": [
     {
       "title": "Developer’s Lounge: Over 50 Ways to Style a Map with One Service",
@@ -15,6 +15,19 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "Polygon feature class of Planning Special Area Plans Boundaries in Chesterfield County, VA. 191 total views. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?_res_format_limit=0&res_format=ArcGIS+GeoServices+REST+API&res_format=XLSX&res_format=CSV",
+      "guid": "tag:google.com,2013:googlealerts/feed:1504940980079476946",
+      "author": "",
+      "date": "2026-05-26T08:18:25.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Dataset de datos abiertos o REST endpoint"
     },
     {
       "title": "\n        ライセンスページから不要な文言を削除\n    ",
