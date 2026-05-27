@@ -1,0 +1,818 @@
+{
+  "lastUpdated": "2026-05-27T00:24:44.883Z",
+  "totalSources": 82,
+  "failedSources": 8,
+  "ok": false,
+  "sources": [
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
+      "label": "",
+      "relevanceMode": "balanced",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 500"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 15,
+      "processedItems": 15,
+      "errors": []
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
+      "label": "",
+      "relevanceMode": "balanced",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/api-python/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro-net/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-net/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-flutter/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-kotlin/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-swift/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/unity/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/unreal-engine/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/category/developers/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-location-services/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/batch-geocoding/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 9,
+      "processedItems": 9,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/elevation-service/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 1,
+      "processedItems": 1,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-vector-tile-style-editor/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/basemap-styles/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 4,
+      "processedItems": 4,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/basemap-styles-service/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 3,
+      "processedItems": 3,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/vector-basemaps/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-geocoding-service/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/geocoding/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-places-service/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 6,
+      "processedItems": 6,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-geoenrichment-service/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-places/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 2,
+      "processedItems": 2,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/api-rest/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/calcite-design-system/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/api-for-python/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 9,
+      "processedItems": 9,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/python-scripts/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 6,
+      "processedItems": 6,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/devsummit/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/developer-summit/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/web-development/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcpy/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  "
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  "
+        }
+      ]
+    },
+    {
+      "url": "https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": []
+    },
+    {
+      "url": "https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": []
+    },
+    {
+      "url": "https://medium.com/feed/geoai",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/esri/developer-support/commits/master.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/Esri/jsapi-resources/commits.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/Esri/arcpy/commits.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/Esri/esri-leaflet/releases.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/Esri/arcgis-rest-js/releases.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://github.com/Esri/maplibre-arcgis/releases.atom",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=esri-leaflet-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 3,
+      "processedItems": 3,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
+      "errors": []
+    },
+    {
+      "url": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 34,
+      "processedItems": 34,
+      "errors": []
+    },
+    {
+      "url": "https://rss.rauljimenez.info/arcgis-whats-new-monitor-health.xml",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": []
+    },
+    {
+      "url": "https://feed.podbean.com/theboundingbox/feed.xml",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 54,
+      "processedItems": 54,
+      "errors": []
+    },
+    {
+      "url": "https://odoe.net/rss.xml",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://josiahparry.com/index.xml",
+      "label": "",
+      "relevanceMode": "balanced",
+      "status": "failed",
+      "itemCount": 0,
+      "processedItems": 0,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        },
+        {
+          "stage": "parse_feed",
+          "message": "Status code 404"
+        }
+      ]
+    },
+    {
+      "url": "https://highearthorbit.com/feed/",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://christophermoravec.com/rss/",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 15,
+      "processedItems": 15,
+      "errors": []
+    },
+    {
+      "url": "https://adventuresinmapping.com/feed/",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/gisfromscratch",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 4,
+      "processedItems": 4,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/hhkaos",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 5,
+      "processedItems": 5,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/odoenet",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 12,
+      "processedItems": 12,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/jf990",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 1,
+      "processedItems": 1,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/c_yatteau",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 12,
+      "processedItems": 11,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/gavinr",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    },
+    {
+      "url": "https://dev.to/feed/vivek_shukla_4b01a254d1ac",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 1,
+      "processedItems": 1,
+      "errors": []
+    },
+    {
+      "url": "https://feeds.feedburner.com/Codethemap",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 25,
+      "processedItems": 25,
+      "errors": []
+    },
+    {
+      "url": "https://learn.finaldraftmapping.com/feed/",
+      "label": "",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "errors": []
+    }
+  ]
+}

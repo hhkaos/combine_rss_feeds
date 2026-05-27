@@ -94,7 +94,6 @@ async function main() {
     'https://www.esri.com/arcgis-blog/tag/arcgis-data/feed',
     'https://www.esri.com/arcgis-blog/tag/batch-geocoding/feed',
     'https://www.esri.com/arcgis-blog/tag/elevation-service/feed',
-    'https://www.esri.com/arcgis-blog/tag/geoenrichment-service/feed',
     'https://www.esri.com/arcgis-blog/tag/arcgis-vector-tile-style-editor/feed',
     'https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed',
     'https://www.esri.com/arcgis-blog/tag/basemap-styles/feed',
@@ -126,7 +125,6 @@ async function main() {
     'https://github.com/Esri/jsapi-resources/commits.atom',
     'https://github.com/EsriJapan/arcgis-dev-resources/commits.atom',
     'https://github.com/Esri/arcpy/commits.atom',
-    'https://github.com/esrips/gen-ai-toolkit/commits.atom',
 
     // Some Esri repositories (releases)
     'https://github.com/Esri/esri-leaflet/releases.atom',
@@ -154,7 +152,7 @@ async function main() {
     // Employee blogs and podcasts
     'https://feed.podbean.com/theboundingbox/feed.xml',
     'https://odoe.net/rss.xml',
-    'https://josiahparry.com/index.xml',
+    //'https://josiahparry.com/index.xml', // Migrated to https://josiah.rs/ (not RSS feed yet)
     'https://highearthorbit.com/feed/',
     'https://christophermoravec.com/rss/',
     'https://adventuresinmapping.com/feed/',
