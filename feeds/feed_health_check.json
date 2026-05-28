@@ -1,0 +1,57 @@
+{
+  "lastUpdated": "2026-05-28T08:01:00.927Z",
+  "ok": true,
+  "totalFeeds": 7,
+  "failedFeeds": 0,
+  "checks": [
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.642Z"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.645Z"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.639Z"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.726Z"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.802Z"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.723Z"
+    },
+    {
+      "url": "https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-05-28T08:01:00.927Z"
+    }
+  ]
+}
