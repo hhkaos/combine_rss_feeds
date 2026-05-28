@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-28T00:37:09.200Z",
+  "lastUpdated": "2026-05-28T08:01:50.543Z",
   "totalSources": 81,
-  "failedSources": 7,
-  "ok": false,
+  "failedSources": 0,
+  "ok": true,
   "sources": [
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
@@ -13,127 +13,87 @@
       "processedItems": 15,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "failed",
+      "status": "ok",
       "itemCount": 15,
       "processedItems": 15,
-      "fetchAttempts": 2,
+      "fetchAttempts": 1,
       "lastHttpStatus": 200,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 500 Internal Server Error",
-          "attempts": 5,
-          "httpStatus": 500
-        }
-      ]
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
-      "fetchAttempts": 5,
-      "lastHttpStatus": 404,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        },
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        }
-      ]
+      "status": "ok",
+      "itemCount": 15,
+      "processedItems": 15,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
       "label": "",
       "relevanceMode": "balanced",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
-      "fetchAttempts": 5,
-      "lastHttpStatus": 404,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        },
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        }
-      ]
+      "status": "ok",
+      "itemCount": 15,
+      "processedItems": 15,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "failed",
+      "status": "ok",
       "itemCount": 15,
       "processedItems": 15,
-      "fetchAttempts": 5,
+      "fetchAttempts": 1,
       "lastHttpStatus": 200,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        }
-      ]
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
       "label": "",
       "relevanceMode": "balanced",
-      "status": "failed",
+      "status": "ok",
       "itemCount": 15,
       "processedItems": 15,
-      "fetchAttempts": 4,
+      "fetchAttempts": 1,
       "lastHttpStatus": 200,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        }
-      ]
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "failed",
+      "status": "ok",
       "itemCount": 1,
       "processedItems": 1,
-      "fetchAttempts": 5,
-      "lastHttpStatus": 404,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404
-        }
-      ]
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errors": []
     },
     {
       "url": "https://www.esri.com/arcgis-blog/products/developers/feed",
@@ -144,6 +104,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -155,6 +117,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -166,6 +130,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -177,6 +143,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -188,6 +156,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -199,6 +169,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -210,6 +182,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -221,6 +195,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -232,6 +208,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -243,6 +221,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -254,6 +234,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -265,6 +247,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -276,6 +260,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -287,6 +273,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -298,6 +286,8 @@
       "processedItems": 9,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -309,6 +299,8 @@
       "processedItems": 1,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -320,6 +312,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -331,6 +325,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -342,6 +338,8 @@
       "processedItems": 4,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -353,6 +351,8 @@
       "processedItems": 3,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -364,6 +364,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -375,6 +377,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -386,6 +390,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -397,6 +403,8 @@
       "processedItems": 6,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -408,6 +416,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -419,6 +429,8 @@
       "processedItems": 2,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -430,6 +442,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -441,6 +455,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -452,6 +468,8 @@
       "processedItems": 9,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -463,6 +481,8 @@
       "processedItems": 6,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -474,6 +494,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -485,6 +507,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -496,6 +520,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -507,6 +533,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -518,31 +546,22 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
       "url": "https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
       "fetchAttempts": 1,
-      "lastHttpStatus": null,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  ",
-          "attempts": 1,
-          "httpStatus": null
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  ",
-          "attempts": 1,
-          "httpStatus": null
-        }
-      ]
+      "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": true,
+      "parseWarning": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  ",
+      "errors": []
     },
     {
       "url": "https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed",
@@ -553,6 +572,8 @@
       "processedItems": 0,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -564,6 +585,8 @@
       "processedItems": 0,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -575,6 +598,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -586,6 +611,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -597,6 +624,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -608,6 +637,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -619,6 +650,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -630,6 +663,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -641,6 +676,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -652,6 +689,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -663,6 +702,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -674,6 +715,8 @@
       "processedItems": 0,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -685,6 +728,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -696,6 +741,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -707,6 +754,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -718,6 +767,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -729,6 +780,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -740,6 +793,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -751,6 +806,8 @@
       "processedItems": 3,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -762,6 +819,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -773,6 +832,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -784,6 +845,8 @@
       "processedItems": 20,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -795,6 +858,8 @@
       "processedItems": 35,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -806,6 +871,8 @@
       "processedItems": 0,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -817,6 +884,8 @@
       "processedItems": 54,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -828,6 +897,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -839,6 +910,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -850,6 +923,8 @@
       "processedItems": 15,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -861,6 +936,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -872,6 +949,8 @@
       "processedItems": 4,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -883,6 +962,8 @@
       "processedItems": 5,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -894,6 +975,8 @@
       "processedItems": 12,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -905,6 +988,8 @@
       "processedItems": 1,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -916,6 +1001,8 @@
       "processedItems": 11,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -927,6 +1014,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -938,6 +1027,8 @@
       "processedItems": 1,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -949,6 +1040,8 @@
       "processedItems": 25,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     },
     {
@@ -960,6 +1053,8 @@
       "processedItems": 10,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
       "errors": []
     }
   ]
