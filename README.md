@@ -14,7 +14,7 @@ Resultados publicados:
 
 El proyecto funciona como un pipeline de curacion semi-automatico:
 
-1. Lee fuentes curadas de Esri, blogs personales, canales de YouTube, repositorios de GitHub, Esri Community, podcasts y Google Alerts desde `src/index.js`.
+1. Lee fuentes curadas de Esri, blogs personales, canales de YouTube, repositorios de GitHub, Esri Community, podcasts y Google Alerts desde `src/feedSources.js`.
 2. Combina los items de las ultimas 48 horas y conserva el historico ya existente desde los JSON de salida.
 3. Limpia redirecciones de Google Alerts, normaliza URLs de YouTube y deduplica por URL.
 4. Aplica decisiones manuales guardadas en `data/curation_decisions.jsonl`.
@@ -47,6 +47,18 @@ Si la variable `OPENAI_API_KEY` ya esta exportada en la shell:
 
 ```bash
 npm start
+```
+
+Para comprobar si los feeds que fallaron en la ultima ejecucion vuelven a devolver HTTP 200:
+
+```bash
+npm run check:feeds
+```
+
+Para comprobar todas las fuentes curadas:
+
+```bash
+npm run check:feeds:all
 ```
 
 ## Salidas generadas
@@ -104,7 +116,7 @@ Los archivos de configuracion estan en `config/`:
 - `banned_urls.json`: dominios o patrones de URL prohibidos, como portales de empleo, fuentes excluidas, portales open data y endpoints REST.
 - `ignore_rules.json`: reglas descriptivas usadas como referencia de clasificacion.
 
-Las fuentes RSS/Atom se editan en `src/index.js`:
+Las fuentes RSS/Atom se editan en `src/feedSources.js`:
 
 - `curatedUrls`: fuentes curadas y generalmente relevantes.
 - `googleAlertUrls`: feeds de Google Alerts, mas ruidosos.
@@ -118,7 +130,7 @@ Las fuentes pueden pasarse como strings simples o como objetos con `relevanceMod
 { url: 'https://www.google.com/alerts/feeds/...', relevanceMode: 'strict' }
 ```
 
-En `src/index.js`, la mayoria de fuentes curadas usan `trusted`, Google Alerts usa `strict`, y fuentes concretas pueden moverse a `balanced` con `sourceRelevanceOverrides`:
+En `src/feedSources.js`, la mayoria de fuentes curadas usan `trusted`, Google Alerts usa `strict`, y fuentes concretas pueden moverse a `balanced` con `sourceRelevanceOverrides`:
 
 ```js
 const sourceRelevanceOverrides = new Map([
@@ -144,10 +156,18 @@ Antes de llamar a OpenAI, el script mantiene items con senales fuertes de produc
 6. Sustituye o actualiza `data/curation_decisions.jsonl`.
 7. Ejecuta de nuevo `npm start` para aplicar la curacion manual.
 
+## Reintentos desde GitHub Actions
+
+El workflow `Update Feeds` se puede ejecutar manualmente desde la pestaña Actions. En ejecuciones manuales, la opcion `preflight_feed_health` esta activada por defecto: primero comprueba que los feeds fallidos en `feeds/feed_status.json` devuelven HTTP 200 y solo despues ejecuta el pipeline.
+
+Si quieres forzar una comprobacion completa antes de actualizar, cambia `feed_health_scope` de `failed` a `all`. El preflight hace varios intentos espaciados para dar margen a los 404 intermitentes de YouTube.
+
 ## Estructura principal
 
 ```text
-src/index.js                  Orquestacion del pipeline y lista de fuentes.
+src/index.js                  Orquestacion del pipeline.
+src/feedSources.js            Lista compartida de fuentes y modos de relevancia.
+src/checkFeedHealth.js        Preflight HTTP 200 para feeds fallidos o todas las fuentes.
 src/services/feedService.js   Combinacion, deduplicado, reglas, OpenAI y escritura de feeds.
 src/services/configService.js Carga de configuracion.
 src/utils/fileUtils.js        Utilidades de JSON, decisiones y fechas.

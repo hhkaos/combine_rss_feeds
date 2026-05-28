@@ -4,7 +4,9 @@
   "description": "Combine multiple RSS feeds into one",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "check:feeds": "node src/checkFeedHealth.js --failed-from feeds/feed_status.json",
+    "check:feeds:all": "node src/checkFeedHealth.js --all"
   },
   "keywords": [],
   "author": "",

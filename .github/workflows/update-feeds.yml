@@ -9,6 +9,19 @@ on:
         description: 'Why are you running the feed update manually?'
         required: false
         default: 'Retry feed update'
+      preflight_feed_health:
+        description: 'Check failed feeds return HTTP 200 before updating'
+        required: false
+        type: boolean
+        default: true
+      feed_health_scope:
+        description: 'Feeds to check before updating'
+        required: false
+        type: choice
+        default: 'failed'
+        options:
+          - failed
+          - all
 
 jobs:
   update:
@@ -24,6 +37,20 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Check feed health before manual update
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.preflight_feed_health }}
+        run: |
+          if [ "${{ inputs.feed_health_scope }}" = "all" ]; then
+            npm run check:feeds:all
+          else
+            npm run check:feeds
+          fi
+        env:
+          FEED_HEALTH_MAX_ATTEMPTS: 8
+          FEED_HEALTH_RETRY_DELAY_MS: 45000
+          FEED_HEALTH_TIMEOUT_MS: 20000
+          FEED_HEALTH_CONCURRENCY: 4
 
       - name: Run script
         run: node src/index.js
