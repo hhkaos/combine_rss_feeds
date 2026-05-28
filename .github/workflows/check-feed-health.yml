@@ -1,0 +1,57 @@
+name: Check Feed Health
+
+on:
+  workflow_dispatch:
+    inputs:
+      feed_health_scope:
+        description: 'Feeds to check'
+        required: false
+        type: choice
+        default: 'failed'
+        options:
+          - failed
+          - all
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check feed health
+        id: health
+        continue-on-error: true
+        run: |
+          if [ "${{ inputs.feed_health_scope }}" = "all" ]; then
+            npm run check:feeds:all
+          else
+            npm run check:feeds
+          fi
+        env:
+          FEED_HEALTH_MAX_ATTEMPTS: 8
+          FEED_HEALTH_RETRY_DELAY_MS: 45000
+          FEED_HEALTH_TIMEOUT_MS: 20000
+          FEED_HEALTH_CONCURRENCY: 4
+
+      - name: Commit feed health report
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add feeds/feed_health_check.json
+          git commit -m "Update feed health check [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: Fail if feeds are still unavailable
+        if: ${{ steps.health.outcome == 'failure' }}
+        run: exit 1

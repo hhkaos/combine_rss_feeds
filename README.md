@@ -162,6 +162,8 @@ El workflow `Update Feeds` se puede ejecutar manualmente desde la pestaña Actio
 
 Si quieres forzar una comprobacion completa antes de actualizar, cambia `feed_health_scope` de `failed` a `all`. El preflight hace varios intentos espaciados para dar margen a los 404 intermitentes de YouTube.
 
+La interfaz estatica no puede comprobar los feeds directamente de forma fiable porque el navegador depende de CORS. Para probarlos sin ejecutar todo el pipeline, usa el workflow manual `Check Feed Health`; actualiza `feeds/feed_health_check.json`, que la interfaz muestra junto al aviso de feeds fallidos.
+
 ## Estructura principal
 
 ```text

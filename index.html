@@ -57,11 +57,27 @@
           }
         }
 
-        function renderFeedStatusAlert(status) {
+        async function loadFeedHealthCheck() {
+          try {
+            const response = await fetch(`feeds/feed_health_check.json?ts=${Date.now()}`, { cache: 'no-store' });
+            if (!response.ok) return null;
+            return response.json();
+          } catch (error) {
+            console.info('No feed_health_check.json file available yet.');
+            return null;
+          }
+        }
+
+        function getFeedHealthActionUrl() {
+          return 'https://github.com/hhkaos/combine_rss_feeds/actions/workflows/check-feed-health.yml';
+        }
+
+        function renderFeedStatusAlert(status, healthCheck) {
           const alert = document.querySelector('#feedStatusAlert');
           if (!alert || !status) return;
 
           const failedSources = (status.sources || []).filter(source => source.status !== 'ok');
+          const failedHealthChecks = (healthCheck?.checks || []).filter(check => !check.ok);
           if (!failedSources.length) {
             alert.classList.add('hidden');
             alert.innerHTML = '';
@@ -75,12 +91,16 @@
           }).join('');
           const extraCount = failedSources.length > 8 ? failedSources.length - 8 : 0;
           const updatedAt = status.lastUpdated ? formatDateTime(status.lastUpdated) : 'unknown time';
+          const healthSummary = healthCheck
+            ? `<span>Latest health check: ${healthCheck.ok ? 'all checked feeds returned HTTP 200' : `${failedHealthChecks.length} checked feed${failedHealthChecks.length === 1 ? '' : 's'} still unavailable`} (${escapeHtml(formatDateTime(healthCheck.lastUpdated))}).</span>`
+            : '<span>No standalone health check has been published yet.</span>';
 
           alert.classList.remove('hidden');
           alert.innerHTML = `
             <div>
               <strong>${failedSources.length} curated feed${failedSources.length === 1 ? '' : 's'} failed</strong>
-              <span>Last check: ${escapeHtml(updatedAt)}. Review <a href="https://github.com/hhkaos/combine_rss_feeds/blob/main/src/feedSources.js" target="_blank" rel="noreferrer">src/feedSources.js</a>, then <a href="https://github.com/hhkaos/combine_rss_feeds/actions/workflows/update-feeds.yml" target="_blank" rel="noreferrer">run the GitHub Action manually</a> with feed health preflight enabled.</span>
+              <span>Last pipeline check: ${escapeHtml(updatedAt)}. <a href="${getFeedHealthActionUrl()}" target="_blank" rel="noreferrer">Run feed health check</a>, then <a href="https://github.com/hhkaos/combine_rss_feeds/actions/workflows/update-feeds.yml" target="_blank" rel="noreferrer">run the update action</a> when the feeds are back.</span>
+              ${healthSummary}
             </div>
             <ul>${failureItems}${extraCount ? `<li><span>${extraCount} more failure${extraCount === 1 ? '' : 's'} in feeds/feed_status.json</span></li>` : ''}</ul>
           `;
@@ -169,8 +189,8 @@
         // Initialize the application
         async function initializeApp() {
           try {
-            const [items, feedStatus] = await Promise.all([loadFeed(), loadFeedStatus()]);
-            renderFeedStatusAlert(feedStatus);
+            const [items, feedStatus, feedHealthCheck] = await Promise.all([loadFeed(), loadFeedStatus(), loadFeedHealthCheck()]);
+            renderFeedStatusAlert(feedStatus, feedHealthCheck);
             const autoIgnoredCsvItems = await loadAutoIgnoredCsvItems();
             feedItems = mergeAutoIgnoredItems(items, autoIgnoredCsvItems);
             indexFeedItems();
