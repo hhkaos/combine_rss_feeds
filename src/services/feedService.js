@@ -183,6 +183,37 @@ class FeedService {
     }
   }
 
+  sanitizeInvalidXmlEntities(xml) {
+    return xml.replace(/&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[\da-fA-F]+);)/g, '&amp;');
+  }
+
+  async parseFeedString(parser, xml, url) {
+    try {
+      return {
+        feed: await parser.parseString(xml),
+        recoveredFromInvalidXml: false
+      };
+    } catch (err) {
+      const sanitizedXml = this.sanitizeInvalidXmlEntities(xml);
+      if (sanitizedXml === xml) {
+        throw err;
+      }
+
+      try {
+        const feed = await parser.parseString(sanitizedXml);
+        console.warn(`${colors.yellow}Feed ${url} contiene entidades XML inválidas (${err.message}); se recuperó escapando ampersands sueltos.${colors.reset}`);
+        return {
+          feed,
+          recoveredFromInvalidXml: true,
+          parseWarning: err.message
+        };
+      } catch (sanitizedErr) {
+        sanitizedErr.message = `${err.message}; fallback XML flexible falló: ${sanitizedErr.message}`;
+        throw sanitizedErr;
+      }
+    }
+  }
+
   async parseFeedWithRetries(parser, url) {
     const isYouTubeFeed = this.isYouTubeFeedUrl(url);
     const maxAttempts = isYouTubeFeed
@@ -198,8 +229,8 @@ class FeedService {
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       try {
         const xml = await this.fetchFeedXml(url, isYouTubeFeed);
-        const feed = await parser.parseString(xml);
-        return { feed, attempts: attempt, lastStatus: 200 };
+        const parseResult = await this.parseFeedString(parser, xml, url);
+        return { ...parseResult, attempts: attempt, lastStatus: 200 };
       } catch (err) {
         lastError = err;
         lastStatus = err.status || null;
@@ -478,15 +509,19 @@ Descripción: ${cleanDesc}`;
         processedItems: 0,
         fetchAttempts: 0,
         lastHttpStatus: null,
+        recoveredFromInvalidXml: false,
+        parseWarning: '',
         errors: []
       };
       sourceReports.push(sourceReport);
 
       try {
         console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url} (relevance: ${source.relevanceMode})${colors.reset}`);
-        const { feed, attempts, lastStatus } = await this.parseFeedWithRetries(parser, url);
+        const { feed, attempts, lastStatus, recoveredFromInvalidXml, parseWarning } = await this.parseFeedWithRetries(parser, url);
         sourceReport.fetchAttempts = attempts;
         sourceReport.lastHttpStatus = lastStatus;
+        sourceReport.recoveredFromInvalidXml = Boolean(recoveredFromInvalidXml);
+        sourceReport.parseWarning = parseWarning || '';
         
         if (!feed.items || !Array.isArray(feed.items)) {
           console.warn(`${colors.yellow}Feed ${url} no tiene items o no es un array${colors.reset}`);

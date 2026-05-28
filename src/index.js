@@ -23,6 +23,8 @@ function buildFeedStatus(sourceReports, monitoredUrls) {
     }
     existing.itemCount = Math.max(existing.itemCount || 0, report.itemCount || 0);
     existing.processedItems = Math.max(existing.processedItems || 0, report.processedItems || 0);
+    existing.recoveredFromInvalidXml = Boolean(existing.recoveredFromInvalidXml || report.recoveredFromInvalidXml);
+    existing.parseWarning = existing.parseWarning || report.parseWarning || '';
     existing.errors.push(...(report.errors || []));
   });
 
