@@ -1,42 +1,35 @@
 {
-  "lastUpdated": "2026-05-27T00:24:44.883Z",
-  "totalSources": 82,
-  "failedSources": 8,
+  "lastUpdated": "2026-05-28T00:37:09.200Z",
+  "totalSources": 81,
+  "failedSources": 7,
   "ok": false,
   "sources": [
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        }
-      ]
+      "status": "ok",
+      "itemCount": 15,
+      "processedItems": 15,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
+      "errors": []
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
       "label": "",
       "relevanceMode": "trusted",
       "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
+      "itemCount": 15,
+      "processedItems": 15,
+      "fetchAttempts": 2,
+      "lastHttpStatus": 200,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
+          "message": "HTTP 500 Internal Server Error",
+          "attempts": 5,
+          "httpStatus": 500
         }
       ]
     },
@@ -47,14 +40,20 @@
       "status": "failed",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 5,
+      "lastHttpStatus": 404,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "Status code 404"
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
         },
         {
           "stage": "parse_feed",
-          "message": "Status code 404"
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
         }
       ]
     },
@@ -65,14 +64,20 @@
       "status": "failed",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 5,
+      "lastHttpStatus": 404,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "Status code 500"
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
         },
         {
           "stage": "parse_feed",
-          "message": "Status code 404"
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
         }
       ]
     },
@@ -80,26 +85,35 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
       "label": "",
       "relevanceMode": "trusted",
-      "status": "ok",
+      "status": "failed",
       "itemCount": 15,
       "processedItems": 15,
-      "errors": []
+      "fetchAttempts": 5,
+      "lastHttpStatus": 200,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
+        }
+      ]
     },
     {
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
       "label": "",
       "relevanceMode": "balanced",
       "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
+      "itemCount": 15,
+      "processedItems": 15,
+      "fetchAttempts": 4,
+      "lastHttpStatus": 200,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
         }
       ]
     },
@@ -108,16 +122,16 @@
       "label": "",
       "relevanceMode": "trusted",
       "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
+      "itemCount": 1,
+      "processedItems": 1,
+      "fetchAttempts": 5,
+      "lastHttpStatus": 404,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404
         }
       ]
     },
@@ -128,6 +142,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -137,6 +153,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -146,6 +164,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -155,6 +175,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -164,6 +186,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -173,6 +197,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -182,6 +208,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -191,6 +219,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -200,6 +230,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -209,6 +241,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -218,6 +252,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -227,6 +263,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -236,6 +274,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -245,6 +285,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -254,6 +296,8 @@
       "status": "ok",
       "itemCount": 9,
       "processedItems": 9,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -263,6 +307,8 @@
       "status": "ok",
       "itemCount": 1,
       "processedItems": 1,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -272,6 +318,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -281,6 +329,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -290,6 +340,8 @@
       "status": "ok",
       "itemCount": 4,
       "processedItems": 4,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -299,6 +351,8 @@
       "status": "ok",
       "itemCount": 3,
       "processedItems": 3,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -308,6 +362,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -317,6 +373,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -326,6 +384,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -335,6 +395,8 @@
       "status": "ok",
       "itemCount": 6,
       "processedItems": 6,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -344,6 +406,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -353,6 +417,8 @@
       "status": "ok",
       "itemCount": 2,
       "processedItems": 2,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -362,6 +428,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -371,6 +439,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -380,6 +450,8 @@
       "status": "ok",
       "itemCount": 9,
       "processedItems": 9,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -389,6 +461,8 @@
       "status": "ok",
       "itemCount": 6,
       "processedItems": 6,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -398,6 +472,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -407,6 +483,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -416,6 +494,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -425,6 +505,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -434,6 +516,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -443,14 +527,20 @@
       "status": "failed",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 1,
+      "lastHttpStatus": null,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  "
+          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  ",
+          "attempts": 1,
+          "httpStatus": null
         },
         {
           "stage": "parse_feed",
-          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  "
+          "message": "Invalid character in entity name\nLine: 60\nColumn: 47\nChar:  ",
+          "attempts": 1,
+          "httpStatus": null
         }
       ]
     },
@@ -461,6 +551,8 @@
       "status": "ok",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -470,6 +562,8 @@
       "status": "ok",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -479,6 +573,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -488,6 +584,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -497,6 +595,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -506,6 +606,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -515,6 +617,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -524,6 +628,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -533,6 +639,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -542,6 +650,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -551,6 +661,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -560,6 +672,8 @@
       "status": "ok",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -569,6 +683,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -578,6 +694,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -587,6 +705,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -596,6 +716,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -605,6 +727,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -614,6 +738,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -623,6 +749,8 @@
       "status": "ok",
       "itemCount": 3,
       "processedItems": 3,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -632,6 +760,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -641,6 +771,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -650,6 +782,8 @@
       "status": "ok",
       "itemCount": 20,
       "processedItems": 20,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -657,8 +791,10 @@
       "label": "",
       "relevanceMode": "trusted",
       "status": "ok",
-      "itemCount": 34,
-      "processedItems": 34,
+      "itemCount": 35,
+      "processedItems": 35,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -668,6 +804,8 @@
       "status": "ok",
       "itemCount": 0,
       "processedItems": 0,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -677,6 +815,8 @@
       "status": "ok",
       "itemCount": 54,
       "processedItems": 54,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -686,25 +826,9 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
-    },
-    {
-      "url": "https://josiahparry.com/index.xml",
-      "label": "",
-      "relevanceMode": "balanced",
-      "status": "failed",
-      "itemCount": 0,
-      "processedItems": 0,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        },
-        {
-          "stage": "parse_feed",
-          "message": "Status code 404"
-        }
-      ]
     },
     {
       "url": "https://highearthorbit.com/feed/",
@@ -713,6 +837,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -722,6 +848,8 @@
       "status": "ok",
       "itemCount": 15,
       "processedItems": 15,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -731,6 +859,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -740,6 +870,8 @@
       "status": "ok",
       "itemCount": 4,
       "processedItems": 4,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -749,6 +881,8 @@
       "status": "ok",
       "itemCount": 5,
       "processedItems": 5,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -758,6 +892,8 @@
       "status": "ok",
       "itemCount": 12,
       "processedItems": 12,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -767,6 +903,8 @@
       "status": "ok",
       "itemCount": 1,
       "processedItems": 1,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -776,6 +914,8 @@
       "status": "ok",
       "itemCount": 12,
       "processedItems": 11,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -785,6 +925,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -794,6 +936,8 @@
       "status": "ok",
       "itemCount": 1,
       "processedItems": 1,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -803,6 +947,8 @@
       "status": "ok",
       "itemCount": 25,
       "processedItems": 25,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     },
     {
@@ -812,6 +958,8 @@
       "status": "ok",
       "itemCount": 10,
       "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
       "errors": []
     }
   ]
