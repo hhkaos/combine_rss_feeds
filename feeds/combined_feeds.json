@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (28-05-2026)",
+  "title": "Combined ArcGIS Feeds (29-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-28T08:01:28.022Z",
+  "lastUpdated": "2026-05-29T00:26:30.752Z",
   "items": [
+    {
+      "title": "\n        Merge pull request #422 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #422 from woriginales/master\n\nAdd Angular NgModules Maps SDK template</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/326a85980fc9e57dcb6faddfe2c55e8b9fe8dc35",
+      "guid": "tag:github.com,2008:Grit::Commit/326a85980fc9e57dcb6faddfe2c55e8b9fe8dc35",
+      "author": "PaulGibbs3rd",
+      "date": "2026-05-28T22:06:00.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Add Angular NgModules Maps SDK template\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add Angular NgModules Maps SDK template\n\nAdd a complete Angular (NgModule-based) starter template integrating the ArcGIS Maps SDK for JavaScript. This provides a ready-to-run example for teams maintaining NgModule-style Angular apps that need to use the ArcGIS Maps SDK.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/06df1af3eede250a3754fbb286e42a0c306944c9",
+      "guid": "tag:github.com,2008:Grit::Commit/06df1af3eede250a3754fbb286e42a0c306944c9",
+      "author": "woriginales",
+      "date": "2026-05-28T21:33:55.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt",
       "description": "<P>ArcGIS Maps SDK for Qt&nbsp;now supports&nbsp;S-63, which&nbsp;is the standard created by the&nbsp;IHO to protect the integrity of&nbsp;ENC data through encryption.</P>",
