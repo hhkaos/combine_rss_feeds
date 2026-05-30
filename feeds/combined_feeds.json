@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (29-05-2026)",
+  "title": "Combined ArcGIS Feeds (30-05-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-29T00:26:30.752Z",
+  "lastUpdated": "2026-05-30T00:24:28.559Z",
   "items": [
+    {
+      "title": "Episode 67 - It’s not your prompts",
+      "description": "Use AI for thinking (not deciding), fix the system (not the output), and correct without drama.",
+      "link": "https://christophermoravec.com/episode-67-its-not-your-prompts/",
+      "guid": "6a18ca1138bf9b0001f6bb63",
+      "author": "Christopher Moravec",
+      "date": "2026-05-29T16:16:52.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #422 from woriginales/master\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #422 from woriginales/master\n\nAdd Angular NgModules Maps SDK template</pre>\n    ",
