@@ -1,8 +1,63 @@
 {
-  "title": "Combined ArcGIS Feeds (28-05-2026)",
+  "title": "Combined ArcGIS Feeds (02-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-05-28T08:01:28.022Z",
+  "lastUpdated": "2026-06-02T00:29:38.732Z",
   "items": [
+    {
+      "title": "Release schedule: Version 5.1 of JavaScript Maps SDK",
+      "description": "<P>The next release of the JavaScript Maps SDK will be released on Thursday, June 25th.&nbsp;</P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/release-schedule-version-5-1-of-javascript-maps/ba-p/1705560",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/release-schedule-version-5-1-of-javascript-maps/ba-p/1705560",
+      "author": "JuliePowell",
+      "date": "2026-06-01T22:59:56.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS API for Python: Working with ArcGIS Apps | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=_9FGqN3pt30",
+      "guid": "yt:video:_9FGqN3pt30",
+      "author": "Esri Developers",
+      "date": "2026-06-01T15:00:14.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Episode 67 - It’s not your prompts",
+      "description": "Use AI for thinking (not deciding), fix the system (not the output), and correct without drama.",
+      "link": "https://christophermoravec.com/episode-67-its-not-your-prompts/",
+      "guid": "6a18ca1138bf9b0001f6bb63",
+      "author": "Christopher Moravec",
+      "date": "2026-05-29T16:16:52.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge pull request #422 from woriginales/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #422 from woriginales/master\n\nAdd Angular NgModules Maps SDK template</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/326a85980fc9e57dcb6faddfe2c55e8b9fe8dc35",
+      "guid": "tag:github.com,2008:Grit::Commit/326a85980fc9e57dcb6faddfe2c55e8b9fe8dc35",
+      "author": "PaulGibbs3rd",
+      "date": "2026-05-28T22:06:00.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Add Angular NgModules Maps SDK template\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add Angular NgModules Maps SDK template\n\nAdd a complete Angular (NgModule-based) starter template integrating the ArcGIS Maps SDK for JavaScript. This provides a ready-to-run example for teams maintaining NgModule-style Angular apps that need to use the ArcGIS Maps SDK.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/06df1af3eede250a3754fbb286e42a0c306944c9",
+      "guid": "tag:github.com,2008:Grit::Commit/06df1af3eede250a3754fbb286e42a0c306944c9",
+      "author": "woriginales",
+      "date": "2026-05-28T21:33:55.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt",
       "description": "<P>ArcGIS Maps SDK for Qt&nbsp;now supports&nbsp;S-63, which&nbsp;is the standard created by the&nbsp;IHO to protect the integrity of&nbsp;ENC data through encryption.</P>",
