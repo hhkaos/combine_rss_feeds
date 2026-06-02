@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (01-06-2026)",
+  "title": "Combined ArcGIS Feeds (02-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-01T00:24:33.732Z",
+  "lastUpdated": "2026-06-02T00:29:38.732Z",
   "items": [
+    {
+      "title": "Release schedule: Version 5.1 of JavaScript Maps SDK",
+      "description": "<P>The next release of the JavaScript Maps SDK will be released on Thursday, June 25th.&nbsp;</P>",
+      "link": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/release-schedule-version-5-1-of-javascript-maps/ba-p/1705560",
+      "guid": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/release-schedule-version-5-1-of-javascript-maps/ba-p/1705560",
+      "author": "JuliePowell",
+      "date": "2026-06-01T22:59:56.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS API for Python: Working with ArcGIS Apps | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=_9FGqN3pt30",
+      "guid": "yt:video:_9FGqN3pt30",
+      "author": "Esri Developers",
+      "date": "2026-06-01T15:00:14.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Episode 67 - It’s not your prompts",
       "description": "Use AI for thinking (not deciding), fix the system (not the output), and correct without drama.",
