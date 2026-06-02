@@ -9,6 +9,20 @@ const DEFAULTS = {
   concurrency: Number(process.env.FEED_HEALTH_CONCURRENCY || 4)
 };
 
+const DIAGNOSTIC_HEADER_NAMES = [
+  'content-type',
+  'content-length',
+  'cache-control',
+  'server',
+  'cf-ray',
+  'cf-cache-status',
+  'x-cache',
+  'x-frame-options',
+  'x-content-type-options',
+  'retry-after',
+  'location'
+];
+
 function parseArgs(argv) {
   const args = {
     all: false,
@@ -44,6 +58,30 @@ function loadFailedUrls(statusPath) {
     .filter(Boolean);
 }
 
+function extractDiagnosticHeaders(headers) {
+  const values = {};
+  DIAGNOSTIC_HEADER_NAMES.forEach(name => {
+    const value = headers.get(name);
+    if (value) {
+      values[name] = value;
+    }
+  });
+
+  return values;
+}
+
+function isToleratedHealthWarning(url, status) {
+  if (status !== 403) return false;
+
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\./, '');
+    return host === 'esri.com';
+  } catch (error) {
+    return false;
+  }
+}
+
 async function fetchStatus(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), DEFAULTS.timeoutMs);
@@ -60,11 +98,13 @@ async function fetchStatus(url) {
       }
     });
 
-    await response.arrayBuffer();
+    const responseText = await response.text();
     return {
       ok: response.status === 200,
       status: response.status,
-      statusText: response.statusText
+      statusText: response.statusText,
+      responseHeaders: extractDiagnosticHeaders(response.headers),
+      bodyPreview: responseText.replace(/\s+/g, ' ').trim().slice(0, 280)
     };
   } finally {
     clearTimeout(timeout);
@@ -79,6 +119,22 @@ async function checkUrl(url) {
       const result = await fetchStatus(url);
       lastResult = { ...result, attempt };
 
+      if (isToleratedHealthWarning(url, result.status)) {
+        console.warn(`WARN tolerated ${result.status} ${url}`);
+        return {
+          url,
+          ok: true,
+          warning: true,
+          status: result.status,
+          statusText: result.statusText,
+          warningReason: 'Known esri.com anti-bot 403 tolerated during preflight',
+          attempts: attempt,
+          checkedAt: new Date().toISOString(),
+          responseHeaders: result.responseHeaders || {},
+          bodyPreview: result.bodyPreview || ''
+        };
+      }
+
       if (result.ok) {
         console.log(`OK ${result.status} ${url}`);
         return {
@@ -86,7 +142,9 @@ async function checkUrl(url) {
           ok: true,
           status: result.status,
           attempts: attempt,
-          checkedAt: new Date().toISOString()
+          checkedAt: new Date().toISOString(),
+          responseHeaders: result.responseHeaders || {},
+          bodyPreview: result.bodyPreview || ''
         };
       }
 
@@ -149,11 +207,13 @@ async function main() {
   const checks = await runWithConcurrency(uniqueUrls, checkUrl, DEFAULTS.concurrency);
 
   const failed = checks.filter(check => !check.ok);
+  const warnings = checks.filter(check => check.warning);
   const report = {
     lastUpdated: new Date().toISOString(),
     ok: failed.length === 0,
     totalFeeds: checks.length,
     failedFeeds: failed.length,
+    warningFeeds: warnings.length,
     checks
   };
 
@@ -164,6 +224,8 @@ async function main() {
   if (failed.length > 0) {
     console.error(`${failed.length} feed(s) are not returning HTTP 200 yet.`);
     process.exitCode = 1;
+  } else if (warnings.length > 0) {
+    console.warn(`${warnings.length} feed(s) returned tolerated warnings.`);
   }
 }
 

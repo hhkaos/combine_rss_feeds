@@ -28,14 +28,42 @@ const FEED_FETCH_DEFAULTS = {
   youtubeInterRequestDelayMs: 2000
 };
 
+const DIAGNOSTIC_HEADER_NAMES = [
+  'content-type',
+  'content-length',
+  'cache-control',
+  'server',
+  'cf-ray',
+  'cf-cache-status',
+  'x-cache',
+  'x-frame-options',
+  'x-content-type-options',
+  'retry-after',
+  'location'
+];
+
 class FeedService {
   constructor(config) {
     this.parser = new Parser();
     this.config = config;
     this.curationDecisions = loadCurationDecisions(config.curationDecisionsPath || '');
-    this.openai = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY
-    });
+    this.openai = null;
+    this.openaiApiKey = process.env.OPENAI_API_KEY || '';
+  }
+
+  hasOpenAI() {
+    return Boolean(this.openaiApiKey);
+  }
+
+  getOpenAIClient() {
+    if (!this.hasOpenAI()) return null;
+    if (!this.openai) {
+      this.openai = new OpenAI({
+        apiKey: this.openaiApiKey
+      });
+    }
+
+    return this.openai;
   }
 
   isSocialMediaUrl(url) {
@@ -149,6 +177,37 @@ class FeedService {
     return isYouTubeFeed && status === 404;
   }
 
+  extractDiagnosticHeaders(headers) {
+    const values = {};
+    DIAGNOSTIC_HEADER_NAMES.forEach(name => {
+      const value = headers.get(name);
+      if (value) {
+        values[name] = value;
+      }
+    });
+
+    return values;
+  }
+
+  async buildHttpDiagnostics(response) {
+    let bodyPreview = '';
+
+    try {
+      const responseText = await response.text();
+      bodyPreview = responseText
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 280);
+    } catch (error) {
+      bodyPreview = '';
+    }
+
+    return {
+      responseHeaders: this.extractDiagnosticHeaders(response.headers),
+      bodyPreview
+    };
+  }
+
   async fetchFeedXml(url, isYouTubeFeed) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), FEED_FETCH_DEFAULTS.timeoutMs);
@@ -167,8 +226,11 @@ class FeedService {
 
       if (!response.ok) {
         const err = new Error(`HTTP ${response.status} ${response.statusText}`.trim());
+        const diagnostics = await this.buildHttpDiagnostics(response);
         err.status = response.status;
         err.retryAfter = response.headers.get('retry-after');
+        err.responseHeaders = diagnostics.responseHeaders;
+        err.bodyPreview = diagnostics.bodyPreview;
         throw err;
       }
 
@@ -379,6 +441,11 @@ class FeedService {
 
   async evaluateIgnoreRules(item) {
     try {
+      const openai = this.getOpenAIClient();
+      if (!openai) {
+        return { ignored: false, reason: '' };
+      }
+
       const cleanDesc = this.stripHtml(item.description).slice(0, 400);
       const cleanTitle = this.stripHtml(item.title);
       const relevanceMode = item.sourceRelevanceMode || 'balanced';
@@ -424,7 +491,7 @@ Título: ${cleanTitle}
 URL: ${item.link}
 Descripción: ${cleanDesc}`;
 
-      const response = await this.openai.chat.completions.create({
+      const response = await openai.chat.completions.create({
         model: 'gpt-4o-mini',
         messages: [
           { role: 'system', content: systemMsg },
@@ -479,6 +546,7 @@ Descripción: ${cleanDesc}`;
   async combineFeeds(feedUrls, options) {
     console.log(`${colors.cyan}Iniciando combineFeeds con ${feedUrls.length} URLs${colors.reset}`);
     const { title, description, outputPath, filterLastHours, processWithOpenAI, jsonOutputPath } = options;
+    const shouldUseOpenAI = Boolean(processWithOpenAI && this.hasOpenAI());
     const parser = new Parser();
     let allItems = [];
     const seenUrls = new Set();
@@ -503,10 +571,14 @@ Descripción: ${cleanDesc}`;
       const sourceReport = {
         url,
         label: source.label || '',
+        feedTitle: '',
         relevanceMode: source.relevanceMode,
+        checkedAt: new Date().toISOString(),
         status: 'ok',
         itemCount: 0,
         processedItems: 0,
+        itemsWithoutDate: 0,
+        latestItemDate: null,
         fetchAttempts: 0,
         lastHttpStatus: null,
         recoveredFromInvalidXml: false,
@@ -518,6 +590,7 @@ Descripción: ${cleanDesc}`;
       try {
         console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url} (relevance: ${source.relevanceMode})${colors.reset}`);
         const { feed, attempts, lastStatus, recoveredFromInvalidXml, parseWarning } = await this.parseFeedWithRetries(parser, url);
+        sourceReport.feedTitle = (feed.title || source.label || '').trim();
         sourceReport.fetchAttempts = attempts;
         sourceReport.lastHttpStatus = lastStatus;
         sourceReport.recoveredFromInvalidXml = Boolean(recoveredFromInvalidXml);
@@ -542,10 +615,14 @@ Descripción: ${cleanDesc}`;
             const dateStr = item.isoDate || item.pubDate;
             if (!dateStr) {
               console.warn(`${colors.yellow}Item sin fecha en feed ${url}: ${item.title || 'Sin título'}${colors.reset}`);
+              sourceReport.itemsWithoutDate++;
               continue;
             }
 
             const date = new Date(dateStr);
+            if (!sourceReport.latestItemDate || date > new Date(sourceReport.latestItemDate)) {
+              sourceReport.latestItemDate = date.toISOString();
+            }
             const cleanUrl = normalizeYouTubeUrl(cleanGoogleRedirectUrl(this.decodeHtml(item.link)));
             
             if (!cleanUrl) {
@@ -622,7 +699,9 @@ Descripción: ${cleanDesc}`;
           stage: 'parse_feed',
           message: err.message,
           attempts: sourceReport.fetchAttempts,
-          httpStatus: sourceReport.lastHttpStatus
+          httpStatus: sourceReport.lastHttpStatus,
+          responseHeaders: err.responseHeaders || {},
+          bodyPreview: err.bodyPreview || ''
         });
         continue;
       }
@@ -652,7 +731,11 @@ Descripción: ${cleanDesc}`;
     }
 
     // Evaluate ignore_rules with OpenAI if enabled (only unprocessed)
-    if (processWithOpenAI) {
+    if (processWithOpenAI && !shouldUseOpenAI) {
+      console.warn(`${colors.yellow}OPENAI_API_KEY no configurada. Se omite clasificación AI y solo se aplican reglas deterministas.${colors.reset}`);
+    }
+
+    if (shouldUseOpenAI) {
       const pending = combinedItems.filter(item => !item.processed).length;
       console.log(`${colors.cyan}Evaluando ${pending} items con OpenAI (ignore_rules)...${colors.reset}`);
       let idx = 0;

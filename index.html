@@ -57,6 +57,35 @@
           }
         }
 
+        async function loadFeedSources() {
+          try {
+            const response = await fetch(`feeds/feed_sources.json?ts=${Date.now()}`, { cache: 'no-store' });
+            if (!response.ok) return [];
+
+            const data = await response.json();
+            const entries = Array.isArray(data?.sources) ? data.sources : [];
+            return entries
+              .map(entry => {
+                if (typeof entry === 'string') {
+                  return { name: inferFeedNameFromUrl(entry), url: entry };
+                }
+
+                const url = entry?.url;
+                if (!url) return null;
+
+                return {
+                  ...entry,
+                  name: entry?.name || inferFeedNameFromUrl(url),
+                  url
+                };
+              })
+              .filter(Boolean);
+          } catch (error) {
+            console.info('No feed_sources.json file available yet.');
+            return [];
+          }
+        }
+
         async function loadFeedHealthCheck() {
           try {
             const response = await fetch(`feeds/feed_health_check.json?ts=${Date.now()}`, { cache: 'no-store' });
@@ -104,6 +133,116 @@
             </div>
             <ul>${failureItems}${extraCount ? `<li><span>${extraCount} more failure${extraCount === 1 ? '' : 's'} in feeds/feed_status.json</span></li>` : ''}</ul>
           `;
+        }
+
+        function renderFeedSources(urls) {
+          const section = document.querySelector('#feedSourcesSection');
+          const tbody = document.querySelector('#feedSourcesBody');
+          const count = document.querySelector('#feedSourcesCount');
+          const status = document.querySelector('#feedSourcesSummary');
+          if (!section || !tbody || !count || !status) return;
+
+          const safeSources = (urls || []).filter(source => source?.url);
+          count.textContent = String(safeSources.length);
+
+          if (!safeSources.length) {
+            section.classList.add('hidden');
+            tbody.innerHTML = '';
+            status.textContent = '';
+            return;
+          }
+
+          const totals = safeSources.reduce((acc, source) => {
+            if (source.health === 'error') acc.error += 1;
+            else if (source.health === 'warning') acc.warning += 1;
+            else acc.ok += 1;
+            return acc;
+          }, { ok: 0, warning: 0, error: 0 });
+
+          section.classList.remove('hidden');
+          status.textContent = `ok: ${totals.ok} | warning: ${totals.warning} | error: ${totals.error}`;
+          tbody.innerHTML = safeSources
+            .sort((a, b) => {
+              const order = { error: 0, warning: 1, ok: 2 };
+              return (order[a.health] ?? 3) - (order[b.health] ?? 3);
+            })
+            .map(source => {
+              const healthClass = normalizeHealth(source.health);
+              return `<tr>
+              <td><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.name || source.url)}</a><div class="feed-source-url">${escapeHtml(source.url)}</div></td>
+              <td><span class="health-pill health-${healthClass}">${escapeHtml(source.status || 'unknown')}</span></td>
+              <td>${escapeHtml(formatDateTimeOrDash(source.lastParsedAt))}</td>
+              <td>${escapeHtml(formatDateTimeOrDash(source.latestEntryDate))}</td>
+              <td>${escapeHtml(formatInactive(source.inactiveDays))}</td>
+              <td>${escapeHtml(String(source.itemCount ?? '-'))}</td>
+              <td>${escapeHtml(String(source.fetchAttempts ?? '-'))}</td>
+              <td>${escapeHtml(String(source.lastHttpStatus ?? '-'))}</td>
+              <td>${escapeHtml(String(source.errorCount ?? 0))}</td>
+            </tr>`;
+            })
+            .join('');
+        }
+
+        function normalizeHealth(value) {
+          if (value === 'error' || value === 'warning' || value === 'ok') return value;
+          return 'ok';
+        }
+
+        function formatDateTimeOrDash(value) {
+          if (!value) return '-';
+          return formatDateTime(value);
+        }
+
+        function formatInactive(days) {
+          if (days === null || days === undefined || Number.isNaN(days)) return '-';
+          if (days === 0) return 'today';
+          if (days === 1) return '1 day';
+          return `${days} days`;
+        }
+
+        function inferFeedNameFromUrl(rawUrl) {
+          try {
+            const parsed = new URL(rawUrl);
+            const host = parsed.hostname.replace(/^www\./, '');
+            const pathParts = parsed.pathname.split('/').filter(Boolean);
+
+            if (host.includes('youtube.com')) {
+              const channelId = parsed.searchParams.get('channel_id');
+              return channelId ? `YouTube channel (${channelId})` : 'YouTube feed';
+            }
+
+            if (host === 'github.com' && pathParts.length >= 2) {
+              const repo = `${pathParts[0]}/${pathParts[1]}`;
+              if (pathParts.includes('commits')) return `${repo} commits`;
+              if (pathParts.some(part => part.includes('release'))) return `${repo} releases`;
+              return repo;
+            }
+
+            if (host === 'dev.to' && pathParts[0] === 'feed' && pathParts[1]) {
+              return `dev.to/${pathParts[1]}`;
+            }
+
+            if (host === 'community.esri.com' && pathParts[0] === 'ccqpr47374' && pathParts[1] === 'rss') {
+              const boardId = parsed.searchParams.get('board.id');
+              if (boardId) return `Esri Community (${boardId})`;
+              return 'Esri Community feed';
+            }
+
+            const lastPart = pathParts[pathParts.length - 1] || '';
+            const cleanPart = decodeURIComponent(lastPart)
+              .replace(/\.(xml|atom)$/i, '')
+              .replace(/^feed$/i, '')
+              .replace(/[-_]+/g, ' ')
+              .trim();
+
+            if (cleanPart) {
+              return `${host} - ${cleanPart}`;
+            }
+
+            return host;
+          } catch (error) {
+            return String(rawUrl || 'Unknown feed');
+          }
         }
 
         function parseCsvLine(line) {
@@ -189,8 +328,14 @@
         // Initialize the application
         async function initializeApp() {
           try {
-            const [items, feedStatus, feedHealthCheck] = await Promise.all([loadFeed(), loadFeedStatus(), loadFeedHealthCheck()]);
+            const [items, feedStatus, feedHealthCheck, feedSources] = await Promise.all([
+              loadFeed(),
+              loadFeedStatus(),
+              loadFeedHealthCheck(),
+              loadFeedSources()
+            ]);
             renderFeedStatusAlert(feedStatus, feedHealthCheck);
+            renderFeedSources(feedSources);
             const autoIgnoredCsvItems = await loadAutoIgnoredCsvItems();
             feedItems = mergeAutoIgnoredItems(items, autoIgnoredCsvItems);
             indexFeedItems();
@@ -202,11 +347,6 @@
             setupViewSwitching();
             setupCurationControls();
             updateDecisionCount();
-
-            if(!localStorage.getItem("tourDisplayed")){
-              introJs().start();
-              localStorage.setItem("tourDisplayed", true);
-            }
           } catch (error) {
             console.error('Error initializing app:', error);
           }
@@ -762,7 +902,6 @@
         console.error(error.message);
       }
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.css" integrity="sha512-4OzqLjfh1aJa7M33b5+h0CSx0Q3i9Qaxlrr1T/Z+Vz+9zs5A7GM3T3MFKXoreghi3iDOSbkPMXiMBhFO7UBW/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       :root{
         color-scheme: light;
@@ -863,7 +1002,7 @@
         font-size: 1.03rem;
         line-height: 1.55;
         margin: 0;
-        max-width: 760px;
+        /* max-width: 760px; */
       }
       .url-cell a{
         overflow-wrap: anywhere;
@@ -1063,6 +1202,97 @@
       }
       .feed-status-alert a{
         overflow-wrap: anywhere;
+      }
+      .feed-sources-panel{
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        margin: 0 0 18px;
+        overflow: hidden;
+      }
+      .feed-sources-panel summary{
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-weight: 700;
+        gap: 0.45rem;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0.85rem 1rem;
+      }
+      .feed-sources-panel summary::-webkit-details-marker{
+        display: none;
+      }
+      .feed-sources-panel summary::after{
+        color: var(--muted);
+        content: '+';
+        font-size: 1.1rem;
+        line-height: 1;
+      }
+      .feed-sources-panel[open] summary::after{
+        content: '-';
+      }
+      .feed-sources-count{
+        color: var(--muted);
+        font-weight: 600;
+      }
+      .feed-sources-summary{
+        color: var(--muted);
+        font-size: 0.88rem;
+        font-weight: 600;
+      }
+      .feed-sources-wrap{
+        border-top: 1px solid var(--border);
+        max-height: 300px;
+        overflow: auto;
+      }
+      .feed-sources-table{
+        border-collapse: collapse;
+        min-width: 980px;
+        width: 100%;
+      }
+      .feed-sources-table th,
+      .feed-sources-table td{
+        border-bottom: 1px solid var(--border);
+        padding: 0.6rem 0.75rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      .feed-sources-table thead th{
+        background: var(--surface-muted);
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+      }
+      .feed-sources-table a{
+        font-weight: 520;
+        overflow-wrap: anywhere;
+      }
+      .feed-source-url{
+        color: var(--muted);
+        font-size: 0.82rem;
+        overflow-wrap: anywhere;
+      }
+      .health-pill{
+        border-radius: 999px;
+        display: inline-flex;
+        font-size: 0.78rem;
+        font-weight: 700;
+        padding: 0.15rem 0.5rem;
+        text-transform: lowercase;
+      }
+      .health-ok{
+        background: var(--success-soft);
+        color: var(--success);
+      }
+      .health-warning{
+        background: var(--warning-soft);
+        color: var(--warning);
+      }
+      .health-error{
+        background: var(--danger-soft);
+        color: var(--danger);
       }
       .review-controls{
         display: grid;
@@ -1324,32 +1554,6 @@
       .hidden{
         display: none;
       }
-      .introjs-tooltiptext{
-        font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
-        font-size: 14px  
-      }
-      #help{
-        position: fixed;
-        bottom: 16px;
-        right: 16px;
-      }
-      #help button{
-        align-items: center;
-        background: var(--text);
-        border: 1px solid var(--text);
-        border-radius: 50%;
-        color: #ffffff;
-        cursor: pointer;
-        display: inline-flex;
-        font-weight: 800;
-        height: 42px;
-        justify-content: center;
-        box-shadow: 0 10px 28px rgba(23, 33, 43, 0.24);
-        width: 42px;
-      }
-      #help button:hover{
-        background: #2a3744;
-      }
   </style>
 </head>
 
@@ -1367,6 +1571,32 @@
     </div>
 
     <section id="feedStatusAlert" class="feed-status-alert hidden" aria-live="polite"></section>
+
+    <details id="feedSourcesSection" class="feed-sources-panel hidden">
+      <summary>
+        <span>Feed sources</span>
+        <span class="feed-sources-count"><span id="feedSourcesCount">0</span> feeds</span>
+        <span id="feedSourcesSummary" class="feed-sources-summary"></span>
+      </summary>
+      <div class="feed-sources-wrap">
+        <table class="feed-sources-table">
+          <thead>
+            <tr>
+              <th>Feed</th>
+              <th>Status</th>
+              <th>Last parse</th>
+              <th>Latest entry</th>
+              <th>Inactive</th>
+              <th>Items</th>
+              <th>Attempts</th>
+              <th>HTTP</th>
+              <th>Errors</th>
+            </tr>
+          </thead>
+          <tbody id="feedSourcesBody"></tbody>
+        </table>
+      </div>
+    </details>
 
     <div id="reviewTabs" class="review-tabs" role="tablist" aria-label="Review status">
       <button type="button" data-review-tab="pending" class="active-tab" role="tab" aria-selected="true">Pending <span data-review-count="pending">0</span></button>
@@ -1417,10 +1647,6 @@
 
   <a href='https://github.com/hhkaos/combine_rss_feeds' class="ribbon" target="blank">CONTRIBUTE</a>
 
-  <div id="help">
-    <button type="button" aria-label="Open help">?</button>
-  </div>
-
   <dialog id="ignoreDialog" class="ignore-dialog">
     <div class="dialog-content">
       <div class="dialog-header">
@@ -1468,8 +1694,6 @@
   </dialog>
 
   <script>
-    document.querySelector('#help').addEventListener("click", e => introJs().start())
-
     // Function to format the date to "DD Month YYYY"
     function formatDate(dateString) {
       const date = new Date(dateString);
@@ -1499,7 +1723,6 @@
       });
     }
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.js" integrity="sha512-f26fxKZJiF0AjutUaQHNJ5KnXSisqyUQ3oyfaoen2apB1wLa5ccW3lmtaRe2jdP5kh4LF2gAHP9xQbx7wYhU5w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

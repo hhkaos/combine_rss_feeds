@@ -63,6 +63,175 @@ function writeFeedStatus(status) {
   console.log(`Estado de feeds generado en ${statusPath}`);
 }
 
+function readJsonFileSafe(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return null;
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch (error) {
+    return null;
+  }
+}
+
+function inferFeedNameFromUrl(rawUrl) {
+  try {
+    const parsed = new URL(rawUrl);
+    const host = parsed.hostname.replace(/^www\./, '');
+    const pathParts = parsed.pathname.split('/').filter(Boolean);
+
+    if (host.includes('youtube.com')) {
+      const channelId = parsed.searchParams.get('channel_id');
+      return channelId ? `YouTube channel (${channelId})` : 'YouTube feed';
+    }
+
+    if (host === 'github.com' && pathParts.length >= 2) {
+      const repo = `${pathParts[0]}/${pathParts[1]}`;
+      if (pathParts.includes('commits')) return `${repo} commits`;
+      if (pathParts.some(part => part.includes('release'))) return `${repo} releases`;
+      return repo;
+    }
+
+    if (host === 'dev.to' && pathParts[0] === 'feed' && pathParts[1]) {
+      return `dev.to/${pathParts[1]}`;
+    }
+
+    if (host === 'community.esri.com' && pathParts[0] === 'ccqpr47374' && pathParts[1] === 'rss') {
+      const boardId = parsed.searchParams.get('board.id');
+      if (boardId) return `Esri Community (${boardId})`;
+      return 'Esri Community feed';
+    }
+
+    const lastPart = pathParts[pathParts.length - 1] || '';
+    const cleanPart = decodeURIComponent(lastPart)
+      .replace(/\.(xml|atom)$/i, '')
+      .replace(/^feed$/i, '')
+      .replace(/[-_]+/g, ' ')
+      .trim();
+
+    if (cleanPart) {
+      return `${host} - ${cleanPart}`;
+    }
+
+    return host;
+  } catch (error) {
+    return String(rawUrl || 'Unknown feed');
+  }
+}
+
+function normalizeFeedTitle(url, rawTitle) {
+  const title = String(rawTitle || '').trim();
+  if (!title) return '';
+
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\./, '');
+
+    if (host.includes('youtube.com') && !/youtube/i.test(title)) {
+      return `${title} | YouTube`;
+    }
+  } catch (error) {
+    return title;
+  }
+
+  return title;
+}
+
+function writeFeedSources(sources, sourceReports = []) {
+  const sourcesPath = path.join(__dirname, '../feeds', 'feed_sources.json');
+  const now = new Date();
+  const previousPayload = readJsonFileSafe(sourcesPath);
+  const previousByUrl = new Map(
+    ((previousPayload?.sources || [])
+      .filter(source => source?.url)
+      .map(source => [source.url, source]))
+  );
+  const reportsByUrl = new Map(
+    (sourceReports || [])
+      .filter(report => report?.url)
+      .map(report => [report.url, report])
+  );
+
+  const normalizedSources = (sources || [])
+    .map(source => {
+      if (typeof source === 'string') {
+        return { url: source, relevanceMode: 'balanced' };
+      }
+
+      return {
+        url: source?.url,
+        relevanceMode: source?.relevanceMode || 'balanced'
+      };
+    })
+    .filter(source => source.url);
+
+  const namedSources = normalizedSources.map(source => {
+    const previous = previousByUrl.get(source.url) || {};
+    const report = reportsByUrl.get(source.url);
+    const hasReport = Boolean(report);
+    const parseSucceeded = hasReport ? report.status !== 'failed' : false;
+    const lastParsedAt = hasReport ? (report.checkedAt || now.toISOString()) : (previous.lastParsedAt || null);
+    const lastSuccessfulParseAt = hasReport
+      ? (parseSucceeded ? (report.checkedAt || now.toISOString()) : (previous.lastSuccessfulParseAt || null))
+      : (previous.lastSuccessfulParseAt || null);
+
+    const previousLatestEntry = previous.latestEntryDate ? new Date(previous.latestEntryDate) : null;
+    const reportLatestEntry = report?.latestItemDate ? new Date(report.latestItemDate) : null;
+    const latestEntryDate = reportLatestEntry && (!previousLatestEntry || reportLatestEntry > previousLatestEntry)
+      ? reportLatestEntry.toISOString()
+      : (previous.latestEntryDate || null);
+
+    const consecutiveFailures = hasReport
+      ? (parseSucceeded ? 0 : ((previous.consecutiveFailures || 0) + 1))
+      : (previous.consecutiveFailures || 0);
+
+    const inactiveDays = latestEntryDate
+      ? Math.floor((now.getTime() - new Date(latestEntryDate).getTime()) / (1000 * 60 * 60 * 24))
+      : null;
+
+    const status = hasReport ? report.status : (previous.status || 'unknown');
+    const errorCount = hasReport ? (report.errors || []).length : (previous.errorCount || 0);
+    const health = status === 'failed' || consecutiveFailures >= 2
+      ? 'error'
+      : (status === 'partial' || (inactiveDays !== null && inactiveDays >= 30) ? 'warning' : 'ok');
+    const resolvedName = normalizeFeedTitle(source.url, report?.feedTitle)
+      || normalizeFeedTitle(source.url, previous.feedTitle)
+      || previous.name
+      || inferFeedNameFromUrl(source.url);
+
+    return {
+      name: resolvedName,
+      feedTitle: normalizeFeedTitle(source.url, report?.feedTitle) || normalizeFeedTitle(source.url, previous.feedTitle),
+      url: source.url,
+      relevanceMode: source.relevanceMode,
+      status,
+      health,
+      itemCount: hasReport ? (report.itemCount || 0) : (previous.itemCount || 0),
+      processedItems: hasReport ? (report.processedItems || 0) : (previous.processedItems || 0),
+      fetchAttempts: hasReport ? (report.fetchAttempts || 0) : (previous.fetchAttempts || 0),
+      lastHttpStatus: hasReport ? (report.lastHttpStatus ?? null) : (previous.lastHttpStatus ?? null),
+      recoveredFromInvalidXml: hasReport ? Boolean(report.recoveredFromInvalidXml) : Boolean(previous.recoveredFromInvalidXml),
+      parseWarning: hasReport ? (report.parseWarning || '') : (previous.parseWarning || ''),
+      errorCount,
+      itemsWithoutDate: hasReport ? (report.itemsWithoutDate || 0) : (previous.itemsWithoutDate || 0),
+      consecutiveFailures,
+      lastParsedAt,
+      lastSuccessfulParseAt,
+      latestEntryDate,
+      inactiveDays,
+      errors: hasReport ? (report.errors || []).slice(0, 3) : (previous.errors || [])
+    };
+  });
+
+  const payload = {
+    lastUpdated: new Date().toISOString(),
+    totalSources: namedSources.length,
+    sources: namedSources
+  };
+
+  fs.mkdirSync(path.dirname(sourcesPath), { recursive: true });
+  fs.writeFileSync(sourcesPath, JSON.stringify(payload, null, 2), 'utf8');
+  console.log(`Listado de fuentes generado en ${sourcesPath}`);
+}
+
 async function main() {
   const dateStr = getDateString();
 
@@ -76,6 +245,7 @@ async function main() {
 
   // Combinar todos los feeds en un solo archivo
   const allUrls = getFeedSources();
+
   const { items: allItems, ignoredItems, sourceReports: allSourceReports } = await feedService.combineFeeds(allUrls, {
     title: `Combined ArcGIS Feeds (${dateStr})`,
     description: 'Todos los feeds combinados (últimas 48 horas)',
@@ -98,6 +268,7 @@ async function main() {
     ...(allSourceReports || []),
     ...(arcgisDevSourceReports || [])
   ], getMonitoredUrls()));
+  writeFeedSources(allUrls, allSourceReports || []);
 
   // Guardar noticias ignoradas en CSV
   if (ignoredItems.length > 0) {
