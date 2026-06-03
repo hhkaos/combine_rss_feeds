@@ -191,7 +191,7 @@ function writeFeedSources(sources, sourceReports = []) {
     const errorCount = hasReport ? (report.errors || []).length : (previous.errorCount || 0);
     const health = status === 'failed' || consecutiveFailures >= 2
       ? 'error'
-      : (status === 'partial' || (inactiveDays !== null && inactiveDays >= 30) ? 'warning' : 'ok');
+      : (status === 'partial' ? 'warning' : 'ok');
     const resolvedName = normalizeFeedTitle(source.url, report?.feedTitle)
       || normalizeFeedTitle(source.url, previous.feedTitle)
       || previous.name
@@ -201,6 +201,7 @@ function writeFeedSources(sources, sourceReports = []) {
       name: resolvedName,
       feedTitle: normalizeFeedTitle(source.url, report?.feedTitle) || normalizeFeedTitle(source.url, previous.feedTitle),
       url: source.url,
+      siteUrl: (hasReport ? (report.siteUrl || previous.siteUrl) : previous.siteUrl) || '',
       relevanceMode: source.relevanceMode,
       status,
       health,

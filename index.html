@@ -101,76 +101,242 @@
           return 'https://github.com/hhkaos/combine_rss_feeds/actions/workflows/check-feed-health.yml';
         }
 
+        // Failure context now lives in the Feed sources panel summary: a compact
+        // badge plus an info button that toggles workflow-recovery instructions.
+        // The per-feed status is already visible in the table, so we no longer
+        // duplicate the failed-feed list here.
         function renderFeedStatusAlert(status, healthCheck) {
-          const alert = document.querySelector('#feedStatusAlert');
-          if (!alert || !status) return;
+          const badge = document.querySelector('#feedSourcesAlert');
+          const infoBtn = document.querySelector('#feedSourcesInfoBtn');
+          const help = document.querySelector('#feedSourcesHelp');
+          if (!badge || !infoBtn || !help) return;
 
-          const failedSources = (status.sources || []).filter(source => source.status !== 'ok');
+          const failedSources = status ? (status.sources || []).filter(source => source.status !== 'ok') : [];
           const failedHealthChecks = (healthCheck?.checks || []).filter(check => !check.ok);
+
           if (!failedSources.length) {
-            alert.classList.add('hidden');
-            alert.innerHTML = '';
+            badge.classList.add('hidden');
+            infoBtn.classList.add('hidden');
+            help.classList.add('hidden');
+            badge.textContent = '';
+            help.innerHTML = '';
             return;
           }
 
-          const failureItems = failedSources.slice(0, 8).map(source => {
-            const firstError = source.errors?.[0];
-            const message = firstError?.message || 'Unknown error';
-            return `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.url)}</a><span>${escapeHtml(message)}</span></li>`;
-          }).join('');
-          const extraCount = failedSources.length > 8 ? failedSources.length - 8 : 0;
-          const updatedAt = status.lastUpdated ? formatDateTime(status.lastUpdated) : 'unknown time';
-          const healthSummary = healthCheck
-            ? `<span>Latest health check: ${healthCheck.ok ? 'all checked feeds returned HTTP 200' : `${failedHealthChecks.length} checked feed${failedHealthChecks.length === 1 ? '' : 's'} still unavailable`} (${escapeHtml(formatDateTime(healthCheck.lastUpdated))}).</span>`
-            : '<span>No standalone health check has been published yet.</span>';
+          badge.classList.remove('hidden');
+          badge.textContent = `⚠ ${failedSources.length} failing`;
+          infoBtn.classList.remove('hidden');
 
-          alert.classList.remove('hidden');
-          alert.innerHTML = `
-            <div>
-              <strong>${failedSources.length} curated feed${failedSources.length === 1 ? '' : 's'} failed</strong>
-              <span>Last pipeline check: ${escapeHtml(updatedAt)}. <a href="${getFeedHealthActionUrl()}" target="_blank" rel="noreferrer">Run feed health check</a>, then <a href="https://github.com/hhkaos/combine_rss_feeds/actions/workflows/update-feeds.yml" target="_blank" rel="noreferrer">run the update action</a> when the feeds are back.</span>
-              ${healthSummary}
-            </div>
-            <ul>${failureItems}${extraCount ? `<li><span>${extraCount} more failure${extraCount === 1 ? '' : 's'} in feeds/feed_status.json</span></li>` : ''}</ul>
+          const updatedAt = status?.lastUpdated ? formatDateTime(status.lastUpdated) : 'unknown time';
+          const healthSummary = healthCheck
+            ? `Latest health check: ${healthCheck.ok ? 'all checked feeds returned HTTP 200' : `${failedHealthChecks.length} checked feed${failedHealthChecks.length === 1 ? '' : 's'} still unavailable`} (${escapeHtml(formatDateTime(healthCheck.lastUpdated))}).`
+            : 'No standalone health check has been published yet.';
+
+          help.innerHTML = `
+            <strong>${failedSources.length} curated feed${failedSources.length === 1 ? '' : 's'} failing.</strong>
+            <span>Failing feeds show <span class="health-pill health-error">error</span> / <span class="health-pill health-warning">warning</span> in the table below.</span>
+            <span>To recover them: <a href="${getFeedHealthActionUrl()}" target="_blank" rel="noreferrer">run the feed health check</a>, then <a href="https://github.com/hhkaos/combine_rss_feeds/actions/workflows/update-feeds.yml" target="_blank" rel="noreferrer">run the update action</a> once the feeds are back.</span>
+            <span>Last pipeline check: ${escapeHtml(updatedAt)}. ${healthSummary}</span>
           `;
+
+          if (!infoBtn.dataset.bound) {
+            infoBtn.dataset.bound = 'true';
+            infoBtn.addEventListener('click', event => {
+              // Inside <summary>: stop the click from toggling the panel.
+              event.preventDefault();
+              event.stopPropagation();
+              const open = help.classList.toggle('hidden');
+              infoBtn.setAttribute('aria-expanded', String(!open));
+            });
+          }
+        }
+
+        const FEED_SOURCE_COLUMNS = [
+          { key: 'name', label: 'Feed', sortable: true, type: 'text' },
+          { key: 'status', label: 'Health', sortable: true, type: 'health', help: 'ok = last fetch and parse succeeded. warning = partial parse (some items could not be processed). error = last fetch/parse failed or 2+ failed runs in a row. Inactivity is shown separately in the Inactive column.' },
+          { key: 'lastParsedAt', label: 'Last parse', sortable: true, type: 'date' },
+          { key: 'latestEntryDate', label: 'Latest entry', sortable: true, type: 'date' },
+          { key: 'inactiveDays', label: 'Inactive', sortable: true, type: 'number' },
+          { key: 'itemCount', label: 'Items', sortable: true, type: 'number' },
+          { key: 'fetchAttempts', label: 'Attempts', sortable: true, type: 'number' },
+          { key: 'lastHttpStatus', label: 'HTTP', sortable: true, type: 'number' },
+          { key: 'errorCount', label: 'Errors', sortable: true, type: 'number' }
+        ];
+
+        let feedSourcesData = [];
+        let feedSourcesSort = { key: 'status', dir: 'asc' };
+        let feedSourcesFilter = { status: 'all', http: 'all', text: '' };
+        let feedSourcesControlsReady = false;
+
+        function feedSourceSortValue(source, key) {
+          const column = FEED_SOURCE_COLUMNS.find(col => col.key === key);
+          const type = column?.type || 'text';
+          if (type === 'health') {
+            const order = { error: 0, warning: 1, ok: 2 };
+            return order[normalizeHealth(source.health)] ?? 3;
+          }
+          if (type === 'date') {
+            const time = source[key] ? new Date(source[key]).getTime() : NaN;
+            return Number.isNaN(time) ? -Infinity : time;
+          }
+          if (type === 'number') {
+            const num = Number(source[key]);
+            return Number.isFinite(num) ? num : -Infinity;
+          }
+          return String(source.name || source.url || '').toLowerCase();
+        }
+
+        function httpFilterValue(source) {
+          return source.lastHttpStatus === null || source.lastHttpStatus === undefined
+            ? 'none'
+            : String(source.lastHttpStatus);
+        }
+
+        function setupFeedSourcesControls() {
+          if (feedSourcesControlsReady) return;
+          feedSourcesControlsReady = true;
+
+          const textFilter = document.querySelector('#feedSourcesTextFilter');
+          const statusFilter = document.querySelector('#feedSourcesStatusFilter');
+          const httpFilter = document.querySelector('#feedSourcesHttpFilter');
+          const head = document.querySelector('#feedSourcesHead');
+
+          textFilter?.addEventListener('input', () => {
+            feedSourcesFilter.text = textFilter.value.trim().toLowerCase();
+            renderFeedSourcesTable();
+          });
+          statusFilter?.addEventListener('change', () => {
+            feedSourcesFilter.status = statusFilter.value;
+            renderFeedSourcesTable();
+          });
+          httpFilter?.addEventListener('change', () => {
+            feedSourcesFilter.http = httpFilter.value;
+            renderFeedSourcesTable();
+          });
+          head?.addEventListener('click', event => {
+            const th = event.target.closest('th[data-sort-key]');
+            if (!th) return;
+            const key = th.dataset.sortKey;
+            if (feedSourcesSort.key === key) {
+              feedSourcesSort.dir = feedSourcesSort.dir === 'asc' ? 'desc' : 'asc';
+            } else {
+              feedSourcesSort = { key, dir: 'asc' };
+            }
+            renderFeedSourcesTable();
+          });
         }
 
         function renderFeedSources(urls) {
           const section = document.querySelector('#feedSourcesSection');
-          const tbody = document.querySelector('#feedSourcesBody');
           const count = document.querySelector('#feedSourcesCount');
           const status = document.querySelector('#feedSourcesSummary');
-          if (!section || !tbody || !count || !status) return;
+          if (!section || !count || !status) return;
 
-          const safeSources = (urls || []).filter(source => source?.url);
-          count.textContent = String(safeSources.length);
+          feedSourcesData = (urls || [])
+            .filter(source => source?.url)
+            .map(source => ({ ...source, health: computeFeedHealth(source) }));
+          count.textContent = String(feedSourcesData.length);
 
-          if (!safeSources.length) {
+          if (!feedSourcesData.length) {
             section.classList.add('hidden');
-            tbody.innerHTML = '';
             status.textContent = '';
             return;
           }
 
-          const totals = safeSources.reduce((acc, source) => {
-            if (source.health === 'error') acc.error += 1;
-            else if (source.health === 'warning') acc.warning += 1;
-            else acc.ok += 1;
+          const totals = feedSourcesData.reduce((acc, source) => {
+            const health = normalizeHealth(source.health);
+            acc[health] = (acc[health] || 0) + 1;
             return acc;
           }, { ok: 0, warning: 0, error: 0 });
 
           section.classList.remove('hidden');
           status.textContent = `ok: ${totals.ok} | warning: ${totals.warning} | error: ${totals.error}`;
-          tbody.innerHTML = safeSources
-            .sort((a, b) => {
-              const order = { error: 0, warning: 1, ok: 2 };
-              return (order[a.health] ?? 3) - (order[b.health] ?? 3);
-            })
+
+          setupFeedSourcesControls();
+          populateHttpFilterOptions();
+          renderFeedSourcesTable();
+        }
+
+        function populateHttpFilterOptions() {
+          const httpFilter = document.querySelector('#feedSourcesHttpFilter');
+          if (!httpFilter) return;
+
+          const values = new Set(feedSourcesData.map(httpFilterValue));
+          const numeric = [...values].filter(value => value !== 'none').sort((a, b) => Number(a) - Number(b));
+          const ordered = [...numeric, ...(values.has('none') ? ['none'] : [])];
+
+          const current = feedSourcesFilter.http;
+          httpFilter.innerHTML = `<option value="all">All</option>` + ordered
+            .map(value => `<option value="${escapeHtml(value)}">${value === 'none' ? 'no response' : escapeHtml(value)}</option>`)
+            .join('');
+          httpFilter.value = ordered.includes(current) || current === 'all' ? current : 'all';
+          feedSourcesFilter.http = httpFilter.value;
+        }
+
+        function renderFeedSourcesHead() {
+          const head = document.querySelector('#feedSourcesHead');
+          if (!head) return;
+          head.innerHTML = `<tr>${FEED_SOURCE_COLUMNS.map(col => {
+            const titleAttr = col.help ? ` title="${escapeHtml(col.help)}"` : '';
+            const label = `${escapeHtml(col.label)}${col.help ? ' <span class="feed-sources-help-mark">?</span>' : ''}`;
+            if (!col.sortable) return `<th${titleAttr}>${label}</th>`;
+            const active = feedSourcesSort.key === col.key;
+            const arrow = active ? (feedSourcesSort.dir === 'asc' ? ' ▲' : ' ▼') : '';
+            return `<th data-sort-key="${col.key}"${titleAttr} class="feed-sources-sortable${active ? ' is-sorted' : ''}" aria-sort="${active ? (feedSourcesSort.dir === 'asc' ? 'ascending' : 'descending') : 'none'}">${label}${arrow}</th>`;
+          }).join('')}</tr>`;
+        }
+
+        function renderFeedSourcesTable() {
+          const tbody = document.querySelector('#feedSourcesBody');
+          const shown = document.querySelector('#feedSourcesShown');
+          if (!tbody) return;
+
+          renderFeedSourcesHead();
+
+          const filtered = feedSourcesData.filter(source => {
+            if (feedSourcesFilter.text) {
+              const haystack = `${source.name || ''} ${source.url || ''} ${source.siteUrl || ''}`.toLowerCase();
+              if (!haystack.includes(feedSourcesFilter.text)) return false;
+            }
+            if (feedSourcesFilter.status !== 'all' && normalizeHealth(source.health) !== feedSourcesFilter.status) {
+              return false;
+            }
+            if (feedSourcesFilter.http !== 'all' && httpFilterValue(source) !== feedSourcesFilter.http) {
+              return false;
+            }
+            return true;
+          });
+
+          const dir = feedSourcesSort.dir === 'asc' ? 1 : -1;
+          filtered.sort((a, b) => {
+            const va = feedSourceSortValue(a, feedSourcesSort.key);
+            const vb = feedSourceSortValue(b, feedSourcesSort.key);
+            if (va < vb) return -1 * dir;
+            if (va > vb) return 1 * dir;
+            return 0;
+          });
+
+          if (shown) {
+            shown.textContent = filtered.length === feedSourcesData.length
+              ? `${feedSourcesData.length} shown`
+              : `${filtered.length} of ${feedSourcesData.length} shown`;
+          }
+
+          tbody.innerHTML = filtered
             .map(source => {
               const healthClass = normalizeHealth(source.health);
+              const feedName = escapeHtml(source.name || source.url);
+              const feedUrl = escapeHtml(source.url);
+              const siteUrl = source.siteUrl || deriveSiteUrl(source.url);
+              const titleHref = escapeHtml(siteUrl || source.url);
+              const links = siteUrl
+                ? `<a href="${escapeHtml(siteUrl)}" target="_blank" rel="noreferrer">site</a> · <a href="${feedUrl}" target="_blank" rel="noreferrer">feed</a>`
+                : `<a href="${feedUrl}" target="_blank" rel="noreferrer">feed</a>`;
+              const healthReason = feedHealthReason(source);
+              const healthNote = feedHealthNote(source);
               return `<tr>
-              <td><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.name || source.url)}</a><div class="feed-source-url">${escapeHtml(source.url)}</div></td>
-              <td><span class="health-pill health-${healthClass}">${escapeHtml(source.status || 'unknown')}</span></td>
+              <td><a href="${titleHref}" target="_blank" rel="noreferrer">${feedName}</a><div class="feed-source-links">${links}</div></td>
+              <td><span class="health-pill health-${healthClass}" title="${escapeHtml(healthReason)}">${healthClass}</span>${healthNote ? `<div class="feed-source-note" title="${escapeHtml(healthReason)}">${escapeHtml(healthNote)}</div>` : ''}</td>
               <td>${escapeHtml(formatDateTimeOrDash(source.lastParsedAt))}</td>
               <td>${escapeHtml(formatDateTimeOrDash(source.latestEntryDate))}</td>
               <td>${escapeHtml(formatInactive(source.inactiveDays))}</td>
@@ -180,7 +346,77 @@
               <td>${escapeHtml(String(source.errorCount ?? 0))}</td>
             </tr>`;
             })
-            .join('');
+            .join('') || `<tr><td colspan="${FEED_SOURCE_COLUMNS.length}" class="feed-sources-empty">No feeds match the current filters.</td></tr>`;
+        }
+
+        // Best-effort homepage when feed_sources.json has no siteUrl yet
+        // (the field is populated on the next pipeline run).
+        function deriveSiteUrl(rawUrl) {
+          try {
+            const parsed = new URL(rawUrl);
+            const host = parsed.hostname.replace(/^www\./, '');
+            const pathParts = parsed.pathname.split('/').filter(Boolean);
+
+            if (host.includes('youtube.com')) {
+              const channelId = parsed.searchParams.get('channel_id');
+              return channelId ? `https://www.youtube.com/channel/${channelId}` : '';
+            }
+
+            if (host === 'github.com' && pathParts.length >= 2) {
+              const repo = `https://github.com/${pathParts[0]}/${pathParts[1]}`;
+              if (pathParts.some(part => part.includes('release'))) return `${repo}/releases`;
+              if (pathParts.some(part => part.includes('commit'))) return `${repo}/commits`;
+              return repo;
+            }
+
+            if (host === 'dev.to' && pathParts[0] === 'feed' && pathParts[1]) {
+              return `https://dev.to/${pathParts[1]}`;
+            }
+
+            if (/\/feed\/?$/.test(parsed.pathname)) {
+              return `${parsed.origin}${parsed.pathname.replace(/\/feed\/?$/, '/')}`;
+            }
+
+            return parsed.origin;
+          } catch (error) {
+            return '';
+          }
+        }
+
+        // Health reflects fetch/parse outcome only. Inactivity is shown
+        // separately in the "Inactive" column, so it never drives Health.
+        // Mirrors the backend rule in src/index.js (writeFeedSources).
+        function computeFeedHealth(source) {
+          if (source.status === 'failed' || (source.consecutiveFailures || 0) >= 2) return 'error';
+          if (source.status === 'partial') return 'warning';
+          return 'ok';
+        }
+
+        // Full, human-readable explanation of a feed's health (used as tooltip).
+        function feedHealthReason(source) {
+          const health = normalizeHealth(source.health);
+          if (health === 'ok') return 'Healthy: last fetch and parse succeeded.';
+
+          const reasons = [];
+          if (source.status === 'failed') reasons.push('Last fetch/parse failed');
+          if ((source.consecutiveFailures || 0) >= 2) reasons.push(`${source.consecutiveFailures} failed runs in a row`);
+          if (source.status === 'partial') reasons.push('Some items could not be processed');
+          if (!reasons.length) reasons.push(health === 'error' ? 'Feed is failing' : 'Feed needs attention');
+
+          const firstError = source.errors?.[0];
+          if (firstError?.message) reasons.push(firstError.message);
+          return reasons.join('. ') + '.';
+        }
+
+        // Short inline note shown under the pill for non-ok feeds.
+        function feedHealthNote(source) {
+          if (normalizeHealth(source.health) === 'ok') return '';
+          if (source.status === 'failed') {
+            return source.lastHttpStatus ? `fetch failed · HTTP ${source.lastHttpStatus}` : 'fetch failed';
+          }
+          if ((source.consecutiveFailures || 0) >= 2) return `${source.consecutiveFailures}× failed runs`;
+          if (source.status === 'partial') return 'partial parse';
+          return normalizeHealth(source.health);
         }
 
         function normalizeHealth(value) {
@@ -1169,39 +1405,56 @@
         margin: 0 0 8px;
         text-align: right;
       }
-      .feed-status-alert{
+      .feed-sources-alert{
         background: var(--danger-soft);
-        border: 1px solid #efa7aa;
-        border-left: 5px solid var(--danger);
-        border-radius: 12px;
+        border-radius: 999px;
+        color: var(--danger);
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 0.15rem 0.55rem;
+        white-space: nowrap;
+      }
+      .feed-sources-info-btn{
+        align-items: center;
+        background: var(--surface-muted);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--muted);
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 0.85rem;
+        font-weight: 700;
+        height: 1.4rem;
+        justify-content: center;
+        line-height: 1;
+        padding: 0;
+        width: 1.4rem;
+      }
+      .feed-sources-info-btn:hover{
+        background: var(--danger-soft);
+        color: var(--danger);
+      }
+      .feed-sources-help{
+        background: var(--danger-soft);
+        border-top: 1px solid #efa7aa;
         color: var(--text);
         display: grid;
-        gap: 0.65rem;
-        margin: 0 0 18px;
-        padding: 0.85rem 1rem;
-      }
-      .feed-status-alert strong{
-        color: var(--danger);
-        display: block;
-        font-size: 1rem;
-      }
-      .feed-status-alert span{
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-      .feed-status-alert ul{
-        display: grid;
         gap: 0.4rem;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+        padding: 0.75rem 1rem;
       }
-      .feed-status-alert li{
-        display: grid;
-        gap: 0.1rem;
+      .feed-sources-help strong{
+        color: var(--danger);
+        font-size: 0.95rem;
       }
-      .feed-status-alert a{
+      .feed-sources-help span{
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+      .feed-sources-help a{
         overflow-wrap: anywhere;
+      }
+      .feed-sources-help .health-pill{
+        vertical-align: middle;
       }
       .feed-sources-panel{
         background: var(--surface);
@@ -1214,11 +1467,15 @@
         align-items: center;
         cursor: pointer;
         display: flex;
+        flex-wrap: wrap;
         font-weight: 700;
         gap: 0.45rem;
-        justify-content: space-between;
+        justify-content: flex-start;
         list-style: none;
         padding: 0.85rem 1rem;
+      }
+      .feed-sources-panel summary::after{
+        margin-left: auto;
       }
       .feed-sources-panel summary::-webkit-details-marker{
         display: none;
@@ -1241,14 +1498,53 @@
         font-size: 0.88rem;
         font-weight: 600;
       }
+      .feed-sources-controls{
+        align-items: center;
+        border-top: 1px solid var(--border);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        padding: 0.65rem 1rem;
+      }
+      .feed-sources-filter{
+        align-items: center;
+        color: var(--muted);
+        display: flex;
+        font-size: 0.82rem;
+        font-weight: 700;
+        gap: 0.4rem;
+      }
+      .feed-sources-filter select,
+      .feed-sources-filter input{
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        color: var(--text);
+        font: inherit;
+        font-weight: 600;
+        padding: 0.25rem 0.5rem;
+      }
+      .feed-sources-search input{
+        min-width: 220px;
+      }
+      .feed-sources-shown{
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 600;
+        margin-left: auto;
+      }
+      .feed-sources-edit{
+        font-size: 0.82rem;
+        font-weight: 700;
+        white-space: nowrap;
+      }
       .feed-sources-wrap{
         border-top: 1px solid var(--border);
-        max-height: 300px;
-        overflow: auto;
+        overflow-x: auto;
       }
       .feed-sources-table{
         border-collapse: collapse;
-        min-width: 980px;
+        min-width: 1040px;
         width: 100%;
       }
       .feed-sources-table th,
@@ -1264,15 +1560,57 @@
         font-size: 0.82rem;
         font-weight: 700;
         letter-spacing: 0.01em;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      .feed-sources-sortable{
+        cursor: pointer;
+        user-select: none;
+        white-space: nowrap;
+      }
+      .feed-sources-sortable:hover{
+        color: var(--text);
+      }
+      .feed-sources-table thead th.is-sorted{
+        color: var(--text);
+      }
+      .feed-sources-empty{
+        color: var(--muted);
+        font-style: italic;
+        text-align: center;
       }
       .feed-sources-table a{
         font-weight: 520;
         overflow-wrap: anywhere;
       }
-      .feed-source-url{
+      .feed-source-note{
         color: var(--muted);
+        font-size: 0.76rem;
+        margin-top: 0.25rem;
+        white-space: nowrap;
+      }
+      .feed-sources-help-mark{
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--muted);
+        cursor: help;
+        display: inline-block;
+        font-size: 0.7rem;
+        font-weight: 700;
+        height: 0.95rem;
+        line-height: 0.9rem;
+        text-align: center;
+        width: 0.95rem;
+      }
+      .feed-source-links{
+        color: var(--muted);
+        display: flex;
         font-size: 0.82rem;
-        overflow-wrap: anywhere;
+        gap: 0.35rem;
+      }
+      .feed-source-links a{
+        font-weight: 600;
       }
       .health-pill{
         border-radius: 999px;
@@ -1570,29 +1908,41 @@
       </p>
     </div>
 
-    <section id="feedStatusAlert" class="feed-status-alert hidden" aria-live="polite"></section>
-
     <details id="feedSourcesSection" class="feed-sources-panel hidden">
       <summary>
-        <span>Feed sources</span>
+        <span class="feed-sources-title">Feed sources</span>
         <span class="feed-sources-count"><span id="feedSourcesCount">0</span> feeds</span>
         <span id="feedSourcesSummary" class="feed-sources-summary"></span>
+        <span id="feedSourcesAlert" class="feed-sources-alert hidden" aria-live="polite"></span>
+        <button type="button" id="feedSourcesInfoBtn" class="feed-sources-info-btn hidden" aria-label="How to recover failing feeds" aria-expanded="false">ℹ</button>
       </summary>
+      <div id="feedSourcesHelp" class="feed-sources-help hidden" aria-live="polite"></div>
+      <div class="feed-sources-controls">
+        <label class="feed-sources-filter feed-sources-search">
+          <span>Feed</span>
+          <input type="search" id="feedSourcesTextFilter" placeholder="Filter by name or URL…" autocomplete="off" />
+        </label>
+        <label class="feed-sources-filter">
+          <span>Health</span>
+          <select id="feedSourcesStatusFilter">
+            <option value="all">All</option>
+            <option value="ok">ok</option>
+            <option value="warning">warning</option>
+            <option value="error">error</option>
+          </select>
+        </label>
+        <label class="feed-sources-filter">
+          <span>HTTP</span>
+          <select id="feedSourcesHttpFilter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <span id="feedSourcesShown" class="feed-sources-shown"></span>
+        <a class="feed-sources-edit" href="https://github.com/hhkaos/combine_rss_feeds/edit/main/src/feedSources.js" target="_blank" rel="noreferrer">Edit sources on GitHub ↗</a>
+      </div>
       <div class="feed-sources-wrap">
         <table class="feed-sources-table">
-          <thead>
-            <tr>
-              <th>Feed</th>
-              <th>Status</th>
-              <th>Last parse</th>
-              <th>Latest entry</th>
-              <th>Inactive</th>
-              <th>Items</th>
-              <th>Attempts</th>
-              <th>HTTP</th>
-              <th>Errors</th>
-            </tr>
-          </thead>
+          <thead id="feedSourcesHead"></thead>
           <tbody id="feedSourcesBody"></tbody>
         </table>
       </div>

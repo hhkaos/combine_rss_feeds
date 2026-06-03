@@ -135,6 +135,31 @@ class FeedService {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
+  // Human-readable homepage of the feed: <channel><link> for RSS or the
+  // <atom:link rel="alternate"> for Atom. rss-parser exposes both as feed.link.
+  // Falls back to the feed's own origin so the column is never empty.
+  resolveSiteUrl(feed, feedUrl) {
+    const candidates = [feed?.link, feed?.['atom:link']?.href, feed?.webMaster];
+    for (const candidate of candidates) {
+      const value = typeof candidate === 'string' ? candidate.trim() : '';
+      if (!value) continue;
+      try {
+        const resolved = new URL(value, feedUrl);
+        if (resolved.protocol === 'http:' || resolved.protocol === 'https:') {
+          return resolved.toString();
+        }
+      } catch (err) {
+        // Ignore malformed link values and keep checking.
+      }
+    }
+
+    try {
+      return new URL(feedUrl).origin;
+    } catch (err) {
+      return '';
+    }
+  }
+
   isYouTubeFeedUrl(url) {
     try {
       const { hostname, pathname } = new URL(url);
@@ -572,6 +597,7 @@ Descripción: ${cleanDesc}`;
         url,
         label: source.label || '',
         feedTitle: '',
+        siteUrl: '',
         relevanceMode: source.relevanceMode,
         checkedAt: new Date().toISOString(),
         status: 'ok',
@@ -591,6 +617,7 @@ Descripción: ${cleanDesc}`;
         console.log(`${colors.blue}[${new Date().toISOString()}] Procesando feed: ${url} (relevance: ${source.relevanceMode})${colors.reset}`);
         const { feed, attempts, lastStatus, recoveredFromInvalidXml, parseWarning } = await this.parseFeedWithRetries(parser, url);
         sourceReport.feedTitle = (feed.title || source.label || '').trim();
+        sourceReport.siteUrl = this.resolveSiteUrl(feed, url);
         sourceReport.fetchAttempts = attempts;
         sourceReport.lastHttpStatus = lastStatus;
         sourceReport.recoveredFromInvalidXml = Boolean(recoveredFromInvalidXml);
