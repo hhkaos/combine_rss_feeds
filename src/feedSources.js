@@ -64,7 +64,6 @@ const curatedUrls = [
 
   // Blogs at Esri Community
   'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=esri-leaflet-blog',
   'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog',
   'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog',
   'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog',
