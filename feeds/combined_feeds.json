@@ -1,8 +1,96 @@
 {
-  "title": "Combined ArcGIS Feeds (02-06-2026)",
+  "title": "Combined ArcGIS Feeds (03-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-02T00:29:38.732Z",
+  "lastUpdated": "2026-06-03T00:34:48.461Z",
   "items": [
+    {
+      "title": "\n        リダイレクトの設定追加\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>リダイレクトの設定追加</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/cf1ae49b8314c2ce18541eae2eded42404d2a52e",
+      "guid": "tag:github.com,2008:Grit::Commit/cf1ae49b8314c2ce18541eae2eded42404d2a52e",
+      "author": "",
+      "date": "2026-06-03T00:29:55.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Calcite Design System: What’s New in 5.1",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/calcite-design-system-whats-new-in-5-1",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2967605",
+      "author": "Kitty Hurley",
+      "date": "2026-06-02T17:00:18.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        リダイレクトの設定\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>リダイレクトの設定</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/0b963c344c678f9cda853a6fa51afa86618999f0",
+      "guid": "tag:github.com,2008:Grit::Commit/0b963c344c678f9cda853a6fa51afa86618999f0",
+      "author": "yozaw",
+      "date": "2026-06-02T13:13:09.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Render data with new color ramps and color maps in Native Maps SDKs",
+      "description": "Learn how to visualize raster and spatial analysis data using new color ramp and color map options in Native Maps SDKs.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/developers/new-color-ramps-color-maps-native-maps-sdks",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2967996",
+      "author": "Rachael Ellen",
+      "date": "2026-06-02T12:00:30.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        リダイレクトの設定\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>リダイレクトの設定</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/c1479cfbc78dfc8c19aa954c8a6b22990024e516",
+      "guid": "tag:github.com,2008:Grit::Commit/c1479cfbc78dfc8c19aa954c8a6b22990024e516",
+      "author": "yozaw",
+      "date": "2026-06-02T09:43:51.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "[Deprecated] 1.2.0",
+      "description": "<p><g-emoji class=\"g-emoji\" alias=\"warning\">⚠️</g-emoji> This release is deprecated. It is recommended to use version 1.3.0 or newer instead.</p>\n<hr>\n<p>Release 1.2.0 is focused on updates and optimizations to the <code>FeatureLayer</code> class.</p>\n<h3>What's new?</h3>\n<ul>\n<li>All requests to feature services now use a response type of PBF. This massively reduces the size of network requests.</li>\n<li>Added on-demand loading mode to feature layers. This mode loads features dynamically using per-tile requests, and implements quantization to optimize features based on the current zoom level. See <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3786448216\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Esri/maplibre-arcgis/issues/23\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/Esri/maplibre-arcgis/pull/23/hovercard\" href=\"https://github.com/Esri/maplibre-arcgis/pull/23\">#23</a>.</li>\n<li><code>FeatureLayer</code> no longer throws when attempting to load layers with more than ~8000 features. Layers that previously exceeded this limit will now be loaded using on-demand mode.</li>\n<li>Added ESM typings to exported package.</li>\n</ul>",
+      "link": "https://github.com/Esri/maplibre-arcgis/releases/tag/1.2.0",
+      "guid": "tag:github.com,2008:Repository/975133882/1.2.0",
+      "author": "gowin20",
+      "date": "2026-06-02T02:21:54.000Z",
+      "sourceFeedUrl": "https://github.com/Esri/maplibre-arcgis/releases.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "1.3.0",
+      "description": "<h2>What's Changed</h2>\n<ul>\n<li>Added support for loading feature data from Map Server endpoints with FeatureLayer class <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3784225301\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Esri/maplibre-arcgis/issues/22\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Esri/maplibre-arcgis/issues/22/hovercard\" href=\"https://github.com/Esri/maplibre-arcgis/issues/22\">#22</a>\n<ul>\n<li>To load features from a map server, a layer ID (e.g. <code>/MapServer/1</code>) must be specified. Generic MapServer URLs are not accepted.</li>\n</ul>\n</li>\n<li>Added new convenience methods for adding a single source and layer to map: <code>addSourceTo(map, options)</code> &amp; <code>addLayerTo(map, options)</code></li>\n<li>All existing convenience methods for adding data to a map (<a href=\"https://developers.arcgis.com/maplibre-gl-js/api-reference/FeatureLayer/#addSourcesTo\" rel=\"nofollow\"><code>addSourcesTo</code></a>, <a href=\"https://developers.arcgis.com/maplibre-gl-js/api-reference/FeatureLayer/#addLayersTo\" rel=\"nofollow\"><code>addLayersTo</code></a>, <a href=\"https://developers.arcgis.com/maplibre-gl-js/api-reference/FeatureLayer/#addSourcesAndLayersTo\" rel=\"nofollow\"><code>addSourcesAndLayersTo</code></a>) now include an optional passthrough parameter for setting MapLibre Style Specification options.</li>\n<li>Modified the loading behavior of FeatureLayer class to address backward-incompatible changes made in the last release (1.2.0). The behavior of FeatureLayer in this release should be identical to 1.0.0, regardless of loading mode. Version 1.2.0 has been deprecated,</li>\n<li>Various bug fixes related to FeatureLayer class.</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/Esri/maplibre-arcgis/compare/release-1.1.0..release-1.3.0\">https://github.com/Esri/maplibre-arcgis/compare/release-1.1.0..release-1.3.0</a></p>",
+      "link": "https://github.com/Esri/maplibre-arcgis/releases/tag/1.3.0",
+      "guid": "tag:github.com,2008:Repository/975133882/1.3.0",
+      "author": "gowin20",
+      "date": "2026-06-02T02:19:57.000Z",
+      "sourceFeedUrl": "https://github.com/Esri/maplibre-arcgis/releases.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Software Development Engineer II - <b>JavaScript</b> Web Development - <b>Esri</b> | Built In Colorado",
+      "description": "Working knowledge of the <b>Esri</b> Calcite Design System and <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> ... Working knowledge of the <b>ArcGIS API</b> for Python&nbsp;...",
+      "link": "https://www.builtincolorado.com/job/software-development-engineer-ii-javascript-web-development/9563727",
+      "guid": "tag:google.com,2013:googlealerts/feed:5255894467570537118",
+      "author": "",
+      "date": "2026-06-02T01:06:18.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Release schedule: Version 5.1 of JavaScript Maps SDK",
       "description": "<P>The next release of the JavaScript Maps SDK will be released on Thursday, June 25th.&nbsp;</P>",
@@ -23,6 +111,17 @@
       "date": "2026-06-01T15:00:14.000Z",
       "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Dataset - Virginia Open Data Portal",
+      "description": "44 datasets found. Organizations: Hanover County Formats: <b>ArcGIS</b> GeoServices REST <b>API</b> HTML. Filter Results&nbsp;...",
+      "link": "https://data.virginia.gov/dataset/?_organization_limit=0&organization=hanover-county&res_format=HTML&res_format=ArcGIS+GeoServices+REST+API",
+      "guid": "tag:google.com,2013:googlealerts/feed:15649559380070367126",
+      "author": "",
+      "date": "2026-06-01T01:36:42.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
