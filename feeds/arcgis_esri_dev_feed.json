@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (04-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-03T00:35:46.338Z",
+  "lastUpdated": "2026-06-04T00:35:03.189Z",
   "items": [
+    {
+      "title": "ArcGIS Experience Builder: Advanced Customization | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=axkyA6phmHg",
+      "guid": "yt:video:axkyA6phmHg",
+      "author": "Esri Developers",
+      "date": "2026-06-03T15:00:02.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Render data with new color ramps and color maps in Native Maps SDKs",
+      "description": "<P><STRONG><A href=\"https://www.esri.com/arcgis-blog/products/developers/developers/new-color-ramps-color-maps-native-maps-sdks\" target=\"_self\" rel=\"nofollow noreferrer\">New ArcGIS Blog post!</A>&nbsp;</STRONG>Learn about the new and improved ways to render your raster and spatial analysis data with color ramps and color maps.</P>",
+      "link": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/render-data-with-new-color-ramps-and-color-maps-in/ba-p/1705943",
+      "guid": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/render-data-with-new-color-ramps-and-color-maps-in/ba-p/1705943",
+      "author": "Rachael_Ellen",
+      "date": "2026-06-03T14:45:13.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "\n        リダイレクトの設定追加\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>リダイレクトの設定追加</pre>\n    ",
