@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (04-06-2026)",
+  "title": "Combined ArcGIS Feeds (05-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-04T00:34:39.747Z",
+  "lastUpdated": "2026-06-05T00:27:01.483Z",
   "items": [
+    {
+      "title": "\n        metaタグの追加\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>metaタグの追加</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/462780579afe9302296dcf0f5ec0674f525cce9c",
+      "guid": "tag:github.com,2008:Grit::Commit/462780579afe9302296dcf0f5ec0674f525cce9c",
+      "author": "yozaw",
+      "date": "2026-06-04T09:32:37.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Custom Software Engineer - adzuna.in",
+      "description": "<b>ESRI ArcGIS</b> ... -Fluent in and passionate about development with ArcObjects with <b>ArcGIS</b> Pro <b>SDK</b>/ArcPy/FME Workbench/<b>ArcGIS JavaScript API</b> s -&nbsp;...",
+      "link": "https://www.adzuna.in/details/5742513887",
+      "guid": "tag:google.com,2013:googlealerts/feed:15755829972267280183",
+      "author": "",
+      "date": "2026-06-04T05:00:27.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "<b>Arcgis</b> Field Maps - Make an <b>API</b> Call : Error 404 - Questions",
+      "description": "<b>Arcgis</b> Field Maps - Make an <b>API</b> Call : Error 404 &middot; Questions &middot; connections ... Powered by Discourse, best viewed with <b>JavaScript</b> enabled.",
+      "link": "https://community.make.com/t/arcgis-field-maps-make-an-api-call-error-404/110227",
+      "guid": "tag:google.com,2013:googlealerts/feed:585456772072363653",
+      "author": "",
+      "date": "2026-06-03T21:35:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "ArcGIS Experience Builder: Advanced Customization | #EsriDevTech2026",
       "description": "",
