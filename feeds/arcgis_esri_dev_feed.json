@@ -1,8 +1,47 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (06-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (07-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-06T00:26:00.163Z",
+  "lastUpdated": "2026-06-07T00:27:04.630Z",
   "items": [
+    {
+      "title": "Detected changes on: ArcGIS Enterprise SDK Custom Data Feeds What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/enterprise-sdk/guide/custom-data-feeds/whats-new-12-1-cdf/",
+      "guid": "https://rss.rauljimenez.info/events/38",
+      "author": "",
+      "date": "2026-06-06T22:03:40.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise SDK Java What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/enterprise-sdk/guide/java/whats-new-12-1-java/",
+      "guid": "https://rss.rauljimenez.info/events/37",
+      "author": "",
+      "date": "2026-06-06T22:03:38.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise SDK .NET What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/enterprise-sdk/guide/net/whats-new-12-1-net/",
+      "guid": "https://rss.rauljimenez.info/events/36",
+      "author": "",
+      "date": "2026-06-06T22:03:37.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "UC 2026: A Developer’s Guide",
       "description": "",
