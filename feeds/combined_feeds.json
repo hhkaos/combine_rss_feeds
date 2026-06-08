@@ -1,7 +1,7 @@
 {
-  "title": "Combined ArcGIS Feeds (07-06-2026)",
+  "title": "Combined ArcGIS Feeds (08-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-07T00:26:43.482Z",
+  "lastUpdated": "2026-06-08T00:28:06.591Z",
   "items": [
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Custom Data Feeds What's New / Release notes Page",
@@ -34,6 +34,28 @@
       "date": "2026-06-06T22:03:37.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Editing and Exporting Data - YouTube",
+      "description": "... <b>api</b> #<b>arcgis javascript</b> #<b>arcgis javascript api</b> # ... <b>arcgis</b> koordinat #<b>arcgis</b> kotlin #<b>arcgis</b> kurdish #<b>arcgis</b> kurulum #<b>arcgis</b> kya hai.",
+      "link": "https://www.youtube.com/watch?v=iPcAaowc8Fk",
+      "guid": "tag:google.com,2013:googlealerts/feed:4444305993853517751",
+      "author": "",
+      "date": "2026-06-06T19:32:37.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Custom PyQt QGIS Plugins &amp; <b>ArcGIS</b> Pro .NET <b>SDK</b> Add-ins | GeoForger",
+      "description": "Unleash the full capability of <b>ArcGIS</b> Pro with native C# compiled .NET <b>SDK</b> add-ins. Enterprise GIS departments rely heavily on <b>Esri</b> suites. We build&nbsp;...",
+      "link": "https://geoforger.com/plugins",
+      "guid": "tag:google.com,2013:googlealerts/feed:347914505733185227",
+      "author": "",
+      "date": "2026-06-06T08:42:19.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
