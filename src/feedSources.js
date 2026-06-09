@@ -7,6 +7,7 @@ const curatedUrls = [
   'https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w', // GeoAI Smith (Rami Alouta)
   'https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A', // Josiah Parry
   'https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ', // Sean Stone
+  'https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ', // Final Draft Mapping
 
   // ArcGIS Blog
   'https://www.esri.com/arcgis-blog/products/developers/feed',
