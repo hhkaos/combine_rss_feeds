@@ -1,8 +1,85 @@
 {
-  "title": "Combined ArcGIS Feeds (09-06-2026)",
+  "title": "Combined ArcGIS Feeds (10-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-09T00:23:04.534Z",
+  "lastUpdated": "2026-06-10T00:28:56.491Z",
   "items": [
+    {
+      "title": "ArcGIS AI Assistants: Fundamentals | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=5QncCw2AK7E",
+      "guid": "yt:video:5QncCw2AK7E",
+      "author": "Esri Developers",
+      "date": "2026-06-09T16:00:26.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Part 1: Increasing Accessibility and Internationalization in your ArcGIS Apps",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/increasing-accessibility-and-internationalization-in-your-arcgis-apps",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2961267",
+      "author": "Kitty Hurley",
+      "date": "2026-06-09T14:15:02.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Part 2: Increasing Accessibility and Internationalization in your ArcGIS Apps",
+      "description": "Learn how to build accessible, multilingual ArcGIS apps using automated workflows, ArcGIS Arcade expressions, and localization best practices.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/part-2-increasing-accessibility-and-internationalization-in-your-arcgis-apps",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2964125",
+      "author": "Kitty Hurley",
+      "date": "2026-06-09T14:14:24.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "How to use <b>ArcGIS</b> Maps <b>SDK</b> in Expo / React Native? - GIS StackExchange",
+      "description": "... <b>ArcGIS</b> Maps <b>SDK</b> for Kotlin (Android) and Swift (iOS). ... The library is called expo-<b>arcgis</b> and exposes a declarative React <b>API</b> that mirrors the <b>ArcGIS</b>&nbsp;...",
+      "link": "https://gis.stackexchange.com/questions/500936/how-to-use-arcgis-maps-sdk-in-expo-react-native",
+      "guid": "tag:google.com,2013:googlealerts/feed:8140296599119706234",
+      "author": "",
+      "date": "2026-06-09T11:31:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        インストールガイドの空白など、軽微な修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>インストールガイドの空白など、軽微な修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/16f91d47953faf7d17a0b3cc7520d50f28c8d64c",
+      "guid": "tag:github.com,2008:Grit::Commit/16f91d47953faf7d17a0b3cc7520d50f28c8d64c",
+      "author": "",
+      "date": "2026-06-09T10:12:02.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Dissolve (Data Management) ArcGIS Pro Geoprocessing Tool in Action",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Vo0MmU-_jXE",
+      "guid": "yt:video:Vo0MmU-_jXE",
+      "author": "Final Draft Mapping",
+      "date": "2026-06-09T09:19:42.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Tabs の書き方を修正、Flutter のインストールガイドを更新し、リダイレクトを設定\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Tabs の書き方を修正、Flutter のインストールガイドを更新し、リダイレクトを設定</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/1941a2da3061113782297ce6b9610b1e1d560960",
+      "guid": "tag:github.com,2008:Grit::Commit/1941a2da3061113782297ce6b9610b1e1d560960",
+      "author": "",
+      "date": "2026-06-09T05:08:39.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "How do you want to customize the JS Maps SDK components?",
       "description": "<P><SPAN>Inform the roadmap for the JavaScript Maps SDK components by filling out this <A href=\"https://arcg.is/14yzvW1\" rel=\"noopener\">survey</A></SPAN></P>",
@@ -11,6 +88,17 @@
       "author": "JuliePowell",
       "date": "2026-06-08T20:34:55.000Z",
       "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Enhance Your Work with Esri Demographics Resources",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/esri-demographics/decision-support/enhance-your-work-with-esri-demographics-resources",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2969112",
+      "author": "Nicte Hernandez",
+      "date": "2026-06-08T17:16:52.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
       "sourceRelevanceMode": "trusted",
       "processed": false
     },
@@ -34,6 +122,17 @@
       "date": "2026-06-08T05:43:26.000Z",
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Adding Related Records Information to Popups in ArcGIS Online using the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=KFivFntnp2k",
+      "guid": "yt:video:KFivFntnp2k",
+      "author": "Final Draft Mapping",
+      "date": "2026-06-08T05:28:37.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
       "processed": false
     },
     {
