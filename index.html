@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="icon" href="data:,">
-    <title>Esri Dev. content - Activity Monitor</title>
+    <title>Combine RSS Feeds — Esri Dev Content Monitor</title>
+    <meta name="description" content="Combine multiple RSS feeds of Esri developer content into one, then review and filter the items before publishing to a curated feed.">
+    <link rel="canonical" href="https://www.rauljimenez.info/combine_rss_feeds/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Combine RSS Feeds — Esri Dev Content Monitor">
+    <meta property="og:description" content="Combine multiple RSS feeds of Esri developer content into one, then review and filter the items before publishing to a curated feed.">
+    <meta property="og:url" content="https://www.rauljimenez.info/combine_rss_feeds/">
+    <meta name="twitter:card" content="summary">
     <script>
       // Load the table
       try {
@@ -562,8 +569,15 @@
         }
 
         // Initialize the application
+        function stripUrlHash() {
+          if (!window.location.hash) return;
+          const cleanUrl = window.location.pathname + window.location.search;
+          history.replaceState(null, '', cleanUrl);
+        }
+
         async function initializeApp() {
           try {
+            stripUrlHash();
             const [items, feedStatus, feedHealthCheck, feedSources] = await Promise.all([
               loadFeed(),
               loadFeedStatus(),
@@ -1976,7 +1990,7 @@
     
     <div class="row">
       <div class="page-heading">
-        <h1>Auto-generated feed</h1>
+        <h1>Combine RSS Feeds — Esri Dev Content Monitor</h1>
       </div>
       <p class="subtitle">
         Review and filter incoming Esri Dev content here before it gets published to the
