@@ -1,8 +1,60 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (11-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-10T00:29:19.096Z",
+  "lastUpdated": "2026-06-11T00:31:34.345Z",
   "items": [
+    {
+      "title": "Deprecation notice: Branch Version Management widget in ArcGIS Experience Builder",
+      "description": "<P><EM>This information is from the <A href=\"https://www.esri.com/arcgis-blog/products/experience-builder/announcements/deprecation-notice-branch-version-management-widget-in-arcgis-experience-builder\" target=\"_blank\" rel=\"noopener\">blog</A> written by&nbsp;@alix vezina&nbsp;&nbsp;</EM></P><P>As ArcGIS continues to evolve, we regularly evaluate features to ensure we provide the most effective, modern tools for our users. As part of this effort, we are announcing the deprecation of the<SPAN>&nbsp;</SPAN><STRONG>Branch Version Management widget</STRONG><SPAN>&nbsp;</SPAN>in ArcGIS Experience Builder.</P><P>The Branch Version Management widget, which enables users to manage versions in branch versioned feature services—including switching versions, editing version properties, and performing management tasks such as create, assign, and delete—will be deprecated and retired on the following timeline:</P><P><STRONG>Deprecated:</STRONG></P><UL><LI>ArcGIS Enterprise 12.1 on May 21, 2026</LI><LI>ArcGIS Online June 2026 update</LI><LI>ArcGIS Experience Builder Developer Edition 1.21</LI></UL><P><STRONG>Retired:</STRONG></P><UL><LI>ArcGIS Enterprise 12.2</LI><LI>ArcGIS Online October 2026 update</LI><LI>ArcGIS Experience Builder Developer Edition 1.22</LI></UL>",
+      "link": "https://community.esri.com/t5/arcgis-experience-builder-blog/deprecation-notice-branch-version-management/ba-p/1707546",
+      "guid": "https://community.esri.com/t5/arcgis-experience-builder-blog/deprecation-notice-branch-version-management/ba-p/1707546",
+      "author": "SarahJaneOKeefe",
+      "date": "2026-06-10T22:29:21.000Z",
+      "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Full Stack Web Developer (React/<b>ArcGIS</b>) Avanceon Middle East &amp; South Asia - Naukrigulf",
+      "description": "... <b>API</b>). <b>ArcGIS</b> Integration: Implement complex mapping features using <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> (4.x), including 2D/3D visualizations, feature&nbsp;...",
+      "link": "https://www.naukrigulf.com/full-stack-web-developer-jobs-in-qatar-in-avanceon-middle-east-south-asia-3-to-5-years-n-cd-40001405-jid-100626500361",
+      "guid": "tag:google.com,2013:googlealerts/feed:6499571183271872737",
+      "author": "",
+      "date": "2026-06-10T16:19:22.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Enterprise: Cloud Deployment Options and Cloud-Native Services",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=cDvT_pF1REI",
+      "guid": "yt:video:cDvT_pF1REI",
+      "author": "Esri Developers",
+      "date": "2026-06-10T15:40:05.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Get Unique Attribute Values in ArcGIS Online using the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=20hlv8MG7Kk",
+      "guid": "yt:video:20hlv8MG7Kk",
+      "author": "Final Draft Mapping",
+      "date": "2026-06-10T10:54:16.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "ArcGIS AI Assistants: Fundamentals | #EsriDevTech2026",
       "description": "",
