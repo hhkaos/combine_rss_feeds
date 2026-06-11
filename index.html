@@ -665,6 +665,14 @@
               return;
             }
 
+            const copyButton = event.target.closest('[data-copy-title]');
+            if (copyButton) {
+              const row = copyButton.closest('tr');
+              const item = itemByDecisionId.get(row.dataset.decisionId);
+              if (item) copyTitleToClipboard(stripHtml(item.title), copyButton);
+              return;
+            }
+
             const button = event.target.closest('[data-action]');
             if (!button) return;
 
@@ -972,16 +980,62 @@
           </div>`;
         }
 
+        function stripHtml(value) {
+          const tmp = document.createElement('div');
+          tmp.innerHTML = String(value || '');
+          return (tmp.textContent || '').replace(/\s+/g, ' ').trim();
+        }
+
+        function copyTitleToClipboard(text, button) {
+          const value = text || '';
+          const onDone = () => {
+            const original = button.textContent;
+            button.textContent = '✓';
+            button.classList.add('copied');
+            setTimeout(() => {
+              button.textContent = original;
+              button.classList.remove('copied');
+            }, 1200);
+          };
+
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(value).then(onDone).catch(() => {});
+          } else {
+            const temp = document.createElement('textarea');
+            temp.value = value;
+            document.body.appendChild(temp);
+            temp.select();
+            try { document.execCommand('copy'); onDone(); } catch (error) {}
+            document.body.removeChild(temp);
+          }
+        }
+
+        function getDomain(url) {
+          try {
+            return new URL(url).hostname.replace(/^www\./, '');
+          } catch (error) {
+            return '';
+          }
+        }
+
         function getContentCellHtml(item) {
-          const title = escapeHtml(item.title || item.link || 'Untitled item');
+          const title = escapeHtml(stripHtml(item.title) || item.link || 'Untitled item');
           const link = item.link && item.link.toLowerCase() !== 'n/a'
             ? `<a href="${escapeHtml(item.link)}" target="_blank" class="emoji">${title}</a>`
             : title;
+          const domain = getDomain(item.link);
+          const domainLine = domain
+            ? `<div class="content-domain">${escapeHtml(domain)}</div>`
+            : '';
           const meta = item.ignored
             ? `<div class="auto-ignore-meta"><span>Auto ignored</span><span>${escapeHtml(item.ignoreReason || 'No reason recorded')}</span></div>`
             : '';
 
-          return `${link}${meta}`;
+          return `${link}${domainLine}${meta}`;
+        }
+
+        function getCopyCellHtml(item) {
+          return `<button type="button" class="copy-title-button" data-copy-title aria-label="Copy title to clipboard" title="Copy title">📋</button>`;
         }
 
         function exportDecisions() {
@@ -1099,7 +1153,7 @@
               const emptyRow = document.createElement('tr');
               const emptyCell = document.createElement('td');
               emptyCell.className = 'empty-state';
-              emptyCell.colSpan = 3;
+              emptyCell.colSpan = 4;
               emptyCell.textContent = `No ${currentReviewTab.replace('_', ' ')} items to review.`;
               emptyRow.appendChild(emptyCell);
               fragment.appendChild(emptyRow);
@@ -1115,14 +1169,9 @@
               row.dataset.status = status;
               row.dataset.reason = decision?.reason || '';
 
-              if(item.link && item.link.toLowerCase() != 'n/a'){
-                addCell(row, formatDate(item.date), { alignment: 'center' });
-                addCell(row, getContentCellHtml(item), { html: true });
-              }else{
-                addCell(row, formatDate(item.date), { alignment: 'center' });
-                addCell(row, getContentCellHtml(item), { html: true });
-              }
-
+              addCell(row, formatDate(item.date), { alignment: 'center' });
+              addCell(row, getContentCellHtml(item), { html: true });
+              addCell(row, getCopyCellHtml(item), { html: true, alignment: 'center', className: 'copy-cell' });
               addCell(row, getActionControls(item), { html: true, className: 'review-cell' });
               fragment.appendChild(row);
             });
@@ -1837,7 +1886,7 @@
         font-weight: 800;
         padding: 0.12rem 0.45rem;
       }
-      .feed-table td:nth-child(3){
+      .feed-table td:nth-child(4){
         min-width: 320px;
       }
       .feed-table td:nth-child(1){
@@ -1848,6 +1897,33 @@
       .feed-table td:nth-child(2){
         font-size: 1.02rem;
         max-width: 780px;
+      }
+      .content-domain{
+        margin-top: 2px;
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+      .copy-cell{
+        width: 48px;
+      }
+      .copy-title-button{
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1rem;
+        line-height: 1;
+        padding: 4px;
+        border-radius: 6px;
+        opacity: 0.7;
+        transition: opacity 0.15s ease, background 0.15s ease;
+      }
+      .copy-title-button:hover{
+        opacity: 1;
+        background: rgba(127, 127, 127, 0.15);
+      }
+      .copy-title-button.copied{
+        opacity: 1;
+        color: #2e7d32;
       }
       .review-cell{
         width: 330px;
@@ -1982,6 +2058,7 @@
           <tr>
             <th class="align-center" scope="col">Date</th>
             <th scope="col">Content</th>
+            <th class="align-center" scope="col">Copy</th>
             <th scope="col">
               <span class="decision-heading">
                 Decision
