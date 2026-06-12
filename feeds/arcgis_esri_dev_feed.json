@@ -1,8 +1,21 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (12-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-11T00:31:34.345Z",
+  "lastUpdated": "2026-06-12T00:32:00.863Z",
   "items": [
+    {
+      "title": "Querying Features from a Feature Layer in ArcGIS Online using the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=g9BGZ8TlEvQ",
+      "guid": "yt:video:g9BGZ8TlEvQ",
+      "author": "Final Draft Mapping",
+      "date": "2026-06-11T08:42:24.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Deprecation notice: Branch Version Management widget in ArcGIS Experience Builder",
       "description": "<P><EM>This information is from the <A href=\"https://www.esri.com/arcgis-blog/products/experience-builder/announcements/deprecation-notice-branch-version-management-widget-in-arcgis-experience-builder\" target=\"_blank\" rel=\"noopener\">blog</A> written by&nbsp;@alix vezina&nbsp;&nbsp;</EM></P><P>As ArcGIS continues to evolve, we regularly evaluate features to ensure we provide the most effective, modern tools for our users. As part of this effort, we are announcing the deprecation of the<SPAN>&nbsp;</SPAN><STRONG>Branch Version Management widget</STRONG><SPAN>&nbsp;</SPAN>in ArcGIS Experience Builder.</P><P>The Branch Version Management widget, which enables users to manage versions in branch versioned feature services—including switching versions, editing version properties, and performing management tasks such as create, assign, and delete—will be deprecated and retired on the following timeline:</P><P><STRONG>Deprecated:</STRONG></P><UL><LI>ArcGIS Enterprise 12.1 on May 21, 2026</LI><LI>ArcGIS Online June 2026 update</LI><LI>ArcGIS Experience Builder Developer Edition 1.21</LI></UL><P><STRONG>Retired:</STRONG></P><UL><LI>ArcGIS Enterprise 12.2</LI><LI>ArcGIS Online October 2026 update</LI><LI>ArcGIS Experience Builder Developer Edition 1.22</LI></UL>",
