@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (14-06-2026)",
+  "title": "Combined ArcGIS Feeds (15-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-14T00:27:24.293Z",
+  "lastUpdated": "2026-06-15T00:29:35.177Z",
   "items": [
+    {
+      "title": "Senior GIS Web Developer — React + ArcGIS Maps SDK - Jobs in Qatar - Jooble",
+      "description": "You will develop scalable web applications, utilize <b>ArcGIS Maps SDK for</b> JavaScript, and ensure user-centric design with the Esri Calcite Design System&nbsp;...",
+      "link": "https://qa.jooble.org/jdp/-8631047324031851470",
+      "guid": "tag:google.com,2013:googlealerts/feed:5335166462586149910",
+      "author": "",
+      "date": "2026-06-14T14:37:24.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 69 - Wait, what's the difference between a Skill and a Project?",
       "description": "A Skill is a repeatable task. A Project is reference material. Cowork is a Project that can use your computer. They aren't competing products; they are different places to put your context.",

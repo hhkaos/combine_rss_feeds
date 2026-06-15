@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T00:27:47.772Z",
+  "lastUpdated": "2026-06-15T00:30:35.012Z",
   "totalSources": 84,
   "sources": [
     {
@@ -19,10 +19,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:45.444Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:45.444Z",
+      "lastParsedAt": "2026-06-15T00:28:18.527Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:18.527Z",
       "latestEntryDate": "2026-06-12T05:02:49.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -42,10 +42,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:47.680Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:47.680Z",
+      "lastParsedAt": "2026-06-15T00:28:20.752Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:20.752Z",
       "latestEntryDate": "2026-05-01T03:59:53.000Z",
-      "inactiveDays": 43,
+      "inactiveDays": 44,
       "errors": []
     },
     {
@@ -65,10 +65,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:49.810Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:49.810Z",
+      "lastParsedAt": "2026-06-15T00:28:22.873Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:22.873Z",
       "latestEntryDate": "2024-10-31T21:00:15.000Z",
-      "inactiveDays": 590,
+      "inactiveDays": 591,
       "errors": []
     },
     {
@@ -88,10 +88,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:51.954Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:51.954Z",
+      "lastParsedAt": "2026-06-15T00:28:25.019Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:25.019Z",
       "latestEntryDate": "2026-05-07T20:37:43.000Z",
-      "inactiveDays": 37,
+      "inactiveDays": 38,
       "errors": []
     },
     {
@@ -111,10 +111,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:54.202Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:54.202Z",
+      "lastParsedAt": "2026-06-15T00:28:27.138Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:27.138Z",
       "latestEntryDate": "2026-04-29T11:00:20.000Z",
-      "inactiveDays": 45,
+      "inactiveDays": 46,
       "errors": []
     },
     {
@@ -134,10 +134,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:56.358Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:56.358Z",
+      "lastParsedAt": "2026-06-15T00:28:29.274Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:29.274Z",
       "latestEntryDate": "2024-06-27T21:47:51.000Z",
-      "inactiveDays": 716,
+      "inactiveDays": 717,
       "errors": []
     },
     {
@@ -157,10 +157,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:26:58.489Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:26:58.489Z",
+      "lastParsedAt": "2026-06-15T00:28:31.453Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:31.453Z",
       "latestEntryDate": "2026-04-29T15:51:59.000Z",
-      "inactiveDays": 45,
+      "inactiveDays": 46,
       "errors": []
     },
     {
@@ -180,10 +180,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:00.604Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:00.604Z",
+      "lastParsedAt": "2026-06-15T00:28:33.554Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:33.554Z",
       "latestEntryDate": "2026-06-12T08:48:33.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -203,10 +203,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:02.804Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:02.804Z",
+      "lastParsedAt": "2026-06-15T00:28:35.682Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:35.682Z",
       "latestEntryDate": "2026-06-12T14:02:40.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -226,10 +226,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:02.941Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:02.941Z",
+      "lastParsedAt": "2026-06-15T00:28:36.203Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:36.203Z",
       "latestEntryDate": "2026-05-21T16:20:00.000Z",
-      "inactiveDays": 23,
+      "inactiveDays": 24,
       "errors": []
     },
     {
@@ -249,10 +249,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:03.414Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:03.414Z",
+      "lastParsedAt": "2026-06-15T00:28:36.991Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:36.991Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -272,10 +272,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:03.803Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:03.803Z",
+      "lastParsedAt": "2026-06-15T00:28:37.369Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:37.369Z",
       "latestEntryDate": "2026-05-21T21:36:46.000Z",
-      "inactiveDays": 23,
+      "inactiveDays": 24,
       "errors": []
     },
     {
@@ -295,10 +295,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:04.167Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:04.167Z",
+      "lastParsedAt": "2026-06-15T00:28:37.741Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:37.741Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -318,10 +318,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:04.587Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:04.587Z",
+      "lastParsedAt": "2026-06-15T00:28:38.073Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:38.073Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -341,10 +341,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:04.934Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:04.934Z",
+      "lastParsedAt": "2026-06-15T00:28:38.969Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:38.969Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -364,10 +364,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:05.297Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:05.297Z",
+      "lastParsedAt": "2026-06-15T00:28:39.365Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:39.365Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -387,10 +387,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:05.730Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:05.730Z",
+      "lastParsedAt": "2026-06-15T00:28:39.686Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:39.686Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -410,10 +410,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:06.065Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:06.065Z",
+      "lastParsedAt": "2026-06-15T00:28:40.096Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:40.096Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -433,10 +433,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:06.440Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:06.440Z",
+      "lastParsedAt": "2026-06-15T00:28:40.488Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:40.488Z",
       "latestEntryDate": "2026-06-12T14:02:40.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -456,10 +456,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:06.893Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:06.893Z",
+      "lastParsedAt": "2026-06-15T00:28:40.851Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:40.851Z",
       "latestEntryDate": "2026-06-09T14:15:02.000Z",
-      "inactiveDays": 4,
+      "inactiveDays": 5,
       "errors": []
     },
     {
@@ -479,10 +479,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:07.370Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:07.370Z",
+      "lastParsedAt": "2026-06-15T00:28:41.233Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:41.233Z",
       "latestEntryDate": "2026-06-08T14:00:00.000Z",
-      "inactiveDays": 5,
+      "inactiveDays": 6,
       "errors": []
     },
     {
@@ -502,10 +502,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:07.712Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:07.712Z",
+      "lastParsedAt": "2026-06-15T00:28:41.718Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:41.718Z",
       "latestEntryDate": "2026-06-08T17:16:52.000Z",
-      "inactiveDays": 5,
+      "inactiveDays": 6,
       "errors": []
     },
     {
@@ -525,10 +525,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:08.085Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:08.085Z",
+      "lastParsedAt": "2026-06-15T00:28:42.127Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:42.127Z",
       "latestEntryDate": "2025-06-24T09:00:23.000Z",
-      "inactiveDays": 354,
+      "inactiveDays": 355,
       "errors": []
     },
     {
@@ -548,10 +548,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:08.469Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:08.469Z",
+      "lastParsedAt": "2026-06-15T00:28:42.477Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:42.477Z",
       "latestEntryDate": "2025-02-27T19:45:25.000Z",
-      "inactiveDays": 471,
+      "inactiveDays": 472,
       "errors": []
     },
     {
@@ -571,10 +571,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:08.802Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:08.802Z",
+      "lastParsedAt": "2026-06-15T00:28:42.955Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:42.955Z",
       "latestEntryDate": "2026-01-09T21:41:26.000Z",
-      "inactiveDays": 155,
+      "inactiveDays": 156,
       "errors": []
     },
     {
@@ -594,10 +594,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:09.193Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:09.193Z",
+      "lastParsedAt": "2026-06-15T00:28:43.414Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:43.414Z",
       "latestEntryDate": "2026-05-18T20:14:01.000Z",
-      "inactiveDays": 26,
+      "inactiveDays": 27,
       "errors": []
     },
     {
@@ -617,10 +617,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:09.588Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:09.588Z",
+      "lastParsedAt": "2026-06-15T00:28:43.847Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:43.847Z",
       "latestEntryDate": "2025-02-19T00:48:42.000Z",
-      "inactiveDays": 479,
+      "inactiveDays": 480,
       "errors": []
     },
     {
@@ -640,10 +640,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:09.929Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:09.929Z",
+      "lastParsedAt": "2026-06-15T00:28:44.181Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:44.181Z",
       "latestEntryDate": "2025-09-10T16:48:02.000Z",
-      "inactiveDays": 276,
+      "inactiveDays": 277,
       "errors": []
     },
     {
@@ -663,10 +663,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:10.247Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:10.247Z",
+      "lastParsedAt": "2026-06-15T00:28:44.464Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:44.464Z",
       "latestEntryDate": "2026-03-22T23:10:25.000Z",
-      "inactiveDays": 83,
+      "inactiveDays": 84,
       "errors": []
     },
     {
@@ -686,10 +686,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:10.621Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:10.621Z",
+      "lastParsedAt": "2026-06-15T00:28:44.827Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:44.827Z",
       "latestEntryDate": "2026-04-07T19:21:38.000Z",
-      "inactiveDays": 67,
+      "inactiveDays": 68,
       "errors": []
     },
     {
@@ -709,10 +709,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:11.151Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:11.151Z",
+      "lastParsedAt": "2026-06-15T00:28:45.377Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:45.377Z",
       "latestEntryDate": "2026-02-23T20:02:28.000Z",
-      "inactiveDays": 110,
+      "inactiveDays": 111,
       "errors": []
     },
     {
@@ -732,10 +732,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:11.477Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:11.477Z",
+      "lastParsedAt": "2026-06-15T00:28:45.720Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:45.720Z",
       "latestEntryDate": "2026-04-07T19:21:38.000Z",
-      "inactiveDays": 67,
+      "inactiveDays": 68,
       "errors": []
     },
     {
@@ -755,10 +755,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:11.790Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:11.790Z",
+      "lastParsedAt": "2026-06-15T00:28:46.067Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:46.067Z",
       "latestEntryDate": "2026-04-07T19:21:38.000Z",
-      "inactiveDays": 67,
+      "inactiveDays": 68,
       "errors": []
     },
     {
@@ -778,10 +778,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:12.127Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:12.127Z",
+      "lastParsedAt": "2026-06-15T00:28:46.433Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:46.433Z",
       "latestEntryDate": "2025-06-26T06:06:33.000Z",
-      "inactiveDays": 352,
+      "inactiveDays": 353,
       "errors": []
     },
     {
@@ -801,10 +801,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:12.429Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:12.429Z",
+      "lastParsedAt": "2026-06-15T00:28:46.714Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:46.714Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -824,10 +824,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:12.777Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:12.777Z",
+      "lastParsedAt": "2026-06-15T00:28:47.068Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:47.068Z",
       "latestEntryDate": "2026-06-02T17:00:18.000Z",
-      "inactiveDays": 11,
+      "inactiveDays": 12,
       "errors": []
     },
     {
@@ -847,10 +847,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:13.153Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:13.153Z",
+      "lastParsedAt": "2026-06-15T00:28:47.452Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:47.452Z",
       "latestEntryDate": "2026-04-03T09:00:20.000Z",
-      "inactiveDays": 71,
+      "inactiveDays": 72,
       "errors": []
     },
     {
@@ -870,10 +870,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:13.523Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:13.523Z",
+      "lastParsedAt": "2026-06-15T00:28:48.022Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:48.022Z",
       "latestEntryDate": "2025-08-21T18:10:57.000Z",
-      "inactiveDays": 296,
+      "inactiveDays": 297,
       "errors": []
     },
     {
@@ -893,10 +893,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:13.837Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:13.837Z",
+      "lastParsedAt": "2026-06-15T00:28:48.394Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:48.394Z",
       "latestEntryDate": "2026-02-23T17:42:57.000Z",
-      "inactiveDays": 110,
+      "inactiveDays": 111,
       "errors": []
     },
     {
@@ -916,10 +916,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:14.197Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:14.197Z",
+      "lastParsedAt": "2026-06-15T00:28:48.873Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:48.873Z",
       "latestEntryDate": "2025-06-24T01:35:55.000Z",
-      "inactiveDays": 354,
+      "inactiveDays": 355,
       "errors": []
     },
     {
@@ -939,10 +939,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:14.712Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:14.712Z",
+      "lastParsedAt": "2026-06-15T00:28:49.231Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:49.231Z",
       "latestEntryDate": "2025-07-01T00:11:24.000Z",
-      "inactiveDays": 348,
+      "inactiveDays": 349,
       "errors": []
     },
     {
@@ -962,10 +962,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:15.080Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:15.080Z",
+      "lastParsedAt": "2026-06-15T00:28:49.562Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:49.562Z",
       "latestEntryDate": "2025-05-14T14:55:20.000Z",
-      "inactiveDays": 395,
+      "inactiveDays": 396,
       "errors": []
     },
     {
@@ -985,10 +985,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:15.486Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:15.486Z",
+      "lastParsedAt": "2026-06-15T00:28:49.999Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:49.999Z",
       "latestEntryDate": "2026-06-12T14:02:40.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -1008,10 +1008,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:15.828Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:15.828Z",
+      "lastParsedAt": "2026-06-15T00:28:50.375Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:50.375Z",
       "latestEntryDate": "2026-06-01T17:23:49.000Z",
-      "inactiveDays": 12,
+      "inactiveDays": 13,
       "errors": []
     },
     {
@@ -1031,8 +1031,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:16.145Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:16.145Z",
+      "lastParsedAt": "2026-06-15T00:28:50.748Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:50.748Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1054,8 +1054,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:16.494Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:16.494Z",
+      "lastParsedAt": "2026-06-15T00:28:51.141Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:51.141Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1077,10 +1077,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:16.858Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:16.858Z",
+      "lastParsedAt": "2026-06-15T00:28:51.531Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:51.531Z",
       "latestEntryDate": "2025-02-28T08:16:18.000Z",
-      "inactiveDays": 470,
+      "inactiveDays": 471,
       "errors": []
     },
     {
@@ -1100,10 +1100,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:17.047Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:17.047Z",
+      "lastParsedAt": "2026-06-15T00:28:51.717Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:51.717Z",
       "latestEntryDate": "2026-05-28T22:06:00.000Z",
-      "inactiveDays": 16,
+      "inactiveDays": 17,
       "errors": []
     },
     {
@@ -1123,10 +1123,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:17.254Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:17.254Z",
+      "lastParsedAt": "2026-06-15T00:28:51.908Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:51.908Z",
       "latestEntryDate": "2026-04-28T15:41:18.000Z",
-      "inactiveDays": 46,
+      "inactiveDays": 47,
       "errors": []
     },
     {
@@ -1146,10 +1146,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:17.486Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:17.486Z",
+      "lastParsedAt": "2026-06-15T00:28:52.117Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:52.117Z",
       "latestEntryDate": "2026-06-09T10:12:02.000Z",
-      "inactiveDays": 4,
+      "inactiveDays": 5,
       "errors": []
     },
     {
@@ -1169,10 +1169,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:17.696Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:17.696Z",
+      "lastParsedAt": "2026-06-15T00:28:52.345Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:52.345Z",
       "latestEntryDate": "2026-05-19T19:47:15.000Z",
-      "inactiveDays": 25,
+      "inactiveDays": 26,
       "errors": []
     },
     {
@@ -1192,10 +1192,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:17.878Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:17.878Z",
+      "lastParsedAt": "2026-06-15T00:28:52.547Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:52.547Z",
       "latestEntryDate": "2025-09-04T20:09:17.000Z",
-      "inactiveDays": 282,
+      "inactiveDays": 283,
       "errors": []
     },
     {
@@ -1215,10 +1215,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:18.208Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:18.208Z",
+      "lastParsedAt": "2026-06-15T00:28:52.875Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:52.875Z",
       "latestEntryDate": "2026-04-07T14:53:48.000Z",
-      "inactiveDays": 67,
+      "inactiveDays": 68,
       "errors": []
     },
     {
@@ -1238,10 +1238,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:18.439Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:18.439Z",
+      "lastParsedAt": "2026-06-15T00:28:53.075Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:53.075Z",
       "latestEntryDate": "2026-06-02T02:21:54.000Z",
-      "inactiveDays": 11,
+      "inactiveDays": 12,
       "errors": []
     },
     {
@@ -1250,36 +1250,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
       "siteUrl": "https://community.esri.com/t5/arcgis-maps-sdks-native-blog/bg-p/arcgis-runtime-sdks-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:18.772Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:46.706Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:53.354Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:53.354Z",
       "latestEntryDate": "2026-06-05T09:26:15.000Z",
-      "inactiveDays": 8,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 9,
+      "errors": []
     },
     {
       "name": "ArcGIS Pro SDK Blog articles",
@@ -1287,36 +1273,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog",
       "siteUrl": "https://community.esri.com/t5/arcgis-pro-sdk-blog/bg-p/arcgis-pro-sdk-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.069Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:46.946Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:53.805Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:53.805Z",
       "latestEntryDate": "2026-04-29T19:54:56.000Z",
-      "inactiveDays": 45,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 46,
+      "errors": []
     },
     {
       "name": "ArcGIS JavaScript Maps SDK Blog articles",
@@ -1324,36 +1296,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
       "siteUrl": "https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/bg-p/arcgis-api-for-javascript-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.091Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.083Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:53.968Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:53.968Z",
       "latestEntryDate": "2026-06-08T20:34:55.000Z",
-      "inactiveDays": 5,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 6,
+      "errors": []
     },
     {
       "name": "ArcGIS Experience Builder Blog articles",
@@ -1361,36 +1319,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
       "siteUrl": "https://community.esri.com/t5/arcgis-experience-builder-blog/bg-p/arcgis-experience-builder-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.099Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.181Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:54.255Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:54.255Z",
       "latestEntryDate": "2026-06-10T22:29:21.000Z",
-      "inactiveDays": 3,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 4,
+      "errors": []
     },
     {
       "name": "ArcGIS AppStudio Blog articles",
@@ -1398,36 +1342,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog",
       "siteUrl": "https://community.esri.com/t5/arcgis-appstudio-blog/bg-p/arcgis-appstudio-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.106Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.263Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:54.536Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:54.536Z",
       "latestEntryDate": "2024-08-20T15:31:21.000Z",
-      "inactiveDays": 662,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 663,
+      "errors": []
     },
     {
       "name": "GeoDev Germany Blog articles",
@@ -1435,36 +1365,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog",
       "siteUrl": "https://community.esri.com/t5/geodev-germany-blog/bg-p/geodev-germany-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.114Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.433Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:54.821Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:54.821Z",
       "latestEntryDate": "2026-04-21T12:25:12.000Z",
-      "inactiveDays": 53,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 54,
+      "errors": []
     },
     {
       "name": "Python Blog articles",
@@ -1472,36 +1388,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
       "siteUrl": "https://community.esri.com/t5/python-blog/bg-p/python-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.121Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.536Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:55.143Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:55.143Z",
       "latestEntryDate": "2026-05-22T21:04:57.000Z",
-      "inactiveDays": 22,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 23,
+      "errors": []
     },
     {
       "name": "ArcGIS REST JS Blog articles",
@@ -1509,36 +1411,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog",
       "siteUrl": "https://community.esri.com/t5/arcgis-rest-js-blog/bg-p/arcgis-rest-js-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 3,
+      "processedItems": 3,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.129Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.651Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:55.484Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:55.484Z",
       "latestEntryDate": "2024-08-09T15:28:23.000Z",
-      "inactiveDays": 673,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 674,
+      "errors": []
     },
     {
       "name": "All Esri Technical Certification Exams posts",
@@ -1546,36 +1434,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams",
       "siteUrl": "https://community.esri.com/t5/esri-technical-certification-exams/bg-p/certification-exams",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.136Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.709Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:55.585Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:55.585Z",
       "latestEntryDate": "2026-06-12T22:39:32.000Z",
-      "inactiveDays": 1,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 2,
+      "errors": []
     },
     {
       "name": "Experience Builder Custom Widgets articles",
@@ -1583,36 +1457,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board",
       "siteUrl": "https://community.esri.com/t5/experience-builder-custom-widgets/tkb-p/eb-custom-widgetstkb-board",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.145Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:47.848Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:55.732Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:55.732Z",
       "latestEntryDate": "2026-06-11T19:33:33.000Z",
-      "inactiveDays": 2,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 3,
+      "errors": []
     },
     {
       "name": "Esri Tutorials Blog articles",
@@ -1620,36 +1480,22 @@
       "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog",
       "siteUrl": "https://community.esri.com/t5/esri-tutorials-blog/bg-p/learn-arcgis-blog",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 20,
+      "processedItems": 20,
       "fetchAttempts": 1,
-      "lastHttpStatus": 403,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-06-14T00:27:19.153Z",
-      "lastSuccessfulParseAt": "2026-06-13T00:30:48.016Z",
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-06-15T00:28:56.142Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:56.142Z",
       "latestEntryDate": "2026-05-19T21:41:02.000Z",
-      "inactiveDays": 25,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 403 Forbidden",
-          "attempts": 1,
-          "httpStatus": 403,
-          "responseHeaders": {
-            "content-type": "text/html",
-            "content-length": "919",
-            "server": "CloudFront",
-            "x-cache": "Error from cloudfront"
-          },
-          "bodyPreview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR: The request could not be satisfied</TITLE> </HEAD><BODY> <H1>403 ERROR</H1> <H"
-        }
-      ]
+      "inactiveDays": 26,
+      "errors": []
     },
     {
       "name": "Website Change Feed",
@@ -1668,10 +1514,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:19.160Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:19.160Z",
+      "lastParsedAt": "2026-06-15T00:28:56.399Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:56.399Z",
       "latestEntryDate": "2026-06-06T22:03:40.000Z",
-      "inactiveDays": 7,
+      "inactiveDays": 8,
       "errors": []
     },
     {
@@ -1691,8 +1537,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:19.743Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:19.743Z",
+      "lastParsedAt": "2026-06-15T00:28:56.796Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:56.796Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1714,10 +1560,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:19.894Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:19.894Z",
+      "lastParsedAt": "2026-06-15T00:28:56.940Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:56.940Z",
       "latestEntryDate": "2026-05-01T03:44:54.000Z",
-      "inactiveDays": 43,
+      "inactiveDays": 44,
       "errors": []
     },
     {
@@ -1737,10 +1583,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:20.082Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:20.082Z",
+      "lastParsedAt": "2026-06-15T00:28:57.122Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:57.122Z",
       "latestEntryDate": "2025-11-06T10:00:00.000Z",
-      "inactiveDays": 219,
+      "inactiveDays": 220,
       "errors": []
     },
     {
@@ -1760,10 +1606,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:20.199Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:20.199Z",
+      "lastParsedAt": "2026-06-15T00:28:57.205Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:57.205Z",
       "latestEntryDate": "2024-02-19T13:47:58.000Z",
-      "inactiveDays": 845,
+      "inactiveDays": 846,
       "errors": []
     },
     {
@@ -1783,10 +1629,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:20.700Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:20.700Z",
+      "lastParsedAt": "2026-06-15T00:28:57.596Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:57.596Z",
       "latestEntryDate": "2026-06-12T18:05:40.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -1806,10 +1652,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:21.048Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:21.048Z",
+      "lastParsedAt": "2026-06-15T00:28:57.683Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:57.683Z",
       "latestEntryDate": "2026-05-19T19:02:43.000Z",
-      "inactiveDays": 25,
+      "inactiveDays": 26,
       "errors": []
     },
     {
@@ -1829,10 +1675,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:21.175Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:21.175Z",
+      "lastParsedAt": "2026-06-15T00:28:57.738Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:57.738Z",
       "latestEntryDate": "2026-05-09T14:09:59.000Z",
-      "inactiveDays": 35,
+      "inactiveDays": 36,
       "errors": []
     },
     {
@@ -1852,10 +1698,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:21.518Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:21.518Z",
+      "lastParsedAt": "2026-06-15T00:28:58.100Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:58.100Z",
       "latestEntryDate": "2025-09-03T16:08:50.000Z",
-      "inactiveDays": 283,
+      "inactiveDays": 284,
       "errors": []
     },
     {
@@ -1875,10 +1721,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:21.830Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:21.830Z",
+      "lastParsedAt": "2026-06-15T00:28:58.359Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:58.359Z",
       "latestEntryDate": "2025-11-06T23:24:23.000Z",
-      "inactiveDays": 219,
+      "inactiveDays": 220,
       "errors": []
     },
     {
@@ -1898,10 +1744,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:22.338Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:22.338Z",
+      "lastParsedAt": "2026-06-15T00:28:58.873Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:58.873Z",
       "latestEntryDate": "2022-05-27T20:49:51.000Z",
-      "inactiveDays": 1478,
+      "inactiveDays": 1479,
       "errors": []
     },
     {
@@ -1921,10 +1767,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:22.493Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:22.493Z",
+      "lastParsedAt": "2026-06-15T00:28:59.038Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:59.038Z",
       "latestEntryDate": "2025-08-29T17:23:45.000Z",
-      "inactiveDays": 288,
+      "inactiveDays": 289,
       "errors": []
     },
     {
@@ -1944,10 +1790,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:22.853Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:22.853Z",
+      "lastParsedAt": "2026-06-15T00:28:59.412Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:59.412Z",
       "latestEntryDate": "2023-01-27T14:46:00.000Z",
-      "inactiveDays": 1233,
+      "inactiveDays": 1234,
       "errors": []
     },
     {
@@ -1967,10 +1813,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:23.039Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:23.039Z",
+      "lastParsedAt": "2026-06-15T00:28:59.634Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:59.634Z",
       "latestEntryDate": "2026-05-19T18:57:00.000Z",
-      "inactiveDays": 25,
+      "inactiveDays": 26,
       "errors": []
     },
     {
@@ -1990,10 +1836,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:23.276Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:23.276Z",
+      "lastParsedAt": "2026-06-15T00:28:59.755Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:28:59.755Z",
       "latestEntryDate": "2026-05-04T07:34:00.001Z",
-      "inactiveDays": 40,
+      "inactiveDays": 41,
       "errors": []
     },
     {
@@ -2002,22 +1848,31 @@
       "url": "https://learn.finaldraftmapping.com/feed/",
       "siteUrl": "https://learn.finaldraftmapping.com/",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "health": "ok",
-      "itemCount": 10,
-      "processedItems": 10,
-      "fetchAttempts": 1,
-      "lastHttpStatus": 200,
+      "status": "failed",
+      "health": "error",
+      "itemCount": 0,
+      "processedItems": 0,
+      "fetchAttempts": 3,
+      "lastHttpStatus": null,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 0,
+      "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:23.524Z",
+      "consecutiveFailures": 1,
+      "lastParsedAt": "2026-06-15T00:28:59.988Z",
       "lastSuccessfulParseAt": "2026-06-14T00:27:23.524Z",
       "latestEntryDate": "2026-06-07T06:42:11.000Z",
-      "inactiveDays": 6,
-      "errors": []
+      "inactiveDays": 7,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "fetch failed",
+          "attempts": 3,
+          "httpStatus": null,
+          "responseHeaders": {},
+          "bodyPreview": ""
+        }
+      ]
     },
     {
       "name": "Google Alert - (\"arcgis\" OR \"esri\") AND (\"SDK\" OR \"javascript\" OR \"API\") -site:esri.com -site:arcgis.com -\"ArcGIS API for JavaScript\"",
@@ -2036,10 +1891,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:24.154Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:24.154Z",
+      "lastParsedAt": "2026-06-15T00:29:35.030Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:29:35.030Z",
       "latestEntryDate": "2026-06-12T21:31:38.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -2059,8 +1914,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:24.218Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:24.218Z",
+      "lastParsedAt": "2026-06-15T00:29:35.073Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:29:35.073Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -2073,8 +1928,8 @@
       "relevanceMode": "strict",
       "status": "ok",
       "health": "ok",
-      "itemCount": 0,
-      "processedItems": 0,
+      "itemCount": 3,
+      "processedItems": 3,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
@@ -2082,10 +1937,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-06-14T00:27:24.261Z",
-      "lastSuccessfulParseAt": "2026-06-14T00:27:24.261Z",
-      "latestEntryDate": "2026-06-10T08:44:25.000Z",
-      "inactiveDays": 3,
+      "lastParsedAt": "2026-06-15T00:29:35.128Z",
+      "lastSuccessfulParseAt": "2026-06-15T00:29:35.128Z",
+      "latestEntryDate": "2026-06-14T14:37:24.000Z",
+      "inactiveDays": 0,
       "errors": []
     }
   ]
