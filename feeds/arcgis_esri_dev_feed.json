@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (15-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (16-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-15T00:30:34.952Z",
+  "lastUpdated": "2026-06-16T00:36:38.848Z",
   "items": [
+    {
+      "title": "Esri User Conference 2026",
+      "description": "I&#8217;ll be in a mad dash at the San Diego Convention Center the week of the Esri UC. If you are attending, and have nothing better to do, consider catching one of these sessions I get to be a part of with some fantastic colleagues and Ken! Basemaps Are Not Just the Background Basemaps are &#8230;",
+      "link": "https://adventuresinmapping.com/2026/06/15/esri-user-conference-2026/",
+      "guid": "https://adventuresinmapping.com/?p=8461",
+      "author": "John",
+      "date": "2026-06-15T20:33:39.000Z",
+      "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Field Apps: Integration and Automation | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=fgertaV0oKY",
+      "guid": "yt:video:fgertaV0oKY",
+      "author": "Esri Developers",
+      "date": "2026-06-15T14:00:33.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Senior GIS Web Developer — React + ArcGIS Maps SDK - Jobs in Qatar - Jooble",
       "description": "You will develop scalable web applications, utilize <b>ArcGIS Maps SDK for</b> JavaScript, and ensure user-centric design with the Esri Calcite Design System&nbsp;...",
