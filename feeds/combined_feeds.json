@@ -1,8 +1,63 @@
 {
-  "title": "Combined ArcGIS Feeds (16-06-2026)",
+  "title": "Combined ArcGIS Feeds (17-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-16T00:35:38.206Z",
+  "lastUpdated": "2026-06-17T00:33:01.936Z",
   "items": [
+    {
+      "title": "全栈网页开发人员（React/ArcGIS） - Avanceon MEA 招聘- 海拉拉",
+      "description": "我们正在寻找一位高技能的GIS Web开发人员，负责高性能地理空间应用的设计和实施。您将弥合复杂空间分析与现代用户界面之间的差距，利用<b>ArcGIS Maps SDK for</b>&nbsp;...",
+      "link": "https://hirelala.com/job/full-stack-web-developer-reactarcgis-54r1m7",
+      "guid": "tag:google.com,2013:googlealerts/feed:3987586269060082198",
+      "author": "",
+      "date": "2026-06-16T12:08:32.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        Flutter のページの更新・修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Flutter のページの更新・修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/21084a4a075bf98e2a20b4e57565aadf10a18c9b",
+      "guid": "tag:github.com,2008:Grit::Commit/21084a4a075bf98e2a20b4e57565aadf10a18c9b",
+      "author": "",
+      "date": "2026-06-16T10:30:51.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Swift のリダイレクトを修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Swift のリダイレクトを修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/f62efc575eb7c3a3620c2d05cbbcc44f8d2f0d28",
+      "guid": "tag:github.com,2008:Grit::Commit/f62efc575eb7c3a3620c2d05cbbcc44f8d2f0d28",
+      "author": "",
+      "date": "2026-06-16T10:26:56.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Swift のインストール ガイドにリダイレクトを設定\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Swift のインストール ガイドにリダイレクトを設定</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/083f34ddfcc75c75645be13e72cfc53ced102378",
+      "guid": "tag:github.com,2008:Grit::Commit/083f34ddfcc75c75645be13e72cfc53ced102378",
+      "author": "",
+      "date": "2026-06-16T10:26:05.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Swiftインストールガイド更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Swiftインストールガイド更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/9304f08642ed796f764ffe25421d232c2968d678",
+      "guid": "tag:github.com,2008:Grit::Commit/9304f08642ed796f764ffe25421d232c2968d678",
+      "author": "ej-ambo",
+      "date": "2026-06-16T09:19:59.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Esri User Conference 2026",
       "description": "I&#8217;ll be in a mad dash at the San Diego Convention Center the week of the Esri UC. If you are attending, and have nothing better to do, consider catching one of these sessions I get to be a part of with some fantastic colleagues and Ken! Basemaps Are Not Just the Background Basemaps are &#8230;",
@@ -12,6 +67,17 @@
       "date": "2026-06-15T20:33:39.000Z",
       "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Exploring the PDBe-KB Neo4j Schema with the PDBe Graph MCP Server - YouTube",
+      "description": "Automate <b>ArcGIS</b> Online Feature Service Workflows with the <b>ArcGIS API</b> for Python | A Complete Guide from Beginner to Advanced | Full Course. Final&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=pTWSxTzUmhg",
+      "guid": "tag:google.com,2013:googlealerts/feed:10394644304522637677",
+      "author": "",
+      "date": "2026-06-15T19:46:26.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
