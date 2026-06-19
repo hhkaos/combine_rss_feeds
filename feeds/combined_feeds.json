@@ -1,8 +1,96 @@
 {
-  "title": "Combined ArcGIS Feeds (18-06-2026)",
+  "title": "Combined ArcGIS Feeds (19-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-18T00:31:07.122Z",
+  "lastUpdated": "2026-06-19T00:34:14.127Z",
   "items": [
+    {
+      "title": "<b>ARCGIS</b> map - The Quad-City Times",
+      "description": "<b>ARCGIS</b> map. PROVIDED; Jun 18, 2026; 4 mins ago; 0. Prefer us on Google Learn ... Powered by <b>Esri</b>. Interstates. US Primary Routes. State Primary Routes.",
+      "link": "https://qctimes.com/html_d76099c5-aab5-471c-8754-20b6225e5ee8.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:1345402020903803064",
+      "author": "",
+      "date": "2026-06-18T17:26:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "What’s new in ArcGIS GeoAnalytics Engine 2.1",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/geoanalytics-engine/analytics/whats-new-in-arcgis-geoanalytics-engine-2-1",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2967783",
+      "author": "Priscilla Kim",
+      "date": "2026-06-18T16:30:39.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Harry Pamu - Curiosity as a Superpower",
+      "description": "<p>This week, we get to speak to <a href='https://www.linkedin.com/in/psriharsha/'>Harry Pamu</a>, Principal Software Dev at Esri!</p>\n<p>What happens when a software engineer turns every hobby into an obsession? Harry Pamu joins The Bounding Box to talk about AI, software development, cooking, continuous learning, and how curiosity has shaped both his career and personal growth.</p>\n<ul>\n<li><a href='https://wck.org/'>World Central Kitchen</a> - Harsha is part of their Chef Relief Corps and volunteered at Pasadena City college and Convention center helping prepare and distribute meals for the affected communities during the recent 2025 fires.</li>\n<li><a href='https://thestreetexplorer.com/'>Harsha Pamu</a> - Harry's portfolio site</li>\n</ul>\n<p>The Bounding Box merchandise is now available (including new mugs!), if you would like to support the show - <a href='https://the-bounding-box.printify.me/'>the-bounding-box.printify.me</a></p>\n<p>Visit <a href='https://odoe.net/'>odoe.net</a> for more information!</p>\n",
+      "link": "https://theboundingbox.podbean.com/e/harry-pamu-curiosity-as-a-superpower/",
+      "guid": "theboundingbox.podbean.com/242de6e2-66f6-3c1c-bf4b-c1e19acda7b7",
+      "author": "",
+      "date": "2026-06-18T09:00:00.000Z",
+      "sourceFeedUrl": "https://feed.podbean.com/theboundingbox/feed.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        .NET と Flutter ページの軽微な修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>.NET と Flutter ページの軽微な修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/bbedb79cfb66537cf289cbf2683fb0580ffb41be",
+      "guid": "tag:github.com,2008:Grit::Commit/bbedb79cfb66537cf289cbf2683fb0580ffb41be",
+      "author": "",
+      "date": "2026-06-18T08:44:54.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        .NET と Flutter ページの軽微な修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>.NET と Flutter ページの軽微な修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/cbcdbfeba294116b53522fb6aaadede5d710c72c",
+      "guid": "tag:github.com,2008:Grit::Commit/cbcdbfeba294116b53522fb6aaadede5d710c72c",
+      "author": "",
+      "date": "2026-06-18T08:34:46.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "is a Geographic Information System application for the Android platform provided by <b>Esri</b>. It ...",
+      "description": "The <b>ArcGIS</b> for Android application is built upon <b>Esri&#39;s ArcGIS</b> Runtime <b>SDK</b> for Android. This ... <b>API</b> branch into a maintenance phase. Its initial&nbsp;...",
+      "link": "https://baike.baidu.com/en/item/ArcGIS%20for%20Android/1674411",
+      "guid": "tag:google.com,2013:googlealerts/feed:10603137341886415544",
+      "author": "",
+      "date": "2026-06-18T04:22:03.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge branch 'master' of https://github.com/EsriJapan/arcgis-dev-reso…\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;master&#39; of https://github.com/EsriJapan/arcgis-dev-resources</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/22de841c88e1aa057a2c2d3589589f11e8e1b68d",
+      "guid": "tag:github.com,2008:Grit::Commit/22de841c88e1aa057a2c2d3589589f11e8e1b68d",
+      "author": "",
+      "date": "2026-06-18T01:33:55.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        .NET ページの更新、Flutter ページの修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>.NET ページの更新、Flutter ページの修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/99e82c16d766ee205b5ce21c22c27f58cddf0666",
+      "guid": "tag:github.com,2008:Grit::Commit/99e82c16d766ee205b5ce21c22c27f58cddf0666",
+      "author": "",
+      "date": "2026-06-18T01:33:41.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "@esri/arcgis-rest-portal@4.10.3",
       "description": "No content.",
@@ -111,6 +199,28 @@
       "date": "2026-06-17T23:15:42.000Z",
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "MapContent class move() method does not move a layer into a GroupLayer and errors #2513",
+      "description": "<b>Esri</b> / <b>arcgis</b>-python-<b>api</b> Public. Notifications You must be signed in to ... <b>ArcGIS</b>\\Pro\\bin\\Python\\envs\\arcgispro-py3\\Lib\\site-packages\\arcgis&nbsp;...",
+      "link": "https://github.com/Esri/arcgis-python-api/issues/2513",
+      "guid": "tag:google.com,2013:googlealerts/feed:12019053658101404231",
+      "author": "",
+      "date": "2026-06-17T19:23:38.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Boustead unit secures $60m Australian GIS deal - Singapore Business Review",
+      "description": "Please enable your <b>javascript</b>! Singapore Business ... The agreement covers the <b>Esri ArcGIS</b> system and after-sales software support services.",
+      "link": "https://sbr.com.sg/news/boustead-unit-secures-60m-australian-gis-deal",
+      "guid": "tag:google.com,2013:googlealerts/feed:1872070077508907995",
+      "author": "",
+      "date": "2026-06-17T15:24:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
