@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (27-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (28-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-27T00:26:34.310Z",
+  "lastUpdated": "2026-06-28T00:24:53.612Z",
   "items": [
+    {
+      "title": "Pentz Fire in Butte County: Forward spread stopped | abc10.com",
+      "description": "Unable to load https://buttecountygis.maps.<b>arcgis</b>.com/sharing/rest ... <b>JavaScript</b> if it is disabled in your browser. Unable to load next&nbsp;...",
+      "link": "https://www.abc10.com/article/news/local/wildfire/pentz-fire-butte-county-evacuations-maps-updates/103-c420ef72-a560-4943-8914-a182beee3784",
+      "guid": "tag:google.com,2013:googlealerts/feed:3678973747418330309",
+      "author": "",
+      "date": "2026-06-27T15:56:30.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "contenido no relacionado con Esri o tecnologías geoespaciales."
+    },
+    {
+      "title": "Dataminr Sharpens Real-Time AI Security Focus With <b>Esri</b> Integration, Cyber Threat ... - TipRanks",
+      "description": "... <b>Esri&#39;s ArcGIS</b> mapping environment. This connector is designed to ... PlansPlans &amp; PricingSmart Investor NewsletterSmart Dividend Newsletter<b>API</b> for&nbsp;...",
+      "link": "https://www.tipranks.com/news/private-companies/dataminr-sharpens-real-time-ai-security-focus-with-esri-integration-cyber-threat-tracking-and-new-risk-tools",
+      "guid": "tag:google.com,2013:googlealerts/feed:14207022765222106993",
+      "author": "",
+      "date": "2026-06-27T14:00:29.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Episode 71 - Ask Better Questions",
       "description": "Educate yourself enough to \"kinda get it,\" then ask good questions, then judge the output.",
@@ -12,6 +38,19 @@
       "date": "2026-06-26T22:08:24.000Z",
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Feature Effects | Claude Code Skill for GIS - MCP Market",
+      "description": "Master <b>ArcGIS Maps SDK for</b> JavaScript feature effects, filters, and blend modes. Elevate your GIS mapping with professional visual styles and&nbsp;...",
+      "link": "https://mcpmarket.com/zh/tools/skills/arcgis-feature-effects",
+      "guid": "tag:google.com,2013:googlealerts/feed:15023347437301914126",
+      "author": "",
+      "date": "2026-06-26T18:07:33.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
