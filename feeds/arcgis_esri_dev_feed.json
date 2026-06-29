@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-06-2026)",
+  "title": "ArcGIS ESRI Dev Feed (29-06-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-06-28T00:24:53.612Z",
+  "lastUpdated": "2026-06-29T00:26:32.485Z",
   "items": [
+    {
+      "title": "2026 <b>Esri</b> User Conference to Focus on Creating a More Intelligent World with GIS",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, The Science of Where, <b>ArcGIS</b> ... <b>API</b>&nbsp;...",
+      "link": "https://www.newswire.co.kr/newsRead.php?no=1037485",
+      "guid": "tag:google.com,2013:googlealerts/feed:3785403718965852827",
+      "author": "",
+      "date": "2026-06-28T07:31:39.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Map Generating Software | Ranked for 2026 - WifiTalents",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript. Feature layer querying tied to rendered content supports verification evidence for audit-ready maps. Visit&nbsp;...",
+      "link": "https://wifitalents.com/best/map-generating-software/",
+      "guid": "tag:google.com,2013:googlealerts/feed:14756342363663051269",
+      "author": "",
+      "date": "2026-06-28T03:52:35.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Pentz Fire in Butte County: Forward spread stopped | abc10.com",
       "description": "Unable to load https://buttecountygis.maps.<b>arcgis</b>.com/sharing/rest ... <b>JavaScript</b> if it is disabled in your browser. Unable to load next&nbsp;...",
