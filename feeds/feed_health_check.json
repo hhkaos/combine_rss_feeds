@@ -1,57 +1,105 @@
 {
-  "lastUpdated": "2026-05-28T08:01:00.927Z",
-  "ok": true,
-  "totalFeeds": 7,
-  "failedFeeds": 0,
+  "lastUpdated": "2026-07-02T11:49:17.371Z",
+  "ok": false,
+  "totalFeeds": 12,
+  "failedFeeds": 12,
+  "warningFeeds": 0,
   "checks": [
     {
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.642Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:38:45.056Z"
     },
     {
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.645Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:38:45.057Z"
     },
     {
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.639Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:38:45.086Z"
     },
     {
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.726Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:38:45.088Z"
     },
     {
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.802Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:44:01.294Z"
     },
     {
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.723Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:44:01.298Z"
     },
     {
-      "url": "https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog",
-      "ok": true,
-      "status": 200,
-      "attempts": 1,
-      "checkedAt": "2026-05-28T08:01:00.927Z"
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:44:01.296Z"
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:44:01.295Z"
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:49:17.371Z"
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:49:17.366Z"
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/message?board.id=eb-custom-widgetsblog-board&message.id=349",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:49:17.370Z"
+    },
+    {
+      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog",
+      "ok": false,
+      "status": 403,
+      "error": "Forbidden",
+      "attempts": 8,
+      "checkedAt": "2026-07-02T11:49:17.371Z"
     }
   ]
 }
