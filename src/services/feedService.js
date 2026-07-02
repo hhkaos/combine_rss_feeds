@@ -131,6 +131,18 @@ class FeedService {
     };
   }
 
+  isMonitoredChangeFeed(url) {
+    return url === 'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml';
+  }
+
+  getDedupKey({ link, guid, sourceFeedUrl }) {
+    if (this.isMonitoredChangeFeed(sourceFeedUrl) && guid) {
+      return `${sourceFeedUrl}#${guid}`;
+    }
+
+    return link;
+  }
+
   sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
@@ -585,7 +597,14 @@ Descripción: ${cleanDesc}`;
       console.log(`${colors.blue}Cargando feed JSON existente: ${jsonOutputPath}${colors.reset}`);
       const jsonFeed = loadJsonFeed(jsonOutputPath);
       existingItems = jsonFeed.items || [];
-      existingItems.forEach(item => seenUrls.add(item.link));
+      existingItems.forEach(item => {
+        const dedupKey = this.getDedupKey({
+          link: item.link,
+          guid: item.guid,
+          sourceFeedUrl: item.sourceFeedUrl
+        });
+        if (dedupKey) seenUrls.add(dedupKey);
+      });
       console.log(`${colors.green}Cargados ${existingItems.length} items existentes del JSON${colors.reset}`);
     }
 
@@ -682,13 +701,20 @@ Descripción: ${cleanDesc}`;
               continue;
             }
 
-            if (!seenUrls.has(cleanUrl)) {
-              seenUrls.add(cleanUrl);
+            const guid = item.guid || item.id || cleanUrl;
+            const dedupKey = this.getDedupKey({
+              link: cleanUrl,
+              guid,
+              sourceFeedUrl: url
+            });
+
+            if (!seenUrls.has(dedupKey)) {
+              seenUrls.add(dedupKey);
               allItems.push({
                 title: item.title,
                 description: rawDescription,
                 link: cleanUrl,
-                guid: item.guid || item.id || cleanUrl,
+                guid,
                 author: item.creator || item.author || '',
                 date: date.toISOString(),
                 sourceFeedUrl: url,
@@ -739,7 +765,10 @@ Descripción: ${cleanDesc}`;
       const cutoff = new Date();
       cutoff.setHours(cutoff.getHours() - filterLastHours);
       const before = allItems.length;
-      allItems = allItems.filter(item => new Date(item.date) >= cutoff);
+      allItems = allItems.filter(item => (
+        new Date(item.date) >= cutoff ||
+        this.isMonitoredChangeFeed(item.sourceFeedUrl)
+      ));
       console.log(`Filtradas ${before - allItems.length} entradas antiguas, quedan ${allItems.length}`);
     }
 

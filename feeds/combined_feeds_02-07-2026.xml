@@ -4,9 +4,9 @@
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>https://developers.arcgis.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jul 2026 00:26:24 GMT</lastBuildDate>
-        <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/combined_feeds_02-07-2026.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 02 Jul 2026 00:26:24 GMT</pubDate>
+        <lastBuildDate>Thu, 02 Jul 2026 11:25:17 GMT</lastBuildDate>
+        <atom:link href="/Users/ral97612/workspace/combine_rss_feeds/feeds/combined_feeds_02-07-2026.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 02 Jul 2026 11:25:17 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <item>
             <title><![CDATA[Empowering midwives through advocacy and engagement]]></title>
@@ -84,6 +84,13 @@
             <guid isPermaLink="false">yt:video:i5vo20y2NRY</guid>
             <dc:creator><![CDATA[Esri Developers]]></dc:creator>
             <pubDate>Wed, 01 Jul 2026 15:59:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Routing service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/routing/current-release/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/41</guid>
+            <pubDate>Wed, 01 Jul 2026 13:57:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -375,6 +382,20 @@ chore: add-ai-agents-utils-samples</pre>
             <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/d7e890417e37b039b8ca4eb45bbf365c5efbf2d9</guid>
             <dc:creator><![CDATA[manugadde]]></dc:creator>
             <pubDate>Thu, 25 Jun 2026 22:28:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/users-groups-and-items/whats-new-in-users-groups-and-items/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/40</guid>
+            <pubDate>Thu, 25 Jun 2026 22:14:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Geocoding service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/geocode/whats-new-world-geocoding-service/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/39</guid>
+            <pubDate>Thu, 25 Jun 2026 22:14:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -2095,6 +2116,13 @@ Add a complete Angular (NgModule-based) starter template integrating the ArcGIS 
             <pubDate>Thu, 28 May 2026 21:33:55 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Detected changes on: ArcGIS Routing service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/routing/current-release/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/35</guid>
+            <pubDate>Wed, 27 May 2026 22:12:26 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt]]></title>
             <description><![CDATA[<P>ArcGIS Maps SDK for Qt&nbsp;now supports&nbsp;S-63, which&nbsp;is the standard created by the&nbsp;IHO to protect the integrity of&nbsp;ENC data through encryption.</P>]]></description>
             <link>https://community.esri.com/t5/arcgis-maps-sdks-native-blog/introducing-s-63-encrypted-enc-support-in-arcgis/ba-p/1704677</link>
@@ -2221,6 +2249,13 @@ Add a complete Angular (NgModule-based) starter template integrating the ArcGIS 
             <pubDate>Fri, 22 May 2026 22:16:55 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/34</guid>
+            <pubDate>Fri, 22 May 2026 22:02:32 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Episode 66 - Don’t Tell Claude Who to Be]]></title>
             <description><![CDATA[Tell it what task it's doing and what scope it's working in. The "you are an expert" prompt is mostly cargo cult now; a list of NEVER statements is brittle.]]></description>
             <link>https://christophermoravec.com/episode-66-dont-tell-claude-who-to-be/</link>
@@ -2250,6 +2285,34 @@ Add a complete Angular (NgModule-based) starter template integrating the ArcGIS 
             <pubDate>Thu, 21 May 2026 22:50:04 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/33</guid>
+            <pubDate>Thu, 21 May 2026 22:11:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/users-groups-and-items/whats-new-in-users-groups-and-items/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/32</guid>
+            <pubDate>Thu, 21 May 2026 22:11:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Feature service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/feature-service/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/31</guid>
+            <pubDate>Thu, 21 May 2026 22:11:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Maps service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/map-service/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/30</guid>
+            <pubDate>Thu, 21 May 2026 22:11:19 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Dataset - Virginia Open Data Portal]]></title>
             <description><![CDATA[To view all records, please use the tabular version... 428 total views. HTML &middot; <b>ArcGIS</b> GeoServices REST <b>API</b> &middot; CSV &middot; ZIP &middot; GeoJSON &middot; KML &middot; Crime&nbsp;...]]></description>
             <link>https://data.virginia.gov/dataset/?_organization_limit=0&amp;res_format=ZIP&amp;sort=views_recent+desc&amp;organization=city-of-lynchburg-gis-portal</link>
@@ -2269,6 +2332,90 @@ Add a complete Angular (NgModule-based) starter template integrating the ArcGIS 
             <link>https://www.youtube.com/watch?v=ZAAoIeW_J20</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:13847324024273798970</guid>
             <pubDate>Thu, 21 May 2026 02:28:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS API for Python What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/python/latest/guide/release-notes-243/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/29</guid>
+            <pubDate>Wed, 20 May 2026 22:10:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: Mapping and location services guide What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/documentation/mapping-and-location-services/popular-topics/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/28</guid>
+            <pubDate>Wed, 20 May 2026 22:10:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: Arcade What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/arcade/guide/release-notes/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/27</guid>
+            <pubDate>Wed, 20 May 2026 22:10:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/26</guid>
+            <pubDate>Wed, 20 May 2026 22:10:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/users-groups-and-items/whats-new-in-users-groups-and-items/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/25</guid>
+            <pubDate>Wed, 20 May 2026 22:10:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/basemap-styles/release-notes/current-release/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/24</guid>
+            <pubDate>Wed, 20 May 2026 22:10:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Feature service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/feature-service/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/23</guid>
+            <pubDate>Wed, 20 May 2026 22:10:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Geocoding service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/geocode/whats-new-world-geocoding-service/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/22</guid>
+            <pubDate>Wed, 20 May 2026 22:10:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Maps service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/services-reference/enterprise/map-service/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/21</guid>
+            <pubDate>Wed, 20 May 2026 22:10:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Places service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/places/release-notes/current-release/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/20</guid>
+            <pubDate>Wed, 20 May 2026 22:10:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: ArcGIS Routing service What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/rest/routing/current-release/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/19</guid>
+            <pubDate>Wed, 20 May 2026 22:10:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detected changes on: Experience Builder What's New / Release notes Page]]></title>
+            <description><![CDATA[Change detected on monitored page.]]></description>
+            <link>https://developers.arcgis.com/experience-builder/guide/whats-new/</link>
+            <guid isPermaLink="false">https://rss.rauljimenez.info/events/18</guid>
+            <pubDate>Wed, 20 May 2026 22:10:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Web GIS Developer (<b>ArcGIS</b> / <b>JavaScript</b> / Python) with 0 - Foundit.in]]></title>
