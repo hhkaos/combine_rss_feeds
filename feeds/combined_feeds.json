@@ -1,8 +1,151 @@
 {
-  "title": "Combined ArcGIS Feeds (01-07-2026)",
+  "title": "Combined ArcGIS Feeds (02-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-01T00:26:57.839Z",
+  "lastUpdated": "2026-07-02T00:26:24.488Z",
   "items": [
+    {
+      "title": "Empowering midwives through advocacy and engagement",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/empowering-midwives-through-advocacy-and-engagement",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2614492",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:07:40.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "A Hub energizing internal collaboration",
+      "description": "Bill Parker and Travis Peterson, with Pacific Gas and Electric, share how they are driving collaboration across teams with Hub.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/a-hub-energizing-collaboration",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2583512",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:06:46.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Collaborating to Improve Communities with GIS",
+      "description": "George Nikokiris shares how his team is collaborating with communities to map their water supply lines to root out lead.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/collaborating-to-improve-communities-with-gis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2540522",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:05:39.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Engaging Residents with GIS",
+      "description": "Joseph Griffin shares how GIS helps engage residents to support environmental and safety programs.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/engaging-residents-with-gis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2463692",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:04:17.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Fostering Collaboration Among Members",
+      "description": "Jennifer Chapman, the President of NAGW shares how she fosters collaboration and knowledge sharing among her member community.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/fostering-collaboration-among-members",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2395772",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:03:36.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Building Engaging User Experiences",
+      "description": "Mike Gaigg, shares how thoughtful digital design (UX/UI) helps drive better engagement with communities and audiences.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/building-engaging-user-experiences",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2354622",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:02:10.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Equity for Improved Engagement",
+      "description": "Laura Sharp, PhD, shares how to capture residents’ perspectives and unique needs into the City of Tucson&#039;s decision-making processes.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/equity-for-improved-engagement",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2329232",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:01:42.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Engaging Volunteers for a Cause",
+      "description": "Shawnlei Breeding shares her strategies for engaging volunteers and stakeholders to help protect eagles across The State of Florida.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/engaging-volunteers-for-a-cause",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2311092",
+      "author": "Nick O'Day",
+      "date": "2026-07-01T18:00:20.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "A New Lens on School Enrollment",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis/analytics/a-new-lens-on-school-enrollment",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2967420",
+      "author": "Eddie Hunsinger",
+      "date": "2026-07-01T17:00:31.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDKs for Native Apps: An Overview and What's New | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=i5vo20y2NRY",
+      "guid": "yt:video:i5vo20y2NRY",
+      "author": "Esri Developers",
+      "date": "2026-07-01T15:59:09.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Maps SDK for JavaScript 5.1 更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Maps SDK for JavaScript 5.1 更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/e3d054865348a09257928f4ffd693570d26def47",
+      "guid": "tag:github.com,2008:Grit::Commit/e3d054865348a09257928f4ffd693570d26def47",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-01T01:43:08.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "CyArk Launches America 250 Tapestry Collection With Gaussian Splatting",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript 5.1 adds 3D analysis; shadow, slice, line of sight, and elevation profiles to Gaussian splat layers, moving them toward&nbsp;...",
+      "link": "https://radiancefields.com/cyark-launches-america-250-tapestry-collection-with-gaussian-splatting",
+      "guid": "tag:google.com,2013:googlealerts/feed:597663385897468544",
+      "author": "",
+      "date": "2026-06-30T20:07:21.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Rapid Mobile GIS Deployment for Gas Leaks and Inspections - Energy Central",
+      "description": "... <b>ArcGIS Maps SDK for</b> .NET. The app uses the Windows Presentation Foundation (WPF .NET) UI framework and was deployed on Hope&#39;s Windows 11 field&nbsp;...",
+      "link": "https://www.energycentral.com/intelligent-utility/post/rapid-mobile-gis-deployment-for-gas-leaks-and-inspections-wkTT30j7CPsfYdE",
+      "guid": "tag:google.com,2013:googlealerts/feed:18310178417867540082",
+      "author": "",
+      "date": "2026-06-30T19:46:00.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Ocean Career: Genwest Systems GIS Technical Architecture Specialist - ECO Magazine",
       "description": "Experience with front-end web mapping APIs (<b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>). Subject matter familiarity with environmental science, coastal&nbsp;...",
