@@ -1,8 +1,73 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (03-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-02T11:25:57.175Z",
+  "lastUpdated": "2026-07-03T00:24:13.137Z",
   "items": [
+    {
+      "title": "Detected changes on: Arcade What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/arcade/guide/release-notes/",
+      "guid": "https://rss.rauljimenez.info/events/42",
+      "author": "",
+      "date": "2026-07-02T22:11:46.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Celebrating America 250 with Casey Trees",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/field-mobility/celebrating-america-250-with-casey-trees",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2974629",
+      "author": "Summerlyn Bingaman",
+      "date": "2026-07-02T19:09:40.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Single Script Tag for ArcGIS Maps SDK for JavaScript",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=oSzsG5NfXn8",
+      "guid": "yt:video:oSzsG5NfXn8",
+      "author": "Esri Developers",
+      "date": "2026-07-02T14:52:32.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>ArcGIS</b> Field Maps - Apps Documentation",
+      "description": "... <b>esri</b> com/en us/<b>arcgis</b>/products/<b>arcgis</b> field maps/trial/sign up for ... <b>api</b> documentation https //developers <b>arcgis</b> com/<b>javascript</b>/latest/<b>api</b>&nbsp;...",
+      "link": "https://apps.make.com/arcgis-field-maps?ref=hitoritech.com",
+      "guid": "tag:google.com,2013:googlealerts/feed:8699086299216944923",
+      "author": "",
+      "date": "2026-07-01T23:31:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Call the Exterminator: Debugging Arcade",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-online/arcade/call-the-exterminator-debugging-arcade",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2972182",
+      "author": "Taylor McNeil",
+      "date": "2026-07-01T18:14:47.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Empowering midwives through advocacy and engagement",
       "description": "",
@@ -142,7 +207,9 @@
       "date": "2026-07-01T13:57:38.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "\n        Maps SDK for JavaScript 5.1 更新\n    ",
@@ -647,7 +714,9 @@
       "date": "2026-06-25T22:14:30.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -658,7 +727,9 @@
       "date": "2026-06-25T22:14:28.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "\n        chore: add-ai-agents-utils-samples\n    ",
@@ -2385,7 +2456,9 @@
       "date": "2026-05-27T22:12:26.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt",
@@ -2604,7 +2677,9 @@
       "date": "2026-05-22T22:02:32.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Episode 66 - Don’t Tell Claude Who to Be",
@@ -2667,7 +2742,9 @@
       "date": "2026-05-21T22:11:23.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -2678,7 +2755,9 @@
       "date": "2026-05-21T22:11:23.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Feature service What's New / Release notes Page",
@@ -2689,7 +2768,9 @@
       "date": "2026-05-21T22:11:21.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -2700,7 +2781,9 @@
       "date": "2026-05-21T22:11:19.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -2750,7 +2833,9 @@
       "date": "2026-05-20T22:10:16.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
@@ -2761,7 +2846,9 @@
       "date": "2026-05-20T22:10:14.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: Arcade What's New / Release notes Page",
@@ -2772,7 +2859,9 @@
       "date": "2026-05-20T22:10:12.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -2783,7 +2872,9 @@
       "date": "2026-05-20T22:10:11.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -2794,7 +2885,9 @@
       "date": "2026-05-20T22:10:10.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
@@ -2822,7 +2915,9 @@
       "date": "2026-05-20T22:10:09.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -2833,7 +2928,9 @@
       "date": "2026-05-20T22:10:08.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -2844,7 +2941,9 @@
       "date": "2026-05-20T22:10:07.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
@@ -2855,7 +2954,9 @@
       "date": "2026-05-20T22:10:06.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -2866,7 +2967,9 @@
       "date": "2026-05-20T22:10:05.000Z",
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
-      "processed": false
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
