@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (03-07-2026)",
+  "title": "Combined ArcGIS Feeds (04-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-03T00:23:47.072Z",
+  "lastUpdated": "2026-07-04T00:22:50.425Z",
   "items": [
+    {
+      "title": "FlowRenderer on a 3D Globe",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=kKLRm1RZiH4",
+      "guid": "yt:video:kKLRm1RZiH4",
+      "author": "Esri Developers",
+      "date": "2026-07-03T19:09:08.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Episode 72 - The Judge Pattern Goes to Washington",
+      "description": "To bring Claude Fable 5 back online, Anthropic paired it with a smaller model that screens what you ask and what Fable answers. That's the \"judge\" pattern!",
+      "link": "https://christophermoravec.com/episode-72-the-judge-pattern-goes-to-washington/",
+      "guid": "6a4735589f5b2b0001c46e52",
+      "author": "Christopher Moravec",
+      "date": "2026-07-03T18:10:23.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        ArcGIS Maps SDK for JavaScript 5.1 リリース対応\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ArcGIS Maps SDK for JavaScript 5.1 リリース対応</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/85ccfeec258f53ce598ca578f174f63a67107b43",
+      "guid": "tag:github.com,2008:Grit::Commit/85ccfeec258f53ce598ca578f174f63a67107b43",
+      "author": "EJ-Hiramatsu",
+      "date": "2026-07-03T05:29:29.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Detected changes on: Arcade What's New / Release notes Page",
       "description": "Change detected on monitored page.",
