@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (06-07-2026)",
+  "title": "Combined ArcGIS Feeds (07-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-06T00:23:26.607Z",
+  "lastUpdated": "2026-07-07T00:24:56.541Z",
   "items": [
+    {
+      "title": "ArcGIS Experience Builder at the 2026 Esri User Conference",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/announcements/uc-2026",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2974958",
+      "author": "Thomas Coughlin",
+      "date": "2026-07-06T20:37:44.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Esri の「The Science of Where」| Qt で構築",
+      "description": "<b>ArcGIS Maps SDK for</b> Qt. BUILT WITH Qt. Share this story. Esri は、地理情報システム（GIS）ソフトウェア、位置情報インテリジェンス、マッピング分野&nbsp;...",
+      "link": "https://www.qt.io/ja-jp/development/esri-built-with-qt?hsLang=ja-jp",
+      "guid": "tag:google.com,2013:googlealerts/feed:4518249507096265501",
+      "author": "",
+      "date": "2026-07-06T04:45:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Crack Arab Smallworld Gis No Virus | Full Package &amp; Keygen ID - YouTube",
       "description": "NEPLAN <b>API</b> - GIS interface with Smallworld solution. Neplan AG. 1.8K ... A Guide to Integrating with the <b>ArcGIS</b> Enterprise. FME Channel. 1.6K&nbsp;...",
