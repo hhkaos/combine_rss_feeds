@@ -76,6 +76,7 @@ const curatedUrls = [
   'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
   'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetsblog-board',
   'https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog',
+  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-location-platform-blog',
 
   // RSS Monitoring changes on some "Release notes" and "What's new pages"
   'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml',
