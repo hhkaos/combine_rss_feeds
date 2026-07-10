@@ -17,8 +17,7 @@
     "experience-builder",
     "calcite-design-system",
     "esri-leaflet",
-    "arcgis-rest-js",
-    "arcade"
+    "arcgis-rest-js"
   ],
   "keywordQueriesCreated": [
     "arcgis maps sdk",
