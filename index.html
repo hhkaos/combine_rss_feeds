@@ -210,8 +210,8 @@
           const column = FEED_SOURCE_COLUMNS.find(col => col.key === key);
           const type = column?.type || 'text';
           if (type === 'health') {
-            const order = { error: 0, warning: 1, ok: 2 };
-            return order[normalizeHealth(source.health)] ?? 3;
+            const order = { error: 0, warning: 1, manual: 2, ok: 3 };
+            return order[normalizeHealth(source.health)] ?? 4;
           }
           if (type === 'date') {
             const time = source[key] ? new Date(source[key]).getTime() : NaN;
@@ -285,10 +285,11 @@
             const health = normalizeHealth(source.health);
             acc[health] = (acc[health] || 0) + 1;
             return acc;
-          }, { ok: 0, warning: 0, error: 0 });
+          }, { ok: 0, warning: 0, error: 0, manual: 0 });
 
           section.classList.remove('hidden');
-          status.textContent = `ok: ${totals.ok} | warning: ${totals.warning} | error: ${totals.error}`;
+          status.textContent = `ok: ${totals.ok} | warning: ${totals.warning} | error: ${totals.error}`
+            + (totals.manual ? ` | manual: ${totals.manual}` : '');
 
           setupFeedSourcesControls();
           populateHttpFilterOptions();
@@ -367,9 +368,12 @@
               const feedUrl = escapeHtml(source.url);
               const siteUrl = source.siteUrl || deriveSiteUrl(source.url);
               const titleHref = escapeHtml(siteUrl || source.url);
-              const links = siteUrl
-                ? `<a href="${escapeHtml(siteUrl)}" target="_blank" rel="noreferrer">site</a> · <a href="${feedUrl}" target="_blank" rel="noreferrer">feed</a>`
-                : `<a href="${feedUrl}" target="_blank" rel="noreferrer">feed</a>`;
+              // Manual sources have no working feed URL, so only the board page is linked.
+              const links = healthClass === 'manual'
+                ? `<a href="${escapeHtml(siteUrl)}" target="_blank" rel="noreferrer">board</a>`
+                : siteUrl
+                  ? `<a href="${escapeHtml(siteUrl)}" target="_blank" rel="noreferrer">site</a> · <a href="${feedUrl}" target="_blank" rel="noreferrer">feed</a>`
+                  : `<a href="${feedUrl}" target="_blank" rel="noreferrer">feed</a>`;
               const healthReason = feedHealthReason(source);
               const healthNote = feedHealthNote(source);
               return `<tr>
@@ -425,6 +429,7 @@
         // separately in the "Inactive" column, so it never drives Health.
         // Mirrors the backend rule in src/index.js (writeFeedSources).
         function computeFeedHealth(source) {
+          if (source.status === 'manual') return 'manual';
           if (source.status === 'failed' || (source.consecutiveFailures || 0) >= 2) return 'error';
           if (source.status === 'partial') return 'warning';
           return 'ok';
@@ -434,6 +439,9 @@
         function feedHealthReason(source) {
           const health = normalizeHealth(source.health);
           if (health === 'ok') return 'Healthy: last fetch and parse succeeded.';
+          if (health === 'manual') {
+            return 'Not fetched by the pipeline. Its RSS feed is unavailable, so open the board and review new posts by hand.';
+          }
 
           const reasons = [];
           if (source.status === 'failed') reasons.push('Last fetch/parse failed');
@@ -449,6 +457,7 @@
         // Short inline note shown under the pill for non-ok feeds.
         function feedHealthNote(source) {
           if (normalizeHealth(source.health) === 'ok') return '';
+          if (source.status === 'manual') return 'review the board by hand';
           if (source.status === 'failed') {
             return source.lastHttpStatus ? `fetch failed · HTTP ${source.lastHttpStatus}` : 'fetch failed';
           }
@@ -458,7 +467,7 @@
         }
 
         function normalizeHealth(value) {
-          if (value === 'error' || value === 'warning' || value === 'ok') return value;
+          if (value === 'error' || value === 'warning' || value === 'manual' || value === 'ok') return value;
           return 'ok';
         }
 
@@ -1799,6 +1808,10 @@
         background: var(--danger-soft);
         color: var(--danger);
       }
+      .health-manual{
+        background: var(--primary-soft);
+        color: var(--primary);
+      }
       .review-controls{
         display: grid;
         gap: 0.5rem;
@@ -2221,6 +2234,7 @@
             <option value="ok">ok</option>
             <option value="warning">warning</option>
             <option value="error">error</option>
+            <option value="manual">manual</option>
           </select>
         </label>
         <label class="feed-sources-filter">

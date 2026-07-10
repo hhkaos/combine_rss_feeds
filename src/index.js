@@ -4,7 +4,7 @@ const { getDateString } = require('./utils/fileUtils');
 const { loadConfig } = require('./services/configService');
 const FeedService = require('./services/feedService');
 const { GithubDiscoveryService } = require('./services/githubDiscoveryService');
-const { getFeedSources, getMonitoredUrls } = require('./feedSources');
+const { getFeedSources, getManualCheckSources, getMonitoredUrls } = require('./feedSources');
 
 function buildFeedStatus(sourceReports, monitoredUrls) {
   const monitoredUrlSet = new Set(monitoredUrls);
@@ -223,10 +223,38 @@ function writeFeedSources(sources, sourceReports = []) {
     };
   });
 
+  // Fuentes que el pipeline no descarga (ver manualCheckSources): se publican
+  // con estado "manual" para que la interfaz las liste y se revisen a mano.
+  const manualSources = getManualCheckSources().map(source => ({
+    name: source.name,
+    feedTitle: source.name,
+    url: source.url,
+    siteUrl: source.siteUrl,
+    relevanceMode: source.relevanceMode || 'trusted',
+    status: 'manual',
+    health: 'manual',
+    itemCount: null,
+    processedItems: null,
+    fetchAttempts: null,
+    lastHttpStatus: null,
+    recoveredFromInvalidXml: false,
+    parseWarning: '',
+    errorCount: 0,
+    itemsWithoutDate: 0,
+    consecutiveFailures: 0,
+    lastParsedAt: null,
+    lastSuccessfulParseAt: null,
+    latestEntryDate: null,
+    inactiveDays: null,
+    errors: []
+  }));
+
+  const allSources = [...namedSources, ...manualSources];
+
   const payload = {
     lastUpdated: new Date().toISOString(),
-    totalSources: namedSources.length,
-    sources: namedSources
+    totalSources: allSources.length,
+    sources: allSources
   };
 
   fs.mkdirSync(path.dirname(sourcesPath), { recursive: true });
