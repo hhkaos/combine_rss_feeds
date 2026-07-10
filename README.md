@@ -115,6 +115,7 @@ Los archivos de configuracion estan en `config/`:
 - `social_media_urls.json`: dominios de redes sociales que se ignoran.
 - `banned_urls.json`: dominios o patrones de URL prohibidos, como portales de empleo, fuentes excluidas, portales open data y endpoints REST.
 - `ignore_rules.json`: reglas descriptivas usadas como referencia de clasificacion.
+- `github_discovery.json`: parametros del descubrimiento de repos GitHub (topics, ventanas, umbral de estrellas). Ver seccion "Descubrimiento de repositorios GitHub".
 
 Las fuentes RSS/Atom se editan en `src/feedSources.js`:
 
@@ -146,6 +147,53 @@ Modos soportados:
 
 Antes de llamar a OpenAI, el script mantiene items con senales fuertes de producto developer como `ArcGIS Maps SDK for JavaScript`, `ArcGIS Maps SDK for .NET`, `ArcGIS API for Python`, `ArcGIS REST JS`, `Esri Leaflet`, `Calcite Design System`, `ArcGIS Arcade`, `ArcPy` o `Experience Builder Developer Edition`, incluso si llegan con marcado HTML de Google Alerts.
 
+## Descubrimiento de repositorios GitHub
+
+Ademas de los feeds fijos, el pipeline descubre automaticamente repositorios nuevos de GitHub utiles para desarrolladores ArcGIS/Esri y los mete en el feed principal para revision humana. No monitoriza commits: solo repos nuevos, repos con traccion y, una vez aprobados, sus releases.
+
+Se ejecuta al principio de `npm start` (o de forma aislada con `npm run discover`). Si falla, el pipeline continua sin bloquearse.
+
+### Dos ejes de descubrimiento
+
+- **`created`**: repos recien publicados (`created:>fecha`). Sin umbral de estrellas, porque los repos nuevos nacen con 0.
+- **`pushed`**: repos con actividad reciente y traccion (`pushed:>fecha stars:>N`). El umbral de estrellas recorta el ruido.
+
+Ambos ejes se guian por *topics* de GitHub (`topic:arcgis`, `topic:experience-builder`, etc.) mas algunas queries de palabra clave. Los topics son la senal limpia: gente que etiqueta su repo suele ser desarrollador consciente.
+
+### Clasificacion devtool vs consumer
+
+Cada repo nuevo pasa por:
+
+1. **Prefiltro determinista** (sin tokens): descarta forks, archivados y repos sin descripcion ni topics.
+2. **Clasificacion OpenAI** con `gpt-4o-mini`, que devuelve JSON `{relevant, category, reason, summary}`:
+   - `category: "devtool"`: pensado para que otros desarrolladores lo reutilicen (libreria, widget, SDK, plugin, template, herramienta).
+   - `category: "consumer"`: app o demo orientada a usuario final, portfolio o proyecto puntual.
+   - `relevant: false`: se marca como ignorado y no aparece para revision.
+
+Los items relevantes entran al feed principal con `categories: ["repo", "repo:devtool"|"repo:consumer"]`, visibles como `<category>` en el RSS y como campo `categories` en el JSON. La fecha del item es `created_at` o `pushed_at` del repo, y no les afecta el filtro de 48 horas.
+
+### El modelo aprende tu criterio (few-shot)
+
+La clasificacion inyecta como ejemplos few-shot tus decisiones previas sobre repos de GitHub tomadas desde `data/curation_decisions.jsonl` (aceptados -> KEEP, rechazados -> IGNORE). Cuantas mas decisiones acumules revisando repos, mejor calca el modelo tu criterio, sin reentrenar nada. El numero de ejemplos se controla con `maxFewShotExamples`.
+
+### Releases de repos aprobados
+
+Cuando apruebas (`accepted`) un repo desde la pagina de revision, en la siguiente ejecucion su `releases.atom` se monitoriza automaticamente como fuente `trusted`. Asi las nuevas releases fluyen sin curacion adicional. Se desactiva con `monitorAcceptedReleases: false`.
+
+### Estado y configuracion
+
+- `data/github_repos_seen.json`: registro de repos ya vistos (dedup + estado). Se versiona en git para que el estado persista entre ejecuciones de CI. No lo borres o se reprocesaran todos.
+- `config/github_discovery.json`: topics, palabras clave, ventanas (`sinceDaysCreated`, `sinceDaysPushed`), umbral `minStarsPushed`, `maxReposPerQuery` y `requestDelayMs`. Ajusta aqui el criterio sin tocar codigo. Pon `enabled: false` para desactivar el descubrimiento.
+
+### Variables de entorno
+
+- `OPENAI_API_KEY`: sin ella, los repos no se clasifican (entran como `unknown` para revision manual).
+- `GITHUB_TOKEN` (o `GH_TOKEN`), opcional: sube el rate limit de la Search API de GitHub de 10 a 30 req/min. Sin token funciona igual, solo mas lento.
+
+### Volumen esperado
+
+Con los topics por defecto, el volumen humano de revision ronda 2-4 repos/dia las primeras semanas y baja a ~1-2/dia cuando el registro ya conoce lo existente. Ajustable subiendo/bajando topics y `minStarsPushed`.
+
 ## Flujo recomendado
 
 1. Actualiza fuentes o reglas si hace falta.
@@ -171,11 +219,12 @@ src/index.js                  Orquestacion del pipeline.
 src/feedSources.js            Lista compartida de fuentes y modos de relevancia.
 src/checkFeedHealth.js        Preflight HTTP 200 para feeds fallidos o todas las fuentes.
 src/services/feedService.js   Combinacion, deduplicado, reglas, OpenAI y escritura de feeds.
+src/services/githubDiscoveryService.js  Descubrimiento y clasificacion de repos GitHub.
 src/services/configService.js Carga de configuracion.
 src/utils/fileUtils.js        Utilidades de JSON, decisiones y fechas.
 src/utils/urlUtils.js         Limpieza de redirecciones y normalizacion de URLs.
 config/                       Reglas y patrones editables.
-data/                         Decisiones manuales de curacion.
+data/                         Decisiones manuales de curacion y registro de repos GitHub vistos.
 feeds/                        Feeds XML/JSON generados.
 news/                         Paginas HTML diarias e indice.
 index.html                    Monitor web de revision.

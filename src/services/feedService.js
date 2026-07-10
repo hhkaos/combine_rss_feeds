@@ -582,7 +582,7 @@ Descripción: ${cleanDesc}`;
 
   async combineFeeds(feedUrls, options) {
     console.log(`${colors.cyan}Iniciando combineFeeds con ${feedUrls.length} URLs${colors.reset}`);
-    const { title, description, outputPath, filterLastHours, processWithOpenAI, jsonOutputPath } = options;
+    const { title, description, outputPath, filterLastHours, processWithOpenAI, jsonOutputPath, extraItems } = options;
     const shouldUseOpenAI = Boolean(processWithOpenAI && this.hasOpenAI());
     const parser = new Parser();
     let allItems = [];
@@ -772,8 +772,25 @@ Descripción: ${cleanDesc}`;
       console.log(`Filtradas ${before - allItems.length} entradas antiguas, quedan ${allItems.length}`);
     }
 
+    // Merge pre-classified extra items (e.g. GitHub discovery). They bypass the
+    // time filter and arrive already processed/classified; dedup by feed key.
+    let freshExtraItems = [];
+    if (Array.isArray(extraItems) && extraItems.length > 0) {
+      freshExtraItems = extraItems.filter(item => {
+        const dedupKey = this.getDedupKey({
+          link: item.link,
+          guid: item.guid,
+          sourceFeedUrl: item.sourceFeedUrl
+        });
+        if (!dedupKey || seenUrls.has(dedupKey)) return false;
+        seenUrls.add(dedupKey);
+        return true;
+      });
+      console.log(`${colors.cyan}Añadidos ${freshExtraItems.length} items extra (de ${extraItems.length} recibidos) tras dedup${colors.reset}`);
+    }
+
     // Combine with existing items and sort newest first
-    const combinedItems = [...existingItems, ...allItems];
+    const combinedItems = [...existingItems, ...allItems, ...freshExtraItems];
     combinedItems.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     let manualDecisionCount = 0;
@@ -864,6 +881,7 @@ Descripción: ${cleanDesc}`;
         url: item.link,
         guid: item.guid,
         author: item.author,
+        categories: Array.isArray(item.categories) ? item.categories : [],
         date: item.date
       });
     });

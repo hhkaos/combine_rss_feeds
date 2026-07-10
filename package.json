@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "check:feeds": "node src/checkFeedHealth.js --failed-from feeds/feed_status.json",
-    "check:feeds:all": "node src/checkFeedHealth.js --all"
+    "check:feeds:all": "node src/checkFeedHealth.js --all",
+    "discover": "node src/services/githubDiscoveryService.js"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "sinceDaysCreated": 2,
+  "sinceDaysPushed": 7,
+  "minStarsPushed": 5,
+  "maxReposPerQuery": 30,
+  "requestDelayMs": 2500,
+  "maxFewShotExamples": 20,
+  "monitorAcceptedReleases": true,
+  "topics": [
+    "arcgis",
+    "arcgis-js-api",
+    "arcgis-maps-sdk",
+    "arcgis-python-api",
+    "arcgis-pro",
+    "arcgis-runtime",
+    "experience-builder",
+    "calcite-design-system",
+    "esri-leaflet",
+    "arcgis-rest-js",
+    "arcade"
+  ],
+  "keywordQueriesCreated": [
+    "arcgis maps sdk",
+    "arcgis experience builder widget"
+  ],
+  "keywordQueriesPushed": [
+    "arcgis maps sdk"
+  ],
+  "_comment": "Ejes de descubrimiento GitHub. 'created' capta repos nuevos (sin umbral de estrellas: nacen con 0). 'pushed' capta repos con traccion (minStarsPushed). Ajusta topics/umbral para cambiar criterio sin tocar codigo. Con GITHUB_TOKEN en el entorno sube el rate limit de la Search API de 10 a 30 req/min."
+}

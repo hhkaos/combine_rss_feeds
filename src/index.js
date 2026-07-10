@@ -3,6 +3,7 @@ const fs = require('fs');
 const { getDateString } = require('./utils/fileUtils');
 const { loadConfig } = require('./services/configService');
 const FeedService = require('./services/feedService');
+const { GithubDiscoveryService } = require('./services/githubDiscoveryService');
 const { getFeedSources, getMonitoredUrls } = require('./feedSources');
 
 function buildFeedStatus(sourceReports, monitoredUrls) {
@@ -244,8 +245,21 @@ async function main() {
   const config = loadConfig();
   const feedService = new FeedService(config);
 
-  // Combinar todos los feeds en un solo archivo
-  const allUrls = getFeedSources();
+  // Descubrir repos nuevos/releases en GitHub (no bloquea si falla)
+  let repoItems = [];
+  let releaseFeedUrls = [];
+  try {
+    const discovery = new GithubDiscoveryService();
+    const discoveryResult = await discovery.run();
+    repoItems = discoveryResult.items || [];
+    releaseFeedUrls = discoveryResult.releaseFeedUrls || [];
+  } catch (err) {
+    console.error('Descubrimiento GitHub falló:', err.message);
+  }
+
+  // Feeds base + releases.atom de repos aprobados (monitorización automática)
+  const releaseSources = releaseFeedUrls.map(url => ({ url, relevanceMode: 'trusted' }));
+  const allUrls = [...getFeedSources(), ...releaseSources];
 
   const { items: allItems, ignoredItems, sourceReports: allSourceReports } = await feedService.combineFeeds(allUrls, {
     title: `Combined ArcGIS Feeds (${dateStr})`,
@@ -262,7 +276,8 @@ async function main() {
     outputPath: path.join(__dirname, '../feeds', 'arcgis_esri_dev_feed.xml'),
     jsonOutputPath: path.join(__dirname, '../feeds', 'arcgis_esri_dev_feed.json'),
     filterLastHours: 48,
-    processWithOpenAI: true
+    processWithOpenAI: true,
+    extraItems: repoItems
   });
 
   writeFeedStatus(buildFeedStatus([
