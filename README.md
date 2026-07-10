@@ -115,6 +115,7 @@ Los archivos de configuracion estan en `config/`:
 - `social_media_urls.json`: dominios de redes sociales que se ignoran.
 - `banned_urls.json`: dominios o patrones de URL prohibidos, como portales de empleo, fuentes excluidas, portales open data y endpoints REST.
 - `ignore_rules.json`: reglas descriptivas usadas como referencia de clasificacion.
+- `review_reasons.json`: taxonomia unica de razones de curacion, agrupadas y con codigo estable (snake_case). Es la fuente de verdad del dropdown de razones en `index.html`, del vocabulario que emite el filtro determinista y el clasificador OpenAI (`ignoreReason`/`reason`), y del script de normalizacion. Flags por razon: `manual` (aparece en el dropdown de revision) y `llm` (el clasificador OpenAI puede devolver ese codigo). Para normalizar decisiones antiguas a los codigos canonicos: `node scripts/normalizeReasons.js` (usa `--dry-run` para previsualizar).
 - `github_discovery.json`: parametros del descubrimiento de repos GitHub (topics, ventanas, umbral de estrellas). Ver seccion "Descubrimiento de repositorios GitHub".
 
 Las fuentes RSS/Atom se editan en `src/feedSources.js`:

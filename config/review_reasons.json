@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "description": "Fuente única de verdad de las razones de curación. Cada razón tiene un código estable (snake_case) que se escribe en el campo `reason` de data/curation_decisions.jsonl y en `ignoreReason` del feed. `aliases` mapea etiquetas antiguas/texto libre al código canónico (sirve para normalizar decisiones ya existentes). Flags: `manual` (default true) = aparece en el dropdown de revisión de index.html; `llm` (default false) = el clasificador OpenAI puede devolver este código.",
+  "groups": [
+    {
+      "id": "relevance",
+      "label": "Relevancia / tema",
+      "hint": "El contenido no trata (o casi no trata) de tecnologías de desarrollo de Esri/ArcGIS.",
+      "reasons": [
+        {
+          "code": "irrelevant",
+          "label": "No relevante",
+          "desc": "No aporta valor para desarrolladores ArcGIS o su relación con el tema es demasiado débil.",
+          "llm": true,
+          "aliases": ["not_relevant", "Not relevant", "Not very relevant to ArcGIS developers"]
+        },
+        {
+          "code": "off_topic_arcgis_dev",
+          "label": "Fuera de tema (no es dev tech de ArcGIS)",
+          "desc": "El contenido no trata de tecnologías de desarrollo de Esri/ArcGIS (SDKs, APIs, herramientas geoespaciales).",
+          "llm": true,
+          "aliases": ["Not related with ArcGIS developer tehcnologies", "Not related with ArcGIS developer technologies"]
+        },
+        {
+          "code": "arcgis_only_reference",
+          "label": "ArcGIS solo como referencia secundaria",
+          "desc": "Las tecnologías de desarrollo de ArcGIS no están en el contenido principal, solo aparecen como enlace/mención de referencia.",
+          "llm": true,
+          "aliases": ["The ArcGIS developer technologies are not in the main content, just a reference link included in the site"]
+        },
+        {
+          "code": "wrong_esri",
+          "label": "Otro 'ESRI' (no Esri Inc.)",
+          "desc": "Contenido del Economic and Social Research Institute irlandés u otra entidad 'ESRI' distinta de Esri Inc.",
+          "llm": true,
+          "aliases": ["other_esri", "Other Esri"]
+        },
+        {
+          "code": "third_party_product",
+          "label": "Página de producto de terceros",
+          "desc": "Página de producto de un tercero, sin valor educativo ni relevancia real para desarrolladores ArcGIS.",
+          "aliases": ["Third party product page. Not educational or relevant for ArcGIS developers"]
+        }
+      ]
+    },
+    {
+      "id": "content_type",
+      "label": "Tipo de item excluido",
+      "hint": "Formato de contenido que no se quiere indexar aunque mencione ArcGIS.",
+      "reasons": [
+        {
+          "code": "job_offer",
+          "label": "Oferta de empleo",
+          "desc": "Vacante, anuncio de 'hiring', descripción de puesto o listado de jobs/careers.",
+          "llm": true,
+          "aliases": ["job_post", "Job post", "Oferta de trabajo"]
+        },
+        {
+          "code": "forum_question",
+          "label": "Foro / pregunta",
+          "desc": "Pregunta o hilo de comunidad (community.esri.com, StackExchange, Reddit, etc.).",
+          "llm": true,
+          "aliases": ["Forum/question", "Pregunta de comunidad o foro"]
+        },
+        {
+          "code": "dataset_or_rest_endpoint",
+          "label": "Dataset / endpoint API",
+          "desc": "Dataset de datos abiertos o endpoint de ArcGIS REST API (FeatureServer, MapServer, hub.arcgis.com/datasets).",
+          "llm": true,
+          "aliases": ["dataset_api", "Dataset/API", "Dataset de datos abiertos o REST endpoint"]
+        }
+      ]
+    },
+    {
+      "id": "duplicate",
+      "label": "Duplicado / reemplazado",
+      "hint": "Ya cubierto por otro item o superado por uno mejor.",
+      "reasons": [
+        {
+          "code": "duplicate",
+          "label": "Duplicado",
+          "desc": "El mismo contenido ya está añadido desde otra URL/fuente.",
+          "aliases": ["Duplicate", "Item duplicado"]
+        },
+        {
+          "code": "complementary_commit",
+          "label": "Commit/PR complementario a otro ya añadido",
+          "desc": "Commit o PR secundario de un cambio que ya se representó con otro item (p. ej. se aprobó el PR en vez del commit).",
+          "aliases": ["Complementary commit/PR to other already added", "There PR of this commit was the one approvecd", "The PR of this commit was the one approved"]
+        },
+        {
+          "code": "superseded_by_release",
+          "label": "Reemplazado por anuncio de release",
+          "desc": "Hubo un anuncio de nueva versión al mismo tiempo y se promocionó el release en su lugar.",
+          "aliases": ["There was a new release announcement right at the same time, so we promoted the new release instead"]
+        }
+      ]
+    },
+    {
+      "id": "minor",
+      "label": "Cambio menor / poco sustancial",
+      "hint": "Cambio real pero demasiado pequeño para merecer entrada propia.",
+      "reasons": [
+        {
+          "code": "minor_version",
+          "label": "Release de versión menor",
+          "desc": "Publicación de una versión menor/patch sin novedades relevantes para desarrolladores.",
+          "aliases": ["Minor version release"]
+        },
+        {
+          "code": "minor_edit",
+          "label": "Edición menor",
+          "desc": "Commit o actualización de copy/edición menor sin cambio sustancial de contenido.",
+          "aliases": ["This commit is a minor edit", "This update is a minor copy edit"]
+        },
+        {
+          "code": "not_major_contribution",
+          "label": "No es una contribución de código relevante",
+          "desc": "Commit/PR que no representa una contribución de código significativa.",
+          "aliases": ["Not a major code contribution"]
+        }
+      ]
+    },
+    {
+      "id": "spam",
+      "label": "Spam / publicidad / auto-generado",
+      "hint": "Fuentes de baja calidad, publicitarias o que reindexan/scrapean contenido ajeno.",
+      "reasons": [
+        {
+          "code": "spam_pdf",
+          "label": "Spam / PDF",
+          "desc": "Spam o PDF sin valor editorial.",
+          "aliases": ["Spam/PDF"]
+        },
+        {
+          "code": "ad_redirect",
+          "label": "Auto-redirect publicitario",
+          "desc": "URL que redirige automáticamente a publicidad.",
+          "aliases": ["Auto-redirect (advertising)"]
+        },
+        {
+          "code": "mfa_site",
+          "label": "Sitio MFA (Made For Advertising)",
+          "desc": "Sitio hecho para publicidad, con contenido de terceros scrapeado.",
+          "aliases": ["MFA Site (Made For Advertising) with scrapped third-party content"]
+        },
+        {
+          "code": "marketplace_autoindex",
+          "label": "Marketplace/store auto-indexando recursos Esri",
+          "desc": "Marketplace o tienda de terceros que auto-indexa recursos de Esri.",
+          "aliases": ["Third-party marketplace/store auto-indexing Esri resources"]
+        },
+        {
+          "code": "product_community_note",
+          "label": "Nota de comunidad de un producto de terceros",
+          "desc": "Community note generada por un producto construido con los ArcGIS Maps SDKs.",
+          "aliases": ["Community notes from an product built with the ArcGIS Maps SDKs"]
+        }
+      ]
+    },
+    {
+      "id": "stale",
+      "label": "Obsoleto",
+      "hint": "Contenido antiguo o sobre productos descontinuados.",
+      "reasons": [
+        {
+          "code": "old_content",
+          "label": "Contenido antiguo",
+          "desc": "Demasiado antiguo (>5 años) o desactualizado para ser útil hoy.",
+          "llm": true,
+          "aliases": ["Old content"]
+        },
+        {
+          "code": "deprecated_project",
+          "label": "Proyecto ArcGIS obsoleto/archivado",
+          "desc": "Se refiere a un proyecto/producto ArcGIS deprecado o archivado.",
+          "aliases": ["Refers to an ArcGIS deprecated/archived project"]
+        }
+      ]
+    },
+    {
+      "id": "auto_hard",
+      "label": "Reglas duras (solo automático)",
+      "hint": "Códigos que emite solo el filtro determinista; no aparecen en el dropdown manual.",
+      "reasons": [
+        {
+          "code": "social_media",
+          "label": "URL de red social",
+          "desc": "URL de una red social (X/Twitter, etc.) filtrada por social_media_urls.json.",
+          "manual": false,
+          "aliases": ["URL de red social"]
+        },
+        {
+          "code": "banned_url",
+          "label": "URL prohibida",
+          "desc": "URL en la lista banned_urls.json.",
+          "manual": false,
+          "aliases": ["URL prohibida"]
+        },
+        {
+          "code": "github_issue_pr",
+          "label": "Issue/PR de GitHub",
+          "desc": "URL de un issue o pull request de GitHub (github.com/.../issues|pull/N).",
+          "manual": false,
+          "aliases": ["Issue o pull request de GitHub"]
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "label": "Meta / proceso",
+      "hint": "Razones sobre el propio flujo de curación, no sobre el contenido.",
+      "reasons": [
+        {
+          "code": "bad_ai_classification",
+          "label": "Error del clasificador (falso positivo)",
+          "desc": "El clasificador automático se equivocó; corrección manual.",
+          "aliases": ["ai_miss", "AI miss"]
+        },
+        {
+          "code": "other",
+          "label": "Otro (texto libre)",
+          "desc": "No encaja en ninguna razón; explicar en notes.",
+          "aliases": ["Other"]
+        }
+      ]
+    }
+  ]
+}

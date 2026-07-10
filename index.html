@@ -22,24 +22,55 @@
         let decisionsHydrated = false;
         let itemByDecisionId = new Map();
         let ignoreDialogItem = null;
+        let selectedReasonGroupId = null;
         const PAGE_SIZE = 100;
         const DECISION_STORAGE_KEY = 'curationDecisionsV1';
         const CUSTOM_IGNORE_REASONS_KEY = 'customIgnoreReasonsV1';
         const REVIEW_STATUSES = ['accepted', 'rejected', 'needs_rule'];
         const ARCHIVED_STATUSES = ['archived'];
         const AUTO_IGNORED_STATUS = 'auto_ignored';
-        const IGNORE_REASONS = [
-          { value: 'irrelevant', label: 'Not relevant' },
-          { value: 'job_offer', label: 'Job post' },
-          { value: 'forum_question', label: 'Forum/question' },
-          { value: 'dataset_or_rest_endpoint', label: 'Dataset/API' },
-          { value: 'wrong_esri', label: 'Other Esri' },
-          { value: 'duplicate', label: 'Duplicate' },
-          { value: 'old_content', label: 'Old content' },
-          { value: 'spam_pdf', label: 'Spam/PDF' },
-          { value: 'bad_ai_classification', label: 'AI miss' },
-          { value: 'other', label: 'Other' }
+        // Fallback taxonomy. Replaced at runtime by config/review_reasons.json
+        // (single source of truth, see loadReasonGroups).
+        let REASON_GROUPS = [
+          { id: 'general', label: 'General', reasons: [
+            { value: 'irrelevant', label: 'Not relevant' },
+            { value: 'job_offer', label: 'Job post' },
+            { value: 'forum_question', label: 'Forum/question' },
+            { value: 'dataset_or_rest_endpoint', label: 'Dataset/API' },
+            { value: 'wrong_esri', label: 'Other Esri' },
+            { value: 'duplicate', label: 'Duplicate' },
+            { value: 'old_content', label: 'Old content' },
+            { value: 'spam_pdf', label: 'Spam/PDF' },
+            { value: 'bad_ai_classification', label: 'AI miss' },
+            { value: 'other', label: 'Other' }
+          ] }
         ];
+
+        async function loadReasonGroups() {
+          try {
+            const response = await fetch(`config/review_reasons.json?ts=${Date.now()}`, { cache: 'no-store' });
+            if (!response.ok) return;
+            const data = await response.json();
+            if (Array.isArray(data?.groups) && data.groups.length) {
+              REASON_GROUPS = data.groups
+                .map(group => ({
+                  id: group.id,
+                  label: group.label,
+                  hint: group.hint || '',
+                  reasons: (group.reasons || [])
+                    .filter(reason => reason.manual !== false)
+                    .map(reason => ({
+                      value: reason.code,
+                      label: reason.label,
+                      desc: reason.desc || ''
+                    }))
+                }))
+                .filter(group => group.reasons.length);
+            }
+          } catch (error) {
+            console.info('No review_reasons.json available; using built-in reasons.');
+          }
+        }
 
         // Load and process the JSON feed
         async function loadFeed() {
@@ -582,7 +613,8 @@
               loadFeed(),
               loadFeedStatus(),
               loadFeedHealthCheck(),
-              loadFeedSources()
+              loadFeedSources(),
+              loadReasonGroups()
             ]);
             renderFeedStatusAlert(feedStatus, feedHealthCheck);
             renderFeedSources(feedSources);
@@ -663,6 +695,20 @@
             }
           });
           document.querySelector('#ignoreReasonList').addEventListener('click', event => {
+            const groupButton = event.target.closest('[data-reason-group]');
+            if (groupButton) {
+              selectedReasonGroupId = groupButton.dataset.reasonGroup;
+              document.querySelector('#customReasonInput').value = '';
+              renderIgnoreReasons();
+              return;
+            }
+
+            if (event.target.closest('[data-reason-back]')) {
+              selectedReasonGroupId = null;
+              renderIgnoreReasons();
+              return;
+            }
+
             const button = event.target.closest('[data-ignore-reason]');
             if (!button || !ignoreDialogItem) return;
 
@@ -866,17 +912,29 @@
           event.target.value = '';
         }
 
-        function loadCustomIgnoreReasons() {
+        // Custom reasons are stored per group as { groupId: [label, ...] }.
+        // Older versions kept a flat array; migrate it into the "meta" group.
+        function loadCustomReasonMap() {
           try {
-            return JSON.parse(localStorage.getItem(CUSTOM_IGNORE_REASONS_KEY)) || [];
+            const raw = JSON.parse(localStorage.getItem(CUSTOM_IGNORE_REASONS_KEY));
+            if (Array.isArray(raw)) {
+              const migrated = raw.length ? { meta: [...raw] } : {};
+              saveCustomReasonMap(migrated);
+              return migrated;
+            }
+            return raw && typeof raw === 'object' ? raw : {};
           } catch (error) {
             console.error('Error loading custom ignore reasons:', error);
-            return [];
+            return {};
           }
         }
 
-        function saveCustomIgnoreReasons(reasons) {
-          localStorage.setItem(CUSTOM_IGNORE_REASONS_KEY, JSON.stringify(reasons));
+        function saveCustomReasonMap(map) {
+          localStorage.setItem(CUSTOM_IGNORE_REASONS_KEY, JSON.stringify(map));
+        }
+
+        function getCustomReasonsForGroup(groupId) {
+          return loadCustomReasonMap()[groupId] || [];
         }
 
         function decisionId(url) {
@@ -937,24 +995,60 @@
           return reasons[status] || 'other';
         }
 
-        function getIgnoreReasons() {
-          const customReasons = loadCustomIgnoreReasons().map(reason => ({
+        function reasonsForGroup(group) {
+          const base = (group.reasons || []).map(reason => ({
+            value: reason.value,
+            label: reason.label,
+            desc: reason.desc || '',
+            custom: false
+          }));
+          const custom = getCustomReasonsForGroup(group.id).map(reason => ({
             value: reason,
             label: reason,
+            desc: '',
             custom: true
           }));
-          return [...IGNORE_REASONS, ...customReasons];
+          return [...base, ...custom];
         }
 
+        function reasonButtonHtml(reason) {
+          const customAttr = reason.custom ? ' data-custom-reason="true"' : '';
+          const titleAttr = reason.desc ? ` title="${escapeHtml(reason.desc)}"` : '';
+          return `<button type="button" class="reason-button" data-ignore-reason="${escapeHtml(reason.value)}"${customAttr}${titleAttr}>${escapeHtml(reason.label)}</button>`;
+        }
+
+        // Step 1: pick a group. Step 2: pick a specific reason within it.
         function renderIgnoreReasons() {
-          document.querySelector('#ignoreReasonList').innerHTML = getIgnoreReasons().map(reason => {
-            const customLabel = reason.custom ? ' data-custom-reason="true"' : '';
-            return `<button type="button" class="reason-button" data-ignore-reason="${escapeHtml(reason.value)}"${customLabel}>${escapeHtml(reason.label)}</button>`;
-          }).join('');
+          const list = document.querySelector('#ignoreReasonList');
+          const customBlock = document.querySelector('#customReasonBlock');
+          const group = REASON_GROUPS.find(g => g.id === selectedReasonGroupId);
+
+          if (!group) {
+            selectedReasonGroupId = null;
+            const buttons = REASON_GROUPS.map(g => {
+              const hint = g.hint ? ` title="${escapeHtml(g.hint)}"` : '';
+              return `<button type="button" class="reason-group-button" data-reason-group="${escapeHtml(g.id)}"${hint}>${escapeHtml(g.label)}<span class="reason-group-count">${reasonsForGroup(g).length}</span></button>`;
+            }).join('');
+            list.innerHTML = `<div class="reason-step-hint">Pick a category</div><div class="reason-group-grid">${buttons}</div>`;
+            if (customBlock) customBlock.hidden = true;
+            return;
+          }
+
+          const buttons = reasonsForGroup(group).map(reasonButtonHtml).join('');
+          const hint = group.hint ? `<div class="reason-step-hint">${escapeHtml(group.hint)}</div>` : '';
+          list.innerHTML = `
+            <div class="reason-step-head">
+              <button type="button" class="reason-back" data-reason-back="true">← Categories</button>
+              <span class="reason-step-title">${escapeHtml(group.label)}</span>
+            </div>
+            ${hint}
+            <div class="reason-group-buttons">${buttons}</div>`;
+          if (customBlock) customBlock.hidden = false;
         }
 
         function openIgnoreDialog(item) {
           ignoreDialogItem = item;
+          selectedReasonGroupId = null;
           document.querySelector('#ignoreDialogTitle').innerText = item.title || 'Untitled item';
           document.querySelector('#customReasonInput').value = '';
           renderIgnoreReasons();
@@ -964,20 +1058,28 @@
         function closeIgnoreDialog() {
           document.querySelector('#ignoreDialog').close();
           ignoreDialogItem = null;
+          selectedReasonGroupId = null;
         }
 
+        // Adds a new specific reason to the currently selected group (step 2 only).
         function addCustomIgnoreReason() {
+          const group = REASON_GROUPS.find(g => g.id === selectedReasonGroupId);
+          if (!group) return;
+
           const input = document.querySelector('#customReasonInput');
           const reason = input.value.trim();
           if (!reason) return;
 
-          const existingReasons = loadCustomIgnoreReasons();
-          const alreadyExists = getIgnoreReasons().some(existingReason => (
-            existingReason.value.toLowerCase() === reason.toLowerCase()
+          const alreadyExists = reasonsForGroup(group).some(existing => (
+            existing.value.toLowerCase() === reason.toLowerCase() ||
+            existing.label.toLowerCase() === reason.toLowerCase()
           ));
 
           if (!alreadyExists) {
-            saveCustomIgnoreReasons([...existingReasons, reason].sort((a, b) => a.localeCompare(b)));
+            const map = loadCustomReasonMap();
+            const current = map[group.id] || [];
+            map[group.id] = [...current, reason].sort((a, b) => a.localeCompare(b));
+            saveCustomReasonMap(map);
           }
 
           input.value = '';
@@ -1785,6 +1887,104 @@
         border-color: #efa7aa;
         color: var(--danger);
       }
+      #ignoreReasonList{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+      }
+      .reason-group{
+        display: grid;
+        gap: 0.35rem;
+      }
+      .reason-group-label{
+        color: var(--muted);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .reason-group-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .reason-group-buttons .reason-button{
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        color: var(--text);
+        cursor: pointer;
+        font-weight: 700;
+        min-height: 34px;
+        padding: 0.35rem 0.65rem;
+      }
+      .reason-group-buttons .reason-button:hover{
+        background: var(--danger-soft);
+        border-color: #efa7aa;
+        color: var(--danger);
+      }
+      /* Two-step reason picker */
+      .reason-step-hint{
+        color: var(--muted);
+        font-size: 0.8rem;
+        margin-bottom: 0.15rem;
+      }
+      .reason-group-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.5rem;
+      }
+      .reason-group-button{
+        align-items: center;
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 12px;
+        color: var(--text);
+        cursor: pointer;
+        display: flex;
+        font-weight: 700;
+        gap: 0.5rem;
+        justify-content: space-between;
+        min-height: 44px;
+        padding: 0.5rem 0.75rem;
+        text-align: left;
+      }
+      .reason-group-button:hover{
+        background: var(--brand-soft, var(--danger-soft));
+        border-color: var(--brand, #6aa9ff);
+      }
+      .reason-group-count{
+        background: var(--border, #d7dde4);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.72rem;
+        font-weight: 700;
+        min-width: 1.4rem;
+        padding: 0.05rem 0.4rem;
+        text-align: center;
+      }
+      .reason-step-head{
+        align-items: center;
+        display: flex;
+        gap: 0.6rem;
+        margin-bottom: 0.15rem;
+      }
+      .reason-step-title{
+        font-size: 0.95rem;
+        font-weight: 700;
+      }
+      .reason-back{
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 999px;
+        cursor: pointer;
+        font-weight: 700;
+        min-height: 30px;
+        padding: 0.25rem 0.6rem;
+      }
+      .reason-back:hover{
+        background: var(--border, #eef1f4);
+      }
       .custom-reason{
         display: flex;
         gap: 0.5rem;
@@ -2105,10 +2305,10 @@
         <div id="ignoreReasonList" class="reason-buttons"></div>
       </div>
 
-      <div>
-        <p>Add a custom reason</p>
+      <div id="customReasonBlock" hidden>
+        <p>Add a new reason to this category</p>
         <div class="custom-reason">
-          <input id="customReasonInput" type="text" placeholder="Example: marketplace, press release, duplicated content..." />
+          <input id="customReasonInput" type="text" placeholder="Example: press release, sponsored post..." />
           <button type="button" id="addCustomReasonButton">Save reason</button>
         </div>
       </div>

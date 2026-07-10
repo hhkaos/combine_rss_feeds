@@ -49,6 +49,25 @@ class FeedService {
     this.curationDecisions = loadCurationDecisions(config.curationDecisionsPath || '');
     this.openai = null;
     this.openaiApiKey = process.env.OPENAI_API_KEY || '';
+
+    // Taxonomía de razones (config/review_reasons.json). Vocabulario compartido
+    // entre el filtro determinista, el clasificador OpenAI y la revisión manual.
+    this.reasonLabelByCode = new Map();
+    this.llmReasonCodes = [];
+    const groups = config.reviewReasons?.groups || [];
+    for (const group of groups) {
+      for (const reason of group.reasons || []) {
+        this.reasonLabelByCode.set(reason.code, reason.label);
+        if (reason.llm) this.llmReasonCodes.push(reason.code);
+      }
+    }
+    if (!this.llmReasonCodes.length) {
+      this.llmReasonCodes = [
+        'irrelevant', 'off_topic_arcgis_dev', 'arcgis_only_reference',
+        'job_offer', 'forum_question', 'dataset_or_rest_endpoint',
+        'wrong_esri', 'old_content'
+      ];
+    }
   }
 
   hasOpenAI() {
@@ -364,15 +383,15 @@ class FeedService {
     const url = item.link || '';
 
     if (this.isSocialMediaUrl(url)) {
-      return 'URL de red social';
+      return 'social_media';
     }
 
     if (this.isBannedUrl(url)) {
-      return 'URL prohibida';
+      return 'banned_url';
     }
 
     if (this.isJobOffer(item.title, item.description)) {
-      return 'Oferta de trabajo';
+      return 'job_offer';
     }
 
     try {
@@ -383,7 +402,7 @@ class FeedService {
         (hostname === 'github.com' || hostname.endsWith('.github.com')) &&
         /\/(issues|pull)\/\d+/i.test(pathname)
       ) {
-        return 'Issue o pull request de GitHub';
+        return 'github_issue_pr';
       }
 
       if (
@@ -393,7 +412,7 @@ class FeedService {
         hostname.endsWith('.reddit.com') ||
         (hostname === 'community.esri.com' && /\/td-p\//i.test(pathname))
       ) {
-        return 'Pregunta de comunidad o foro';
+        return 'forum_question';
       }
 
       const fullUrl = `${hostname}${pathname}`;
@@ -402,7 +421,7 @@ class FeedService {
         /\/datasets?\//i.test(fullUrl) ||
         /\b(FeatureServer|MapServer)\b/i.test(url)
       ) {
-        return 'Dataset de datos abiertos o REST endpoint';
+        return 'dataset_or_rest_endpoint';
       }
     } catch (err) {
       // Invalid URLs are handled elsewhere; do not ignore only because parsing failed here.
@@ -410,7 +429,7 @@ class FeedService {
 
     const text = this.buildItemText(item);
     if (/\b(Economic and Social Research Institute|Irish economy|Ireland|minimum wage Ireland|ESRI report)\b/i.test(text)) {
-      return 'ESRI irlandés (Economic and Social Research Institute)';
+      return 'wrong_esri';
     }
 
     return '';
@@ -512,16 +531,26 @@ Reglas para IGNORAR:
 6. Contenido del "Economic and Social Research Institute" irlandés (NO Esri Inc.); típicamente desde rte.ie, esri.ie.
 7. Contenido obsoleto (>5 años) o claramente desactualizado.
 
-Ejemplos:
-- "ArcGIS Developer Job - Harrisburg" → IGNORE: oferta de empleo
-- "How to use the ArcGIS Maps SDK for Kotlin" → KEEP
-- "Senior GIS Engineer @ Esri | AnitaB.org Job Board" → IGNORE: oferta de empleo
-- "AI use in Irish firms likely to lead to job losses - ESRI - RTE" → IGNORE: ESRI irlandés, no Esri Inc.
-- "How to fix this error in ArcGIS Pro? - community.esri.com" → IGNORE: pregunta de comunidad
-- "Releasing ArcGIS Maps SDK 200.6" → KEEP
-- "Open data: Madrid neighborhoods (FeatureServer)" → IGNORE: dataset/REST endpoint
+Códigos de razón válidos para IGNORE (usa exactamente uno):
+- off_topic_arcgis_dev: no trata de tecnologías de desarrollo de Esri/ArcGIS.
+- arcgis_only_reference: ArcGIS solo aparece como enlace/referencia secundaria, no en el contenido principal.
+- job_offer: oferta de empleo, vacante o listado de jobs/careers.
+- forum_question: pregunta o hilo de comunidad/foro.
+- dataset_or_rest_endpoint: dataset de datos abiertos o endpoint REST de ArcGIS.
+- wrong_esri: 'ESRI' irlandés (Economic and Social Research Institute), no Esri Inc.
+- old_content: contenido obsoleto (>5 años) o claramente desactualizado.
+- irrelevant: relacionado pero sin valor real para desarrolladores ArcGIS (usar como último recurso).
 
-Responde EXACTAMENTE con una sola palabra en mayúsculas: "IGNORE" o "KEEP", seguida opcionalmente de ": <razón breve>". Nada más.`;
+Ejemplos:
+- "ArcGIS Developer Job - Harrisburg" → IGNORE: job_offer
+- "How to use the ArcGIS Maps SDK for Kotlin" → KEEP
+- "Senior GIS Engineer @ Esri | AnitaB.org Job Board" → IGNORE: job_offer
+- "AI use in Irish firms likely to lead to job losses - ESRI - RTE" → IGNORE: wrong_esri
+- "How to fix this error in ArcGIS Pro? - community.esri.com" → IGNORE: forum_question
+- "Releasing ArcGIS Maps SDK 200.6" → KEEP
+- "Open data: Madrid neighborhoods (FeatureServer)" → IGNORE: dataset_or_rest_endpoint
+
+Responde EXACTAMENTE con "KEEP" o con "IGNORE: <code>", donde <code> es uno de: ${this.llmReasonCodes.join(', ')}. Nada más.`;
 
       const userMsg = `Modo de relevancia de la fuente: ${relevanceMode}
 Título: ${cleanTitle}
@@ -541,8 +570,10 @@ Descripción: ${cleanDesc}`;
       const raw = (response.choices[0].message.content || '').trim();
       const upper = raw.toUpperCase();
       if (upper.includes('IGNORE') && !upper.startsWith('KEEP')) {
-        const reason = raw.replace(/^[^a-zA-Z]*IGNORE[:\s-]*/i, '').trim();
-        return { ignored: true, reason: reason || 'matched ignore rule' };
+        const rest = raw.replace(/^[^a-zA-Z]*IGNORE[:\s-]*/i, '').trim();
+        const token = (rest.match(/[a-z_]+/i) || [''])[0].toLowerCase();
+        const reason = this.llmReasonCodes.includes(token) ? token : 'irrelevant';
+        return { ignored: true, reason };
       }
       return { ignored: false, reason: '' };
     } catch (err) {

@@ -64,19 +64,21 @@ const curatedUrls = [
   'https://github.com/Esri/maplibre-arcgis/releases.atom',
 
   // Blogs at Esri Community
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog',
-  'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetsblog-board',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog',
-  'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-location-platform-blog',
+  // Desactivados temporalmente 2026-07-10: Esri esta migrando community.esri.com
+  // y estos feeds RSS estan fallando. Reactivar cuando la migracion termine.
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetsblog-board',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog',
+  // 'https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-location-platform-blog',
 
   // RSS Monitoring changes on some "Release notes" and "What's new pages"
   'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml',
