@@ -4,10 +4,17 @@
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>https://developers.arcgis.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 00:24:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 11:32:31 GMT</lastBuildDate>
         <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/combined_feeds_10-07-2026.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Jul 2026 00:24:08 GMT</pubDate>
+        <pubDate>Fri, 10 Jul 2026 11:32:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[New <b>Esri</b> Press Book Shows That GIS Can Transform the Entire Campus, Starting at the Classroom]]></title>
+            <description><![CDATA[Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, The Science of Where, <b>esri</b> ... <b>API</b> &middot; MediaBeenew&nbsp;...]]></description>
+            <link>https://www.newswire.co.kr/newsRead.php?no=1038332</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:9869730349923514920</guid>
+            <pubDate>Fri, 10 Jul 2026 08:45:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Second Quarter 2026 Basemap Release Includes Over 170 New and Updated Communities]]></title>
             <link>https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/every-update-to-esris-basemaps-tells-a-story-of-collaboration</link>

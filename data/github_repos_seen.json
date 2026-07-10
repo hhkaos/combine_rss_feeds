@@ -1,0 +1,419 @@
+{
+  "lastRun": "2026-07-10T11:31:51.798Z",
+  "repos": {
+    "osbonilla/propuesta-proyecto": {
+      "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
+      "firstSeen": "2026-07-10T11:30:58.062Z",
+      "createdAt": "2026-07-10T04:50:52Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "muend/sentinel-crop-pipeline": {
+      "htmlUrl": "https://github.com/muend/sentinel-crop-pipeline",
+      "firstSeen": "2026-07-10T11:30:59.550Z",
+      "createdAt": "2026-07-09T10:31:32Z",
+      "axis": "created",
+      "stars": 1,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "edcfoshan/cadastral-to-vector": {
+      "htmlUrl": "https://github.com/edcfoshan/cadastral-to-vector",
+      "firstSeen": "2026-07-10T11:31:01.050Z",
+      "createdAt": "2026-07-09T04:11:38Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Endika/flipper-gurpil": {
+      "htmlUrl": "https://github.com/Endika/flipper-gurpil",
+      "firstSeen": "2026-07-10T11:31:02.009Z",
+      "createdAt": "2026-07-09T15:44:12Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "pinballwizz/ANTMINER-JailBreak": {
+      "htmlUrl": "https://github.com/pinballwizz/ANTMINER-JailBreak",
+      "firstSeen": "2026-07-10T11:31:03.285Z",
+      "createdAt": "2026-07-10T02:45:17Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "pinballwizz/ANTMINER-MoonPatrol": {
+      "htmlUrl": "https://github.com/pinballwizz/ANTMINER-MoonPatrol",
+      "firstSeen": "2026-07-10T11:31:04.890Z",
+      "createdAt": "2026-07-10T02:38:31Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "IntRUSTing-Games/rusty-dasher": {
+      "htmlUrl": "https://github.com/IntRUSTing-Games/rusty-dasher",
+      "firstSeen": "2026-07-10T11:31:07.192Z",
+      "createdAt": "2026-07-10T00:52:29Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "joelakaufmann-lgtm/depo-doom": {
+      "htmlUrl": "https://github.com/joelakaufmann-lgtm/depo-doom",
+      "firstSeen": "2026-07-10T11:31:08.189Z",
+      "createdAt": "2026-07-10T00:26:22Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "gabolondon/pixel-pulse": {
+      "htmlUrl": "https://github.com/gabolondon/pixel-pulse",
+      "firstSeen": "2026-07-10T11:31:09.178Z",
+      "createdAt": "2026-07-09T17:54:00Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "dima-sw/pi-arcade": {
+      "htmlUrl": "https://github.com/dima-sw/pi-arcade",
+      "firstSeen": "2026-07-10T11:31:10.394Z",
+      "createdAt": "2026-07-09T12:03:39Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "mglass222/rivet": {
+      "htmlUrl": "https://github.com/mglass222/rivet",
+      "firstSeen": "2026-07-10T11:31:13.126Z",
+      "createdAt": "2026-07-09T07:40:18Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Rudepro/RetroLegends": {
+      "htmlUrl": "https://github.com/Rudepro/RetroLegends",
+      "firstSeen": "2026-07-10T11:31:14.069Z",
+      "createdAt": "2026-07-09T00:35:41Z",
+      "axis": "created",
+      "stars": 1,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "mandalbitayan/Add-simple-point-layer-and-their-style": {
+      "htmlUrl": "https://github.com/mandalbitayan/Add-simple-point-layer-and-their-style",
+      "firstSeen": "2026-07-10T11:31:15.219Z",
+      "createdAt": "2026-07-09T10:54:13Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "retinho/sc-gis-geoadmin-search": {
+      "htmlUrl": "https://github.com/retinho/sc-gis-geoadmin-search",
+      "firstSeen": "2026-07-10T11:31:16.270Z",
+      "createdAt": "2026-07-09T13:21:54Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "42Web-kenya/ArcGIS-Pro-Resource-Kit": {
+      "htmlUrl": "https://github.com/42Web-kenya/ArcGIS-Pro-Resource-Kit",
+      "firstSeen": "2026-07-10T11:31:17.220Z",
+      "createdAt": "2026-05-26T21:37:38Z",
+      "axis": "pushed",
+      "stars": 54,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "Esri/arcgis-python-api": {
+      "htmlUrl": "https://github.com/Esri/arcgis-python-api",
+      "firstSeen": "2026-07-10T11:31:18.896Z",
+      "createdAt": "2016-03-16T01:09:14Z",
+      "axis": "pushed",
+      "stars": 2169,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "codeforpdx/pdxhub": {
+      "htmlUrl": "https://github.com/codeforpdx/pdxhub",
+      "firstSeen": "2026-07-10T11:31:19.776Z",
+      "createdAt": "2026-04-23T03:49:45Z",
+      "axis": "pushed",
+      "stars": 6,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Esri/arcgis-gitops": {
+      "htmlUrl": "https://github.com/Esri/arcgis-gitops",
+      "firstSeen": "2026-07-10T11:31:21.739Z",
+      "createdAt": "2024-02-02T18:52:14Z",
+      "axis": "pushed",
+      "stars": 30,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "muend/arcgis-mcp-bridge": {
+      "htmlUrl": "https://github.com/muend/arcgis-mcp-bridge",
+      "firstSeen": "2026-07-10T11:31:22.885Z",
+      "createdAt": "2026-06-09T21:52:43Z",
+      "axis": "pushed",
+      "stars": 6,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/cookiecutter-spatial-data-science": {
+      "htmlUrl": "https://github.com/Esri/cookiecutter-spatial-data-science",
+      "firstSeen": "2026-07-10T11:31:23.902Z",
+      "createdAt": "2019-01-25T20:12:44Z",
+      "axis": "pushed",
+      "stars": 42,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "ProSuite/ProSuite": {
+      "htmlUrl": "https://github.com/ProSuite/ProSuite",
+      "firstSeen": "2026-07-10T11:31:24.983Z",
+      "createdAt": "2020-05-27T14:58:35Z",
+      "axis": "pushed",
+      "stars": 11,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Asem-D/arcgis-portal-mcp": {
+      "htmlUrl": "https://github.com/Asem-D/arcgis-portal-mcp",
+      "firstSeen": "2026-07-10T11:31:25.910Z",
+      "createdAt": "2026-06-30T19:15:33Z",
+      "axis": "pushed",
+      "stars": 8,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "county-of-simcoe-gis/SimcoeCountyWebViewer": {
+      "htmlUrl": "https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer",
+      "firstSeen": "2026-07-10T11:31:26.976Z",
+      "createdAt": "2019-07-09T18:05:20Z",
+      "axis": "pushed",
+      "stars": 149,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "realiii/fudgeo": {
+      "htmlUrl": "https://github.com/realiii/fudgeo",
+      "firstSeen": "2026-07-10T11:31:28.833Z",
+      "createdAt": "2021-10-09T19:25:23Z",
+      "axis": "pushed",
+      "stars": 26,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "rcfdtools/R.LTWB": {
+      "htmlUrl": "https://github.com/rcfdtools/R.LTWB",
+      "firstSeen": "2026-07-10T11:31:29.810Z",
+      "createdAt": "2022-06-25T15:18:08Z",
+      "axis": "pushed",
+      "stars": 10,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "chris48s/arcgis2geojson": {
+      "htmlUrl": "https://github.com/chris48s/arcgis2geojson",
+      "firstSeen": "2026-07-10T11:31:30.802Z",
+      "createdAt": "2016-08-19T08:18:39Z",
+      "axis": "pushed",
+      "stars": 54,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-dotnet-samples": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-dotnet-samples",
+      "firstSeen": "2026-07-10T11:31:32.034Z",
+      "createdAt": "2014-03-22T08:34:25Z",
+      "axis": "pushed",
+      "stars": 461,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition": {
+      "htmlUrl": "https://github.com/villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition",
+      "firstSeen": "2026-07-10T11:31:32.873Z",
+      "createdAt": "2026-06-14T19:31:57Z",
+      "axis": "pushed",
+      "stars": 10,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "Esri/jsapi-resources": {
+      "htmlUrl": "https://github.com/Esri/jsapi-resources",
+      "firstSeen": "2026-07-10T11:31:34.011Z",
+      "createdAt": "2014-03-07T19:42:51Z",
+      "axis": "pushed",
+      "stars": 767,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-swift-samples": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-swift-samples",
+      "firstSeen": "2026-07-10T11:31:34.895Z",
+      "createdAt": "2022-03-28T21:26:17Z",
+      "axis": "pushed",
+      "stars": 44,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "BzGEO/GeoAI_compendium": {
+      "htmlUrl": "https://github.com/BzGEO/GeoAI_compendium",
+      "firstSeen": "2026-07-10T11:31:36.309Z",
+      "createdAt": "2025-07-07T20:04:19Z",
+      "axis": "pushed",
+      "stars": 14,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "CasualChampionships/arcade": {
+      "htmlUrl": "https://github.com/CasualChampionships/arcade",
+      "firstSeen": "2026-07-10T11:31:37.089Z",
+      "createdAt": "2023-03-31T19:00:06Z",
+      "axis": "pushed",
+      "stars": 16,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "jotego/jtcores": {
+      "htmlUrl": "https://github.com/jotego/jtcores",
+      "firstSeen": "2026-07-10T11:31:38.027Z",
+      "createdAt": "2018-04-14T14:58:12Z",
+      "axis": "pushed",
+      "stars": 309,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "froglet-studio/Cosmic-Shore": {
+      "htmlUrl": "https://github.com/froglet-studio/Cosmic-Shore",
+      "firstSeen": "2026-07-10T11:31:38.980Z",
+      "createdAt": "2022-04-22T02:52:53Z",
+      "axis": "pushed",
+      "stars": 8,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "bsv-blockchain/arcade": {
+      "htmlUrl": "https://github.com/bsv-blockchain/arcade",
+      "firstSeen": "2026-07-10T11:31:40.043Z",
+      "createdAt": "2025-11-10T16:37:11Z",
+      "axis": "pushed",
+      "stars": 8,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "remarkablegames/inversion": {
+      "htmlUrl": "https://github.com/remarkablegames/inversion",
+      "firstSeen": "2026-07-10T11:31:40.979Z",
+      "createdAt": "2022-01-29T23:08:40Z",
+      "axis": "pushed",
+      "stars": 14,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "ArcadeAI/arcade-mcp": {
+      "htmlUrl": "https://github.com/ArcadeAI/arcade-mcp",
+      "firstSeen": "2026-07-10T11:31:42.635Z",
+      "createdAt": "2024-04-26T22:25:48Z",
+      "axis": "pushed",
+      "stars": 953,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "MewoLab/AquaDX": {
+      "htmlUrl": "https://github.com/MewoLab/AquaDX",
+      "firstSeen": "2026-07-10T11:31:43.626Z",
+      "createdAt": "2023-11-15T05:20:23Z",
+      "axis": "pushed",
+      "stars": 553,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "MiSTerOrganize/MiSTer_Organize": {
+      "htmlUrl": "https://github.com/MiSTerOrganize/MiSTer_Organize",
+      "firstSeen": "2026-07-10T11:31:44.496Z",
+      "createdAt": "2025-02-12T19:27:26Z",
+      "axis": "pushed",
+      "stars": 51,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "topherCantrell/computerarcheology": {
+      "htmlUrl": "https://github.com/topherCantrell/computerarcheology",
+      "firstSeen": "2026-07-10T11:31:45.423Z",
+      "createdAt": "2014-10-03T15:22:13Z",
+      "axis": "pushed",
+      "stars": 53,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "finalburnneo/FBNeo": {
+      "htmlUrl": "https://github.com/finalburnneo/FBNeo",
+      "firstSeen": "2026-07-10T11:31:46.415Z",
+      "createdAt": "2019-04-29T12:25:11Z",
+      "axis": "pushed",
+      "stars": 1413,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "ArcadeAI/docs": {
+      "htmlUrl": "https://github.com/ArcadeAI/docs",
+      "firstSeen": "2026-07-10T11:31:47.592Z",
+      "createdAt": "2024-08-20T20:51:33Z",
+      "axis": "pushed",
+      "stars": 23,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "t3chnaztea/batocera-toolbox": {
+      "htmlUrl": "https://github.com/t3chnaztea/batocera-toolbox",
+      "firstSeen": "2026-07-10T11:31:48.447Z",
+      "createdAt": "2026-06-28T01:25:54Z",
+      "axis": "pushed",
+      "stars": 12,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "ArtemioUrbina/MDFourier": {
+      "htmlUrl": "https://github.com/ArtemioUrbina/MDFourier",
+      "firstSeen": "2026-07-10T11:31:49.607Z",
+      "createdAt": "2019-03-29T06:57:26Z",
+      "axis": "pushed",
+      "stars": 85,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "AhoyLemon/kinda.fun": {
+      "htmlUrl": "https://github.com/AhoyLemon/kinda.fun",
+      "firstSeen": "2026-07-10T11:31:50.900Z",
+      "createdAt": "2024-07-04T18:48:30Z",
+      "axis": "pushed",
+      "stars": 11,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Aunmag/shooter-rs": {
+      "htmlUrl": "https://github.com/Aunmag/shooter-rs",
+      "firstSeen": "2026-07-10T11:31:51.798Z",
+      "createdAt": "2020-07-08T14:20:51Z",
+      "axis": "pushed",
+      "stars": 34,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    }
+  }
+}

@@ -1,105 +1,1029 @@
 {
-  "lastUpdated": "2026-07-02T11:49:17.371Z",
-  "ok": false,
-  "totalFeeds": 12,
-  "failedFeeds": 12,
+  "lastUpdated": "2026-07-10T11:29:44.521Z",
+  "ok": true,
+  "totalFeeds": 70,
+  "failedFeeds": 0,
   "warningFeeds": 0,
   "checks": [
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-runtime-sdks-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:38:45.056Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.695Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "10006",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-pro-sdk-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:38:45.057Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.810Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "6415",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-api-for-javascript-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:38:45.086Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.840Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "2015",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCd4T7CHv1QlErDtO4PdugMA\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:38:45.088Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.794Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "2833",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-appstudio-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:44:01.294Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.807Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "8773",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=geodev-germany-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:44:01.298Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.953Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "5546",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCX78SUhrloA6Cn3aW_e8C_A\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:44:01.296Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.951Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "981",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UCOpTBxNvPEe5mHLrdDWdhkQ\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-rest-js-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:44:01.295Z"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:37.962Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "5991",
+        "cache-control": "public, max-age=900",
+        "server": "YouTube RSS Feeds server",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns=\"http://www.w3.org/2005/Atom\"> <link rel=\"self\" href=\"http://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ\"/> <"
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:49:17.371Z"
+      "url": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.250Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16810",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=eb-custom-widgetstkb-board",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:49:17.366Z"
+      "url": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.466Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16669",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/message?board.id=eb-custom-widgetsblog-board&message.id=349",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:49:17.370Z"
+      "url": "https://www.esri.com/arcgis-blog/products/api-python/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.447Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16619",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
     },
     {
-      "url": "https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog",
-      "ok": false,
-      "status": 403,
-      "error": "Forbidden",
-      "attempts": 8,
-      "checkedAt": "2026-07-02T11:49:17.371Z"
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro-net/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.471Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "14737",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-net/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.804Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "14249",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-flutter/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.803Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "13967",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-kotlin/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.900Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "14661",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/sdk-swift/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:38.841Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "14369",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/unity/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.153Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16200",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/unreal-engine/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.179Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "17409",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/category/developers/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.323Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16057",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.373Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "15265",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-location-services/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.585Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "17041",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.599Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "15374",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/batch-geocoding/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.740Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "15505",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/elevation-service/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:39.690Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "2691",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-vector-tile-style-editor/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.015Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "15670",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.122Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "17304",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/basemap-styles/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.025Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "7216",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/basemap-styles-service/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.075Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "5319",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/vector-basemaps/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.406Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "15383",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-geocoding-service/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.542Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16522",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/geocoding/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.425Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "14977",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-places-service/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.503Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "10037",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-geoenrichment-service/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.848Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16771",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcgis-places/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:40.774Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "5717",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/products/api-rest/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.022Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16488",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/calcite-design-system/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.075Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16802",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/api-for-python/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.140Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "12913",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/python-scripts/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.305Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "9864",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/devsummit/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.425Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "15252",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/developer-summit/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.515Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "17199",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/web-development/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.504Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16690",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/tag/arcpy/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.713Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16500",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/arcgis-blog/feed/?post_type=blog&product=developers",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.832Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "16830",
+        "cache-control": "max-age=0, no-cache, no-store",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:41.835Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "20804",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1"
+    },
+    {
+      "url": "https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.006Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "1057",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1"
+    },
+    {
+      "url": "https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.110Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "993",
+        "cache-control": "public, max-age=604800",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1"
+    },
+    {
+      "url": "https://medium.com/feed/geoai",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.057Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "cache-control": "private, must-revalidate, max-age=900",
+        "server": "cloudflare",
+        "cf-ray": "a18f3b6cbd8f28b3-MSP",
+        "cf-cache-status": "DYNAMIC",
+        "x-frame-options": "sameorigin",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\" xmlns:cc=\"http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html\"> <chann"
+    },
+    {
+      "url": "https://github.com/esri/developer-support/commits/master.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.201Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "16946",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:/Esri/developer-support/commits/master</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github.com/Esri/"
+    },
+    {
+      "url": "https://github.com/Esri/jsapi-resources/commits.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.288Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "18311",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:/Esri/jsapi-resources/commits/main</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github.com/Esri/jsap"
+    },
+    {
+      "url": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.409Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "16883",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:/EsriJapan/arcgis-dev-resources/commits/master</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github.c"
+    },
+    {
+      "url": "https://github.com/Esri/arcpy/commits.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.514Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "14995",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:/Esri/arcpy/commits/main</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github.com/Esri/arcpy/commits/"
+    },
+    {
+      "url": "https://github.com/Esri/esri-leaflet/releases.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.671Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "10304",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:https://github.com/Esri/esri-leaflet/releases</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github.co"
+    },
+    {
+      "url": "https://github.com/Esri/arcgis-rest-js/releases.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.554Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "7433",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:https://github.com/Esri/arcgis-rest-js/releases</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github."
+    },
+    {
+      "url": "https://github.com/Esri/maplibre-arcgis/releases.atom",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.749Z",
+      "responseHeaders": {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "content-length": "15118",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "server": "github.com",
+        "x-frame-options": "deny",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xml:lang=\"en-US\"> <id>tag:github.com,2008:https://github.com/Esri/maplibre-arcgis/releases</id> <link type=\"text/html\" rel=\"alternate\" href=\"https://github"
+    },
+    {
+      "url": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.086Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=utf-8",
+        "server": "cloudflare",
+        "cf-ray": "a18f3b71b93a4cab-MSP",
+        "cf-cache-status": "DYNAMIC"
+      },
+      "bodyPreview": "<?xml version='1.0' encoding='utf-8'?> <?xml-stylesheet type=\"text/css\" href=\"/arcgis-whats-new-changes.xml?view=xml-stylesheet\"?> <rss version=\"2.0\"><channel><title>Website Change Feed</title><link>https://rss.rauljimenez.info/arcgis-whats-new-changes.xml</link><description>Dail"
+    },
+    {
+      "url": "https://rss.rauljimenez.info/arcgis-whats-new-monitor-health.xml",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.077Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=utf-8",
+        "server": "cloudflare",
+        "cf-ray": "a18f3b71bdb3511c-MSP",
+        "cf-cache-status": "DYNAMIC"
+      },
+      "bodyPreview": "<?xml version='1.0' encoding='utf-8'?> <?xml-stylesheet type=\"text/css\" href=\"/arcgis-whats-new-monitor-health.xml?view=xml-stylesheet\"?> <rss version=\"2.0\"><channel><title>Website Change Feed Monitor Health</title><link>https://rss.rauljimenez.info/arcgis-whats-new-monitor-healt"
+    },
+    {
+      "url": "https://feed.podbean.com/theboundingbox/feed.xml",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:42.766Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=UTF-8",
+        "content-length": "19974",
+        "server": "Podbean",
+        "x-cache": "HIT",
+        "x-frame-options": "DENY"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!-- generator=\"podbean/5.5\" --> <rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:spotify=\"http://www.spotify."
+    },
+    {
+      "url": "https://odoe.net/rss.xml",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.032Z",
+      "responseHeaders": {
+        "content-type": "application/xml",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "server": "cloudflare",
+        "cf-ray": "a18f3b72db22accf-MSP",
+        "cf-cache-status": "DYNAMIC"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"><channel><title>odoenet</title><description>Geodev and web development</description><link>https://odoe.net/</link><item><title>Shadow DOM and Slots in ArcGIS Map Components</title><link>https://odoe.net/blog/shadow-dom-slot"
+    },
+    {
+      "url": "https://highearthorbit.com/feed/",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.043Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "content-length": "29866",
+        "cache-control": "max-age=172800",
+        "server": "Apache"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://christophermoravec.com/rss/",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.231Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=utf-8",
+        "content-length": "69469",
+        "cache-control": "public, max-age=0",
+        "server": "openresty",
+        "x-cache": "MISS, HIT, HIT"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title><![CDATA[Almost Entir"
+    },
+    {
+      "url": "https://adventuresinmapping.com/feed/",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.172Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "cache-control": "max-age=300, must-revalidate",
+        "server": "nginx"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
+    },
+    {
+      "url": "https://dev.to/feed/gisfromscratch",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.487Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "24206",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: Jan Tschada</title> <description>The latest articles on DEV Community by Jan Tschada (@gisfromscratch).<"
+    },
+    {
+      "url": "https://dev.to/feed/hhkaos",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.450Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "25662",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: Raul Jimenez Ortega</title> <description>The latest articles on DEV Community by Raul Jimenez Ortega (@h"
+    },
+    {
+      "url": "https://dev.to/feed/odoenet",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.752Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "38866",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: Rene Rubalcava</title> <description>The latest articles on DEV Community by Rene Rubalcava (@odoenet).</"
+    },
+    {
+      "url": "https://dev.to/feed/jf990",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.407Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "6438",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: John Foster</title> <description>The latest articles on DEV Community by John Foster (@jf990).</descript"
+    },
+    {
+      "url": "https://dev.to/feed/c_yatteau",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.787Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "62520",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: Courtney Yatteau</title> <description>The latest articles on DEV Community by Courtney Yatteau (@c_yatte"
+    },
+    {
+      "url": "https://dev.to/feed/gavinr",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.780Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "11949",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: Gavin Rehkemper</title> <description>The latest articles on DEV Community by Gavin Rehkemper (@gavinr).<"
+    },
+    {
+      "url": "https://dev.to/feed/vivek_shukla_4b01a254d1ac",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:43.589Z",
+      "responseHeaders": {
+        "content-type": "application/xml; charset=utf-8",
+        "content-length": "1877",
+        "cache-control": "public, no-cache",
+        "server": "Heroku",
+        "x-cache": "MISS, MISS",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"> <channel> <title>DEV Community: Vivek Shukla</title> <description>The latest articles on DEV Community by Vivek Shukla (@vivek_shukla_4b"
+    },
+    {
+      "url": "https://feeds.feedburner.com/Codethemap",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:44.074Z",
+      "responseHeaders": {
+        "content-type": "text/xml; charset=utf-8",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "server": "ESF",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff"
+      },
+      "bodyPreview": "<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href=\"http://www.blogger.com/styles/atom.css\" type=\"text/css\"?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:blogger='http://schemas.google.com/blogger/2008' xmlns:"
+    },
+    {
+      "url": "https://learn.finaldraftmapping.com/feed/",
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "checkedAt": "2026-07-10T11:29:44.521Z",
+      "responseHeaders": {
+        "content-type": "application/rss+xml; charset=UTF-8",
+        "server": "LiteSpeed"
+      },
+      "bodyPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1."
     }
   ]
 }

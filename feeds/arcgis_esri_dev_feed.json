@@ -1,8 +1,249 @@
 {
   "title": "ArcGIS ESRI Dev Feed (10-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-10T00:24:43.166Z",
+  "lastUpdated": "2026-07-10T11:32:55.135Z",
   "items": [
+    {
+      "title": "CasualChampionships/arcade: Arcade is a server-side Minecraft api made in Kotlin, providing a wide array of functionality primarily aimed at server-sided minigame development.",
+      "description": "Arcade is a server-side Minecraft api made in Kotlin, providing a wide array of functionality primarily aimed at server-sided minigame development.\nEs un API para Minecraft, no tiene relación con desarrollo en ArcGIS.\nTopics: arcade, minecraft, minecraft-api · ⭐ 16 · Kotlin\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/CasualChampionships/arcade",
+      "guid": "https://github.com/CasualChampionships/arcade",
+      "author": "CasualChampionships",
+      "date": "2026-07-10T11:11:55.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es un API para Minecraft, no tiene relación con desarrollo en ArcGIS."
+    },
+    {
+      "title": "froglet-studio/Cosmic-Shore: Connecting casual and hardcore gamers in the hypersea.",
+      "description": "Connecting casual and hardcore gamers in the hypersea.\nEs un juego orientado a usuarios finales que no proporciona recursos para desarrolladores.\nTopics: arcade, community, ftp-game, hypersea, live-service, minigames, missions, racer, shooter, space, territory-control · ⭐ 8 · C#\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/froglet-studio/Cosmic-Shore",
+      "guid": "https://github.com/froglet-studio/Cosmic-Shore",
+      "author": "froglet-studio",
+      "date": "2026-07-10T10:49:29.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego orientado a usuarios finales que no proporciona recursos para desarrolladores."
+    },
+    {
+      "title": "42Web-kenya/ArcGIS-Pro-Resource-Kit: Best ArcGIS Pro Alternative 2026 Open Source GIS for Mapping and Spatial Analysis",
+      "description": "Best ArcGIS Pro Alternative 2026 Open Source GIS for Mapping and Spatial Analysis\nEl repositorio presenta una alternativa a ArcGIS Pro, pero no ofrece herramientas o librerías útiles para desarrolladores.\nTopics: arcgis, arcgis-2026, arcgis-pro, esri-arcgis, gis-software, pro-software-2026, spatial-analysis, trial-software, windows-software-2026 · ⭐ 54 · HTML\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/42Web-kenya/ArcGIS-Pro-Resource-Kit",
+      "guid": "https://github.com/42Web-kenya/ArcGIS-Pro-Resource-Kit",
+      "author": "42Web-kenya",
+      "date": "2026-07-10T10:15:08.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un recurso sobre alternativas a ArcGIS Pro, no es una herramienta o librería para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "El repositorio presenta una alternativa a ArcGIS Pro, pero no ofrece herramientas o librerías útiles para desarrolladores."
+    },
+    {
+      "title": "jotego/jtcores: FPGA cores compatible with multiple arcade game machines and KiCAD schematics of arcade games. Working on MiSTer FPGA/Analogue Pocket",
+      "description": "FPGA cores compatible with multiple arcade game machines and KiCAD schematics of arcade games. Working on MiSTer FPGA/Analogue Pocket\nEste repositorio se centra en núcleos FPGA para juegos de arcade y no tiene relación con el desarrollo de ArcGIS.\nTopics: arcade, fpga, kicad-schematics, misterfpga, retrogaming · ⭐ 309 · Verilog\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/jotego/jtcores",
+      "guid": "https://github.com/jotego/jtcores",
+      "author": "jotego",
+      "date": "2026-07-10T10:05:02.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio se centra en núcleos FPGA para juegos de arcade y no tiene relación con el desarrollo de ArcGIS."
+    },
+    {
+      "title": "New <b>Esri</b> Press Book Shows That GIS Can Transform the Entire Campus, Starting at the Classroom",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, The Science of Where, <b>esri</b> ... <b>API</b> &middot; MediaBeenew&nbsp;...",
+      "link": "https://www.newswire.co.kr/newsRead.php?no=1038332",
+      "guid": "tag:google.com,2013:googlealerts/feed:9869730349923514920",
+      "author": "",
+      "date": "2026-07-10T08:45:16.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "osbonilla/propuesta-proyecto: Visualizador web de El Niño en Ecuador — mapa interactivo de anomalías climáticas (ERA5/ArcGIS) con panel de análisis en Svelte + FastAPI",
+      "description": "Visualizador web de El Niño en Ecuador — mapa interactivo de anomalías climáticas (ERA5/ArcGIS) con panel de análisis en Svelte + FastAPI\nEs un mapa interactivo de anomalías climáticas que no está diseñado para ser reutilizado por otros desarrolladores.\nTopics: arcgis, climate-data, data-science, data-visualization, fastapi, geospatial, gis, meteorology, python, svelte · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/osbonilla/propuesta-proyecto",
+      "guid": "https://github.com/osbonilla/propuesta-proyecto",
+      "author": "osbonilla",
+      "date": "2026-07-10T04:50:52.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un visualizador web orientado a usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un mapa interactivo de anomalías climáticas que no está diseñado para ser reutilizado por otros desarrolladores."
+    },
+    {
+      "title": "pinballwizz/ANTMINER-JailBreak: Jail Break Arcade synthesized on an EBAZ4205 ZYNQ-7010 FPGA Board.",
+      "description": "Jail Break Arcade synthesized on an EBAZ4205 ZYNQ-7010 FPGA Board.\nEl repositorio se centra en un proyecto de arcade y FPGA, sin conexión con herramientas o desarrollos de ArcGIS.\nTopics: antminer, arcade, break, fpga, game, jail, jailbreak, mist, mister, pinballwiz, pinballwizz, s9, verilog, vhdl, vivado, xilinx, zynq7010, zynqarcade · ⭐ 0 · Verilog\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/pinballwizz/ANTMINER-JailBreak",
+      "guid": "https://github.com/pinballwizz/ANTMINER-JailBreak",
+      "author": "pinballwizz",
+      "date": "2026-07-10T02:45:17.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "El repositorio se centra en un proyecto de arcade y FPGA, sin conexión con herramientas o desarrollos de ArcGIS."
+    },
+    {
+      "title": "pinballwizz/ANTMINER-MoonPatrol: Moon Patrol Arcade synthesized on an ANTMINER S9 ZYNQ-7010 FPGA Board.",
+      "description": "Moon Patrol Arcade synthesized on an ANTMINER S9 ZYNQ-7010 FPGA Board.\nEs un proyecto de arcade en FPGA que no tiene conexión con herramientas o desarrollos de ArcGIS.\nTopics: antminer, arcade, fpga, game, mist, mister, moon, moonpatrol, patrol, pinballwiz, pinballwizz, s9, verilog, vhdl, vivado, xilinx, zynq7010 · ⭐ 0 · VHDL\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/pinballwizz/ANTMINER-MoonPatrol",
+      "guid": "https://github.com/pinballwizz/ANTMINER-MoonPatrol",
+      "author": "pinballwizz",
+      "date": "2026-07-10T02:38:31.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un proyecto de arcade en FPGA que no tiene conexión con herramientas o desarrollos de ArcGIS."
+    },
+    {
+      "title": "IntRUSTing-Games/rusty-dasher: Wanna try out a new 2010's vibe browser game? Check out RustyDasher — Bevy 0.19 arcade (native + WASM). IntRUSTing Games.",
+      "description": "Wanna try out a new 2010's vibe browser game? Check out RustyDasher — Bevy 0.19 arcade (native + WASM). IntRUSTing Games.\nEs un juego de arcade y no tiene relevancia para desarrolladores de ArcGIS.\nTopics: 2d, arcade, bevy, game, rust, wasm · ⭐ 0 · Rust\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/IntRUSTing-Games/rusty-dasher",
+      "guid": "https://github.com/IntRUSTing-Games/rusty-dasher",
+      "author": "IntRUSTing-Games",
+      "date": "2026-07-10T00:52:29.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego de arcade y no tiene relevancia para desarrolladores de ArcGIS."
+    },
+    {
+      "title": "Esri/arcgis-maps-sdk-swift-samples: SwiftUI samples demonstrating various capabilities of ArcGIS Maps SDK for Swift",
+      "description": "SwiftUI samples demonstrating various capabilities of ArcGIS Maps SDK for Swift\nProporciona ejemplos prácticos para desarrolladores que utilizan el ArcGIS Maps SDK en aplicaciones Swift.\nTopics: 3d-map, arcgis-maps-sdk, arcgis-swift-sdk, geocoding, geospatial, ios, macos, map, mapping, maps-sdk, native-development, samples, sdk, swift, swift-sample, swiftui · ⭐ 44 · Swift\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-maps-sdk-swift-samples",
+      "guid": "https://github.com/Esri/arcgis-maps-sdk-swift-samples",
+      "author": "Esri",
+      "date": "2026-07-10T00:29:13.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona ejemplos prácticos para desarrolladores que utilizan el ArcGIS Maps SDK en aplicaciones Swift."
+    },
+    {
+      "title": "joelakaufmann-lgtm/depo-doom: Deposition-training arcade game — take the depo or defend it. Single-file HTML. Training simulation, not legal advice.",
+      "description": "Deposition-training arcade game — take the depo or defend it. Single-file HTML. Training simulation, not legal advice.\nEs un juego de arcade de entrenamiento sobre depósitos legales, sin relación con ArcGIS.\nTopics: apache2, arcade, deposition, html5-game, legal-education, legal-tech, training-game, webxr · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/joelakaufmann-lgtm/depo-doom",
+      "guid": "https://github.com/joelakaufmann-lgtm/depo-doom",
+      "author": "joelakaufmann-lgtm",
+      "date": "2026-07-10T00:26:22.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No es un recurso útil para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego de arcade de entrenamiento sobre depósitos legales, sin relación con ArcGIS."
+    },
+    {
+      "title": "ArcadeAI/arcade-mcp: MCP Server Framework and Tool Development library for building custom capabilities into agents. ",
+      "description": "MCP Server Framework and Tool Development library for building custom capabilities into agents. \nProporciona una biblioteca para construir herramientas y capacidades en el contexto de ArcGIS.\nTopics: ai, arcade, arcade-ai, claude, claude-code, claude-mcp, mcp, mcp-framework, mcp-gateway, mcp-runtime, mcp-server, mcp-servers, mcp-tools, mcpserver, model-context-protocol, model-context-protocol-sdk, python · ⭐ 953 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/ArcadeAI/arcade-mcp",
+      "guid": "https://github.com/ArcadeAI/arcade-mcp",
+      "author": "ArcadeAI",
+      "date": "2026-07-10T00:24:22.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una biblioteca para construir herramientas y capacidades en el contexto de ArcGIS."
+    },
+    {
+      "title": "Esri/arcgis-gitops: GitHub Actions workflows for ArcGIS Enterprise deployment and maintenance",
+      "description": "GitHub Actions workflows for ArcGIS Enterprise deployment and maintenance\nProporciona flujos de trabajo de GitHub Actions para la implementación y mantenimiento de ArcGIS Enterprise.\nTopics: arcgis, arcgis-enterprise, aws, azure, devops, github-actions, gitops, kubernetes, packer, terraform · ⭐ 30 · HCL\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-gitops",
+      "guid": "https://github.com/Esri/arcgis-gitops",
+      "author": "Esri",
+      "date": "2026-07-09T23:58:43.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona flujos de trabajo de GitHub Actions para la implementación y mantenimiento de ArcGIS Enterprise."
+    },
     {
       "title": "Second Quarter 2026 Basemap Release Includes Over 170 New and Updated Communities",
       "description": "",
@@ -14,7 +255,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T07:05:36.173Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Custom Data Feeds What's New / Release notes Page",
@@ -27,7 +272,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:48:01.758Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Java What's New / Release notes Page",
@@ -40,7 +289,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:47:59.163Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK .NET What's New / Release notes Page",
@@ -53,7 +306,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:46:45.484Z"
     },
     {
       "title": "Detected changes on: ArcGIS API for Python What's New / Release notes Page",
@@ -66,7 +323,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:35:56.184Z"
     },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
@@ -79,7 +340,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:12.944Z"
     },
     {
       "title": "Detected changes on: ArcGIS Architecture What's New / Release notes Page",
@@ -109,7 +374,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.096Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -122,7 +391,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:15.176Z"
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -135,7 +408,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.504Z"
     },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
@@ -165,7 +442,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.496Z"
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -178,7 +459,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:17.649Z"
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -191,7 +476,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:19.705Z"
     },
     {
       "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
@@ -204,7 +493,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:20.409Z"
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -217,7 +510,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.073Z"
     },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
@@ -237,6 +534,101 @@
       "ignoreReason": ""
     },
     {
+      "title": "bsv-blockchain/arcade: Next generation BSV Blockchain Transaction Broadcaster for Teranode - Codename Arcade",
+      "description": "Next generation BSV Blockchain Transaction Broadcaster for Teranode - Codename Arcade\nEs un broadcaster de transacciones para la blockchain de BSV, sin relación con herramientas o desarrollos de ArcGIS.\nTopics: arcade, bitcoin, bsv, go, golang · ⭐ 8 · Go\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/bsv-blockchain/arcade",
+      "guid": "https://github.com/bsv-blockchain/arcade",
+      "author": "bsv-blockchain",
+      "date": "2026-07-09T20:37:11.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es un broadcaster de transacciones para la blockchain de BSV, sin relación con herramientas o desarrollos de ArcGIS."
+    },
+    {
+      "title": "remarkablegames/inversion: 🔳 Two players must come together to win.",
+      "description": "🔳 Two players must come together to win.\nEs un juego de arcade para dos jugadores, sin relación con ArcGIS.\nTopics: 2d, arcade, game, game-jam, global-game-jam, phaser, platformer, puzzle, singleplayer, singleplayer-game, website · ⭐ 14 · TypeScript\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/remarkablegames/inversion",
+      "guid": "https://github.com/remarkablegames/inversion",
+      "author": "remarkablegames",
+      "date": "2026-07-09T20:09:55.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego de arcade para dos jugadores, sin relación con ArcGIS."
+    },
+    {
+      "title": "ArcadeAI/docs: Documentation for Arcade AI",
+      "description": "Documentation for Arcade AI\nEs un repositorio de documentación para Arcade AI, no relevante para desarrolladores de ArcGIS.\nTopics: ai, ai-tools, arcade, arcade-ai, docs, llm, llm-tools, next, nextjs · ⭐ 23 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/ArcadeAI/docs",
+      "guid": "https://github.com/ArcadeAI/docs",
+      "author": "ArcadeAI",
+      "date": "2026-07-09T19:35:40.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No es una herramienta o librería para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es un repositorio de documentación para Arcade AI, no relevante para desarrolladores de ArcGIS."
+    },
+    {
+      "title": "Esri/arcgis-maps-sdk-dotnet-samples: Sample code for ArcGIS Maps SDK for .NET – WPF, WinUI, .NET MAUI",
+      "description": "Sample code for ArcGIS Maps SDK for .NET – WPF, WinUI, .NET MAUI\nIncluye muestras para WPF, WinUI y .NET MAUI, útiles para desarrolladores que trabajan con aplicaciones nativas en .NET.\nTopics: arcgis, arcgis-maps-sdk, c-sharp, csharp, dotnet, dotnet-maui, esri, gis, native-apps, native-development, sample-code, samples, winui3, wpf, xaml · ⭐ 461 · C#\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-maps-sdk-dotnet-samples",
+      "guid": "https://github.com/Esri/arcgis-maps-sdk-dotnet-samples",
+      "author": "Esri",
+      "date": "2026-07-09T19:31:21.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Incluye muestras para WPF, WinUI y .NET MAUI, útiles para desarrolladores que trabajan con aplicaciones nativas en .NET."
+    },
+    {
+      "title": "BzGEO/GeoAI_compendium: References regarding geospatial artificial intelligence (#geoAI) and geospatial machine learning (#geoML)",
+      "description": "References regarding geospatial artificial intelligence (#geoAI) and geospatial machine learning (#geoML)\nEl repositorio contiene referencias sobre inteligencia artificial geoespacial y aprendizaje automático, pero no ofrece herramientas o código para desarrolladores.\nTopics: arcgis-pro, artificial-intelligence, deep-learning, deep-neural-networks, geo-artificial-intelligence, geo-machine-learning, geoai, geoml, geospatial, google-earth-engine, machine-learning, references, supervised-classification, supervised-learning, supervised-machine-learning, unsupervised-classification, unsupervised-learning, unsupervised-machine-learning · ⭐ 14 · —\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/BzGEO/GeoAI_compendium",
+      "guid": "https://github.com/BzGEO/GeoAI_compendium",
+      "author": "BzGEO",
+      "date": "2026-07-09T19:00:06.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un compendio de referencias y no una herramienta o librería reutilizable.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "El repositorio contiene referencias sobre inteligencia artificial geoespacial y aprendizaje automático, pero no ofrece herramientas o código para desarrolladores."
+    },
+    {
       "title": "Your Complete Guide to Esri’s Developer Resources",
       "description": "",
       "link": "https://www.esri.com/arcgis-blog/products/developers/developers/your-complete-guide-to-esris-developer-resources",
@@ -247,7 +639,49 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T07:03:57.075Z"
+    },
+    {
+      "title": "gabolondon/pixel-pulse: A juicy 60fps arcade game built so my toddler can mash the keyboard without wrecking my desktop. React + TypeScript + Vite, with a Kids Mode fullscreen lock.",
+      "description": "A juicy 60fps arcade game built so my toddler can mash the keyboard without wrecking my desktop. React + TypeScript + Vite, with a Kids Mode fullscreen lock.\nEs un juego arcade diseñado para niños, sin relación con el desarrollo en ArcGIS.\nTopics: arcade, canvas, game, kids, react, tailwindcss, typescript, vite · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/gabolondon/pixel-pulse",
+      "guid": "https://github.com/gabolondon/pixel-pulse",
+      "author": "gabolondon",
+      "date": "2026-07-09T17:54:00.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego arcade diseñado para niños, sin relación con el desarrollo en ArcGIS."
+    },
+    {
+      "title": "Endika/flipper-gurpil: Flipper Zero adaptation of Gurpil: an endless side-scroller where you pick your wheel shape to match the terrain and go faster.",
+      "description": "Flipper Zero adaptation of Gurpil: an endless side-scroller where you pick your wheel shape to match the terrain and go faster.\nEs un juego adaptado para Flipper Zero, sin conexión con herramientas o desarrollos de ArcGIS.\nTopics: arcade, c, endless-runner, fap, flipper-zero, flipper-zero-app, flipperzero, game · ⭐ 0 · C\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Endika/flipper-gurpil",
+      "guid": "https://github.com/Endika/flipper-gurpil",
+      "author": "Endika",
+      "date": "2026-07-09T15:44:12.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego adaptado para Flipper Zero, sin conexión con herramientas o desarrollos de ArcGIS."
     },
     {
       "title": "Try out the Esri Developer Ask AI beta today",
@@ -260,7 +694,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T07:03:09.272Z"
     },
     {
       "title": "What’s New in ArcGIS Experience Builder (June 2026)",
@@ -273,7 +711,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T07:01:02.142Z"
     },
     {
       "title": "Esri Canada achieves rare ISO 31700-1 Privacy by Design certification",
@@ -285,8 +727,31 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T06:59:52.276Z"
+    },
+    {
+      "title": "retinho/sc-gis-geoadmin-search: Custom ArcGIS Experience Builder widget integrating the Swisstopo Search API for intelligent location and coordinate search.",
+      "description": "Custom ArcGIS Experience Builder widget integrating the Swisstopo Search API for intelligent location and coordinate search.\nEste repositorio proporciona un widget personalizado que integra la API de búsqueda de Swisstopo para búsquedas de ubicación y coordenadas en ArcGIS.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/retinho/sc-gis-geoadmin-search",
+      "guid": "https://github.com/retinho/sc-gis-geoadmin-search",
+      "author": "retinho",
+      "date": "2026-07-09T13:21:54.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio proporciona un widget personalizado que integra la API de búsqueda de Swisstopo para búsquedas de ubicación y coordenadas en ArcGIS."
     },
     {
       "title": "HydroSHEDS 2.0 Now Available for the Americas in the Living Atlas",
@@ -298,8 +763,164 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T06:59:44.828Z"
+    },
+    {
+      "title": "dima-sw/pi-arcade: DIY retro arcade console on a Raspberry Pi Zero 2 W + Batocera: 14-button custom Python gamepad (with L2/R2), I2S audio, and a laser-cut wooden case.",
+      "description": "DIY retro arcade console on a Raspberry Pi Zero 2 W + Batocera: 14-button custom Python gamepad (with L2/R2), I2S audio, and a laser-cut wooden case.\nEs un proyecto de consola arcade DIY que no tiene relación con el desarrollo en ArcGIS.\nTopics: arcade, batocera, diy, emulation, gpio, pi-zero-2-w, raspberry-pi, retro-gaming, retropie-alternative · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/dima-sw/pi-arcade",
+      "guid": "https://github.com/dima-sw/pi-arcade",
+      "author": "dima-sw",
+      "date": "2026-07-09T12:03:39.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un proyecto de consola arcade DIY que no tiene relación con el desarrollo en ArcGIS."
+    },
+    {
+      "title": "mandalbitayan/Add-simple-point-layer-and-their-style: Commonly used point symbol in the ArcGIS Maps SDK",
+      "description": "Commonly used point symbol in the ArcGIS Maps SDK\nEste repositorio ofrece una implementación de una capa de puntos simple y su estilo para ser utilizada en el desarrollo con ArcGIS.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/mandalbitayan/Add-simple-point-layer-and-their-style",
+      "guid": "https://github.com/mandalbitayan/Add-simple-point-layer-and-their-style",
+      "author": "mandalbitayan",
+      "date": "2026-07-09T10:54:13.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio ofrece una implementación de una capa de puntos simple y su estilo para ser utilizada en el desarrollo con ArcGIS."
+    },
+    {
+      "title": "muend/sentinel-crop-pipeline: Open-source, config-driven pipeline for discovering, preprocessing, and patching Sentinel-2 L2A imagery into U-Net-ready training datasets for crop classification — hybrid rule-based + AI scene selection with ground-truth label integration.",
+      "description": "Open-source, config-driven pipeline for discovering, preprocessing, and patching Sentinel-2 L2A imagery into U-Net-ready training datasets for crop classification — hybrid rule-based + AI scene selection with ground-truth label integration.\nEl repositorio se centra en la creación de datasets para clasificación de cultivos, no en herramientas reutilizables para desarrolladores.\nTopics: agriculture, arcgis, cdse, copernicus, crop-classification, geospatial, geotiff, machine-learning, qgis, rasterio, remote-sensing, sentinel-2, unet · ⭐ 1 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/muend/sentinel-crop-pipeline",
+      "guid": "https://github.com/muend/sentinel-crop-pipeline",
+      "author": "muend",
+      "date": "2026-07-09T10:31:32.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No es una herramienta o librería para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "El repositorio se centra en la creación de datasets para clasificación de cultivos, no en herramientas reutilizables para desarrolladores."
+    },
+    {
+      "title": "codeforpdx/pdxhub: PDX Hub is a centralized, open-source GIS platform designed to aggregate Portland’s disparate municipal data. By breaking down silos between department feeds (Dispatch, Transportation, Zoning, Utilities), PDX Hub provides a \"Common Operating Picture\" for city data.",
+      "description": "PDX Hub is a centralized, open-source GIS platform designed to aggregate Portland’s disparate municipal data. By breaking down silos between department feeds (Dispatch, Transportation, Zoning, Utilities), PDX Hub provides a \"Common Operating Picture\" for city data.\nPDX Hub es una plataforma GIS centralizada para datos municipales de Portland.\nTopics: arcgis, gis, portland · ⭐ 6 · TypeScript\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/codeforpdx/pdxhub",
+      "guid": "https://github.com/codeforpdx/pdxhub",
+      "author": "codeforpdx",
+      "date": "2026-07-09T08:13:03.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una plataforma GIS orientada a la agregación de datos municipales, no es una herramienta para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "PDX Hub es una plataforma GIS centralizada para datos municipales de Portland."
+    },
+    {
+      "title": "mglass222/rivet: RIVET — an original browser homage to the 1981 Donkey Kong arcade game. Frame-exact mechanics, original art and music. Not affiliated with Nintendo.",
+      "description": "RIVET — an original browser homage to the 1981 Donkey Kong arcade game. Frame-exact mechanics, original art and music. Not affiliated with Nintendo.\nEs un juego inspirado en Donkey Kong, sin conexión con herramientas o desarrollos de ArcGIS.\nTopics: arcade, canvas, game, javascript, pixel-art, web-audio · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/mglass222/rivet",
+      "guid": "https://github.com/mglass222/rivet",
+      "author": "mglass222",
+      "date": "2026-07-09T07:40:18.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No tiene relación con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego inspirado en Donkey Kong, sin conexión con herramientas o desarrollos de ArcGIS."
+    },
+    {
+      "title": "Esri/arcgis-python-api: Documentation and samples for ArcGIS API for Python",
+      "description": "Documentation and samples for ArcGIS API for Python\nProporciona documentación y ejemplos para el uso de la API de ArcGIS para Python.\nTopics: arcgis, data-science, gis, jupyter, jupyterlab-extension, mapping, python, spatial-data, spatial-data-analysis · ⭐ 2169 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-python-api",
+      "guid": "https://github.com/Esri/arcgis-python-api",
+      "author": "Esri",
+      "date": "2026-07-09T04:55:33.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona documentación y ejemplos para el uso de la API de ArcGIS para Python."
+    },
+    {
+      "title": "edcfoshan/cadastral-to-vector: 宗地图/地籍图(PNG)转矢量面要素类(FileGDB/Shapefile)。CGCS2000 3度带带号+坐标轴自动判定,OCR提取界址点坐标,arcpy/GDAL双后端,面积闭环自检。宗地图矢量化|界址点坐标表转GDB|高斯投影带号判定|权属登记。Cadastral map to vector, parcel to FileGDB/Shapefile, CGCS2000 zone detection, Python.",
+      "description": "宗地图/地籍图(PNG)转矢量面要素类(FileGDB/Shapefile)。CGCS2000 3度带带号+坐标轴自动判定,OCR提取界址点坐标,arcpy/GDAL双后端,面积闭环自检。宗地图矢量化|界址点坐标表转GDB|高斯投影带号判定|权属登记。Cadastral map to vector, parcel to FileGDB/Shapefile, CGCS2000 zone detection, Python.\nConvierte mapas catastrales en PNG a formatos vectoriales como FileGDB y Shapefile utilizando arcpy y GDAL.\nTopics: agent-skill, arcgis, arcpy, cadastral, cadastral-map, cgcs2000, claude-code, filegdb, gauss-kruger, gdal, gdb, geospatial, gis, land-registry, ocr, parcel, python, shapefile, vector, zongditu · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/edcfoshan/cadastral-to-vector",
+      "guid": "https://github.com/edcfoshan/cadastral-to-vector",
+      "author": "edcfoshan",
+      "date": "2026-07-09T04:11:38.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Convierte mapas catastrales en PNG a formatos vectoriales como FileGDB y Shapefile utilizando arcpy y GDAL."
+    },
+    {
+      "title": "MewoLab/AquaDX: A magical server for certain arcade rhythm games 🪄",
+      "description": "A magical server for certain arcade rhythm games 🪄\nEs un servidor para juegos de ritmo arcade, sin conexión con herramientas o desarrollos de ArcGIS.\nTopics: arcade, rhythm-game · ⭐ 553 · Kotlin\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/MewoLab/AquaDX",
+      "guid": "https://github.com/MewoLab/AquaDX",
+      "author": "MewoLab",
+      "date": "2026-07-09T02:55:52.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un servidor para juegos de ritmo arcade, sin conexión con herramientas o desarrollos de ArcGIS."
     },
     {
       "title": "Hydrosat Showcases Thermal GIS Capabilities at <b>Esri</b> User Conference 2026 - TipRanks",
@@ -311,8 +932,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T06:59:15.355Z"
     },
     {
       "title": "QpiAI Open-Sources Its Quantum <b>SDK</b> to Accelerate Global Quantum Software Development",
@@ -324,8 +949,31 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T06:58:38.547Z"
+    },
+    {
+      "title": "Rudepro/RetroLegends: 🎮 Retro Legends is a modern retro arcade platform featuring original HTML5 mini-games inspired by classic arcade hits. Built with vanilla JavaScript, CSS3, and HTML5, it offers responsive gameplay, local progress saving, achievements, and a scalable architecture for adding new games. 🕹️ Play. Unlock. Conquer. 🌟",
+      "description": "🎮 Retro Legends is a modern retro arcade platform featuring original HTML5 mini-games inspired by classic arcade hits. Built with vanilla JavaScript, CSS3, and HTML5, it offers responsive gameplay, local progress saving, achievements, and a scalable architecture for adding new games. 🕹️ Play. Unlock. Conquer. 🌟\nEs un juego arcade en HTML5, no útil para desarrolladores de ArcGIS.\nTopics: arcade, browser-games, canvas, css3, es6, frontend, game-development, html5, indie-game, javascript, localstorage, mini-games, open-source, pixel-art, responsive, retro-arcade, retro-games, retro-legends, vanilla-javascript, web-game · ⭐ 1 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Rudepro/RetroLegends",
+      "guid": "https://github.com/Rudepro/RetroLegends",
+      "author": "Rudepro",
+      "date": "2026-07-09T00:35:41.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego arcade en HTML5, no útil para desarrolladores de ArcGIS."
     },
     {
       "title": "New <b>Esri</b> Press Book Shows That GIS Can Transform the Entire Campus, Starting at the Classroom",
@@ -337,8 +985,31 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-10T06:58:21.354Z"
+    },
+    {
+      "title": "MiSTerOrganize/MiSTer_Organize: Keeping your MiSTer organized",
+      "description": "Keeping your MiSTer organized\nEste repositorio se centra en la organización de juegos retro y no tiene relación con el desarrollo en ArcGIS.\nTopics: arcade, catalog, console, console-game, crc32, data, database, datafile, filename, filesize, fpga, md5, misterfpga, organization, organize, organizer, retrogaming, rom, rommanager, sha1 · ⭐ 51 · —\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/MiSTerOrganize/MiSTer_Organize",
+      "guid": "https://github.com/MiSTerOrganize/MiSTer_Organize",
+      "author": "MiSTerOrganize",
+      "date": "2026-07-08T22:06:05.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio se centra en la organización de juegos retro y no tiene relación con el desarrollo en ArcGIS."
     },
     {
       "title": "\n        Merge pull request #423 from lOrijuela/master\n    ",
@@ -350,8 +1021,31 @@
       "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "complementary_commit",
+      "manualStatus": "rejected",
+      "manualReason": "complementary_commit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T09:08:28.670Z"
+    },
+    {
+      "title": "topherCantrell/computerarcheology: All of the code and resources backing computerarcheology.com (moving from SVN there)",
+      "description": "All of the code and resources backing computerarcheology.com (moving from SVN there)\nEl repositorio trata sobre arqueología computacional y retrogaming, sin conexión con ArcGIS.\nTopics: arcade, disassembly, retrogaming · ⭐ 53 · Assembly\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/topherCantrell/computerarcheology",
+      "guid": "https://github.com/topherCantrell/computerarcheology",
+      "author": "topherCantrell",
+      "date": "2026-07-08T21:01:59.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "El repositorio trata sobre arqueología computacional y retrogaming, sin conexión con ArcGIS."
     },
     {
       "title": "\n        Add Polyline-with-terrain-level\n    ",
@@ -363,8 +1057,12 @@
       "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "complementary_commit",
+      "manualStatus": "rejected",
+      "manualReason": "complementary_commit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T09:08:24.830Z"
     },
     {
       "title": "\n        Create README.md\n    ",
@@ -377,7 +1075,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T09:07:52.149Z"
     },
     {
       "title": "An Introduction to Embeddings for GIS Analysts",
@@ -389,8 +1091,31 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T09:04:32.399Z"
+    },
+    {
+      "title": "Esri/jsapi-resources: A collection of resources for developers using the ArcGIS Maps SDK for JavaScript.",
+      "description": "A collection of resources for developers using the ArcGIS Maps SDK for JavaScript.\nProporciona ejemplos y herramientas para facilitar el desarrollo con el SDK de ArcGIS para JavaScript.\nTopics: arcgis-api, arcgis-js-api, javascript, mapping, sample-apps, web-components, web-development · ⭐ 767 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/jsapi-resources",
+      "guid": "https://github.com/Esri/jsapi-resources",
+      "author": "Esri",
+      "date": "2026-07-08T18:51:57.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona ejemplos y herramientas para facilitar el desarrollo con el SDK de ArcGIS para JavaScript."
     },
     {
       "title": "\n        chore: update SDK version to 5.1 in cdn template (#626)\n    ",
@@ -402,8 +1127,12 @@
       "sourceFeedUrl": "https://github.com/Esri/jsapi-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T09:04:02.014Z"
     },
     {
       "title": "Scripted, Visual, and AI-Driven Analysis of Item Dependencies: Combining the Newest Tools in ArcGIS Knowledge and the ArcGIS API for Python",
@@ -416,7 +1145,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T09:03:26.198Z"
     },
     {
       "title": "Developer’s Lounge: Exposing Location Services to Model Context Protocol (MCP) Clients",
@@ -429,7 +1162,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T07:52:43.894Z"
     },
     {
       "title": "Integrating ArcGIS with Other Business Systems | #EsriDevTech2026",
@@ -442,7 +1179,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T07:52:39.606Z"
     },
     {
       "title": "How do you use the <b>ArcGIS API</b> for Python to manage energy geospatial data?",
@@ -455,7 +1196,30 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T07:50:43.764Z"
+    },
+    {
+      "title": "finalburnneo/FBNeo: FinalBurn Neo - We are Team FBNeo.",
+      "description": "FinalBurn Neo - We are Team FBNeo.\nEs un emulador de videojuegos y no tiene relevancia para desarrolladores de ArcGIS.\nTopics: arcade, colecovision, cps1, cps2, cps3, emulator, kaneko, mastersystem, megadrive, msx1, neogeo, sega, taito · ⭐ 1413 · C++\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/finalburnneo/FBNeo",
+      "guid": "https://github.com/finalburnneo/FBNeo",
+      "author": "finalburnneo",
+      "date": "2026-07-08T14:42:05.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un emulador de videojuegos y no tiene relevancia para desarrolladores de ArcGIS."
     },
     {
       "title": "\n        API キーの取得の更新\n    ",
@@ -467,8 +1231,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-09T07:44:13.607Z"
     },
     {
       "title": "Source degraded: Esri Early Adopter Community",
@@ -480,8 +1248,50 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-monitor-health.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "other",
+      "manualStatus": "rejected",
+      "manualReason": "other",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:46:16.279Z"
+    },
+    {
+      "title": "t3chnaztea/batocera-toolbox: Couch-friendly, gamepad-driven Batocera utility (PORTS menu): backup/restore, ROM audit, 1G1R dedup, version-aware BIOS check, shaders, run-ahead, RetroAchievements, crash logs.",
+      "description": "Couch-friendly, gamepad-driven Batocera utility (PORTS menu): backup/restore, ROM audit, 1G1R dedup, version-aware BIOS check, shaders, run-ahead, RetroAchievements, crash logs.\nEs una herramienta para emulación de videojuegos, sin conexión con desarrollos de ArcGIS.\nTopics: arcade, batocera, emulationstation, retroarch, retrogaming · ⭐ 12 · Python\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/t3chnaztea/batocera-toolbox",
+      "guid": "https://github.com/t3chnaztea/batocera-toolbox",
+      "author": "t3chnaztea",
+      "date": "2026-07-07T21:22:13.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una herramienta para emulación de videojuegos, sin conexión con desarrollos de ArcGIS."
+    },
+    {
+      "title": "ArtemioUrbina/MDFourier: A Fourier Analysis analysis tool to compare audio produced by gaming hardware",
+      "description": "A Fourier Analysis analysis tool to compare audio produced by gaming hardware\nEs una herramienta de análisis de audio para hardware de juegos, sin conexión a ArcGIS.\nTopics: analysis, arcade, audio, console, dreamcast, drive, fourier, gamecube, genesis, hardware, mega, n64, retro, sega, snes, vintage, wii · ⭐ 85 · C\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/ArtemioUrbina/MDFourier",
+      "guid": "https://github.com/ArtemioUrbina/MDFourier",
+      "author": "ArtemioUrbina",
+      "date": "2026-07-07T19:34:20.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una herramienta de análisis de audio para hardware de juegos, sin conexión a ArcGIS."
     },
     {
       "title": "From CSV to Web App: ArcGIS Online + Maps SDK Complete Workflow (Part 1)",
@@ -494,7 +1304,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:47:10.280Z"
     },
     {
       "title": "ArcGIS Network Analyst: Understanding How to Route Your Fleet of Vehicles | #EsriDevTech2026",
@@ -507,7 +1321,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:52:12.009Z"
     },
     {
       "title": "Visualize Parquet Data with ArcGIS",
@@ -520,7 +1338,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:51:03.006Z"
     },
     {
       "title": "Automate Agriculture Monitoring with Satellite Imagery and Raster Analytics",
@@ -533,7 +1355,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:50:08.541Z"
     },
     {
       "title": "Moving a Layer to Group Layer with the ArcGIS API for Python | Python for ArcGIS Online",
@@ -546,7 +1372,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:48:24.954Z"
     },
     {
       "title": "Updating a Layer within a Group Layer with the ArcGIS API for Python | Python for ArcGIS Online",
@@ -559,7 +1389,87 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-08T13:47:55.786Z"
+    },
+    {
+      "title": "muend/arcgis-mcp-bridge: Secure, local-first MCP server exposing ArcGIS Pro's ArcPy engine over stdio JSON-RPC.",
+      "description": "Secure, local-first MCP server exposing ArcGIS Pro's ArcPy engine over stdio JSON-RPC.\nEs un puente que permite la interacción con ArcPy a través de JSON-RPC.\nTopics: ai-agents, anthropic, api-bridge, arcgis, arcgis-pro, arcpy, automation, bridge, claude, geopandas, geospatial, geospatial-processing, gis, llm, llm-tools, mcp, mcp-server, model-context-protocol, python, spatial-data-science · ⭐ 6 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/muend/arcgis-mcp-bridge",
+      "guid": "https://github.com/muend/arcgis-mcp-bridge",
+      "author": "muend",
+      "date": "2026-07-07T08:19:06.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es un puente que permite la interacción con ArcPy a través de JSON-RPC."
+    },
+    {
+      "title": "AhoyLemon/kinda.fun: Here's some games that are kinda fun.",
+      "description": "Here's some games that are kinda fun.\nEs un repositorio de juegos en línea, no útil para desarrolladores de ArcGIS.\nTopics: arcade, browser-game, celebrity-game, firebase, lemon, multiplayer-game, sass, trivia-game, vite, vue · ⭐ 11 · TypeScript\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/AhoyLemon/kinda.fun",
+      "guid": "https://github.com/AhoyLemon/kinda.fun",
+      "author": "AhoyLemon",
+      "date": "2026-07-07T05:09:02.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No está relacionado con herramientas o librerías para desarrolladores de ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un repositorio de juegos en línea, no útil para desarrolladores de ArcGIS."
+    },
+    {
+      "title": "Esri/cookiecutter-spatial-data-science: A project template for spatial data science projects marrying best practices from the respective disciplines of Geography and Artificial Intelligence.",
+      "description": "A project template for spatial data science projects marrying best practices from the respective disciplines of Geography and Artificial Intelligence.\nProporciona un template útil para desarrolladores que trabajan en proyectos de ciencia de datos espaciales utilizando ArcGIS.\nTopics: arcgis, arcgis-python-api, cookiecutter, data-science, esri, geoai, geoai-cookiecutter, geography, gis, machine-learning, python, spatial-analysis · ⭐ 42 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/cookiecutter-spatial-data-science",
+      "guid": "https://github.com/Esri/cookiecutter-spatial-data-science",
+      "author": "Esri",
+      "date": "2026-07-06T23:49:40.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un template útil para desarrolladores que trabajan en proyectos de ciencia de datos espaciales utilizando ArcGIS."
+    },
+    {
+      "title": "ProSuite/ProSuite: ProSuite Source Code",
+      "description": "ProSuite Source Code\nProSuite es un conjunto de herramientas que permite la integración y mejora de flujos de trabajo en ArcGIS.\nTopics: arcgis, esri, prosuite · ⭐ 11 · C#\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/ProSuite/ProSuite",
+      "guid": "https://github.com/ProSuite/ProSuite",
+      "author": "ProSuite",
+      "date": "2026-07-06T22:23:28.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "ProSuite es un conjunto de herramientas que permite la integración y mejora de flujos de trabajo en ArcGIS."
     },
     {
       "title": "ArcGIS Experience Builder at the 2026 Esri User Conference",
@@ -572,7 +1482,49 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-07T09:49:06.681Z"
+    },
+    {
+      "title": "Asem-D/arcgis-portal-mcp: Open-source MCP server for ArcGIS Portal and ArcGIS Online",
+      "description": "Open-source MCP server for ArcGIS Portal and ArcGIS Online\nProporciona un servidor MCP de código abierto para integrarse con ArcGIS.\nTopics: ai, arcgis, gis, mcp, portal, python · ⭐ 8 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Asem-D/arcgis-portal-mcp",
+      "guid": "https://github.com/Asem-D/arcgis-portal-mcp",
+      "author": "Asem-D",
+      "date": "2026-07-06T20:05:52.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un servidor MCP de código abierto para integrarse con ArcGIS."
+    },
+    {
+      "title": "county-of-simcoe-gis/SimcoeCountyWebViewer: Web Map Viewer built with React and OpenLayers.  Built for GeoServer and ArcGIS Server.",
+      "description": "Web Map Viewer built with React and OpenLayers.  Built for GeoServer and ArcGIS Server.\nEs un visor de mapas web construido con React y OpenLayers, orientado a usuarios finales.\nTopics: arcgis, geoserver, interactive, javascript, map, openlayers, postgres, react, wms · ⭐ 149 · JavaScript\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer",
+      "guid": "https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer",
+      "author": "county-of-simcoe-gis",
+      "date": "2026-07-06T12:57:58.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación web específica y no una herramienta reutilizable.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un visor de mapas web construido con React y OpenLayers, orientado a usuarios finales."
     },
     {
       "title": "Esri の「The Science of Where」| Qt で構築",
@@ -585,7 +1537,68 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-07T09:48:55.914Z"
+    },
+    {
+      "title": "realiii/fudgeo: Removing the fear-uncertainty-doubt from GeoPackages.  OGC GeoPackage Support via Python and SQLite",
+      "description": "Removing the fear-uncertainty-doubt from GeoPackages.  OGC GeoPackage Support via Python and SQLite\nProporciona soporte para GeoPackages utilizando Python y SQLite, útil para desarrolladores que trabajan con datos espaciales.\nTopics: arcgis, geopackage, geopackage-libraries, gis, library, python3, qgis, qgis3, spatial, spatial-data, sql, sqlite, sqlite3 · ⭐ 26 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/realiii/fudgeo",
+      "guid": "https://github.com/realiii/fudgeo",
+      "author": "realiii",
+      "date": "2026-07-05T21:41:29.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona soporte para GeoPackages utilizando Python y SQLite, útil para desarrolladores que trabajan con datos espaciales."
+    },
+    {
+      "title": "rcfdtools/R.LTWB: CURSO: Balance hidrológico de largo plazo. Long-term water balance - LTWB",
+      "description": "CURSO: Balance hidrológico de largo plazo. Long-term water balance - LTWB\nEste repositorio es un curso sobre balance hidrológico y no proporciona herramientas o librerías reutilizables para desarrolladores de ArcGIS.\nTopics: arcgis, budyco, cenicafe, climate-change, dekop, hydrology, long-term-water-balance, qgis, statistical, turc · ⭐ 10 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/rcfdtools/R.LTWB",
+      "guid": "https://github.com/rcfdtools/R.LTWB",
+      "author": "rcfdtools",
+      "date": "2026-07-05T13:34:08.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto de curso sin utilidad directa para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio es un curso sobre balance hidrológico y no proporciona herramientas o librerías reutilizables para desarrolladores de ArcGIS."
+    },
+    {
+      "title": "Aunmag/shooter-rs: 2D top-down zombie shooter",
+      "description": "2D top-down zombie shooter\nEs un juego de disparos en 2D que no tiene relación con ArcGIS.\nTopics: 2d, arcade, bevy, game, shooter, top-down, topdown, zombies · ⭐ 34 · Rust\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/Aunmag/shooter-rs",
+      "guid": "https://github.com/Aunmag/shooter-rs",
+      "author": "Aunmag",
+      "date": "2026-07-04T23:50:35.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "No es un proyecto relacionado con herramientas o desarrollo para ArcGIS/Esri.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un juego de disparos en 2D que no tiene relación con ArcGIS."
     },
     {
       "title": "Crack Arab Smallworld Gis No Virus | Full Package &amp; Keygen ID - YouTube",
@@ -597,8 +1610,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:28:00.609Z"
     },
     {
       "title": "Mastering <b>Arcgis</b> Server Development With <b>Javascript</b> Pdf - exam.edu.kg",
@@ -610,8 +1627,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "mfa_site",
+      "manualStatus": "rejected",
+      "manualReason": "mfa_site",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:28:18.337Z"
     },
     {
       "title": "Keygen IN Smallworld Gis Gratis Download DK | Tam Sürüm &amp; Patch NL - YouTube",
@@ -623,8 +1644,31 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:27:28.161Z"
+    },
+    {
+      "title": "chris48s/arcgis2geojson: 🌍 A Python library for converting ArcGIS JSON to GeoJSON",
+      "description": "🌍 A Python library for converting ArcGIS JSON to GeoJSON\nEs una biblioteca de Python que permite a los desarrolladores convertir JSON de ArcGIS a GeoJSON.\nTopics: arcgis, geojson, python-library · ⭐ 54 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/chris48s/arcgis2geojson",
+      "guid": "https://github.com/chris48s/arcgis2geojson",
+      "author": "chris48s",
+      "date": "2026-07-04T19:26:06.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es una biblioteca de Python que permite a los desarrolladores convertir JSON de ArcGIS a GeoJSON."
     },
     {
       "title": "Dataminr Deepens Public-Sector Push With <b>Esri</b> Integration and AI-For-Good Initiatives",
@@ -636,8 +1680,31 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:27:12.593Z"
+    },
+    {
+      "title": "villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition: ArcGIS Pro — professional GIS for mapping, spatial analysis, geoprocessing and 3D scene authoring.",
+      "description": "ArcGIS Pro — professional GIS for mapping, spatial analysis, geoprocessing and 3D scene authoring.\nNo es un repositorio útil para desarrolladores de ArcGIS/Esri.\nTopics: arcgis, arcgis-desktop, arcgis-pro, cartography, esri, esri-arcgis, geographic-information-system, geoprocessing, geospatial, gis, gis-software, map-making, mapping-software, spatial-analysis, spatial-data · ⭐ 10 · —\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition",
+      "guid": "https://github.com/villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition",
+      "author": "villageportalrope",
+      "date": "2026-07-04T10:15:45.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un software de GIS y no un recurso para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "No es un repositorio útil para desarrolladores de ArcGIS/Esri."
     },
     {
       "title": "FlowRenderer on a 3D Globe",
@@ -650,7 +1717,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:26:48.951Z"
     },
     {
       "title": "Episode 72 - The Judge Pattern Goes to Washington",
@@ -662,8 +1733,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:26:03.695Z"
     },
     {
       "title": "\n        ArcGIS Maps SDK for JavaScript 5.1 リリース対応\n    ",
@@ -675,8 +1750,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-06T07:25:38.951Z"
     },
     {
       "title": "Detected changes on: Arcade What's New / Release notes Page",
@@ -689,7 +1768,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.096Z"
     },
     {
       "title": "Celebrating America 250 with Casey Trees",
@@ -701,8 +1784,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-03T05:54:51.935Z"
     },
     {
       "title": "Single Script Tag for ArcGIS Maps SDK for JavaScript",
@@ -715,7 +1802,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-03T05:54:30.054Z"
     },
     {
       "title": "<b>ArcGIS</b> Field Maps - Apps Documentation",
@@ -727,8 +1818,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-03T05:53:05.348Z"
     },
     {
       "title": "Call the Exterminator: Debugging Arcade",
@@ -741,7 +1836,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-03T05:52:46.214Z"
     },
     {
       "title": "Empowering midwives through advocacy and engagement",
@@ -753,8 +1852,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:05:22.706Z"
     },
     {
       "title": "A Hub energizing internal collaboration",
@@ -766,8 +1869,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:05:30.379Z"
     },
     {
       "title": "Collaborating to Improve Communities with GIS",
@@ -779,8 +1886,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:05:24.210Z"
     },
     {
       "title": "Engaging Residents with GIS",
@@ -792,8 +1903,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:05:27.845Z"
     },
     {
       "title": "Fostering Collaboration Among Members",
@@ -805,8 +1920,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:05:05.027Z"
     },
     {
       "title": "Building Engaging User Experiences",
@@ -818,8 +1937,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:04:57.289Z"
     },
     {
       "title": "Equity for Improved Engagement",
@@ -831,8 +1954,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:04:22.402Z"
     },
     {
       "title": "Engaging Volunteers for a Cause",
@@ -844,8 +1971,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:04:07.402Z"
     },
     {
       "title": "A New Lens on School Enrollment",
@@ -857,8 +1988,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:03:22.968Z"
     },
     {
       "title": "ArcGIS Maps SDKs for Native Apps: An Overview and What's New | #EsriDevTech2026",
@@ -871,7 +2006,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T08:00:11.300Z"
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -884,7 +2023,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.073Z"
     },
     {
       "title": "\n        Maps SDK for JavaScript 5.1 更新\n    ",
@@ -896,8 +2039,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T07:59:23.795Z"
     },
     {
       "title": "CyArk Launches America 250 Tapestry Collection With Gaussian Splatting",
@@ -909,8 +2056,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "arcgis_only_reference",
+      "manualStatus": "rejected",
+      "manualReason": "arcgis_only_reference",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T07:58:35.379Z"
     },
     {
       "title": "Rapid Mobile GIS Deployment for Gas Leaks and Inspections - Energy Central",
@@ -923,7 +2074,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-02T07:57:15.835Z"
     },
     {
       "title": "Ocean Career: Genwest Systems GIS Technical Architecture Specialist - ECO Magazine",
@@ -935,8 +2090,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:50:17.496Z"
     },
     {
       "title": "<b>arcgis</b>.gis.admin.Bundle.users returns incorrect results when more than 10,000 users have ...",
@@ -974,8 +2133,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:49:58.823Z"
     },
     {
       "title": "<b>Esri</b> Sponsors Smithsonian Exhibition Showcasing Natural and Cultural Objects from All 50 States",
@@ -987,8 +2150,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:49:46.319Z"
     },
     {
       "title": "June 2026 ArcGIS Online update: Near Me express mode",
@@ -1000,8 +2167,12 @@
       "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:49:31.551Z"
     },
     {
       "title": "New MCP Support (beta) and ArcGIS Static Maps Service in Latest ArcGIS Location Platform Release",
@@ -1014,7 +2185,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:48:55.038Z"
     },
     {
       "title": "Re-creating environmental impact analysis workflow of Web AppBuilder Screening widget in Experience Builder",
@@ -1026,8 +2201,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:48:08.013Z"
     },
     {
       "title": "<b>Esri</b> Brings 3D Analysis to Gaussian Splat Layers in <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> 5.1",
@@ -1040,7 +2219,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:47:32.126Z"
     },
     {
       "title": "Tips for Building Layouts in ArcGIS Experience Builder",
@@ -1053,7 +2236,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:44:36.119Z"
     },
     {
       "title": "<b>Esri</b> Sponsors Smithsonian Exhibition Showcasing Natural and Cultural Objects from All 50 States",
@@ -1065,8 +2252,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:42:29.594Z"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript バージョン 5.1 をリリース | サポーターズ・コーナー",
@@ -1079,7 +2270,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:42:10.442Z"
     },
     {
       "title": "GeoAI with Feature, Tabular, and Time Series Data | #EsriDevTech2026",
@@ -1092,7 +2287,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:40:06.259Z"
     },
     {
       "title": "Deleting a Feature Service in ArcGIS Online using the ArcGIS API for Python",
@@ -1105,7 +2304,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:39:08.373Z"
     },
     {
       "title": "Deleting a Feature Layer & Table in ArcGIS Online using the ArcGIS API for Python",
@@ -1118,7 +2321,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:38:27.237Z"
     },
     {
       "title": "Delete Features from a Feature Layer in ArcGIS Online using the ArcGIS API for Python",
@@ -1131,7 +2338,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:37:31.291Z"
     },
     {
       "title": "\n        Flutterページの軽微な修正\n    ",
@@ -1143,8 +2354,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-07-01T13:36:17.512Z"
     },
     {
       "title": "2026 <b>Esri</b> User Conference to Focus on Creating a More Intelligent World with GIS",
@@ -1156,8 +2371,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T11:29:30.227Z"
     },
     {
       "title": "Map Generating Software | Ranked for 2026 - WifiTalents",
@@ -1170,7 +2389,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T11:29:01.853Z"
     },
     {
       "title": "Pentz Fire in Butte County: Forward spread stopped | abc10.com",
@@ -1195,8 +2418,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:52:33.447Z"
     },
     {
       "title": "Episode 71 - Ask Better Questions",
@@ -1208,8 +2435,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:51:12.192Z"
     },
     {
       "title": "ArcGIS Feature Effects | Claude Code Skill for GIS - MCP Market",
@@ -1221,8 +2452,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "marketplace_autoindex",
+      "manualStatus": "rejected",
+      "manualReason": "marketplace_autoindex",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:49:48.653Z"
     },
     {
       "title": "DTU and <b>Esri</b> India Join Hands to Advance GeoAI Education and Research",
@@ -1234,8 +2469,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:49:32.933Z"
     },
     {
       "title": "What's new in Business Analyst widget for ArcGIS Experience Builder | June 2026",
@@ -1247,8 +2486,12 @@
       "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=arcgis-experience-builder-blog",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:49:17.925Z"
     },
     {
       "title": "ArcGIS Arcade Editor | Claude Code Skill for JS SDK 5.0 - MCP Market",
@@ -1260,8 +2503,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "marketplace_autoindex",
+      "manualStatus": "rejected",
+      "manualReason": "marketplace_autoindex",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:48:51.580Z"
     },
     {
       "title": "ArcGIS UI &amp; Widgets - Claude Code Skill for GIS UI - MCP Market",
@@ -1273,8 +2520,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "marketplace_autoindex",
+      "manualStatus": "rejected",
+      "manualReason": "marketplace_autoindex",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T10:48:24.036Z"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript 学习教程- 全栈项目管理程序猿的专栏 - 稀土掘金",
@@ -1287,7 +2538,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:59:57.597Z"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> JavaScript バージョン 5.1 をリリース | ESRIジャパン株式会社",
@@ -1300,7 +2555,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:57:09.330Z"
     },
     {
       "title": "Editor’s Corner June 2026: More Choices, Smarter Attachments, and New Tools in ArcGIS Online",
@@ -1312,8 +2571,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:55:47.770Z"
     },
     {
       "title": "Google Photorealistic 3D Basemap (preview) in ArcGIS Online and ArcGIS Pro",
@@ -1325,8 +2588,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:55:18.913Z"
     },
     {
       "title": "ArcGIS Map Tools Claude Code Skill | JS GIS Development - MCP Market",
@@ -1338,8 +2605,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "marketplace_autoindex",
+      "manualStatus": "rejected",
+      "manualReason": "marketplace_autoindex",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:52:56.735Z"
     },
     {
       "title": "Extending QuickCapture with Experience Builder",
@@ -1351,8 +2622,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:52:20.335Z"
     },
     {
       "title": "What’s New with the ArcGIS Geocoding Service? Explore June 2026 Updates",
@@ -1365,7 +2640,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:50:59.796Z"
     },
     {
       "title": "\n        Merge pull request #625 from Esri/manoja/5.1-add-ai-agent-utils-sampl…\n    ",
@@ -1377,8 +2656,12 @@
       "sourceFeedUrl": "https://github.com/Esri/jsapi-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "complementary_commit",
+      "manualStatus": "rejected",
+      "manualReason": "complementary_commit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:50:04.196Z"
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -1391,7 +2674,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.504Z"
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -1404,7 +2691,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:17.649Z"
     },
     {
       "title": "\n        chore: add-ai-agents-utils-samples\n    ",
@@ -1417,7 +2708,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:49:50.972Z"
     },
     {
       "title": "Using the new AI Components in the ArcGIS Javascript SDK - YouTube",
@@ -1430,7 +2725,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:44:54.009Z"
     },
     {
       "title": "End-to-End Disaster Response in <b>ArcGIS</b>: The Nairobi Floods Demo Series - YouTube",
@@ -1443,7 +2742,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:44:39.737Z"
     },
     {
       "title": "Debugging Python Toolboxes with Visual Studio Code",
@@ -1456,7 +2759,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:41:35.717Z"
     },
     {
       "title": "Gaussian Splat Layers on the Web",
@@ -1469,7 +2776,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:40:09.116Z"
     },
     {
       "title": "ArcGIS Maps SDK for JavaScript: What’s New in 5.1",
@@ -1482,7 +2793,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:39:25.156Z"
     },
     {
       "title": "2026 <b>Esri</b> User Conference to Focus on Creating a More Intelligent World with GIS",
@@ -1494,8 +2809,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:38:52.308Z"
     },
     {
       "title": "\n        Merge branch 'master' of https://github.com/EsriJapan/arcgis-dev-reso…\n    ",
@@ -1507,8 +2826,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:38:37.274Z"
     },
     {
       "title": "\n        アプリ開発ページへのリンクの追加\n    ",
@@ -1520,8 +2843,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:38:16.332Z"
     },
     {
       "title": "Unlocked <b>Esri Arcgis</b> Pro Advanced Mediafire | Studio Edition - YouTube",
@@ -1547,7 +2874,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:37:39.301Z"
     },
     {
       "title": "True Curve Drawing on the Web",
@@ -1560,7 +2891,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:36:43.068Z"
     },
     {
       "title": "\n        Swiftリソース集修正\n    ",
@@ -1572,8 +2907,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:35:49.608Z"
     },
     {
       "title": "Smallworld Gis Review Free | All in One &amp; Patch - YouTube",
@@ -1611,8 +2950,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:35:27.649Z"
     },
     {
       "title": "Developer’s Lounge: Meeting Developers Where They Are with Open-Source Libraries",
@@ -1625,7 +2968,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:34:15.978Z"
     },
     {
       "title": "ArcGIS Maps SDK for Flutter: Advanced Workflows  | #EsriDevTech2026",
@@ -1638,7 +2985,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:33:16.208Z"
     },
     {
       "title": "\n        ベースマップ修正\n    ",
@@ -1651,7 +3002,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:32:36.896Z"
     },
     {
       "title": "\n        chore: update dependencies for SDK release v5.1 (#623)\n    ",
@@ -1663,8 +3018,12 @@
       "sourceFeedUrl": "https://github.com/Esri/jsapi-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:32:14.063Z"
     },
     {
       "title": "\n        ベースマップドキュメント追加\n    ",
@@ -1677,7 +3036,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T09:31:38.560Z"
     },
     {
       "title": "Building a Local AI Agent for OSM: 21 Days of Iteration",
@@ -1689,8 +3052,12 @@
       "sourceFeedUrl": "https://dev.to/feed/gisfromscratch",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:43:50.809Z"
     },
     {
       "title": "ArcGIS Maps SDK for JavaScript: Latest Updates in Version 5.1",
@@ -1703,7 +3070,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:42:40.822Z"
     },
     {
       "title": "Harry Pamu - Curiosity as a Superpower",
@@ -1716,7 +3087,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:41:43.755Z"
     },
     {
       "title": "Calculating Attribute Values using the ArcGIS API for Python | ArcGIS Online Feature Services",
@@ -1729,7 +3104,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:41:11.364Z"
     },
     {
       "title": "\n        Update basemaps.md\n    ",
@@ -1741,8 +3120,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:40:21.995Z"
     },
     {
       "title": "Download <b>Esri ArcGIS</b> Pro Full Version Free | Windows 11 &amp; macOS - YouTube",
@@ -1767,8 +3150,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:40:12.730Z"
     },
     {
       "title": "\n        すべての外部リンクに明示的に言語情報を追加、全体的に軽微な修正\n    ",
@@ -1780,8 +3167,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:39:59.514Z"
     },
     {
       "title": "Mastering Arcgis Server Development With Javascript Pdf",
@@ -1793,8 +3184,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "ad_redirect",
+      "manualStatus": "rejected",
+      "manualReason": "ad_redirect",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:31:30.508Z"
     },
     {
       "title": "Download ﻿.NET <b>SDK</b> Full Version Free | Comparison - YouTube",
@@ -1832,8 +3227,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "ad_redirect",
+      "manualStatus": "rejected",
+      "manualReason": "ad_redirect",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:25:25.222Z"
     },
     {
       "title": "Smallworld GIS Pro Crack 2026 Free Download Full Version Windows 10 11 - YouTube",
@@ -1858,8 +3257,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:24:24.372Z"
     },
     {
       "title": "Senior GIS Specialist | CareerSprint",
@@ -1871,8 +3274,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:24:16.500Z"
     },
     {
       "title": "Episode 70 - AI or Not?",
@@ -1884,8 +3291,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:24:06.539Z"
     },
     {
       "title": "ESRI GIS Developer - iSpatial Techno Solutions",
@@ -1897,8 +3308,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:22:07.022Z"
     },
     {
       "title": "\n        Update hugo.yaml\n    ",
@@ -1910,8 +3325,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:21:52.258Z"
     },
     {
       "title": "Upserting attributes & building a custom attachments workflow with the ArcGIS API for Python",
@@ -1924,7 +3343,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:21:38.459Z"
     },
     {
       "title": "GIS Web Developer - <b>Esri</b>/React Specialist (Remote) at | Get Hired 365",
@@ -1989,7 +3412,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-22T09:20:51.480Z"
     },
     {
       "title": "What’s new in ArcGIS GeoAnalytics Engine 2.1",
@@ -2002,7 +3429,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:23:36.886Z"
     },
     {
       "title": "Harry Pamu - Curiosity as a Superpower",
@@ -2015,7 +3446,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:22:42.016Z"
     },
     {
       "title": "\n        .NET と Flutter ページの軽微な修正\n    ",
@@ -2027,8 +3462,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:17:21.230Z"
     },
     {
       "title": "\n        .NET と Flutter ページの軽微な修正\n    ",
@@ -2040,8 +3479,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:17:12.125Z"
     },
     {
       "title": "is a Geographic Information System application for the Android platform provided by <b>Esri</b>. It ...",
@@ -2053,8 +3496,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "deprecated_project",
+      "manualStatus": "rejected",
+      "manualReason": "deprecated_project",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-29T07:31:08.530Z"
     },
     {
       "title": "\n        Merge branch 'master' of https://github.com/EsriJapan/arcgis-dev-reso…\n    ",
@@ -2066,8 +3513,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:51.841Z"
     },
     {
       "title": "\n        .NET ページの更新、Flutter ページの修正\n    ",
@@ -2079,8 +3530,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:48.084Z"
     },
     {
       "title": "@esri/arcgis-rest-portal@4.10.3",
@@ -2092,8 +3547,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:17.465Z"
     },
     {
       "title": "@esri/arcgis-rest-feature-service@4.10.3",
@@ -2105,8 +3564,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:20.289Z"
     },
     {
       "title": "@esri/arcgis-rest-developer-credentials@4.10.3",
@@ -2118,8 +3581,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:13.226Z"
     },
     {
       "title": "@esri/arcgis-rest-places@4.10.3",
@@ -2131,8 +3598,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:23.561Z"
     },
     {
       "title": "@esri/arcgis-rest-geocoding@4.10.3",
@@ -2144,8 +3615,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:14:25.844Z"
     },
     {
       "title": "@esri/arcgis-rest-request@4.10.3",
@@ -2157,8 +3632,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:13:57.984Z"
     },
     {
       "title": "@esri/arcgis-rest-form-data@4.10.3",
@@ -2170,8 +3649,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:13:54.256Z"
     },
     {
       "title": "@esri/arcgis-rest-fetch@4.10.3",
@@ -2183,8 +3666,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:13:50.288Z"
     },
     {
       "title": "@esri/arcgis-rest-elevation@4.10.3",
@@ -2196,8 +3683,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:13:46.696Z"
     },
     {
       "title": "@esri/arcgis-rest-routing@4.10.3",
@@ -2209,8 +3700,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcgis-rest-js/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_version",
+      "manualStatus": "rejected",
+      "manualReason": "minor_version",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T12:13:43.747Z"
     },
     {
       "title": "MapContent class move() method does not move a layer into a GroupLayer and errors #2513",
@@ -2235,8 +3730,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:32:21.589Z"
     },
     {
       "title": "ArcGIS Maps SDK for JavaScript: App Development with Components, Part 1: Programming Patterns",
@@ -2249,7 +3748,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:31:42.172Z"
     },
     {
       "title": "\n        kotlin 微修正\n    ",
@@ -2261,8 +3764,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:29:14.308Z"
     },
     {
       "title": "\n        Merge branch 'master' of https://github.com/EsriJapan/arcgis-dev-reso…\n    ",
@@ -2274,8 +3781,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "other",
+      "manualStatus": "rejected",
+      "manualReason": "other",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:29:06.279Z"
     },
     {
       "title": "\n        Kotlin インストールガイド、アプリ開発修正\n    ",
@@ -2287,8 +3798,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:28:49.182Z"
     },
     {
       "title": "Toolbox properties : the *.atbx revisited",
@@ -2300,8 +3815,12 @@
       "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=python-blog",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:28:17.885Z"
     },
     {
       "title": "全栈网页开发人员（React/ArcGIS） - Avanceon MEA 招聘- 海拉拉",
@@ -2313,8 +3832,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:27:53.757Z"
     },
     {
       "title": "\n        Flutter のページの更新・修正\n    ",
@@ -2327,7 +3850,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:27:09.651Z"
     },
     {
       "title": "\n        Swift のリダイレクトを修正\n    ",
@@ -2339,8 +3866,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:27:35.046Z"
     },
     {
       "title": "\n        Swift のインストール ガイドにリダイレクトを設定\n    ",
@@ -2352,8 +3883,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:27:37.524Z"
     },
     {
       "title": "\n        Swiftインストールガイド更新\n    ",
@@ -2365,8 +3900,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:27:32.255Z"
     },
     {
       "title": "Esri User Conference 2026",
@@ -2378,8 +3917,12 @@
       "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-16T13:01:47.798Z"
     },
     {
       "title": "Exploring the PDBe-KB Neo4j Schema with the PDBe Graph MCP Server - YouTube",
@@ -2391,8 +3934,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-19T08:20:10.961Z"
     },
     {
       "title": "ArcGIS Field Apps: Integration and Automation | #EsriDevTech2026",
@@ -2405,7 +3952,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-16T08:46:39.473Z"
     },
     {
       "title": "Senior GIS Web Developer — React + ArcGIS Maps SDK - Jobs in Qatar - Jooble",
@@ -2418,7 +3969,12 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "needs_rule",
+      "manualReason": "block_similar",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-15T07:33:29.106Z",
+      "needsReview": true
     },
     {
       "title": "Episode 69 - Wait, what's the difference between a Skill and a Project?",
@@ -2430,8 +3986,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-15T07:37:43.903Z"
     },
     {
       "title": "<b>Esri&#39;s</b> Jack Dangermond Honored with Award from International Fund for China&#39;s Environment",
@@ -2443,8 +4003,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-15T07:37:33.566Z"
     },
     {
       "title": "Version Management server REST API – new endpoints for viewing version locks",
@@ -2457,7 +4021,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-15T07:36:59.005Z"
     },
     {
       "title": "Query Related Records in ArcGIS Online using the ArcGIS API for Python",
@@ -2470,7 +4038,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-15T07:34:54.364Z"
     },
     {
       "title": "ArcGIS Maps SDKs for Native Apps: Latest Updates in Version 300.0",
@@ -2483,7 +4055,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-15T07:34:07.347Z"
     },
     {
       "title": "Querying Features from a Feature Layer in ArcGIS Online using the ArcGIS API for Python",
@@ -2496,7 +4072,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-12T06:16:13.588Z"
     },
     {
       "title": "Deprecation notice: Branch Version Management widget in ArcGIS Experience Builder",
@@ -2509,7 +4089,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-11T08:32:47.250Z"
     },
     {
       "title": "Full Stack Web Developer (React/<b>ArcGIS</b>) Avanceon Middle East &amp; South Asia - Naukrigulf",
@@ -2521,8 +4105,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-11T07:46:46.954Z"
     },
     {
       "title": "ArcGIS Enterprise: Cloud Deployment Options and Cloud-Native Services",
@@ -2535,7 +4123,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-11T08:32:45.562Z"
     },
     {
       "title": "Get Unique Attribute Values in ArcGIS Online using the ArcGIS API for Python",
@@ -2548,7 +4140,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-11T08:32:43.703Z"
     },
     {
       "title": "ArcGIS AI Assistants: Fundamentals | #EsriDevTech2026",
@@ -2561,7 +4157,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T12:53:41.267Z"
     },
     {
       "title": "Part 1: Increasing Accessibility and Internationalization in your ArcGIS Apps",
@@ -2574,7 +4174,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T12:43:38.676Z"
     },
     {
       "title": "Part 2: Increasing Accessibility and Internationalization in your ArcGIS Apps",
@@ -2587,7 +4191,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T12:43:38.119Z"
     },
     {
       "title": "How to use <b>ArcGIS</b> Maps <b>SDK</b> in Expo / React Native? - GIS StackExchange",
@@ -2612,8 +4220,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T09:21:13.292Z"
     },
     {
       "title": "Dissolve (Data Management) ArcGIS Pro Geoprocessing Tool in Action",
@@ -2625,8 +4237,12 @@
       "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T09:20:57.388Z"
     },
     {
       "title": "\n        Tabs の書き方を修正、Flutter のインストールガイドを更新し、リダイレクトを設定\n    ",
@@ -2638,8 +4254,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T09:20:25.980Z"
     },
     {
       "title": "How do you want to customize the JS Maps SDK components?",
@@ -2652,7 +4272,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T09:15:59.252Z"
     },
     {
       "title": "Enhance Your Work with Esri Demographics Resources",
@@ -2665,7 +4289,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T09:03:30.266Z"
     },
     {
       "title": "Everything You Need to Know About the ArcGIS Static Maps Service",
@@ -2678,7 +4306,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T09:00:05.073Z"
     },
     {
       "title": "Adding an Arcade Expression Elemement to a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> ...",
@@ -2691,7 +4323,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T09:00:17.222Z"
     },
     {
       "title": "Adding Related Records Information to Popups in ArcGIS Online using the ArcGIS API for Python",
@@ -2704,7 +4340,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T08:59:52.725Z"
     },
     {
       "title": "\n        Kotlin インストールガイド リダイレクト設定\n    ",
@@ -2716,8 +4356,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T08:59:10.611Z"
     },
     {
       "title": "\n        Maps SDK for Kotlin 300.0 更新対応\n    ",
@@ -2729,8 +4373,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T08:58:51.379Z"
     },
     {
       "title": "Essential ArcGIS Online WebMap Layer Labeling with the ArcGIS API for Python",
@@ -2743,7 +4391,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:51:33.331Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Custom Data Feeds What's New / Release notes Page",
@@ -2756,7 +4408,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:48:01.758Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Java What's New / Release notes Page",
@@ -2769,7 +4425,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:47:59.163Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK .NET What's New / Release notes Page",
@@ -2782,7 +4442,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:46:45.484Z"
     },
     {
       "title": "Editing and Exporting Data - YouTube",
@@ -2807,8 +4471,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "third_party_product",
+      "manualStatus": "rejected",
+      "manualReason": "third_party_product",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-10T08:58:15.924Z"
     },
     {
       "title": "UC 2026: A Developer’s Guide",
@@ -2821,7 +4489,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:40:32.685Z"
     },
     {
       "title": "Episode 68 - Don’t Blame the Robot",
@@ -2833,8 +4505,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "irrelevant",
+      "manualStatus": "rejected",
+      "manualReason": "irrelevant",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:39:52.949Z"
     },
     {
       "title": "VertiGIS Studio Road Ahead - June 4th Highlights",
@@ -2846,8 +4522,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "product_community_note",
+      "manualStatus": "rejected",
+      "manualReason": "product_community_note",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:39:06.846Z"
     },
     {
       "title": "ArcGIS Maps SDK for Flutter - 300.0.0 compatibility notes for Flutter 3.44.x",
@@ -2860,7 +4540,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:37:59.606Z"
     },
     {
       "title": "Industry Quotes On World Environment Day – Tech Mahindra, COAI, Nokia India, Ostara ...",
@@ -2885,8 +4569,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "not_major_contribution",
+      "manualStatus": "rejected",
+      "manualReason": "not_major_contribution",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:36:50.656Z"
     },
     {
       "title": "Custom Software Engineer - adzuna.in",
@@ -2898,8 +4586,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-09T08:34:50.767Z"
     },
     {
       "title": "<b>Arcgis</b> Field Maps - Make an <b>API</b> Call : Error 404 - Questions",
@@ -2925,7 +4617,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-04T06:16:08.160Z"
     },
     {
       "title": "Render data with new color ramps and color maps in Native Maps SDKs",
@@ -2938,7 +4634,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-04T06:15:05.623Z"
     },
     {
       "title": "\n        リダイレクトの設定追加\n    ",
@@ -2950,8 +4650,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:08:47.236Z"
     },
     {
       "title": "Calcite Design System: What’s New in 5.1",
@@ -2964,7 +4668,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:08:20.148Z"
     },
     {
       "title": "\n        リダイレクトの設定\n    ",
@@ -2976,8 +4684,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:07:17.046Z"
     },
     {
       "title": "Render data with new color ramps and color maps in Native Maps SDKs",
@@ -2990,7 +4702,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:07:07.086Z"
     },
     {
       "title": "\n        リダイレクトの設定\n    ",
@@ -3002,8 +4718,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:06:26.589Z"
     },
     {
       "title": "[Deprecated] 1.2.0",
@@ -3015,8 +4735,12 @@
       "sourceFeedUrl": "https://github.com/Esri/maplibre-arcgis/releases.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "superseded_by_release",
+      "manualStatus": "rejected",
+      "manualReason": "superseded_by_release",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:05:51.573Z"
     },
     {
       "title": "1.3.0",
@@ -3029,7 +4753,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:05:53.574Z"
     },
     {
       "title": "Software Development Engineer II - <b>JavaScript</b> Web Development - <b>Esri</b> | Built In Colorado",
@@ -3041,8 +4769,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "job_offer",
+      "manualStatus": "rejected",
+      "manualReason": "job_offer",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-03T18:00:01.930Z"
     },
     {
       "title": "Release schedule: Version 5.1 of JavaScript Maps SDK",
@@ -3055,7 +4787,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-02T07:34:41.566Z"
     },
     {
       "title": "ArcGIS API for Python: Working with ArcGIS Apps | #EsriDevTech2026",
@@ -3068,7 +4804,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-02T07:33:58.221Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3093,8 +4833,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-06-01T14:20:58.660Z"
     },
     {
       "title": "\n        Merge pull request #422 from woriginales/master\n    ",
@@ -3107,7 +4851,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-29T11:24:33.313Z"
     },
     {
       "title": "\n        Add Angular NgModules Maps SDK template\n    ",
@@ -3119,8 +4867,12 @@
       "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "complementary_commit",
+      "manualStatus": "rejected",
+      "manualReason": "complementary_commit",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-29T11:24:29.552Z"
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -3133,7 +4885,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.073Z"
     },
     {
       "title": "Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt",
@@ -3146,7 +4902,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-28T08:10:49.567Z"
     },
     {
       "title": "Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt",
@@ -3159,7 +4919,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-28T08:10:49.161Z"
     },
     {
       "title": "<b>Esri</b> Canada named a Municipal Changemaker by Municipal World - GlobeNewswire",
@@ -3171,8 +4935,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-28T08:05:54.598Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3198,7 +4966,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-28T08:05:25.933Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3224,7 +4996,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-27T09:55:10.822Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3249,8 +5025,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "duplicate",
+      "manualStatus": "rejected",
+      "manualReason": "duplicate",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-26T06:34:40.233Z"
     },
     {
       "title": "AI-Infused Development: Lessons Learned and Patterns from Esri Engineers",
@@ -3263,7 +5043,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-27T09:55:10.211Z"
     },
     {
       "title": "\n        ライセンスページのリンクの修正、内容統一\n    ",
@@ -3275,8 +5059,12 @@
       "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "duplicate",
+      "manualStatus": "rejected",
+      "manualReason": "duplicate",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-26T06:34:37.578Z"
     },
     {
       "title": "\n        ライセンス関連記事を300.xに更新\n    ",
@@ -3289,7 +5077,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-26T06:34:21.401Z"
     },
     {
       "title": "Arcgis Api For Javascript",
@@ -3301,8 +5093,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "mfa_site",
+      "manualStatus": "rejected",
+      "manualReason": "mfa_site",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-26T06:29:03.756Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3327,8 +5123,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "mfa_site",
+      "manualStatus": "rejected",
+      "manualReason": "mfa_site",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-25T08:25:01.816Z"
     },
     {
       "title": "ArcGIS Utility Network Associate: 2026 v 2024 Version Comparison",
@@ -3340,8 +5140,12 @@
       "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/boardmessages?board.id=certification-exams",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-25T08:25:35.584Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -3354,7 +5158,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:15.176Z"
     },
     {
       "title": "Episode 66 - Don’t Tell Claude Who to Be",
@@ -3366,8 +5174,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-25T08:25:41.816Z"
     },
     {
       "title": "ArcGIS Topographic Mapping at ArcGIS Pro 3.7 and ArcGIS Enterprise 12.1",
@@ -3380,7 +5192,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-25T08:29:19.283Z"
     },
     {
       "title": "ArcGIS for Excel (2026 年 4 月アップデート) の新機能",
@@ -3392,8 +5208,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-25T08:29:44.605Z"
     },
     {
       "title": "Welcome to the Developer’s Lounge: Where Curiosity Meets Code",
@@ -3406,7 +5226,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-26T14:42:10.726Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -3419,7 +5243,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:15.176Z"
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -3432,7 +5260,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.504Z"
     },
     {
       "title": "Detected changes on: ArcGIS Feature service What's New / Release notes Page",
@@ -3445,7 +5277,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.496Z"
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -3458,7 +5294,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:19.705Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3483,8 +5323,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-22T14:15:51.201Z"
     },
     {
       "title": "The GroupLayer object layers property with the <b>ArcGIS API</b> for Python - YouTube",
@@ -3497,7 +5341,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-22T14:15:09.600Z"
     },
     {
       "title": "Detected changes on: ArcGIS API for Python What's New / Release notes Page",
@@ -3510,7 +5358,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:35:56.184Z"
     },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
@@ -3523,7 +5375,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:12.944Z"
     },
     {
       "title": "Detected changes on: Arcade What's New / Release notes Page",
@@ -3536,7 +5392,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.096Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -3549,7 +5409,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:15.176Z"
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -3562,7 +5426,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.504Z"
     },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
@@ -3592,7 +5460,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.496Z"
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -3605,7 +5477,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:17.649Z"
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -3618,7 +5494,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:19.705Z"
     },
     {
       "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
@@ -3631,7 +5511,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:20.409Z"
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -3644,7 +5528,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.073Z"
     },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
@@ -3687,7 +5575,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:55:38.470Z"
     },
     {
       "title": "Setting a Group Layer name in an <b>ArcGIS</b> Online WebMap using the <b>ArcGIS API</b> for Python",
@@ -3700,7 +5592,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:55:07.751Z"
     },
     {
       "title": "Setting Layer Visibility with a WebMap Group Layer using the <b>ArcGIS API</b> for Python",
@@ -3713,7 +5609,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:54:37.067Z"
     },
     {
       "title": "Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services | #EsriDevTech2026",
@@ -3726,7 +5626,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-22T14:13:30.085Z"
     },
     {
       "title": "<b>ArcGIS Maps SDK for</b> Unity加载本地地形避坑指南：为什么你的tpkx文件地形不明显？ 原创",
@@ -3739,7 +5643,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:53:48.547Z"
     },
     {
       "title": "What’s New in ArcGIS Geocoding for ArcGIS Pro 3.7",
@@ -3751,8 +5659,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:49:42.587Z"
     },
     {
       "title": "What's new in ArcGIS tutorials April 2026",
@@ -3764,8 +5676,12 @@
       "sourceFeedUrl": "https://community.esri.com/ccqpr47374/rss/board?board.id=learn-arcgis-blog",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:48:48.305Z"
     },
     {
       "title": "# Optimizing Feature Layer Queries in <b>ArcGIS</b> Pro <b>SDK</b> - DEV Community",
@@ -3778,7 +5694,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-21T06:48:22.873Z"
     },
     {
       "title": "\n        Update README.md\n    ",
@@ -3790,8 +5710,12 @@
       "sourceFeedUrl": "https://github.com/Esri/arcpy/commits.atom",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "minor_edit",
+      "manualStatus": "rejected",
+      "manualReason": "minor_edit",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-20T06:16:41.160Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3816,8 +5740,12 @@
       "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-20T06:16:58.886Z"
     },
     {
       "title": "SceneView Improvements in ArcGIS Maps SDKs for Native Apps 300.0",
@@ -3830,7 +5758,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-20T06:16:48.102Z"
     },
     {
       "title": "<b>ArcGIS</b> Layer Rename Tutorial Review - YouTube",
@@ -3842,8 +5774,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-20T06:14:25.074Z"
     },
     {
       "title": "Editor’s Corner — True Curve Drawing Tools in ArcGIS Online",
@@ -3855,8 +5791,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-20T06:17:20.566Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3881,8 +5821,12 @@
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/living-atlas-of-the-world/feed",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-19T09:42:24.488Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3908,7 +5852,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-19T09:42:39.111Z"
     },
     {
       "title": "What's changed for curves in ArcGIS Maps SDKs for Native Apps 300.0",
@@ -3921,7 +5869,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-19T09:42:41.071Z"
     },
     {
       "title": "Explorer for ArcGIS Beta | Windows 应用- Crx搜搜",
@@ -3933,8 +5885,12 @@
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "marketplace_autoindex",
+      "manualStatus": "rejected",
+      "manualReason": "marketplace_autoindex",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-19T09:43:32.498Z"
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -3986,7 +5942,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-18T06:53:05.504Z"
     },
     {
       "title": "ArcGIS Toolboxes in Visual Studio Code",
@@ -3999,7 +5959,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-18T06:43:57.520Z"
     },
     {
       "title": "Episode 65 - How to tend a codebase",
@@ -4011,8 +5975,12 @@
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "ignored": false,
-      "ignoreReason": ""
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev",
+      "manualStatus": "rejected",
+      "manualReason": "off_topic_arcgis_dev",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-18T06:41:54.786Z"
     },
     {
       "title": "Display Attachments in a Popup in <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python - YouTube",
@@ -4025,7 +5993,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-18T06:42:55.273Z"
     },
     {
       "title": "React JS Developer ( <b>ArcGIS</b> expertise) with 5 - 8 Years of Experience at exasoft pte. ltd. in ... - foundit",
@@ -4051,7 +6023,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:21:41.031Z"
     },
     {
       "title": "Moving a Layer in a WebMap in <b>ArcGIS</b> Online to the Basemap Layers using the <b>ArcGIS API</b> ...",
@@ -4064,7 +6040,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:32:32.082Z"
     },
     {
       "title": "Moving Basemap Layers to the WebMap Layers in an <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python",
@@ -4077,7 +6057,11 @@
       "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:33:20.588Z"
     },
     {
       "title": "200.8.2 LTS patch for ArcGIS Maps SDKs for Native Apps is now available",
@@ -4090,7 +6074,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:33:58.941Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Custom Data Feeds What's New / Release notes Page",
@@ -4103,7 +6091,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:35:47.471Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Java What's New / Release notes Page",
@@ -4116,7 +6108,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:35:51.634Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK .NET What's New / Release notes Page",
@@ -4129,7 +6125,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:35:52.208Z"
     },
     {
       "title": "Detected changes on: ArcGIS API for Python What's New / Release notes Page",
@@ -4142,7 +6142,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:35:56.184Z"
     },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
@@ -4155,7 +6159,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:12.944Z"
     },
     {
       "title": "Detected changes on: ArcGIS Pro SDK for .NET What's New / Release notes Page | last modified: 2026-05-12",
@@ -4168,7 +6176,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:13.480Z"
     },
     {
       "title": "Detected changes on: ArcGIS Architecture What's New / Release notes Page",
@@ -4198,7 +6210,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.096Z"
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -4211,7 +6227,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:14.504Z"
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -4224,7 +6244,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:15.176Z"
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -4237,7 +6261,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:17.649Z"
     },
     {
       "title": "Detected changes on: ArcGIS Feature service What's New / Release notes Page",
@@ -4250,7 +6278,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.496Z"
     },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
@@ -4297,7 +6329,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:21.073Z"
     },
     {
       "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
@@ -4310,7 +6346,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:20.409Z"
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -4323,7 +6363,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:19.705Z"
     },
     {
       "title": "Precision Mapping ​in the Field | #EsriDevTech2026",
@@ -4381,7 +6425,11 @@
       "sourceRelevanceMode": "trusted",
       "processed": true,
       "ignored": false,
-      "ignoreReason": ""
+      "ignoreReason": "",
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:41:21.833Z"
     },
     {
       "title": "Software Development Engineer II - Android SDK - Experteer UK",
@@ -4455,11 +6503,11 @@
       "summary": "Learn how to integrate work orders with ArcGIS in this informative article.",
       "processed": true,
       "manualStatus": "rejected",
-      "manualReason": "Not related with ArcGIS developer tehcnologies",
+      "manualReason": "off_topic_arcgis_dev",
       "manualNotes": "",
       "reviewedAt": "2026-05-14T07:42:43.931Z",
       "ignored": true,
-      "ignoreReason": "Not related with ArcGIS developer tehcnologies"
+      "ignoreReason": "off_topic_arcgis_dev"
     },
     {
       "title": "[B!] <b>ArcGIS Maps SDK for</b> JavaScript アプリケーション プログラミング | ESRIジャパン株式会社",
@@ -19373,9 +21421,9 @@
       "summary": "Esri Australia partners with GISA Corporation to expand ArcGIS Online adoption among Japanese businesses.",
       "processed": true,
       "ignored": true,
-      "ignoreReason": "Not related with ArcGIS developer tehcnologies",
+      "ignoreReason": "off_topic_arcgis_dev",
       "manualStatus": "rejected",
-      "manualReason": "Not related with ArcGIS developer tehcnologies",
+      "manualReason": "off_topic_arcgis_dev",
       "manualNotes": "Correction for auto-ignored item: Oferta de trabajo (backfill)",
       "reviewedAt": "2026-05-14T07:42:06.552Z"
     },
