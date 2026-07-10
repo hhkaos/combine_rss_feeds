@@ -75,7 +75,7 @@
         // Load and process the JSON feed
         async function loadFeed() {
           try {
-            const response = await fetch('feeds/arcgis_esri_dev_feed.json');
+            const response = await fetch(`feeds/arcgis_esri_dev_feed.json?ts=${Date.now()}`, { cache: 'no-store' });
             const data = await response.json();
             return data.items;
           } catch (error) {
