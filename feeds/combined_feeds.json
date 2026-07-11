@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (10-07-2026)",
+  "title": "Combined ArcGIS Feeds (11-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-10T11:32:31.627Z",
+  "lastUpdated": "2026-07-11T00:20:04.167Z",
   "items": [
+    {
+      "title": "Episode 73 - Credit Where Credit Is Due",
+      "description": "Come play AI or Not at the Esri UC (booth 436) and win a robot-head keychain!",
+      "link": "https://christophermoravec.com/episode-73-credit-where-credit-is-due/",
+      "guid": "6a514b0843f21a0001083a6f",
+      "author": "Christopher Moravec",
+      "date": "2026-07-10T20:36:14.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "New <b>Esri</b> Press Book Shows That GIS Can Transform the Entire Campus, Starting at the Classroom",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, The Science of Where, <b>esri</b> ... <b>API</b> &middot; MediaBeenew&nbsp;...",

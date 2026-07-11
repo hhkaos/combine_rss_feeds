@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-10T11:31:51.798Z",
+  "lastRun": "2026-07-11T00:19:31.628Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -414,6 +414,51 @@
       "stars": 34,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "amandastanko/global-event-monitoring": {
+      "htmlUrl": "https://github.com/amandastanko/global-event-monitoring",
+      "firstSeen": "2026-07-11T00:19:26.960Z",
+      "createdAt": "2026-07-10T23:11:32Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "R-ArcGIS/arcgislayers": {
+      "htmlUrl": "https://github.com/R-ArcGIS/arcgislayers",
+      "firstSeen": "2026-07-11T00:19:28.141Z",
+      "createdAt": "2023-02-24T18:04:30Z",
+      "axis": "pushed",
+      "stars": 62,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "R-ArcGIS/arcgisutils": {
+      "htmlUrl": "https://github.com/R-ArcGIS/arcgisutils",
+      "firstSeen": "2026-07-11T00:19:29.541Z",
+      "createdAt": "2023-10-17T16:49:59Z",
+      "axis": "pushed",
+      "stars": 21,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-rest-js": {
+      "htmlUrl": "https://github.com/Esri/arcgis-rest-js",
+      "firstSeen": "2026-07-11T00:19:30.663Z",
+      "createdAt": "2017-07-10T15:40:20Z",
+      "axis": "pushed",
+      "stars": 386,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/feedback-js-api-next": {
+      "htmlUrl": "https://github.com/Esri/feedback-js-api-next",
+      "firstSeen": "2026-07-11T00:19:31.628Z",
+      "createdAt": "2019-09-04T17:30:00Z",
+      "axis": "pushed",
+      "stars": 88,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

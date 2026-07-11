@@ -1,8 +1,116 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (10-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (11-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-10T11:32:55.135Z",
+  "lastUpdated": "2026-07-11T00:20:29.686Z",
   "items": [
+    {
+      "title": "Esri/arcgis-rest-js: compact, modular JavaScript wrappers for the ArcGIS REST API",
+      "description": "compact, modular JavaScript wrappers for the ArcGIS REST API\nProporciona envoltorios modulares en JavaScript para facilitar el uso de la API REST de ArcGIS.\nTopics: arcgis, data-management, esri, hacktoberfest, javascript, rest-api, vanilla, web-development · ⭐ 386 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-rest-js",
+      "guid": "https://github.com/Esri/arcgis-rest-js",
+      "author": "Esri",
+      "date": "2026-07-10T23:30:22.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona envoltorios modulares en JavaScript para facilitar el uso de la API REST de ArcGIS."
+    },
+    {
+      "title": "amandastanko/global-event-monitoring: Global event monitoring in real-time with ArcGIS Experience Builder, Notebooks, and Data Pipelines updating hourly. Custom alert ticker widget included.",
+      "description": "Global event monitoring in real-time with ArcGIS Experience Builder, Notebooks, and Data Pipelines updating hourly. Custom alert ticker widget included.\nEste repositorio incluye un monitor de eventos globales en tiempo real con un widget de alerta personalizado.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/amandastanko/global-event-monitoring",
+      "guid": "https://github.com/amandastanko/global-event-monitoring",
+      "author": "amandastanko",
+      "date": "2026-07-10T23:11:32.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio incluye un monitor de eventos globales en tiempo real con un widget de alerta personalizado."
+    },
+    {
+      "title": "Episode 73 - Credit Where Credit Is Due",
+      "description": "Come play AI or Not at the Esri UC (booth 436) and win a robot-head keychain!",
+      "link": "https://christophermoravec.com/episode-73-credit-where-credit-is-due/",
+      "guid": "6a514b0843f21a0001083a6f",
+      "author": "Christopher Moravec",
+      "date": "2026-07-10T20:36:14.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "R-ArcGIS/arcgislayers: Harness ArcGIS Online, Enterprise, and Location Platform from R",
+      "description": "Harness ArcGIS Online, Enterprise, and Location Platform from R\nProporciona herramientas para utilizar ArcGIS Online y Enterprise desde R.\nTopics: arcgis, esri, gis, r-spatial, rstats · ⭐ 62 · R\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/R-ArcGIS/arcgislayers",
+      "guid": "https://github.com/R-ArcGIS/arcgislayers",
+      "author": "R-ArcGIS",
+      "date": "2026-07-10T19:20:28.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas para utilizar ArcGIS Online y Enterprise desde R."
+    },
+    {
+      "title": "R-ArcGIS/arcgisutils: Developer utilities for the R-ArcGIS Bridge. Authenticate with the ArcGIS System, read and write Esri JSON, and more.",
+      "description": "Developer utilities for the R-ArcGIS Bridge. Authenticate with the ArcGIS System, read and write Esri JSON, and more.\nProporciona herramientas para autenticar y manipular datos de ArcGIS desde R.\nTopics: arcgis, r-spatial, rstats · ⭐ 21 · R\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/R-ArcGIS/arcgisutils",
+      "guid": "https://github.com/R-ArcGIS/arcgisutils",
+      "author": "R-ArcGIS",
+      "date": "2026-07-10T18:50:45.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas para autenticar y manipular datos de ArcGIS desde R."
+    },
+    {
+      "title": "Esri/feedback-js-api-next: Try out the next release of the ArcGIS Maps SDK for JavaScript and share your feedback. Be warned: this release is still in development and is unstable.",
+      "description": "Try out the next release of the ArcGIS Maps SDK for JavaScript and share your feedback. Be warned: this release is still in development and is unstable.\nPermite a los desarrolladores probar y dar feedback sobre la próxima versión del SDK.\nTopics: arcgis-js-api · ⭐ 88 · —\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/feedback-js-api-next",
+      "guid": "https://github.com/Esri/feedback-js-api-next",
+      "author": "Esri",
+      "date": "2026-07-10T17:12:30.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite a los desarrolladores probar y dar feedback sobre la próxima versión del SDK."
+    },
     {
       "title": "CasualChampionships/arcade: Arcade is a server-side Minecraft api made in Kotlin, providing a wide array of functionality primarily aimed at server-sided minigame development.",
       "description": "Arcade is a server-side Minecraft api made in Kotlin, providing a wide array of functionality primarily aimed at server-sided minigame development.\nEs un API para Minecraft, no tiene relación con desarrollo en ArcGIS.\nTopics: arcade, minecraft, minecraft-api · ⭐ 16 · Kotlin\nGitHub repo descubierto (pushed · devtool)",
