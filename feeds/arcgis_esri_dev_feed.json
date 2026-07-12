@@ -1,8 +1,69 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (11-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (12-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-11T00:20:29.686Z",
+  "lastUpdated": "2026-07-12T00:22:09.472Z",
   "items": [
+    {
+      "title": "R-ArcGIS/arcgisplaces: Search for POIs using ArcGIS Places Services from R. Query locations within an extent or near a point. Filter based on search text or thousands of categories. ",
+      "description": "Search for POIs using ArcGIS Places Services from R. Query locations within an extent or near a point. Filter based on search text or thousands of categories. \nProporciona una interfaz para buscar puntos de interés utilizando los servicios de ArcGIS Places desde R.\nTopics: arcgis, esri, location-services, poi, r-spatial, rstats · ⭐ 13 · R\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/R-ArcGIS/arcgisplaces",
+      "guid": "https://github.com/R-ArcGIS/arcgisplaces",
+      "author": "R-ArcGIS",
+      "date": "2026-07-11T17:14:52.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una interfaz para buscar puntos de interés utilizando los servicios de ArcGIS Places desde R."
+    },
+    {
+      "title": "R-ArcGIS/arcpbf: Rust crate and R package for processing Esri Protocol Buffers ",
+      "description": "Rust crate and R package for processing Esri Protocol Buffers \nProporciona herramientas en Rust y R para trabajar con datos de Esri.\nTopics: agol, arcgis, r-spatial · ⭐ 11 · Rust\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/R-ArcGIS/arcpbf",
+      "guid": "https://github.com/R-ArcGIS/arcpbf",
+      "author": "R-ArcGIS",
+      "date": "2026-07-11T17:10:11.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas en Rust y R para trabajar con datos de Esri."
+    },
+    {
+      "title": "R-ArcGIS/calcite: Harness the Calcite Design System for Shiny applications. Build R-native ArcGIS applications.",
+      "description": "Harness the Calcite Design System for Shiny applications. Build R-native ArcGIS applications.\nPermite a los desarrolladores crear aplicaciones ArcGIS nativas en R utilizando el sistema de diseño Calcite.\nTopics: arcgis, calcite-design-system, r-shiny, r-spatial, rstats · ⭐ 19 · R\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/R-ArcGIS/calcite",
+      "guid": "https://github.com/R-ArcGIS/calcite",
+      "author": "R-ArcGIS",
+      "date": "2026-07-11T16:54:54.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite a los desarrolladores crear aplicaciones ArcGIS nativas en R utilizando el sistema de diseño Calcite.",
+      "manualStatus": "accepted",
+      "manualReason": "activity_sheet_match",
+      "manualNotes": "Matched with manually curated Activity sheet.",
+      "reviewedAt": "2026-05-12T20:42:05.716Z"
+    },
     {
       "title": "Esri/arcgis-rest-js: compact, modular JavaScript wrappers for the ArcGIS REST API",
       "description": "compact, modular JavaScript wrappers for the ArcGIS REST API\nProporciona envoltorios modulares en JavaScript para facilitar el uso de la API REST de ArcGIS.\nTopics: arcgis, data-management, esri, hacktoberfest, javascript, rest-api, vanilla, web-development · ⭐ 386 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
@@ -40,6 +101,19 @@
       ],
       "repoCategory": "devtool",
       "discoverySummary": "Este repositorio incluye un monitor de eventos globales en tiempo real con un widget de alerta personalizado."
+    },
+    {
+      "title": "Beyond latitude and longitude: Giving geographic context to coordinates",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/beyond-latitude-and-longitude-giving-geographic-context-to-coordinates",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2976369",
+      "author": "Sumant Tyagi",
+      "date": "2026-07-10T20:56:52.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Episode 73 - Credit Where Credit Is Due",

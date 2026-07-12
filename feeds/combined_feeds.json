@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (11-07-2026)",
+  "title": "Combined ArcGIS Feeds (12-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-11T00:20:04.167Z",
+  "lastUpdated": "2026-07-12T00:21:10.863Z",
   "items": [
+    {
+      "title": "Beyond latitude and longitude: Giving geographic context to coordinates",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/beyond-latitude-and-longitude-giving-geographic-context-to-coordinates",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2976369",
+      "author": "Sumant Tyagi",
+      "date": "2026-07-10T20:56:52.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Episode 73 - Credit Where Credit Is Due",
       "description": "Come play AI or Not at the Esri UC (booth 436) and win a robot-head keychain!",

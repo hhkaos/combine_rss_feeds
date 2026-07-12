@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-11T00:19:31.628Z",
+  "lastRun": "2026-07-12T00:19:55.094Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -457,6 +457,33 @@
       "createdAt": "2019-09-04T17:30:00Z",
       "axis": "pushed",
       "stars": 88,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "R-ArcGIS/arcgisplaces": {
+      "htmlUrl": "https://github.com/R-ArcGIS/arcgisplaces",
+      "firstSeen": "2026-07-12T00:19:51.521Z",
+      "createdAt": "2024-04-27T13:08:16Z",
+      "axis": "pushed",
+      "stars": 13,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "R-ArcGIS/arcpbf": {
+      "htmlUrl": "https://github.com/R-ArcGIS/arcpbf",
+      "firstSeen": "2026-07-12T00:19:52.978Z",
+      "createdAt": "2023-10-30T17:48:03Z",
+      "axis": "pushed",
+      "stars": 11,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "R-ArcGIS/calcite": {
+      "htmlUrl": "https://github.com/R-ArcGIS/calcite",
+      "firstSeen": "2026-07-12T00:19:55.094Z",
+      "createdAt": "2024-04-04T16:31:11Z",
+      "axis": "pushed",
+      "stars": 19,
       "classifiedCategory": "devtool",
       "relevant": true
     }
