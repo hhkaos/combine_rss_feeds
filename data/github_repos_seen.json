@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-12T00:19:55.094Z",
+  "lastRun": "2026-07-13T00:20:10.734Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -484,6 +484,15 @@
       "createdAt": "2024-04-04T16:31:11Z",
       "axis": "pushed",
       "stars": 19,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-kotlin-toolkit": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-kotlin-toolkit",
+      "firstSeen": "2026-07-13T00:20:10.734Z",
+      "createdAt": "2023-01-05T22:21:40Z",
+      "axis": "pushed",
+      "stars": 25,
       "classifiedCategory": "devtool",
       "relevant": true
     }

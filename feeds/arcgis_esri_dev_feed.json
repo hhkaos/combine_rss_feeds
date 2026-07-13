@@ -1,8 +1,53 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (12-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (13-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-12T00:22:09.472Z",
+  "lastUpdated": "2026-07-13T00:21:16.555Z",
   "items": [
+    {
+      "title": "Esri/arcgis-maps-sdk-kotlin-toolkit: ArcGIS Maps SDK for Kotlin Toolkit",
+      "description": "ArcGIS Maps SDK for Kotlin Toolkit\nProporciona herramientas y componentes para integrar mapas de ArcGIS en aplicaciones de Android.\nTopics: android, android-library, android-ui, arcgis-maps-sdk-for-native-apps, jetpack-compose, kotlin · ⭐ 25 · Kotlin\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-maps-sdk-kotlin-toolkit",
+      "guid": "https://github.com/Esri/arcgis-maps-sdk-kotlin-toolkit",
+      "author": "Esri",
+      "date": "2026-07-12T19:01:25.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas y componentes para integrar mapas de ArcGIS en aplicaciones de Android."
+    },
+    {
+      "title": "Introducing Geospatial Foundation Models in ArcGIS",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/introducing-geospatial-foundation-models-in-arcgis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2974879",
+      "author": "Priyanka Tuteja",
+      "date": "2026-07-12T09:47:37.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Strata Server — a lightweight feature server compatible with ArcGIS® - Tabaqat",
+      "description": "Connect from the tools you already use. ArcGIS Pro<b>ArcGIS Maps SDK for</b> JavaScriptQGISMapLibreEsri REST clientsDuckDB. Strata Server is an independent&nbsp;...",
+      "link": "https://tabaqat.net/strata-server",
+      "guid": "tag:google.com,2013:googlealerts/feed:8777499906381802297",
+      "author": "",
+      "date": "2026-07-11T22:43:20.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "R-ArcGIS/arcgisplaces: Search for POIs using ArcGIS Places Services from R. Query locations within an extent or near a point. Filter based on search text or thousands of categories. ",
       "description": "Search for POIs using ArcGIS Places Services from R. Query locations within an extent or near a point. Filter based on search text or thousands of categories. \nProporciona una interfaz para buscar puntos de interés utilizando los servicios de ArcGIS Places desde R.\nTopics: arcgis, esri, location-services, poi, r-spatial, rstats · ⭐ 13 · R\nGitHub repo descubierto (pushed · devtool)",

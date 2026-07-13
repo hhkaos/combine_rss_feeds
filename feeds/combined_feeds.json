@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (12-07-2026)",
+  "title": "Combined ArcGIS Feeds (13-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-12T00:21:10.863Z",
+  "lastUpdated": "2026-07-13T00:20:54.446Z",
   "items": [
+    {
+      "title": "Introducing Geospatial Foundation Models in ArcGIS",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/introducing-geospatial-foundation-models-in-arcgis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2974879",
+      "author": "Priyanka Tuteja",
+      "date": "2026-07-12T09:47:37.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Strata Server — a lightweight feature server compatible with ArcGIS® - Tabaqat",
+      "description": "Connect from the tools you already use. ArcGIS Pro<b>ArcGIS Maps SDK for</b> JavaScriptQGISMapLibreEsri REST clientsDuckDB. Strata Server is an independent&nbsp;...",
+      "link": "https://tabaqat.net/strata-server",
+      "guid": "tag:google.com,2013:googlealerts/feed:8777499906381802297",
+      "author": "",
+      "date": "2026-07-11T22:43:20.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Beyond latitude and longitude: Giving geographic context to coordinates",
       "description": "",
