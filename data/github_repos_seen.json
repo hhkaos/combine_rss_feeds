@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-13T00:20:10.734Z",
+  "lastRun": "2026-07-14T00:17:49.867Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -495,6 +495,24 @@
       "stars": 25,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "vertigis/vertigis-web-sdk": {
+      "htmlUrl": "https://github.com/vertigis/vertigis-web-sdk",
+      "firstSeen": "2026-07-14T00:17:48.783Z",
+      "createdAt": "2020-03-26T16:20:14Z",
+      "axis": "pushed",
+      "stars": 7,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "joewdavies/awesome-frontend-gis": {
+      "htmlUrl": "https://github.com/joewdavies/awesome-frontend-gis",
+      "firstSeen": "2026-07-14T00:17:49.867Z",
+      "createdAt": "2019-09-18T13:52:55Z",
+      "axis": "pushed",
+      "stars": 828,
+      "classifiedCategory": "devtool",
+      "relevant": false
     }
   }
 }
