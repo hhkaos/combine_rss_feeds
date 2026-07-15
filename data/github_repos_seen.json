@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-14T00:17:49.867Z",
+  "lastRun": "2026-07-15T00:17:06.154Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -513,6 +513,24 @@
       "stars": 828,
       "classifiedCategory": "devtool",
       "relevant": false
+    },
+    "utility-network/utility-network": {
+      "htmlUrl": "https://github.com/utility-network/utility-network",
+      "firstSeen": "2026-07-15T00:17:04.877Z",
+      "createdAt": "2026-07-14T18:29:21Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/dynamic-situational-awareness-qt": {
+      "htmlUrl": "https://github.com/Esri/dynamic-situational-awareness-qt",
+      "firstSeen": "2026-07-15T00:17:06.154Z",
+      "createdAt": "2017-08-18T19:04:25Z",
+      "axis": "pushed",
+      "stars": 65,
+      "classifiedCategory": "consumer",
+      "relevant": true
     }
   }
 }

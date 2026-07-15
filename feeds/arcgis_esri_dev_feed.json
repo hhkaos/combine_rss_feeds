@@ -1,8 +1,72 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (15-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-14T00:19:01.828Z",
+  "lastUpdated": "2026-07-15T00:17:55.127Z",
   "items": [
+    {
+      "title": "Esri/dynamic-situational-awareness-qt: Dynamic Situational Awareness Qt",
+      "description": "Dynamic Situational Awareness Qt\nEste repositorio contiene una aplicación de conciencia situacional dinámica construida con el SDK de ArcGIS para Qt.\nTopics: arcgis, arcgis-maps-sdk-for-native-apps, arcgis-maps-sdk-for-qt, arcgis-runtime-sdk, arcgis-runtime-sdk-arcgis-qt-sdk, open-source-app, qml, qt, runtime · ⭐ 65 · C++\nGitHub repo descubierto (pushed · consumer)",
+      "link": "https://github.com/Esri/dynamic-situational-awareness-qt",
+      "guid": "https://github.com/Esri/dynamic-situational-awareness-qt",
+      "author": "Esri",
+      "date": "2026-07-14T23:02:59.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Este repositorio contiene una aplicación de conciencia situacional dinámica construida con el SDK de ArcGIS para Qt."
+    },
+    {
+      "title": "utility-network/utility-network: Engineering-grade reference and Python automation for utility network GIS — topology tracing, outage routing, and asset lifecycle management.",
+      "description": "Engineering-grade reference and Python automation for utility network GIS — topology tracing, outage routing, and asset lifecycle management.\nEs una herramienta útil para desarrolladores que trabajan con redes de servicios públicos en ArcGIS.\nTopics: arcgis, asset-management, electric-utilities, eleventy, esri, geopandas, geospatial, gis, gis-automation, infrastructure, networkx, outage-management, python, topology, utility-network, water-utilities · ⭐ 0 · CSS\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/utility-network/utility-network",
+      "guid": "https://github.com/utility-network/utility-network",
+      "author": "utility-network",
+      "date": "2026-07-14T18:29:21.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es una herramienta útil para desarrolladores que trabajan con redes de servicios públicos en ArcGIS."
+    },
+    {
+      "title": "Resources for Migrating from ArcGIS Web AppBuilder to Experience Builder",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/announcements/resources-for-migrating-from-arcgis-web-appbuilder-to-experience-builder",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2977286",
+      "author": "Sarah Jane O’Keefe",
+      "date": "2026-07-14T18:17:03.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Experience Builder: Getting Started with Developer Edition | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=tRYckRnWxPU",
+      "guid": "yt:video:tRYckRnWxPU",
+      "author": "Esri Developers",
+      "date": "2026-07-14T15:00:38.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "\n        Merge pull request #424 from Esri/PaulGibbs3rd-patch-3\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #424 from Esri/PaulGibbs3rd-patch-3\n\nsanitize api key</pre>\n    ",

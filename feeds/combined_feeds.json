@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (14-07-2026)",
+  "title": "Combined ArcGIS Feeds (15-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-14T00:18:34.776Z",
+  "lastUpdated": "2026-07-15T00:17:31.984Z",
   "items": [
+    {
+      "title": "ArcGIS Experience Builder: Getting Started with Developer Edition | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=tRYckRnWxPU",
+      "guid": "yt:video:tRYckRnWxPU",
+      "author": "Esri Developers",
+      "date": "2026-07-14T15:00:38.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "\n        Merge pull request #424 from Esri/PaulGibbs3rd-patch-3\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #424 from Esri/PaulGibbs3rd-patch-3\n\nsanitize api key</pre>\n    ",
