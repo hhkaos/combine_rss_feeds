@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-15T00:17:06.154Z",
+  "lastRun": "2026-07-16T00:19:11.506Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -530,6 +530,24 @@
       "axis": "pushed",
       "stars": 65,
       "classifiedCategory": "consumer",
+      "relevant": true
+    },
+    "vannizhang/unemployment-pulse": {
+      "htmlUrl": "https://github.com/vannizhang/unemployment-pulse",
+      "firstSeen": "2026-07-16T00:19:10.142Z",
+      "createdAt": "2021-04-06T18:25:41Z",
+      "axis": "pushed",
+      "stars": 8,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "AlbertGallegoJimenez/SEATool": {
+      "htmlUrl": "https://github.com/AlbertGallegoJimenez/SEATool",
+      "firstSeen": "2026-07-16T00:19:11.506Z",
+      "createdAt": "2023-11-17T08:30:55Z",
+      "axis": "pushed",
+      "stars": 11,
+      "classifiedCategory": "devtool",
       "relevant": true
     }
   }
