@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-16T00:19:11.506Z",
+  "lastRun": "2026-07-17T00:20:46.035Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -547,6 +547,51 @@
       "createdAt": "2023-11-17T08:30:55Z",
       "axis": "pushed",
       "stars": 11,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "PranavAchar01/solar-site-suitability": {
+      "htmlUrl": "https://github.com/PranavAchar01/solar-site-suitability",
+      "firstSeen": "2026-07-17T00:20:41.117Z",
+      "createdAt": "2026-07-16T20:04:26Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "KarinVandenburgh/Iceland_Map": {
+      "htmlUrl": "https://github.com/KarinVandenburgh/Iceland_Map",
+      "firstSeen": "2026-07-17T00:20:42.484Z",
+      "createdAt": "2026-07-16T20:52:55Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "robdon3/osm-4x-grand-strategy": {
+      "htmlUrl": "https://github.com/robdon3/osm-4x-grand-strategy",
+      "firstSeen": "2026-07-17T00:20:43.459Z",
+      "createdAt": "2026-07-16T03:46:45Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "dharv85/pano-viewer": {
+      "htmlUrl": "https://github.com/dharv85/pano-viewer",
+      "firstSeen": "2026-07-17T00:20:44.635Z",
+      "createdAt": "2026-07-16T14:18:19Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-unity-samples": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-unity-samples",
+      "firstSeen": "2026-07-17T00:20:46.035Z",
+      "createdAt": "2022-01-14T18:55:27Z",
+      "axis": "pushed",
+      "stars": 136,
       "classifiedCategory": "devtool",
       "relevant": true
     }

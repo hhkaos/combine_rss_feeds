@@ -1,8 +1,103 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (17-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-16T00:20:24.224Z",
+  "lastUpdated": "2026-07-17T00:21:47.658Z",
   "items": [
+    {
+      "title": "KarinVandenburgh/Iceland_Map: This is a work in progress, it is currently a map that features icelands volcanos, it utilized ArcGIS SDK for JS and React",
+      "description": "This is a work in progress, it is currently a map that features icelands volcanos, it utilized ArcGIS SDK for JS and React\nEs un mapa que presenta volcanes de Islandia utilizando ArcGIS SDK para JS y React, pero es un trabajo en progreso.\nTopics: — · ⭐ 0 · CSS\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/KarinVandenburgh/Iceland_Map",
+      "guid": "https://github.com/KarinVandenburgh/Iceland_Map",
+      "author": "KarinVandenburgh",
+      "date": "2026-07-16T20:52:55.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto en progreso sin utilidad clara para otros desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un mapa que presenta volcanes de Islandia utilizando ArcGIS SDK para JS y React, pero es un trabajo en progreso."
+    },
+    {
+      "title": "PranavAchar01/solar-site-suitability: Multi-criteria GIS site-suitability analysis for utility-scale solar siting — cross-platform Python (rasterio/geopandas) + an ArcGIS Pro arcpy toolbox sharing one weighted-overlay model.",
+      "description": "Multi-criteria GIS site-suitability analysis for utility-scale solar siting — cross-platform Python (rasterio/geopandas) + an ArcGIS Pro arcpy toolbox sharing one weighted-overlay model.\nProporciona un modelo de superposición ponderada para análisis de sitios solares en ArcGIS Pro.\nTopics: arcgis-pro, arcpy, geopandas, geospatial, gis, python, rasterio, site-suitability, spatial-analysis, weighted-overlay · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/PranavAchar01/solar-site-suitability",
+      "guid": "https://github.com/PranavAchar01/solar-site-suitability",
+      "author": "PranavAchar01",
+      "date": "2026-07-16T20:04:26.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un modelo de superposición ponderada para análisis de sitios solares en ArcGIS Pro."
+    },
+    {
+      "title": "dharv85/pano-viewer: ArcGIS Experience Builder custom widget — 360 panorama viewer with per-site phase toggles (built for SLR mine reclamation deliverables)",
+      "description": "ArcGIS Experience Builder custom widget — 360 panorama viewer with per-site phase toggles (built for SLR mine reclamation deliverables)\nEste repositorio ofrece un widget de visualización de panoramas 360 para ArcGIS Experience Builder, útil para desarrolladores que buscan integrar esta funcionalidad en sus proyectos.\nTopics: — · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/dharv85/pano-viewer",
+      "guid": "https://github.com/dharv85/pano-viewer",
+      "author": "dharv85",
+      "date": "2026-07-16T14:18:19.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio ofrece un widget de visualización de panoramas 360 para ArcGIS Experience Builder, útil para desarrolladores que buscan integrar esta funcionalidad en sus proyectos."
+    },
+    {
+      "title": "robdon3/osm-4x-grand-strategy: OSM-powered 4X grand strategy game for macOS (Apple Silicon) — Unity 6, ArcGIS Maps SDK, seamless strategic↔tactical zoom",
+      "description": "OSM-powered 4X grand strategy game for macOS (Apple Silicon) — Unity 6, ArcGIS Maps SDK, seamless strategic↔tactical zoom\nUn juego de estrategia que utiliza OSM y ArcGIS, pero no es una herramienta para desarrolladores.\nTopics: — · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/robdon3/osm-4x-grand-strategy",
+      "guid": "https://github.com/robdon3/osm-4x-grand-strategy",
+      "author": "robdon3",
+      "date": "2026-07-16T03:46:45.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un juego orientado al usuario final.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Un juego de estrategia que utiliza OSM y ArcGIS, pero no es una herramienta para desarrolladores."
+    },
+    {
+      "title": "Esri/arcgis-maps-sdk-unity-samples: Sample code for the ArcGIS Maps SDK for Unity.",
+      "description": "Sample code for the ArcGIS Maps SDK for Unity.\nProporciona muestras útiles para desarrolladores que trabajan con el SDK de ArcGIS en Unity.\nTopics: arcgis, arcgis-maps-sdk-for-unity, charp, esri, game-engine, samples, sdk, unity · ⭐ 136 · C#\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-maps-sdk-unity-samples",
+      "guid": "https://github.com/Esri/arcgis-maps-sdk-unity-samples",
+      "author": "Esri",
+      "date": "2026-07-15T22:36:26.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona muestras útiles para desarrolladores que trabajan con el SDK de ArcGIS en Unity."
+    },
     {
       "title": "<b>Esri</b> Introduces <b>ArcGIS</b> for ServiceNow, Bringing Location Intelligence into Everyday ... - 뉴스와이어",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... <b>API</b> &middot; MediaBeenew! 서울시 중구&nbsp;...",
