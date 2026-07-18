@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-17T00:20:46.035Z",
+  "lastRun": "2026-07-18T00:18:37.291Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -592,6 +592,15 @@
       "createdAt": "2022-01-14T18:55:27Z",
       "axis": "pushed",
       "stars": 136,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-dotnet-toolkit": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-dotnet-toolkit",
+      "firstSeen": "2026-07-18T00:18:37.291Z",
+      "createdAt": "2013-07-17T17:15:59Z",
+      "axis": "pushed",
+      "stars": 244,
       "classifiedCategory": "devtool",
       "relevant": true
     }

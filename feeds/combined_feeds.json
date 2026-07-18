@@ -1,8 +1,96 @@
 {
-  "title": "Combined ArcGIS Feeds (17-07-2026)",
+  "title": "Combined ArcGIS Feeds (18-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-17T00:21:24.649Z",
+  "lastUpdated": "2026-07-18T00:19:16.535Z",
   "items": [
+    {
+      "title": "Episode 74 - Would You Let AI Plan Your Vacation?",
+      "description": "Christopher goes to the UC, so Holly takes over to report on letting an AI plan her vacation.",
+      "link": "https://christophermoravec.com/episode-74-would-you-let-ai-plan-your-vacation/",
+      "guid": "6a5a5ebb9338df00018511ef",
+      "author": "Christopher Moravec",
+      "date": "2026-07-17T22:12:04.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge pull request #425 from lOrijuela/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #425 from lOrijuela/master\n\nUploading a New Sample FlightPathsWithCurtain and Editing Previous Sample</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/80eccac7e8c1cca1b8933f91caa05ee6140c7ddd",
+      "guid": "tag:github.com,2008:Grit::Commit/80eccac7e8c1cca1b8933f91caa05ee6140c7ddd",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-17T18:35:13.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Update README.md\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Update README.md</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/6ce824befba39562706ae1777c302c433cd5eec3",
+      "guid": "tag:github.com,2008:Grit::Commit/6ce824befba39562706ae1777c302c433cd5eec3",
+      "author": "lOrijuela",
+      "date": "2026-07-17T18:30:36.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Update README.md\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Update README.md</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/c8e4a9a4ce6464e9ddd574aaecc0a8863a54ab91",
+      "guid": "tag:github.com,2008:Grit::Commit/c8e4a9a4ce6464e9ddd574aaecc0a8863a54ab91",
+      "author": "lOrijuela",
+      "date": "2026-07-17T18:29:35.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge branch 'Esri:master' into master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;Esri:master&#39; into master</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/b75f8f6d0c6f8b589acc4387267093dc0964b62b",
+      "guid": "tag:github.com,2008:Grit::Commit/b75f8f6d0c6f8b589acc4387267093dc0964b62b",
+      "author": "lOrijuela",
+      "date": "2026-07-17T18:26:15.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Added FlightPathwithCurtains Sample with other screenshot\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Added FlightPathwithCurtains Sample with other screenshot</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/da1027c23350d19f90b9b0b998b3c0860e4c7251",
+      "guid": "tag:github.com,2008:Grit::Commit/da1027c23350d19f90b9b0b998b3c0860e4c7251",
+      "author": "lOrijuela",
+      "date": "2026-07-17T18:22:39.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Dudley Fire in Butte County: Evacuations, Updates, Maps | abc10.com",
+      "description": "<b>Esri</b>, USGS | California State Parks, <b>Esri</b>, TomTom, Garmin, SafeGraph ... <b>JavaScript</b> if it is disabled in your browser. Unable to load next&nbsp;...",
+      "link": "https://www.abc10.com/article/news/local/wildfire/dudley-fire-butte-county-evacuations-updates-maps/103-ff8eccc4-d043-4b20-b027-13c6fb93a58a",
+      "guid": "tag:google.com,2013:googlealerts/feed:13025809712138663035",
+      "author": "",
+      "date": "2026-07-17T10:58:05.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "HERE Technologies and <b>Esri</b> Partner to Develop Location Analytics to Support AI Adoption",
+      "description": "By combining HERE&#39;s rich map content, traffic and mobility data with <b>Esri&#39;s ArcGIS</b> platform, the companies aim to make live and historical&nbsp;...",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/here-technologies-and-esri-partner-to-develop-location-analytics-to-support-ai-adoption/",
+      "guid": "tag:google.com,2013:googlealerts/feed:1306384999996841162",
+      "author": "",
+      "date": "2026-07-16T23:46:40.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "<b>Esri</b> Introduces <b>ArcGIS</b> for ServiceNow, Bringing Location Intelligence into Everyday ... - 뉴스와이어",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... <b>API</b> &middot; MediaBeenew! 서울시 중구&nbsp;...",
