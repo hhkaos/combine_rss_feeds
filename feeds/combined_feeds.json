@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (19-07-2026)",
+  "title": "Combined ArcGIS Feeds (20-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-19T00:19:45.923Z",
+  "lastUpdated": "2026-07-20T02:16:01.484Z",
   "items": [
+    {
+      "title": "Connected Car News: STMicroelectronics, Lyft, Curb, Uber, Ford, BMW, OpenAI, HERE ...",
+      "description": "The dispatch mechanism utilizes Curb Flow, an open <b>API</b> network ... <b>Esri&#39;s ArcGIS</b> enterprise geospatial platform. The unified environment&nbsp;...",
+      "link": "https://www.autoconnectedcar.com/2026/07/connected-car-news-stmicroelectronics-lyft-curb-uber-ford-bmw-openai-here-esri-honda-google-microvision-luminar-technologies-bosch/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4999633371092191873",
+      "author": "",
+      "date": "2026-07-19T19:48:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 74 - Would You Let AI Plan Your Vacation?",
       "description": "Christopher goes to the UC, so Holly takes over to report on letting an AI plan her vacation.",

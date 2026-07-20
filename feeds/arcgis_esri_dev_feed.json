@@ -1,8 +1,21 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (20-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-19T00:20:07.202Z",
+  "lastUpdated": "2026-07-20T02:16:26.220Z",
   "items": [
+    {
+      "title": "Connected Car News: STMicroelectronics, Lyft, Curb, Uber, Ford, BMW, OpenAI, HERE ...",
+      "description": "The dispatch mechanism utilizes Curb Flow, an open <b>API</b> network ... <b>Esri&#39;s ArcGIS</b> enterprise geospatial platform. The unified environment&nbsp;...",
+      "link": "https://www.autoconnectedcar.com/2026/07/connected-car-news-stmicroelectronics-lyft-curb-uber-ford-bmw-openai-here-esri-honda-google-microvision-luminar-technologies-bosch/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4999633371092191873",
+      "author": "",
+      "date": "2026-07-19T19:48:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Esri/arcgis-maps-sdk-dotnet-toolkit: Toolkit for ArcGIS Maps SDK for .NET",
       "description": "Toolkit for ArcGIS Maps SDK for .NET\nProporciona herramientas y recursos para facilitar el desarrollo de aplicaciones utilizando ArcGIS en plataformas .NET.\nTopics: arcgis-runtime-sdk, csharp, native-development, toolkit, uwp, wpf, xamarin, xamarin-android, xamarin-forms, xamarin-ios, xaml · ⭐ 244 · C#\nGitHub repo descubierto (pushed · devtool)",
