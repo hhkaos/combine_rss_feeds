@@ -1,8 +1,69 @@
 {
-  "title": "Combined ArcGIS Feeds (20-07-2026)",
+  "title": "Combined ArcGIS Feeds (21-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-20T02:16:01.484Z",
+  "lastUpdated": "2026-07-21T00:20:58.311Z",
   "items": [
+    {
+      "title": "Developer’s Lounge: Empowering Users to Navigate Their Way Around Documentation with a New Ask AI Feature",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/geoai/developers-lounge-empowering-users-to-navigate-their-way-around-documentation-with-a-new-ask-ai-feature",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2977657",
+      "author": "Elizabeth Ole",
+      "date": "2026-07-20T22:12:14.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/",
+      "guid": "https://rss.rauljimenez.info/events/59",
+      "author": "",
+      "date": "2026-07-20T22:07:50.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:15.176Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Apps: Enhancing Accessibility and Localization | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=uDZ8RaqnOC8",
+      "guid": "yt:video:uDZ8RaqnOC8",
+      "author": "Esri Developers",
+      "date": "2026-07-20T14:38:41.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Vibe Coding with ArcGIS Maps SDK: ArcGIS Online + Maps SDK Complete Workflow (Part 3)",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Tx4ZFysLKrA",
+      "guid": "yt:video:Tx4ZFysLKrA",
+      "author": "Rene Rubalcava",
+      "date": "2026-07-20T12:33:55.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Arcgis Api For Javascript - VR Awards",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 - <b>ArcGIS Maps SDK for</b> JavaScript | #EsriDevTech2026 24 minutes - Bjorn. Svensson, Group Product&nbsp;...",
+      "link": "https://vrawards.aixr.org/ydressu/230313/4B27I32372/arcgis_api_for__javascript.pdf",
+      "guid": "tag:google.com,2013:googlealerts/feed:1852158985644090833",
+      "author": "",
+      "date": "2026-07-20T04:47:31.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Connected Car News: STMicroelectronics, Lyft, Curb, Uber, Ford, BMW, OpenAI, HERE ...",
       "description": "The dispatch mechanism utilizes Curb Flow, an open <b>API</b> network ... <b>Esri&#39;s ArcGIS</b> enterprise geospatial platform. The unified environment&nbsp;...",

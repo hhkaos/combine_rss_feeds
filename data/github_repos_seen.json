@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-20T02:15:16.790Z",
+  "lastRun": "2026-07-21T00:20:20.741Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -601,6 +601,15 @@
       "createdAt": "2013-07-17T17:15:59Z",
       "axis": "pushed",
       "stars": 244,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-experience-builder-sdk-resources": {
+      "htmlUrl": "https://github.com/Esri/arcgis-experience-builder-sdk-resources",
+      "firstSeen": "2026-07-21T00:20:20.741Z",
+      "createdAt": "2020-02-19T21:08:03Z",
+      "axis": "pushed",
+      "stars": 208,
       "classifiedCategory": "devtool",
       "relevant": true
     }
