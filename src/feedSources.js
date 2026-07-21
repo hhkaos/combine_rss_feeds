@@ -121,7 +121,8 @@ const manualCheckSources = [
 const googleAlertUrls = [
   'https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766',
   'https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856',
-  'https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033'
+  'https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033',
+  'https://www.google.com/alerts/feeds/10211086479352302070/3847747534966869067'
 ];
 
 const sourceRelevanceOverrides = new Map([
