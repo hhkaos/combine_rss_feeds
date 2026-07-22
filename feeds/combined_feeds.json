@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (21-07-2026)",
+  "title": "Combined ArcGIS Feeds (22-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-21T00:20:58.311Z",
+  "lastUpdated": "2026-07-22T00:19:31.043Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> with <b>Javascript</b> Training in Pune, India - ProgNXT",
+      "description": "... <b>ArcGIS JavaScript API</b>. It covers the fundamentals of web GIS, <b>Esri&#39;s</b> architecture, and how to leverage the <b>API</b> to create, manipulate, and&nbsp;...",
+      "link": "https://prognxt.com/events/arcgis-with-javascript-training/pune/june-2026",
+      "guid": "tag:google.com,2013:googlealerts/feed:11934880581099644239",
+      "author": "",
+      "date": "2026-07-21T13:28:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Developer’s Lounge: Empowering Users to Navigate Their Way Around Documentation with a New Ask AI Feature",
       "description": "",
@@ -30,6 +41,17 @@
       "reviewedAt": "2026-05-15T16:36:15.176Z",
       "ignored": false,
       "ignoreReason": ""
+    },
+    {
+      "title": "Top 10 Best Interactive Map Software: 2026 Comparison - Worldmetrics",
+      "description": "Esri <b>ArcGIS Maps SDK for</b> JavaScript. 7.8/10. GIS web SDK. Enables interactive web maps with basemaps, feature layers, edits, and query workflows that&nbsp;...",
+      "link": "https://worldmetrics.org/best/interactive-map-software/",
+      "guid": "tag:google.com,2013:googlealerts/feed:6001642478043285726",
+      "author": "",
+      "date": "2026-07-20T17:31:42.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
     },
     {
       "title": "ArcGIS Apps: Enhancing Accessibility and Localization | #EsriDevTech2026",

@@ -1,8 +1,116 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (21-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (22-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-21T00:21:22.240Z",
+  "lastUpdated": "2026-07-22T00:19:54.858Z",
   "items": [
+    {
+      "title": "valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp: Conversational hurricane-risk map built on the ArcGIS Maps SDK for JavaScript and the beta ArcGIS AI components. Ask in plain English to find similar geodemographic areas, explain an area's risk/demographics, add live Living Atlas layers, and zoom to bookmarks — powered by custom client-side AI agents.",
+      "description": "Conversational hurricane-risk map built on the ArcGIS Maps SDK for JavaScript and the beta ArcGIS AI components. Ask in plain English to find similar geodemographic areas, explain an area's risk/demographics, add live Living Atlas layers, and zoom to bookmarks — powered by custom client-side AI agents.\nEs una aplicación de demostración que utiliza componentes de IA de ArcGIS para mostrar riesgos de huracanes.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp",
+      "guid": "https://github.com/valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp",
+      "author": "valdesrosier",
+      "date": "2026-07-21T20:33:12.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una demo orientada a usuario final.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una aplicación de demostración que utiliza componentes de IA de ArcGIS para mostrar riesgos de huracanes."
+    },
+    {
+      "title": "uhsear/sightline: Audit ArcGIS Online web maps for layers their viewers cannot see. Finds broken sharing, dead services, and public maps pointing at secured data.",
+      "description": "Audit ArcGIS Online web maps for layers their viewers cannot see. Finds broken sharing, dead services, and public maps pointing at secured data.\nSightline permite a los desarrolladores verificar la visibilidad y el estado de los mapas en ArcGIS Online.\nTopics: arcgis, arcgis-online, audit, cli, esri, gis, python, security · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/sightline",
+      "guid": "https://github.com/uhsear/sightline",
+      "author": "uhsear",
+      "date": "2026-07-21T19:32:38.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Sightline permite a los desarrolladores verificar la visibilidad y el estado de los mapas en ArcGIS Online."
+    },
+    {
+      "title": "uhsear/fullpull: Download every layer of an ArcGIS REST service into a File Geodatabase, verified complete against the server's own record count.",
+      "description": "Download every layer of an ArcGIS REST service into a File Geodatabase, verified complete against the server's own record count.\nPermite descargar todas las capas de un servicio REST de ArcGIS a una Geodatabase de archivos.\nTopics: arcgis, arcgis-pro, arcpy, esri, featureserver, geodatabase, gis, mapserver, python, rest-api · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/fullpull",
+      "guid": "https://github.com/uhsear/fullpull",
+      "author": "uhsear",
+      "date": "2026-07-21T19:04:07.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite descargar todas las capas de un servicio REST de ArcGIS a una Geodatabase de archivos."
+    },
+    {
+      "title": "itsmadson/Varasi: AI-powered geospatial Change Detection platform. A Raster Catalog + Analysis Engine — references imagery in external storage, does not own it.",
+      "description": "AI-powered geospatial Change Detection platform. A Raster Catalog + Analysis Engine — references imagery in external storage, does not own it.\nVarasi es una plataforma impulsada por IA para la detección de cambios geoespaciales que incluye un motor de análisis.\nTopics: arcgis, change-detection, geo, geoenigne, raster · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/itsmadson/Varasi",
+      "guid": "https://github.com/itsmadson/Varasi",
+      "author": "itsmadson",
+      "date": "2026-07-21T17:34:47.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Varasi es una plataforma impulsada por IA para la detección de cambios geoespaciales que incluye un motor de análisis."
+    },
+    {
+      "title": "jameseaster/arcq: A fast CLI for querying ArcGIS feature services - built for humans and coding agents.",
+      "description": "A fast CLI for querying ArcGIS feature services - built for humans and coding agents.\nProporciona una interfaz rápida y amigable para consultar servicios de características de ArcGIS.\nTopics: ai-agents, arcgis, cli, esri, feature-service, gis, nodejs, typescript · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/jameseaster/arcq",
+      "guid": "https://github.com/jameseaster/arcq",
+      "author": "jameseaster",
+      "date": "2026-07-21T15:58:25.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una interfaz rápida y amigable para consultar servicios de características de ArcGIS."
+    },
+    {
+      "title": "<b>ArcGIS</b> with <b>Javascript</b> Training in Pune, India - ProgNXT",
+      "description": "... <b>ArcGIS JavaScript API</b>. It covers the fundamentals of web GIS, <b>Esri&#39;s</b> architecture, and how to leverage the <b>API</b> to create, manipulate, and&nbsp;...",
+      "link": "https://prognxt.com/events/arcgis-with-javascript-training/pune/june-2026",
+      "guid": "tag:google.com,2013:googlealerts/feed:11934880581099644239",
+      "author": "",
+      "date": "2026-07-21T13:28:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "old_content"
+    },
     {
       "title": "Developer’s Lounge: Empowering Users to Navigate Their Way Around Documentation with a New Ask AI Feature",
       "description": "",
@@ -30,6 +138,19 @@
       "manualReason": "manual_accept",
       "manualNotes": "",
       "reviewedAt": "2026-05-15T16:36:15.176Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Top 10 Best Interactive Map Software: 2026 Comparison - Worldmetrics",
+      "description": "Esri <b>ArcGIS Maps SDK for</b> JavaScript. 7.8/10. GIS web SDK. Enables interactive web maps with basemaps, feature layers, edits, and query workflows that&nbsp;...",
+      "link": "https://worldmetrics.org/best/interactive-map-software/",
+      "guid": "tag:google.com,2013:googlealerts/feed:6001642478043285726",
+      "author": "",
+      "date": "2026-07-20T17:31:42.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
       "ignored": false,
       "ignoreReason": ""
     },

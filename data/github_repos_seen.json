@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-21T00:20:20.741Z",
+  "lastRun": "2026-07-22T00:18:47.236Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -612,6 +612,51 @@
       "stars": 208,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "uhsear/fullpull": {
+      "htmlUrl": "https://github.com/uhsear/fullpull",
+      "firstSeen": "2026-07-22T00:18:42.854Z",
+      "createdAt": "2026-07-21T19:04:07Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "itsmadson/Varasi": {
+      "htmlUrl": "https://github.com/itsmadson/Varasi",
+      "firstSeen": "2026-07-22T00:18:44.070Z",
+      "createdAt": "2026-07-21T17:34:47Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "jameseaster/arcq": {
+      "htmlUrl": "https://github.com/jameseaster/arcq",
+      "firstSeen": "2026-07-22T00:18:45.272Z",
+      "createdAt": "2026-07-21T15:58:25Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/sightline": {
+      "htmlUrl": "https://github.com/uhsear/sightline",
+      "firstSeen": "2026-07-22T00:18:46.308Z",
+      "createdAt": "2026-07-21T19:32:38Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp": {
+      "htmlUrl": "https://github.com/valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp",
+      "firstSeen": "2026-07-22T00:18:47.236Z",
+      "createdAt": "2026-07-21T20:33:12Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }
