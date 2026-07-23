@@ -50,6 +50,7 @@ const curatedUrls = [
   'https://www.esri.com/en-us/software-engineering/blog/feed?post_type=blog',
   'https://www.esri.com/about/newsroom/category/esri-technology/developer-technology/arcgis-maps-sdk-for-javascript-developer-technology/feed',
   'https://www.esri.com/about/newsroom/category/esri-events/esri-developer-summit/feed',
+  'https://www.esri.com/arcgis-blog/feed/atom/?post_type=blog&product=trust-arcgis',
   'https://medium.com/feed/geoai',
 
   // Some Esri repositories (coomits)
