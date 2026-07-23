@@ -1,8 +1,69 @@
 {
-  "title": "Combined ArcGIS Feeds (22-07-2026)",
+  "title": "Combined ArcGIS Feeds (23-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-22T00:19:31.043Z",
+  "lastUpdated": "2026-07-23T00:21:35.146Z",
   "items": [
+    {
+      "title": "Detected changes on: Experience Builder What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/experience-builder/guide/whats-new/",
+      "guid": "https://rss.rauljimenez.info/events/60",
+      "author": "",
+      "date": "2026-07-22T22:13:29.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "activity_sheet_match",
+      "manualNotes": "Matched with manually curated Activity sheet.",
+      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Maps SDK for JavaScript: App Development with Components, Part 2: Using Frameworks",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=8mfanlOS8p4",
+      "guid": "yt:video:8mfanlOS8p4",
+      "author": "Esri Developers",
+      "date": "2026-07-22T15:08:04.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Create a Group Layer in an ArcGIS Online WebMap with the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=J0WDjOuqqcQ",
+      "guid": "yt:video:J0WDjOuqqcQ",
+      "author": "Final Draft Mapping",
+      "date": "2026-07-22T07:53:02.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Ungroup a Group Layer in an ArcGIS Online WebMap using the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=fLXdbwGFUlI",
+      "guid": "yt:video:fLXdbwGFUlI",
+      "author": "Final Draft Mapping",
+      "date": "2026-07-22T07:43:54.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Adani Group Plans Building India&#39;s Largest Commercial All-weather Port with <b>Esri</b> India",
+      "description": "Adani Group has incorporated a major project of Mundra Master Planning and Development using <b>Esri</b> India <b>ArcGIS</b>. ... <b>JavaScript</b> if it is disabled in your&nbsp;...",
+      "link": "https://businessnewsthisweek.com/business/adani-group-plans-building-indias-largest-commercial-all-weather-port-with-esri-india/",
+      "guid": "tag:google.com,2013:googlealerts/feed:17636704717907707246",
+      "author": "",
+      "date": "2026-07-21T21:23:16.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> with <b>Javascript</b> Training in Pune, India - ProgNXT",
       "description": "... <b>ArcGIS JavaScript API</b>. It covers the fundamentals of web GIS, <b>Esri&#39;s</b> architecture, and how to leverage the <b>API</b> to create, manipulate, and&nbsp;...",

@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-22T00:18:47.236Z",
+  "lastRun": "2026-07-23T00:20:49.120Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -653,6 +653,15 @@
       "htmlUrl": "https://github.com/valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp",
       "firstSeen": "2026-07-22T00:18:47.236Z",
       "createdAt": "2026-07-21T20:33:12Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Jellismt/FWP_Handoff": {
+      "htmlUrl": "https://github.com/Jellismt/FWP_Handoff",
+      "firstSeen": "2026-07-23T00:20:49.120Z",
+      "createdAt": "2026-07-22T16:12:25Z",
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "consumer",
