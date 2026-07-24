@@ -1,8 +1,85 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (23-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (24-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-23T00:21:58.710Z",
+  "lastUpdated": "2026-07-24T00:21:15.764Z",
   "items": [
+    {
+      "title": "rramirezgit/vue-arcgis-demo: Visor de pozos argentinos con Vue 3 + ArcGIS Maps SDK for JavaScript 5.1",
+      "description": "Visor de pozos argentinos con Vue 3 + ArcGIS Maps SDK for JavaScript 5.1\nEs un visor de pozos argentinos utilizando Vue y ArcGIS, pero no es una herramienta reutilizable para desarrolladores.\nTopics: — · ⭐ 0 · Vue\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/rramirezgit/vue-arcgis-demo",
+      "guid": "https://github.com/rramirezgit/vue-arcgis-demo",
+      "author": "rramirezgit",
+      "date": "2026-07-23T18:40:14.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto de demostración orientado a usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un visor de pozos argentinos utilizando Vue y ArcGIS, pero no es una herramienta reutilizable para desarrolladores."
+    },
+    {
+      "title": "gavinr-maps/experience-builder-devops-example: Use Experience Builder within a devops workflow to automatically build the app on commit.",
+      "description": "Use Experience Builder within a devops workflow to automatically build the app on commit.\nEste repositorio proporciona un ejemplo de cómo automatizar la construcción de aplicaciones de Experience Builder utilizando GitHub Actions.\nTopics: arcgis-experience-builder, devops, experience-builder, github-actions · ⭐ 30 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/gavinr-maps/experience-builder-devops-example",
+      "guid": "https://github.com/gavinr-maps/experience-builder-devops-example",
+      "author": "gavinr-maps",
+      "date": "2026-07-23T17:50:50.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio proporciona un ejemplo de cómo automatizar la construcción de aplicaciones de Experience Builder utilizando GitHub Actions."
+    },
+    {
+      "title": "How to make textured basemaps with AI, the VTSE, and your wits",
+      "description": "The Vector Tile Style Editor lets you remove, splice, and restyle vector basemap content to your heart’s content. Sometimes my heart isn’t content until I’ve added a little bit of a texture pattern to a basemap. Like the cute little dappled sunlit water pattern here… Here’s how you can tell an AI just who you &#8230;",
+      "link": "https://adventuresinmapping.com/2026/07/23/how-to-make-textured-basemaps-with-ai-the-vtse-and-your-wits/",
+      "guid": "https://adventuresinmapping.com/?p=8503",
+      "author": "John",
+      "date": "2026-07-23T15:44:52.000Z",
+      "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>Esri ArcGIS API</b> Python Associate Certification Sample Questions and Practice Exam",
+      "description": "EJSA_2024: <b>Esri ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> Associate 2024 &middot; EPYA_2026: <b>Esri ArcGIS API</b> for Python Associate 2026 &middot; ESDP_2025: <b>Esri ArcGIS</b>&nbsp;...",
+      "link": "https://www.certfun.com/esri/epya-2026-esri-arcgis-api-python-associate-2026",
+      "guid": "tag:google.com,2013:googlealerts/feed:10325338487750144215",
+      "author": "",
+      "date": "2026-07-23T07:01:23.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Top 5 Geofencing Companies Driving Growth in the U.S. Market - SNS Insider",
+      "description": "<b>Esri</b> is among ... The ongoing development of <b>ArcGIS Location Services</b> only confirms the company&#39;s position in enterprise location intelligence.",
+      "link": "https://www.snsinsider.com/blogs/geofencing-industry",
+      "guid": "tag:google.com,2013:googlealerts/feed:8163382695283869405",
+      "author": "",
+      "date": "2026-07-23T00:48:25.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
       "description": "Change detected on monitored page.",
@@ -198,6 +275,25 @@
       "processed": true,
       "ignored": true,
       "ignoreReason": "old_content"
+    },
+    {
+      "title": "origo-map/origo: Origo",
+      "description": "Origo\nOrigo es una herramienta que permite la creación de mapas web utilizando estándares abiertos.\nTopics: arcgis, map, openlayers, origo, wfs, wms, wmts · ⭐ 74 · JavaScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/origo-map/origo",
+      "guid": "https://github.com/origo-map/origo",
+      "author": "origo-map",
+      "date": "2026-07-20T23:06:53.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Origo es una herramienta que permite la creación de mapas web utilizando estándares abiertos."
     },
     {
       "title": "Developer’s Lounge: Empowering Users to Navigate Their Way Around Documentation with a New Ask AI Feature",

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-23T00:21:58.777Z",
-  "totalSources": 88,
+  "lastUpdated": "2026-07-24T00:21:15.845Z",
+  "totalSources": 89,
   "sources": [
     {
       "name": "Esri Developers | YouTube",
@@ -19,10 +19,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:20:49.132Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:20:49.132Z",
+      "lastParsedAt": "2026-07-24T00:19:02.788Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:02.788Z",
       "latestEntryDate": "2026-07-22T15:08:04.000Z",
-      "inactiveDays": 0,
+      "inactiveDays": 1,
       "errors": []
     },
     {
@@ -42,10 +42,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:20:51.499Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:20:51.499Z",
+      "lastParsedAt": "2026-07-24T00:19:04.935Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:04.935Z",
       "latestEntryDate": "2026-07-20T12:33:55.000Z",
-      "inactiveDays": 2,
+      "inactiveDays": 3,
       "errors": []
     },
     {
@@ -65,10 +65,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:20:53.634Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:20:53.634Z",
+      "lastParsedAt": "2026-07-24T00:19:07.025Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:07.025Z",
       "latestEntryDate": "2024-10-31T21:00:15.000Z",
-      "inactiveDays": 629,
+      "inactiveDays": 630,
       "errors": []
     },
     {
@@ -88,10 +88,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:20:55.893Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:20:55.893Z",
+      "lastParsedAt": "2026-07-24T00:19:09.285Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:09.285Z",
       "latestEntryDate": "2026-05-07T20:37:43.000Z",
-      "inactiveDays": 76,
+      "inactiveDays": 77,
       "errors": []
     },
     {
@@ -111,10 +111,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:20:58.015Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:20:58.015Z",
+      "lastParsedAt": "2026-07-24T00:19:11.372Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:11.372Z",
       "latestEntryDate": "2026-04-29T11:00:20.000Z",
-      "inactiveDays": 84,
+      "inactiveDays": 85,
       "errors": []
     },
     {
@@ -134,10 +134,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:00.163Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:00.163Z",
+      "lastParsedAt": "2026-07-24T00:19:13.491Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:13.491Z",
       "latestEntryDate": "2024-06-27T21:47:51.000Z",
-      "inactiveDays": 755,
+      "inactiveDays": 756,
       "errors": []
     },
     {
@@ -157,10 +157,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:02.297Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:02.297Z",
+      "lastParsedAt": "2026-07-24T00:19:15.642Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:15.642Z",
       "latestEntryDate": "2026-04-29T15:51:59.000Z",
-      "inactiveDays": 84,
+      "inactiveDays": 85,
       "errors": []
     },
     {
@@ -180,10 +180,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:04.431Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:04.431Z",
+      "lastParsedAt": "2026-07-24T00:19:17.720Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:17.720Z",
       "latestEntryDate": "2026-07-22T07:53:02.000Z",
-      "inactiveDays": 0,
+      "inactiveDays": 1,
       "errors": []
     },
     {
@@ -203,10 +203,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:06.630Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:06.630Z",
+      "lastParsedAt": "2026-07-24T00:19:19.973Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:19.973Z",
       "latestEntryDate": "2026-07-20T22:12:14.000Z",
-      "inactiveDays": 2,
+      "inactiveDays": 3,
       "errors": []
     },
     {
@@ -226,10 +226,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:07.134Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:07.134Z",
+      "lastParsedAt": "2026-07-24T00:19:20.656Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:20.656Z",
       "latestEntryDate": "2026-07-14T18:17:03.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -249,10 +249,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:07.541Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:07.541Z",
+      "lastParsedAt": "2026-07-24T00:19:21.125Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:21.125Z",
       "latestEntryDate": "2026-07-12T09:47:37.000Z",
-      "inactiveDays": 10,
+      "inactiveDays": 11,
       "errors": []
     },
     {
@@ -272,10 +272,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:08.039Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:08.039Z",
+      "lastParsedAt": "2026-07-24T00:19:21.698Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:21.698Z",
       "latestEntryDate": "2026-05-21T21:36:46.000Z",
-      "inactiveDays": 62,
+      "inactiveDays": 63,
       "errors": []
     },
     {
@@ -295,10 +295,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:08.467Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:08.467Z",
+      "lastParsedAt": "2026-07-24T00:19:22.087Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:22.087Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -318,10 +318,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:08.980Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:08.980Z",
+      "lastParsedAt": "2026-07-24T00:19:22.397Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:22.397Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -341,10 +341,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:09.790Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:09.790Z",
+      "lastParsedAt": "2026-07-24T00:19:22.746Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:22.746Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -364,10 +364,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:10.211Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:10.211Z",
+      "lastParsedAt": "2026-07-24T00:19:23.227Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:23.227Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -387,10 +387,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:10.680Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:10.680Z",
+      "lastParsedAt": "2026-07-24T00:19:23.738Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:23.738Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -410,10 +410,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:11.064Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:11.064Z",
+      "lastParsedAt": "2026-07-24T00:19:24.037Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:24.037Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -433,10 +433,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:11.571Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:11.571Z",
+      "lastParsedAt": "2026-07-24T00:19:24.474Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:24.474Z",
       "latestEntryDate": "2026-07-09T18:49:24.000Z",
-      "inactiveDays": 13,
+      "inactiveDays": 14,
       "errors": []
     },
     {
@@ -456,10 +456,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:12.010Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:12.010Z",
+      "lastParsedAt": "2026-07-24T00:19:24.816Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:24.816Z",
       "latestEntryDate": "2026-07-01T18:14:47.000Z",
-      "inactiveDays": 21,
+      "inactiveDays": 22,
       "errors": []
     },
     {
@@ -479,10 +479,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:12.425Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:12.425Z",
+      "lastParsedAt": "2026-07-24T00:19:25.172Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:25.172Z",
       "latestEntryDate": "2026-07-08T15:52:34.000Z",
-      "inactiveDays": 14,
+      "inactiveDays": 15,
       "errors": []
     },
     {
@@ -502,10 +502,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:12.865Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:12.865Z",
+      "lastParsedAt": "2026-07-24T00:19:25.560Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:25.560Z",
       "latestEntryDate": "2026-07-01T17:00:31.000Z",
-      "inactiveDays": 21,
+      "inactiveDays": 22,
       "errors": []
     },
     {
@@ -525,10 +525,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:13.287Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:13.287Z",
+      "lastParsedAt": "2026-07-24T00:19:25.916Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:25.916Z",
       "latestEntryDate": "2025-06-24T09:00:23.000Z",
-      "inactiveDays": 393,
+      "inactiveDays": 394,
       "errors": []
     },
     {
@@ -548,10 +548,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:13.632Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:13.632Z",
+      "lastParsedAt": "2026-07-24T00:19:26.285Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:26.285Z",
       "latestEntryDate": "2025-02-27T19:45:25.000Z",
-      "inactiveDays": 510,
+      "inactiveDays": 511,
       "errors": []
     },
     {
@@ -571,10 +571,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:13.958Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:13.958Z",
+      "lastParsedAt": "2026-07-24T00:19:26.649Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:26.649Z",
       "latestEntryDate": "2026-01-09T21:41:26.000Z",
-      "inactiveDays": 194,
+      "inactiveDays": 195,
       "errors": []
     },
     {
@@ -594,10 +594,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:14.380Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:14.380Z",
+      "lastParsedAt": "2026-07-24T00:19:27.042Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:27.042Z",
       "latestEntryDate": "2026-07-09T23:27:29.000Z",
-      "inactiveDays": 13,
+      "inactiveDays": 14,
       "errors": []
     },
     {
@@ -617,10 +617,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:14.817Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:14.817Z",
+      "lastParsedAt": "2026-07-24T00:19:27.384Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:27.384Z",
       "latestEntryDate": "2025-02-19T00:48:42.000Z",
-      "inactiveDays": 518,
+      "inactiveDays": 519,
       "errors": []
     },
     {
@@ -640,10 +640,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:15.184Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:15.184Z",
+      "lastParsedAt": "2026-07-24T00:19:27.747Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:27.747Z",
       "latestEntryDate": "2025-09-10T16:48:02.000Z",
-      "inactiveDays": 315,
+      "inactiveDays": 316,
       "errors": []
     },
     {
@@ -663,10 +663,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:15.495Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:15.495Z",
+      "lastParsedAt": "2026-07-24T00:19:27.996Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:27.996Z",
       "latestEntryDate": "2026-03-22T23:10:25.000Z",
-      "inactiveDays": 122,
+      "inactiveDays": 123,
       "errors": []
     },
     {
@@ -686,10 +686,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:15.879Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:15.879Z",
+      "lastParsedAt": "2026-07-24T00:19:28.411Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:28.411Z",
       "latestEntryDate": "2026-06-26T00:29:32.000Z",
-      "inactiveDays": 26,
+      "inactiveDays": 27,
       "errors": []
     },
     {
@@ -709,10 +709,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:16.261Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:16.261Z",
+      "lastParsedAt": "2026-07-24T00:19:28.753Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:28.753Z",
       "latestEntryDate": "2026-02-23T20:02:28.000Z",
-      "inactiveDays": 149,
+      "inactiveDays": 150,
       "errors": []
     },
     {
@@ -732,10 +732,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:16.747Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:16.747Z",
+      "lastParsedAt": "2026-07-24T00:19:29.075Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:29.075Z",
       "latestEntryDate": "2026-04-07T19:21:38.000Z",
-      "inactiveDays": 106,
+      "inactiveDays": 107,
       "errors": []
     },
     {
@@ -755,10 +755,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:17.188Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:17.188Z",
+      "lastParsedAt": "2026-07-24T00:19:29.478Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:29.478Z",
       "latestEntryDate": "2026-06-27T03:51:04.000Z",
-      "inactiveDays": 25,
+      "inactiveDays": 26,
       "errors": []
     },
     {
@@ -778,10 +778,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:17.618Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:17.618Z",
+      "lastParsedAt": "2026-07-24T00:19:29.988Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:29.988Z",
       "latestEntryDate": "2026-06-10T15:13:46.000Z",
-      "inactiveDays": 42,
+      "inactiveDays": 43,
       "errors": []
     },
     {
@@ -801,10 +801,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:17.989Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:17.989Z",
+      "lastParsedAt": "2026-07-24T00:19:30.289Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:30.289Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 47,
+      "inactiveDays": 48,
       "errors": []
     },
     {
@@ -824,10 +824,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:18.462Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:18.462Z",
+      "lastParsedAt": "2026-07-24T00:19:30.691Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:30.691Z",
       "latestEntryDate": "2026-06-02T17:00:18.000Z",
-      "inactiveDays": 50,
+      "inactiveDays": 51,
       "errors": []
     },
     {
@@ -847,10 +847,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:18.971Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:18.971Z",
+      "lastParsedAt": "2026-07-24T00:19:31.066Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:31.066Z",
       "latestEntryDate": "2026-04-03T09:00:20.000Z",
-      "inactiveDays": 110,
+      "inactiveDays": 111,
       "errors": []
     },
     {
@@ -870,10 +870,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:19.395Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:19.395Z",
+      "lastParsedAt": "2026-07-24T00:19:31.475Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:31.475Z",
       "latestEntryDate": "2025-08-21T18:10:57.000Z",
-      "inactiveDays": 335,
+      "inactiveDays": 336,
       "errors": []
     },
     {
@@ -893,10 +893,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:19.789Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:19.789Z",
+      "lastParsedAt": "2026-07-24T00:19:31.796Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:31.796Z",
       "latestEntryDate": "2026-02-23T17:42:57.000Z",
-      "inactiveDays": 149,
+      "inactiveDays": 150,
       "errors": []
     },
     {
@@ -916,10 +916,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:20.189Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:20.189Z",
+      "lastParsedAt": "2026-07-24T00:19:32.195Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:32.195Z",
       "latestEntryDate": "2025-06-24T01:35:55.000Z",
-      "inactiveDays": 393,
+      "inactiveDays": 394,
       "errors": []
     },
     {
@@ -939,10 +939,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:20.589Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:20.589Z",
+      "lastParsedAt": "2026-07-24T00:19:32.625Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:32.625Z",
       "latestEntryDate": "2025-07-01T00:11:24.000Z",
-      "inactiveDays": 387,
+      "inactiveDays": 388,
       "errors": []
     },
     {
@@ -962,10 +962,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:21.075Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:21.075Z",
+      "lastParsedAt": "2026-07-24T00:19:32.950Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:32.950Z",
       "latestEntryDate": "2025-05-14T14:55:20.000Z",
-      "inactiveDays": 434,
+      "inactiveDays": 435,
       "errors": []
     },
     {
@@ -985,10 +985,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:21.477Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:21.477Z",
+      "lastParsedAt": "2026-07-24T00:19:33.360Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:33.360Z",
       "latestEntryDate": "2026-07-20T22:12:14.000Z",
-      "inactiveDays": 2,
+      "inactiveDays": 3,
       "errors": []
     },
     {
@@ -1008,10 +1008,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:21.862Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:21.862Z",
+      "lastParsedAt": "2026-07-24T00:19:33.737Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:33.737Z",
       "latestEntryDate": "2026-06-26T23:09:06.000Z",
-      "inactiveDays": 26,
+      "inactiveDays": 27,
       "errors": []
     },
     {
@@ -1031,8 +1031,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:22.300Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:22.300Z",
+      "lastParsedAt": "2026-07-24T00:19:33.998Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:33.998Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1054,10 +1054,33 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:22.764Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:22.764Z",
+      "lastParsedAt": "2026-07-24T00:19:34.404Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:34.404Z",
       "latestEntryDate": null,
       "inactiveDays": null,
+      "errors": []
+    },
+    {
+      "name": "ArcGIS Trust Center Articles | ArcGIS Blog",
+      "feedTitle": "ArcGIS Trust Center Articles | ArcGIS Blog",
+      "url": "https://www.esri.com/arcgis-blog/feed/atom/?post_type=blog&product=trust-arcgis",
+      "siteUrl": "https://www.esri.com/arcgis-blog/products/trust-arcgis",
+      "relevanceMode": "trusted",
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 10,
+      "processedItems": 10,
+      "fetchAttempts": 1,
+      "lastHttpStatus": 200,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errorCount": 0,
+      "itemsWithoutDate": 0,
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-07-24T00:19:34.718Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:34.718Z",
+      "latestEntryDate": "2026-06-18T21:58:47.000Z",
+      "inactiveDays": 35,
       "errors": []
     },
     {
@@ -1077,10 +1100,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:23.286Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:23.286Z",
+      "lastParsedAt": "2026-07-24T00:19:35.097Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:35.097Z",
       "latestEntryDate": "2025-02-28T08:16:18.000Z",
-      "inactiveDays": 509,
+      "inactiveDays": 510,
       "errors": []
     },
     {
@@ -1100,10 +1123,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:23.784Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:23.784Z",
+      "lastParsedAt": "2026-07-24T00:19:35.366Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:35.366Z",
       "latestEntryDate": "2026-07-17T18:35:13.000Z",
-      "inactiveDays": 5,
+      "inactiveDays": 6,
       "errors": []
     },
     {
@@ -1123,10 +1146,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:24.200Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:24.200Z",
+      "lastParsedAt": "2026-07-24T00:19:35.581Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:35.581Z",
       "latestEntryDate": "2026-07-08T18:51:55.000Z",
-      "inactiveDays": 14,
+      "inactiveDays": 15,
       "errors": []
     },
     {
@@ -1146,10 +1169,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:24.602Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:24.602Z",
+      "lastParsedAt": "2026-07-24T00:19:35.829Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:35.829Z",
       "latestEntryDate": "2026-07-15T06:05:12.000Z",
-      "inactiveDays": 7,
+      "inactiveDays": 8,
       "errors": []
     },
     {
@@ -1169,10 +1192,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:24.848Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:24.848Z",
+      "lastParsedAt": "2026-07-24T00:19:36.044Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:36.044Z",
       "latestEntryDate": "2026-05-19T19:47:15.000Z",
-      "inactiveDays": 64,
+      "inactiveDays": 65,
       "errors": []
     },
     {
@@ -1192,10 +1215,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:25.093Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:25.093Z",
+      "lastParsedAt": "2026-07-24T00:19:36.223Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:36.223Z",
       "latestEntryDate": "2025-09-04T20:09:17.000Z",
-      "inactiveDays": 321,
+      "inactiveDays": 322,
       "errors": []
     },
     {
@@ -1215,10 +1238,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:25.523Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:25.523Z",
+      "lastParsedAt": "2026-07-24T00:19:36.594Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:36.594Z",
       "latestEntryDate": "2026-06-17T23:16:09.000Z",
-      "inactiveDays": 35,
+      "inactiveDays": 36,
       "errors": []
     },
     {
@@ -1238,10 +1261,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:25.783Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:25.783Z",
+      "lastParsedAt": "2026-07-24T00:19:36.807Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:36.807Z",
       "latestEntryDate": "2026-06-02T02:21:54.000Z",
-      "inactiveDays": 50,
+      "inactiveDays": 51,
       "errors": []
     },
     {
@@ -1261,10 +1284,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:26.126Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:26.126Z",
+      "lastParsedAt": "2026-07-24T00:19:37.200Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:37.200Z",
       "latestEntryDate": "2026-07-22T22:13:29.000Z",
-      "inactiveDays": 0,
+      "inactiveDays": 1,
       "errors": []
     },
     {
@@ -1284,10 +1307,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:26.948Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:26.948Z",
+      "lastParsedAt": "2026-07-24T00:19:37.695Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:37.695Z",
       "latestEntryDate": "2026-07-08T22:01:15.000Z",
-      "inactiveDays": 14,
+      "inactiveDays": 15,
       "errors": []
     },
     {
@@ -1307,10 +1330,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:27.190Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:27.190Z",
+      "lastParsedAt": "2026-07-24T00:19:38.108Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:38.108Z",
       "latestEntryDate": "2026-06-18T09:00:00.000Z",
-      "inactiveDays": 34,
+      "inactiveDays": 35,
       "errors": []
     },
     {
@@ -1330,10 +1353,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:27.432Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:27.432Z",
+      "lastParsedAt": "2026-07-24T00:19:38.296Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:38.296Z",
       "latestEntryDate": "2025-11-06T10:00:00.000Z",
-      "inactiveDays": 258,
+      "inactiveDays": 259,
       "errors": []
     },
     {
@@ -1353,10 +1376,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:27.662Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:27.662Z",
+      "lastParsedAt": "2026-07-24T00:19:38.519Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:38.519Z",
       "latestEntryDate": "2024-02-19T13:47:58.000Z",
-      "inactiveDays": 884,
+      "inactiveDays": 885,
       "errors": []
     },
     {
@@ -1376,10 +1399,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:28.016Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:28.016Z",
+      "lastParsedAt": "2026-07-24T00:19:38.867Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:38.867Z",
       "latestEntryDate": "2026-07-17T22:12:04.000Z",
-      "inactiveDays": 5,
+      "inactiveDays": 6,
       "errors": []
     },
     {
@@ -1399,10 +1422,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:28.311Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:28.311Z",
-      "latestEntryDate": "2026-06-15T20:33:39.000Z",
-      "inactiveDays": 37,
+      "lastParsedAt": "2026-07-24T00:19:39.022Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:39.022Z",
+      "latestEntryDate": "2026-07-23T15:44:52.000Z",
+      "inactiveDays": 0,
       "errors": []
     },
     {
@@ -1422,10 +1445,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:28.394Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:28.394Z",
+      "lastParsedAt": "2026-07-24T00:19:39.142Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:39.142Z",
       "latestEntryDate": "2026-06-22T21:05:50.000Z",
-      "inactiveDays": 30,
+      "inactiveDays": 31,
       "errors": []
     },
     {
@@ -1445,10 +1468,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:28.877Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:28.877Z",
+      "lastParsedAt": "2026-07-24T00:19:39.559Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:39.559Z",
       "latestEntryDate": "2025-09-03T16:08:50.000Z",
-      "inactiveDays": 322,
+      "inactiveDays": 323,
       "errors": []
     },
     {
@@ -1468,10 +1491,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:29.201Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:29.201Z",
+      "lastParsedAt": "2026-07-24T00:19:39.802Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:39.802Z",
       "latestEntryDate": "2025-11-06T23:24:23.000Z",
-      "inactiveDays": 258,
+      "inactiveDays": 259,
       "errors": []
     },
     {
@@ -1491,10 +1514,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:29.759Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:29.759Z",
+      "lastParsedAt": "2026-07-24T00:19:40.210Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:40.210Z",
       "latestEntryDate": "2022-05-27T20:49:51.000Z",
-      "inactiveDays": 1517,
+      "inactiveDays": 1518,
       "errors": []
     },
     {
@@ -1514,10 +1537,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:29.959Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:29.959Z",
+      "lastParsedAt": "2026-07-24T00:19:40.331Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:40.331Z",
       "latestEntryDate": "2025-08-29T17:23:45.000Z",
-      "inactiveDays": 327,
+      "inactiveDays": 328,
       "errors": []
     },
     {
@@ -1537,10 +1560,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:30.417Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:30.417Z",
+      "lastParsedAt": "2026-07-24T00:19:40.678Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:40.678Z",
       "latestEntryDate": "2023-01-27T14:46:00.000Z",
-      "inactiveDays": 1272,
+      "inactiveDays": 1273,
       "errors": []
     },
     {
@@ -1560,10 +1583,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:30.665Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:30.665Z",
+      "lastParsedAt": "2026-07-24T00:19:40.820Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:40.820Z",
       "latestEntryDate": "2026-05-19T18:57:00.000Z",
-      "inactiveDays": 64,
+      "inactiveDays": 65,
       "errors": []
     },
     {
@@ -1583,10 +1606,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:30.847Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:30.847Z",
+      "lastParsedAt": "2026-07-24T00:19:40.912Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:19:40.912Z",
       "latestEntryDate": "2026-07-13T12:26:41.850Z",
-      "inactiveDays": 9,
+      "inactiveDays": 10,
       "errors": []
     },
     {
@@ -1595,22 +1618,31 @@
       "url": "https://learn.finaldraftmapping.com/feed/",
       "siteUrl": "https://learn.finaldraftmapping.com/",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "health": "ok",
-      "itemCount": 10,
-      "processedItems": 10,
-      "fetchAttempts": 1,
-      "lastHttpStatus": 200,
+      "status": "failed",
+      "health": "error",
+      "itemCount": 0,
+      "processedItems": 0,
+      "fetchAttempts": 3,
+      "lastHttpStatus": null,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 0,
+      "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:31.293Z",
+      "consecutiveFailures": 1,
+      "lastParsedAt": "2026-07-24T00:19:41.202Z",
       "lastSuccessfulParseAt": "2026-07-23T00:21:31.293Z",
       "latestEntryDate": "2026-06-07T06:42:11.000Z",
-      "inactiveDays": 45,
-      "errors": []
+      "inactiveDays": 46,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "fetch failed",
+          "attempts": 3,
+          "httpStatus": null,
+          "responseHeaders": {},
+          "bodyPreview": ""
+        }
+      ]
     },
     {
       "name": "Google Alert - (\"arcgis\" OR \"esri\") AND (\"SDK\" OR \"javascript\" OR \"API\") -site:esri.com -site:arcgis.com -\"ArcGIS API for JavaScript\"",
@@ -1620,8 +1652,8 @@
       "relevanceMode": "strict",
       "status": "ok",
       "health": "ok",
-      "itemCount": 5,
-      "processedItems": 4,
+      "itemCount": 2,
+      "processedItems": 1,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
@@ -1629,9 +1661,9 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:34.458Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:34.458Z",
-      "latestEntryDate": "2026-07-22T15:25:59.000Z",
+      "lastParsedAt": "2026-07-24T00:20:16.603Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:20:16.603Z",
+      "latestEntryDate": "2026-07-23T21:23:09.000Z",
       "inactiveDays": 0,
       "errors": []
     },
@@ -1643,8 +1675,8 @@
       "relevanceMode": "strict",
       "status": "ok",
       "health": "ok",
-      "itemCount": 0,
-      "processedItems": 0,
+      "itemCount": 1,
+      "processedItems": 1,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
@@ -1652,10 +1684,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:34.668Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:34.668Z",
-      "latestEntryDate": null,
-      "inactiveDays": null,
+      "lastParsedAt": "2026-07-24T00:20:16.929Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:20:16.929Z",
+      "latestEntryDate": "2026-07-23T00:48:25.000Z",
+      "inactiveDays": 0,
       "errors": []
     },
     {
@@ -1666,8 +1698,8 @@
       "relevanceMode": "strict",
       "status": "ok",
       "health": "ok",
-      "itemCount": 0,
-      "processedItems": 0,
+      "itemCount": 1,
+      "processedItems": 1,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
@@ -1675,9 +1707,9 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:34.713Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:34.713Z",
-      "latestEntryDate": "2026-07-21T10:23:10.000Z",
+      "lastParsedAt": "2026-07-24T00:20:16.988Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:20:16.988Z",
+      "latestEntryDate": "2026-07-22T15:25:59.000Z",
       "inactiveDays": 1,
       "errors": []
     },
@@ -1698,8 +1730,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:34.762Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:34.762Z",
+      "lastParsedAt": "2026-07-24T00:20:17.044Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:20:17.044Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1721,10 +1753,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-07-23T00:21:34.806Z",
-      "lastSuccessfulParseAt": "2026-07-23T00:21:34.806Z",
+      "lastParsedAt": "2026-07-24T00:20:17.100Z",
+      "lastSuccessfulParseAt": "2026-07-24T00:20:17.100Z",
       "latestEntryDate": "2026-03-03T21:23:32.000Z",
-      "inactiveDays": 141,
+      "inactiveDays": 142,
       "errors": []
     },
     {

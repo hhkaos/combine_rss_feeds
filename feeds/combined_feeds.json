@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (23-07-2026)",
+  "title": "Combined ArcGIS Feeds (24-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-23T00:21:35.146Z",
+  "lastUpdated": "2026-07-24T00:20:17.323Z",
   "items": [
+    {
+      "title": "How to make textured basemaps with AI, the VTSE, and your wits",
+      "description": "The Vector Tile Style Editor lets you remove, splice, and restyle vector basemap content to your heart’s content. Sometimes my heart isn’t content until I’ve added a little bit of a texture pattern to a basemap. Like the cute little dappled sunlit water pattern here… Here’s how you can tell an AI just who you &#8230;",
+      "link": "https://adventuresinmapping.com/2026/07/23/how-to-make-textured-basemaps-with-ai-the-vtse-and-your-wits/",
+      "guid": "https://adventuresinmapping.com/?p=8503",
+      "author": "John",
+      "date": "2026-07-23T15:44:52.000Z",
+      "sourceFeedUrl": "https://adventuresinmapping.com/feed/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri ArcGIS API</b> Python Associate Certification Sample Questions and Practice Exam",
+      "description": "EJSA_2024: <b>Esri ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b> Associate 2024 &middot; EPYA_2026: <b>Esri ArcGIS API</b> for Python Associate 2026 &middot; ESDP_2025: <b>Esri ArcGIS</b>&nbsp;...",
+      "link": "https://www.certfun.com/esri/epya-2026-esri-arcgis-api-python-associate-2026",
+      "guid": "tag:google.com,2013:googlealerts/feed:10325338487750144215",
+      "author": "",
+      "date": "2026-07-23T07:01:23.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Top 5 Geofencing Companies Driving Growth in the U.S. Market - SNS Insider",
+      "description": "<b>Esri</b> is among ... The ongoing development of <b>ArcGIS Location Services</b> only confirms the company&#39;s position in enterprise location intelligence.",
+      "link": "https://www.snsinsider.com/blogs/geofencing-industry",
+      "guid": "tag:google.com,2013:googlealerts/feed:8163382695283869405",
+      "author": "",
+      "date": "2026-07-23T00:48:25.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/18422577937220317856",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
       "description": "Change detected on monitored page.",
