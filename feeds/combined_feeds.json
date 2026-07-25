@@ -1,8 +1,63 @@
 {
-  "title": "Combined ArcGIS Feeds (24-07-2026)",
+  "title": "Combined ArcGIS Feeds (25-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-24T00:20:17.323Z",
+  "lastUpdated": "2026-07-25T00:22:59.811Z",
   "items": [
+    {
+      "title": "Batch Geocoding Service In ArcGIS Pro",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/announcements/batch-geocoding-service-in-arcgis-pro",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978271",
+      "author": "Robert Jensen",
+      "date": "2026-07-24T22:57:10.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-geocoding-service/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Episode 75 - What is an MCP?",
+      "description": "MCP is how you hand an AI real tools. It's coming to ArcGIS. It is one of the best ways to ground AI answers in real data, and you can try it with your own org today.",
+      "link": "https://christophermoravec.com/episode-75-what-is-an-mcp/",
+      "guid": "6a63cd05e94f490001d492db",
+      "author": "Christopher Moravec",
+      "date": "2026-07-24T22:19:27.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Trump Media&#39;s $100k-a-month Truth Social scheme is the president&#39;s most desperate grift yet",
+      "description": "Truth <b>API</b> is what happens when a historically unpopular lame-duck president needs to lock in a revenue stream before he leaves office.",
+      "link": "https://www.fastcompany.com/91578022/trump-media-truth-social-api-100k-a-month-enriches-president",
+      "guid": "tag:google.com,2013:googlealerts/feed:10579394513385521499",
+      "author": "",
+      "date": "2026-07-24T17:08:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        JSとCalciteのページ編集\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JSとCalciteのページ編集</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/4274f0ca025112b2ef65efbc675b1df69897bec0",
+      "guid": "tag:github.com,2008:Grit::Commit/4274f0ca025112b2ef65efbc675b1df69897bec0",
+      "author": "70100515",
+      "date": "2026-07-24T00:31:55.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Windows kaqpi ArcGIS StoryMaps Briefings kaqman huk hukpa rantinpi kaq - Microsoft Store",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET Samples (WPF). 5.0. Mana qullqipaq &middot; Tile Package Kreator. Mana qullqipaq &middot; VertiGIS Studio Go. Mana qullqipaq.",
+      "link": "https://apps.microsoft.com/related/9n42ft9v1sr1?hl=qu-PE&gl=US",
+      "guid": "tag:google.com,2013:googlealerts/feed:9499110191097040487",
+      "author": "",
+      "date": "2026-07-23T19:09:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "How to make textured basemaps with AI, the VTSE, and your wits",
       "description": "The Vector Tile Style Editor lets you remove, splice, and restyle vector basemap content to your heart’s content. Sometimes my heart isn’t content until I’ve added a little bit of a texture pattern to a basemap. Like the cute little dappled sunlit water pattern here… Here’s how you can tell an AI just who you &#8230;",

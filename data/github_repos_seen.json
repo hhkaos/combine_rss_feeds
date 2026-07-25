@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-24T00:19:02.775Z",
+  "lastRun": "2026-07-25T00:22:20.529Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -691,6 +691,42 @@
       "createdAt": "2021-08-20T18:11:59Z",
       "axis": "pushed",
       "stars": 30,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "cosmosandyou/civicflow-ai": {
+      "htmlUrl": "https://github.com/cosmosandyou/civicflow-ai",
+      "firstSeen": "2026-07-25T00:22:17.536Z",
+      "createdAt": "2026-07-24T21:12:44Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "cosmosandyou/dublin-urban-intervention-simulator": {
+      "htmlUrl": "https://github.com/cosmosandyou/dublin-urban-intervention-simulator",
+      "firstSeen": "2026-07-25T00:22:18.612Z",
+      "createdAt": "2026-07-24T21:33:16Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "buschbrian/utah-reservoir-dashboard": {
+      "htmlUrl": "https://github.com/buschbrian/utah-reservoir-dashboard",
+      "firstSeen": "2026-07-25T00:22:19.268Z",
+      "createdAt": "2026-07-24T02:37:51Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "joshuasundance-swca/restgdf": {
+      "htmlUrl": "https://github.com/joshuasundance-swca/restgdf",
+      "firstSeen": "2026-07-25T00:22:20.529Z",
+      "createdAt": "2021-05-17T22:16:24Z",
+      "axis": "pushed",
+      "stars": 7,
       "classifiedCategory": "devtool",
       "relevant": true
     }

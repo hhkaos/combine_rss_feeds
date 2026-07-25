@@ -1,8 +1,149 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (24-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (25-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-24T00:21:15.764Z",
+  "lastUpdated": "2026-07-25T00:23:21.704Z",
   "items": [
+    {
+      "title": "Batch Geocoding Service In ArcGIS Pro",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-pro/announcements/batch-geocoding-service-in-arcgis-pro",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978271",
+      "author": "Robert Jensen",
+      "date": "2026-07-24T22:57:10.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-geocoding-service/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Episode 75 - What is an MCP?",
+      "description": "MCP is how you hand an AI real tools. It's coming to ArcGIS. It is one of the best ways to ground AI answers in real data, and you can try it with your own org today.",
+      "link": "https://christophermoravec.com/episode-75-what-is-an-mcp/",
+      "guid": "6a63cd05e94f490001d492db",
+      "author": "Christopher Moravec",
+      "date": "2026-07-24T22:19:27.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "cosmosandyou/dublin-urban-intervention-simulator: Explainable geospatial decision twin for comparing green active-travel interventions in Dublin.",
+      "description": "Explainable geospatial decision twin for comparing green active-travel interventions in Dublin.\nEs un simulador de intervenciones urbanas en Dublín, orientado a usuarios finales.\nTopics: arcgis, data, decision-support, geospatial, gis, javascript, urban-planning, visualization · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/cosmosandyou/dublin-urban-intervention-simulator",
+      "guid": "https://github.com/cosmosandyou/dublin-urban-intervention-simulator",
+      "author": "cosmosandyou",
+      "date": "2026-07-24T21:33:16.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un simulador orientado a la toma de decisiones urbanas, no es una herramienta reutilizable para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un simulador de intervenciones urbanas en Dublín, orientado a usuarios finales."
+    },
+    {
+      "title": "cosmosandyou/civicflow-ai: AI-powered GIS command centre for civic issue triage, mapping, and routing.",
+      "description": "AI-powered GIS command centre for civic issue triage, mapping, and routing.\nEs un centro de comando GIS impulsado por IA para la gestión de problemas cívicos.\nTopics: ai-automation, arcgis, dashboard, gis, javascript, public-sector · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/cosmosandyou/civicflow-ai",
+      "guid": "https://github.com/cosmosandyou/civicflow-ai",
+      "author": "cosmosandyou",
+      "date": "2026-07-24T21:12:44.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación orientada a la gestión de problemas cívicos, no es una herramienta para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un centro de comando GIS impulsado por IA para la gestión de problemas cívicos."
+    },
+    {
+      "title": "joshuasundance-swca/restgdf: Async, typed Python client for Esri ArcGIS REST services — turn FeatureServer/MapServer layers into GeoDataFrames.",
+      "description": "Async, typed Python client for Esri ArcGIS REST services — turn FeatureServer/MapServer layers into GeoDataFrames.\nProporciona una forma asíncrona y tipada de interactuar con servicios de ArcGIS, convirtiendo capas en GeoDataFrames.\nTopics: aiohttp, arcgis, arcgis-rest-api, async, asyncio, dataframe, esri, feature-service, geopandas, geospatial, gis, map-service, pydantic, pydantic-v2, python, rest, rest-api · ⭐ 7 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/joshuasundance-swca/restgdf",
+      "guid": "https://github.com/joshuasundance-swca/restgdf",
+      "author": "joshuasundance-swca",
+      "date": "2026-07-24T20:03:55.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una forma asíncrona y tipada de interactuar con servicios de ArcGIS, convirtiendo capas en GeoDataFrames."
+    },
+    {
+      "title": "Trump Media&#39;s $100k-a-month Truth Social scheme is the president&#39;s most desperate grift yet",
+      "description": "Truth <b>API</b> is what happens when a historically unpopular lame-duck president needs to lock in a revenue stream before he leaves office.",
+      "link": "https://www.fastcompany.com/91578022/trump-media-truth-social-api-100k-a-month-enriches-president",
+      "guid": "tag:google.com,2013:googlealerts/feed:10579394513385521499",
+      "author": "",
+      "date": "2026-07-24T17:08:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev"
+    },
+    {
+      "title": "buschbrian/utah-reservoir-dashboard: Static ArcGIS Maps SDK for JS dashboard of Utah reservoir drought conditions",
+      "description": "Static ArcGIS Maps SDK for JS dashboard of Utah reservoir drought conditions\nEs un dashboard estático que utiliza el SDK de ArcGIS Maps para JS.\nTopics: — · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/buschbrian/utah-reservoir-dashboard",
+      "guid": "https://github.com/buschbrian/utah-reservoir-dashboard",
+      "author": "buschbrian",
+      "date": "2026-07-24T02:37:51.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación específica para visualizar condiciones de sequía en Utah.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un dashboard estático que utiliza el SDK de ArcGIS Maps para JS."
+    },
+    {
+      "title": "\n        JSとCalciteのページ編集\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JSとCalciteのページ編集</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/4274f0ca025112b2ef65efbc675b1df69897bec0",
+      "guid": "tag:github.com,2008:Grit::Commit/4274f0ca025112b2ef65efbc675b1df69897bec0",
+      "author": "70100515",
+      "date": "2026-07-24T00:31:55.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Windows kaqpi ArcGIS StoryMaps Briefings kaqman huk hukpa rantinpi kaq - Microsoft Store",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET Samples (WPF). 5.0. Mana qullqipaq &middot; Tile Package Kreator. Mana qullqipaq &middot; VertiGIS Studio Go. Mana qullqipaq.",
+      "link": "https://apps.microsoft.com/related/9n42ft9v1sr1?hl=qu-PE&gl=US",
+      "guid": "tag:google.com,2013:googlealerts/feed:9499110191097040487",
+      "author": "",
+      "date": "2026-07-23T19:09:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "rramirezgit/vue-arcgis-demo: Visor de pozos argentinos con Vue 3 + ArcGIS Maps SDK for JavaScript 5.1",
       "description": "Visor de pozos argentinos con Vue 3 + ArcGIS Maps SDK for JavaScript 5.1\nEs un visor de pozos argentinos utilizando Vue y ArcGIS, pero no es una herramienta reutilizable para desarrolladores.\nTopics: — · ⭐ 0 · Vue\nGitHub repo descubierto (created · consumer)",
