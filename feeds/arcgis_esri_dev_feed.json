@@ -1,8 +1,40 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (25-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (26-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-25T00:23:21.704Z",
+  "lastUpdated": "2026-07-26T00:25:40.349Z",
   "items": [
+    {
+      "title": "Meandmybadself/gunflint-parcel-tool: Subdivide a 10-acre parcel on the Gunflint Trail and value each piece against Cook County zoning, road access and Ordinance 37",
+      "description": "Subdivide a 10-acre parcel on the Gunflint Trail and value each piece against Cook County zoning, road access and Ordinance 37\nEs una herramienta para subdividir terrenos en una ubicación específica, no es reutilizable por otros desarrolladores.\nTopics: arcgis, gis, land-use, leaflet, minnesota, turfjs, zoning · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Meandmybadself/gunflint-parcel-tool",
+      "guid": "https://github.com/Meandmybadself/gunflint-parcel-tool",
+      "author": "Meandmybadself",
+      "date": "2026-07-25T16:39:52.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto específico de subdivisión de terrenos sin utilidad general para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una herramienta para subdividir terrenos en una ubicación específica, no es reutilizable por otros desarrolladores."
+    },
+    {
+      "title": "Front End PHP Developer at Delan Associates, Inc - DailyRemote",
+      "description": "Focus on candidates with REST API integration, <b>ArcGIS Maps SDK for</b> JavaScript, Chart.js or D3.js, Jest testing, and accessibility compliance (ADA/&nbsp;...",
+      "link": "https://dailyremote.com/remote-job/front-end-php-developer-5361857",
+      "guid": "tag:google.com,2013:googlealerts/feed:3471062622915602899",
+      "author": "",
+      "date": "2026-07-25T02:53:07.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Batch Geocoding Service In ArcGIS Pro",
       "description": "",
@@ -98,6 +130,45 @@
       "processed": true,
       "ignored": true,
       "ignoreReason": "off_topic_arcgis_dev"
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MagnifierWindow/ReadMe.md-代码预览",
+      "description": "Language: C# Subject: Map Exploration Contributor: <b>ArcGIS</b> Pro <b>SDK</b> Team &lt;arcgisprosdk@<b>esri</b>. ... NET Framework Home | <b>API</b> Reference | Requirements |&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/blob/master/Map-Exploration/MagnifierWindow/ReadMe.md",
+      "guid": "tag:google.com,2013:googlealerts/feed:4412724948024330992",
+      "author": "",
+      "date": "2026-07-24T15:27:25.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Authoring/MappingAddIns - GitCode",
+      "description": "Language: C# Subject: Map Authoring Contributor: <b>ArcGIS</b> Pro <b>SDK</b> Team &lt;arcgisprosdk@<b>esri</b>. ... NET Framework Home | <b>API</b> Reference | Requirements |&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/tree/master/Map-Authoring/MappingAddIns",
+      "guid": "tag:google.com,2013:googlealerts/feed:12785037652525042079",
+      "author": "",
+      "date": "2026-07-24T07:16:36.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Framework/ProWindowModal - GitCode",
+      "description": "Language: C# Subject: Framework Contributor: <b>ArcGIS</b> Pro <b>SDK</b> Team &lt;arcgisprosdk@<b>esri</b>. ... NET Framework Home | <b>API</b> Reference | Requirements | Download |&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/tree/master/Framework/ProWindowModal",
+      "guid": "tag:google.com,2013:googlealerts/feed:10521487289271043287",
+      "author": "",
+      "date": "2026-07-24T06:18:10.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "forum_question"
     },
     {
       "title": "buschbrian/utah-reservoir-dashboard: Static ArcGIS Maps SDK for JS dashboard of Utah reservoir drought conditions",
