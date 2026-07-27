@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (26-07-2026)",
+  "title": "Combined ArcGIS Feeds (27-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-26T00:24:36.915Z",
+  "lastUpdated": "2026-07-27T00:23:04.487Z",
   "items": [
+    {
+      "title": "HV Transmission Line GIS Project | GPS Pole Numbering Complete Tutorial in Hindi - YouTube",
+      "description": "... <b>ArcGIS</b> में Pole Numbering QGIS में Automatic Numbering Attribute ... <b>api</b> #<b>arcgis javascript</b> #<b>arcgis javascript api</b> #<b>arcgis javascript</b>&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=S6qKFRyI-RU",
+      "guid": "tag:google.com,2013:googlealerts/feed:4025839551111899870",
+      "author": "",
+      "date": "2026-07-25T12:08:00.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Front End PHP Developer at Delan Associates, Inc - DailyRemote",
       "description": "Focus on candidates with REST API integration, <b>ArcGIS Maps SDK for</b> JavaScript, Chart.js or D3.js, Jest testing, and accessibility compliance (ADA/&nbsp;...",

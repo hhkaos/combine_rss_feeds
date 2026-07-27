@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (26-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (27-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-26T00:25:40.349Z",
+  "lastUpdated": "2026-07-27T00:24:05.474Z",
   "items": [
+    {
+      "title": "mchaynes/geodatadownloader: A downloader of geodata",
+      "description": "A downloader of geodata\nGeodatadownloader es una herramienta útil para desarrolladores que necesitan descargar datos geoespaciales desde ArcGIS.\nTopics: arcgis, geojson, javascript · ⭐ 106 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/mchaynes/geodatadownloader",
+      "guid": "https://github.com/mchaynes/geodatadownloader",
+      "author": "mchaynes",
+      "date": "2026-07-26T22:47:13.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Geodatadownloader es una herramienta útil para desarrolladores que necesitan descargar datos geoespaciales desde ArcGIS."
+    },
+    {
+      "title": "shaffdaddy/EsriGeometryEditorVisibilityBug: Minimal repro: ArcGIS Maps SDK for .NET MAUI GeometryEditor ignores graphic/overlay visibilit on Android during an active edit",
+      "description": "Minimal repro: ArcGIS Maps SDK for .NET MAUI GeometryEditor ignores graphic/overlay visibilit on Android during an active edit\nEste repositorio es un caso mínimo de un bug y no proporciona herramientas o recursos para otros desarrolladores.\nTopics: — · ⭐ 0 · C#\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/shaffdaddy/EsriGeometryEditorVisibilityBug",
+      "guid": "https://github.com/shaffdaddy/EsriGeometryEditorVisibilityBug",
+      "author": "shaffdaddy",
+      "date": "2026-07-26T12:14:39.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto de repro y no una herramienta o librería reutilizable.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio es un caso mínimo de un bug y no proporciona herramientas o recursos para otros desarrolladores."
+    },
     {
       "title": "Meandmybadself/gunflint-parcel-tool: Subdivide a 10-acre parcel on the Gunflint Trail and value each piece against Cook County zoning, road access and Ordinance 37",
       "description": "Subdivide a 10-acre parcel on the Gunflint Trail and value each piece against Cook County zoning, road access and Ordinance 37\nEs una herramienta para subdividir terrenos en una ubicación específica, no es reutilizable por otros desarrolladores.\nTopics: arcgis, gis, land-use, leaflet, minnesota, turfjs, zoning · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
@@ -21,6 +59,19 @@
       ],
       "repoCategory": "consumer",
       "discoverySummary": "Es una herramienta para subdividir terrenos en una ubicación específica, no es reutilizable por otros desarrolladores."
+    },
+    {
+      "title": "HV Transmission Line GIS Project | GPS Pole Numbering Complete Tutorial in Hindi - YouTube",
+      "description": "... <b>ArcGIS</b> में Pole Numbering QGIS में Automatic Numbering Attribute ... <b>api</b> #<b>arcgis javascript</b> #<b>arcgis javascript api</b> #<b>arcgis javascript</b>&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=S6qKFRyI-RU",
+      "guid": "tag:google.com,2013:googlealerts/feed:4025839551111899870",
+      "author": "",
+      "date": "2026-07-25T12:08:00.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev"
     },
     {
       "title": "Front End PHP Developer at Delan Associates, Inc - DailyRemote",
