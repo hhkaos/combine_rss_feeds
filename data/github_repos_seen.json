@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-27T00:21:47.870Z",
+  "lastRun": "2026-07-28T00:20:10.652Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -754,6 +754,78 @@
       "createdAt": "2021-11-30T23:45:45Z",
       "axis": "pushed",
       "stars": 106,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/arcade-rule-deploy": {
+      "htmlUrl": "https://github.com/uhsear/arcade-rule-deploy",
+      "firstSeen": "2026-07-28T00:20:00.189Z",
+      "createdAt": "2026-07-27T22:46:02Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/gdbprune": {
+      "htmlUrl": "https://github.com/uhsear/gdbprune",
+      "firstSeen": "2026-07-28T00:20:01.950Z",
+      "createdAt": "2026-07-27T22:06:32Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/svcguard": {
+      "htmlUrl": "https://github.com/uhsear/svcguard",
+      "firstSeen": "2026-07-28T00:20:03.672Z",
+      "createdAt": "2026-07-27T22:06:19Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/arcpy-nullscan": {
+      "htmlUrl": "https://github.com/uhsear/arcpy-nullscan",
+      "firstSeen": "2026-07-28T00:20:05.365Z",
+      "createdAt": "2026-07-27T20:29:52Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "m-junad-sabir/sphf-webgis": {
+      "htmlUrl": "https://github.com/m-junad-sabir/sphf-webgis",
+      "firstSeen": "2026-07-28T00:20:06.979Z",
+      "createdAt": "2026-07-27T08:08:13Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Waliz521/mawal-nt-site-viewer-esri": {
+      "htmlUrl": "https://github.com/Waliz521/mawal-nt-site-viewer-esri",
+      "firstSeen": "2026-07-28T00:20:08.389Z",
+      "createdAt": "2026-07-27T08:57:47Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "rcfdtools/R.TSIG": {
+      "htmlUrl": "https://github.com/rcfdtools/R.TSIG",
+      "firstSeen": "2026-07-28T00:20:09.545Z",
+      "createdAt": "2024-12-20T15:55:47Z",
+      "axis": "pushed",
+      "stars": 6,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "Esri/arcgis-maps-sdk-unreal-engine-samples": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-unreal-engine-samples",
+      "firstSeen": "2026-07-28T00:20:10.652Z",
+      "createdAt": "2022-01-14T18:55:34Z",
+      "axis": "pushed",
+      "stars": 91,
       "classifiedCategory": "devtool",
       "relevant": true
     }

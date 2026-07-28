@@ -1,8 +1,69 @@
 {
-  "title": "Combined ArcGIS Feeds (27-07-2026)",
+  "title": "Combined ArcGIS Feeds (28-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-27T00:23:04.487Z",
+  "lastUpdated": "2026-07-28T00:20:51.861Z",
   "items": [
+    {
+      "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/documentation/mapping-and-location-services/popular-topics/",
+      "guid": "https://rss.rauljimenez.info/events/61",
+      "author": "",
+      "date": "2026-07-27T22:03:43.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:12.944Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Enterprise: Printing Reports and Maps from ArcGIS Web Applications | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=5TbDf2hhJMg",
+      "guid": "yt:video:5TbDf2hhJMg",
+      "author": "Esri Developers",
+      "date": "2026-07-27T14:05:39.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge branch 'master' of https://github.com/EsriJapan/arcgis-dev-reso…\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;master&#39; of https://github.com/EsriJapan/arcgis-dev-resources</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/d0385f72c7cc77c5c106cbec18f1c9270bbcbca4",
+      "guid": "tag:github.com,2008:Grit::Commit/d0385f72c7cc77c5c106cbec18f1c9270bbcbca4",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-27T04:36:38.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        ExB Dev カスタム ウィジェット開発ガイド トップ更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ExB Dev カスタム ウィジェット開発ガイド トップ更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/96f3741f6ee93d5cd838d6cfe5e62cbd855f97b9",
+      "guid": "tag:github.com,2008:Grit::Commit/96f3741f6ee93d5cd838d6cfe5e62cbd855f97b9",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-27T04:36:22.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MapToolWithCustomPopup/Config ...",
+      "description": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MapToolWithCustomPopup/Config ... png&lt;/Image&gt; &lt;Author&gt;<b>ArcGIS</b> Pro <b>SDK</b> Team, arcgisprosdk@<b>esri</b>.com&lt;/&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/blob/master/Map-Exploration/MapToolWithCustomPopup/Config.daml",
+      "guid": "tag:google.com,2013:googlealerts/feed:1794912792888099918",
+      "author": "",
+      "date": "2026-07-26T16:19:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "HV Transmission Line GIS Project | GPS Pole Numbering Complete Tutorial in Hindi - YouTube",
       "description": "... <b>ArcGIS</b> में Pole Numbering QGIS में Automatic Numbering Attribute ... <b>api</b> #<b>arcgis javascript</b> #<b>arcgis javascript api</b> #<b>arcgis javascript</b>&nbsp;...",

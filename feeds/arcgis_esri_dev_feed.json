@@ -1,8 +1,197 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (27-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (28-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-27T00:24:05.474Z",
+  "lastUpdated": "2026-07-28T00:21:14.372Z",
   "items": [
+    {
+      "title": "uhsear/arcade-rule-deploy: Deploy Arcade calculation attribute rules to a geodatabase, preflight-checked and idempotent. Resolves every FeatureSetByName reference before writing.",
+      "description": "Deploy Arcade calculation attribute rules to a geodatabase, preflight-checked and idempotent. Resolves every FeatureSetByName reference before writing.\nPermite a los desarrolladores implementar reglas de atributos de Arcade de manera eficiente.\nTopics: arcade, arcgis, arcpy, attribute-rules, esri, geodatabase, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/arcade-rule-deploy",
+      "guid": "https://github.com/uhsear/arcade-rule-deploy",
+      "author": "uhsear",
+      "date": "2026-07-27T22:46:02.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite a los desarrolladores implementar reglas de atributos de Arcade de manera eficiente."
+    },
+    {
+      "title": "Esri/arcgis-maps-sdk-unreal-engine-samples: Sample code for the ArcGIS Maps SDK for Unreal Engine.",
+      "description": "Sample code for the ArcGIS Maps SDK for Unreal Engine.\nEste repositorio contiene muestras de código para utilizar el ArcGIS Maps SDK en Unreal Engine.\nTopics: arcgis, arcgis-maps-sdk, blueprints, engine, esri, game-engine, unreal, unreal-engine-5 · ⭐ 91 · C++\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-maps-sdk-unreal-engine-samples",
+      "guid": "https://github.com/Esri/arcgis-maps-sdk-unreal-engine-samples",
+      "author": "Esri",
+      "date": "2026-07-27T22:45:06.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio contiene muestras de código para utilizar el ArcGIS Maps SDK en Unreal Engine."
+    },
+    {
+      "title": "uhsear/gdbprune: Delete stale leaf versions from a traditionally-versioned Enterprise geodatabase, printing the plan first. Dry run by default.",
+      "description": "Delete stale leaf versions from a traditionally-versioned Enterprise geodatabase, printing the plan first. Dry run by default.\ngdbprune permite eliminar versiones obsoletas de una geodatabase empresarial de ArcGIS, facilitando la administración de datos.\nTopics: arcgis, arcgis-enterprise, dba, esri, geodatabase, gis, python, sde · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/gdbprune",
+      "guid": "https://github.com/uhsear/gdbprune",
+      "author": "uhsear",
+      "date": "2026-07-27T22:06:32.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "gdbprune permite eliminar versiones obsoletas de una geodatabase empresarial de ArcGIS, facilitando la administración de datos."
+    },
+    {
+      "title": "uhsear/svcguard: Guarantee an ArcGIS Server service restarts around risky maintenance, even on failure. Standard library only, no arcpy.",
+      "description": "Guarantee an ArcGIS Server service restarts around risky maintenance, even on failure. Standard library only, no arcpy.\nProporciona una biblioteca para garantizar que los servicios de ArcGIS Server se reinicien durante el mantenimiento.\nTopics: arcgis, arcgis-server, cli, esri, gis, maintenance, python, sysadmin · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/svcguard",
+      "guid": "https://github.com/uhsear/svcguard",
+      "author": "uhsear",
+      "date": "2026-07-27T22:06:19.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una biblioteca para garantizar que los servicios de ArcGIS Server se reinicien durante el mantenimiento."
+    },
+    {
+      "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/documentation/mapping-and-location-services/popular-topics/",
+      "guid": "https://rss.rauljimenez.info/events/61",
+      "author": "",
+      "date": "2026-07-27T22:03:43.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "manualStatus": "accepted",
+      "manualReason": "manual_accept",
+      "manualNotes": "",
+      "reviewedAt": "2026-05-15T16:36:12.944Z",
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "uhsear/arcpy-nullscan: Report NULL and blank values across every layer and standalone table in an ArcGIS Pro map, including null geometry and standalone tables that naive scripts miss.",
+      "description": "Report NULL and blank values across every layer and standalone table in an ArcGIS Pro map, including null geometry and standalone tables that naive scripts miss.\nPermite reportar valores nulos y en blanco en capas y tablas, mejorando la calidad de los datos en proyectos de ArcGIS.\nTopics: arcgis, arcgis-pro, arcpy, data-quality, esri, gis, python, qa · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/arcpy-nullscan",
+      "guid": "https://github.com/uhsear/arcpy-nullscan",
+      "author": "uhsear",
+      "date": "2026-07-27T20:29:52.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite reportar valores nulos y en blanco en capas y tablas, mejorando la calidad de los datos en proyectos de ArcGIS."
+    },
+    {
+      "title": "ArcGIS Enterprise: Printing Reports and Maps from ArcGIS Web Applications | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=5TbDf2hhJMg",
+      "guid": "yt:video:5TbDf2hhJMg",
+      "author": "Esri Developers",
+      "date": "2026-07-27T14:05:39.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Waliz521/mawal-nt-site-viewer-esri: ArcGIS Maps SDK edition of the Mawal NT community power-station site viewer — satellite maps, KML layer overlays, traffic-light status, and site metadata from Supabase. Companion to the Leaflet production app.",
+      "description": "ArcGIS Maps SDK edition of the Mawal NT community power-station site viewer — satellite maps, KML layer overlays, traffic-light status, and site metadata from Supabase. Companion to the Leaflet production app.\nEs un visor de sitio para una estación de energía comunitaria que utiliza el SDK de ArcGIS.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Waliz521/mawal-nt-site-viewer-esri",
+      "guid": "https://github.com/Waliz521/mawal-nt-site-viewer-esri",
+      "author": "Waliz521",
+      "date": "2026-07-27T08:57:47.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación orientada al usuario final.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un visor de sitio para una estación de energía comunitaria que utiliza el SDK de ArcGIS."
+    },
+    {
+      "title": "m-junad-sabir/sphf-webgis: This is WebGIS Dashboard for SPHF Client of NESPAK",
+      "description": "This is WebGIS Dashboard for SPHF Client of NESPAK\nEs un dashboard WebGIS para un cliente específico, no una herramienta o librería reutilizable.\nTopics: arcgis, arcgis-enterprise, arcgis-js-api, arcgis-server, data-visualization, gis, layers, vectors, webgis · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/m-junad-sabir/sphf-webgis",
+      "guid": "https://github.com/m-junad-sabir/sphf-webgis",
+      "author": "m-junad-sabir",
+      "date": "2026-07-27T08:08:13.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación específica para un cliente y no es reutilizable por otros desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un dashboard WebGIS para un cliente específico, no una herramienta o librería reutilizable."
+    },
+    {
+      "title": "\n        Merge branch 'master' of https://github.com/EsriJapan/arcgis-dev-reso…\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge branch &#39;master&#39; of https://github.com/EsriJapan/arcgis-dev-resources</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/d0385f72c7cc77c5c106cbec18f1c9270bbcbca4",
+      "guid": "tag:github.com,2008:Grit::Commit/d0385f72c7cc77c5c106cbec18f1c9270bbcbca4",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-27T04:36:38.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        ExB Dev カスタム ウィジェット開発ガイド トップ更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ExB Dev カスタム ウィジェット開発ガイド トップ更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/96f3741f6ee93d5cd838d6cfe5e62cbd855f97b9",
+      "guid": "tag:github.com,2008:Grit::Commit/96f3741f6ee93d5cd838d6cfe5e62cbd855f97b9",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-27T04:36:22.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "mchaynes/geodatadownloader: A downloader of geodata",
       "description": "A downloader of geodata\nGeodatadownloader es una herramienta útil para desarrolladores que necesitan descargar datos geoespaciales desde ArcGIS.\nTopics: arcgis, geojson, javascript · ⭐ 106 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
@@ -21,6 +210,19 @@
       ],
       "repoCategory": "devtool",
       "discoverySummary": "Geodatadownloader es una herramienta útil para desarrolladores que necesitan descargar datos geoespaciales desde ArcGIS."
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MapToolWithCustomPopup/Config ...",
+      "description": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MapToolWithCustomPopup/Config ... png&lt;/Image&gt; &lt;Author&gt;<b>ArcGIS</b> Pro <b>SDK</b> Team, arcgisprosdk@<b>esri</b>.com&lt;/&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/blob/master/Map-Exploration/MapToolWithCustomPopup/Config.daml",
+      "guid": "tag:google.com,2013:googlealerts/feed:1794912792888099918",
+      "author": "",
+      "date": "2026-07-26T16:19:45.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "forum_question"
     },
     {
       "title": "shaffdaddy/EsriGeometryEditorVisibilityBug: Minimal repro: ArcGIS Maps SDK for .NET MAUI GeometryEditor ignores graphic/overlay visibilit on Android during an active edit",
@@ -59,6 +261,25 @@
       ],
       "repoCategory": "consumer",
       "discoverySummary": "Es una herramienta para subdividir terrenos en una ubicación específica, no es reutilizable por otros desarrolladores."
+    },
+    {
+      "title": "rcfdtools/R.TSIG: CURSO: Sistemas de información geográfica aplicados en ingeniería - TSIG",
+      "description": "CURSO: Sistemas de información geográfica aplicados en ingeniería - TSIG\nEste repositorio es un curso sobre sistemas de información geográfica aplicados en ingeniería, no es una herramienta o librería reutilizable.\nTopics: 3d, arcgis, copernicus, digital-elevation-model, dsm, dtm, era5, gis, landsat, lidar, mapping-system, network-analyst, qgis, spatial-analyst · ⭐ 6 · Python\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/rcfdtools/R.TSIG",
+      "guid": "https://github.com/rcfdtools/R.TSIG",
+      "author": "rcfdtools",
+      "date": "2026-07-25T15:47:52.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto de curso sin utilidad directa para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio es un curso sobre sistemas de información geográfica aplicados en ingeniería, no es una herramienta o librería reutilizable."
     },
     {
       "title": "HV Transmission Line GIS Project | GPS Pole Numbering Complete Tutorial in Hindi - YouTube",
