@@ -51,7 +51,7 @@ function loadCurationDecisions(filePath) {
     lines.forEach((line, index) => {
       try {
         const decision = JSON.parse(line);
-        const id = getDecisionId(decision.url || decision.id);
+        const id = getDecisionId(decision.id || decision.url);
         if (id) {
           decisions.set(id, decision);
         }

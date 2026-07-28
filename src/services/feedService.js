@@ -582,8 +582,15 @@ Descripción: ${cleanDesc}`;
     }
   }
 
+  // Las decisiones se buscan por la misma clave que usa el dedup: en el feed de
+  // cambios monitorizados la URL se repite en cada evento, así que una decisión
+  // por link se heredaría a todos los cambios futuros de esa página.
   applyManualDecision(item) {
-    const decision = this.curationDecisions.get(getDecisionId(item.link));
+    const decision = this.curationDecisions.get(getDecisionId(this.getDedupKey({
+      link: item.link,
+      guid: item.guid,
+      sourceFeedUrl: item.sourceFeedUrl
+    })));
     if (!decision) {
       return false;
     }

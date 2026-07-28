@@ -28,6 +28,8 @@
         const CUSTOM_IGNORE_REASONS_KEY = 'customIgnoreReasonsV1';
         const REVIEW_STATUSES = ['accepted', 'rejected', 'needs_rule'];
         const ARCHIVED_STATUSES = ['archived'];
+        // Mismo valor que FeedService.isMonitoredChangeFeed en el backend.
+        const MONITORED_CHANGE_FEED = 'https://rss.rauljimenez.info/arcgis-whats-new-changes.xml';
         const AUTO_IGNORED_STATUS = 'auto_ignored';
         // Fallback taxonomy. Replaced at runtime by config/review_reasons.json
         // (single source of truth, see loadReasonGroups).
@@ -589,7 +591,7 @@
           const itemMap = new Map();
 
           [...items, ...csvItems].forEach(item => {
-            const id = decisionId(item.link);
+            const id = decisionKeyFor(item);
             if (!id) return;
 
             const existing = itemMap.get(id);
@@ -825,17 +827,18 @@
         }
 
         function includeDecisionOnlyItems() {
-          const knownUrls = new Set(feedItems.map(item => decisionId(item.link)));
+          const knownUrls = new Set(feedItems.map(item => decisionKeyFor(item)));
 
           Object.values(loadDecisions()).forEach(decision => {
-            const id = decisionId(decision.url || decision.id);
+            const id = decisionId(decision.id || decision.url);
             if (!id || knownUrls.has(id) || !REVIEW_STATUSES.includes(decision.status)) return;
 
             feedItems.push({
               title: decision.title || decision.url || 'Untitled item',
               description: decision.summary || '',
               link: decision.url || decision.id,
-              guid: decision.url || decision.id,
+              guid: decision.guid || decision.url || decision.id,
+              sourceFeedUrl: decision.sourceFeedUrl || '',
               author: '',
               date: decision.reviewedAt || '',
               category: decision.category || '',
@@ -855,7 +858,7 @@
             if (!line.trim()) return;
             try {
               const decision = JSON.parse(line);
-              const id = decisionId(decision.url || decision.id);
+              const id = decisionId(decision.id || decision.url);
               if (id) fileDecisions[id] = decision;
             } catch (error) {
               console.error('Error parsing curation decision:', error);
@@ -950,17 +953,27 @@
           return String(url || '').trim().toLowerCase();
         }
 
+        // El feed de cambios monitorizados repite la misma URL en cada evento,
+        // así que su clave de decisión incluye el guid: si no, aceptar una página
+        // una vez aceptaría automáticamente todos sus cambios posteriores.
+        function decisionKeyFor(item) {
+          if (item.sourceFeedUrl === MONITORED_CHANGE_FEED && item.guid) {
+            return decisionId(`${item.sourceFeedUrl}#${item.guid}`);
+          }
+          return decisionId(item.link);
+        }
+
         function indexFeedItems() {
-          itemByDecisionId = new Map(feedItems.map(item => [decisionId(item.link), item]));
+          itemByDecisionId = new Map(feedItems.map(item => [decisionKeyFor(item), item]));
         }
 
         function getDecision(item) {
-          return loadDecisions()[decisionId(item.link)] || null;
+          return loadDecisions()[decisionKeyFor(item)] || null;
         }
 
         function setDecision(item, status, reason) {
           const decisions = loadDecisions();
-          const id = decisionId(item.link);
+          const id = decisionKeyFor(item);
           const autoIgnoreDetails = item.ignored ? {
             autoIgnored: true,
             autoIgnoreReason: item.ignoreReason || 'unknown reason',
@@ -971,6 +984,8 @@
           decisions[id] = {
             id,
             url: item.link,
+            guid: item.guid || '',
+            sourceFeedUrl: item.sourceFeedUrl || '',
             status,
             reason,
             reviewedAt: new Date().toISOString(),
@@ -1290,7 +1305,7 @@
               const row = document.createElement('tr');
               const decision = getDecision(item);
               const status = getItemStatus(item);
-              row.dataset.decisionId = decisionId(item.link);
+              row.dataset.decisionId = decisionKeyFor(item);
               row.dataset.status = status;
               row.dataset.reason = decision?.reason || '';
 

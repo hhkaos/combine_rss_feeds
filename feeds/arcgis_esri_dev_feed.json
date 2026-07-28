@@ -89,10 +89,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:12.944Z",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -574,10 +574,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -802,10 +802,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:15.176Z",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -2112,10 +2112,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-06-09T08:48:01.758Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK Java What's New / Release notes Page",
@@ -2129,10 +2129,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-06-09T08:47:59.163Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise SDK .NET What's New / Release notes Page",
@@ -2146,10 +2146,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-06-09T08:46:45.484Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS API for Python What's New / Release notes Page",
@@ -2163,10 +2163,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:35:56.184Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
@@ -2180,10 +2180,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:12.944Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Architecture What's New / Release notes Page",
@@ -2195,10 +2195,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -2214,10 +2214,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.096Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -2231,10 +2231,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:15.176Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -2248,10 +2248,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.504Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
@@ -2263,10 +2263,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -2282,10 +2282,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.496Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -2299,10 +2299,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:17.649Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -2316,10 +2316,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:19.705Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
@@ -2333,10 +2333,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:20.409Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -2350,10 +2350,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.073Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
@@ -2365,10 +2365,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -3608,10 +3608,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.096Z"
+      "reviewedAt": ""
     },
     {
       "title": "Celebrating America 250 with Casey Trees",
@@ -3863,10 +3863,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.073Z"
+      "reviewedAt": ""
     },
     {
       "title": "\n        Maps SDK for JavaScript 5.1 更新\n    ",
@@ -4514,10 +4514,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.504Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -4531,10 +4531,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:17.649Z"
+      "reviewedAt": ""
     },
     {
       "title": "\n        chore: add-ai-agents-utils-samples\n    ",
@@ -6725,10 +6725,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.073Z"
+      "reviewedAt": ""
     },
     {
       "title": "Introducing S-63 encrypted ENC support in ArcGIS Maps SDK for Qt",
@@ -6998,10 +6998,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:15.176Z"
+      "reviewedAt": ""
     },
     {
       "title": "Episode 66 - Don’t Tell Claude Who to Be",
@@ -7083,10 +7083,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:15.176Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -7100,10 +7100,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.504Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Feature service What's New / Release notes Page",
@@ -7117,10 +7117,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.496Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -7134,10 +7134,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:19.705Z"
+      "reviewedAt": ""
     },
     {
       "title": "Dataset - Virginia Open Data Portal",
@@ -7198,10 +7198,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:35:56.184Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
@@ -7215,10 +7215,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:12.944Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: Arcade What's New / Release notes Page",
@@ -7232,10 +7232,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.096Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
@@ -7249,10 +7249,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:15.176Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Users groups & Items REST APIs What's New / Release notes Page",
@@ -7266,10 +7266,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:14.504Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
@@ -7281,10 +7281,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -7300,10 +7300,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.496Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
@@ -7317,10 +7317,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:17.649Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Maps service What's New / Release notes Page",
@@ -7334,10 +7334,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:19.705Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Places service What's New / Release notes Page",
@@ -7351,10 +7351,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:20.409Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
@@ -7368,10 +7368,10 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": "",
-      "manualStatus": "accepted",
-      "manualReason": "manual_accept",
+      "manualStatus": "",
+      "manualReason": "",
       "manualNotes": "",
-      "reviewedAt": "2026-05-15T16:36:21.073Z"
+      "reviewedAt": ""
     },
     {
       "title": "Detected changes on: Experience Builder What's New / Release notes Page",
@@ -7383,10 +7383,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -8031,10 +8031,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -8133,10 +8133,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
@@ -8150,10 +8150,10 @@
       "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
       "sourceRelevanceMode": "trusted",
       "processed": true,
-      "manualStatus": "accepted",
-      "manualReason": "activity_sheet_match",
-      "manualNotes": "Matched with manually curated Activity sheet.",
-      "reviewedAt": "2026-05-12T20:42:05.716Z",
+      "manualStatus": "",
+      "manualReason": "",
+      "manualNotes": "",
+      "reviewedAt": "",
       "ignored": false,
       "ignoreReason": ""
     },
