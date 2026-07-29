@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (28-07-2026)",
+  "title": "Combined ArcGIS Feeds (29-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-28T00:20:51.861Z",
+  "lastUpdated": "2026-07-29T00:19:30.357Z",
   "items": [
+    {
+      "title": "AI Made My ArcGIS App Slower, How I Fixed It ArcGIS Online + Maps SDK Complete Workflow (Part 4)",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=D8myCIms-jc",
+      "guid": "yt:video:D8myCIms-jc",
+      "author": "Rene Rubalcava",
+      "date": "2026-07-28T20:23:44.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Heathrow introduces a real-time geospatial platform - ADS Advance",
+      "description": "Heathrow is introducing new <b>Esri</b> mapping technology to modernise workflows for 3000 staff as part of its &#39;digital engineer&#39; strategy.",
+      "link": "https://www.adsadvance.co.uk/heathrow-introduces-a-real-time-geospatial-platform/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16199683462191964911",
+      "author": "",
+      "date": "2026-07-28T17:07:05.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "ESRI Certification Exam Archives | ITCertArena",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript Associate 2024 Certification Exam. $139.00 Original price was: $139.00. $99.00 Current price is: $99.00. Add to cart.",
+      "link": "https://itcertarena.com/product-category/esri-certification-exam/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3891184006470399637",
+      "author": "",
+      "date": "2026-07-28T15:29:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "兰州建设网站的网站优化seo报价 - 广州市东陈多媒体技术有限公司",
+      "description": "兰州建设网站的网站,优化seo报价,云盘网站建设,web前端导师小何ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 锐化效果核心代码完整代码在线&nbsp;...",
+      "link": "https://www.kuaiandongchen.com/info/17-1940640996/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8274067507320281998",
+      "author": "",
+      "date": "2026-07-28T04:10:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Detected changes on: Mapping and location services guide What's New / Release notes Page",
       "description": "Change detected on monitored page.",
@@ -19,6 +63,17 @@
       "reviewedAt": "2026-05-15T16:36:12.944Z",
       "ignored": false,
       "ignoreReason": ""
+    },
+    {
+      "title": "ar/<b>arcgis</b>-pro-<b>sdk</b>-community-samples - Map-Exploration - GitCode",
+      "description": "<b>ArcGIS</b> Pro <b>SDK</b> for Microsoft .NET Framework Community Samples.",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/tree/master/Map-Exploration/MapToolWithCustomPopup/screenshots",
+      "guid": "tag:google.com,2013:googlealerts/feed:1821050170570602792",
+      "author": "",
+      "date": "2026-07-27T16:07:31.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
     },
     {
       "title": "ArcGIS Enterprise: Printing Reports and Maps from ArcGIS Web Applications | #EsriDevTech2026",
@@ -4320,7 +4375,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-06-09T08:48:01.758Z",
       "ignored": false,
       "ignoreReason": ""
@@ -4337,7 +4392,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-06-09T08:47:59.163Z",
       "ignored": false,
       "ignoreReason": ""
@@ -4354,7 +4409,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-06-09T08:46:45.484Z",
       "ignored": false,
       "ignoreReason": ""
@@ -5969,7 +6024,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:47.471Z",
       "ignored": false,
       "ignoreReason": ""
@@ -5986,7 +6041,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:51.634Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6003,7 +6058,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:52.208Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6020,7 +6075,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:56.184Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6037,7 +6092,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:12.944Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6054,7 +6109,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:13.480Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6088,7 +6143,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:14.096Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6105,7 +6160,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:14.504Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6122,7 +6177,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:15.176Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6139,7 +6194,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:17.649Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6156,7 +6211,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:21.496Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6207,7 +6262,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:21.073Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6224,7 +6279,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:20.409Z",
       "ignored": false,
       "ignoreReason": ""
@@ -6241,7 +6296,7 @@
       "processed": true,
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:19.705Z",
       "ignored": false,
       "ignoreReason": ""

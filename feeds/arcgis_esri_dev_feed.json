@@ -1,8 +1,149 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (29-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-28T00:21:14.372Z",
+  "lastUpdated": "2026-07-29T00:19:54.357Z",
   "items": [
+    {
+      "title": "uhsear/hostedreap: Delete hosted feature layer rows that no longer exist in your source, backup first. Dry run by default.",
+      "description": "Delete hosted feature layer rows that no longer exist in your source, backup first. Dry run by default.\nPermite eliminar filas de capas alojadas que ya no existen en la fuente, con opción de respaldo.\nTopics: arcgis, arcgis-online, cli, esri, etl, feature-layer, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/hostedreap",
+      "guid": "https://github.com/uhsear/hostedreap",
+      "author": "uhsear",
+      "date": "2026-07-29T00:09:47.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite eliminar filas de capas alojadas que ya no existen en la fuente, con opción de respaldo."
+    },
+    {
+      "title": "AI Made My ArcGIS App Slower, How I Fixed It ArcGIS Online + Maps SDK Complete Workflow (Part 4)",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=D8myCIms-jc",
+      "guid": "yt:video:D8myCIms-jc",
+      "author": "Rene Rubalcava",
+      "date": "2026-07-28T20:23:44.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "markdav-is/ArcBlazor: Minimal wrapper around the ArcGIS SDK for fast rendering of maps and choosing pins. ",
+      "description": "Minimal wrapper around the ArcGIS SDK for fast rendering of maps and choosing pins. \nProporciona una forma rápida de renderizar mapas y seleccionar pines utilizando el SDK de ArcGIS.\nTopics: — · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/markdav-is/ArcBlazor",
+      "guid": "https://github.com/markdav-is/ArcBlazor",
+      "author": "markdav-is",
+      "date": "2026-07-28T17:09:06.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una forma rápida de renderizar mapas y seleccionar pines utilizando el SDK de ArcGIS."
+    },
+    {
+      "title": "alimoeinkhah/tehran-local-climate-zone-mapping: Mapping Tehran's Local Climate Zones using Landsat 8, ENVI, SAGA GIS, and ArcGIS, with 84.30% overall accuracy and a Kappa coefficient of 0.83.",
+      "description": "Mapping Tehran's Local Climate Zones using Landsat 8, ENVI, SAGA GIS, and ArcGIS, with 84.30% overall accuracy and a Kappa coefficient of 0.83.\nEl repositorio se centra en el mapeo de zonas climáticas locales en Teherán y no proporciona herramientas o librerías para desarrolladores.\nTopics: arcgis, gis, image-processing, landsat-8, local-climate-zones, remote-sensing, saga-gis, spatial-analysis, urban-climate · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/alimoeinkhah/tehran-local-climate-zone-mapping",
+      "guid": "https://github.com/alimoeinkhah/tehran-local-climate-zone-mapping",
+      "author": "alimoeinkhah",
+      "date": "2026-07-28T17:08:45.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto de mapeo específico y no una herramienta reutilizable.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "El repositorio se centra en el mapeo de zonas climáticas locales en Teherán y no proporciona herramientas o librerías para desarrolladores."
+    },
+    {
+      "title": "Heathrow introduces a real-time geospatial platform - ADS Advance",
+      "description": "Heathrow is introducing new <b>Esri</b> mapping technology to modernise workflows for 3000 staff as part of its &#39;digital engineer&#39; strategy.",
+      "link": "https://www.adsadvance.co.uk/heathrow-introduces-a-real-time-geospatial-platform/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16199683462191964911",
+      "author": "",
+      "date": "2026-07-28T17:07:05.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Custom Python Raster Functions in ArcGIS Enterprise on Kubernetes",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/imagery/custom-python-raster-functions-arcgis-enterprise-kubernetes",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978212",
+      "author": "Jeff Swain",
+      "date": "2026-07-28T16:00:20.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ESRI Certification Exam Archives | ITCertArena",
+      "description": "<b>ArcGIS Maps SDK for</b> JavaScript Associate 2024 Certification Exam. $139.00 Original price was: $139.00. $99.00 Current price is: $99.00. Add to cart.",
+      "link": "https://itcertarena.com/product-category/esri-certification-exam/",
+      "guid": "tag:google.com,2013:googlealerts/feed:3891184006470399637",
+      "author": "",
+      "date": "2026-07-28T15:29:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "uhsear/safe-republish: Refuse to truncate a feature class when the staged replacement fails a plausibility check. Dry run by default.",
+      "description": "Refuse to truncate a feature class when the staged replacement fails a plausibility check. Dry run by default.\nProporciona una funcionalidad para evitar la truncación de clases de características en caso de fallos en la verificación de plausibilidad.\nTopics: arcgis, arcpy, data-quality, esri, etl, geodatabase, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/safe-republish",
+      "guid": "https://github.com/uhsear/safe-republish",
+      "author": "uhsear",
+      "date": "2026-07-28T10:28:46.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una funcionalidad para evitar la truncación de clases de características en caso de fallos en la verificación de plausibilidad."
+    },
+    {
+      "title": "兰州建设网站的网站优化seo报价 - 广州市东陈多媒体技术有限公司",
+      "description": "兰州建设网站的网站,优化seo报价,云盘网站建设,web前端导师小何ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 锐化效果核心代码完整代码在线&nbsp;...",
+      "link": "https://www.kuaiandongchen.com/info/17-1940640996/",
+      "guid": "tag:google.com,2013:googlealerts/feed:8274067507320281998",
+      "author": "",
+      "date": "2026-07-28T04:10:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "uhsear/arcade-rule-deploy: Deploy Arcade calculation attribute rules to a geodatabase, preflight-checked and idempotent. Resolves every FeatureSetByName reference before writing.",
       "description": "Deploy Arcade calculation attribute rules to a geodatabase, preflight-checked and idempotent. Resolves every FeatureSetByName reference before writing.\nPermite a los desarrolladores implementar reglas de atributos de Arcade de manera eficiente.\nTopics: arcade, arcgis, arcpy, attribute-rules, esri, geodatabase, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
@@ -114,6 +255,19 @@
       ],
       "repoCategory": "devtool",
       "discoverySummary": "Permite reportar valores nulos y en blanco en capas y tablas, mejorando la calidad de los datos en proyectos de ArcGIS."
+    },
+    {
+      "title": "ar/<b>arcgis</b>-pro-<b>sdk</b>-community-samples - Map-Exploration - GitCode",
+      "description": "<b>ArcGIS</b> Pro <b>SDK</b> for Microsoft .NET Framework Community Samples.",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/tree/master/Map-Exploration/MapToolWithCustomPopup/screenshots",
+      "guid": "tag:google.com,2013:googlealerts/feed:1821050170570602792",
+      "author": "",
+      "date": "2026-07-27T16:07:31.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "ArcGIS Enterprise: Printing Reports and Maps from ArcGIS Web Applications | #EsriDevTech2026",
@@ -6250,7 +6404,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-06-09T08:48:01.758Z"
     },
     {
@@ -6267,7 +6421,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-06-09T08:47:59.163Z"
     },
     {
@@ -6284,7 +6438,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-06-09T08:46:45.484Z"
     },
     {
@@ -7933,7 +8087,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:47.471Z"
     },
     {
@@ -7950,7 +8104,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:51.634Z"
     },
     {
@@ -7967,7 +8121,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:52.208Z"
     },
     {
@@ -7984,7 +8138,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:35:56.184Z"
     },
     {
@@ -8001,7 +8155,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:12.944Z"
     },
     {
@@ -8018,7 +8172,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:13.480Z"
     },
     {
@@ -8052,7 +8206,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:14.096Z"
     },
     {
@@ -8069,7 +8223,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:14.504Z"
     },
     {
@@ -8086,7 +8240,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:15.176Z"
     },
     {
@@ -8103,7 +8257,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:17.649Z"
     },
     {
@@ -8120,7 +8274,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:21.496Z"
     },
     {
@@ -8171,7 +8325,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:21.073Z"
     },
     {
@@ -8188,7 +8342,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:20.409Z"
     },
     {
@@ -8205,7 +8359,7 @@
       "ignoreReason": "",
       "manualStatus": "accepted",
       "manualReason": "manual_accept",
-      "manualNotes": "",
+      "manualNotes": "Re-keyed from link-based decision.",
       "reviewedAt": "2026-05-15T16:36:19.705Z"
     },
     {

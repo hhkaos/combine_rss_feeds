@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-28T00:20:10.652Z",
+  "lastRun": "2026-07-29T00:18:58.551Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -826,6 +826,42 @@
       "createdAt": "2022-01-14T18:55:34Z",
       "axis": "pushed",
       "stars": 91,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/hostedreap": {
+      "htmlUrl": "https://github.com/uhsear/hostedreap",
+      "firstSeen": "2026-07-29T00:18:53.462Z",
+      "createdAt": "2026-07-29T00:09:47Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "alimoeinkhah/tehran-local-climate-zone-mapping": {
+      "htmlUrl": "https://github.com/alimoeinkhah/tehran-local-climate-zone-mapping",
+      "firstSeen": "2026-07-29T00:18:55.558Z",
+      "createdAt": "2026-07-28T17:08:45Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "uhsear/safe-republish": {
+      "htmlUrl": "https://github.com/uhsear/safe-republish",
+      "firstSeen": "2026-07-29T00:18:56.834Z",
+      "createdAt": "2026-07-28T10:28:46Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "markdav-is/ArcBlazor": {
+      "htmlUrl": "https://github.com/markdav-is/ArcBlazor",
+      "firstSeen": "2026-07-29T00:18:58.551Z",
+      "createdAt": "2026-07-28T17:09:06Z",
+      "axis": "created",
+      "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": true
     }
