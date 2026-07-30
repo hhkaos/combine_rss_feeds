@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (29-07-2026)",
+  "title": "Combined ArcGIS Feeds (30-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-29T00:19:30.357Z",
+  "lastUpdated": "2026-07-30T00:20:52.033Z",
   "items": [
+    {
+      "title": "Building Security into Your ArcGIS System",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=DsEODkF8wCs",
+      "guid": "yt:video:DsEODkF8wCs",
+      "author": "Esri Developers",
+      "date": "2026-07-29T14:39:13.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        JS インストール ガイド修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS インストール ガイド修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/45a434974a0f353bca5afd26d366f220fc72cde7",
+      "guid": "tag:github.com,2008:Grit::Commit/45a434974a0f353bca5afd26d366f220fc72cde7",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-29T04:50:37.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        JS インストール ガイド修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS インストール ガイド修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/89a0631cd90932bad5ccd442418b639cf18be5de",
+      "guid": "tag:github.com,2008:Grit::Commit/89a0631cd90932bad5ccd442418b639cf18be5de",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-29T02:46:51.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        JS インストール ガイド更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS インストール ガイド更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/73cc0e9e3693af78f81d734f5cf95341c7dc52a1",
+      "guid": "tag:github.com,2008:Grit::Commit/73cc0e9e3693af78f81d734f5cf95341c7dc52a1",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-29T02:44:37.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "AI Made My ArcGIS App Slower, How I Fixed It ArcGIS Online + Maps SDK Complete Workflow (Part 4)",
       "description": "",
@@ -12,6 +56,17 @@
       "date": "2026-07-28T20:23:44.000Z",
       "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7tc3KZgH4GMUcqcSFBLOQ",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "GIS Programmer for Bahrain at VAM Systems | Sorce Jobs",
+      "description": "•<b>Esri JavaScript API</b> for <b>Esri ArcGIS</b> Server 10x; •<b>Esri</b> Portal for <b>ArcGIS</b> ... Knowledge of iOS &amp; Android <b>SDK</b> Preferred; •Experience in User&nbsp;...",
+      "link": "https://www.sorce.jobs/jobs/gis-programmer-for-bahrain-vam-systems-j1_OuSQ_89USNGDMEiYmX4L239SvhF5tZ2rz4sbkUpLj_T7TV_w",
+      "guid": "tag:google.com,2013:googlealerts/feed:6253883794515137996",
+      "author": "",
+      "date": "2026-07-28T17:57:15.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
@@ -26,6 +81,17 @@
       "processed": false
     },
     {
+      "title": "Custom Python Raster Functions in ArcGIS Enterprise on Kubernetes",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/imagery/custom-python-raster-functions-arcgis-enterprise-kubernetes",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978212",
+      "author": "Jeff Swain",
+      "date": "2026-07-28T16:00:20.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
       "title": "ESRI Certification Exam Archives | ITCertArena",
       "description": "<b>ArcGIS Maps SDK for</b> JavaScript Associate 2024 Certification Exam. $139.00 Original price was: $139.00. $99.00 Current price is: $99.00. Add to cart.",
       "link": "https://itcertarena.com/product-category/esri-certification-exam/",
@@ -34,6 +100,28 @@
       "date": "2026-07-28T15:29:52.000Z",
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
       "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Field Maps: Take Tasks Further with Time Stamps and Activity Logging",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/field-maps/field-mobility/arcgis-field-maps-take-tasks-further-with-time-stamps-and-activity-logging",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978139",
+      "author": "Avery Campbell",
+      "date": "2026-07-28T13:00:19.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Action Required: ArcGIS Online and Location Platform SAML Customers",
+      "description": "Customers that have configured the SAML options &quot;Enabled Signed Requests&quot; or &quot;Encrypt Assertion&quot; must update their ArcGIS Online metadata file.",
+      "link": "https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/action-required-arcgis-online-saml-customers",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2056322",
+      "author": "Gregory Ponto",
+      "date": "2026-07-28T07:00:11.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/developers/feed",
+      "sourceRelevanceMode": "trusted",
       "processed": false
     },
     {

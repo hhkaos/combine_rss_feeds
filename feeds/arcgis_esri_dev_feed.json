@@ -1,8 +1,117 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-07-2026)",
+  "title": "ArcGIS ESRI Dev Feed (30-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-29T00:19:54.357Z",
+  "lastUpdated": "2026-07-30T00:21:15.859Z",
   "items": [
+    {
+      "title": "Esri/arcgis-maps-sdk-swift-toolkit: Mapping components that will simplify your Swift app development with the ArcGIS Maps SDK for Swift.",
+      "description": "Mapping components that will simplify your Swift app development with the ArcGIS Maps SDK for Swift.\nProporciona componentes de mapeo para facilitar el desarrollo de aplicaciones en Swift con ArcGIS.\nTopics: arcgis, arcgis-maps-sdk, arcgis-maps-sdk-swift, runtime, swift, swiftui, toolkit · ⭐ 42 · Swift\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit",
+      "guid": "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit",
+      "author": "Esri",
+      "date": "2026-07-29T23:45:47.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona componentes de mapeo para facilitar el desarrollo de aplicaciones en Swift con ArcGIS."
+    },
+    {
+      "title": "nicogis/WebGL: WebGL - ArcGIS API Javascript",
+      "description": "WebGL - ArcGIS API Javascript\nProporciona herramientas para trabajar con el API de ArcGIS en JavaScript y modelos 3D.\nTopics: arcgis-js-api, collada-model, sweeper, webgl · ⭐ 25 · JavaScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/nicogis/WebGL",
+      "guid": "https://github.com/nicogis/WebGL",
+      "author": "nicogis",
+      "date": "2026-07-29T18:13:29.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas para trabajar con el API de ArcGIS en JavaScript y modelos 3D."
+    },
+    {
+      "title": "Building Security into Your ArcGIS System",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=DsEODkF8wCs",
+      "guid": "yt:video:DsEODkF8wCs",
+      "author": "Esri Developers",
+      "date": "2026-07-29T14:39:13.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        JS インストール ガイド修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS インストール ガイド修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/45a434974a0f353bca5afd26d366f220fc72cde7",
+      "guid": "tag:github.com,2008:Grit::Commit/45a434974a0f353bca5afd26d366f220fc72cde7",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-29T04:50:37.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        JS インストール ガイド修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS インストール ガイド修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/89a0631cd90932bad5ccd442418b639cf18be5de",
+      "guid": "tag:github.com,2008:Grit::Commit/89a0631cd90932bad5ccd442418b639cf18be5de",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-29T02:46:51.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        JS インストール ガイド更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS インストール ガイド更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/73cc0e9e3693af78f81d734f5cf95341c7dc52a1",
+      "guid": "tag:github.com,2008:Grit::Commit/73cc0e9e3693af78f81d734f5cf95341c7dc52a1",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-29T02:44:37.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "uhsear/fcload: Load a dataset into a geodatabase, refusing the imports that corrupt silently. Dry run by default.",
+      "description": "Load a dataset into a geodatabase, refusing the imports that corrupt silently. Dry run by default.\nfcload permite cargar datasets en una geodatabase, asegurando que no se realicen importaciones corruptas.\nTopics: arcgis, arcpy, data-quality, esri, etl, geodatabase, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/uhsear/fcload",
+      "guid": "https://github.com/uhsear/fcload",
+      "author": "uhsear",
+      "date": "2026-07-29T02:04:54.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "fcload permite cargar datasets en una geodatabase, asegurando que no se realicen importaciones corruptas."
+    },
     {
       "title": "uhsear/hostedreap: Delete hosted feature layer rows that no longer exist in your source, backup first. Dry run by default.",
       "description": "Delete hosted feature layer rows that no longer exist in your source, backup first. Dry run by default.\nPermite eliminar filas de capas alojadas que ya no existen en la fuente, con opción de respaldo.\nTopics: arcgis, arcgis-online, cli, esri, etl, feature-layer, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
@@ -34,6 +143,19 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
+    },
+    {
+      "title": "GIS Programmer for Bahrain at VAM Systems | Sorce Jobs",
+      "description": "•<b>Esri JavaScript API</b> for <b>Esri ArcGIS</b> Server 10x; •<b>Esri</b> Portal for <b>ArcGIS</b> ... Knowledge of iOS &amp; Android <b>SDK</b> Preferred; •Experience in User&nbsp;...",
+      "link": "https://www.sorce.jobs/jobs/gis-programmer-for-bahrain-vam-systems-j1_OuSQ_89USNGDMEiYmX4L239SvhF5tZ2rz4sbkUpLj_T7TV_w",
+      "guid": "tag:google.com,2013:googlealerts/feed:6253883794515137996",
+      "author": "",
+      "date": "2026-07-28T17:57:15.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "job_offer"
     },
     {
       "title": "markdav-is/ArcBlazor: Minimal wrapper around the ArcGIS SDK for fast rendering of maps and choosing pins. ",
@@ -113,6 +235,19 @@
       "ignoreReason": ""
     },
     {
+      "title": "ArcGIS Field Maps: Take Tasks Further with Time Stamps and Activity Logging",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/field-maps/field-mobility/arcgis-field-maps-take-tasks-further-with-time-stamps-and-activity-logging",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978139",
+      "author": "Avery Campbell",
+      "date": "2026-07-28T13:00:19.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/arcade/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
       "title": "uhsear/safe-republish: Refuse to truncate a feature class when the staged replacement fails a plausibility check. Dry run by default.",
       "description": "Refuse to truncate a feature class when the staged replacement fails a plausibility check. Dry run by default.\nProporciona una funcionalidad para evitar la truncación de clases de características en caso de fallos en la verificación de plausibilidad.\nTopics: arcgis, arcpy, data-quality, esri, etl, geodatabase, gis, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
       "link": "https://github.com/uhsear/safe-republish",
@@ -130,6 +265,19 @@
       ],
       "repoCategory": "devtool",
       "discoverySummary": "Proporciona una funcionalidad para evitar la truncación de clases de características en caso de fallos en la verificación de plausibilidad."
+    },
+    {
+      "title": "Action Required: ArcGIS Online and Location Platform SAML Customers",
+      "description": "Customers that have configured the SAML options &quot;Enabled Signed Requests&quot; or &quot;Encrypt Assertion&quot; must update their ArcGIS Online metadata file.",
+      "link": "https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/action-required-arcgis-online-saml-customers",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2056322",
+      "author": "Gregory Ponto",
+      "date": "2026-07-28T07:00:11.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/category/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "兰州建设网站的网站优化seo报价 - 广州市东陈多媒体技术有限公司",

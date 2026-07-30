@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-29T00:18:58.551Z",
+  "lastRun": "2026-07-30T00:20:10.984Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -862,6 +862,33 @@
       "createdAt": "2026-07-28T17:09:06Z",
       "axis": "created",
       "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "uhsear/fcload": {
+      "htmlUrl": "https://github.com/uhsear/fcload",
+      "firstSeen": "2026-07-30T00:20:07.939Z",
+      "createdAt": "2026-07-29T02:04:54Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-swift-toolkit": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit",
+      "firstSeen": "2026-07-30T00:20:09.668Z",
+      "createdAt": "2021-05-07T18:49:23Z",
+      "axis": "pushed",
+      "stars": 42,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "nicogis/WebGL": {
+      "htmlUrl": "https://github.com/nicogis/WebGL",
+      "firstSeen": "2026-07-30T00:20:10.984Z",
+      "createdAt": "2017-08-01T16:13:56Z",
+      "axis": "pushed",
+      "stars": 25,
       "classifiedCategory": "devtool",
       "relevant": true
     }
