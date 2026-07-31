@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-30T00:20:10.984Z",
+  "lastRun": "2026-07-31T00:21:47.903Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -891,6 +891,24 @@
       "stars": 25,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "blaqGeorge/SimpleEsriMap": {
+      "htmlUrl": "https://github.com/blaqGeorge/SimpleEsriMap",
+      "firstSeen": "2026-07-31T00:21:46.342Z",
+      "createdAt": "2026-07-30T06:08:02Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "AbelBehonegn/geoquery-ai": {
+      "htmlUrl": "https://github.com/AbelBehonegn/geoquery-ai",
+      "firstSeen": "2026-07-31T00:21:47.903Z",
+      "createdAt": "2026-07-30T02:53:25Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }

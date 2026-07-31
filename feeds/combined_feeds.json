@@ -1,8 +1,85 @@
 {
-  "title": "Combined ArcGIS Feeds (30-07-2026)",
+  "title": "Combined ArcGIS Feeds (31-07-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-30T00:20:52.033Z",
+  "lastUpdated": "2026-07-31T00:22:37.140Z",
   "items": [
+    {
+      "title": "For Location Services, Pick a PaaS That Supports Open Development. Here’s Why.",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/platform/developers/for-location-services-pick-a-paas-that-supports-open-development-heres-why",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2977733",
+      "author": "Alison Walker",
+      "date": "2026-07-30T17:12:32.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge pull request #426 from PaulGibbs3rd/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #426 from PaulGibbs3rd/master\n\nAdded Raspberry Pi JSAPI Diagnostic tool</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/0f18e85d067cba948cd0bf4e042ed348de665382",
+      "guid": "tag:github.com,2008:Grit::Commit/0f18e85d067cba948cd0bf4e042ed348de665382",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-30T16:11:57.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Add readme for jsDiagnosticPiApp\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add readme for jsDiagnosticPiApp\n\nAdded a readme file for the jsDiagnosticPiApp, detailing its purpose, usage, metrics captured, and notes on its functionality.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/a1e854ebe964fa41bb7fd4d9e21c10098f1a8b4c",
+      "guid": "tag:github.com,2008:Grit::Commit/a1e854ebe964fa41bb7fd4d9e21c10098f1a8b4c",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-30T16:09:19.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Add Raspberry Pi Diagnostic HTML file\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add Raspberry Pi Diagnostic HTML file</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/f0f9e71ddbd268f425dca33b019800406f8ad1fb",
+      "guid": "tag:github.com,2008:Grit::Commit/f0f9e71ddbd268f425dca33b019800406f8ad1fb",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-30T16:08:08.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 天际线SkylineEffect 效果原创",
+      "description": "文章浏览阅读595次。ArcGIS JSAPI 高级教程- <b>ArcGIS Maps SDK for</b> JavaScript - 天际线SkylineEffect 效果。",
+      "link": "https://blog.csdn.net/linzi19900517/article/details/163165008",
+      "guid": "tag:google.com,2013:googlealerts/feed:802769491155250417",
+      "author": "",
+      "date": "2026-07-30T13:08:15.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        ExB Dev デプロイ関連更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ExB Dev デプロイ関連更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/cb2e78559a7005372682e74671704f71ddb20b40",
+      "guid": "tag:github.com,2008:Grit::Commit/cb2e78559a7005372682e74671704f71ddb20b40",
+      "author": "EJ-T-Murata",
+      "date": "2026-07-30T04:35:00.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS Maps SDK for</b> JavaScript Vite React TSX template",
+      "description": "Powered by Esri.",
+      "link": "https://arozniak.github.io/malbork-castle-explorer/",
+      "guid": "tag:google.com,2013:googlealerts/feed:10974046947047452704",
+      "author": "",
+      "date": "2026-07-30T03:55:36.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Building Security into Your ArcGIS System",
       "description": "",
