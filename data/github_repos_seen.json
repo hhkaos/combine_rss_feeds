@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-31T00:21:47.903Z",
+  "lastRun": "2026-08-01T00:20:20.981Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -909,6 +909,24 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "tyxo0o315/beijing-taxi-gps-detour-analysis": {
+      "htmlUrl": "https://github.com/tyxo0o315/beijing-taxi-gps-detour-analysis",
+      "firstSeen": "2026-08-01T00:20:19.740Z",
+      "createdAt": "2026-07-31T01:44:09Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "Esri/cad-bim-scripts": {
+      "htmlUrl": "https://github.com/Esri/cad-bim-scripts",
+      "firstSeen": "2026-08-01T00:20:20.981Z",
+      "createdAt": "2025-03-14T20:31:59Z",
+      "axis": "pushed",
+      "stars": 7,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

@@ -1,8 +1,85 @@
 {
-  "title": "Combined ArcGIS Feeds (31-07-2026)",
+  "title": "Combined ArcGIS Feeds (01-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-07-31T00:22:37.140Z",
+  "lastUpdated": "2026-08-01T00:21:02.693Z",
   "items": [
+    {
+      "title": "Episode 76 - Don’t Write Metadata",
+      "description": "Sorry for the clickbait title, but it turns out that Metadata might not matter as much as we think, or at least for the reasons we tought!",
+      "link": "https://christophermoravec.com/episode-76-dont-write-metadata/",
+      "guid": "6a6ccd72d29ea30001d86242",
+      "author": "Christopher Moravec",
+      "date": "2026-07-31T23:12:24.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
+      "description": "Change detected on monitored page.",
+      "link": "https://developers.arcgis.com/rest/routing/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/62",
+      "author": "",
+      "date": "2026-07-31T22:02:31.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Merge pull request #427 from PaulGibbs3rd/master\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #427 from PaulGibbs3rd/master\n\nAdding sh files to switch between gpu and cpu with rpi</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/4ccc1d2696fe324b60e0b27f50d40886c4cda5a9",
+      "guid": "tag:github.com,2008:Grit::Commit/4ccc1d2696fe324b60e0b27f50d40886c4cda5a9",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-31T16:27:06.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Enhance readme with renderer mode switching instructions\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Enhance readme with renderer mode switching instructions\n\nAdded instructions for switching between CPU and GPU rendering modes using scripts.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/39e8b6b5bc35c9b0ae7ba02a08892b458e95c227",
+      "guid": "tag:github.com,2008:Grit::Commit/39e8b6b5bc35c9b0ae7ba02a08892b458e95c227",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-31T16:25:51.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Add script to switch Chromium to GPU rendering\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add script to switch Chromium to GPU rendering\n\nThis script disables the default SwiftShader override in Chromium to enable GPU rendering. It backs up the original Chromium binary and modifies the configuration to use hardware OpenGL rendering.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/87e37e1d68a58c77d0236815932b1a53556583ea",
+      "guid": "tag:github.com,2008:Grit::Commit/87e37e1d68a58c77d0236815932b1a53556583ea",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-31T16:25:30.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Add script to switch Chromium to CPU rendering\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Add script to switch Chromium to CPU rendering\n\nThis script switches Chromium to SwiftShader (CPU) rendering on Debian/Raspberry Pi OS. It restores from a backup if available or modifies the configuration directly.</pre>\n    ",
+      "link": "https://github.com/Esri/developer-support/commit/735bd056facec0465afc658e88faecc461ccb926",
+      "guid": "tag:github.com,2008:Grit::Commit/735bd056facec0465afc658e88faecc461ccb926",
+      "author": "PaulGibbs3rd",
+      "date": "2026-07-31T16:25:04.000Z",
+      "sourceFeedUrl": "https://github.com/esri/developer-support/commits/master.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Grocery TV gains 3,500 audience attributes via <b>Esri</b> data deal - PPC Land",
+      "description": "... <b>Esri</b> attempts to close that gap by importing more than 3,500 ... No replacement <b>API</b> exists for the blocked commerce endpoints. Poll ads&nbsp;...",
+      "link": "https://ppc.land/grocery-tv-gains-3-500-audience-attributes-via-esri-data-deal/",
+      "guid": "tag:google.com,2013:googlealerts/feed:13846541363471176946",
+      "author": "",
+      "date": "2026-07-31T02:30:04.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "For Location Services, Pick a PaaS That Supports Open Development. Here’s Why.",
       "description": "",
