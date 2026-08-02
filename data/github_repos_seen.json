@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-01T00:20:20.981Z",
+  "lastRun": "2026-08-02T00:21:38.649Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -926,6 +926,24 @@
       "axis": "pushed",
       "stars": 7,
       "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "UshioJuzo/ev-charging-panama": {
+      "htmlUrl": "https://github.com/UshioJuzo/ev-charging-panama",
+      "firstSeen": "2026-08-02T00:21:37.457Z",
+      "createdAt": "2026-08-01T06:44:44Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "sappiah3/arcgis-utility-network-explorer": {
+      "htmlUrl": "https://github.com/sappiah3/arcgis-utility-network-explorer",
+      "firstSeen": "2026-08-02T00:21:38.649Z",
+      "createdAt": "2026-08-01T06:03:08Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
       "relevant": true
     }
   }

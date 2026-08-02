@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (01-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (02-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-01T00:21:26.695Z",
+  "lastUpdated": "2026-08-02T00:25:08.851Z",
   "items": [
+    {
+      "title": "UshioJuzo/ev-charging-panama: Geospatial analysis of Panama's EV charging network across all 699 districts. 143 districts with 1.7M people can afford an EV and have nowhere to charge it.",
+      "description": "Geospatial analysis of Panama's EV charging network across all 699 districts. 143 districts with 1.7M people can afford an EV and have nowhere to charge it.\nEste repositorio se centra en el análisis de la red de carga de vehículos eléctricos en Panamá, pero no ofrece herramientas o librerías para otros desarrolladores.\nTopics: arcgis, data-engineering, electric-vehicles, geospatial, gis, medallion-architecture, panama, python, quarto, spatial-analysis · ⭐ 0 · SCSS\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/UshioJuzo/ev-charging-panama",
+      "guid": "https://github.com/UshioJuzo/ev-charging-panama",
+      "author": "UshioJuzo",
+      "date": "2026-08-01T06:44:44.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto de análisis geoespacial sin herramientas reutilizables para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Este repositorio se centra en el análisis de la red de carga de vehículos eléctricos en Panamá, pero no ofrece herramientas o librerías para otros desarrolladores."
+    },
+    {
+      "title": "sappiah3/arcgis-utility-network-explorer: Interactive electric utility network explorer built with ArcGIS Maps SDK for JavaScript 4.29 — network tracing, subnetwork visualization, and FeatureEffect",
+      "description": "Interactive electric utility network explorer built with ArcGIS Maps SDK for JavaScript 4.29 — network tracing, subnetwork visualization, and FeatureEffect\nEs un explorador de redes de servicios públicos eléctricas construido con ArcGIS Maps SDK para JavaScript.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/sappiah3/arcgis-utility-network-explorer",
+      "guid": "https://github.com/sappiah3/arcgis-utility-network-explorer",
+      "author": "sappiah3",
+      "date": "2026-08-01T06:03:08.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un explorador de redes de servicios públicos eléctricas construido con ArcGIS Maps SDK para JavaScript."
+    },
     {
       "title": "Episode 76 - Don’t Write Metadata",
       "description": "Sorry for the clickbait title, but it turns out that Metadata might not matter as much as we think, or at least for the reasons we tought!",
@@ -15,6 +53,19 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
+    },
+    {
+      "title": "Keynote Remarks by Mary C. Daly at the <b>ESRI</b> International Conference in Tokyo",
+      "description": "... (<b>ESRI</b>) International Conference ... Try watching this video on www.youtube.com, or enable <b>JavaScript</b> if it is disabled in your browser.",
+      "link": "https://www.frbsf.org/news-and-media/events/2026/07/mary-c-daly-esri-international-conference/",
+      "guid": "tag:google.com,2013:googlealerts/feed:17790979495407397451",
+      "author": "",
+      "date": "2026-07-31T22:04:46.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "wrong_esri"
     },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
