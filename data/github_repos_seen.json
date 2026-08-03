@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-02T00:21:38.649Z",
+  "lastRun": "2026-08-03T00:21:37.121Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -945,6 +945,15 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": true
+    },
+    "benhassaneamine/geobim-tamansourt": {
+      "htmlUrl": "https://github.com/benhassaneamine/geobim-tamansourt",
+      "firstSeen": "2026-08-03T00:21:37.121Z",
+      "createdAt": "2026-08-02T13:21:39Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }

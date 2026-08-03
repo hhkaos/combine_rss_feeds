@@ -1,8 +1,53 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (03-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-02T00:25:08.851Z",
+  "lastUpdated": "2026-08-03T00:22:43.603Z",
   "items": [
+    {
+      "title": "benhassaneamine/geobim-tamansourt: GeoBIM integration for Smart City: GIS territorial data meets LOD 500 as-built BIM in one georeferenced 3D scene. EPSG:26191, IFC4X3, Tamansourt Morocco.",
+      "description": "GeoBIM integration for Smart City: GIS territorial data meets LOD 500 as-built BIM in one georeferenced 3D scene. EPSG:26191, IFC4X3, Tamansourt Morocco.\nEl repositorio presenta una integración de datos GIS y BIM en un contexto específico de una ciudad inteligente, pero no es una herramienta o librería para desarrolladores.\nTopics: 3d-visualization, arcgis, bim, cityjson, civil-engineering, digital-twin, geobim, geomatics, georeferencing, gis, ifc, lod500, morocco, openbim, point-cloud, qgis, revit, scan-to-bim, smart-city, surveying · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/benhassaneamine/geobim-tamansourt",
+      "guid": "https://github.com/benhassaneamine/geobim-tamansourt",
+      "author": "benhassaneamine",
+      "date": "2026-08-02T13:21:39.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto específico de integración GeoBIM que no proporciona herramientas reutilizables para otros desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "El repositorio presenta una integración de datos GIS y BIM en un contexto específico de una ciudad inteligente, pero no es una herramienta o librería para desarrolladores."
+    },
+    {
+      "title": "Real-Time Viewshed Analysis on Device",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=9UrZD2v-Uhc",
+      "guid": "yt:video:9UrZD2v-Uhc",
+      "author": "Esri Developers",
+      "date": "2026-08-02T13:04:44.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>Arcgis</b> - UDesign — Systems and Teams",
+      "description": "Lessons in <b>ArcGIS</b> pro <b>SDK</b> development. A few years ago <b>ESRI</b> pushed a new ... Jasmine — clicking on an <b>arcgis</b> map with <b>javascript</b> &middot; Dan&nbsp;...",
+      "link": "https://www.dankuida.com/all?topic=arcgis",
+      "guid": "tag:google.com,2013:googlealerts/feed:11951118149217076094",
+      "author": "",
+      "date": "2026-08-01T21:43:55.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "UshioJuzo/ev-charging-panama: Geospatial analysis of Panama's EV charging network across all 699 districts. 143 districts with 1.7M people can afford an EV and have nowhere to charge it.",
       "description": "Geospatial analysis of Panama's EV charging network across all 699 districts. 143 districts with 1.7M people can afford an EV and have nowhere to charge it.\nEste repositorio se centra en el análisis de la red de carga de vehículos eléctricos en Panamá, pero no ofrece herramientas o librerías para otros desarrolladores.\nTopics: arcgis, data-engineering, electric-vehicles, geospatial, gis, medallion-architecture, panama, python, quarto, spatial-analysis · ⭐ 0 · SCSS\nGitHub repo descubierto (created · consumer)",

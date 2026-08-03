@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (02-08-2026)",
+  "title": "Combined ArcGIS Feeds (03-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-02T00:23:30.910Z",
+  "lastUpdated": "2026-08-03T00:22:20.091Z",
   "items": [
+    {
+      "title": "Real-Time Viewshed Analysis on Device",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=9UrZD2v-Uhc",
+      "guid": "yt:video:9UrZD2v-Uhc",
+      "author": "Esri Developers",
+      "date": "2026-08-02T13:04:44.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>Arcgis</b> - UDesign — Systems and Teams",
+      "description": "Lessons in <b>ArcGIS</b> pro <b>SDK</b> development. A few years ago <b>ESRI</b> pushed a new ... Jasmine — clicking on an <b>arcgis</b> map with <b>javascript</b> &middot; Dan&nbsp;...",
+      "link": "https://www.dankuida.com/all?topic=arcgis",
+      "guid": "tag:google.com,2013:googlealerts/feed:11951118149217076094",
+      "author": "",
+      "date": "2026-08-01T21:43:55.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 76 - Don’t Write Metadata",
       "description": "Sorry for the clickbait title, but it turns out that Metadata might not matter as much as we think, or at least for the reasons we tought!",
