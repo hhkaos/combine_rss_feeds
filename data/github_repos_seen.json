@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-03T00:21:37.121Z",
+  "lastRun": "2026-08-04T00:21:37.516Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -950,6 +950,24 @@
       "htmlUrl": "https://github.com/benhassaneamine/geobim-tamansourt",
       "firstSeen": "2026-08-03T00:21:37.121Z",
       "createdAt": "2026-08-02T13:21:39Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "claudecommunity-nz/wcc-emergency-gis-data": {
+      "htmlUrl": "https://github.com/claudecommunity-nz/wcc-emergency-gis-data",
+      "firstSeen": "2026-08-04T00:21:36.138Z",
+      "createdAt": "2026-08-03T10:23:42Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "devadharsh16/Spatial-Analytics-ArcGIS-Pro": {
+      "htmlUrl": "https://github.com/devadharsh16/Spatial-Analytics-ArcGIS-Pro",
+      "firstSeen": "2026-08-04T00:21:37.516Z",
+      "createdAt": "2026-08-03T07:17:44Z",
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "consumer",

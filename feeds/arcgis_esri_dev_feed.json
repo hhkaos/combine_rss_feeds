@@ -1,8 +1,111 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (04-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-03T00:22:43.603Z",
+  "lastUpdated": "2026-08-04T00:22:53.154Z",
   "items": [
+    {
+      "title": "Visualize AEC Projects in 3D",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=A5K5RoY78IE",
+      "guid": "yt:video:A5K5RoY78IE",
+      "author": "Esri Developers",
+      "date": "2026-08-03T20:32:07.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Bharat Electronics Limited and <b>Esri</b> India Join Hands to Strengthen India&#39;s Defence Capabilities",
+      "description": "<b>Esri</b> India will also extend training support to BEL to help them build in-house capability in GIS and GeoAI on its &#39;Indo <b>ArcGIS</b>&#39; platform. Agendra&nbsp;...",
+      "link": "https://cxotoday.com/media-coverage/bharat-electronics-limited-and-esri-india-join-hands-to-strengthen-indias-defence-capabilities/",
+      "guid": "tag:google.com,2013:googlealerts/feed:284516399504541410",
+      "author": "",
+      "date": "2026-08-03T18:31:33.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Developer’s Lounge: Demystifying the Esri Developer Experience",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/mapping/developers-lounge-demystifying-the-esri-developer-experience",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978156",
+      "author": "Elizabeth Ole",
+      "date": "2026-08-03T18:08:05.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "BEL Signs MoU with <b>Esri</b> India to Boost Defence GIS and GeoAI Capabilities Under Make in ...",
+      "description": "... <b>Esri</b> India&#39;s &#39;Indo <b>ArcGIS</b>&#39; platform and is expected to strengthen BEL&#39;s capability to develop, deploy and manage advanced geospatial solutions for&nbsp;...",
+      "link": "https://indianmasterminds.com/news/bel-esri-india-mou-defence-gis-geoai-make-in-india-221290/",
+      "guid": "tag:google.com,2013:googlealerts/feed:14451682314690943734",
+      "author": "",
+      "date": "2026-08-03T17:34:02.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Bharat Electronics Limited, <b>Esri</b> India sign MoU to develop GIS, GeoAI solutions for India&#39;s ...",
+      "description": "... <b>ArcGIS</b>&#39; platform. Commenting on the partnership, Agendra Kumar, Managing Director, <b>Esri</b> India, said, &quot;Geospatial intelligence has evolved from&nbsp;...",
+      "link": "https://m.economictimes.com/news/defence/bharat-electronics-and-esri-india-join-forces-to-revolutionize-indias-defence-with-gis-and-geoai-solutions/articleshow/132836815.cms",
+      "guid": "tag:google.com,2013:googlealerts/feed:9795775371438460577",
+      "author": "",
+      "date": "2026-08-03T16:38:22.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "claudecommunity-nz/wcc-emergency-gis-data: Public GIS datasets from Wellington City Council Emergency Management — catalogued, checked, and queryable. Built for the Impact Lab hackathon.",
+      "description": "Public GIS datasets from Wellington City Council Emergency Management — catalogued, checked, and queryable. Built for the Impact Lab hackathon.\nEste repositorio contiene datos GIS de emergencia, pero no es útil para desarrolladores de ArcGIS/Esri.\nTopics: arcgis, emergency-management, gis, hackathon, new-zealand, open-data, wellington · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/claudecommunity-nz/wcc-emergency-gis-data",
+      "guid": "https://github.com/claudecommunity-nz/wcc-emergency-gis-data",
+      "author": "claudecommunity-nz",
+      "date": "2026-08-03T10:23:42.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un conjunto de datos GIS públicos y no una herramienta o librería para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Este repositorio contiene datos GIS de emergencia, pero no es útil para desarrolladores de ArcGIS/Esri."
+    },
+    {
+      "title": "devadharsh16/Spatial-Analytics-ArcGIS-Pro: Spatial analytics and thematic mapping using ArcGIS Pro ",
+      "description": "Spatial analytics and thematic mapping using ArcGIS Pro \nEl repositorio se centra en el análisis espacial y la visualización de datos en ArcGIS Pro, pero no ofrece librerías o herramientas para ser reutilizadas.\nTopics: arcgis-pro, data, data-visualization, gis, srilanka · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/devadharsh16/Spatial-Analytics-ArcGIS-Pro",
+      "guid": "https://github.com/devadharsh16/Spatial-Analytics-ArcGIS-Pro",
+      "author": "devadharsh16",
+      "date": "2026-08-03T07:17:44.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto de análisis espacial y mapeo temático, pero no es una herramienta reutilizable para otros desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "El repositorio se centra en el análisis espacial y la visualización de datos en ArcGIS Pro, pero no ofrece librerías o herramientas para ser reutilizadas."
+    },
     {
       "title": "benhassaneamine/geobim-tamansourt: GeoBIM integration for Smart City: GIS territorial data meets LOD 500 as-built BIM in one georeferenced 3D scene. EPSG:26191, IFC4X3, Tamansourt Morocco.",
       "description": "GeoBIM integration for Smart City: GIS territorial data meets LOD 500 as-built BIM in one georeferenced 3D scene. EPSG:26191, IFC4X3, Tamansourt Morocco.\nEl repositorio presenta una integración de datos GIS y BIM en un contexto específico de una ciudad inteligente, pero no es una herramienta o librería para desarrolladores.\nTopics: 3d-visualization, arcgis, bim, cityjson, civil-engineering, digital-twin, geobim, geomatics, georeferencing, gis, ifc, lod500, morocco, openbim, point-cloud, qgis, revit, scan-to-bim, smart-city, surveying · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
