@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-04T00:21:37.516Z",
+  "lastRun": "2026-08-05T00:21:43.623Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -972,6 +972,33 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "RyHensel/dead-reckoning": {
+      "htmlUrl": "https://github.com/RyHensel/dead-reckoning",
+      "firstSeen": "2026-08-05T00:21:41.915Z",
+      "createdAt": "2026-08-04T20:28:28Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "hhkaos/arcgis-geocoding-sample-apps": {
+      "htmlUrl": "https://github.com/hhkaos/arcgis-geocoding-sample-apps",
+      "firstSeen": "2026-08-05T00:21:42.769Z",
+      "createdAt": "2026-08-04T11:27:16Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Esri/Utility-Data-Management-Support-Tools": {
+      "htmlUrl": "https://github.com/Esri/Utility-Data-Management-Support-Tools",
+      "firstSeen": "2026-08-05T00:21:43.622Z",
+      "createdAt": "2021-11-10T17:08:10Z",
+      "axis": "pushed",
+      "stars": 48,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

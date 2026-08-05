@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (04-08-2026)",
+  "title": "Combined ArcGIS Feeds (05-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-04T00:22:24.537Z",
+  "lastUpdated": "2026-08-05T00:22:28.397Z",
   "items": [
+    {
+      "title": "Strategies for Web Development",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=p4zzNTuwxZw",
+      "guid": "yt:video:p4zzNTuwxZw",
+      "author": "Esri Developers",
+      "date": "2026-08-04T15:14:22.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Drone Viewshed Simulation",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=f_vcesTLqxY",
+      "guid": "yt:video:f_vcesTLqxY",
+      "author": "Esri Developers",
+      "date": "2026-08-04T15:13:32.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Visualize AEC Projects in 3D",
       "description": "",

@@ -1,8 +1,91 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (04-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (05-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-04T00:22:53.154Z",
+  "lastUpdated": "2026-08-05T00:22:52.804Z",
   "items": [
+    {
+      "title": "RyHensel/dead-reckoning: Backup and index-integrity monitor for ArcGIS Pro projects. Detects the silent Index.json corruption that makes every map in an .aprx fail to open.",
+      "description": "Backup and index-integrity monitor for ArcGIS Pro projects. Detects the silent Index.json corruption that makes every map in an .aprx fail to open.\nBackup y monitor de integridad de índices para proyectos de ArcGIS Pro que ayuda a detectar corrupción en archivos .aprx.\nTopics: arcgis, arcgis-pro, backup, esri, gis, python, tkinter · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/RyHensel/dead-reckoning",
+      "guid": "https://github.com/RyHensel/dead-reckoning",
+      "author": "RyHensel",
+      "date": "2026-08-04T20:28:28.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Backup y monitor de integridad de índices para proyectos de ArcGIS Pro que ayuda a detectar corrupción en archivos .aprx."
+    },
+    {
+      "title": "Strategies for Web Development",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=p4zzNTuwxZw",
+      "guid": "yt:video:p4zzNTuwxZw",
+      "author": "Esri Developers",
+      "date": "2026-08-04T15:14:22.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Drone Viewshed Simulation",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=f_vcesTLqxY",
+      "guid": "yt:video:f_vcesTLqxY",
+      "author": "Esri Developers",
+      "date": "2026-08-04T15:13:32.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "hhkaos/arcgis-geocoding-sample-apps: Small, self-contained web apps that illustrate capabilities and recent additions of the ArcGIS Geocoding service",
+      "description": "Small, self-contained web apps that illustrate capabilities and recent additions of the ArcGIS Geocoding service\nEstas aplicaciones web ilustran las capacidades del servicio de geocodificación de ArcGIS.\nTopics: arcgis, geocoding-api, geocoding-service, location-services · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/hhkaos/arcgis-geocoding-sample-apps",
+      "guid": "https://github.com/hhkaos/arcgis-geocoding-sample-apps",
+      "author": "hhkaos",
+      "date": "2026-08-04T11:27:16.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una colección de aplicaciones de muestra orientadas a usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Estas aplicaciones web ilustran las capacidades del servicio de geocodificación de ArcGIS."
+    },
+    {
+      "title": "Esri/Utility-Data-Management-Support-Tools: A set of tools to work with the utility network and their maps.",
+      "description": "A set of tools to work with the utility network and their maps.\nConjunto de herramientas para gestionar redes de servicios públicos y sus mapas en ArcGIS.\nTopics: arcgis, arcgis-pro, geoprocessing, matrix, network, utility · ⭐ 48 · —\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Esri/Utility-Data-Management-Support-Tools",
+      "guid": "https://github.com/Esri/Utility-Data-Management-Support-Tools",
+      "author": "Esri",
+      "date": "2026-08-04T10:54:43.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Conjunto de herramientas para gestionar redes de servicios públicos y sus mapas en ArcGIS."
+    },
     {
       "title": "Visualize AEC Projects in 3D",
       "description": "",
