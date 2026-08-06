@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-05T00:21:43.623Z",
+  "lastRun": "2026-08-06T01:20:06.114Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -997,6 +997,69 @@
       "createdAt": "2021-11-10T17:08:10Z",
       "axis": "pushed",
       "stars": 48,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "valdesrosier/custom-experience-builder-widgets": {
+      "htmlUrl": "https://github.com/valdesrosier/custom-experience-builder-widgets",
+      "firstSeen": "2026-08-06T01:19:57.627Z",
+      "createdAt": "2026-08-05T16:08:18Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-flutter-samples": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-flutter-samples",
+      "firstSeen": "2026-08-06T01:19:59.763Z",
+      "createdAt": "2024-01-29T19:31:02Z",
+      "axis": "pushed",
+      "stars": 35,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-kotlin-samples": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-kotlin-samples",
+      "firstSeen": "2026-08-06T01:20:01.099Z",
+      "createdAt": "2022-08-30T19:43:58Z",
+      "axis": "pushed",
+      "stars": 63,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/cityengine_for_rhino": {
+      "htmlUrl": "https://github.com/Esri/cityengine_for_rhino",
+      "firstSeen": "2026-08-06T01:20:02.574Z",
+      "createdAt": "2021-04-15T17:08:33Z",
+      "axis": "pushed",
+      "stars": 30,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-swift": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-swift",
+      "firstSeen": "2026-08-06T01:20:03.691Z",
+      "createdAt": "2022-11-09T19:04:28Z",
+      "axis": "pushed",
+      "stars": 26,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-toolkit-qt": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-toolkit-qt",
+      "firstSeen": "2026-08-06T01:20:04.827Z",
+      "createdAt": "2014-09-03T17:20:12Z",
+      "axis": "pushed",
+      "stars": 146,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/arcgis-maps-sdk-samples-qt": {
+      "htmlUrl": "https://github.com/Esri/arcgis-maps-sdk-samples-qt",
+      "firstSeen": "2026-08-06T01:20:06.113Z",
+      "createdAt": "2015-03-27T17:55:54Z",
+      "axis": "pushed",
+      "stars": 154,
       "classifiedCategory": "devtool",
       "relevant": true
     }

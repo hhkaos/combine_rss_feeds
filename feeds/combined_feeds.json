@@ -1,8 +1,118 @@
 {
-  "title": "Combined ArcGIS Feeds (05-08-2026)",
+  "title": "Combined ArcGIS Feeds (06-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-05T00:22:28.397Z",
+  "lastUpdated": "2026-08-06T01:20:48.268Z",
   "items": [
+    {
+      "title": "Announcing ArcGIS Maps SDK 2.4 for Unreal Engine",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/unreal-engine/announcements/announcing-arcgis-maps-sdk-2-4-for-unreal-engine",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2979220",
+      "author": "Mike Branscomb",
+      "date": "2026-08-05T23:10:10.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Announcing ArcGIS Maps SDK 2.4 for Unity",
+      "description": "Unity Maps SDK 2.4 delivers new Gaussian splat support, enhanced 3D point and point cloud capabilities, and improved 3D Tiles rendering.",
+      "link": "https://www.esri.com/arcgis-blog/products/unity/announcements/announcing-arcgis-maps-sdk-2-4-for-unity",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2979142",
+      "author": "Mike Branscomb",
+      "date": "2026-08-05T23:07:08.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "August 2026 ArcGIS Security Bulletin",
+      "description": "<div type=\"html\" xml:base=\"https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/august-2026-arcgis-security-bulletin\"/>",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/august-2026-arcgis-security-bulletin",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2979067",
+      "author": "Randall Williams",
+      "date": "2026-08-05T18:58:55.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/feed/atom/?post_type=blog&product=trust-arcgis",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "What’s New in ArcGIS Maps SDKs for Native Apps 300.1",
+      "description": "ArcGIS Maps SDKs for Native Apps 300.1 adds Gaussian splat layers, identify on vector tiles, and slope/aspect analysis.",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/announcements/whats-new-in-arcgis-maps-sdks-for-native-apps-300-1",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2978920",
+      "author": "Rex Hansen",
+      "date": "2026-08-05T13:57:11.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "ArcPy Custom Tool: Dropdown or Free-text User Input",
+      "description": "Table of Contents The Video Subscribe Introduction You are creating an ArcGIS Pro custom tool with ArcPy and you want to allow the user to select from a dropdown list or type in free-text for the input. This is now possible out-of-the-box and requires a small bit of tinkering with the tool properties Validation tab. [&#8230;]",
+      "link": "https://learn.finaldraftmapping.com/arcpy-custom-tool-dropdown-or-free-text-user-input/",
+      "guid": "https://learn.finaldraftmapping.com/?p=43879",
+      "author": "Glen Bambrick",
+      "date": "2026-08-05T10:59:33.000Z",
+      "sourceFeedUrl": "https://learn.finaldraftmapping.com/feed/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Create ArcGIS Online Feature Service Views using the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Tpk1BXCTf9I",
+      "guid": "yt:video:Tpk1BXCTf9I",
+      "author": "Final Draft Mapping",
+      "date": "2026-08-05T08:06:16.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Framework/ReusableUserControl/CommonUseWindow ...",
+      "description": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Framework/ReusableUserControl/CommonUseWindow ... -- Copyright 2026 <b>Esri</b> Licensed under the Apache License&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/blob/master/Framework/ReusableUserControl/CommonUseWindow.xaml",
+      "guid": "tag:google.com,2013:googlealerts/feed:17290785543818880298",
+      "author": "",
+      "date": "2026-08-05T02:11:28.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Framework/ReusableUserControl ... - GitCode",
+      "description": "<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Framework/ReusableUserControl/DockpaneWithUserControl ... /* Copyright 2026 <b>Esri</b> Licensed under the Apache&nbsp;...",
+      "link": "https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/blob/master/Framework/ReusableUserControl/DockpaneWithUserControl.xaml.cs",
+      "guid": "tag:google.com,2013:googlealerts/feed:12539320230425187695",
+      "author": "",
+      "date": "2026-08-05T02:11:13.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Integrations | Nuclideon",
+      "description": "Depth-correct point cloud streaming alongside terrain, 3D Tiles, and your other primitives. Esri <b>ArcGIS Maps SDK for</b> JavaScript. Drop udSDK into an&nbsp;...",
+      "link": "https://nuclideon.com/integrations",
+      "guid": "tag:google.com,2013:googlealerts/feed:17142744356108165344",
+      "author": "",
+      "date": "2026-08-05T00:51:49.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "New <b>Esri</b> Press Book Empowers Users to Unlock the Potential of AI with the Power of Geography",
+      "description": "<b>Esri</b> has released Exploring GeoAI: Tools and Workflows, a practical guide to applying geospatial artificial intelligence (GeoAI) using <b>ArcGIS</b>.",
+      "link": "https://www.afp.com/en/infos/new-esri-press-book-empowers-users-unlock-potential-ai-power-geography",
+      "guid": "tag:google.com,2013:googlealerts/feed:7204674772506332435",
+      "author": "",
+      "date": "2026-08-04T21:09:14.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Strategies for Web Development",
       "description": "",
@@ -23,6 +133,17 @@
       "date": "2026-08-04T15:13:32.000Z",
       "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "BEL and <b>Esri</b> India to Jointly Capitalise on the Emerging Opportunities on GIS, Location ...",
+      "description": "<b>Esri</b> India will also extend training support to BEL to help them build in-house capability in GIS and GeoAI on its &#39;Indo <b>ArcGIS</b>&#39; platform. The MoU&nbsp;...",
+      "link": "https://raksha-anirveda.com/bel-and-esri-india-to-jointly-capitalise-on-the-emerging-opportunities-on-gis-location-intelligence-and-geoai/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4738247792470306732",
+      "author": "",
+      "date": "2026-08-04T11:55:33.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
