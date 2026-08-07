@@ -1,8 +1,111 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (06-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (07-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-06T01:21:16.727Z",
+  "lastUpdated": "2026-08-07T02:02:13.801Z",
   "items": [
+    {
+      "title": "ArcGIS Geocoding Industry Spotlight: Elections",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis/national-government/arcgis-geocoding-industry-spotlight-elections",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2965233",
+      "author": "Nicte Hernandez",
+      "date": "2026-08-06T22:18:33.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/tag/arcgis-data/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Offline Apps with ArcGIS Maps SDKs for Native Apps",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=QpVVHqeeAZM",
+      "guid": "yt:video:QpVVHqeeAZM",
+      "author": "Esri Developers",
+      "date": "2026-08-06T19:11:44.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "okie2020/ha-okc-services: Home Assistant integration for City of Oklahoma City residents: trash, recycling and bulky waste collection schedules plus live fire and police responses on the map",
+      "description": "Home Assistant integration for City of Oklahoma City residents: trash, recycling and bulky waste collection schedules plus live fire and police responses on the map\nProporciona información sobre servicios de recolección de basura y respuestas de emergencia en un mapa para residentes de Oklahoma City.\nTopics: arcgis, custom-component, custom-integration, hacs, home-assistant, homeassistant, okc, oklahoma-city, open-data, waste-collection · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/okie2020/ha-okc-services",
+      "guid": "https://github.com/okie2020/ha-okc-services",
+      "author": "okie2020",
+      "date": "2026-08-06T18:37:49.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una integración para Home Assistant orientada a usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Proporciona información sobre servicios de recolección de basura y respuestas de emergencia en un mapa para residentes de Oklahoma City."
+    },
+    {
+      "title": "Mc3urry/net-lease-caprate-platform: Full-stack net-lease cap-rate intelligence — PostGIS + GeoPandas ETL, a scikit-learn cap-rate model, FastAPI with role-based access, and a national ArcGIS deal-screening map",
+      "description": "Full-stack net-lease cap-rate intelligence — PostGIS + GeoPandas ETL, a scikit-learn cap-rate model, FastAPI with role-based access, and a national ArcGIS deal-screening map\nProporciona una plataforma de inteligencia de arrendamientos netos con integración de ArcGIS para la visualización de datos.\nTopics: arcgis, commercial-real-estate, docker, fastapi, geopandas, gis, machine-learning, net-lease, postgis, proptech, python, scikit-learn · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Mc3urry/net-lease-caprate-platform",
+      "guid": "https://github.com/Mc3urry/net-lease-caprate-platform",
+      "author": "Mc3urry",
+      "date": "2026-08-06T17:06:10.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Proporciona una plataforma de inteligencia de arrendamientos netos con integración de ArcGIS para la visualización de datos."
+    },
+    {
+      "title": "Version Management with ArcGIS | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=a_hOuawEQxY",
+      "guid": "yt:video:a_hOuawEQxY",
+      "author": "Esri Developers",
+      "date": "2026-08-06T16:05:37.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>ArcGIS</b> Maps SDKs for Native Apps 300.1 Adds Splat Layers - Radiance Fields",
+      "description": "<b>Esri ArcGIS</b> Maps SDKs for ... NET, Qt, Kotlin, Swift and Flutter runtime line, a separate product from <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>, which&nbsp;...",
+      "link": "https://radiancefields.com/esri-adds-gaussian-splat-layers-to-the-arcgis-maps-sdks-for-native-apps-at-300.1",
+      "guid": "tag:google.com,2013:googlealerts/feed:13567940334807505200",
+      "author": "",
+      "date": "2026-08-06T13:56:34.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Apply Attribute and Spatial Filters to View Layers in ArcGIS Online using the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=ZaVSZ-sASpM",
+      "guid": "yt:video:ZaVSZ-sASpM",
+      "author": "Final Draft Mapping",
+      "date": "2026-08-06T11:50:07.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Esri/arcgis-maps-sdk-flutter-samples: Sample code to support mobile application development using ArcGIS Maps SDK for Flutter",
       "description": "Sample code to support mobile application development using ArcGIS Maps SDK for Flutter\nProporciona muestras útiles para desarrolladores que trabajan con ArcGIS en Flutter.\nTopics: arcgis, arcgis-maps-sdk, arcgis-maps-sdk-flutter, flutter · ⭐ 35 · Dart\nGitHub repo descubierto (pushed · devtool)",

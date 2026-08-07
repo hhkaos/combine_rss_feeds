@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-06T01:20:06.114Z",
+  "lastRun": "2026-08-07T02:01:09.504Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1062,6 +1062,24 @@
       "stars": 154,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "Mc3urry/net-lease-caprate-platform": {
+      "htmlUrl": "https://github.com/Mc3urry/net-lease-caprate-platform",
+      "firstSeen": "2026-08-07T02:01:08.005Z",
+      "createdAt": "2026-08-06T17:06:10Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": true
+    },
+    "okie2020/ha-okc-services": {
+      "htmlUrl": "https://github.com/okie2020/ha-okc-services",
+      "firstSeen": "2026-08-07T02:01:09.504Z",
+      "createdAt": "2026-08-06T18:37:49Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }
