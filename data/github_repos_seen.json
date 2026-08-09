@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-08T00:43:52.977Z",
+  "lastRun": "2026-08-09T00:46:48.357Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1076,6 +1076,15 @@
       "htmlUrl": "https://github.com/okie2020/ha-okc-services",
       "firstSeen": "2026-08-07T02:01:09.504Z",
       "createdAt": "2026-08-06T18:37:49Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "mrBenL/Washington-Fire-Situation": {
+      "htmlUrl": "https://github.com/mrBenL/Washington-Fire-Situation",
+      "firstSeen": "2026-08-09T00:46:48.356Z",
+      "createdAt": "2026-08-08T20:23:53Z",
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "consumer",

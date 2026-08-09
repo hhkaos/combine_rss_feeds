@@ -1,8 +1,40 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (08-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (09-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-08T00:45:03.547Z",
+  "lastUpdated": "2026-08-09T00:47:52.455Z",
   "items": [
+    {
+      "title": "mrBenL/Washington-Fire-Situation: Sleek single-page situational dashboard for active Washington wildfires — live WA DNR ArcGIS data on a monochrome map, refreshing hourly. No build step, no dependencies beyond Leaflet.",
+      "description": "Sleek single-page situational dashboard for active Washington wildfires — live WA DNR ArcGIS data on a monochrome map, refreshing hourly. No build step, no dependencies beyond Leaflet.\nEs un dashboard situacional para visualizar incendios activos en Washington utilizando datos de ArcGIS.\nTopics: arcgis, dashboard, data-visualization, emergency-management, gis, leaflet, nifc, washington-state, wildfire · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/mrBenL/Washington-Fire-Situation",
+      "guid": "https://github.com/mrBenL/Washington-Fire-Situation",
+      "author": "mrBenL",
+      "date": "2026-08-08T20:23:53.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación orientada a usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un dashboard situacional para visualizar incendios activos en Washington utilizando datos de ArcGIS."
+    },
+    {
+      "title": "<b>ArcGIS</b> Maps <b>SDK</b> for Unity 2.4 Adds Gaussian Splat Layers - Radiance Fields",
+      "description": "<b>Esri ArcGIS</b> Maps <b>SDK</b> for Unity 2.4.0 adds a ... The Unity <b>SDK</b> is a separate product line from the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>, which&nbsp;...",
+      "link": "https://radiancefields.com/esri-adds-georeferenced-gaussian-splat-layers-to-the-arcgis-maps-sdk-for-unity-at-2.4",
+      "guid": "tag:google.com,2013:googlealerts/feed:2510226774624503910",
+      "author": "",
+      "date": "2026-08-07T21:58:32.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "@esri/arcgis-rest-developer-credentials@4.11.0",
       "description": "<h3>Patch Changes</h3>\n<ul>\n<li>Updated dependencies [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/Esri/arcgis-rest-js/commit/05b992609aa8a8db826a8a95c51442a0a83d265f/hovercard\" href=\"https://github.com/Esri/arcgis-rest-js/commit/05b992609aa8a8db826a8a95c51442a0a83d265f\"><tt>05b9926</tt></a>]\n<ul>\n<li>@esri/arcgis-rest-portal@4.11.0</li>\n<li>@esri/arcgis-rest-request@4.11.0</li>\n</ul>\n</li>\n</ul>",
