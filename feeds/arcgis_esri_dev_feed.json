@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (09-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (10-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-09T00:47:52.455Z",
+  "lastUpdated": "2026-08-10T00:50:27.087Z",
   "items": [
     {
       "title": "mrBenL/Washington-Fire-Situation: Sleek single-page situational dashboard for active Washington wildfires — live WA DNR ArcGIS data on a monochrome map, refreshing hourly. No build step, no dependencies beyond Leaflet.",
