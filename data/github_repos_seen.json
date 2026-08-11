@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-10T00:49:24.855Z",
+  "lastRun": "2026-08-11T00:48:53.887Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1089,6 +1089,51 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "lordamdal/pdx-wildfire-evac-planner": {
+      "htmlUrl": "https://github.com/lordamdal/pdx-wildfire-evac-planner",
+      "firstSeen": "2026-08-11T00:48:49.057Z",
+      "createdAt": "2026-08-10T22:18:46Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "vai67/gridtrace": {
+      "htmlUrl": "https://github.com/vai67/gridtrace",
+      "firstSeen": "2026-08-11T00:48:50.206Z",
+      "createdAt": "2026-08-10T01:50:38Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "alex-krassavin/expo-arcgis": {
+      "htmlUrl": "https://github.com/alex-krassavin/expo-arcgis",
+      "firstSeen": "2026-08-11T00:48:51.712Z",
+      "createdAt": "2026-06-08T12:55:18Z",
+      "axis": "pushed",
+      "stars": 6,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/maplibre-arcgis": {
+      "htmlUrl": "https://github.com/Esri/maplibre-arcgis",
+      "firstSeen": "2026-08-11T00:48:52.836Z",
+      "createdAt": "2025-04-29T20:51:41Z",
+      "axis": "pushed",
+      "stars": 17,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Esri/OptimizeRasters": {
+      "htmlUrl": "https://github.com/Esri/OptimizeRasters",
+      "firstSeen": "2026-08-11T00:48:53.886Z",
+      "createdAt": "2015-05-04T11:32:26Z",
+      "axis": "pushed",
+      "stars": 139,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (10-08-2026)",
+  "title": "Combined ArcGIS Feeds (11-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-10T00:50:06.071Z",
+  "lastUpdated": "2026-08-11T00:49:24.201Z",
   "items": [
+    {
+      "title": "1.3.1",
+      "description": "<p>This version adds compatibility for MapLibre GL JS v6. Versions tested up to 6.3.0, the latest version at the time of this release.</p>\n<p>This release does not include changes to the surface API. It mainly updates the test suite to support MapLibre's new ESM import style. The package is still distributed as both ESM and UMD.</p>",
+      "link": "https://github.com/Esri/maplibre-arcgis/releases/tag/1.3.1",
+      "guid": "tag:github.com,2008:Repository/975133882/1.3.1",
+      "author": "gowin20",
+      "date": "2026-08-10T22:28:33.000Z",
+      "sourceFeedUrl": "https://github.com/Esri/maplibre-arcgis/releases.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Three.js r186 to Add a Native Gaussian Splat Renderer - Radiance Fields",
+      "description": "Esri <b>ArcGIS Maps SDK for</b> Unity 2.4.0 adds a georeferenced Gaussian splat layer type for Unity scenes, on desktop only. Michael Rubloff. Aug&nbsp;...",
+      "link": "https://radiancefields.com/three.js-merges-a-native-gaussian-splat-renderer-for-webgpu-in-r186",
+      "guid": "tag:google.com,2013:googlealerts/feed:6131267520918890003",
+      "author": "",
+      "date": "2026-08-10T13:59:41.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        ArcGIS Maps SDK for Kotlin 300.x 更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ArcGIS Maps SDK for Kotlin 300.x 更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/1ddade9f768040c772eb1e805f234ed335ec3aff",
+      "guid": "tag:github.com,2008:Grit::Commit/1ddade9f768040c772eb1e805f234ed335ec3aff",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-10T06:53:59.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Top 10 AI Tools for Emergency Response - Sekolapedia",
+      "description": "1. <b>Esri ArcGIS</b>. <b>Esri ArcGIS</b> provides geographic information system technology that can be used for emergency management, disaster mapping, and&nbsp;...",
+      "link": "https://daftarsekolah.spmb.teknokrat.ac.id/2026/08/top-10-ai-tools-for-emergency-response/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4225459516389579594",
+      "author": "",
+      "date": "2026-08-10T01:35:28.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> Maps <b>SDK</b> for Unity 2.4 Adds Gaussian Splat Layers - Radiance Fields",
       "description": "<b>Esri ArcGIS</b> Maps <b>SDK</b> for Unity 2.4.0 adds a ... The Unity <b>SDK</b> is a separate product line from the <b>ArcGIS</b> Maps <b>SDK</b> for <b>JavaScript</b>, which&nbsp;...",
