@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-11T00:48:53.887Z",
+  "lastRun": "2026-08-12T00:55:58.300Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1134,6 +1134,15 @@
       "stars": 139,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "Jellismt/EngageMT-PDF-Regs": {
+      "htmlUrl": "https://github.com/Jellismt/EngageMT-PDF-Regs",
+      "firstSeen": "2026-08-12T00:55:58.300Z",
+      "createdAt": "2026-08-11T18:57:18Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }
