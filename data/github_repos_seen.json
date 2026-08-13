@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-12T00:55:58.300Z",
+  "lastRun": "2026-08-13T00:57:02.743Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1142,6 +1142,24 @@
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "iodani/arcgis-portal-migration": {
+      "htmlUrl": "https://github.com/iodani/arcgis-portal-migration",
+      "firstSeen": "2026-08-13T00:57:01.086Z",
+      "createdAt": "2026-08-12T21:43:39Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "amrierscuo/eo-crop-classification": {
+      "htmlUrl": "https://github.com/amrierscuo/eo-crop-classification",
+      "firstSeen": "2026-08-13T00:57:02.743Z",
+      "createdAt": "2026-08-12T20:27:05Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
       "relevant": false
     }
   }
