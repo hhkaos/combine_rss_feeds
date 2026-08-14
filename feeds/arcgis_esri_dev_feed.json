@@ -1,8 +1,59 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (13-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (14-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-13T00:58:13.743Z",
+  "lastUpdated": "2026-08-14T00:57:50.290Z",
   "items": [
+    {
+      "title": "Where Should We Explore Marine Carbon Dioxide Removal?",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/decision-support/where-should-we-explore-marine-carbon-dioxide-removal",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2979995",
+      "author": "Carl Spangrude",
+      "date": "2026-08-13T20:02:34.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "bat801/ARGUS: Mobile Augmented Reality (AR) application for visualizing underground heating infrastructure and utility networks. Combines GIS spatial data (ArcGIS Pro) with Unity AR Foundation for real-time 3D mapping and interactive engineering decision support. Built for Android (ARCore).",
+      "description": "Mobile Augmented Reality (AR) application for visualizing underground heating infrastructure and utility networks. Combines GIS spatial data (ArcGIS Pro) with Unity AR Foundation for real-time 3D mapping and interactive engineering decision support. Built for Android (ARCore).\nAplicación de realidad aumentada para visualizar infraestructura subterránea, no es un recurso reutilizable para desarrolladores.\nTopics: 3d-visualization, android, arcgis, arcore, augmented-reality, csharp, digital-twin, gis, infrastructure-management, unity · ⭐ 1 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/bat801/ARGUS",
+      "guid": "https://github.com/bat801/ARGUS",
+      "author": "bat801",
+      "date": "2026-08-13T19:09:29.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación móvil orientada a usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Aplicación de realidad aumentada para visualizar infraestructura subterránea, no es un recurso reutilizable para desarrolladores."
+    },
+    {
+      "title": "geolens-io/geolens-examples: Runnable examples for consuming GeoLens services from ArcGIS Maps SDK for JavaScript, MapLibre, Leaflet, OpenLayers, Python, and Claude via MCP",
+      "description": "Runnable examples for consuming GeoLens services from ArcGIS Maps SDK for JavaScript, MapLibre, Leaflet, OpenLayers, Python, and Claude via MCP\nIncluye ejemplos ejecutables para integrar servicios de GeoLens con ArcGIS y otras bibliotecas.\nTopics: — · ⭐ 0 · HTML\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/geolens-io/geolens-examples",
+      "guid": "https://github.com/geolens-io/geolens-examples",
+      "author": "geolens-io",
+      "date": "2026-08-13T15:58:26.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Incluye ejemplos ejecutables para integrar servicios de GeoLens con ArcGIS y otras bibliotecas."
+    },
     {
       "title": "iodani/arcgis-portal-migration: Python toolkit to migrate ArcGIS Feature Services between portals with audit, resume, CSV mapping, and error reporting.",
       "description": "Python toolkit to migrate ArcGIS Feature Services between portals with audit, resume, CSV mapping, and error reporting.\nUn toolkit en Python que facilita la migración de servicios de características de ArcGIS entre portales.\nTopics: arcgis, arcgis-enterprise, arcgis-online, batch-processing, data-migration, esri, feature-service, geospatial, gis, migration, portal, python · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
