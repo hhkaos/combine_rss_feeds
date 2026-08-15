@@ -1,8 +1,85 @@
 {
-  "title": "Combined ArcGIS Feeds (14-08-2026)",
+  "title": "Combined ArcGIS Feeds (15-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-14T00:57:28.780Z",
+  "lastUpdated": "2026-08-15T00:33:45.912Z",
   "items": [
+    {
+      "title": "Episode 78 - Secret Cyborg: Special Disclosure Unit",
+      "description": "On August 2, 2026, part of the EU AI Act became active, and now you legally can't be a Secret Cyborg (kinda).",
+      "link": "https://christophermoravec.com/episode-78-secret-cyborg-special-disclosure-unit/",
+      "guid": "6a7f635222e23000016bae67",
+      "author": "Christopher Moravec",
+      "date": "2026-08-14T19:23:03.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "The Science of Where in the Modern Data Stack: Data Integration Approaches and Methods in ArcGIS",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis/data-management/the-science-of-where-in-the-modern-data-stack-data-integration-approaches-and-methods-in-arcgis",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2979730",
+      "author": "Nolan Reichmann",
+      "date": "2026-08-14T15:30:25.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Mobile Geometry Editing with a Reticle",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=NrUc6RT3Dv0",
+      "guid": "yt:video:NrUc6RT3Dv0",
+      "author": "Esri Developers",
+      "date": "2026-08-14T14:44:04.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Automate Damage Assessment - Wildfires",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=oZDCWFk-_lM",
+      "guid": "yt:video:oZDCWFk-_lM",
+      "author": "GeoAI Smith",
+      "date": "2026-08-14T11:33:55.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        .NET 300.1 更新対応\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>.NET 300.1 更新対応</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/214a071aca46098cc8c09015f592aaa0a59e2086",
+      "guid": "tag:github.com,2008:Grit::Commit/214a071aca46098cc8c09015f592aaa0a59e2086",
+      "author": "mmmaruyama",
+      "date": "2026-08-14T06:18:02.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Swifiリソース集修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Swifiリソース集修正\n\n画像リンク切れを修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/45d04d6d3a70a5f62054569362526a7e40135f42",
+      "guid": "tag:github.com,2008:Grit::Commit/45d04d6d3a70a5f62054569362526a7e40135f42",
+      "author": "ej-ambo",
+      "date": "2026-08-14T02:17:25.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Calcite修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Calcite修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/9a4a2f9e2a28ab72694015f213ec5cd8b7804117",
+      "guid": "tag:github.com,2008:Grit::Commit/9a4a2f9e2a28ab72694015f213ec5cd8b7804117",
+      "author": "ej-ambo",
+      "date": "2026-08-14T01:42:28.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Where Should We Explore Marine Carbon Dioxide Removal?",
       "description": "",

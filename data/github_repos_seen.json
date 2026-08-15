@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-14T00:56:46.013Z",
+  "lastRun": "2026-08-15T00:33:03.201Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1177,6 +1177,15 @@
       "createdAt": "2026-08-13T15:58:26Z",
       "axis": "created",
       "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "R-ArcGIS/arcgisviz": {
+      "htmlUrl": "https://github.com/R-ArcGIS/arcgisviz",
+      "firstSeen": "2026-08-15T00:33:03.201Z",
+      "createdAt": "2026-08-14T04:02:22Z",
+      "axis": "created",
+      "stars": 1,
       "classifiedCategory": "devtool",
       "relevant": true
     }
