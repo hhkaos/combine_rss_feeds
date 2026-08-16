@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-15T00:33:03.201Z",
+  "lastRun": "2026-08-16T00:34:43.219Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1186,6 +1186,33 @@
       "createdAt": "2026-08-14T04:02:22Z",
       "axis": "created",
       "stars": 1,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "vagunreal/arcgis10.8-symbology-via-arcpy": {
+      "htmlUrl": "https://github.com/vagunreal/arcgis10.8-symbology-via-arcpy",
+      "firstSeen": "2026-08-16T00:34:40.918Z",
+      "createdAt": "2026-08-15T20:40:26Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Sherb240/toronto-parks-bikes-3d": {
+      "htmlUrl": "https://github.com/Sherb240/toronto-parks-bikes-3d",
+      "firstSeen": "2026-08-16T00:34:41.874Z",
+      "createdAt": "2026-08-15T19:14:16Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "muimsd/esri-gl": {
+      "htmlUrl": "https://github.com/muimsd/esri-gl",
+      "firstSeen": "2026-08-16T00:34:43.218Z",
+      "createdAt": "2025-09-08T17:03:15Z",
+      "axis": "pushed",
+      "stars": 13,
       "classifiedCategory": "devtool",
       "relevant": true
     }

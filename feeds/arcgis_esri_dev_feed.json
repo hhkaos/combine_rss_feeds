@@ -1,8 +1,69 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (15-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (16-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-15T00:34:09.579Z",
+  "lastUpdated": "2026-08-16T00:35:45.013Z",
   "items": [
+    {
+      "title": "vagunreal/arcgis10.8-symbology-via-arcpy: ArcGIS Desktop 10.8 Symbology 符号系统代码化实测方案：arcpy 隐藏 JSON/XML 双接口、11 类渲染器能力边界矩阵、9 个即用脚本 | Field-tested hidden arcpy JSON/XML renderer interfaces, capability-boundary matrix & scripts for ArcMap 10.x symbolization",
+      "description": "ArcGIS Desktop 10.8 Symbology 符号系统代码化实测方案：arcpy 隐藏 JSON/XML 双接口、11 类渲染器能力边界矩阵、9 个即用脚本 | Field-tested hidden arcpy JSON/XML renderer interfaces, capability-boundary matrix & scripts for ArcMap 10.x symbolization\nIncluye scripts de arcpy para la simbología en ArcGIS 10.8, útiles para desarrolladores que trabajan con ArcMap.\nTopics: arcgis, arcmap, arcobjects, arcpy, cartography, esri, gis, graduated-colors, graduated-symbols, hidden-api, mxd, python27, renderer, symbology, unique-values · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/vagunreal/arcgis10.8-symbology-via-arcpy",
+      "guid": "https://github.com/vagunreal/arcgis10.8-symbology-via-arcpy",
+      "author": "vagunreal",
+      "date": "2026-08-15T20:40:26.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Incluye scripts de arcpy para la simbología en ArcGIS 10.8, útiles para desarrolladores que trabajan con ArcMap."
+    },
+    {
+      "title": "Sherb240/toronto-parks-bikes-3d: Interactive 3D map of parks and bike racks across Toronto, built with the ArcGIS Maps SDK for JavaScript",
+      "description": "Interactive 3D map of parks and bike racks across Toronto, built with the ArcGIS Maps SDK for JavaScript\nEs un mapa 3D interactivo de parques y racks de bicicletas en Toronto, construido con el ArcGIS Maps SDK para JavaScript.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Sherb240/toronto-parks-bikes-3d",
+      "guid": "https://github.com/Sherb240/toronto-parks-bikes-3d",
+      "author": "Sherb240",
+      "date": "2026-08-15T19:14:16.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación interactiva orientada al usuario final.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un mapa 3D interactivo de parques y racks de bicicletas en Toronto, construido con el ArcGIS Maps SDK para JavaScript."
+    },
+    {
+      "title": "muimsd/esri-gl: A module for making it easier to use Esri services in mapbox-gl or maplibre-gl, alternative to esri-leaflet for webgl.",
+      "description": "A module for making it easier to use Esri services in mapbox-gl or maplibre-gl, alternative to esri-leaflet for webgl.\nFacilita el uso de servicios de Esri en mapbox-gl o maplibre-gl.\nTopics: arcgis, esri, esri-leaflet, feature-service, gis, mapbox-gl, maplibre-gl, raster-tiles, typescript, vector-tiles, webgl · ⭐ 13 · TypeScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/muimsd/esri-gl",
+      "guid": "https://github.com/muimsd/esri-gl",
+      "author": "muimsd",
+      "date": "2026-08-15T07:34:54.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Facilita el uso de servicios de Esri en mapbox-gl o maplibre-gl.",
+      "manualStatus": "accepted",
+      "manualReason": "activity_sheet_match",
+      "manualNotes": "Matched with manually curated Activity sheet.",
+      "reviewedAt": "2026-05-12T20:42:05.716Z"
+    },
     {
       "title": "Episode 78 - Secret Cyborg: Special Disclosure Unit",
       "description": "On August 2, 2026, part of the EU AI Act became active, and now you legally can't be a Secret Cyborg (kinda).",
