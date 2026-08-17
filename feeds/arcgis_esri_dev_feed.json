@@ -1,7 +1,7 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (16-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (17-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-16T00:35:45.013Z",
+  "lastUpdated": "2026-08-17T00:33:39.783Z",
   "items": [
     {
       "title": "vagunreal/arcgis10.8-symbology-via-arcpy: ArcGIS Desktop 10.8 Symbology 符号系统代码化实测方案：arcpy 隐藏 JSON/XML 双接口、11 类渲染器能力边界矩阵、9 个即用脚本 | Field-tested hidden arcpy JSON/XML renderer interfaces, capability-boundary matrix & scripts for ArcMap 10.x symbolization",
@@ -63,6 +63,19 @@
       "manualReason": "activity_sheet_match",
       "manualNotes": "Matched with manually curated Activity sheet.",
       "reviewedAt": "2026-05-12T20:42:05.716Z"
+    },
+    {
+      "title": "<b>ArcGIS</b> Developer at ArdentMC | Sorce Jobs",
+      "description": "•Ability to develop and maintain geospatial APIs, including <b>ESRI&#39;s ArcGIS</b> Server APIs (<b>JavaScript</b>, REST, Python); •Design and implement solutions&nbsp;...",
+      "link": "https://www.sorce.jobs/jobs/arcgis-developer-ardentmc-j1_uR4uk-j64n6mqf4kI_iqNxXMLVABQ18gMeB5wDpfZbXT",
+      "guid": "tag:google.com,2013:googlealerts/feed:4681202251536425155",
+      "author": "",
+      "date": "2026-08-15T04:36:01.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Episode 78 - Secret Cyborg: Special Disclosure Unit",

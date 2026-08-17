@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (16-08-2026)",
+  "title": "Combined ArcGIS Feeds (17-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-16T00:35:23.810Z",
+  "lastUpdated": "2026-08-17T00:33:16.791Z",
   "items": [
+    {
+      "title": "<b>ArcGIS</b> Developer at ArdentMC | Sorce Jobs",
+      "description": "•Ability to develop and maintain geospatial APIs, including <b>ESRI&#39;s ArcGIS</b> Server APIs (<b>JavaScript</b>, REST, Python); •Design and implement solutions&nbsp;...",
+      "link": "https://www.sorce.jobs/jobs/arcgis-developer-ardentmc-j1_uR4uk-j64n6mqf4kI_iqNxXMLVABQ18gMeB5wDpfZbXT",
+      "guid": "tag:google.com,2013:googlealerts/feed:4681202251536425155",
+      "author": "",
+      "date": "2026-08-15T04:36:01.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 78 - Secret Cyborg: Special Disclosure Unit",
       "description": "On August 2, 2026, part of the EU AI Act became active, and now you legally can't be a Secret Cyborg (kinda).",
