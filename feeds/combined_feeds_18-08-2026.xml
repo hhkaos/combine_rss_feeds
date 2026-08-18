@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[ArcGIS ESRI Dev Feed (18-08-2026)]]></title>
+        <title><![CDATA[Combined ArcGIS Feeds (18-08-2026)]]></title>
         <description><![CDATA[Todos los feeds combinados (últimas 48 horas)]]></description>
         <link>https://developers.arcgis.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Aug 2026 00:33:32 GMT</lastBuildDate>
-        <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/arcgis_esri_dev_feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 18 Aug 2026 00:33:32 GMT</pubDate>
+        <lastBuildDate>Tue, 18 Aug 2026 00:33:09 GMT</lastBuildDate>
+        <atom:link href="/home/runner/work/combine_rss_feeds/combine_rss_feeds/feeds/combined_feeds_18-08-2026.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 18 Aug 2026 00:33:09 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <item>
             <title><![CDATA[ArcGIS Maps SDKs for Native Apps バージョン300.1をリリース | サポーターズ・コーナー]]></title>
@@ -37,63 +37,11 @@ core-conceptsの中を修正</pre>
             <pubDate>Mon, 17 Aug 2026 10:26:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[y0urday/dsh-arcgis-pro-bridge: ArcGIS Pro bridge plugin for DeepSeek Harness — tools exposed as mcp__arcgis__*]]></title>
-            <description><![CDATA[ArcGIS Pro bridge plugin for DeepSeek Harness — tools exposed as mcp__arcgis__*
-Este repositorio proporciona un plugin para ArcGIS Pro que integra herramientas de DeepSeek.
-Topics: arcgis-pro, dsh-plugin · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/y0urday/dsh-arcgis-pro-bridge</link>
-            <guid isPermaLink="false">https://github.com/y0urday/dsh-arcgis-pro-bridge</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[y0urday]]></dc:creator>
-            <pubDate>Mon, 17 Aug 2026 07:49:19 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Polk County to replace PC Maps with new CLOP platform; public rollout set for next week]]></title>
             <description><![CDATA[He described CLOP as a ground-up rebuild on the <b>Esri JavaScript API</b> designed for modern, mobile-first web use and improved security. McEvoy&nbsp;...]]></description>
             <link>https://citizenportal.ai/articles/7154250/oregon/polk-county/polk-county-to-replace-pc-maps-with-new-clop-platform-public-rollout-set-for-next-week</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:12322398457130583539</guid>
             <pubDate>Sun, 16 Aug 2026 00:46:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vagunreal/arcgis10.8-symbology-via-arcpy: ArcGIS Desktop 10.8 Symbology 符号系统代码化实测方案：arcpy 隐藏 JSON/XML 双接口、11 类渲染器能力边界矩阵、9 个即用脚本 | Field-tested hidden arcpy JSON/XML renderer interfaces, capability-boundary matrix & scripts for ArcMap 10.x symbolization]]></title>
-            <description><![CDATA[ArcGIS Desktop 10.8 Symbology 符号系统代码化实测方案：arcpy 隐藏 JSON/XML 双接口、11 类渲染器能力边界矩阵、9 个即用脚本 | Field-tested hidden arcpy JSON/XML renderer interfaces, capability-boundary matrix & scripts for ArcMap 10.x symbolization
-Incluye scripts de arcpy para la simbología en ArcGIS 10.8, útiles para desarrolladores que trabajan con ArcMap.
-Topics: arcgis, arcmap, arcobjects, arcpy, cartography, esri, gis, graduated-colors, graduated-symbols, hidden-api, mxd, python27, renderer, symbology, unique-values · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/vagunreal/arcgis10.8-symbology-via-arcpy</link>
-            <guid isPermaLink="false">https://github.com/vagunreal/arcgis10.8-symbology-via-arcpy</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[vagunreal]]></dc:creator>
-            <pubDate>Sat, 15 Aug 2026 20:40:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Sherb240/toronto-parks-bikes-3d: Interactive 3D map of parks and bike racks across Toronto, built with the ArcGIS Maps SDK for JavaScript]]></title>
-            <description><![CDATA[Interactive 3D map of parks and bike racks across Toronto, built with the ArcGIS Maps SDK for JavaScript
-Es un mapa 3D interactivo de parques y racks de bicicletas en Toronto, construido con el ArcGIS Maps SDK para JavaScript.
-Topics: — · ⭐ 0 · JavaScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Sherb240/toronto-parks-bikes-3d</link>
-            <guid isPermaLink="false">https://github.com/Sherb240/toronto-parks-bikes-3d</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Sherb240]]></dc:creator>
-            <pubDate>Sat, 15 Aug 2026 19:14:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[muimsd/esri-gl: A module for making it easier to use Esri services in mapbox-gl or maplibre-gl, alternative to esri-leaflet for webgl.]]></title>
-            <description><![CDATA[A module for making it easier to use Esri services in mapbox-gl or maplibre-gl, alternative to esri-leaflet for webgl.
-Facilita el uso de servicios de Esri en mapbox-gl o maplibre-gl.
-Topics: arcgis, esri, esri-leaflet, feature-service, gis, mapbox-gl, maplibre-gl, raster-tiles, typescript, vector-tiles, webgl · ⭐ 13 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/muimsd/esri-gl</link>
-            <guid isPermaLink="false">https://github.com/muimsd/esri-gl</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[muimsd]]></dc:creator>
-            <pubDate>Sat, 15 Aug 2026 07:34:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>ArcGIS</b> Developer at ArdentMC | Sorce Jobs]]></title>
@@ -144,19 +92,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Fri, 14 Aug 2026 06:18:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[R-ArcGIS/arcgisviz: Charting integration with the ArcGIS Maps SDK]]></title>
-            <description><![CDATA[Charting integration with the ArcGIS Maps SDK
-Proporciona herramientas para la visualización de datos en mapas de ArcGIS.
-Topics: — · ⭐ 1 · JavaScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/R-ArcGIS/arcgisviz</link>
-            <guid isPermaLink="false">https://github.com/R-ArcGIS/arcgisviz</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[R-ArcGIS]]></dc:creator>
-            <pubDate>Fri, 14 Aug 2026 04:02:22 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[
         Swifiリソース集修正
     ]]></title>
@@ -188,58 +123,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2979995</guid>
             <dc:creator><![CDATA[Carl Spangrude]]></dc:creator>
             <pubDate>Thu, 13 Aug 2026 20:02:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bat801/ARGUS: Mobile Augmented Reality (AR) application for visualizing underground heating infrastructure and utility networks. Combines GIS spatial data (ArcGIS Pro) with Unity AR Foundation for real-time 3D mapping and interactive engineering decision support. Built for Android (ARCore).]]></title>
-            <description><![CDATA[Mobile Augmented Reality (AR) application for visualizing underground heating infrastructure and utility networks. Combines GIS spatial data (ArcGIS Pro) with Unity AR Foundation for real-time 3D mapping and interactive engineering decision support. Built for Android (ARCore).
-Aplicación de realidad aumentada para visualizar infraestructura subterránea, no es un recurso reutilizable para desarrolladores.
-Topics: 3d-visualization, android, arcgis, arcore, augmented-reality, csharp, digital-twin, gis, infrastructure-management, unity · ⭐ 1 · —
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/bat801/ARGUS</link>
-            <guid isPermaLink="false">https://github.com/bat801/ARGUS</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[bat801]]></dc:creator>
-            <pubDate>Thu, 13 Aug 2026 19:09:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[geolens-io/geolens-examples: Runnable examples for consuming GeoLens services from ArcGIS Maps SDK for JavaScript, MapLibre, Leaflet, OpenLayers, Python, and Claude via MCP]]></title>
-            <description><![CDATA[Runnable examples for consuming GeoLens services from ArcGIS Maps SDK for JavaScript, MapLibre, Leaflet, OpenLayers, Python, and Claude via MCP
-Incluye ejemplos ejecutables para integrar servicios de GeoLens con ArcGIS y otras bibliotecas.
-Topics: — · ⭐ 0 · HTML
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/geolens-io/geolens-examples</link>
-            <guid isPermaLink="false">https://github.com/geolens-io/geolens-examples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[geolens-io]]></dc:creator>
-            <pubDate>Thu, 13 Aug 2026 15:58:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[iodani/arcgis-portal-migration: Python toolkit to migrate ArcGIS Feature Services between portals with audit, resume, CSV mapping, and error reporting.]]></title>
-            <description><![CDATA[Python toolkit to migrate ArcGIS Feature Services between portals with audit, resume, CSV mapping, and error reporting.
-Un toolkit en Python que facilita la migración de servicios de características de ArcGIS entre portales.
-Topics: arcgis, arcgis-enterprise, arcgis-online, batch-processing, data-migration, esri, feature-service, geospatial, gis, migration, portal, python · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/iodani/arcgis-portal-migration</link>
-            <guid isPermaLink="false">https://github.com/iodani/arcgis-portal-migration</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[iodani]]></dc:creator>
-            <pubDate>Wed, 12 Aug 2026 21:43:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[amrierscuo/eo-crop-classification: Reproducible EO crop classification: field boundaries, S1/S2 fusion, spatial CV, notebooks, models and ArcGIS results]]></title>
-            <description><![CDATA[Reproducible EO crop classification: field boundaries, S1/S2 fusion, spatial CV, notebooks, models and ArcGIS results
-Este repositorio se centra en la clasificación de cultivos utilizando observación de la Tierra, pero no ofrece herramientas o librerías para otros desarrolladores.
-Topics: arcgis, crop-classification, earth-observation, pytorch, remote-sensing, reproducible-research · ⭐ 0 · Jupyter Notebook
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/amrierscuo/eo-crop-classification</link>
-            <guid isPermaLink="false">https://github.com/amrierscuo/eo-crop-classification</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[amrierscuo]]></dc:creator>
-            <pubDate>Wed, 12 Aug 2026 20:27:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[@esri/arcgis-rest-request@4.11.1]]></title>
@@ -403,19 +286,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <pubDate>Tue, 11 Aug 2026 21:25:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Jellismt/EngageMT-PDF-Regs: Engage MT (PDF regs) — Montana's official gateway to the outdoors. Web + mobile map app (React/ArcGIS/Capacitor) that ships FWP's Deer, Elk & Antelope regulations booklet and opens it to your hunting district. No backend. MIT-licensed.]]></title>
-            <description><![CDATA[Engage MT (PDF regs) — Montana's official gateway to the outdoors. Web + mobile map app (React/ArcGIS/Capacitor) that ships FWP's Deer, Elk & Antelope regulations booklet and opens it to your hunting district. No backend. MIT-licensed.
-Es una app web y móvil que proporciona regulaciones de caza en Montana.
-Topics: arcgis, capacitor, gis, government, hunting, mapping, mit-license, montana, outdoor-recreation, pdf, pdfjs, react, regulations, typescript · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Jellismt/EngageMT-PDF-Regs</link>
-            <guid isPermaLink="false">https://github.com/Jellismt/EngageMT-PDF-Regs</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Jellismt]]></dc:creator>
-            <pubDate>Tue, 11 Aug 2026 18:57:18 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.3.1]]></title>
             <description><![CDATA[<p>This version adds compatibility for MapLibre GL JS v6. Versions tested up to 6.3.0, the latest version at the time of this release.</p>
 <p>This release does not include changes to the surface API. It mainly updates the test suite to support MapLibre's new ESM import style. The package is still distributed as both ESM and UMD.</p>]]></description>
@@ -425,63 +295,11 @@ GitHub repo descubierto (created · consumer)]]></description>
             <pubDate>Mon, 10 Aug 2026 22:28:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Esri/maplibre-arcgis: A MapLibre GL JS plugin for integration with ArcGIS services.]]></title>
-            <description><![CDATA[A MapLibre GL JS plugin for integration with ArcGIS services.
-Proporciona una herramienta útil para desarrolladores que buscan combinar ArcGIS con MapLibre.
-Topics: arcgis, arcgis-js, esri, javascript, maplibre-gl, maplibre-gl-js, web-development · ⭐ 17 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/maplibre-arcgis</link>
-            <guid isPermaLink="false">https://github.com/Esri/maplibre-arcgis</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Mon, 10 Aug 2026 22:28:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[alex-krassavin/expo-arcgis: ArcGIS Maps SDK for React Native as an Expo module — MapView / SceneView with layers, graphics, geometry, geocoding, routing, offline, real-time and auth]]></title>
-            <description><![CDATA[ArcGIS Maps SDK for React Native as an Expo module — MapView / SceneView with layers, graphics, geometry, geocoding, routing, offline, real-time and auth
-Proporciona un módulo Expo para utilizar el SDK de ArcGIS Maps en aplicaciones móviles.
-Topics: android, arcgis, expo, gis, ios, mapping, maps, native-module, react-native, typescript · ⭐ 6 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/alex-krassavin/expo-arcgis</link>
-            <guid isPermaLink="false">https://github.com/alex-krassavin/expo-arcgis</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[alex-krassavin]]></dc:creator>
-            <pubDate>Mon, 10 Aug 2026 22:24:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lordamdal/pdx-wildfire-evac-planner: PDX Wildfire Evacuation Planner — enterprise GIS demo: ArcGIS Maps SDK + PostGIS + FastAPI geoprocessing + ASP.NET Core. Tiered evacuation zones, parcel/population impact, nearest-shelter capacity matching, fire-avoiding routing.]]></title>
-            <description><![CDATA[PDX Wildfire Evacuation Planner — enterprise GIS demo: ArcGIS Maps SDK + PostGIS + FastAPI geoprocessing + ASP.NET Core. Tiered evacuation zones, parcel/population impact, nearest-shelter capacity matching, fire-avoiding routing.
-El proyecto es un planificador de evacuación para incendios forestales, pero está diseñado como una aplicación de demostración.
-Topics: — · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/lordamdal/pdx-wildfire-evac-planner</link>
-            <guid isPermaLink="false">https://github.com/lordamdal/pdx-wildfire-evac-planner</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[lordamdal]]></dc:creator>
-            <pubDate>Mon, 10 Aug 2026 22:18:46 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Three.js r186 to Add a Native Gaussian Splat Renderer - Radiance Fields]]></title>
             <description><![CDATA[Esri <b>ArcGIS Maps SDK for</b> Unity 2.4.0 adds a georeferenced Gaussian splat layer type for Unity scenes, on desktop only. Michael Rubloff. Aug&nbsp;...]]></description>
             <link>https://radiancefields.com/three.js-merges-a-native-gaussian-splat-renderer-for-webgpu-in-r186</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:6131267520918890003</guid>
             <pubDate>Mon, 10 Aug 2026 13:59:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/OptimizeRasters: OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies.]]></title>
-            <description><![CDATA[OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies.
-OptimizeRasters proporciona herramientas para convertir datos raster a formatos optimizados y gestionar su almacenamiento en la nube.
-Topics: amazon-s3-storage, arcgis, azure, cloud-storage, data-management, image, image-processing, imagery, mrf, python, raster, raster-formats, raster-proxies, rasters · ⭐ 139 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/OptimizeRasters</link>
-            <guid isPermaLink="false">https://github.com/Esri/OptimizeRasters</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Mon, 10 Aug 2026 09:21:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -496,37 +314,11 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Mon, 10 Aug 2026 06:53:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vai67/gridtrace: Water network outage simulator with a hand-built BFS graph trace, built on ArcGIS Maps SDK for JavaScript]]></title>
-            <description><![CDATA[Water network outage simulator with a hand-built BFS graph trace, built on ArcGIS Maps SDK for JavaScript
-Es un simulador de interrupciones en redes de agua que utiliza el SDK de ArcGIS para JavaScript.
-Topics: — · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/vai67/gridtrace</link>
-            <guid isPermaLink="false">https://github.com/vai67/gridtrace</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[vai67]]></dc:creator>
-            <pubDate>Mon, 10 Aug 2026 01:50:38 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Top 10 AI Tools for Emergency Response - Sekolapedia]]></title>
             <description><![CDATA[1. <b>Esri ArcGIS</b>. <b>Esri ArcGIS</b> provides geographic information system technology that can be used for emergency management, disaster mapping, and&nbsp;...]]></description>
             <link>https://daftarsekolah.spmb.teknokrat.ac.id/2026/08/top-10-ai-tools-for-emergency-response/</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:4225459516389579594</guid>
             <pubDate>Mon, 10 Aug 2026 01:35:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mrBenL/Washington-Fire-Situation: Sleek single-page situational dashboard for active Washington wildfires — live WA DNR ArcGIS data on a monochrome map, refreshing hourly. No build step, no dependencies beyond Leaflet.]]></title>
-            <description><![CDATA[Sleek single-page situational dashboard for active Washington wildfires — live WA DNR ArcGIS data on a monochrome map, refreshing hourly. No build step, no dependencies beyond Leaflet.
-Es un dashboard situacional para visualizar incendios activos en Washington utilizando datos de ArcGIS.
-Topics: arcgis, dashboard, data-visualization, emergency-management, gis, leaflet, nifc, washington-state, wildfire · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/mrBenL/Washington-Fire-Situation</link>
-            <guid isPermaLink="false">https://github.com/mrBenL/Washington-Fire-Situation</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[mrBenL]]></dc:creator>
-            <pubDate>Sat, 08 Aug 2026 20:23:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[<b>ArcGIS</b> Maps <b>SDK</b> for Unity 2.4 Adds Gaussian Splat Layers - Radiance Fields]]></title>
@@ -684,32 +476,6 @@ GitHub repo descubierto (created · consumer)]]></description>
             <pubDate>Thu, 06 Aug 2026 19:11:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[okie2020/ha-okc-services: Home Assistant integration for City of Oklahoma City residents: trash, recycling and bulky waste collection schedules plus live fire and police responses on the map]]></title>
-            <description><![CDATA[Home Assistant integration for City of Oklahoma City residents: trash, recycling and bulky waste collection schedules plus live fire and police responses on the map
-Proporciona información sobre servicios de recolección de basura y respuestas de emergencia en un mapa para residentes de Oklahoma City.
-Topics: arcgis, custom-component, custom-integration, hacs, home-assistant, homeassistant, okc, oklahoma-city, open-data, waste-collection · ⭐ 0 · Python
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/okie2020/ha-okc-services</link>
-            <guid isPermaLink="false">https://github.com/okie2020/ha-okc-services</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[okie2020]]></dc:creator>
-            <pubDate>Thu, 06 Aug 2026 18:37:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Mc3urry/net-lease-caprate-platform: Full-stack net-lease cap-rate intelligence — PostGIS + GeoPandas ETL, a scikit-learn cap-rate model, FastAPI with role-based access, and a national ArcGIS deal-screening map]]></title>
-            <description><![CDATA[Full-stack net-lease cap-rate intelligence — PostGIS + GeoPandas ETL, a scikit-learn cap-rate model, FastAPI with role-based access, and a national ArcGIS deal-screening map
-Proporciona una plataforma de inteligencia de arrendamientos netos con integración de ArcGIS para la visualización de datos.
-Topics: arcgis, commercial-real-estate, docker, fastapi, geopandas, gis, machine-learning, net-lease, postgis, proptech, python, scikit-learn · ⭐ 0 · Python
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Mc3urry/net-lease-caprate-platform</link>
-            <guid isPermaLink="false">https://github.com/Mc3urry/net-lease-caprate-platform</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Mc3urry]]></dc:creator>
-            <pubDate>Thu, 06 Aug 2026 17:06:10 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Version Management with ArcGIS | #EsriDevTech2026]]></title>
             <link>https://www.youtube.com/watch?v=a_hOuawEQxY</link>
             <guid isPermaLink="false">yt:video:a_hOuawEQxY</guid>
@@ -745,19 +511,6 @@ GitHub repo descubierto (created · consumer)]]></description>
             <pubDate>Thu, 06 Aug 2026 11:50:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-flutter-samples: Sample code to support mobile application development using ArcGIS Maps SDK for Flutter]]></title>
-            <description><![CDATA[Sample code to support mobile application development using ArcGIS Maps SDK for Flutter
-Proporciona muestras útiles para desarrolladores que trabajan con ArcGIS en Flutter.
-Topics: arcgis, arcgis-maps-sdk, arcgis-maps-sdk-flutter, flutter · ⭐ 35 · Dart
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-flutter-samples</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-flutter-samples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 05 Aug 2026 23:21:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Announcing ArcGIS Maps SDK 2.4 for Unreal Engine]]></title>
             <link>https://www.esri.com/arcgis-blog/products/unreal-engine/announcements/announcing-arcgis-maps-sdk-2-4-for-unreal-engine</link>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2979220</guid>
@@ -773,77 +526,12 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Wed, 05 Aug 2026 23:07:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-toolkit-qt: ArcGIS Maps SDK for Qt Toolkit]]></title>
-            <description><![CDATA[ArcGIS Maps SDK for Qt Toolkit
-Proporciona herramientas y recursos para integrar mapas de ArcGIS en aplicaciones Qt.
-Topics: arcgis-maps-sdk-qt, arcgis-runtime-sdk, arcgis-runtime-sdk-arcgis-qt-sdk, native-development, qml, qml-toolkit, qt, qt-toolkit · ⭐ 146 · C++
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-toolkit-qt</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-toolkit-qt</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 05 Aug 2026 20:26:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-samples-qt: ArcGIS Maps SDK for Qt Samples ]]></title>
-            <description><![CDATA[ArcGIS Maps SDK for Qt Samples 
-Proporciona una colección de muestras que demuestran cómo utilizar el SDK de ArcGIS Maps para Qt.
-Topics: arcgis-maps-sdk-qt, arcgis-runtime-sdk-arcgis-qt-sdk, native-development, qt, qt-samples · ⭐ 154 · C++
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-samples-qt</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-samples-qt</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 05 Aug 2026 19:01:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-kotlin-samples: ArcGIS Maps SDK for Kotlin Samples]]></title>
-            <description><![CDATA[ArcGIS Maps SDK for Kotlin Samples
-Proporciona ejemplos prácticos para desarrolladores que utilizan el ArcGIS Maps SDK en aplicaciones Android.
-Topics: android, android-sample, android-studio, arcgis, arcgis-maps, arcgis-maps-sdk, gradle, kotlin, native-development · ⭐ 63 · Kotlin
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-kotlin-samples</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-kotlin-samples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 05 Aug 2026 19:01:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[August 2026 ArcGIS Security Bulletin]]></title>
             <description><![CDATA[<div type="html" xml:base="https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/august-2026-arcgis-security-bulletin"/>]]></description>
             <link>https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/august-2026-arcgis-security-bulletin</link>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2979067</guid>
             <dc:creator><![CDATA[Randall Williams]]></dc:creator>
             <pubDate>Wed, 05 Aug 2026 18:58:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[valdesrosier/custom-experience-builder-widgets: Repository for custom ArcGIS Experience Builder widgets. ]]></title>
-            <description><![CDATA[Repository for custom ArcGIS Experience Builder widgets. 
-Proporciona herramientas útiles para desarrolladores que crean experiencias personalizadas en ArcGIS.
-Topics: — · ⭐ 0 · —
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/valdesrosier/custom-experience-builder-widgets</link>
-            <guid isPermaLink="false">https://github.com/valdesrosier/custom-experience-builder-widgets</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[valdesrosier]]></dc:creator>
-            <pubDate>Wed, 05 Aug 2026 16:08:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-swift: Swift Package Manager support for ArcGIS Maps SDK for Swift]]></title>
-            <description><![CDATA[Swift Package Manager support for ArcGIS Maps SDK for Swift
-Proporciona soporte para el SDK de ArcGIS Maps en Swift, facilitando la creación de aplicaciones geoespaciales.
-Topics: 3d-map, arcgis-maps-sdk, geospatial, map · ⭐ 26 · Swift
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-swift</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-swift</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 05 Aug 2026 15:33:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What’s New in ArcGIS Maps SDKs for Native Apps 300.1]]></title>
@@ -897,19 +585,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Tue, 04 Aug 2026 21:09:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[RyHensel/dead-reckoning: Backup and index-integrity monitor for ArcGIS Pro projects. Detects the silent Index.json corruption that makes every map in an .aprx fail to open.]]></title>
-            <description><![CDATA[Backup and index-integrity monitor for ArcGIS Pro projects. Detects the silent Index.json corruption that makes every map in an .aprx fail to open.
-Backup y monitor de integridad de índices para proyectos de ArcGIS Pro que ayuda a detectar corrupción en archivos .aprx.
-Topics: arcgis, arcgis-pro, backup, esri, gis, python, tkinter · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/RyHensel/dead-reckoning</link>
-            <guid isPermaLink="false">https://github.com/RyHensel/dead-reckoning</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[RyHensel]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2026 20:28:28 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Strategies for Web Development]]></title>
             <link>https://www.youtube.com/watch?v=p4zzNTuwxZw</link>
             <guid isPermaLink="false">yt:video:p4zzNTuwxZw</guid>
@@ -924,50 +599,11 @@ GitHub repo descubierto (created · devtool)]]></description>
             <pubDate>Tue, 04 Aug 2026 15:13:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Esri/cityengine_for_rhino: "ArcGIS CityEngine for Rhino" is a plugin for Rhino and Grasshopper. It provides a Rhino command and Grasshopper components which enable the execution of CityEngine rules within Rhino.]]></title>
-            <description><![CDATA["ArcGIS CityEngine for Rhino" is a plugin for Rhino and Grasshopper. It provides a Rhino command and Grasshopper components which enable the execution of CityEngine rules within Rhino.
-Es un complemento que integra CityEngine con Rhino y Grasshopper para modelado procedural.
-Topics: arcgis, cga, cityengine, esri, gis, grasshopper, modelling, procedural, prt, rhino3d, rpk · ⭐ 30 · C++
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/cityengine_for_rhino</link>
-            <guid isPermaLink="false">https://github.com/Esri/cityengine_for_rhino</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2026 12:16:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[BEL and <b>Esri</b> India to Jointly Capitalise on the Emerging Opportunities on GIS, Location ...]]></title>
             <description><![CDATA[<b>Esri</b> India will also extend training support to BEL to help them build in-house capability in GIS and GeoAI on its &#39;Indo <b>ArcGIS</b>&#39; platform. The MoU&nbsp;...]]></description>
             <link>https://raksha-anirveda.com/bel-and-esri-india-to-jointly-capitalise-on-the-emerging-opportunities-on-gis-location-intelligence-and-geoai/</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:4738247792470306732</guid>
             <pubDate>Tue, 04 Aug 2026 11:55:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hhkaos/arcgis-geocoding-sample-apps: Small, self-contained web apps that illustrate capabilities and recent additions of the ArcGIS Geocoding service]]></title>
-            <description><![CDATA[Small, self-contained web apps that illustrate capabilities and recent additions of the ArcGIS Geocoding service
-Estas aplicaciones web ilustran las capacidades del servicio de geocodificación de ArcGIS.
-Topics: arcgis, geocoding-api, geocoding-service, location-services · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/hhkaos/arcgis-geocoding-sample-apps</link>
-            <guid isPermaLink="false">https://github.com/hhkaos/arcgis-geocoding-sample-apps</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[hhkaos]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2026 11:27:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/Utility-Data-Management-Support-Tools: A set of tools to work with the utility network and their maps.]]></title>
-            <description><![CDATA[A set of tools to work with the utility network and their maps.
-Conjunto de herramientas para gestionar redes de servicios públicos y sus mapas en ArcGIS.
-Topics: arcgis, arcgis-pro, geoprocessing, matrix, network, utility · ⭐ 48 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/Utility-Data-Management-Support-Tools</link>
-            <guid isPermaLink="false">https://github.com/Esri/Utility-Data-Management-Support-Tools</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Tue, 04 Aug 2026 10:54:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Visualize AEC Projects in 3D]]></title>
@@ -1005,45 +641,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Mon, 03 Aug 2026 16:38:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[claudecommunity-nz/wcc-emergency-gis-data: Public GIS datasets from Wellington City Council Emergency Management — catalogued, checked, and queryable. Built for the Impact Lab hackathon.]]></title>
-            <description><![CDATA[Public GIS datasets from Wellington City Council Emergency Management — catalogued, checked, and queryable. Built for the Impact Lab hackathon.
-Este repositorio contiene datos GIS de emergencia, pero no es útil para desarrolladores de ArcGIS/Esri.
-Topics: arcgis, emergency-management, gis, hackathon, new-zealand, open-data, wellington · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/claudecommunity-nz/wcc-emergency-gis-data</link>
-            <guid isPermaLink="false">https://github.com/claudecommunity-nz/wcc-emergency-gis-data</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[claudecommunity-nz]]></dc:creator>
-            <pubDate>Mon, 03 Aug 2026 10:23:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[devadharsh16/Spatial-Analytics-ArcGIS-Pro: Spatial analytics and thematic mapping using ArcGIS Pro ]]></title>
-            <description><![CDATA[Spatial analytics and thematic mapping using ArcGIS Pro 
-El repositorio se centra en el análisis espacial y la visualización de datos en ArcGIS Pro, pero no ofrece librerías o herramientas para ser reutilizadas.
-Topics: arcgis-pro, data, data-visualization, gis, srilanka · ⭐ 0 · —
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/devadharsh16/Spatial-Analytics-ArcGIS-Pro</link>
-            <guid isPermaLink="false">https://github.com/devadharsh16/Spatial-Analytics-ArcGIS-Pro</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[devadharsh16]]></dc:creator>
-            <pubDate>Mon, 03 Aug 2026 07:17:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[benhassaneamine/geobim-tamansourt: GeoBIM integration for Smart City: GIS territorial data meets LOD 500 as-built BIM in one georeferenced 3D scene. EPSG:26191, IFC4X3, Tamansourt Morocco.]]></title>
-            <description><![CDATA[GeoBIM integration for Smart City: GIS territorial data meets LOD 500 as-built BIM in one georeferenced 3D scene. EPSG:26191, IFC4X3, Tamansourt Morocco.
-El repositorio presenta una integración de datos GIS y BIM en un contexto específico de una ciudad inteligente, pero no es una herramienta o librería para desarrolladores.
-Topics: 3d-visualization, arcgis, bim, cityjson, civil-engineering, digital-twin, geobim, geomatics, georeferencing, gis, ifc, lod500, morocco, openbim, point-cloud, qgis, revit, scan-to-bim, smart-city, surveying · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/benhassaneamine/geobim-tamansourt</link>
-            <guid isPermaLink="false">https://github.com/benhassaneamine/geobim-tamansourt</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[benhassaneamine]]></dc:creator>
-            <pubDate>Sun, 02 Aug 2026 13:21:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Real-Time Viewshed Analysis on Device]]></title>
             <link>https://www.youtube.com/watch?v=9UrZD2v-Uhc</link>
             <guid isPermaLink="false">yt:video:9UrZD2v-Uhc</guid>
@@ -1056,32 +653,6 @@ GitHub repo descubierto (created · consumer)]]></description>
             <link>https://www.dankuida.com/all?topic=arcgis</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:11951118149217076094</guid>
             <pubDate>Sat, 01 Aug 2026 21:43:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[UshioJuzo/ev-charging-panama: Geospatial analysis of Panama's EV charging network across all 699 districts. 143 districts with 1.7M people can afford an EV and have nowhere to charge it.]]></title>
-            <description><![CDATA[Geospatial analysis of Panama's EV charging network across all 699 districts. 143 districts with 1.7M people can afford an EV and have nowhere to charge it.
-Este repositorio se centra en el análisis de la red de carga de vehículos eléctricos en Panamá, pero no ofrece herramientas o librerías para otros desarrolladores.
-Topics: arcgis, data-engineering, electric-vehicles, geospatial, gis, medallion-architecture, panama, python, quarto, spatial-analysis · ⭐ 0 · SCSS
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/UshioJuzo/ev-charging-panama</link>
-            <guid isPermaLink="false">https://github.com/UshioJuzo/ev-charging-panama</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[UshioJuzo]]></dc:creator>
-            <pubDate>Sat, 01 Aug 2026 06:44:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sappiah3/arcgis-utility-network-explorer: Interactive electric utility network explorer built with ArcGIS Maps SDK for JavaScript 4.29 — network tracing, subnetwork visualization, and FeatureEffect]]></title>
-            <description><![CDATA[Interactive electric utility network explorer built with ArcGIS Maps SDK for JavaScript 4.29 — network tracing, subnetwork visualization, and FeatureEffect
-Es un explorador de redes de servicios públicos eléctricas construido con ArcGIS Maps SDK para JavaScript.
-Topics: — · ⭐ 0 · JavaScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/sappiah3/arcgis-utility-network-explorer</link>
-            <guid isPermaLink="false">https://github.com/sappiah3/arcgis-utility-network-explorer</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[sappiah3]]></dc:creator>
-            <pubDate>Sat, 01 Aug 2026 06:03:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Episode 76 - Don’t Write Metadata]]></title>
@@ -1104,19 +675,6 @@ GitHub repo descubierto (created · consumer)]]></description>
             <link>https://developers.arcgis.com/rest/routing/current-release/</link>
             <guid isPermaLink="false">https://rss.rauljimenez.info/events/62</guid>
             <pubDate>Fri, 31 Jul 2026 22:02:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/cad-bim-scripts: A collection of samples for CAD/BIM in ArcGIS Pro that automate common workflows.]]></title>
-            <description><![CDATA[A collection of samples for CAD/BIM in ArcGIS Pro that automate common workflows.
-Una colección de muestras que facilitan la integración de CAD/BIM en ArcGIS Pro.
-Topics: arcgis-pro, arcpy, bim, cad, python · ⭐ 7 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/cad-bim-scripts</link>
-            <guid isPermaLink="false">https://github.com/Esri/cad-bim-scripts</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Fri, 31 Jul 2026 16:32:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -1182,19 +740,6 @@ This script switches Chromium to SwiftShader (CPU) rendering on Debian/Raspberry
             <pubDate>Fri, 31 Jul 2026 02:30:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[tyxo0o315/beijing-taxi-gps-detour-analysis: Beijing taxi GPS trajectory pipeline: hotspot mining, congestion detection, OD extraction, road matching, optimal routing, and detour labeling]]></title>
-            <description><![CDATA[Beijing taxi GPS trajectory pipeline: hotspot mining, congestion detection, OD extraction, road matching, optimal routing, and detour labeling
-Este repositorio se centra en el análisis de trayectorias de taxis en Beijing y no proporciona herramientas o librerías para otros desarrolladores.
-Topics: arcgis, beijing, geopackage, geopandas, geospatial, gis, gps-trajectory, kernel-density-estimation, python, routing, spatial-data-science, taxi-trajectory, traffic-congestion, urban-computing · ⭐ 0 · Jupyter Notebook
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/tyxo0o315/beijing-taxi-gps-detour-analysis</link>
-            <guid isPermaLink="false">https://github.com/tyxo0o315/beijing-taxi-gps-detour-analysis</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[tyxo0o315]]></dc:creator>
-            <pubDate>Fri, 31 Jul 2026 01:44:09 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[For Location Services, Pick a PaaS That Supports Open Development. Here’s Why.]]></title>
             <link>https://www.esri.com/arcgis-blog/products/platform/developers/for-location-services-pick-a-paas-that-supports-open-development-heres-why</link>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2977733</guid>
@@ -1249,19 +794,6 @@ Added a readme file for the jsDiagnosticPiApp, detailing its purpose, usage, met
             <pubDate>Thu, 30 Jul 2026 13:08:15 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[blaqGeorge/SimpleEsriMap: Minimal Android/Kotlin ArcGIS map built on the ArcGIS Maps SDK for Kotlin 200.x with Jetpack Compose]]></title>
-            <description><![CDATA[Minimal Android/Kotlin ArcGIS map built on the ArcGIS Maps SDK for Kotlin 200.x with Jetpack Compose
-Es un proyecto que muestra cómo utilizar el ArcGIS Maps SDK para Kotlin en una aplicación minimalista.
-Topics: — · ⭐ 0 · Kotlin
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/blaqGeorge/SimpleEsriMap</link>
-            <guid isPermaLink="false">https://github.com/blaqGeorge/SimpleEsriMap</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[blaqGeorge]]></dc:creator>
-            <pubDate>Thu, 30 Jul 2026 06:08:02 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[
         ExB Dev デプロイ関連更新
     ]]></title>
@@ -1279,45 +811,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <link>https://arozniak.github.io/malbork-castle-explorer/</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:10974046947047452704</guid>
             <pubDate>Thu, 30 Jul 2026 03:55:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AbelBehonegn/geoquery-ai: AI-powered GIS Full Stack Application using Spring Boot, React, PostgreSQL/PostGIS and ArcGIS Maps SDK.]]></title>
-            <description><![CDATA[AI-powered GIS Full Stack Application using Spring Boot, React, PostgreSQL/PostGIS and ArcGIS Maps SDK.
-Es una aplicación GIS de pila completa impulsada por IA, pero no es un recurso reutilizable para desarrolladores.
-Topics: — · ⭐ 0 · —
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/AbelBehonegn/geoquery-ai</link>
-            <guid isPermaLink="false">https://github.com/AbelBehonegn/geoquery-ai</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[AbelBehonegn]]></dc:creator>
-            <pubDate>Thu, 30 Jul 2026 02:53:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-swift-toolkit: Mapping components that will simplify your Swift app development with the ArcGIS Maps SDK for Swift.]]></title>
-            <description><![CDATA[Mapping components that will simplify your Swift app development with the ArcGIS Maps SDK for Swift.
-Proporciona componentes de mapeo para facilitar el desarrollo de aplicaciones en Swift con ArcGIS.
-Topics: arcgis, arcgis-maps-sdk, arcgis-maps-sdk-swift, runtime, swift, swiftui, toolkit · ⭐ 42 · Swift
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-swift-toolkit</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-swift-toolkit</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 29 Jul 2026 23:45:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nicogis/WebGL: WebGL - ArcGIS API Javascript]]></title>
-            <description><![CDATA[WebGL - ArcGIS API Javascript
-Proporciona herramientas para trabajar con el API de ArcGIS en JavaScript y modelos 3D.
-Topics: arcgis-js-api, collada-model, sweeper, webgl · ⭐ 25 · JavaScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/nicogis/WebGL</link>
-            <guid isPermaLink="false">https://github.com/nicogis/WebGL</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[nicogis]]></dc:creator>
-            <pubDate>Wed, 29 Jul 2026 18:13:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building Security into Your ArcGIS System]]></title>
@@ -1363,32 +856,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Wed, 29 Jul 2026 02:44:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[uhsear/fcload: Load a dataset into a geodatabase, refusing the imports that corrupt silently. Dry run by default.]]></title>
-            <description><![CDATA[Load a dataset into a geodatabase, refusing the imports that corrupt silently. Dry run by default.
-fcload permite cargar datasets en una geodatabase, asegurando que no se realicen importaciones corruptas.
-Topics: arcgis, arcpy, data-quality, esri, etl, geodatabase, gis, python · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/fcload</link>
-            <guid isPermaLink="false">https://github.com/uhsear/fcload</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Wed, 29 Jul 2026 02:04:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uhsear/hostedreap: Delete hosted feature layer rows that no longer exist in your source, backup first. Dry run by default.]]></title>
-            <description><![CDATA[Delete hosted feature layer rows that no longer exist in your source, backup first. Dry run by default.
-Permite eliminar filas de capas alojadas que ya no existen en la fuente, con opción de respaldo.
-Topics: arcgis, arcgis-online, cli, esri, etl, feature-layer, gis, python · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/hostedreap</link>
-            <guid isPermaLink="false">https://github.com/uhsear/hostedreap</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Wed, 29 Jul 2026 00:09:47 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[AI Made My ArcGIS App Slower, How I Fixed It ArcGIS Online + Maps SDK Complete Workflow (Part 4)]]></title>
             <link>https://www.youtube.com/watch?v=D8myCIms-jc</link>
             <guid isPermaLink="false">yt:video:D8myCIms-jc</guid>
@@ -1401,32 +868,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <link>https://www.sorce.jobs/jobs/gis-programmer-for-bahrain-vam-systems-j1_OuSQ_89USNGDMEiYmX4L239SvhF5tZ2rz4sbkUpLj_T7TV_w</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:6253883794515137996</guid>
             <pubDate>Tue, 28 Jul 2026 17:57:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[markdav-is/ArcBlazor: Minimal wrapper around the ArcGIS SDK for fast rendering of maps and choosing pins. ]]></title>
-            <description><![CDATA[Minimal wrapper around the ArcGIS SDK for fast rendering of maps and choosing pins. 
-Proporciona una forma rápida de renderizar mapas y seleccionar pines utilizando el SDK de ArcGIS.
-Topics: — · ⭐ 0 · —
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/markdav-is/ArcBlazor</link>
-            <guid isPermaLink="false">https://github.com/markdav-is/ArcBlazor</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[markdav-is]]></dc:creator>
-            <pubDate>Tue, 28 Jul 2026 17:09:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[alimoeinkhah/tehran-local-climate-zone-mapping: Mapping Tehran's Local Climate Zones using Landsat 8, ENVI, SAGA GIS, and ArcGIS, with 84.30% overall accuracy and a Kappa coefficient of 0.83.]]></title>
-            <description><![CDATA[Mapping Tehran's Local Climate Zones using Landsat 8, ENVI, SAGA GIS, and ArcGIS, with 84.30% overall accuracy and a Kappa coefficient of 0.83.
-El repositorio se centra en el mapeo de zonas climáticas locales en Teherán y no proporciona herramientas o librerías para desarrolladores.
-Topics: arcgis, gis, image-processing, landsat-8, local-climate-zones, remote-sensing, saga-gis, spatial-analysis, urban-climate · ⭐ 0 · —
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/alimoeinkhah/tehran-local-climate-zone-mapping</link>
-            <guid isPermaLink="false">https://github.com/alimoeinkhah/tehran-local-climate-zone-mapping</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[alimoeinkhah]]></dc:creator>
-            <pubDate>Tue, 28 Jul 2026 17:08:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Heathrow introduces a real-time geospatial platform - ADS Advance]]></title>
@@ -1457,19 +898,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <pubDate>Tue, 28 Jul 2026 13:00:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[uhsear/safe-republish: Refuse to truncate a feature class when the staged replacement fails a plausibility check. Dry run by default.]]></title>
-            <description><![CDATA[Refuse to truncate a feature class when the staged replacement fails a plausibility check. Dry run by default.
-Proporciona una funcionalidad para evitar la truncación de clases de características en caso de fallos en la verificación de plausibilidad.
-Topics: arcgis, arcpy, data-quality, esri, etl, geodatabase, gis, python · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/safe-republish</link>
-            <guid isPermaLink="false">https://github.com/uhsear/safe-republish</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Tue, 28 Jul 2026 10:28:46 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Action Required: ArcGIS Online and Location Platform SAML Customers]]></title>
             <description><![CDATA[Customers that have configured the SAML options &quot;Enabled Signed Requests&quot; or &quot;Encrypt Assertion&quot; must update their ArcGIS Online metadata file.]]></description>
             <link>https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/action-required-arcgis-online-saml-customers</link>
@@ -1485,76 +913,11 @@ GitHub repo descubierto (created · devtool)]]></description>
             <pubDate>Tue, 28 Jul 2026 04:10:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[uhsear/arcade-rule-deploy: Deploy Arcade calculation attribute rules to a geodatabase, preflight-checked and idempotent. Resolves every FeatureSetByName reference before writing.]]></title>
-            <description><![CDATA[Deploy Arcade calculation attribute rules to a geodatabase, preflight-checked and idempotent. Resolves every FeatureSetByName reference before writing.
-Permite a los desarrolladores implementar reglas de atributos de Arcade de manera eficiente.
-Topics: arcade, arcgis, arcpy, attribute-rules, esri, geodatabase, gis, python · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/arcade-rule-deploy</link>
-            <guid isPermaLink="false">https://github.com/uhsear/arcade-rule-deploy</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 22:46:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-unreal-engine-samples: Sample code for the ArcGIS Maps SDK for Unreal Engine.]]></title>
-            <description><![CDATA[Sample code for the ArcGIS Maps SDK for Unreal Engine.
-Este repositorio contiene muestras de código para utilizar el ArcGIS Maps SDK en Unreal Engine.
-Topics: arcgis, arcgis-maps-sdk, blueprints, engine, esri, game-engine, unreal, unreal-engine-5 · ⭐ 91 · C++
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-unreal-engine-samples</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-unreal-engine-samples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 22:45:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uhsear/gdbprune: Delete stale leaf versions from a traditionally-versioned Enterprise geodatabase, printing the plan first. Dry run by default.]]></title>
-            <description><![CDATA[Delete stale leaf versions from a traditionally-versioned Enterprise geodatabase, printing the plan first. Dry run by default.
-gdbprune permite eliminar versiones obsoletas de una geodatabase empresarial de ArcGIS, facilitando la administración de datos.
-Topics: arcgis, arcgis-enterprise, dba, esri, geodatabase, gis, python, sde · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/gdbprune</link>
-            <guid isPermaLink="false">https://github.com/uhsear/gdbprune</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 22:06:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uhsear/svcguard: Guarantee an ArcGIS Server service restarts around risky maintenance, even on failure. Standard library only, no arcpy.]]></title>
-            <description><![CDATA[Guarantee an ArcGIS Server service restarts around risky maintenance, even on failure. Standard library only, no arcpy.
-Proporciona una biblioteca para garantizar que los servicios de ArcGIS Server se reinicien durante el mantenimiento.
-Topics: arcgis, arcgis-server, cli, esri, gis, maintenance, python, sysadmin · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/svcguard</link>
-            <guid isPermaLink="false">https://github.com/uhsear/svcguard</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 22:06:19 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Detected changes on: Mapping and location services guide What's New / Release notes Page]]></title>
             <description><![CDATA[Change detected on monitored page.]]></description>
             <link>https://developers.arcgis.com/documentation/mapping-and-location-services/popular-topics/</link>
             <guid isPermaLink="false">https://rss.rauljimenez.info/events/61</guid>
             <pubDate>Mon, 27 Jul 2026 22:03:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uhsear/arcpy-nullscan: Report NULL and blank values across every layer and standalone table in an ArcGIS Pro map, including null geometry and standalone tables that naive scripts miss.]]></title>
-            <description><![CDATA[Report NULL and blank values across every layer and standalone table in an ArcGIS Pro map, including null geometry and standalone tables that naive scripts miss.
-Permite reportar valores nulos y en blanco en capas y tablas, mejorando la calidad de los datos en proyectos de ArcGIS.
-Topics: arcgis, arcgis-pro, arcpy, data-quality, esri, gis, python, qa · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/arcpy-nullscan</link>
-            <guid isPermaLink="false">https://github.com/uhsear/arcpy-nullscan</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 20:29:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ar/<b>arcgis</b>-pro-<b>sdk</b>-community-samples - Map-Exploration - GitCode]]></title>
@@ -1569,32 +932,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <guid isPermaLink="false">yt:video:5TbDf2hhJMg</guid>
             <dc:creator><![CDATA[Esri Developers]]></dc:creator>
             <pubDate>Mon, 27 Jul 2026 14:05:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Waliz521/mawal-nt-site-viewer-esri: ArcGIS Maps SDK edition of the Mawal NT community power-station site viewer — satellite maps, KML layer overlays, traffic-light status, and site metadata from Supabase. Companion to the Leaflet production app.]]></title>
-            <description><![CDATA[ArcGIS Maps SDK edition of the Mawal NT community power-station site viewer — satellite maps, KML layer overlays, traffic-light status, and site metadata from Supabase. Companion to the Leaflet production app.
-Es un visor de sitio para una estación de energía comunitaria que utiliza el SDK de ArcGIS.
-Topics: — · ⭐ 0 · JavaScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Waliz521/mawal-nt-site-viewer-esri</link>
-            <guid isPermaLink="false">https://github.com/Waliz521/mawal-nt-site-viewer-esri</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Waliz521]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 08:57:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[m-junad-sabir/sphf-webgis: This is WebGIS Dashboard for SPHF Client of NESPAK]]></title>
-            <description><![CDATA[This is WebGIS Dashboard for SPHF Client of NESPAK
-Es un dashboard WebGIS para un cliente específico, no una herramienta o librería reutilizable.
-Topics: arcgis, arcgis-enterprise, arcgis-js-api, arcgis-server, data-visualization, gis, layers, vectors, webgis · ⭐ 0 · —
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/m-junad-sabir/sphf-webgis</link>
-            <guid isPermaLink="false">https://github.com/m-junad-sabir/sphf-webgis</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[m-junad-sabir]]></dc:creator>
-            <pubDate>Mon, 27 Jul 2026 08:08:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -1621,63 +958,11 @@ GitHub repo descubierto (created · consumer)]]></description>
             <pubDate>Mon, 27 Jul 2026 04:36:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mchaynes/geodatadownloader: A downloader of geodata]]></title>
-            <description><![CDATA[A downloader of geodata
-Geodatadownloader es una herramienta útil para desarrolladores que necesitan descargar datos geoespaciales desde ArcGIS.
-Topics: arcgis, geojson, javascript · ⭐ 106 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/mchaynes/geodatadownloader</link>
-            <guid isPermaLink="false">https://github.com/mchaynes/geodatadownloader</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[mchaynes]]></dc:creator>
-            <pubDate>Sun, 26 Jul 2026 22:47:13 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MapToolWithCustomPopup/Config ...]]></title>
             <description><![CDATA[<b>arcgis</b>-pro-<b>sdk</b>-community-samples/Map-Exploration/MapToolWithCustomPopup/Config ... png&lt;/Image&gt; &lt;Author&gt;<b>ArcGIS</b> Pro <b>SDK</b> Team, arcgisprosdk@<b>esri</b>.com&lt;/&nbsp;...]]></description>
             <link>https://gitcode.com/gh_mirrors/ar/arcgis-pro-sdk-community-samples/blob/master/Map-Exploration/MapToolWithCustomPopup/Config.daml</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:1794912792888099918</guid>
             <pubDate>Sun, 26 Jul 2026 16:19:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[shaffdaddy/EsriGeometryEditorVisibilityBug: Minimal repro: ArcGIS Maps SDK for .NET MAUI GeometryEditor ignores graphic/overlay visibilit on Android during an active edit]]></title>
-            <description><![CDATA[Minimal repro: ArcGIS Maps SDK for .NET MAUI GeometryEditor ignores graphic/overlay visibilit on Android during an active edit
-Este repositorio es un caso mínimo de un bug y no proporciona herramientas o recursos para otros desarrolladores.
-Topics: — · ⭐ 0 · C#
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/shaffdaddy/EsriGeometryEditorVisibilityBug</link>
-            <guid isPermaLink="false">https://github.com/shaffdaddy/EsriGeometryEditorVisibilityBug</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[shaffdaddy]]></dc:creator>
-            <pubDate>Sun, 26 Jul 2026 12:14:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Meandmybadself/gunflint-parcel-tool: Subdivide a 10-acre parcel on the Gunflint Trail and value each piece against Cook County zoning, road access and Ordinance 37]]></title>
-            <description><![CDATA[Subdivide a 10-acre parcel on the Gunflint Trail and value each piece against Cook County zoning, road access and Ordinance 37
-Es una herramienta para subdividir terrenos en una ubicación específica, no es reutilizable por otros desarrolladores.
-Topics: arcgis, gis, land-use, leaflet, minnesota, turfjs, zoning · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Meandmybadself/gunflint-parcel-tool</link>
-            <guid isPermaLink="false">https://github.com/Meandmybadself/gunflint-parcel-tool</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Meandmybadself]]></dc:creator>
-            <pubDate>Sat, 25 Jul 2026 16:39:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rcfdtools/R.TSIG: CURSO: Sistemas de información geográfica aplicados en ingeniería - TSIG]]></title>
-            <description><![CDATA[CURSO: Sistemas de información geográfica aplicados en ingeniería - TSIG
-Este repositorio es un curso sobre sistemas de información geográfica aplicados en ingeniería, no es una herramienta o librería reutilizable.
-Topics: 3d, arcgis, copernicus, digital-elevation-model, dsm, dtm, era5, gis, landsat, lidar, mapping-system, network-analyst, qgis, spatial-analyst · ⭐ 6 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/rcfdtools/R.TSIG</link>
-            <guid isPermaLink="false">https://github.com/rcfdtools/R.TSIG</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[rcfdtools]]></dc:creator>
-            <pubDate>Sat, 25 Jul 2026 15:47:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[HV Transmission Line GIS Project | GPS Pole Numbering Complete Tutorial in Hindi - YouTube]]></title>
@@ -1709,45 +994,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Fri, 24 Jul 2026 22:19:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[cosmosandyou/dublin-urban-intervention-simulator: Explainable geospatial decision twin for comparing green active-travel interventions in Dublin.]]></title>
-            <description><![CDATA[Explainable geospatial decision twin for comparing green active-travel interventions in Dublin.
-Es un simulador de intervenciones urbanas en Dublín, orientado a usuarios finales.
-Topics: arcgis, data, decision-support, geospatial, gis, javascript, urban-planning, visualization · ⭐ 0 · JavaScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/cosmosandyou/dublin-urban-intervention-simulator</link>
-            <guid isPermaLink="false">https://github.com/cosmosandyou/dublin-urban-intervention-simulator</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[cosmosandyou]]></dc:creator>
-            <pubDate>Fri, 24 Jul 2026 21:33:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cosmosandyou/civicflow-ai: AI-powered GIS command centre for civic issue triage, mapping, and routing.]]></title>
-            <description><![CDATA[AI-powered GIS command centre for civic issue triage, mapping, and routing.
-Es un centro de comando GIS impulsado por IA para la gestión de problemas cívicos.
-Topics: ai-automation, arcgis, dashboard, gis, javascript, public-sector · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/cosmosandyou/civicflow-ai</link>
-            <guid isPermaLink="false">https://github.com/cosmosandyou/civicflow-ai</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[cosmosandyou]]></dc:creator>
-            <pubDate>Fri, 24 Jul 2026 21:12:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[joshuasundance-swca/restgdf: Async, typed Python client for Esri ArcGIS REST services — turn FeatureServer/MapServer layers into GeoDataFrames.]]></title>
-            <description><![CDATA[Async, typed Python client for Esri ArcGIS REST services — turn FeatureServer/MapServer layers into GeoDataFrames.
-Proporciona una forma asíncrona y tipada de interactuar con servicios de ArcGIS, convirtiendo capas en GeoDataFrames.
-Topics: aiohttp, arcgis, arcgis-rest-api, async, asyncio, dataframe, esri, feature-service, geopandas, geospatial, gis, map-service, pydantic, pydantic-v2, python, rest, rest-api · ⭐ 7 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/joshuasundance-swca/restgdf</link>
-            <guid isPermaLink="false">https://github.com/joshuasundance-swca/restgdf</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[joshuasundance-swca]]></dc:creator>
-            <pubDate>Fri, 24 Jul 2026 20:03:55 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Trump Media&#39;s $100k-a-month Truth Social scheme is the president&#39;s most desperate grift yet]]></title>
             <description><![CDATA[Truth <b>API</b> is what happens when a historically unpopular lame-duck president needs to lock in a revenue stream before he leaves office.]]></description>
             <link>https://www.fastcompany.com/91578022/trump-media-truth-social-api-100k-a-month-enriches-president</link>
@@ -1776,19 +1022,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Fri, 24 Jul 2026 06:18:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[buschbrian/utah-reservoir-dashboard: Static ArcGIS Maps SDK for JS dashboard of Utah reservoir drought conditions]]></title>
-            <description><![CDATA[Static ArcGIS Maps SDK for JS dashboard of Utah reservoir drought conditions
-Es un dashboard estático que utiliza el SDK de ArcGIS Maps para JS.
-Topics: — · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/buschbrian/utah-reservoir-dashboard</link>
-            <guid isPermaLink="false">https://github.com/buschbrian/utah-reservoir-dashboard</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[buschbrian]]></dc:creator>
-            <pubDate>Fri, 24 Jul 2026 02:37:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[
         JSとCalciteのページ編集
     ]]></title>
@@ -1806,32 +1039,6 @@ GitHub repo descubierto (created · consumer)]]></description>
             <link>https://apps.microsoft.com/related/9n42ft9v1sr1?hl=qu-PE&amp;gl=US</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:9499110191097040487</guid>
             <pubDate>Thu, 23 Jul 2026 19:09:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rramirezgit/vue-arcgis-demo: Visor de pozos argentinos con Vue 3 + ArcGIS Maps SDK for JavaScript 5.1]]></title>
-            <description><![CDATA[Visor de pozos argentinos con Vue 3 + ArcGIS Maps SDK for JavaScript 5.1
-Es un visor de pozos argentinos utilizando Vue y ArcGIS, pero no es una herramienta reutilizable para desarrolladores.
-Topics: — · ⭐ 0 · Vue
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/rramirezgit/vue-arcgis-demo</link>
-            <guid isPermaLink="false">https://github.com/rramirezgit/vue-arcgis-demo</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[rramirezgit]]></dc:creator>
-            <pubDate>Thu, 23 Jul 2026 18:40:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gavinr-maps/experience-builder-devops-example: Use Experience Builder within a devops workflow to automatically build the app on commit.]]></title>
-            <description><![CDATA[Use Experience Builder within a devops workflow to automatically build the app on commit.
-Este repositorio proporciona un ejemplo de cómo automatizar la construcción de aplicaciones de Experience Builder utilizando GitHub Actions.
-Topics: arcgis-experience-builder, devops, experience-builder, github-actions · ⭐ 30 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/gavinr-maps/experience-builder-devops-example</link>
-            <guid isPermaLink="false">https://github.com/gavinr-maps/experience-builder-devops-example</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[gavinr-maps]]></dc:creator>
-            <pubDate>Thu, 23 Jul 2026 17:50:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to make textured basemaps with AI, the VTSE, and your wits]]></title>
@@ -1863,19 +1070,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Wed, 22 Jul 2026 22:13:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Jellismt/FWP_Handoff: Engage MT — Montana's official gateway to the outdoors. Web + mobile map app (React/ArcGIS/Capacitor) with the FWP Regs Manager API & staff console. MIT-licensed v1.0.0 handoff to Montana FWP.]]></title>
-            <description><![CDATA[Engage MT — Montana's official gateway to the outdoors. Web + mobile map app (React/ArcGIS/Capacitor) with the FWP Regs Manager API & staff console. MIT-licensed v1.0.0 handoff to Montana FWP.
-Es una aplicación web y móvil que sirve como puerta de entrada oficial a actividades al aire libre en Montana.
-Topics: arcgis, capacitor, fastify, fishing, gis, government, hunting, mapping, mit-license, montana, outdoor-recreation, postgresql, react, typescript · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Jellismt/FWP_Handoff</link>
-            <guid isPermaLink="false">https://github.com/Jellismt/FWP_Handoff</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Jellismt]]></dc:creator>
-            <pubDate>Wed, 22 Jul 2026 16:12:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ArcGIS Maps SDK for JavaScript: App Development with Components, Part 2: Using Frameworks]]></title>
             <link>https://www.youtube.com/watch?v=8mfanlOS8p4</link>
             <guid isPermaLink="false">yt:video:8mfanlOS8p4</guid>
@@ -1904,89 +1098,11 @@ GitHub repo descubierto (created · consumer)]]></description>
             <pubDate>Tue, 21 Jul 2026 21:23:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp: Conversational hurricane-risk map built on the ArcGIS Maps SDK for JavaScript and the beta ArcGIS AI components. Ask in plain English to find similar geodemographic areas, explain an area's risk/demographics, add live Living Atlas layers, and zoom to bookmarks — powered by custom client-side AI agents.]]></title>
-            <description><![CDATA[Conversational hurricane-risk map built on the ArcGIS Maps SDK for JavaScript and the beta ArcGIS AI components. Ask in plain English to find similar geodemographic areas, explain an area's risk/demographics, add live Living Atlas layers, and zoom to bookmarks — powered by custom client-side AI agents.
-Es una aplicación de demostración que utiliza componentes de IA de ArcGIS para mostrar riesgos de huracanes.
-Topics: — · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp</link>
-            <guid isPermaLink="false">https://github.com/valdesrosier/arcgis-aicomponents-hurricanerisk-demoapp</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[valdesrosier]]></dc:creator>
-            <pubDate>Tue, 21 Jul 2026 20:33:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uhsear/sightline: Audit ArcGIS Online web maps for layers their viewers cannot see. Finds broken sharing, dead services, and public maps pointing at secured data.]]></title>
-            <description><![CDATA[Audit ArcGIS Online web maps for layers their viewers cannot see. Finds broken sharing, dead services, and public maps pointing at secured data.
-Sightline permite a los desarrolladores verificar la visibilidad y el estado de los mapas en ArcGIS Online.
-Topics: arcgis, arcgis-online, audit, cli, esri, gis, python, security · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/sightline</link>
-            <guid isPermaLink="false">https://github.com/uhsear/sightline</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Tue, 21 Jul 2026 19:32:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uhsear/fullpull: Download every layer of an ArcGIS REST service into a File Geodatabase, verified complete against the server's own record count.]]></title>
-            <description><![CDATA[Download every layer of an ArcGIS REST service into a File Geodatabase, verified complete against the server's own record count.
-Permite descargar todas las capas de un servicio REST de ArcGIS a una Geodatabase de archivos.
-Topics: arcgis, arcgis-pro, arcpy, esri, featureserver, geodatabase, gis, mapserver, python, rest-api · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/uhsear/fullpull</link>
-            <guid isPermaLink="false">https://github.com/uhsear/fullpull</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[uhsear]]></dc:creator>
-            <pubDate>Tue, 21 Jul 2026 19:04:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[itsmadson/Varasi: AI-powered geospatial Change Detection platform. A Raster Catalog + Analysis Engine — references imagery in external storage, does not own it.]]></title>
-            <description><![CDATA[AI-powered geospatial Change Detection platform. A Raster Catalog + Analysis Engine — references imagery in external storage, does not own it.
-Varasi es una plataforma impulsada por IA para la detección de cambios geoespaciales que incluye un motor de análisis.
-Topics: arcgis, change-detection, geo, geoenigne, raster · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/itsmadson/Varasi</link>
-            <guid isPermaLink="false">https://github.com/itsmadson/Varasi</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[itsmadson]]></dc:creator>
-            <pubDate>Tue, 21 Jul 2026 17:34:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jameseaster/arcq: A fast CLI for querying ArcGIS feature services - built for humans and coding agents.]]></title>
-            <description><![CDATA[A fast CLI for querying ArcGIS feature services - built for humans and coding agents.
-Proporciona una interfaz rápida y amigable para consultar servicios de características de ArcGIS.
-Topics: ai-agents, arcgis, cli, esri, feature-service, gis, nodejs, typescript · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/jameseaster/arcq</link>
-            <guid isPermaLink="false">https://github.com/jameseaster/arcq</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[jameseaster]]></dc:creator>
-            <pubDate>Tue, 21 Jul 2026 15:58:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[<b>ArcGIS</b> with <b>Javascript</b> Training in Pune, India - ProgNXT]]></title>
             <description><![CDATA[... <b>ArcGIS JavaScript API</b>. It covers the fundamentals of web GIS, <b>Esri&#39;s</b> architecture, and how to leverage the <b>API</b> to create, manipulate, and&nbsp;...]]></description>
             <link>https://prognxt.com/events/arcgis-with-javascript-training/pune/june-2026</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:11934880581099644239</guid>
             <pubDate>Tue, 21 Jul 2026 13:28:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[origo-map/origo: Origo]]></title>
-            <description><![CDATA[Origo
-Origo es una herramienta que permite la creación de mapas web utilizando estándares abiertos.
-Topics: arcgis, map, openlayers, origo, wfs, wms, wmts · ⭐ 74 · JavaScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/origo-map/origo</link>
-            <guid isPermaLink="false">https://github.com/origo-map/origo</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[origo-map]]></dc:creator>
-            <pubDate>Mon, 20 Jul 2026 23:06:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Developer’s Lounge: Empowering Users to Navigate Their Way Around Documentation with a New Ask AI Feature]]></title>
@@ -2036,19 +1152,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <link>https://www.autoconnectedcar.com/2026/07/connected-car-news-stmicroelectronics-lyft-curb-uber-ford-bmw-openai-here-esri-honda-google-microvision-luminar-technologies-bosch/</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:4999633371092191873</guid>
             <pubDate>Sun, 19 Jul 2026 19:48:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-dotnet-toolkit: Toolkit for ArcGIS Maps SDK for .NET]]></title>
-            <description><![CDATA[Toolkit for ArcGIS Maps SDK for .NET
-Proporciona herramientas y recursos para facilitar el desarrollo de aplicaciones utilizando ArcGIS en plataformas .NET.
-Topics: arcgis-runtime-sdk, csharp, native-development, toolkit, uwp, wpf, xamarin, xamarin-android, xamarin-forms, xamarin-ios, xaml · ⭐ 244 · C#
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-dotnet-toolkit</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-dotnet-toolkit</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Sat, 18 Jul 2026 00:04:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Episode 74 - Would You Let AI Plan Your Vacation?]]></title>
@@ -2135,84 +1238,6 @@ Uploading a New Sample FlightPathsWithCurtain and Editing Previous Sample</pre>
             <pubDate>Thu, 16 Jul 2026 23:46:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[KarinVandenburgh/Iceland_Map: This is a work in progress, it is currently a map that features icelands volcanos, it utilized ArcGIS SDK for JS and React]]></title>
-            <description><![CDATA[This is a work in progress, it is currently a map that features icelands volcanos, it utilized ArcGIS SDK for JS and React
-Es un mapa que presenta volcanes de Islandia utilizando ArcGIS SDK para JS y React, pero es un trabajo en progreso.
-Topics: — · ⭐ 0 · CSS
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/KarinVandenburgh/Iceland_Map</link>
-            <guid isPermaLink="false">https://github.com/KarinVandenburgh/Iceland_Map</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[KarinVandenburgh]]></dc:creator>
-            <pubDate>Thu, 16 Jul 2026 20:52:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PranavAchar01/solar-site-suitability: Multi-criteria GIS site-suitability analysis for utility-scale solar siting — cross-platform Python (rasterio/geopandas) + an ArcGIS Pro arcpy toolbox sharing one weighted-overlay model.]]></title>
-            <description><![CDATA[Multi-criteria GIS site-suitability analysis for utility-scale solar siting — cross-platform Python (rasterio/geopandas) + an ArcGIS Pro arcpy toolbox sharing one weighted-overlay model.
-Proporciona un modelo de superposición ponderada para análisis de sitios solares en ArcGIS Pro.
-Topics: arcgis-pro, arcpy, geopandas, geospatial, gis, python, rasterio, site-suitability, spatial-analysis, weighted-overlay · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/PranavAchar01/solar-site-suitability</link>
-            <guid isPermaLink="false">https://github.com/PranavAchar01/solar-site-suitability</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[PranavAchar01]]></dc:creator>
-            <pubDate>Thu, 16 Jul 2026 20:04:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dharv85/pano-viewer: ArcGIS Experience Builder custom widget — 360 panorama viewer with per-site phase toggles (built for SLR mine reclamation deliverables)]]></title>
-            <description><![CDATA[ArcGIS Experience Builder custom widget — 360 panorama viewer with per-site phase toggles (built for SLR mine reclamation deliverables)
-Este repositorio ofrece un widget de visualización de panoramas 360 para ArcGIS Experience Builder, útil para desarrolladores que buscan integrar esta funcionalidad en sus proyectos.
-Topics: — · ⭐ 0 · —
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/dharv85/pano-viewer</link>
-            <guid isPermaLink="false">https://github.com/dharv85/pano-viewer</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[dharv85]]></dc:creator>
-            <pubDate>Thu, 16 Jul 2026 14:18:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-experience-builder-sdk-resources: ArcGIS Experience Builder samples]]></title>
-            <description><![CDATA[ArcGIS Experience Builder samples
-Incluye muestras y recursos útiles para desarrolladores que trabajan con ArcGIS Experience Builder.
-Topics: arcgis-experience-builder, data-sources, experience-builder, experience-builder-widgets, theme-sample, widget-development, widget-sample · ⭐ 208 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-experience-builder-sdk-resources</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-experience-builder-sdk-resources</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Thu, 16 Jul 2026 06:14:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[robdon3/osm-4x-grand-strategy: OSM-powered 4X grand strategy game for macOS (Apple Silicon) — Unity 6, ArcGIS Maps SDK, seamless strategic↔tactical zoom]]></title>
-            <description><![CDATA[OSM-powered 4X grand strategy game for macOS (Apple Silicon) — Unity 6, ArcGIS Maps SDK, seamless strategic↔tactical zoom
-Un juego de estrategia que utiliza OSM y ArcGIS, pero no es una herramienta para desarrolladores.
-Topics: — · ⭐ 0 · Python
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/robdon3/osm-4x-grand-strategy</link>
-            <guid isPermaLink="false">https://github.com/robdon3/osm-4x-grand-strategy</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[robdon3]]></dc:creator>
-            <pubDate>Thu, 16 Jul 2026 03:46:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-unity-samples: Sample code for the ArcGIS Maps SDK for Unity.]]></title>
-            <description><![CDATA[Sample code for the ArcGIS Maps SDK for Unity.
-Proporciona muestras útiles para desarrolladores que trabajan con el SDK de ArcGIS en Unity.
-Topics: arcgis, arcgis-maps-sdk-for-unity, charp, esri, game-engine, samples, sdk, unity · ⭐ 136 · C#
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-unity-samples</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-unity-samples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 15 Jul 2026 22:36:26 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[<b>Esri</b> Introduces <b>ArcGIS</b> for ServiceNow, Bringing Location Intelligence into Everyday ... - 뉴스와이어]]></title>
             <description><![CDATA[Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, <b>ArcGIS</b> ... <b>API</b> &middot; MediaBeenew! 서울시 중구&nbsp;...]]></description>
             <link>https://www.newswire.co.kr/newsRead.php?no=1038676</link>
@@ -2225,19 +1250,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <link>https://www.newswire.co.kr/newsRead.php?no=1038668</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:12392577887824330790</guid>
             <pubDate>Wed, 15 Jul 2026 17:51:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vannizhang/unemployment-pulse: visualize 14-month of unemployment data at the state and county level.]]></title>
-            <description><![CDATA[visualize 14-month of unemployment data at the state and county level.
-El repositorio visualiza datos de desempleo a nivel estatal y de condado.
-Topics: arcgis-js-api, living-atlas · ⭐ 8 · CSS
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/vannizhang/unemployment-pulse</link>
-            <guid isPermaLink="false">https://github.com/vannizhang/unemployment-pulse</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[vannizhang]]></dc:creator>
-            <pubDate>Wed, 15 Jul 2026 15:14:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[HERE Technologies and <b>Esri</b> partner to develop location analytics to support AI adoption]]></title>
@@ -2268,19 +1280,6 @@ GitHub repo descubierto (pushed · consumer)]]></description>
             <pubDate>Wed, 15 Jul 2026 11:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[AlbertGallegoJimenez/SEATool: Explore the dynamic history of coastlines with SEATool (Shoreline Evolution Analysis Toolbox). This repository houses a set of tools that allow the user to perform simple and automated regression analysis of a given coastal zone, all integrated into ArcGIS Pro.]]></title>
-            <description><![CDATA[Explore the dynamic history of coastlines with SEATool (Shoreline Evolution Analysis Toolbox). This repository houses a set of tools that allow the user to perform simple and automated regression analysis of a given coastal zone, all integrated into ArcGIS Pro.
-SEATool proporciona herramientas para realizar análisis de regresión automatizados en zonas costeras dentro de ArcGIS Pro.
-Topics: arcgis-pro, gis-development, remote-sensing, shoreline-change-analysis · ⭐ 11 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/AlbertGallegoJimenez/SEATool</link>
-            <guid isPermaLink="false">https://github.com/AlbertGallegoJimenez/SEATool</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[AlbertGallegoJimenez]]></dc:creator>
-            <pubDate>Wed, 15 Jul 2026 10:58:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[
         Pro SDK の index を更新
     ]]></title>
@@ -2307,37 +1306,11 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Wed, 15 Jul 2026 01:54:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Esri/dynamic-situational-awareness-qt: Dynamic Situational Awareness Qt]]></title>
-            <description><![CDATA[Dynamic Situational Awareness Qt
-Este repositorio contiene una aplicación de conciencia situacional dinámica construida con el SDK de ArcGIS para Qt.
-Topics: arcgis, arcgis-maps-sdk-for-native-apps, arcgis-maps-sdk-for-qt, arcgis-runtime-sdk, arcgis-runtime-sdk-arcgis-qt-sdk, open-source-app, qml, qt, runtime · ⭐ 65 · C++
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/Esri/dynamic-situational-awareness-qt</link>
-            <guid isPermaLink="false">https://github.com/Esri/dynamic-situational-awareness-qt</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Tue, 14 Jul 2026 23:02:59 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[CityEngine 2026 expands Python and streets - DIGITAL PRODUCTION]]></title>
             <description><![CDATA[That makes the <b>ArcGIS</b> CityEngine <b>API</b> more practical for automation and ... Not judging! https://www.<b>esri</b>.com/<b>arcgis</b>-blog/app/. The CGA code&nbsp;...]]></description>
             <link>https://digitalproduction.com/2026/07/14/cityengine-2026-expands-python-and-streets/</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:17457809392186849010</guid>
             <pubDate>Tue, 14 Jul 2026 22:04:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[utility-network/utility-network: Engineering-grade reference and Python automation for utility network GIS — topology tracing, outage routing, and asset lifecycle management.]]></title>
-            <description><![CDATA[Engineering-grade reference and Python automation for utility network GIS — topology tracing, outage routing, and asset lifecycle management.
-Es una herramienta útil para desarrolladores que trabajan con redes de servicios públicos en ArcGIS.
-Topics: arcgis, asset-management, electric-utilities, eleventy, esri, geopandas, geospatial, gis, gis-automation, infrastructure, networkx, outage-management, python, topology, utility-network, water-utilities · ⭐ 0 · CSS
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/utility-network/utility-network</link>
-            <guid isPermaLink="false">https://github.com/utility-network/utility-network</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[utility-network]]></dc:creator>
-            <pubDate>Tue, 14 Jul 2026 18:29:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Resources for Migrating from ArcGIS Web AppBuilder to Experience Builder]]></title>
@@ -2413,19 +1386,6 @@ sanitize api key</pre>
             <link>https://www.moomoo.com/community/feed/servicenow-now-us-esri-inc-just-announced-servicenow-partnership-at-116913602036117</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:9739315042839581414</guid>
             <pubDate>Mon, 13 Jul 2026 17:03:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vertigis/vertigis-web-sdk: The SDK for VertiGIS Studio Web]]></title>
-            <description><![CDATA[The SDK for VertiGIS Studio Web
-Proporciona herramientas para construir aplicaciones web utilizando el SDK de VertiGIS Studio.
-Topics: arcgis, geocortex, gis, sdk, vertigis, web · ⭐ 7 · JavaScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/vertigis/vertigis-web-sdk</link>
-            <guid isPermaLink="false">https://github.com/vertigis/vertigis-web-sdk</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[vertigis]]></dc:creator>
-            <pubDate>Mon, 13 Jul 2026 15:38:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SkyFi Puts Satellite Imagery Search, Ordering, and Streaming Inside <b>ArcGIS</b>]]></title>
@@ -2514,32 +1474,6 @@ L'ArcGIS Maps SDK for JavaScript est désormais disponible en version 5.1 ! Cett
             <pubDate>Mon, 13 Jul 2026 12:26:41 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[joewdavies/awesome-frontend-gis: Geospatial resources for web development :earth_africa: 🗺️]]></title>
-            <description><![CDATA[Geospatial resources for web development :earth_africa: 🗺️
-Este repositorio es una colección de recursos geoespaciales para desarrollo web, pero no proporciona herramientas o librerías específicas para desarrolladores.
-Topics: arcgis, awesome, awesome-list, data-visualization, frontend, geo, geographic-data, geographical-information-system, geography, geojson, geospatial, geospatial-analysis, geospatial-data, gis, map, mapping, maps, open-source, visualization, webgl · ⭐ 828 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/joewdavies/awesome-frontend-gis</link>
-            <guid isPermaLink="false">https://github.com/joewdavies/awesome-frontend-gis</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[joewdavies]]></dc:creator>
-            <pubDate>Mon, 13 Jul 2026 08:44:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-kotlin-toolkit: ArcGIS Maps SDK for Kotlin Toolkit]]></title>
-            <description><![CDATA[ArcGIS Maps SDK for Kotlin Toolkit
-Proporciona herramientas y componentes para integrar mapas de ArcGIS en aplicaciones de Android.
-Topics: android, android-library, android-ui, arcgis-maps-sdk-for-native-apps, jetpack-compose, kotlin · ⭐ 25 · Kotlin
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-kotlin-toolkit</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-kotlin-toolkit</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Sun, 12 Jul 2026 19:01:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Introducing Geospatial Foundation Models in ArcGIS]]></title>
             <link>https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/introducing-geospatial-foundation-models-in-arcgis</link>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2974879</guid>
@@ -2552,71 +1486,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <link>https://tabaqat.net/strata-server</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:8777499906381802297</guid>
             <pubDate>Sat, 11 Jul 2026 22:43:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[R-ArcGIS/arcgisplaces: Search for POIs using ArcGIS Places Services from R. Query locations within an extent or near a point. Filter based on search text or thousands of categories. ]]></title>
-            <description><![CDATA[Search for POIs using ArcGIS Places Services from R. Query locations within an extent or near a point. Filter based on search text or thousands of categories. 
-Proporciona una interfaz para buscar puntos de interés utilizando los servicios de ArcGIS Places desde R.
-Topics: arcgis, esri, location-services, poi, r-spatial, rstats · ⭐ 13 · R
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/R-ArcGIS/arcgisplaces</link>
-            <guid isPermaLink="false">https://github.com/R-ArcGIS/arcgisplaces</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[R-ArcGIS]]></dc:creator>
-            <pubDate>Sat, 11 Jul 2026 17:14:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[R-ArcGIS/arcpbf: Rust crate and R package for processing Esri Protocol Buffers ]]></title>
-            <description><![CDATA[Rust crate and R package for processing Esri Protocol Buffers 
-Proporciona herramientas en Rust y R para trabajar con datos de Esri.
-Topics: agol, arcgis, r-spatial · ⭐ 11 · Rust
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/R-ArcGIS/arcpbf</link>
-            <guid isPermaLink="false">https://github.com/R-ArcGIS/arcpbf</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[R-ArcGIS]]></dc:creator>
-            <pubDate>Sat, 11 Jul 2026 17:10:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[R-ArcGIS/calcite: Harness the Calcite Design System for Shiny applications. Build R-native ArcGIS applications.]]></title>
-            <description><![CDATA[Harness the Calcite Design System for Shiny applications. Build R-native ArcGIS applications.
-Permite a los desarrolladores crear aplicaciones ArcGIS nativas en R utilizando el sistema de diseño Calcite.
-Topics: arcgis, calcite-design-system, r-shiny, r-spatial, rstats · ⭐ 19 · R
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/R-ArcGIS/calcite</link>
-            <guid isPermaLink="false">https://github.com/R-ArcGIS/calcite</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[R-ArcGIS]]></dc:creator>
-            <pubDate>Sat, 11 Jul 2026 16:54:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-rest-js: compact, modular JavaScript wrappers for the ArcGIS REST API]]></title>
-            <description><![CDATA[compact, modular JavaScript wrappers for the ArcGIS REST API
-Proporciona envoltorios modulares en JavaScript para facilitar el uso de la API REST de ArcGIS.
-Topics: arcgis, data-management, esri, hacktoberfest, javascript, rest-api, vanilla, web-development · ⭐ 386 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-rest-js</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-rest-js</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 23:30:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[amandastanko/global-event-monitoring: Global event monitoring in real-time with ArcGIS Experience Builder, Notebooks, and Data Pipelines updating hourly. Custom alert ticker widget included.]]></title>
-            <description><![CDATA[Global event monitoring in real-time with ArcGIS Experience Builder, Notebooks, and Data Pipelines updating hourly. Custom alert ticker widget included.
-Este repositorio incluye un monitor de eventos globales en tiempo real con un widget de alerta personalizado.
-Topics: — · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/amandastanko/global-event-monitoring</link>
-            <guid isPermaLink="false">https://github.com/amandastanko/global-event-monitoring</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[amandastanko]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 23:11:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Beyond latitude and longitude: Giving geographic context to coordinates]]></title>
@@ -2634,206 +1503,11 @@ GitHub repo descubierto (created · devtool)]]></description>
             <pubDate>Fri, 10 Jul 2026 20:36:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[R-ArcGIS/arcgislayers: Harness ArcGIS Online, Enterprise, and Location Platform from R]]></title>
-            <description><![CDATA[Harness ArcGIS Online, Enterprise, and Location Platform from R
-Proporciona herramientas para utilizar ArcGIS Online y Enterprise desde R.
-Topics: arcgis, esri, gis, r-spatial, rstats · ⭐ 62 · R
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/R-ArcGIS/arcgislayers</link>
-            <guid isPermaLink="false">https://github.com/R-ArcGIS/arcgislayers</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[R-ArcGIS]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 19:20:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[R-ArcGIS/arcgisutils: Developer utilities for the R-ArcGIS Bridge. Authenticate with the ArcGIS System, read and write Esri JSON, and more.]]></title>
-            <description><![CDATA[Developer utilities for the R-ArcGIS Bridge. Authenticate with the ArcGIS System, read and write Esri JSON, and more.
-Proporciona herramientas para autenticar y manipular datos de ArcGIS desde R.
-Topics: arcgis, r-spatial, rstats · ⭐ 21 · R
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/R-ArcGIS/arcgisutils</link>
-            <guid isPermaLink="false">https://github.com/R-ArcGIS/arcgisutils</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[R-ArcGIS]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 18:50:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/feedback-js-api-next: Try out the next release of the ArcGIS Maps SDK for JavaScript and share your feedback. Be warned: this release is still in development and is unstable.]]></title>
-            <description><![CDATA[Try out the next release of the ArcGIS Maps SDK for JavaScript and share your feedback. Be warned: this release is still in development and is unstable.
-Permite a los desarrolladores probar y dar feedback sobre la próxima versión del SDK.
-Topics: arcgis-js-api · ⭐ 88 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/feedback-js-api-next</link>
-            <guid isPermaLink="false">https://github.com/Esri/feedback-js-api-next</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 17:12:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CasualChampionships/arcade: Arcade is a server-side Minecraft api made in Kotlin, providing a wide array of functionality primarily aimed at server-sided minigame development.]]></title>
-            <description><![CDATA[Arcade is a server-side Minecraft api made in Kotlin, providing a wide array of functionality primarily aimed at server-sided minigame development.
-Es un API para Minecraft, no tiene relación con desarrollo en ArcGIS.
-Topics: arcade, minecraft, minecraft-api · ⭐ 16 · Kotlin
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/CasualChampionships/arcade</link>
-            <guid isPermaLink="false">https://github.com/CasualChampionships/arcade</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[CasualChampionships]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 11:11:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[froglet-studio/Cosmic-Shore: Connecting casual and hardcore gamers in the hypersea.]]></title>
-            <description><![CDATA[Connecting casual and hardcore gamers in the hypersea.
-Es un juego orientado a usuarios finales que no proporciona recursos para desarrolladores.
-Topics: arcade, community, ftp-game, hypersea, live-service, minigames, missions, racer, shooter, space, territory-control · ⭐ 8 · C#
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/froglet-studio/Cosmic-Shore</link>
-            <guid isPermaLink="false">https://github.com/froglet-studio/Cosmic-Shore</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[froglet-studio]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 10:49:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[42Web-kenya/ArcGIS-Pro-Resource-Kit: Best ArcGIS Pro Alternative 2026 Open Source GIS for Mapping and Spatial Analysis]]></title>
-            <description><![CDATA[Best ArcGIS Pro Alternative 2026 Open Source GIS for Mapping and Spatial Analysis
-El repositorio presenta una alternativa a ArcGIS Pro, pero no ofrece herramientas o librerías útiles para desarrolladores.
-Topics: arcgis, arcgis-2026, arcgis-pro, esri-arcgis, gis-software, pro-software-2026, spatial-analysis, trial-software, windows-software-2026 · ⭐ 54 · HTML
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/42Web-kenya/ArcGIS-Pro-Resource-Kit</link>
-            <guid isPermaLink="false">https://github.com/42Web-kenya/ArcGIS-Pro-Resource-Kit</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[42Web-kenya]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 10:15:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jotego/jtcores: FPGA cores compatible with multiple arcade game machines and KiCAD schematics of arcade games. Working on MiSTer FPGA/Analogue Pocket]]></title>
-            <description><![CDATA[FPGA cores compatible with multiple arcade game machines and KiCAD schematics of arcade games. Working on MiSTer FPGA/Analogue Pocket
-Este repositorio se centra en núcleos FPGA para juegos de arcade y no tiene relación con el desarrollo de ArcGIS.
-Topics: arcade, fpga, kicad-schematics, misterfpga, retrogaming · ⭐ 309 · Verilog
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/jotego/jtcores</link>
-            <guid isPermaLink="false">https://github.com/jotego/jtcores</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[jotego]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 10:05:02 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[New <b>Esri</b> Press Book Shows That GIS Can Transform the Entire Campus, Starting at the Classroom]]></title>
             <description><![CDATA[Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe and Frame logos, The Science of Where, <b>esri</b> ... <b>API</b> &middot; MediaBeenew&nbsp;...]]></description>
             <link>https://www.newswire.co.kr/newsRead.php?no=1038332</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:9869730349923514920</guid>
             <pubDate>Fri, 10 Jul 2026 08:45:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[osbonilla/propuesta-proyecto: Visualizador web de El Niño en Ecuador — mapa interactivo de anomalías climáticas (ERA5/ArcGIS) con panel de análisis en Svelte + FastAPI]]></title>
-            <description><![CDATA[Visualizador web de El Niño en Ecuador — mapa interactivo de anomalías climáticas (ERA5/ArcGIS) con panel de análisis en Svelte + FastAPI
-Es un mapa interactivo de anomalías climáticas que no está diseñado para ser reutilizado por otros desarrolladores.
-Topics: arcgis, climate-data, data-science, data-visualization, fastapi, geospatial, gis, meteorology, python, svelte · ⭐ 0 · —
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/osbonilla/propuesta-proyecto</link>
-            <guid isPermaLink="false">https://github.com/osbonilla/propuesta-proyecto</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[osbonilla]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 04:50:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pinballwizz/ANTMINER-JailBreak: Jail Break Arcade synthesized on an EBAZ4205 ZYNQ-7010 FPGA Board.]]></title>
-            <description><![CDATA[Jail Break Arcade synthesized on an EBAZ4205 ZYNQ-7010 FPGA Board.
-El repositorio se centra en un proyecto de arcade y FPGA, sin conexión con herramientas o desarrollos de ArcGIS.
-Topics: antminer, arcade, break, fpga, game, jail, jailbreak, mist, mister, pinballwiz, pinballwizz, s9, verilog, vhdl, vivado, xilinx, zynq7010, zynqarcade · ⭐ 0 · Verilog
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/pinballwizz/ANTMINER-JailBreak</link>
-            <guid isPermaLink="false">https://github.com/pinballwizz/ANTMINER-JailBreak</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[pinballwizz]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 02:45:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pinballwizz/ANTMINER-MoonPatrol: Moon Patrol Arcade synthesized on an ANTMINER S9 ZYNQ-7010 FPGA Board.]]></title>
-            <description><![CDATA[Moon Patrol Arcade synthesized on an ANTMINER S9 ZYNQ-7010 FPGA Board.
-Es un proyecto de arcade en FPGA que no tiene conexión con herramientas o desarrollos de ArcGIS.
-Topics: antminer, arcade, fpga, game, mist, mister, moon, moonpatrol, patrol, pinballwiz, pinballwizz, s9, verilog, vhdl, vivado, xilinx, zynq7010 · ⭐ 0 · VHDL
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/pinballwizz/ANTMINER-MoonPatrol</link>
-            <guid isPermaLink="false">https://github.com/pinballwizz/ANTMINER-MoonPatrol</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[pinballwizz]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 02:38:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[IntRUSTing-Games/rusty-dasher: Wanna try out a new 2010's vibe browser game? Check out RustyDasher — Bevy 0.19 arcade (native + WASM). IntRUSTing Games.]]></title>
-            <description><![CDATA[Wanna try out a new 2010's vibe browser game? Check out RustyDasher — Bevy 0.19 arcade (native + WASM). IntRUSTing Games.
-Es un juego de arcade y no tiene relevancia para desarrolladores de ArcGIS.
-Topics: 2d, arcade, bevy, game, rust, wasm · ⭐ 0 · Rust
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/IntRUSTing-Games/rusty-dasher</link>
-            <guid isPermaLink="false">https://github.com/IntRUSTing-Games/rusty-dasher</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[IntRUSTing-Games]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 00:52:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-swift-samples: SwiftUI samples demonstrating various capabilities of ArcGIS Maps SDK for Swift]]></title>
-            <description><![CDATA[SwiftUI samples demonstrating various capabilities of ArcGIS Maps SDK for Swift
-Proporciona ejemplos prácticos para desarrolladores que utilizan el ArcGIS Maps SDK en aplicaciones Swift.
-Topics: 3d-map, arcgis-maps-sdk, arcgis-swift-sdk, geocoding, geospatial, ios, macos, map, mapping, maps-sdk, native-development, samples, sdk, swift, swift-sample, swiftui · ⭐ 44 · Swift
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-swift-samples</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-swift-samples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 00:29:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[joelakaufmann-lgtm/depo-doom: Deposition-training arcade game — take the depo or defend it. Single-file HTML. Training simulation, not legal advice.]]></title>
-            <description><![CDATA[Deposition-training arcade game — take the depo or defend it. Single-file HTML. Training simulation, not legal advice.
-Es un juego de arcade de entrenamiento sobre depósitos legales, sin relación con ArcGIS.
-Topics: apache2, arcade, deposition, html5-game, legal-education, legal-tech, training-game, webxr · ⭐ 0 · HTML
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/joelakaufmann-lgtm/depo-doom</link>
-            <guid isPermaLink="false">https://github.com/joelakaufmann-lgtm/depo-doom</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[joelakaufmann-lgtm]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 00:26:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcadeAI/arcade-mcp: MCP Server Framework and Tool Development library for building custom capabilities into agents. ]]></title>
-            <description><![CDATA[MCP Server Framework and Tool Development library for building custom capabilities into agents. 
-Proporciona una biblioteca para construir herramientas y capacidades en el contexto de ArcGIS.
-Topics: ai, arcade, arcade-ai, claude, claude-code, claude-mcp, mcp, mcp-framework, mcp-gateway, mcp-runtime, mcp-server, mcp-servers, mcp-tools, mcpserver, model-context-protocol, model-context-protocol-sdk, python · ⭐ 953 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/ArcadeAI/arcade-mcp</link>
-            <guid isPermaLink="false">https://github.com/ArcadeAI/arcade-mcp</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[ArcadeAI]]></dc:creator>
-            <pubDate>Fri, 10 Jul 2026 00:24:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-gitops: GitHub Actions workflows for ArcGIS Enterprise deployment and maintenance]]></title>
-            <description><![CDATA[GitHub Actions workflows for ArcGIS Enterprise deployment and maintenance
-Proporciona flujos de trabajo de GitHub Actions para la implementación y mantenimiento de ArcGIS Enterprise.
-Topics: arcgis, arcgis-enterprise, aws, azure, devops, github-actions, gitops, kubernetes, packer, terraform · ⭐ 30 · HCL
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-gitops</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-gitops</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 23:58:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Second Quarter 2026 Basemap Release Includes Over 170 New and Updated Communities]]></title>
@@ -2955,102 +1629,11 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Thu, 09 Jul 2026 22:11:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bsv-blockchain/arcade: Next generation BSV Blockchain Transaction Broadcaster for Teranode - Codename Arcade]]></title>
-            <description><![CDATA[Next generation BSV Blockchain Transaction Broadcaster for Teranode - Codename Arcade
-Es un broadcaster de transacciones para la blockchain de BSV, sin relación con herramientas o desarrollos de ArcGIS.
-Topics: arcade, bitcoin, bsv, go, golang · ⭐ 8 · Go
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/bsv-blockchain/arcade</link>
-            <guid isPermaLink="false">https://github.com/bsv-blockchain/arcade</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[bsv-blockchain]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 20:37:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[remarkablegames/inversion: 🔳 Two players must come together to win.]]></title>
-            <description><![CDATA[🔳 Two players must come together to win.
-Es un juego de arcade para dos jugadores, sin relación con ArcGIS.
-Topics: 2d, arcade, game, game-jam, global-game-jam, phaser, platformer, puzzle, singleplayer, singleplayer-game, website · ⭐ 14 · TypeScript
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/remarkablegames/inversion</link>
-            <guid isPermaLink="false">https://github.com/remarkablegames/inversion</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[remarkablegames]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 20:09:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArcadeAI/docs: Documentation for Arcade AI]]></title>
-            <description><![CDATA[Documentation for Arcade AI
-Es un repositorio de documentación para Arcade AI, no relevante para desarrolladores de ArcGIS.
-Topics: ai, ai-tools, arcade, arcade-ai, docs, llm, llm-tools, next, nextjs · ⭐ 23 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/ArcadeAI/docs</link>
-            <guid isPermaLink="false">https://github.com/ArcadeAI/docs</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[ArcadeAI]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 19:35:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-maps-sdk-dotnet-samples: Sample code for ArcGIS Maps SDK for .NET – WPF, WinUI, .NET MAUI]]></title>
-            <description><![CDATA[Sample code for ArcGIS Maps SDK for .NET – WPF, WinUI, .NET MAUI
-Incluye muestras para WPF, WinUI y .NET MAUI, útiles para desarrolladores que trabajan con aplicaciones nativas en .NET.
-Topics: arcgis, arcgis-maps-sdk, c-sharp, csharp, dotnet, dotnet-maui, esri, gis, native-apps, native-development, sample-code, samples, winui3, wpf, xaml · ⭐ 461 · C#
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-maps-sdk-dotnet-samples</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-maps-sdk-dotnet-samples</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 19:31:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[BzGEO/GeoAI_compendium: References regarding geospatial artificial intelligence (#geoAI) and geospatial machine learning (#geoML)]]></title>
-            <description><![CDATA[References regarding geospatial artificial intelligence (#geoAI) and geospatial machine learning (#geoML)
-El repositorio contiene referencias sobre inteligencia artificial geoespacial y aprendizaje automático, pero no ofrece herramientas o código para desarrolladores.
-Topics: arcgis-pro, artificial-intelligence, deep-learning, deep-neural-networks, geo-artificial-intelligence, geo-machine-learning, geoai, geoml, geospatial, google-earth-engine, machine-learning, references, supervised-classification, supervised-learning, supervised-machine-learning, unsupervised-classification, unsupervised-learning, unsupervised-machine-learning · ⭐ 14 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/BzGEO/GeoAI_compendium</link>
-            <guid isPermaLink="false">https://github.com/BzGEO/GeoAI_compendium</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[BzGEO]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 19:00:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Your Complete Guide to Esri’s Developer Resources]]></title>
             <link>https://www.esri.com/arcgis-blog/products/developers/developers/your-complete-guide-to-esris-developer-resources</link>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2975417</guid>
             <dc:creator><![CDATA[Alison Walker]]></dc:creator>
             <pubDate>Thu, 09 Jul 2026 18:49:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gabolondon/pixel-pulse: A juicy 60fps arcade game built so my toddler can mash the keyboard without wrecking my desktop. React + TypeScript + Vite, with a Kids Mode fullscreen lock.]]></title>
-            <description><![CDATA[A juicy 60fps arcade game built so my toddler can mash the keyboard without wrecking my desktop. React + TypeScript + Vite, with a Kids Mode fullscreen lock.
-Es un juego arcade diseñado para niños, sin relación con el desarrollo en ArcGIS.
-Topics: arcade, canvas, game, kids, react, tailwindcss, typescript, vite · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/gabolondon/pixel-pulse</link>
-            <guid isPermaLink="false">https://github.com/gabolondon/pixel-pulse</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[gabolondon]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 17:54:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Endika/flipper-gurpil: Flipper Zero adaptation of Gurpil: an endless side-scroller where you pick your wheel shape to match the terrain and go faster.]]></title>
-            <description><![CDATA[Flipper Zero adaptation of Gurpil: an endless side-scroller where you pick your wheel shape to match the terrain and go faster.
-Es un juego adaptado para Flipper Zero, sin conexión con herramientas o desarrollos de ArcGIS.
-Topics: arcade, c, endless-runner, fap, flipper-zero, flipper-zero-app, flipperzero, game · ⭐ 0 · C
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Endika/flipper-gurpil</link>
-            <guid isPermaLink="false">https://github.com/Endika/flipper-gurpil</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Endika]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 15:44:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Try out the Esri Developer Ask AI beta today]]></title>
@@ -3068,24 +1651,11 @@ GitHub repo descubierto (created · consumer)]]></description>
             <pubDate>Thu, 09 Jul 2026 15:00:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Esri Canada achieves rare ISO 31700-1 Privacy by Design certification]]></title>
-            <description><![CDATA[Esri Canada&#39;s <b>ArcGIS</b> Managed Cloud Services provide secure, scalable ... <b>Javascript</b>. Social Media Profiles. Recommended Reading. May 27, 2026 09&nbsp;...]]></description>
+            <title><![CDATA[<b>Esri</b> Canada achieves rare ISO 31700-1 Privacy by Design certification]]></title>
+            <description><![CDATA[<b>Esri</b> Canada&#39;s <b>ArcGIS</b> Managed Cloud Services provide secure, scalable ... <b>Javascript</b>. Social Media Profiles. Recommended Reading. May 27, 2026 09&nbsp;...]]></description>
             <link>https://www.globenewswire.com/news-release/2026/07/09/3324869/0/en/esri-canada-achieves-rare-iso-31700-1-privacy-by-design-certification.html</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:16604299047444679130</guid>
             <pubDate>Thu, 09 Jul 2026 13:55:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[retinho/sc-gis-geoadmin-search: Custom ArcGIS Experience Builder widget integrating the Swisstopo Search API for intelligent location and coordinate search.]]></title>
-            <description><![CDATA[Custom ArcGIS Experience Builder widget integrating the Swisstopo Search API for intelligent location and coordinate search.
-Este repositorio proporciona un widget personalizado que integra la API de búsqueda de Swisstopo para búsquedas de ubicación y coordenadas en ArcGIS.
-Topics: — · ⭐ 0 · TypeScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/retinho/sc-gis-geoadmin-search</link>
-            <guid isPermaLink="false">https://github.com/retinho/sc-gis-geoadmin-search</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[retinho]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 13:21:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[HydroSHEDS 2.0 Now Available for the Americas in the Living Atlas]]></title>
@@ -3094,110 +1664,6 @@ GitHub repo descubierto (created · devtool)]]></description>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2974697</guid>
             <dc:creator><![CDATA[Dan Pisut]]></dc:creator>
             <pubDate>Thu, 09 Jul 2026 13:14:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dima-sw/pi-arcade: DIY retro arcade console on a Raspberry Pi Zero 2 W + Batocera: 14-button custom Python gamepad (with L2/R2), I2S audio, and a laser-cut wooden case.]]></title>
-            <description><![CDATA[DIY retro arcade console on a Raspberry Pi Zero 2 W + Batocera: 14-button custom Python gamepad (with L2/R2), I2S audio, and a laser-cut wooden case.
-Es un proyecto de consola arcade DIY que no tiene relación con el desarrollo en ArcGIS.
-Topics: arcade, batocera, diy, emulation, gpio, pi-zero-2-w, raspberry-pi, retro-gaming, retropie-alternative · ⭐ 0 · Python
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/dima-sw/pi-arcade</link>
-            <guid isPermaLink="false">https://github.com/dima-sw/pi-arcade</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[dima-sw]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 12:03:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mandalbitayan/Add-simple-point-layer-and-their-style: Commonly used point symbol in the ArcGIS Maps SDK]]></title>
-            <description><![CDATA[Commonly used point symbol in the ArcGIS Maps SDK
-Este repositorio ofrece una implementación de una capa de puntos simple y su estilo para ser utilizada en el desarrollo con ArcGIS.
-Topics: — · ⭐ 0 · JavaScript
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/mandalbitayan/Add-simple-point-layer-and-their-style</link>
-            <guid isPermaLink="false">https://github.com/mandalbitayan/Add-simple-point-layer-and-their-style</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[mandalbitayan]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 10:54:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[muend/sentinel-crop-pipeline: Open-source, config-driven pipeline for discovering, preprocessing, and patching Sentinel-2 L2A imagery into U-Net-ready training datasets for crop classification — hybrid rule-based + AI scene selection with ground-truth label integration.]]></title>
-            <description><![CDATA[Open-source, config-driven pipeline for discovering, preprocessing, and patching Sentinel-2 L2A imagery into U-Net-ready training datasets for crop classification — hybrid rule-based + AI scene selection with ground-truth label integration.
-El repositorio se centra en la creación de datasets para clasificación de cultivos, no en herramientas reutilizables para desarrolladores.
-Topics: agriculture, arcgis, cdse, copernicus, crop-classification, geospatial, geotiff, machine-learning, qgis, rasterio, remote-sensing, sentinel-2, unet · ⭐ 1 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/muend/sentinel-crop-pipeline</link>
-            <guid isPermaLink="false">https://github.com/muend/sentinel-crop-pipeline</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[muend]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 10:31:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codeforpdx/pdxhub: PDX Hub is a centralized, open-source GIS platform designed to aggregate Portland’s disparate municipal data. By breaking down silos between department feeds (Dispatch, Transportation, Zoning, Utilities), PDX Hub provides a "Common Operating Picture" for city data.]]></title>
-            <description><![CDATA[PDX Hub is a centralized, open-source GIS platform designed to aggregate Portland’s disparate municipal data. By breaking down silos between department feeds (Dispatch, Transportation, Zoning, Utilities), PDX Hub provides a "Common Operating Picture" for city data.
-PDX Hub es una plataforma GIS centralizada para datos municipales de Portland.
-Topics: arcgis, gis, portland · ⭐ 6 · TypeScript
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/codeforpdx/pdxhub</link>
-            <guid isPermaLink="false">https://github.com/codeforpdx/pdxhub</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[codeforpdx]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 08:13:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mglass222/rivet: RIVET — an original browser homage to the 1981 Donkey Kong arcade game. Frame-exact mechanics, original art and music. Not affiliated with Nintendo.]]></title>
-            <description><![CDATA[RIVET — an original browser homage to the 1981 Donkey Kong arcade game. Frame-exact mechanics, original art and music. Not affiliated with Nintendo.
-Es un juego inspirado en Donkey Kong, sin conexión con herramientas o desarrollos de ArcGIS.
-Topics: arcade, canvas, game, javascript, pixel-art, web-audio · ⭐ 0 · JavaScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/mglass222/rivet</link>
-            <guid isPermaLink="false">https://github.com/mglass222/rivet</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[mglass222]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 07:40:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/arcgis-python-api: Documentation and samples for ArcGIS API for Python]]></title>
-            <description><![CDATA[Documentation and samples for ArcGIS API for Python
-Proporciona documentación y ejemplos para el uso de la API de ArcGIS para Python.
-Topics: arcgis, data-science, gis, jupyter, jupyterlab-extension, mapping, python, spatial-data, spatial-data-analysis · ⭐ 2169 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/arcgis-python-api</link>
-            <guid isPermaLink="false">https://github.com/Esri/arcgis-python-api</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 04:55:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[edcfoshan/cadastral-to-vector: 宗地图/地籍图(PNG)转矢量面要素类(FileGDB/Shapefile)。CGCS2000 3度带带号+坐标轴自动判定,OCR提取界址点坐标,arcpy/GDAL双后端,面积闭环自检。宗地图矢量化|界址点坐标表转GDB|高斯投影带号判定|权属登记。Cadastral map to vector, parcel to FileGDB/Shapefile, CGCS2000 zone detection, Python.]]></title>
-            <description><![CDATA[宗地图/地籍图(PNG)转矢量面要素类(FileGDB/Shapefile)。CGCS2000 3度带带号+坐标轴自动判定,OCR提取界址点坐标,arcpy/GDAL双后端,面积闭环自检。宗地图矢量化|界址点坐标表转GDB|高斯投影带号判定|权属登记。Cadastral map to vector, parcel to FileGDB/Shapefile, CGCS2000 zone detection, Python.
-Convierte mapas catastrales en PNG a formatos vectoriales como FileGDB y Shapefile utilizando arcpy y GDAL.
-Topics: agent-skill, arcgis, arcpy, cadastral, cadastral-map, cgcs2000, claude-code, filegdb, gauss-kruger, gdal, gdb, geospatial, gis, land-registry, ocr, parcel, python, shapefile, vector, zongditu · ⭐ 0 · Python
-GitHub repo descubierto (created · devtool)]]></description>
-            <link>https://github.com/edcfoshan/cadastral-to-vector</link>
-            <guid isPermaLink="false">https://github.com/edcfoshan/cadastral-to-vector</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[edcfoshan]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 04:11:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[MewoLab/AquaDX: A magical server for certain arcade rhythm games 🪄]]></title>
-            <description><![CDATA[A magical server for certain arcade rhythm games 🪄
-Es un servidor para juegos de ritmo arcade, sin conexión con herramientas o desarrollos de ArcGIS.
-Topics: arcade, rhythm-game · ⭐ 553 · Kotlin
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/MewoLab/AquaDX</link>
-            <guid isPermaLink="false">https://github.com/MewoLab/AquaDX</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[MewoLab]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 02:55:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Hydrosat Showcases Thermal GIS Capabilities at <b>Esri</b> User Conference 2026 - TipRanks]]></title>
@@ -3214,37 +1680,11 @@ GitHub repo descubierto (pushed · consumer)]]></description>
             <pubDate>Thu, 09 Jul 2026 01:10:42 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Rudepro/RetroLegends: 🎮 Retro Legends is a modern retro arcade platform featuring original HTML5 mini-games inspired by classic arcade hits. Built with vanilla JavaScript, CSS3, and HTML5, it offers responsive gameplay, local progress saving, achievements, and a scalable architecture for adding new games. 🕹️ Play. Unlock. Conquer. 🌟]]></title>
-            <description><![CDATA[🎮 Retro Legends is a modern retro arcade platform featuring original HTML5 mini-games inspired by classic arcade hits. Built with vanilla JavaScript, CSS3, and HTML5, it offers responsive gameplay, local progress saving, achievements, and a scalable architecture for adding new games. 🕹️ Play. Unlock. Conquer. 🌟
-Es un juego arcade en HTML5, no útil para desarrolladores de ArcGIS.
-Topics: arcade, browser-games, canvas, css3, es6, frontend, game-development, html5, indie-game, javascript, localstorage, mini-games, open-source, pixel-art, responsive, retro-arcade, retro-games, retro-legends, vanilla-javascript, web-game · ⭐ 1 · JavaScript
-GitHub repo descubierto (created · consumer)]]></description>
-            <link>https://github.com/Rudepro/RetroLegends</link>
-            <guid isPermaLink="false">https://github.com/Rudepro/RetroLegends</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Rudepro]]></dc:creator>
-            <pubDate>Thu, 09 Jul 2026 00:35:41 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[New <b>Esri</b> Press Book Shows That GIS Can Transform the Entire Campus, Starting at the Classroom]]></title>
             <description><![CDATA[<b>Esri</b>, the <b>Esri</b> Globe and Frame logos, The Science of Where, <b>esri</b> ... Stock Quote <b>API</b> &amp; Stock News <b>API</b> supplied by www.cloudquote.io. Quotes&nbsp;...]]></description>
             <link>https://markets.financialcontent.com/stocks/article/bizwire-2026-7-8-new-esri-press-book-shows-that-gis-can-transform-the-entire-campus-starting-at-the-classroom</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:6719124429493570923</guid>
             <pubDate>Wed, 08 Jul 2026 22:08:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[MiSTerOrganize/MiSTer_Organize: Keeping your MiSTer organized]]></title>
-            <description><![CDATA[Keeping your MiSTer organized
-Este repositorio se centra en la organización de juegos retro y no tiene relación con el desarrollo en ArcGIS.
-Topics: arcade, catalog, console, console-game, crc32, data, database, datafile, filename, filesize, fpga, md5, misterfpga, organization, organize, organizer, retrogaming, rom, rommanager, sha1 · ⭐ 51 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/MiSTerOrganize/MiSTer_Organize</link>
-            <guid isPermaLink="false">https://github.com/MiSTerOrganize/MiSTer_Organize</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[MiSTerOrganize]]></dc:creator>
-            <pubDate>Wed, 08 Jul 2026 22:06:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -3259,19 +1699,6 @@ Add Polyline with Terrain Level to ArcGIS SceneView</pre>
             <guid isPermaLink="false">tag:github.com,2008:Grit::Commit/470efeb11b7cd0e567e6c562d3aaca08792da4e6</guid>
             <dc:creator><![CDATA[PaulGibbs3rd]]></dc:creator>
             <pubDate>Wed, 08 Jul 2026 21:05:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[topherCantrell/computerarcheology: All of the code and resources backing computerarcheology.com (moving from SVN there)]]></title>
-            <description><![CDATA[All of the code and resources backing computerarcheology.com (moving from SVN there)
-El repositorio trata sobre arqueología computacional y retrogaming, sin conexión con ArcGIS.
-Topics: arcade, disassembly, retrogaming · ⭐ 53 · Assembly
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/topherCantrell/computerarcheology</link>
-            <guid isPermaLink="false">https://github.com/topherCantrell/computerarcheology</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[topherCantrell]]></dc:creator>
-            <pubDate>Wed, 08 Jul 2026 21:01:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -3303,19 +1730,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2975115</guid>
             <dc:creator><![CDATA[Catherine David]]></dc:creator>
             <pubDate>Wed, 08 Jul 2026 20:00:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/jsapi-resources: A collection of resources for developers using the ArcGIS Maps SDK for JavaScript.]]></title>
-            <description><![CDATA[A collection of resources for developers using the ArcGIS Maps SDK for JavaScript.
-Proporciona ejemplos y herramientas para facilitar el desarrollo con el SDK de ArcGIS para JavaScript.
-Topics: arcgis-api, arcgis-js-api, javascript, mapping, sample-apps, web-components, web-development · ⭐ 767 · TypeScript
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/jsapi-resources</link>
-            <guid isPermaLink="false">https://github.com/Esri/jsapi-resources</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Wed, 08 Jul 2026 18:51:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[
@@ -3359,19 +1773,6 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Wed, 08 Jul 2026 15:23:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[finalburnneo/FBNeo: FinalBurn Neo - We are Team FBNeo.]]></title>
-            <description><![CDATA[FinalBurn Neo - We are Team FBNeo.
-Es un emulador de videojuegos y no tiene relevancia para desarrolladores de ArcGIS.
-Topics: arcade, colecovision, cps1, cps2, cps3, emulator, kaneko, mastersystem, megadrive, msx1, neogeo, sega, taito · ⭐ 1413 · C++
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/finalburnneo/FBNeo</link>
-            <guid isPermaLink="false">https://github.com/finalburnneo/FBNeo</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[finalburnneo]]></dc:creator>
-            <pubDate>Wed, 08 Jul 2026 14:42:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[
         API キーの取得の更新
     ]]></title>
@@ -3389,32 +1790,6 @@ GitHub repo descubierto (pushed · consumer)]]></description>
             <link>https://rss.rauljimenez.info/arcgis-whats-new-monitor-health.xml</link>
             <guid isPermaLink="false">https://rss.rauljimenez.info/health-events/18</guid>
             <pubDate>Tue, 07 Jul 2026 22:08:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[t3chnaztea/batocera-toolbox: Couch-friendly, gamepad-driven Batocera utility (PORTS menu): backup/restore, ROM audit, 1G1R dedup, version-aware BIOS check, shaders, run-ahead, RetroAchievements, crash logs.]]></title>
-            <description><![CDATA[Couch-friendly, gamepad-driven Batocera utility (PORTS menu): backup/restore, ROM audit, 1G1R dedup, version-aware BIOS check, shaders, run-ahead, RetroAchievements, crash logs.
-Es una herramienta para emulación de videojuegos, sin conexión con desarrollos de ArcGIS.
-Topics: arcade, batocera, emulationstation, retroarch, retrogaming · ⭐ 12 · Python
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/t3chnaztea/batocera-toolbox</link>
-            <guid isPermaLink="false">https://github.com/t3chnaztea/batocera-toolbox</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[t3chnaztea]]></dc:creator>
-            <pubDate>Tue, 07 Jul 2026 21:22:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ArtemioUrbina/MDFourier: A Fourier Analysis analysis tool to compare audio produced by gaming hardware]]></title>
-            <description><![CDATA[A Fourier Analysis analysis tool to compare audio produced by gaming hardware
-Es una herramienta de análisis de audio para hardware de juegos, sin conexión a ArcGIS.
-Topics: analysis, arcade, audio, console, dreamcast, drive, fourier, gamecube, genesis, hardware, mega, n64, retro, sega, snes, vintage, wii · ⭐ 85 · C
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/ArtemioUrbina/MDFourier</link>
-            <guid isPermaLink="false">https://github.com/ArtemioUrbina/MDFourier</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[ArtemioUrbina]]></dc:creator>
-            <pubDate>Tue, 07 Jul 2026 19:34:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[From CSV to Web App: ArcGIS Online + Maps SDK Complete Workflow (Part 1)]]></title>
@@ -3459,58 +1834,6 @@ GitHub repo descubierto (pushed · consumer)]]></description>
             <pubDate>Tue, 07 Jul 2026 09:01:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[muend/arcgis-mcp-bridge: Secure, local-first MCP server exposing ArcGIS Pro's ArcPy engine over stdio JSON-RPC.]]></title>
-            <description><![CDATA[Secure, local-first MCP server exposing ArcGIS Pro's ArcPy engine over stdio JSON-RPC.
-Es un puente que permite la interacción con ArcPy a través de JSON-RPC.
-Topics: ai-agents, anthropic, api-bridge, arcgis, arcgis-pro, arcpy, automation, bridge, claude, geopandas, geospatial, geospatial-processing, gis, llm, llm-tools, mcp, mcp-server, model-context-protocol, python, spatial-data-science · ⭐ 6 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/muend/arcgis-mcp-bridge</link>
-            <guid isPermaLink="false">https://github.com/muend/arcgis-mcp-bridge</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[muend]]></dc:creator>
-            <pubDate>Tue, 07 Jul 2026 08:19:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AhoyLemon/kinda.fun: Here's some games that are kinda fun.]]></title>
-            <description><![CDATA[Here's some games that are kinda fun.
-Es un repositorio de juegos en línea, no útil para desarrolladores de ArcGIS.
-Topics: arcade, browser-game, celebrity-game, firebase, lemon, multiplayer-game, sass, trivia-game, vite, vue · ⭐ 11 · TypeScript
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/AhoyLemon/kinda.fun</link>
-            <guid isPermaLink="false">https://github.com/AhoyLemon/kinda.fun</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[AhoyLemon]]></dc:creator>
-            <pubDate>Tue, 07 Jul 2026 05:09:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Esri/cookiecutter-spatial-data-science: A project template for spatial data science projects marrying best practices from the respective disciplines of Geography and Artificial Intelligence.]]></title>
-            <description><![CDATA[A project template for spatial data science projects marrying best practices from the respective disciplines of Geography and Artificial Intelligence.
-Proporciona un template útil para desarrolladores que trabajan en proyectos de ciencia de datos espaciales utilizando ArcGIS.
-Topics: arcgis, arcgis-python-api, cookiecutter, data-science, esri, geoai, geoai-cookiecutter, geography, gis, machine-learning, python, spatial-analysis · ⭐ 42 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Esri/cookiecutter-spatial-data-science</link>
-            <guid isPermaLink="false">https://github.com/Esri/cookiecutter-spatial-data-science</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Esri]]></dc:creator>
-            <pubDate>Mon, 06 Jul 2026 23:49:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ProSuite/ProSuite: ProSuite Source Code]]></title>
-            <description><![CDATA[ProSuite Source Code
-ProSuite es un conjunto de herramientas que permite la integración y mejora de flujos de trabajo en ArcGIS.
-Topics: arcgis, esri, prosuite · ⭐ 11 · C#
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/ProSuite/ProSuite</link>
-            <guid isPermaLink="false">https://github.com/ProSuite/ProSuite</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[ProSuite]]></dc:creator>
-            <pubDate>Mon, 06 Jul 2026 22:23:28 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ArcGIS Experience Builder at the 2026 Esri User Conference]]></title>
             <link>https://www.esri.com/arcgis-blog/products/experience-builder/announcements/uc-2026</link>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2974958</guid>
@@ -3518,76 +1841,11 @@ GitHub repo descubierto (pushed · devtool)]]></description>
             <pubDate>Mon, 06 Jul 2026 20:37:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Asem-D/arcgis-portal-mcp: Open-source MCP server for ArcGIS Portal and ArcGIS Online]]></title>
-            <description><![CDATA[Open-source MCP server for ArcGIS Portal and ArcGIS Online
-Proporciona un servidor MCP de código abierto para integrarse con ArcGIS.
-Topics: ai, arcgis, gis, mcp, portal, python · ⭐ 8 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/Asem-D/arcgis-portal-mcp</link>
-            <guid isPermaLink="false">https://github.com/Asem-D/arcgis-portal-mcp</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[Asem-D]]></dc:creator>
-            <pubDate>Mon, 06 Jul 2026 20:05:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[county-of-simcoe-gis/SimcoeCountyWebViewer: Web Map Viewer built with React and OpenLayers.  Built for GeoServer and ArcGIS Server.]]></title>
-            <description><![CDATA[Web Map Viewer built with React and OpenLayers.  Built for GeoServer and ArcGIS Server.
-Es un visor de mapas web construido con React y OpenLayers, orientado a usuarios finales.
-Topics: arcgis, geoserver, interactive, javascript, map, openlayers, postgres, react, wms · ⭐ 149 · JavaScript
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer</link>
-            <guid isPermaLink="false">https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[county-of-simcoe-gis]]></dc:creator>
-            <pubDate>Mon, 06 Jul 2026 12:57:58 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Esri の「The Science of Where」| Qt で構築]]></title>
             <description><![CDATA[<b>ArcGIS Maps SDK for</b> Qt. BUILT WITH Qt. Share this story. Esri は、地理情報システム（GIS）ソフトウェア、位置情報インテリジェンス、マッピング分野&nbsp;...]]></description>
             <link>https://www.qt.io/ja-jp/development/esri-built-with-qt?hsLang=ja-jp</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:4518249507096265501</guid>
             <pubDate>Mon, 06 Jul 2026 04:45:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[realiii/fudgeo: Removing the fear-uncertainty-doubt from GeoPackages.  OGC GeoPackage Support via Python and SQLite]]></title>
-            <description><![CDATA[Removing the fear-uncertainty-doubt from GeoPackages.  OGC GeoPackage Support via Python and SQLite
-Proporciona soporte para GeoPackages utilizando Python y SQLite, útil para desarrolladores que trabajan con datos espaciales.
-Topics: arcgis, geopackage, geopackage-libraries, gis, library, python3, qgis, qgis3, spatial, spatial-data, sql, sqlite, sqlite3 · ⭐ 26 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/realiii/fudgeo</link>
-            <guid isPermaLink="false">https://github.com/realiii/fudgeo</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[realiii]]></dc:creator>
-            <pubDate>Sun, 05 Jul 2026 21:41:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rcfdtools/R.LTWB: CURSO: Balance hidrológico de largo plazo. Long-term water balance - LTWB]]></title>
-            <description><![CDATA[CURSO: Balance hidrológico de largo plazo. Long-term water balance - LTWB
-Este repositorio es un curso sobre balance hidrológico y no proporciona herramientas o librerías reutilizables para desarrolladores de ArcGIS.
-Topics: arcgis, budyco, cenicafe, climate-change, dekop, hydrology, long-term-water-balance, qgis, statistical, turc · ⭐ 10 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/rcfdtools/R.LTWB</link>
-            <guid isPermaLink="false">https://github.com/rcfdtools/R.LTWB</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[rcfdtools]]></dc:creator>
-            <pubDate>Sun, 05 Jul 2026 13:34:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Aunmag/shooter-rs: 2D top-down zombie shooter]]></title>
-            <description><![CDATA[2D top-down zombie shooter
-Es un juego de disparos en 2D que no tiene relación con ArcGIS.
-Topics: 2d, arcade, bevy, game, shooter, top-down, topdown, zombies · ⭐ 34 · Rust
-GitHub repo descubierto (pushed · consumer)]]></description>
-            <link>https://github.com/Aunmag/shooter-rs</link>
-            <guid isPermaLink="false">https://github.com/Aunmag/shooter-rs</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:consumer]]></category>
-            <dc:creator><![CDATA[Aunmag]]></dc:creator>
-            <pubDate>Sat, 04 Jul 2026 23:50:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Crack Arab Smallworld Gis No Virus | Full Package &amp; Keygen ID - YouTube]]></title>
@@ -3611,37 +1869,11 @@ GitHub repo descubierto (pushed · consumer)]]></description>
             <pubDate>Sat, 04 Jul 2026 22:03:18 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[chris48s/arcgis2geojson: 🌍 A Python library for converting ArcGIS JSON to GeoJSON]]></title>
-            <description><![CDATA[🌍 A Python library for converting ArcGIS JSON to GeoJSON
-Es una biblioteca de Python que permite a los desarrolladores convertir JSON de ArcGIS a GeoJSON.
-Topics: arcgis, geojson, python-library · ⭐ 54 · Python
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/chris48s/arcgis2geojson</link>
-            <guid isPermaLink="false">https://github.com/chris48s/arcgis2geojson</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[chris48s]]></dc:creator>
-            <pubDate>Sat, 04 Jul 2026 19:26:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Dataminr Deepens Public-Sector Push With <b>Esri</b> Integration and AI-For-Good Initiatives]]></title>
             <description><![CDATA[Dataminr showcased its First Alert integration with <b>Esri&#39;s ArcGIS</b> ... PlansPlans &amp; PricingSmart Investor NewsletterSmart Dividend Newsletter<b>API</b> for&nbsp;...]]></description>
             <link>https://www.tipranks.com/news/private-companies/dataminr-deepens-public-sector-push-with-esri-integration-and-ai-for-good-initiatives</link>
             <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:8892219490576253560</guid>
             <pubDate>Sat, 04 Jul 2026 13:42:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition: ArcGIS Pro — professional GIS for mapping, spatial analysis, geoprocessing and 3D scene authoring.]]></title>
-            <description><![CDATA[ArcGIS Pro — professional GIS for mapping, spatial analysis, geoprocessing and 3D scene authoring.
-No es un repositorio útil para desarrolladores de ArcGIS/Esri.
-Topics: arcgis, arcgis-desktop, arcgis-pro, cartography, esri, esri-arcgis, geographic-information-system, geoprocessing, geospatial, gis, gis-software, map-making, mapping-software, spatial-analysis, spatial-data · ⭐ 10 · —
-GitHub repo descubierto (pushed · devtool)]]></description>
-            <link>https://github.com/villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition</link>
-            <guid isPermaLink="false">https://github.com/villageportalrope/ArcGIS-Pro-Professional-Complete-Geographic-Edition</guid>
-            <category><![CDATA[repo]]></category>
-            <category><![CDATA[repo:devtool]]></category>
-            <dc:creator><![CDATA[villageportalrope]]></dc:creator>
-            <pubDate>Sat, 04 Jul 2026 10:15:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[FlowRenderer on a 3D Globe]]></title>
@@ -8685,7 +6917,7 @@ Extended CDF Socrata pass through sample to use Soda 3 rest endpoint</pre>
         </item>
         <item>
             <title><![CDATA[AI + ArcGIS Maps SDK for JavaScript - Spinning Up an Emergency Field App in Minutes]]></title>
-            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to working field app.</P><P><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r703" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r703');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
+            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to working field app.</P><P><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r563" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r563');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
             <link>https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1691352</link>
             <guid isPermaLink="false">https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1691352</guid>
             <dc:creator><![CDATA[MatthewDriscoll]]></dc:creator>
@@ -8769,7 +7001,7 @@ Extended CDF Socrata pass through sample to use Soda 3 rest endpoint</pre>
         </item>
         <item>
             <title><![CDATA[AI + ArcGIS Maps SDK for Javascript -Spinning Up an Emergency Field App in Minutes]]></title>
-            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to a working field app.</P><P class=""><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r614" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r614');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
+            <description><![CDATA[<P class="">It's March in Kansas. Tornado season is ramping up. And if you've worked in emergency management or public safety GIS, you know the drill — when something hits, people need tools now.</P><P class="">So I tried an experiment: How fast can I go from zero to a working, mobile-friendly field assessment app using AI and the ArcGIS Maps SDK for JavaScript 5.0?</P><P class="">The answer surprised me.</P><P class=""><STRONG>The Scenario</STRONG></P><P class="">This is a fictional scenario used to demonstrate the workflow — no actual emergency occurred.</P><P class="">A tornado rips through the county. Fire and rescue need to go door to door checking on residents and assessing damage. They need a map application — on their phone — where they can tap a parcel, flag injuries, structural damage, or trapped persons, add comments, and submit. The data needs to flow back to ArcGIS Online in real time so the office has a live picture of response progress.</P><P class="">Full walkthrough: from ArcGIS Online setup to a working field app.</P><P class=""><div class="lia-vid-container video-embed-center"><div id="lia-vid-6390973049112w960h540r121" class="lia-video-brightcove-player-container"><video-js data-video-id="6390973049112" data-account="6161463677001" data-player="default" data-embed="default" class="vjs-fluid" controls="" data-application-id="" style="width: 100%; height: 100%;"></video-js></div><script src="https://players.brightcove.net/6161463677001/default_default/index.min.js"></script><script>(function() {  var wrapper = document.getElementById('lia-vid-6390973049112w960h540r121');  var videoEl = wrapper ? wrapper.querySelector('video-js') : null;  if (videoEl) {     if (window.videojs) {       window.videojs(videoEl).ready(function() {         this.on('loadedmetadata', function() {           this.el().querySelectorAll('.vjs-load-progress div[data-start]').forEach(function(bar) {             bar.setAttribute('role', 'presentation');             bar.setAttribute('aria-hidden', 'true');           });         });       });     }  }})();</script><a class="video-embed-link" href="https://community.esri.com/t5/video/gallerypage/video-id/6390973049112">(view in My Videos)</a></div></P><P class=""><STRONG>The Tools</STRONG></P><P class="">◈ ArcGIS Online — hosted feature layers ◈ Claude AI — Anthropic's AI assistant ◈ ArcGIS Maps SDK for JavaScript 5.0 ◈ A web server — IIS in my case, but any will do.</P><P class="">That's it. No frameworks, no build tools, no npm install. One HTML file.</P><P class=""><STRONG>The Process</STRONG></P><P class="">I created a hosted feature layer in ArcGIS Online with the important fields for person and property assessment, then opened Claude, attached two example applications I'd previously built with SDK 5.0 (since the version is brand new and examples help the AI produce better code), described the scenario, and let it build.</P><P class="">Did it work perfectly on the first try? No — and I left that in the video on purpose. Claude hit a script loading order issue, a geometry type mismatch, and a URL that needed a layer index appended. But each time, I pasted the error back in and Claude diagnosed and fixed it within seconds. The entire build-and-debug cycle took roughly 30 minutes.</P><P class="">The result is a dark-themed emergency assessment app with aerial basemap imagery, a tornado path overlay, property search with wildcard matching, a responsive sidebar assessment form, and real-time data submission to ArcGIS Online — all in a single index.html file I dropped into an IIS folder.</P><P class=""><STRONG>What I Learned</STRONG></P><P class="">Give AI examples. SDK 5.0 is new enough that Claude benefits from seeing real working code in the patterns you want. Attaching previous projects made a big difference in output quality. Linking to the SDK 5.0 documentation would likely help even more.</P><P class="">Expect iteration, not magic. AI isn't going to hand you a perfect app on the first prompt. But it compresses what used to be hours of Stack Overflow and documentation hunting into a rapid conversation. The more you use it, the better your prompts get — and the better the results.</P><P class="">Save your projects. The Claude project with all the prompts, examples, and conversation history is saved. Next time a similar scenario comes up — a flood, a wildfire, a hazmat incident — you have a template ready. You're not starting from scratch.</P><P class="">Keep it real. This video intentionally shows the messy parts — the errors, the fixes, the rough edges. I wanted to showcase real-time capability, not sell a fantasy. There's still cleanup to do (centering, polish, etc.), but in an emergency, good enough right now beats perfect next week.</P><P class=""><STRONG>What This Means for GIS Professionals</STRONG></P><P class="">AI isn't replacing us. It's an accelerator. You still need to know your data, your services, your projections, your deployment. What changes is the speed at which you can go from "I need this" to "here it is." And for emergency response, that speed saves lives.</P><P class="">I'd love to see what others build with this approach. Drop a comment below or share your own experiments. And if you're curious about the new AI components in SDK 5.0 — that's a whole other rabbit hole worth exploring.</P><P class="">Stay safe out there.</P>]]></description>
             <link>https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1690683</link>
             <guid isPermaLink="false">https://community.esri.com/t5/arcgis-javascript-maps-sdk-blog/ai-arcgis-maps-sdk-for-javascript-spinning-up-an/ba-p/1690683</guid>
             <dc:creator><![CDATA[MatthewDriscoll]]></dc:creator>
@@ -17413,6 +15645,13 @@ Created Extent Helper Tool</pre>
             <guid isPermaLink="false">https://www.esri.com/arcgis-blog/?post_type=blog&amp;p=2809082</guid>
             <dc:creator><![CDATA[Martino Yovo]]></dc:creator>
             <pubDate>Tue, 10 Jun 2025 14:30:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<b>Esri</b> Developers on X: &quot;   Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance surveying ...]]></title>
+            <description><![CDATA[Custom applications reduce errors and save time. #<b>ArcGIS</b> ... <b>Esri</b> Developers &middot; @EsriDevs. Frox leverages <b>ArcGIS</b> Maps <b>SDK</b> for .NET to enhance&nbsp;...]]></description>
+            <link>https://x.com/EsriDevs/status/1932226258546430291</link>
+            <guid isPermaLink="false">tag:google.com,2013:googlealerts/feed:15857777943308089375</guid>
+            <pubDate>Tue, 10 Jun 2025 14:26:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ArcGIS Maps SDK for Unreal Engine empowers St Louis to bridge urban divides]]></title>

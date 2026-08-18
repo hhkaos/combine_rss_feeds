@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (17-08-2026)",
+  "title": "Combined ArcGIS Feeds (18-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-17T00:33:16.791Z",
+  "lastUpdated": "2026-08-18T00:33:09.696Z",
   "items": [
+    {
+      "title": "ArcGIS Maps SDKs for Native Apps バージョン300.1をリリース | サポーターズ・コーナー",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET、Kotlin、Swift、Flutter の各 S…",
+      "link": "https://ken-it.world/supporters/2026/08/arcgis-maps-sdks-for-native-apps-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3300-1%E3%82%92%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:7659822067761561850",
+      "author": "",
+      "date": "2026-08-17T14:48:08.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Develop for Good: Enabling Smarter Rescue Efforts with Location Services",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/developers/public-safety/develop-for-good-enabling-smarter-rescue-efforts-with-location-services",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980231",
+      "author": "Elizabeth Ole",
+      "date": "2026-08-17T14:11:13.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Experience Builder Developer Edition 安保 修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Experience Builder Developer Edition 安保 修正\n\ncore-conceptsの中を修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/f76fc44fa45d0311272445303958159c6784265d",
+      "guid": "tag:github.com,2008:Grit::Commit/f76fc44fa45d0311272445303958159c6784265d",
+      "author": "ej-ambo",
+      "date": "2026-08-17T10:26:26.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Polk County to replace PC Maps with new CLOP platform; public rollout set for next week",
+      "description": "He described CLOP as a ground-up rebuild on the <b>Esri JavaScript API</b> designed for modern, mobile-first web use and improved security. McEvoy&nbsp;...",
+      "link": "https://citizenportal.ai/articles/7154250/oregon/polk-county/polk-county-to-replace-pc-maps-with-new-clop-platform-public-rollout-set-for-next-week",
+      "guid": "tag:google.com,2013:googlealerts/feed:12322398457130583539",
+      "author": "",
+      "date": "2026-08-16T00:46:04.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "<b>ArcGIS</b> Developer at ArdentMC | Sorce Jobs",
       "description": "•Ability to develop and maintain geospatial APIs, including <b>ESRI&#39;s ArcGIS</b> Server APIs (<b>JavaScript</b>, REST, Python); •Design and implement solutions&nbsp;...",

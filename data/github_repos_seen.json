@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-17T00:32:33.386Z",
+  "lastRun": "2026-08-18T00:32:22.037Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1213,6 +1213,15 @@
       "createdAt": "2025-09-08T17:03:15Z",
       "axis": "pushed",
       "stars": 13,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "y0urday/dsh-arcgis-pro-bridge": {
+      "htmlUrl": "https://github.com/y0urday/dsh-arcgis-pro-bridge",
+      "firstSeen": "2026-08-18T00:32:22.037Z",
+      "createdAt": "2026-08-17T07:49:19Z",
+      "axis": "created",
+      "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": true
     }
