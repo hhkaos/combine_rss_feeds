@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (18-08-2026)",
+  "title": "Combined ArcGIS Feeds (19-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-18T00:33:09.696Z",
+  "lastUpdated": "2026-08-19T00:33:36.873Z",
   "items": [
+    {
+      "title": "Adaptive 3D Model Fidelity",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=bkTC_Cc5qY8",
+      "guid": "yt:video:bkTC_Cc5qY8",
+      "author": "Esri Developers",
+      "date": "2026-08-18T12:54:32.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "ArcGIS Maps SDKs for Native Apps バージョン300.1をリリース | サポーターズ・コーナー",
       "description": "<b>ArcGIS Maps SDK for</b> .NET、Kotlin、Swift、Flutter の各 S…",

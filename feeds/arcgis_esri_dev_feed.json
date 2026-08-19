@@ -1,8 +1,116 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (18-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (19-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-18T00:33:32.286Z",
+  "lastUpdated": "2026-08-19T00:33:59.214Z",
   "items": [
+    {
+      "title": "fetachino/indy-geospatial-accessibility-platform: A full-stack geospatial platform analyzing public-transit and essential-service accessibility across Marion County, Indiana.",
+      "description": "A full-stack geospatial platform analyzing public-transit and essential-service accessibility across Marion County, Indiana.\nEs una plataforma geoespacial que analiza la accesibilidad al transporte público y servicios esenciales en Marion County.\nTopics: accessibility, arcgis, arcgis-pro, fastapi, geospatial, gis, indianapolis, marion-county, postgis, python, react, typescript, web-mapping · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/fetachino/indy-geospatial-accessibility-platform",
+      "guid": "https://github.com/fetachino/indy-geospatial-accessibility-platform",
+      "author": "fetachino",
+      "date": "2026-08-18T16:37:52.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un proyecto específico de análisis de accesibilidad y no una herramienta reutilizable.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una plataforma geoespacial que analiza la accesibilidad al transporte público y servicios esenciales en Marion County."
+    },
+    {
+      "title": "osbonilla/agente-arcgis-cue: Demo de un agente integrado con un LLM para consultas, analítica, filtros y operaciones espaciales en entorno de ArcGIS",
+      "description": "Demo de un agente integrado con un LLM para consultas, analítica, filtros y operaciones espaciales en entorno de ArcGIS\nEl repositorio presenta un agente integrado con un LLM para realizar consultas y operaciones en ArcGIS, pero es una aplicación de demostración.\nTopics: agentic-ai, arcgis, arcgis-online, llm-agents · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/osbonilla/agente-arcgis-cue",
+      "guid": "https://github.com/osbonilla/agente-arcgis-cue",
+      "author": "osbonilla",
+      "date": "2026-08-18T14:31:24.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una demo orientada a usuario final.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "El repositorio presenta un agente integrado con un LLM para realizar consultas y operaciones en ArcGIS, pero es una aplicación de demostración."
+    },
+    {
+      "title": "Adaptive 3D Model Fidelity",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=bkTC_Cc5qY8",
+      "guid": "yt:video:bkTC_Cc5qY8",
+      "author": "Esri Developers",
+      "date": "2026-08-18T12:54:32.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Alber185/Visor-GIS-playas: Interactive GIS web application for exploring Spanish beaches using ArcGIS Maps SDK for JavaScript, TypeScript and Vite.",
+      "description": "Interactive GIS web application for exploring Spanish beaches using ArcGIS Maps SDK for JavaScript, TypeScript and Vite.\nEs una aplicación web interactiva para explorar playas españolas utilizando ArcGIS Maps SDK.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Alber185/Visor-GIS-playas",
+      "guid": "https://github.com/Alber185/Visor-GIS-playas",
+      "author": "Alber185",
+      "date": "2026-08-18T10:36:23.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación orientada al usuario final para explorar playas, no es una herramienta reutilizable para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una aplicación web interactiva para explorar playas españolas utilizando ArcGIS Maps SDK."
+    },
+    {
+      "title": "Monica-Web88/GeoPulse_ESRI: Built GeoPulse, a full-stack wildfire tracking dashboard using the ArcGIS Maps SDK for JavaScript with reactive viewport-driven data queries, styled entirely with the Esri Calcite Design System (React components) for a native Esri look and feel. Architected a Node.js/PostgreSQL REST API serving live GeoJSON incident data ",
+      "description": "Built GeoPulse, a full-stack wildfire tracking dashboard using the ArcGIS Maps SDK for JavaScript with reactive viewport-driven data queries, styled entirely with the Esri Calcite Design System (React components) for a native Esri look and feel. Architected a Node.js/PostgreSQL REST API serving live GeoJSON incident data \nGeoPulse es un panel de control de seguimiento de incendios que utiliza el SDK de ArcGIS Maps para JavaScript.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Monica-Web88/GeoPulse_ESRI",
+      "guid": "https://github.com/Monica-Web88/GeoPulse_ESRI",
+      "author": "Monica-Web88",
+      "date": "2026-08-18T07:03:55.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "GeoPulse es un panel de control de seguimiento de incendios que utiliza el SDK de ArcGIS Maps para JavaScript."
+    },
+    {
+      "title": "rafat962/my-arcgis-app: Static ArcGIS Maps SDK for JS app — published by Salah MCP.",
+      "description": "Static ArcGIS Maps SDK for JS app — published by Salah MCP.\nEs una app estática que utiliza el SDK de ArcGIS para JS.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/rafat962/my-arcgis-app",
+      "guid": "https://github.com/rafat962/my-arcgis-app",
+      "author": "rafat962",
+      "date": "2026-08-18T06:36:45.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación estática sin herramientas reutilizables para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una app estática que utiliza el SDK de ArcGIS para JS."
+    },
     {
       "title": "ArcGIS Maps SDKs for Native Apps バージョン300.1をリリース | サポーターズ・コーナー",
       "description": "<b>ArcGIS Maps SDK for</b> .NET、Kotlin、Swift、Flutter の各 S…",

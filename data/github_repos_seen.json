@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-18T00:32:22.037Z",
+  "lastRun": "2026-08-19T00:32:54.381Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1224,6 +1224,51 @@
       "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "fetachino/indy-geospatial-accessibility-platform": {
+      "htmlUrl": "https://github.com/fetachino/indy-geospatial-accessibility-platform",
+      "firstSeen": "2026-08-19T00:32:48.200Z",
+      "createdAt": "2026-08-18T16:37:52Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "osbonilla/agente-arcgis-cue": {
+      "htmlUrl": "https://github.com/osbonilla/agente-arcgis-cue",
+      "firstSeen": "2026-08-19T00:32:49.846Z",
+      "createdAt": "2026-08-18T14:31:24Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Monica-Web88/GeoPulse_ESRI": {
+      "htmlUrl": "https://github.com/Monica-Web88/GeoPulse_ESRI",
+      "firstSeen": "2026-08-19T00:32:51.183Z",
+      "createdAt": "2026-08-18T07:03:55Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": true
+    },
+    "Alber185/Visor-GIS-playas": {
+      "htmlUrl": "https://github.com/Alber185/Visor-GIS-playas",
+      "firstSeen": "2026-08-19T00:32:52.644Z",
+      "createdAt": "2026-08-18T10:36:23Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "rafat962/my-arcgis-app": {
+      "htmlUrl": "https://github.com/rafat962/my-arcgis-app",
+      "firstSeen": "2026-08-19T00:32:54.380Z",
+      "createdAt": "2026-08-18T06:36:45Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }
