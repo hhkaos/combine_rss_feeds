@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-19T00:32:54.381Z",
+  "lastRun": "2026-08-20T00:32:58.436Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1269,6 +1269,24 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "pjmclaughlin1979/capacity-map": {
+      "htmlUrl": "https://github.com/pjmclaughlin1979/capacity-map",
+      "firstSeen": "2026-08-20T00:32:56.804Z",
+      "createdAt": "2026-08-19T20:09:26Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "pjmclaughlin1979/cap": {
+      "htmlUrl": "https://github.com/pjmclaughlin1979/cap",
+      "firstSeen": "2026-08-20T00:32:58.435Z",
+      "createdAt": "2026-08-19T19:45:32Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": true
     }
   }
 }

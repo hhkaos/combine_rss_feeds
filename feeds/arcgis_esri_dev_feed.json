@@ -1,8 +1,85 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (19-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (20-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-19T00:33:59.214Z",
+  "lastUpdated": "2026-08-20T00:35:36.893Z",
   "items": [
+    {
+      "title": "pjmclaughlin1979/capacity-map: Example ArcGIS Maps Javascript SDK app built with Claude",
+      "description": "Example ArcGIS Maps Javascript SDK app built with Claude\nEs una app de ejemplo construida con el SDK de ArcGIS Maps.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/pjmclaughlin1979/capacity-map",
+      "guid": "https://github.com/pjmclaughlin1979/capacity-map",
+      "author": "pjmclaughlin1979",
+      "date": "2026-08-19T20:09:26.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un ejemplo de aplicación sin utilidad para otros desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es una app de ejemplo construida con el SDK de ArcGIS Maps."
+    },
+    {
+      "title": "pjmclaughlin1979/cap: example site to showcase ArcGIS Maps SDK for Javascript",
+      "description": "example site to showcase ArcGIS Maps SDK for Javascript\nEste repositorio presenta un sitio de ejemplo para demostrar las capacidades del SDK de ArcGIS Maps para JavaScript.\nTopics: — · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/pjmclaughlin1979/cap",
+      "guid": "https://github.com/pjmclaughlin1979/cap",
+      "author": "pjmclaughlin1979",
+      "date": "2026-08-19T19:45:32.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Este repositorio presenta un sitio de ejemplo para demostrar las capacidades del SDK de ArcGIS Maps para JavaScript."
+    },
+    {
+      "title": "\n        Flutter のドキュメント更新、その他軽微な修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Flutter のドキュメント更新、その他軽微な修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/e93aada53991ad14fa6c95babbff547b2f8801e5",
+      "guid": "tag:github.com,2008:Grit::Commit/e93aada53991ad14fa6c95babbff547b2f8801e5",
+      "author": "koki-shiohara",
+      "date": "2026-08-19T09:18:26.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Sr. Product Engineer– <b>ArcGIS SDK</b> Documentation - <b>Esri</b> | Built In",
+      "description": "<b>Esri</b> is hiring for a Remote Sr. Product Engineer– <b>ArcGIS SDK</b> ... Create and maintain <b>ArcGIS</b> Maps <b>SDK</b> documentation, including <b>SDK</b> guides, tutorials, <b>API</b>&nbsp;...",
+      "link": "https://builtin.com/job/sr-product-engineer-arcgis-sdk-documentation/10694875",
+      "guid": "tag:google.com,2013:googlealerts/feed:2001831710691239258",
+      "author": "",
+      "date": "2026-08-19T08:31:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "ArcGIS Maps SDKs for Native Apps 300.1 をリリースしました",
+      "description": "<b>ArcGIS Maps SDK for</b> Flutter. グローバルおよびローカル シーンでのコールアウト機能、ジオプロセシング、条件値、改良されたポータル API、および ENC&nbsp;...",
+      "link": "https://blog.esrij.com/archives/71852",
+      "guid": "tag:google.com,2013:googlealerts/feed:2379710393552951801",
+      "author": "",
+      "date": "2026-08-19T06:36:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "fetachino/indy-geospatial-accessibility-platform: A full-stack geospatial platform analyzing public-transit and essential-service accessibility across Marion County, Indiana.",
       "description": "A full-stack geospatial platform analyzing public-transit and essential-service accessibility across Marion County, Indiana.\nEs una plataforma geoespacial que analiza la accesibilidad al transporte público y servicios esenciales en Marion County.\nTopics: accessibility, arcgis, arcgis-pro, fastapi, geospatial, gis, indianapolis, marion-county, postgis, python, react, typescript, web-mapping · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",

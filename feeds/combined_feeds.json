@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (19-08-2026)",
+  "title": "Combined ArcGIS Feeds (20-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-19T00:33:36.873Z",
+  "lastUpdated": "2026-08-20T00:34:18.920Z",
   "items": [
+    {
+      "title": "\n        Flutter のドキュメント更新、その他軽微な修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Flutter のドキュメント更新、その他軽微な修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/e93aada53991ad14fa6c95babbff547b2f8801e5",
+      "guid": "tag:github.com,2008:Grit::Commit/e93aada53991ad14fa6c95babbff547b2f8801e5",
+      "author": "koki-shiohara",
+      "date": "2026-08-19T09:18:26.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Sr. Product Engineer– <b>ArcGIS SDK</b> Documentation - <b>Esri</b> | Built In",
+      "description": "<b>Esri</b> is hiring for a Remote Sr. Product Engineer– <b>ArcGIS SDK</b> ... Create and maintain <b>ArcGIS</b> Maps <b>SDK</b> documentation, including <b>SDK</b> guides, tutorials, <b>API</b>&nbsp;...",
+      "link": "https://builtin.com/job/sr-product-engineer-arcgis-sdk-documentation/10694875",
+      "guid": "tag:google.com,2013:googlealerts/feed:2001831710691239258",
+      "author": "",
+      "date": "2026-08-19T08:31:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Maps SDKs for Native Apps 300.1 をリリースしました",
+      "description": "<b>ArcGIS Maps SDK for</b> Flutter. グローバルおよびローカル シーンでのコールアウト機能、ジオプロセシング、条件値、改良されたポータル API、および ENC&nbsp;...",
+      "link": "https://blog.esrij.com/archives/71852",
+      "guid": "tag:google.com,2013:googlealerts/feed:2379710393552951801",
+      "author": "",
+      "date": "2026-08-19T06:36:52.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Adaptive 3D Model Fidelity",
       "description": "",
