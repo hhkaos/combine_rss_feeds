@@ -1,8 +1,63 @@
 {
-  "title": "Combined ArcGIS Feeds (20-08-2026)",
+  "title": "Combined ArcGIS Feeds (21-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-20T00:34:18.920Z",
+  "lastUpdated": "2026-08-21T00:35:38.673Z",
   "items": [
+    {
+      "title": "GeoAI with imagery and 3D data  | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=7gaDVkya-1g",
+      "guid": "yt:video:7gaDVkya-1g",
+      "author": "Esri Developers",
+      "date": "2026-08-20T14:36:10.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        ExB Dev 1.21 インストールガイド、チュートリアル更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ExB Dev 1.21 インストールガイド、チュートリアル更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/fd41fa0ef692c1cbb8b31d7352ef6606e8c5f881",
+      "guid": "tag:github.com,2008:Grit::Commit/fd41fa0ef692c1cbb8b31d7352ef6606e8c5f881",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-20T07:59:24.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        ビルドエラーの対処\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ビルドエラーの対処</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/4cd90dfed2705c0a6b96ec9b9d8d4f08b0060261",
+      "guid": "tag:github.com,2008:Grit::Commit/4cd90dfed2705c0a6b96ec9b9d8d4f08b0060261",
+      "author": "koki-shiohara",
+      "date": "2026-08-20T06:09:55.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        Flutter の文章更新、修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Flutter の文章更新、修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/09f3048848e0dfa7457ecb45bd677d1480f784d9",
+      "guid": "tag:github.com,2008:Grit::Commit/09f3048848e0dfa7457ecb45bd677d1480f784d9",
+      "author": "koki-shiohara",
+      "date": "2026-08-20T06:04:01.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Jobs and Careers | Haystack",
+      "description": "Software Development Engineer &middot; Inside Sales Representative &middot; Product Engineer II- Rest <b>API</b>, <b>ArcGIS</b> Enterprise &middot; Sr. Product Engineer- <b>ArcGIS SDK</b>&nbsp;...",
+      "link": "https://haystackapp.io/companies/esri",
+      "guid": "tag:google.com,2013:googlealerts/feed:14958120752446688441",
+      "author": "",
+      "date": "2026-08-20T02:59:37.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "\n        Flutter のドキュメント更新、その他軽微な修正\n    ",
       "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Flutter のドキュメント更新、その他軽微な修正</pre>\n    ",
