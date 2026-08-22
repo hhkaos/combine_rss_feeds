@@ -1,8 +1,104 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (21-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (22-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-21T00:36:05.139Z",
+  "lastUpdated": "2026-08-22T00:33:24.031Z",
   "items": [
+    {
+      "title": "webtrackerxy/expo-arcgis-maps-sdk: Community-maintained ArcGIS Maps SDK bindings for Expo and React Native.",
+      "description": "Community-maintained ArcGIS Maps SDK bindings for Expo and React Native.\nProporciona una forma de integrar ArcGIS Maps en aplicaciones de Expo y React Native.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/webtrackerxy/expo-arcgis-maps-sdk",
+      "guid": "https://github.com/webtrackerxy/expo-arcgis-maps-sdk",
+      "author": "webtrackerxy",
+      "date": "2026-08-21T21:36:19.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una forma de integrar ArcGIS Maps en aplicaciones de Expo y React Native."
+    },
+    {
+      "title": "AmirHanache/lake-mead-water-quality-gis: GIS analysis of water quality conditions and monitoring coverage across Lake Mead and surrounding inflows.",
+      "description": "GIS analysis of water quality conditions and monitoring coverage across Lake Mead and surrounding inflows.\nEs un análisis GIS de la calidad del agua en Lake Mead, no es útil para otros desarrolladores.\nTopics: arcgis-pro, environmental-data, gis, lake-mead, spatial-analysis, water-quality, water-resources · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/AmirHanache/lake-mead-water-quality-gis",
+      "guid": "https://github.com/AmirHanache/lake-mead-water-quality-gis",
+      "author": "AmirHanache",
+      "date": "2026-08-21T21:36:13.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto de análisis específico sin herramientas reutilizables para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es un análisis GIS de la calidad del agua en Lake Mead, no es útil para otros desarrolladores."
+    },
+    {
+      "title": "3D Scenes Come Alive at Night",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=BpcVOqKFGH4",
+      "guid": "yt:video:BpcVOqKFGH4",
+      "author": "Esri Developers",
+      "date": "2026-08-21T20:33:34.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Episode 79 - AI-Generated Metadata Philosophy",
+      "description": "Metadata matters to search as much as it does to the AI Agent, so make it count!",
+      "link": "https://christophermoravec.com/episode-79-ai-generated-metadata-philosophy/",
+      "guid": "6a88a1240d949a0001a5d39b",
+      "author": "Christopher Moravec",
+      "date": "2026-08-21T19:59:54.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "LanGIS-Solution/vermilion-experience: ArcGIS Experience Builder app (Vermilion) with a custom widget, deployed as a static site for embedding in ArcGIS Online.",
+      "description": "ArcGIS Experience Builder app (Vermilion) with a custom widget, deployed as a static site for embedding in ArcGIS Online.\nProporciona un ejemplo de una aplicación de ArcGIS Experience Builder con un widget personalizado.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/LanGIS-Solution/vermilion-experience",
+      "guid": "https://github.com/LanGIS-Solution/vermilion-experience",
+      "author": "LanGIS-Solution",
+      "date": "2026-08-21T00:54:16.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un ejemplo de una aplicación de ArcGIS Experience Builder con un widget personalizado."
+    },
+    {
+      "title": "<b>Esri</b> Expands World Imagery with Airbus High-Resolution Basemap Coverage for 2,000 ...",
+      "description": "AFP <b>API</b> ... Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b>&nbsp;...",
+      "link": "http://www.afp.com/en/infos/esri-expands-world-imagery-airbus-high-resolution-basemap-coverage-2000-cities-worldwide",
+      "guid": "tag:google.com,2013:googlealerts/feed:16868333034777132099",
+      "author": "",
+      "date": "2026-08-20T19:02:15.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "GeoAI with imagery and 3D data  | #EsriDevTech2026",
       "description": "",

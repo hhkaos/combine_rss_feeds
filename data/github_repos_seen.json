@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-21T00:34:53.178Z",
+  "lastRun": "2026-08-22T00:32:16.786Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1296,6 +1296,33 @@
       "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": false
+    },
+    "AmirHanache/lake-mead-water-quality-gis": {
+      "htmlUrl": "https://github.com/AmirHanache/lake-mead-water-quality-gis",
+      "firstSeen": "2026-08-22T00:32:10.668Z",
+      "createdAt": "2026-08-21T21:36:13Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "webtrackerxy/expo-arcgis-maps-sdk": {
+      "htmlUrl": "https://github.com/webtrackerxy/expo-arcgis-maps-sdk",
+      "firstSeen": "2026-08-22T00:32:12.467Z",
+      "createdAt": "2026-08-21T21:36:19Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "LanGIS-Solution/vermilion-experience": {
+      "htmlUrl": "https://github.com/LanGIS-Solution/vermilion-experience",
+      "firstSeen": "2026-08-22T00:32:16.786Z",
+      "createdAt": "2026-08-21T00:54:16Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

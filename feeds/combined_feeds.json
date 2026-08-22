@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (21-08-2026)",
+  "title": "Combined ArcGIS Feeds (22-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-21T00:35:38.673Z",
+  "lastUpdated": "2026-08-22T00:32:58.310Z",
   "items": [
+    {
+      "title": "3D Scenes Come Alive at Night",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=BpcVOqKFGH4",
+      "guid": "yt:video:BpcVOqKFGH4",
+      "author": "Esri Developers",
+      "date": "2026-08-21T20:33:34.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Episode 79 - AI-Generated Metadata Philosophy",
+      "description": "Metadata matters to search as much as it does to the AI Agent, so make it count!",
+      "link": "https://christophermoravec.com/episode-79-ai-generated-metadata-philosophy/",
+      "guid": "6a88a1240d949a0001a5d39b",
+      "author": "Christopher Moravec",
+      "date": "2026-08-21T19:59:54.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> Expands World Imagery with Airbus High-Resolution Basemap Coverage for 2,000 ...",
+      "description": "AFP <b>API</b> ... Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b>&nbsp;...",
+      "link": "http://www.afp.com/en/infos/esri-expands-world-imagery-airbus-high-resolution-basemap-coverage-2000-cities-worldwide",
+      "guid": "tag:google.com,2013:googlealerts/feed:16868333034777132099",
+      "author": "",
+      "date": "2026-08-20T19:02:15.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "GeoAI with imagery and 3D data  | #EsriDevTech2026",
       "description": "",
