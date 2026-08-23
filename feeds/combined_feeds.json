@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (22-08-2026)",
+  "title": "Combined ArcGIS Feeds (23-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-22T00:32:58.310Z",
+  "lastUpdated": "2026-08-23T00:36:54.777Z",
   "items": [
+    {
+      "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
+      "description": "Added: August 2026 | Street data for most regions was updated to 2026.09.000 vintage. Check the | The following | countries | now offer Live Traffic: Bahrain, Indonesia, Malaysia, Morocco, Oman, Philippines, Taiwan, Uruguay, and Vietnam. Removed: July 2026 | Street data for most regions was updated to 2026.06.010 vintage. Check the | Bugs were fixed | July 2026",
+      "link": "https://developers.arcgis.com/rest/routing/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/63",
+      "author": "",
+      "date": "2026-08-22T22:12:17.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Protected: Make Your Apps Feel at Home in ArcGIS Hub: 3 Simple Ways to Create a Better User Experience",
+      "description": "There is no excerpt because this is a protected post.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/arcgis-hub-content-discovery-and-connected-experiences",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980800",
+      "author": "Jill Saligoe-Simmel",
+      "date": "2026-08-22T20:43:53.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Frontend Engineer (GIS &amp; Data Visualization) - Applaudo - Himalayas",
+      "description": "Experience building interactive web maps using <b>ArcGIS Maps SDK for</b> JavaScript, MapLibre, Leaflet, Google Maps, or similar technologies. Experience&nbsp;...",
+      "link": "https://himalayas.app/companies/applaudo/jobs/frontend-engineer-gis-data-visualization",
+      "guid": "tag:google.com,2013:googlealerts/feed:1973604351222953425",
+      "author": "",
+      "date": "2026-08-22T11:42:04.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Reader&#39;s Choice Awards 2026 - Visual Studio Magazine",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET. Syncfusion Maps Telerik UI for ASP.NET Core Map. Component: Text, OCR, Scanning &amp; Barcode. DevExpress Rich Text Editor",
+      "link": "https://visualstudiomagazine.com/microsites/readers-choice-awards/2026/home.aspx",
+      "guid": "tag:google.com,2013:googlealerts/feed:986253485748506877",
+      "author": "",
+      "date": "2026-08-21T21:22:01.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "3D Scenes Come Alive at Night",
       "description": "",
@@ -23,6 +67,17 @@
       "date": "2026-08-21T19:59:54.000Z",
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Top 5+ Web Mapping Courses Online — Compare &amp; Enroll - ScholarshipsAds",
+      "description": "Mastering (GIS) with <b>ArcGIS Maps SDK for</b> JavaScript Udemy. Mastering (GIS) with <b>ArcGIS Maps SDK for</b> JavaScript. MOOC / Non-credit. USD 49.99. Why&nbsp;...",
+      "link": "https://www.scholarshipsads.com/online-courses?q=web+mapping",
+      "guid": "tag:google.com,2013:googlealerts/feed:444650007469022761",
+      "author": "",
+      "date": "2026-08-21T15:40:51.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {

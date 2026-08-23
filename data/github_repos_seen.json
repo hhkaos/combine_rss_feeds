@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-22T00:32:16.786Z",
+  "lastRun": "2026-08-23T00:35:37.691Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1322,6 +1322,15 @@
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "b-connolly/sports-venue-digital-twin": {
+      "htmlUrl": "https://github.com/b-connolly/sports-venue-digital-twin",
+      "firstSeen": "2026-08-23T00:35:37.691Z",
+      "createdAt": "2026-08-22T22:20:32Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
       "relevant": true
     }
   }

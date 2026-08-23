@@ -1,8 +1,66 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (22-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (23-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-22T00:33:24.031Z",
+  "lastUpdated": "2026-08-23T00:37:52.541Z",
   "items": [
+    {
+      "title": "b-connolly/sports-venue-digital-twin: A digital twin of Empower Field at Mile High: ArcGIS Reality captures as Gaussian splats and meshes, live conditions, and replays driven by real match tracking. Built with the ArcGIS Maps SDK for JavaScript.",
+      "description": "A digital twin of Empower Field at Mile High: ArcGIS Reality captures as Gaussian splats and meshes, live conditions, and replays driven by real match tracking. Built with the ArcGIS Maps SDK for JavaScript.\nEste repositorio presenta un gemelo digital de Empower Field utilizando el SDK de ArcGIS para JavaScript.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/b-connolly/sports-venue-digital-twin",
+      "guid": "https://github.com/b-connolly/sports-venue-digital-twin",
+      "author": "b-connolly",
+      "date": "2026-08-22T22:20:32.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Este repositorio presenta un gemelo digital de Empower Field utilizando el SDK de ArcGIS para JavaScript."
+    },
+    {
+      "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
+      "description": "Added: August 2026 | Street data for most regions was updated to 2026.09.000 vintage. Check the | The following | countries | now offer Live Traffic: Bahrain, Indonesia, Malaysia, Morocco, Oman, Philippines, Taiwan, Uruguay, and Vietnam. Removed: July 2026 | Street data for most regions was updated to 2026.06.010 vintage. Check the | Bugs were fixed | July 2026",
+      "link": "https://developers.arcgis.com/rest/routing/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/63",
+      "author": "",
+      "date": "2026-08-22T22:12:17.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Protected: Make Your Apps Feel at Home in ArcGIS Hub: 3 Simple Ways to Create a Better User Experience",
+      "description": "There is no excerpt because this is a protected post.",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/arcgis-hub-content-discovery-and-connected-experiences",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980800",
+      "author": "Jill Saligoe-Simmel",
+      "date": "2026-08-22T20:43:53.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Frontend Engineer (GIS &amp; Data Visualization) - Applaudo - Himalayas",
+      "description": "Experience building interactive web maps using <b>ArcGIS Maps SDK for</b> JavaScript, MapLibre, Leaflet, Google Maps, or similar technologies. Experience&nbsp;...",
+      "link": "https://himalayas.app/companies/applaudo/jobs/frontend-engineer-gis-data-visualization",
+      "guid": "tag:google.com,2013:googlealerts/feed:1973604351222953425",
+      "author": "",
+      "date": "2026-08-22T11:42:04.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "webtrackerxy/expo-arcgis-maps-sdk: Community-maintained ArcGIS Maps SDK bindings for Expo and React Native.",
       "description": "Community-maintained ArcGIS Maps SDK bindings for Expo and React Native.\nProporciona una forma de integrar ArcGIS Maps en aplicaciones de Expo y React Native.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
@@ -42,6 +100,19 @@
       "discoverySummary": "Es un análisis GIS de la calidad del agua en Lake Mead, no es útil para otros desarrolladores."
     },
     {
+      "title": "Reader&#39;s Choice Awards 2026 - Visual Studio Magazine",
+      "description": "<b>ArcGIS Maps SDK for</b> .NET. Syncfusion Maps Telerik UI for ASP.NET Core Map. Component: Text, OCR, Scanning &amp; Barcode. DevExpress Rich Text Editor",
+      "link": "https://visualstudiomagazine.com/microsites/readers-choice-awards/2026/home.aspx",
+      "guid": "tag:google.com,2013:googlealerts/feed:986253485748506877",
+      "author": "",
+      "date": "2026-08-21T21:22:01.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
       "title": "3D Scenes Come Alive at Night",
       "description": "",
       "link": "https://www.youtube.com/watch?v=BpcVOqKFGH4",
@@ -63,6 +134,19 @@
       "date": "2026-08-21T19:59:54.000Z",
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
       "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Top 5+ Web Mapping Courses Online — Compare &amp; Enroll - ScholarshipsAds",
+      "description": "Mastering (GIS) with <b>ArcGIS Maps SDK for</b> JavaScript Udemy. Mastering (GIS) with <b>ArcGIS Maps SDK for</b> JavaScript. MOOC / Non-credit. USD 49.99. Why&nbsp;...",
+      "link": "https://www.scholarshipsads.com/online-courses?q=web+mapping",
+      "guid": "tag:google.com,2013:googlealerts/feed:444650007469022761",
+      "author": "",
+      "date": "2026-08-21T15:40:51.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
