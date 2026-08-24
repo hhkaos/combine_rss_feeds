@@ -1,8 +1,21 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (23-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (24-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-23T00:37:52.541Z",
+  "lastUpdated": "2026-08-24T00:35:29.337Z",
   "items": [
+    {
+      "title": "<b>Esri</b> Expands World Imagery with Airbus High-Resolution Basemap Coverage for ... - 뉴스와이어",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b> ... <b>API</b> &middot; MediaBee&nbsp;...",
+      "link": "https://www.newswire.co.kr/newsRead.php?no=1040948",
+      "guid": "tag:google.com,2013:googlealerts/feed:7960775863278835706",
+      "author": "",
+      "date": "2026-08-23T14:01:40.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "b-connolly/sports-venue-digital-twin: A digital twin of Empower Field at Mile High: ArcGIS Reality captures as Gaussian splats and meshes, live conditions, and replays driven by real match tracking. Built with the ArcGIS Maps SDK for JavaScript.",
       "description": "A digital twin of Empower Field at Mile High: ArcGIS Reality captures as Gaussian splats and meshes, live conditions, and replays driven by real match tracking. Built with the ArcGIS Maps SDK for JavaScript.\nEste repositorio presenta un gemelo digital de Empower Field utilizando el SDK de ArcGIS para JavaScript.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",

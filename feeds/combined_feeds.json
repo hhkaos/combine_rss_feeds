@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (23-08-2026)",
+  "title": "Combined ArcGIS Feeds (24-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-23T00:36:54.777Z",
+  "lastUpdated": "2026-08-24T00:35:04.111Z",
   "items": [
+    {
+      "title": "<b>Esri</b> Expands World Imagery with Airbus High-Resolution Basemap Coverage for ... - 뉴스와이어",
+      "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b> ... <b>API</b> &middot; MediaBee&nbsp;...",
+      "link": "https://www.newswire.co.kr/newsRead.php?no=1040948",
+      "guid": "tag:google.com,2013:googlealerts/feed:7960775863278835706",
+      "author": "",
+      "date": "2026-08-23T14:01:40.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
       "description": "Added: August 2026 | Street data for most regions was updated to 2026.09.000 vintage. Check the | The following | countries | now offer Live Traffic: Bahrain, Indonesia, Malaysia, Morocco, Oman, Philippines, Taiwan, Uruguay, and Vietnam. Removed: July 2026 | Street data for most regions was updated to 2026.06.010 vintage. Check the | Bugs were fixed | July 2026",
