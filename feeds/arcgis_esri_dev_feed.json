@@ -1,8 +1,85 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (24-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (25-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-24T00:35:29.337Z",
+  "lastUpdated": "2026-08-25T00:35:08.515Z",
   "items": [
+    {
+      "title": "abdullajonov1/elektr-tarmogi: Elektr tarmog'i custom widget for ArcGIS Experience Builder 1.16",
+      "description": "Elektr tarmog'i custom widget for ArcGIS Experience Builder 1.16\nEste repositorio contiene un widget personalizado que puede ser reutilizado por desarrolladores en ArcGIS Experience Builder.\nTopics: — · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/abdullajonov1/elektr-tarmogi",
+      "guid": "https://github.com/abdullajonov1/elektr-tarmogi",
+      "author": "abdullajonov1",
+      "date": "2026-08-24T22:46:06.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio contiene un widget personalizado que puede ser reutilizado por desarrolladores en ArcGIS Experience Builder."
+    },
+    {
+      "title": "VISUAL STUDIO MAGAZINE ANNOUNCES THE WINNERS OF 2026 READER&#39;S CHOICE AWARDS",
+      "description": "... <b>ArcGIS</b> Maps <b>SDK</b> for .NET Bronze: (TIE) Syncfusion Maps Bronze: (TIE) ... <b>API</b> Silver: Syncfusion Essential Studio Document <b>SDK</b> Bronze: Aspose&nbsp;...",
+      "link": "https://tech.einnews.com/pr_news/936011308/visual-studio-magazine-announces-the-winners-of-2026-reader-s-choice-awards",
+      "guid": "tag:google.com,2013:googlealerts/feed:17461486727404354365",
+      "author": "",
+      "date": "2026-08-24T13:02:08.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "aelhussiny/suitability-agent: A custom, deterministic ArcGIS Assistant agent that finds suitable homes by proximity to amenities (schools, metro, parks, roads). A worked example of building your own AI agent on the ArcGIS Maps SDK for JavaScript.",
+      "description": "A custom, deterministic ArcGIS Assistant agent that finds suitable homes by proximity to amenities (schools, metro, parks, roads). A worked example of building your own AI agent on the ArcGIS Maps SDK for JavaScript.\nProporciona un ejemplo práctico de un agente de ArcGIS que ayuda a encontrar hogares adecuados.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/aelhussiny/suitability-agent",
+      "guid": "https://github.com/aelhussiny/suitability-agent",
+      "author": "aelhussiny",
+      "date": "2026-08-24T06:54:00.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un ejemplo práctico de un agente de ArcGIS que ayuda a encontrar hogares adecuados."
+    },
+    {
+      "title": "\n        Calcite 微修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Calcite 微修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/2f5bde451f5c09674bf25ff4a4cf54ee6519b937",
+      "guid": "tag:github.com,2008:Grit::Commit/2f5bde451f5c09674bf25ff4a4cf54ee6519b937",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-24T05:26:58.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "\n        JS、Calcite チュートリアルを更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS、Calcite チュートリアルを更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/c37f4794bf6f3fceaee11f46239500f1b3d3c388",
+      "guid": "tag:github.com,2008:Grit::Commit/c37f4794bf6f3fceaee11f46239500f1b3d3c388",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-24T04:37:56.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "<b>Esri</b> Expands World Imagery with Airbus High-Resolution Basemap Coverage for ... - 뉴스와이어",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b> ... <b>API</b> &middot; MediaBee&nbsp;...",

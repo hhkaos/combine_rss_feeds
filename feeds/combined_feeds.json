@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (24-08-2026)",
+  "title": "Combined ArcGIS Feeds (25-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-24T00:35:04.111Z",
+  "lastUpdated": "2026-08-25T00:34:26.709Z",
   "items": [
+    {
+      "title": "VISUAL STUDIO MAGAZINE ANNOUNCES THE WINNERS OF 2026 READER&#39;S CHOICE AWARDS",
+      "description": "... <b>ArcGIS</b> Maps <b>SDK</b> for .NET Bronze: (TIE) Syncfusion Maps Bronze: (TIE) ... <b>API</b> Silver: Syncfusion Essential Studio Document <b>SDK</b> Bronze: Aspose&nbsp;...",
+      "link": "https://tech.einnews.com/pr_news/936011308/visual-studio-magazine-announces-the-winners-of-2026-reader-s-choice-awards",
+      "guid": "tag:google.com,2013:googlealerts/feed:17461486727404354365",
+      "author": "",
+      "date": "2026-08-24T13:02:08.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        Calcite 微修正\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>Calcite 微修正</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/2f5bde451f5c09674bf25ff4a4cf54ee6519b937",
+      "guid": "tag:github.com,2008:Grit::Commit/2f5bde451f5c09674bf25ff4a4cf54ee6519b937",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-24T05:26:58.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "\n        JS、Calcite チュートリアルを更新\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>JS、Calcite チュートリアルを更新</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/c37f4794bf6f3fceaee11f46239500f1b3d3c388",
+      "guid": "tag:github.com,2008:Grit::Commit/c37f4794bf6f3fceaee11f46239500f1b3d3c388",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-24T04:37:56.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "<b>Esri</b> Expands World Imagery with Airbus High-Resolution Basemap Coverage for ... - 뉴스와이어",
       "description": "Visit us at <b>esri</b>.com. Copyright © 2026 <b>Esri</b>. All rights reserved. <b>Esri</b>, the <b>Esri</b> Globe logo, The Science of Where, <b>ArcGIS</b>, <b>esri</b> ... <b>API</b> &middot; MediaBee&nbsp;...",

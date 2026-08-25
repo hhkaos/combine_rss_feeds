@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-24T00:34:35.198Z",
+  "lastRun": "2026-08-25T00:33:41.582Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1331,6 +1331,24 @@
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "consumer",
+      "relevant": true
+    },
+    "aelhussiny/suitability-agent": {
+      "htmlUrl": "https://github.com/aelhussiny/suitability-agent",
+      "firstSeen": "2026-08-25T00:33:39.939Z",
+      "createdAt": "2026-08-24T06:54:00Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "abdullajonov1/elektr-tarmogi": {
+      "htmlUrl": "https://github.com/abdullajonov1/elektr-tarmogi",
+      "firstSeen": "2026-08-25T00:33:41.582Z",
+      "createdAt": "2026-08-24T22:46:06Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
       "relevant": true
     }
   }
