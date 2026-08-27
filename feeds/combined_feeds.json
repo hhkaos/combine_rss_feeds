@@ -1,8 +1,52 @@
 {
-  "title": "Combined ArcGIS Feeds (26-08-2026)",
+  "title": "Combined ArcGIS Feeds (27-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-26T00:35:35.158Z",
+  "lastUpdated": "2026-08-27T05:38:14.590Z",
   "items": [
+    {
+      "title": "Protected: Discover what you can build with ArcGIS Maps SDK for JavaScript",
+      "description": "There is no excerpt because this is a protected post.",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/build-with-arcgis-maps-sdk-for-javascript",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2981012",
+      "author": "Sneha Suresh",
+      "date": "2026-08-26T19:20:32.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Pro Wraps - The CEDRA Corporation, Bridging Engineering and GIS",
+      "description": "The CEDRA Corporation offers consulting services and markets <b>Esri</b> ArcView GIS and <b>ArcGIS</b> ... <b>ArcGIS</b> Pro <b>SDK</b> and the development of <b>ArcGIS</b> Pro Add-Ins.",
+      "link": "https://cedra.com/prowraps.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:15201127558942423666",
+      "author": "",
+      "date": "2026-08-26T07:36:20.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Parallels Desktop 27 brings OpenGL 4.3 support - Apple Must",
+      "description": "... <b>ArcGIS</b> Pro, ZWCAD, and Blender 4.3, making it invaluable for high-end ... <b>API</b>. You can follow me on social media! Join me on BlueSky&nbsp;...",
+      "link": "https://www.applemust.com/parallels-desktop-27-brings-opengl-4-3-support/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5633405066323564049",
+      "author": "",
+      "date": "2026-08-26T02:52:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "\n        ExB Dev 1.21 コア コンセプト、確認および文章調整\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ExB Dev 1.21 コア コンセプト、確認および文章調整</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/6575b1a9ba84e8ab46b5b9094cff000c50634f74",
+      "guid": "tag:github.com,2008:Grit::Commit/6575b1a9ba84e8ab46b5b9094cff000c50634f74",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-26T01:37:30.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Detected changes on: Arcade What's New / Release notes Page",
       "description": "Added: Version 1.37 | (August 2026) | New functions | The following Pixel functions have been added | Count",

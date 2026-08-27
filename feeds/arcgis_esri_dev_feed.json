@@ -1,8 +1,79 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (26-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (27-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-26T00:35:57.820Z",
+  "lastUpdated": "2026-08-27T05:48:57.990Z",
   "items": [
+    {
+      "title": "Protected: Discover what you can build with ArcGIS Maps SDK for JavaScript",
+      "description": "There is no excerpt because this is a protected post.",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/build-with-arcgis-maps-sdk-for-javascript",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2981012",
+      "author": "Sneha Suresh",
+      "date": "2026-08-26T19:20:32.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "abdullajonov1/gaz-combined: Gaz Combined custom widget for ArcGIS Experience Builder 1.16",
+      "description": "Gaz Combined custom widget for ArcGIS Experience Builder 1.16\nEste repositorio contiene un widget personalizado que puede ser reutilizado por desarrolladores que trabajan con ArcGIS Experience Builder.\nTopics: — · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/abdullajonov1/gaz-combined",
+      "guid": "https://github.com/abdullajonov1/gaz-combined",
+      "author": "abdullajonov1",
+      "date": "2026-08-26T10:52:27.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio contiene un widget personalizado que puede ser reutilizado por desarrolladores que trabajan con ArcGIS Experience Builder."
+    },
+    {
+      "title": "Pro Wraps - The CEDRA Corporation, Bridging Engineering and GIS",
+      "description": "The CEDRA Corporation offers consulting services and markets <b>Esri</b> ArcView GIS and <b>ArcGIS</b> ... <b>ArcGIS</b> Pro <b>SDK</b> and the development of <b>ArcGIS</b> Pro Add-Ins.",
+      "link": "https://cedra.com/prowraps.html",
+      "guid": "tag:google.com,2013:googlealerts/feed:15201127558942423666",
+      "author": "",
+      "date": "2026-08-26T07:36:20.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Parallels Desktop 27 brings OpenGL 4.3 support - Apple Must",
+      "description": "... <b>ArcGIS</b> Pro, ZWCAD, and Blender 4.3, making it invaluable for high-end ... <b>API</b>. You can follow me on social media! Join me on BlueSky&nbsp;...",
+      "link": "https://www.applemust.com/parallels-desktop-27-brings-opengl-4-3-support/",
+      "guid": "tag:google.com,2013:googlealerts/feed:5633405066323564049",
+      "author": "",
+      "date": "2026-08-26T02:52:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "arcgis_only_reference"
+    },
+    {
+      "title": "\n        ExB Dev 1.21 コア コンセプト、確認および文章調整\n    ",
+      "description": "\n      <pre style='white-space:pre-wrap;width:81ex'>ExB Dev 1.21 コア コンセプト、確認および文章調整</pre>\n    ",
+      "link": "https://github.com/EsriJapan/arcgis-dev-resources/commit/6575b1a9ba84e8ab46b5b9094cff000c50634f74",
+      "guid": "tag:github.com,2008:Grit::Commit/6575b1a9ba84e8ab46b5b9094cff000c50634f74",
+      "author": "EJ-T-Murata",
+      "date": "2026-08-26T01:37:30.000Z",
+      "sourceFeedUrl": "https://github.com/EsriJapan/arcgis-dev-resources/commits.atom",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "ditto-404/esri-exbuilder-sdk-resources-sample: Custom ArcGIS Experience Builder widget sample (step-based filter + layer toggles + detail panel + custom map legend), genericized from a real project, built with reference to Esri's official arcgis-experience-builder-sdk-resources.",
       "description": "Custom ArcGIS Experience Builder widget sample (step-based filter + layer toggles + detail panel + custom map legend), genericized from a real project, built with reference to Esri's official arcgis-experience-builder-sdk-resources.\nEste repositorio proporciona un ejemplo de un widget personalizado para ArcGIS Experience Builder, útil para desarrolladores que buscan implementar funcionalidades específicas.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
