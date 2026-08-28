@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-27T05:27:20.177Z",
+  "lastRun": "2026-08-28T07:23:51.025Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1384,6 +1384,24 @@
       "createdAt": "2026-08-26T10:52:27Z",
       "axis": "created",
       "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "b-connolly/mile-high-reality-mapping": {
+      "htmlUrl": "https://github.com/b-connolly/mile-high-reality-mapping",
+      "firstSeen": "2026-08-28T07:23:49.507Z",
+      "createdAt": "2026-08-27T19:07:51Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": true
+    },
+    "Esri/arcgis-cookbook": {
+      "htmlUrl": "https://github.com/Esri/arcgis-cookbook",
+      "firstSeen": "2026-08-28T07:23:51.025Z",
+      "createdAt": "2015-06-12T15:40:25Z",
+      "axis": "pushed",
+      "stars": 330,
       "classifiedCategory": "devtool",
       "relevant": true
     }

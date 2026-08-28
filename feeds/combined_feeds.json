@@ -1,8 +1,85 @@
 {
-  "title": "Combined ArcGIS Feeds (27-08-2026)",
+  "title": "Combined ArcGIS Feeds (28-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-27T05:38:14.590Z",
+  "lastUpdated": "2026-08-28T07:24:30.015Z",
   "items": [
+    {
+      "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
+      "description": "Added: Release Notes (2.13.0) : Released 27th August 2026 | Text in error response JSON | message | and | details",
+      "link": "https://developers.arcgis.com/rest/basemap-styles/release-notes/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/67",
+      "author": "",
+      "date": "2026-08-27T22:00:54.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Detected changes on: ArcGIS Geocoding service What's New / Release notes Page",
+      "description": "Added: MC | P guide",
+      "link": "https://developers.arcgis.com/rest/geocode/whats-new-world-geocoding-service/",
+      "guid": "https://rss.rauljimenez.info/events/66",
+      "author": "",
+      "date": "2026-08-27T22:00:52.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
+      "description": "Added: MC | P guide",
+      "link": "https://developers.arcgis.com/rest/routing/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/65",
+      "author": "",
+      "date": "2026-08-27T22:00:50.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>Esri</b> iOS Team – GIS Mapping &amp; Spatial Analytics Apps - Mobile Signal",
+      "description": "<b>SDK</b> Engineers – for <b>ArcGIS</b> Runtime <b>SDK</b> development. Why Join <b>Esri</b>. <b>Esri</b> is building the world&#39;s leading GIS platform — helping organizations&nbsp;...",
+      "link": "https://www.mobilesignal.io/companies/esri",
+      "guid": "tag:google.com,2013:googlealerts/feed:569186418377138468",
+      "author": "",
+      "date": "2026-08-27T18:08:06.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Upgrading ArcGIS Enterprise | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=W2qV-J-ZPlI",
+      "guid": "yt:video:W2qV-J-ZPlI",
+      "author": "Esri Developers",
+      "date": "2026-08-27T17:25:54.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Welcome {arcgisrouting} to the R-ArcGIS Bridge 👋",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/r-bridge/developers/welcome-arcgisrouting-to-the-r-arcgis-bridge-%f0%9f%91%8b",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980668",
+      "author": "Josiah Parry",
+      "date": "2026-08-27T16:11:21.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Building my first JS web app with AI",
+      "description": "How I used agentic AI and the ArcGIS Maps SDK for JavaScript to build a custom 3D explorer for Malbork Castle.",
+      "link": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/geoai/building-my-first-js-web-app-with-ai",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980089",
+      "author": "Agnieszka Rozniak",
+      "date": "2026-08-27T07:12:17.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Protected: Discover what you can build with ArcGIS Maps SDK for JavaScript",
       "description": "There is no excerpt because this is a protected post.",
@@ -12,6 +89,17 @@
       "date": "2026-08-26T19:20:32.000Z",
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Application Developer - JavaScript at Esri | Sorce Jobs",
+      "description": "Job Summary. Develop prototype applications and proofs of concept using JavaScript, TypeScript, and <b>ArcGIS Maps SDK for</b> JavaScript to visualize&nbsp;...",
+      "link": "https://www.sorce.jobs/jobs/application-developer-javascript-esri-j1_Idqji4cXaPPjkblScGCkOXP9ziywEJP_oT3MYcoNJJVaAy8yoQ",
+      "guid": "tag:google.com,2013:googlealerts/feed:16133423789047206583",
+      "author": "",
+      "date": "2026-08-26T18:12:17.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {
