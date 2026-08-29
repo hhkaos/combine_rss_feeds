@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-28T07:23:51.025Z",
+  "lastRun": "2026-08-29T04:34:33.896Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1404,6 +1404,15 @@
       "stars": 330,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "fmorenog/urban-heat-risk-glasgow-msc": {
+      "htmlUrl": "https://github.com/fmorenog/urban-heat-risk-glasgow-msc",
+      "firstSeen": "2026-08-29T04:34:33.895Z",
+      "createdAt": "2026-08-28T17:48:40Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }

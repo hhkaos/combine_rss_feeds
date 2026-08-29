@@ -1,8 +1,53 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (28-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (29-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-28T07:24:50.881Z",
+  "lastUpdated": "2026-08-29T04:54:37.823Z",
   "items": [
+    {
+      "title": "Episode 80 - Two Types of Writing",
+      "description": "There are two ways to write with AI: it drafts and you edit, or you draft and it edits. Each path leaves different “watermarks” on the result, so pick one on purpose.",
+      "link": "https://christophermoravec.com/episode-80-two-types-of-writing/",
+      "guid": "6a91e3764e329600010f96f3",
+      "author": "Christopher Moravec",
+      "date": "2026-08-28T21:27:40.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "fmorenog/urban-heat-risk-glasgow-msc: Urban heat-risk analysis using LiDAR-derived built form, socioeconomic deprivation, and access to cooling infrastructure · ArcGIS Pro · raster & spatial analysis",
+      "description": "Urban heat-risk analysis using LiDAR-derived built form, socioeconomic deprivation, and access to cooling infrastructure · ArcGIS Pro · raster & spatial analysis\nEs un análisis de riesgo de calor urbano utilizando ArcGIS Pro, pero no es una herramienta o librería para otros desarrolladores.\nTopics: arcgis-pro, lidar-data, msc-project, raster-graphics, spatial-analysis, urban-analytics · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/fmorenog/urban-heat-risk-glasgow-msc",
+      "guid": "https://github.com/fmorenog/urban-heat-risk-glasgow-msc",
+      "author": "fmorenog",
+      "date": "2026-08-28T17:48:40.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto de análisis específico sin herramientas reutilizables.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un análisis de riesgo de calor urbano utilizando ArcGIS Pro, pero no es una herramienta o librería para otros desarrolladores."
+    },
+    {
+      "title": "Senior GIS Developer - CazVid",
+      "description": "✓ <b>ArcGIS</b> / <b>ArcGIS</b> Enterprise ✓ ArcPy ✓ <b>ArcGIS</b> Enterprise Geodatabase (Oracle) ✓ <b>ArcGIS</b> Pro &amp; <b>ArcGIS</b> Pro <b>SDK</b> ✓ C# ✓ .NET ✓ <b>JavaScript API</b>.",
+      "link": "https://cazvid.com/en/job/senior-gis-developer-930ef85b",
+      "guid": "tag:google.com,2013:googlealerts/feed:6973374801129096904",
+      "author": "",
+      "date": "2026-08-28T08:15:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Esri/arcgis-cookbook: Chef cookbooks for ArcGIS ",
       "description": "Chef cookbooks for ArcGIS \nEs un recurso útil para desarrolladores que buscan implementar ArcGIS utilizando Chef.\nTopics: arcgis, arcgis-cookbook, arcgis-desktop, arcgis-devops, arcgis-enterprise, arcgis-geoevent, arcgis-insights, arcgis-pro, chef, chef-cookbook, cookbook, esri, native-development, ruby · ⭐ 330 · Ruby\nGitHub repo descubierto (pushed · devtool)",

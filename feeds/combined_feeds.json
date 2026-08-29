@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (28-08-2026)",
+  "title": "Combined ArcGIS Feeds (29-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-28T07:24:30.015Z",
+  "lastUpdated": "2026-08-29T04:43:58.265Z",
   "items": [
+    {
+      "title": "Episode 80 - Two Types of Writing",
+      "description": "There are two ways to write with AI: it drafts and you edit, or you draft and it edits. Each path leaves different “watermarks” on the result, so pick one on purpose.",
+      "link": "https://christophermoravec.com/episode-80-two-types-of-writing/",
+      "guid": "6a91e3764e329600010f96f3",
+      "author": "Christopher Moravec",
+      "date": "2026-08-28T21:27:40.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Senior GIS Developer - CazVid",
+      "description": "✓ <b>ArcGIS</b> / <b>ArcGIS</b> Enterprise ✓ ArcPy ✓ <b>ArcGIS</b> Enterprise Geodatabase (Oracle) ✓ <b>ArcGIS</b> Pro &amp; <b>ArcGIS</b> Pro <b>SDK</b> ✓ C# ✓ .NET ✓ <b>JavaScript API</b>.",
+      "link": "https://cazvid.com/en/job/senior-gis-developer-930ef85b",
+      "guid": "tag:google.com,2013:googlealerts/feed:6973374801129096904",
+      "author": "",
+      "date": "2026-08-28T08:15:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Detected changes on: ArcGIS Basemap styles service What's New / Release notes Page",
       "description": "Added: Release Notes (2.13.0) : Released 27th August 2026 | Text in error response JSON | message | and | details",
