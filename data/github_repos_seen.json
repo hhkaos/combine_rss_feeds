@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-29T04:34:33.896Z",
+  "lastRun": "2026-08-30T02:04:27.366Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1413,6 +1413,15 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "yuyi1008688/Edu-Resource-GeoAI": {
+      "htmlUrl": "https://github.com/yuyi1008688/Edu-Resource-GeoAI",
+      "firstSeen": "2026-08-30T02:04:27.366Z",
+      "createdAt": "2026-08-29T09:59:32Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

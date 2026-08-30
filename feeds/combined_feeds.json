@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (29-08-2026)",
+  "title": "Combined ArcGIS Feeds (30-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-29T04:43:58.265Z",
+  "lastUpdated": "2026-08-30T02:05:45.067Z",
   "items": [
+    {
+      "title": "Application Developer - JavaScript at Esri | Sorce Jobs",
+      "description": "Job Summary. Develop and maintain prototype applications and proofs of concept using JavaScript, TypeScript, and <b>ArcGIS Maps SDK for</b> JavaScript.",
+      "link": "https://www.sorce.jobs/jobs/application-developer-javascript-esri-j1_sJbc-lgKTD4GHBYvNFTcPr0-_xu4Dn2tOUPDy9afHiz-E-693Q",
+      "guid": "tag:google.com,2013:googlealerts/feed:4700690993306162101",
+      "author": "",
+      "date": "2026-08-29T01:08:50.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 80 - Two Types of Writing",
       "description": "There are two ways to write with AI: it drafts and you edit, or you draft and it edits. Each path leaves different “watermarks” on the result, so pick one on purpose.",
@@ -11,6 +22,28 @@
       "author": "Christopher Moravec",
       "date": "2026-08-28T21:27:40.000Z",
       "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Count Points in Polygons | Python for ArcGIS Pro",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=SQgEUi94XWs",
+      "guid": "yt:video:SQgEUi94XWs",
+      "author": "Final Draft Mapping",
+      "date": "2026-08-28T13:37:17.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Count Feature Attachments with ArcPy | Python for ArcGIS Pro",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=rbTYMNiLLng",
+      "guid": "yt:video:rbTYMNiLLng",
+      "author": "Final Draft Mapping",
+      "date": "2026-08-28T09:15:50.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
       "sourceRelevanceMode": "trusted",
       "processed": false
     },

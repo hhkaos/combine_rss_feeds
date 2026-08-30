@@ -1,8 +1,40 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (29-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (30-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-29T04:54:37.823Z",
+  "lastUpdated": "2026-08-30T02:06:44.623Z",
   "items": [
+    {
+      "title": "yuyi1008688/Edu-Resource-GeoAI: Compulsory education resource spatial diagnosis & equity optimization: AlphaEarth features + GeoXGBoost dual-model + ECFI + MILP (GeoScene/ArcGIS toolboxes)",
+      "description": "Compulsory education resource spatial diagnosis & equity optimization: AlphaEarth features + GeoXGBoost dual-model + ECFI + MILP (GeoScene/ArcGIS toolboxes)\nProporciona herramientas y modelos para la optimización de recursos educativos en un contexto geoespacial.\nTopics: accessibility, arcgis, education-equity, geoai, geoscene, gis, milp, optuna, python, shap, spatial-analysis, xgboost · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/yuyi1008688/Edu-Resource-GeoAI",
+      "guid": "https://github.com/yuyi1008688/Edu-Resource-GeoAI",
+      "author": "yuyi1008688",
+      "date": "2026-08-29T09:59:32.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas y modelos para la optimización de recursos educativos en un contexto geoespacial."
+    },
+    {
+      "title": "Application Developer - JavaScript at Esri | Sorce Jobs",
+      "description": "Job Summary. Develop and maintain prototype applications and proofs of concept using JavaScript, TypeScript, and <b>ArcGIS Maps SDK for</b> JavaScript.",
+      "link": "https://www.sorce.jobs/jobs/application-developer-javascript-esri-j1_sJbc-lgKTD4GHBYvNFTcPr0-_xu4Dn2tOUPDy9afHiz-E-693Q",
+      "guid": "tag:google.com,2013:googlealerts/feed:4700690993306162101",
+      "author": "",
+      "date": "2026-08-29T01:08:50.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "Episode 80 - Two Types of Writing",
       "description": "There are two ways to write with AI: it drafts and you edit, or you draft and it edits. Each path leaves different “watermarks” on the result, so pick one on purpose.",
@@ -34,6 +66,32 @@
       ],
       "repoCategory": "consumer",
       "discoverySummary": "Es un análisis de riesgo de calor urbano utilizando ArcGIS Pro, pero no es una herramienta o librería para otros desarrolladores."
+    },
+    {
+      "title": "Count Points in Polygons | Python for ArcGIS Pro",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=SQgEUi94XWs",
+      "guid": "yt:video:SQgEUi94XWs",
+      "author": "Final Draft Mapping",
+      "date": "2026-08-28T13:37:17.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Count Feature Attachments with ArcPy | Python for ArcGIS Pro",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=rbTYMNiLLng",
+      "guid": "yt:video:rbTYMNiLLng",
+      "author": "Final Draft Mapping",
+      "date": "2026-08-28T09:15:50.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
     },
     {
       "title": "Senior GIS Developer - CazVid",
