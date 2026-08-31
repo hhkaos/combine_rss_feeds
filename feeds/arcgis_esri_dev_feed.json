@@ -1,8 +1,72 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (30-08-2026)",
+  "title": "ArcGIS ESRI Dev Feed (31-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-30T02:06:44.623Z",
+  "lastUpdated": "2026-08-31T02:01:36.536Z",
   "items": [
+    {
+      "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
+      "description": "Removed: 12.2 | Utility Network service | The following capabilities were added: | A new | supports",
+      "link": "https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/",
+      "guid": "https://rss.rauljimenez.info/events/68",
+      "author": "",
+      "date": "2026-08-30T22:06:34.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "<b>ArcGIS</b> Server Alternative for On-prem Self-hosted Maps - MapTiler",
+      "description": "Documentation<b>JavaScript SDK</b>Mobile SDKs<b>API</b> referenceYouTube channelContact supportConnect25 Conference ... Primarily optimized for <b>ArcGIS</b> Maps <b>SDK</b> for&nbsp;...",
+      "link": "https://www.maptiler.com/arcgis-server-alternative/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16859116172477887343",
+      "author": "",
+      "date": "2026-08-30T14:37:05.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "GisSense/arcgis-sdk-example: Angular example using ArcGIS Maps SDK with YAML-configured layers",
+      "description": "Angular example using ArcGIS Maps SDK with YAML-configured layers\nProporciona un ejemplo de implementación de capas configuradas con YAML utilizando el SDK de ArcGIS para Angular.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/GisSense/arcgis-sdk-example",
+      "guid": "https://github.com/GisSense/arcgis-sdk-example",
+      "author": "GisSense",
+      "date": "2026-08-30T14:01:50.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un ejemplo de implementación de capas configuradas con YAML utilizando el SDK de ArcGIS para Angular."
+    },
+    {
+      "title": "nrahaman1/open-utility-digital-twin-lab: A gas Esri Utility Network reference implementation in pure Python: geometric-network migration, topology validation, subnetworks, and terminal-aware tracing. Runs end to end in 5 seconds with no ArcGIS licence.",
+      "description": "A gas Esri Utility Network reference implementation in pure Python: geometric-network migration, topology validation, subnetworks, and terminal-aware tracing. Runs end to end in 5 seconds with no ArcGIS licence.\nProporciona una implementación de referencia para la red de utilidad de Esri, útil para desarrolladores que trabajan con redes geoespaciales.\nTopics: arcgis, arcpy, data-migration, esri, gas-utility, geospatial, gis, network-analysis, python, utility-network · ⭐ 0 · HTML\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/nrahaman1/open-utility-digital-twin-lab",
+      "guid": "https://github.com/nrahaman1/open-utility-digital-twin-lab",
+      "author": "nrahaman1",
+      "date": "2026-08-30T02:05:01.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona una implementación de referencia para la red de utilidad de Esri, útil para desarrolladores que trabajan con redes geoespaciales."
+    },
     {
       "title": "yuyi1008688/Edu-Resource-GeoAI: Compulsory education resource spatial diagnosis & equity optimization: AlphaEarth features + GeoXGBoost dual-model + ECFI + MILP (GeoScene/ArcGIS toolboxes)",
       "description": "Compulsory education resource spatial diagnosis & equity optimization: AlphaEarth features + GeoXGBoost dual-model + ECFI + MILP (GeoScene/ArcGIS toolboxes)\nProporciona herramientas y modelos para la optimización de recursos educativos en un contexto geoespacial.\nTopics: accessibility, arcgis, education-equity, geoai, geoscene, gis, milp, optuna, python, shap, spatial-analysis, xgboost · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",

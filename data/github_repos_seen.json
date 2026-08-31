@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-30T02:04:27.366Z",
+  "lastRun": "2026-08-31T02:00:25.732Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1418,6 +1418,24 @@
       "htmlUrl": "https://github.com/yuyi1008688/Edu-Resource-GeoAI",
       "firstSeen": "2026-08-30T02:04:27.366Z",
       "createdAt": "2026-08-29T09:59:32Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "nrahaman1/open-utility-digital-twin-lab": {
+      "htmlUrl": "https://github.com/nrahaman1/open-utility-digital-twin-lab",
+      "firstSeen": "2026-08-31T02:00:24.491Z",
+      "createdAt": "2026-08-30T02:05:01Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "GisSense/arcgis-sdk-example": {
+      "htmlUrl": "https://github.com/GisSense/arcgis-sdk-example",
+      "firstSeen": "2026-08-31T02:00:25.732Z",
+      "createdAt": "2026-08-30T14:01:50Z",
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "devtool",

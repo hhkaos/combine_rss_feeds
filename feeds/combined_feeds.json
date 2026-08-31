@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (30-08-2026)",
+  "title": "Combined ArcGIS Feeds (31-08-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-08-30T02:05:45.067Z",
+  "lastUpdated": "2026-08-31T02:01:12.167Z",
   "items": [
+    {
+      "title": "Detected changes on: ArcGIS Enterprise REST API What's New / Release notes Page",
+      "description": "Removed: 12.2 | Utility Network service | The following capabilities were added: | A new | supports",
+      "link": "https://developers.arcgis.com/rest/services-reference/enterprise/whats-new/",
+      "guid": "https://rss.rauljimenez.info/events/68",
+      "author": "",
+      "date": "2026-08-30T22:06:34.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Server Alternative for On-prem Self-hosted Maps - MapTiler",
+      "description": "Documentation<b>JavaScript SDK</b>Mobile SDKs<b>API</b> referenceYouTube channelContact supportConnect25 Conference ... Primarily optimized for <b>ArcGIS</b> Maps <b>SDK</b> for&nbsp;...",
+      "link": "https://www.maptiler.com/arcgis-server-alternative/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16859116172477887343",
+      "author": "",
+      "date": "2026-08-30T14:37:05.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Application Developer - JavaScript at Esri | Sorce Jobs",
       "description": "Job Summary. Develop and maintain prototype applications and proofs of concept using JavaScript, TypeScript, and <b>ArcGIS Maps SDK for</b> JavaScript.",
