@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-01T02:22:01.126Z",
+  "lastRun": "2026-09-02T01:43:21.360Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1465,6 +1465,24 @@
       "createdAt": "2022-10-31T18:02:49Z",
       "axis": "pushed",
       "stars": 10,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "EsriSupport/arcgis-pro-setup-wizard": {
+      "htmlUrl": "https://github.com/EsriSupport/arcgis-pro-setup-wizard",
+      "firstSeen": "2026-09-02T01:43:20.077Z",
+      "createdAt": "2026-09-01T10:37:09Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "terraformer-js/terraformer": {
+      "htmlUrl": "https://github.com/terraformer-js/terraformer",
+      "firstSeen": "2026-09-02T01:43:21.360Z",
+      "createdAt": "2018-12-27T21:53:17Z",
+      "axis": "pushed",
+      "stars": 239,
       "classifiedCategory": "devtool",
       "relevant": true
     }

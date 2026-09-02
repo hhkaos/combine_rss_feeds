@@ -1,8 +1,98 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (01-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (02-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-01T02:23:29.461Z",
+  "lastUpdated": "2026-09-02T01:44:30.802Z",
   "items": [
+    {
+      "title": "terraformer-js/terraformer: A geographic toolkit for dealing with geometry, geography, formats, and building geodatabases",
+      "description": "A geographic toolkit for dealing with geometry, geography, formats, and building geodatabases\nTerraformer es un kit de herramientas geográficas que facilita el manejo de geometrías y formatos, ideal para integraciones con ArcGIS.\nTopics: arcgis, data-management, geojson, javascript · ⭐ 239 · JavaScript\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/terraformer-js/terraformer",
+      "guid": "https://github.com/terraformer-js/terraformer",
+      "author": "terraformer-js",
+      "date": "2026-09-01T22:18:48.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Terraformer es un kit de herramientas geográficas que facilita el manejo de geometrías y formatos, ideal para integraciones con ArcGIS."
+    },
+    {
+      "title": "Merge Polygons by Identical Attributes with ArcPy | Python for ArcGIS Pro",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=2f0SKPqJPJU",
+      "guid": "yt:video:2f0SKPqJPJU",
+      "author": "Final Draft Mapping",
+      "date": "2026-09-01T20:06:10.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "HERE and <b>Esri</b> Bring a New Chapter in Location Intelligence | Geo Week News",
+      "description": "... <b>API</b>, but to financial controllers, operations teams, product ... <b>Esri&#39;s ArcGIS</b> platform, which HERE considers best-in-class for these&nbsp;...",
+      "link": "https://www.geoweeknews.com/articles/here-and-esri-bring-a-new-chapter-in-location-intelligence/",
+      "guid": "tag:google.com,2013:googlealerts/feed:11374939176066414365",
+      "author": "",
+      "date": "2026-09-01T19:37:17.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Nova Scotia Power fixes &#39;Lake America&#39; on outage map | CBC News",
+      "description": "One alternative he suggested was using an alternative map <b>API</b>, like one offered by the global mapping company <b>ESRI</b>. Both New Brunswick Power and&nbsp;...",
+      "link": "https://www.cbc.ca/news/canada/nova-scotia/nsp-lake-america-name-change-outage-map-9.7326799",
+      "guid": "tag:google.com,2013:googlealerts/feed:6820406895340328505",
+      "author": "",
+      "date": "2026-09-01T17:29:05.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "arcgis_only_reference"
+    },
+    {
+      "title": "EsriSupport/arcgis-pro-setup-wizard: Installs ArcGIS Pro with the exact prerequisites, components and patches that version needs, in Esri's order. A single Windows executable, no command line. By the Esri North Africa Technical Support Team.",
+      "description": "Installs ArcGIS Pro with the exact prerequisites, components and patches that version needs, in Esri's order. A single Windows executable, no command line. By the Esri North Africa Technical Support Team.\nInstala ArcGIS Pro con los requisitos y componentes necesarios, pero no es útil para el desarrollo.\nTopics: arcgis, arcgis-pro, deployment, esri, gis, installer, it-support, patch-management, prerequisites, silent-install, sysadmin, windows · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/EsriSupport/arcgis-pro-setup-wizard",
+      "guid": "https://github.com/EsriSupport/arcgis-pro-setup-wizard",
+      "author": "EsriSupport",
+      "date": "2026-09-01T10:37:09.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una herramienta de instalación y soporte técnico, no un recurso para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Instala ArcGIS Pro con los requisitos y componentes necesarios, pero no es útil para el desarrollo."
+    },
+    {
+      "title": "サポート製品 | ESRIジャパン サポートサイト",
+      "description": "<b>ArcGIS Maps SDK for</b> Flutter &middot; <b>ArcGIS Maps SDK for</b> Kotlin &middot; <b>ArcGIS Maps SDK for</b> JavaScript &middot; <b>ArcGIS Maps SDK for</b> Swift &middot; ArcGIS Monitor &middot; ArcGIS&nbsp;...",
+      "link": "https://support.esrij.com/products",
+      "guid": "tag:google.com,2013:googlealerts/feed:6343138263702489319",
+      "author": "",
+      "date": "2026-09-01T09:27:53.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "angelicacanoncaldeon-afk/widget-accesibilidad-visual: Widget de ArcGIS Experience Builder que aplica filtros de daltonismo en tiempo real sobre cualquier mapa. Simular y corregir. CUE 2026, Semillero de Investigacion Esri Colombia.",
       "description": "Widget de ArcGIS Experience Builder que aplica filtros de daltonismo en tiempo real sobre cualquier mapa. Simular y corregir. CUE 2026, Semillero de Investigacion Esri Colombia.\nEste widget permite aplicar filtros de daltonismo en tiempo real sobre mapas en ArcGIS Experience Builder.\nTopics: — · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
