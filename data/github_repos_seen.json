@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-02T01:43:21.360Z",
+  "lastRun": "2026-09-03T01:49:08.224Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1483,6 +1483,15 @@
       "createdAt": "2018-12-27T21:53:17Z",
       "axis": "pushed",
       "stars": 239,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "james-lagreca/swath-profile-arcgis-pro": {
+      "htmlUrl": "https://github.com/james-lagreca/swath-profile-arcgis-pro",
+      "firstSeen": "2026-09-03T01:49:08.223Z",
+      "createdAt": "2026-09-02T07:26:09Z",
+      "axis": "created",
+      "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": true
     }

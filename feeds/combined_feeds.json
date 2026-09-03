@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (02-09-2026)",
+  "title": "Combined ArcGIS Feeds (03-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-02T01:44:05.369Z",
+  "lastUpdated": "2026-09-03T01:57:54.459Z",
   "items": [
+    {
+      "title": "Make Your Apps Feel at Home in ArcGIS Hub: 3 Simple Ways to Create a Better User Experience",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/create-connected-user-experience-with-apps-in-arcgis-hub",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980800",
+      "author": "Jill Saligoe-Simmel",
+      "date": "2026-09-02T20:43:53.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "<b>ArcGIS</b> Field Maps - Apps Documentation",
+      "description": "... <b>esri</b> com/en us/<b>arcgis</b>/products/<b>arcgis</b> field maps/trial/sign up for ... <b>api</b> documentation https //developers <b>arcgis</b> com/<b>javascript</b>/latest/<b>api</b>&nbsp;...",
+      "link": "https://apps.make.com/arcgis-field-maps?%60id%60%5Cu003ddkkvkqcb93i%5Cu0026dkkvkqcb93i%5B%60id%60%5D%5Cu003ddkkvkqcb93i%5Cu0026dkkvkqcb93i%5Cu003d%60id%60=",
+      "guid": "tag:google.com,2013:googlealerts/feed:11385896636985850836",
+      "author": "",
+      "date": "2026-09-02T00:31:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Merge Polygons by Identical Attributes with ArcPy | Python for ArcGIS Pro",
       "description": "",

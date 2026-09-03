@@ -1,8 +1,79 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (02-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (03-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-02T01:44:30.802Z",
+  "lastUpdated": "2026-09-03T02:03:48.271Z",
   "items": [
+    {
+      "title": "Make Your Apps Feel at Home in ArcGIS Hub: 3 Simple Ways to Create a Better User Experience",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/create-connected-user-experience-with-apps-in-arcgis-hub",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2980800",
+      "author": "Jill Saligoe-Simmel",
+      "date": "2026-09-02T20:43:53.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Understanding MCP & A2A--A Primer for GIS Practitioners | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=J4d9A938HBw",
+      "guid": "yt:video:J4d9A938HBw",
+      "author": "Esri Developers",
+      "date": "2026-09-02T14:00:18.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Customize ArcGIS Pro Without Code",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=fUeSxRrLchg",
+      "guid": "yt:video:fUeSxRrLchg",
+      "author": "Esri Developers",
+      "date": "2026-09-02T12:35:22.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "james-lagreca/swath-profile-arcgis-pro: Swath profiles for ArcGIS Pro: draw a line or place transects across a fault, get min/max/mean/percentile envelopes, HI and THi, and an interactive chart linked to the map. Port of Pérez-Peña et al. (2017).",
+      "description": "Swath profiles for ArcGIS Pro: draw a line or place transects across a fault, get min/max/mean/percentile envelopes, HI and THi, and an interactive chart linked to the map. Port of Pérez-Peña et al. (2017).\nPermite crear perfiles de swath en ArcGIS Pro, facilitando el análisis de datos topográficos.\nTopics: arcgis-pro, arcpy, dem, geomorphology, lidar, python-toolbox, swath-profile, tectonic-geomorphology · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/james-lagreca/swath-profile-arcgis-pro",
+      "guid": "https://github.com/james-lagreca/swath-profile-arcgis-pro",
+      "author": "james-lagreca",
+      "date": "2026-09-02T07:26:09.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Permite crear perfiles de swath en ArcGIS Pro, facilitando el análisis de datos topográficos."
+    },
+    {
+      "title": "<b>ArcGIS</b> Field Maps - Apps Documentation",
+      "description": "... <b>esri</b> com/en us/<b>arcgis</b>/products/<b>arcgis</b> field maps/trial/sign up for ... <b>api</b> documentation https //developers <b>arcgis</b> com/<b>javascript</b>/latest/<b>api</b>&nbsp;...",
+      "link": "https://apps.make.com/arcgis-field-maps?%60id%60%5Cu003ddkkvkqcb93i%5Cu0026dkkvkqcb93i%5B%60id%60%5D%5Cu003ddkkvkqcb93i%5Cu0026dkkvkqcb93i%5Cu003d%60id%60=",
+      "guid": "tag:google.com,2013:googlealerts/feed:11385896636985850836",
+      "author": "",
+      "date": "2026-09-02T00:31:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "terraformer-js/terraformer: A geographic toolkit for dealing with geometry, geography, formats, and building geodatabases",
       "description": "A geographic toolkit for dealing with geometry, geography, formats, and building geodatabases\nTerraformer es un kit de herramientas geográficas que facilita el manejo de geometrías y formatos, ideal para integraciones con ArcGIS.\nTopics: arcgis, data-management, geojson, javascript · ⭐ 239 · JavaScript\nGitHub repo descubierto (pushed · devtool)",
