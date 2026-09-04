@@ -1,8 +1,91 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (03-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (04-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-03T02:03:48.271Z",
+  "lastUpdated": "2026-09-04T02:03:05.460Z",
   "items": [
+    {
+      "title": "<b>Esri</b> India Launches GeoSARAL, an Indigenous GIS Software - CXOToday.com",
+      "description": "GeoSARAL is a result of this continued focus and efforts by the <b>Esri</b> India team. Professional GIS users in organizations use <b>ArcGIS</b> Pro for advanced&nbsp;...",
+      "link": "https://cxotoday.com/media-coverage/esri-india-launches-geosaral-an-indigenous-gis-software/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16697275096650638540",
+      "author": "",
+      "date": "2026-09-03T21:18:11.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "erick9328/migrador-arcgis-orgs: Herramienta de escritorio para migrar y consolidar organizaciones ArcGIS (usuarios, grupos, dashboards, mapas, formularios Survey123 y datos) con deteccion de dependencias, diagnostico y correccion automatica.",
+      "description": "Herramienta de escritorio para migrar y consolidar organizaciones ArcGIS (usuarios, grupos, dashboards, mapas, formularios Survey123 y datos) con deteccion de dependencias, diagnostico y correccion automatica.\nEs una herramienta de escritorio que facilita la migración y consolidación de organizaciones ArcGIS.\nTopics: arcgis, arcgis-enterprise, arcgis-online, geospatial, gis, migration, python, survey123, tkinter · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/erick9328/migrador-arcgis-orgs",
+      "guid": "https://github.com/erick9328/migrador-arcgis-orgs",
+      "author": "erick9328",
+      "date": "2026-09-03T21:00:16.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es una herramienta de escritorio que facilita la migración y consolidación de organizaciones ArcGIS."
+    },
+    {
+      "title": "idahoboy/access-explorer-claude: Prototype: a public discovery experience for wildlife access across Idaho, built around the Access Opportunity as the primary object. Fictional example data.",
+      "description": "Prototype: a public discovery experience for wildlife access across Idaho, built around the Access Opportunity as the primary object. Fictional example data.\nEs un prototipo de descubrimiento público para el acceso a la vida silvestre en Idaho.\nTopics: arcgis, gis, idaho, prototype, public-lands, react, vite · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/idahoboy/access-explorer-claude",
+      "guid": "https://github.com/idahoboy/access-explorer-claude",
+      "author": "idahoboy",
+      "date": "2026-09-03T20:28:03.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un prototipo de experiencia pública sin utilidad para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un prototipo de descubrimiento público para el acceso a la vida silvestre en Idaho."
+    },
+    {
+      "title": "CMPDI Honoured at <b>Esri</b> India User Conference 2026 for Geospatial Technology Innovations",
+      "description": "New Delhi: Central Mine Planning &amp; Design Institute Limited (CMPDI) was honoured at the <b>Esri</b> ... <b>JavaScript</b> has been disabled on your browser, please&nbsp;...",
+      "link": "https://indianmasterminds.com/news/cmpdi-esri-india-user-conference-2026-geospatial-technology-230093/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2943614903350071926",
+      "author": "",
+      "date": "2026-09-03T19:01:09.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "JuniorReisx/Inventario-de-Ativos---SIHS: Building GIS Solutions for Water Infrastructure Management",
+      "description": "Building GIS Solutions for Water Infrastructure Management\nProporciona herramientas y ejemplos para el manejo de activos en el contexto de ArcGIS.\nTopics: arcgis, enterprise, experience-builder, gis, react · ⭐ 0 · TypeScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/JuniorReisx/Inventario-de-Ativos---SIHS",
+      "guid": "https://github.com/JuniorReisx/Inventario-de-Ativos---SIHS",
+      "author": "JuniorReisx",
+      "date": "2026-09-03T15:02:12.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona herramientas y ejemplos para el manejo de activos en el contexto de ArcGIS."
+    },
     {
       "title": "Make Your Apps Feel at Home in ArcGIS Hub: 3 Simple Ways to Create a Better User Experience",
       "description": "",

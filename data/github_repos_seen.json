@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-03T01:49:08.224Z",
+  "lastRun": "2026-09-04T01:44:58.008Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1490,6 +1490,33 @@
       "htmlUrl": "https://github.com/james-lagreca/swath-profile-arcgis-pro",
       "firstSeen": "2026-09-03T01:49:08.223Z",
       "createdAt": "2026-09-02T07:26:09Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "erick9328/migrador-arcgis-orgs": {
+      "htmlUrl": "https://github.com/erick9328/migrador-arcgis-orgs",
+      "firstSeen": "2026-09-04T01:44:55.388Z",
+      "createdAt": "2026-09-03T21:00:16Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "idahoboy/access-explorer-claude": {
+      "htmlUrl": "https://github.com/idahoboy/access-explorer-claude",
+      "firstSeen": "2026-09-04T01:44:56.932Z",
+      "createdAt": "2026-09-03T20:28:03Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "JuniorReisx/Inventario-de-Ativos---SIHS": {
+      "htmlUrl": "https://github.com/JuniorReisx/Inventario-de-Ativos---SIHS",
+      "firstSeen": "2026-09-04T01:44:58.007Z",
+      "createdAt": "2026-09-03T15:02:12Z",
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "devtool",

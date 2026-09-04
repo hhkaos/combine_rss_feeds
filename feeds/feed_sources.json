@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T02:03:48.332Z",
+  "lastUpdated": "2026-09-04T02:03:05.528Z",
   "totalSources": 90,
   "sources": [
     {
@@ -8,36 +8,22 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "siteUrl": "https://www.youtube.com/channel/UCgCXcfk5uEraWkpE9wlRwgw",
       "relevanceMode": "trusted",
-      "status": "failed",
-      "health": "error",
-      "itemCount": 0,
-      "processedItems": 0,
-      "fetchAttempts": 5,
-      "lastHttpStatus": 404,
+      "status": "ok",
+      "health": "ok",
+      "itemCount": 15,
+      "processedItems": 15,
+      "fetchAttempts": 2,
+      "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 1,
+      "errorCount": 0,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-09-03T01:49:08.236Z",
-      "lastSuccessfulParseAt": "2026-09-02T01:43:21.373Z",
-      "latestEntryDate": "2026-08-27T17:25:54.000Z",
-      "inactiveDays": 6,
-      "errors": [
-        {
-          "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
-          "attempts": 5,
-          "httpStatus": 404,
-          "responseHeaders": {
-            "content-type": "text/html; charset=UTF-8",
-            "content-length": "1613",
-            "server": "YouTube RSS Feeds server",
-            "x-frame-options": "SAMEORIGIN"
-          },
-          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;p"
-        }
-      ]
+      "consecutiveFailures": 0,
+      "lastParsedAt": "2026-09-04T01:44:58.024Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:44:58.024Z",
+      "latestEntryDate": "2026-09-02T14:00:18.000Z",
+      "inactiveDays": 1,
+      "errors": []
     },
     {
       "name": "Rene Rubalcava | YouTube",
@@ -50,29 +36,29 @@
       "itemCount": 0,
       "processedItems": 0,
       "fetchAttempts": 5,
-      "lastHttpStatus": 404,
+      "lastHttpStatus": 500,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
       "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-09-03T01:50:28.570Z",
+      "consecutiveFailures": 2,
+      "lastParsedAt": "2026-09-04T01:45:06.132Z",
       "lastSuccessfulParseAt": "2026-09-02T01:43:23.577Z",
       "latestEntryDate": "2026-08-25T13:45:01.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "HTTP 404 Not Found",
+          "message": "HTTP 500 Internal Server Error",
           "attempts": 5,
-          "httpStatus": 404,
+          "httpStatus": 500,
           "responseHeaders": {
             "content-type": "text/html; charset=UTF-8",
-            "content-length": "1613",
+            "content-length": "1730",
             "server": "YouTube RSS Feeds server",
             "x-frame-options": "SAMEORIGIN"
           },
-          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;p"
+          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 500 (Server Error)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#22"
         }
       ]
     },
@@ -87,16 +73,53 @@
       "itemCount": 0,
       "processedItems": 0,
       "fetchAttempts": 5,
+      "lastHttpStatus": 500,
+      "recoveredFromInvalidXml": false,
+      "parseWarning": "",
+      "errorCount": 1,
+      "itemsWithoutDate": 0,
+      "consecutiveFailures": 2,
+      "lastParsedAt": "2026-09-04T01:46:25.290Z",
+      "lastSuccessfulParseAt": "2026-09-02T01:43:25.840Z",
+      "latestEntryDate": "2024-10-31T21:00:15.000Z",
+      "inactiveDays": 672,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "HTTP 500 Internal Server Error",
+          "attempts": 5,
+          "httpStatus": 500,
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "content-length": "1730",
+            "server": "YouTube RSS Feeds server",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 500 (Server Error)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#22"
+        }
+      ]
+    },
+    {
+      "name": "Courtney Yatteau | YouTube",
+      "feedTitle": "Courtney Yatteau | YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
+      "siteUrl": "https://www.youtube.com/channel/UCZZe1tS_wmHYXNoivPeptYw",
+      "relevanceMode": "balanced",
+      "status": "failed",
+      "health": "error",
+      "itemCount": 0,
+      "processedItems": 0,
+      "fetchAttempts": 5,
       "lastHttpStatus": 404,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
       "errorCount": 1,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 1,
-      "lastParsedAt": "2026-09-03T01:51:47.806Z",
-      "lastSuccessfulParseAt": "2026-09-02T01:43:25.840Z",
-      "latestEntryDate": "2024-10-31T21:00:15.000Z",
-      "inactiveDays": 671,
+      "lastParsedAt": "2026-09-04T01:47:45.086Z",
+      "lastSuccessfulParseAt": "2026-09-03T01:53:07.312Z",
+      "latestEntryDate": "2026-05-07T20:37:43.000Z",
+      "inactiveDays": 119,
       "errors": [
         {
           "stage": "parse_feed",
@@ -114,50 +137,41 @@
       ]
     },
     {
-      "name": "Courtney Yatteau | YouTube",
-      "feedTitle": "Courtney Yatteau | YouTube",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZZe1tS_wmHYXNoivPeptYw",
-      "siteUrl": "https://www.youtube.com/channel/UCZZe1tS_wmHYXNoivPeptYw",
-      "relevanceMode": "balanced",
-      "status": "ok",
-      "health": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "fetchAttempts": 3,
-      "lastHttpStatus": 200,
-      "recoveredFromInvalidXml": false,
-      "parseWarning": "",
-      "errorCount": 0,
-      "itemsWithoutDate": 0,
-      "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:53:07.312Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:53:07.312Z",
-      "latestEntryDate": "2026-05-07T20:37:43.000Z",
-      "inactiveDays": 118,
-      "errors": []
-    },
-    {
       "name": "GeoAI Smith | YouTube",
       "feedTitle": "GeoAI Smith | YouTube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVZorTG1_ePfR2Y0ThjMZ2w",
       "siteUrl": "https://www.youtube.com/channel/UCVZorTG1_ePfR2Y0ThjMZ2w",
       "relevanceMode": "trusted",
-      "status": "ok",
-      "health": "ok",
-      "itemCount": 15,
-      "processedItems": 15,
-      "fetchAttempts": 1,
-      "lastHttpStatus": 200,
+      "status": "failed",
+      "health": "error",
+      "itemCount": 0,
+      "processedItems": 0,
+      "fetchAttempts": 5,
+      "lastHttpStatus": 404,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
-      "errorCount": 0,
+      "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:53:25.295Z",
+      "consecutiveFailures": 1,
+      "lastParsedAt": "2026-09-04T01:49:04.211Z",
       "lastSuccessfulParseAt": "2026-09-03T01:53:25.295Z",
       "latestEntryDate": "2026-08-14T11:33:55.000Z",
-      "inactiveDays": 19,
-      "errors": []
+      "inactiveDays": 20,
+      "errors": [
+        {
+          "stage": "parse_feed",
+          "message": "HTTP 404 Not Found",
+          "attempts": 5,
+          "httpStatus": 404,
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "content-length": "1613",
+            "server": "YouTube RSS Feeds server",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;p"
+        }
+      ]
     },
     {
       "name": "Josiah Parry | YouTube",
@@ -175,11 +189,11 @@
       "parseWarning": "",
       "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-09-03T01:53:27.575Z",
+      "consecutiveFailures": 2,
+      "lastParsedAt": "2026-09-04T01:50:24.174Z",
       "lastSuccessfulParseAt": "2026-09-02T01:43:32.178Z",
       "latestEntryDate": "2024-06-27T21:47:51.000Z",
-      "inactiveDays": 797,
+      "inactiveDays": 798,
       "errors": [
         {
           "stage": "parse_feed",
@@ -212,11 +226,11 @@
       "parseWarning": "",
       "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-09-03T01:54:46.300Z",
+      "consecutiveFailures": 2,
+      "lastParsedAt": "2026-09-04T01:51:43.069Z",
       "lastSuccessfulParseAt": "2026-09-02T01:43:34.282Z",
       "latestEntryDate": "2026-04-29T15:51:59.000Z",
-      "inactiveDays": 126,
+      "inactiveDays": 127,
       "errors": [
         {
           "stage": "parse_feed",
@@ -244,29 +258,29 @@
       "itemCount": 0,
       "processedItems": 0,
       "fetchAttempts": 5,
-      "lastHttpStatus": 500,
+      "lastHttpStatus": 404,
       "recoveredFromInvalidXml": false,
       "parseWarning": "",
       "errorCount": 1,
       "itemsWithoutDate": 0,
-      "consecutiveFailures": 1,
-      "lastParsedAt": "2026-09-03T01:56:04.921Z",
+      "consecutiveFailures": 2,
+      "lastParsedAt": "2026-09-04T01:53:01.952Z",
       "lastSuccessfulParseAt": "2026-09-02T01:43:36.417Z",
       "latestEntryDate": "2026-09-01T20:06:10.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": [
         {
           "stage": "parse_feed",
-          "message": "HTTP 500 Internal Server Error",
+          "message": "HTTP 404 Not Found",
           "attempts": 5,
-          "httpStatus": 500,
+          "httpStatus": 404,
           "responseHeaders": {
             "content-type": "text/html; charset=UTF-8",
-            "content-length": "1730",
+            "content-length": "1613",
             "server": "YouTube RSS Feeds server",
             "x-frame-options": "SAMEORIGIN"
           },
-          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 500 (Server Error)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#22"
+          "bodyPreview": "<!DOCTYPE html> <html lang=en> <meta charset=utf-8> <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\"> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;p"
         }
       ]
     },
@@ -287,10 +301,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:24.478Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:24.478Z",
+      "lastParsedAt": "2026-09-04T01:54:21.866Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:21.866Z",
       "latestEntryDate": "2026-09-02T20:43:53.000Z",
-      "inactiveDays": 0,
+      "inactiveDays": 1,
       "errors": []
     },
     {
@@ -310,10 +324,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:25.088Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:25.088Z",
+      "lastParsedAt": "2026-09-04T01:54:22.488Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:22.488Z",
       "latestEntryDate": "2026-09-02T20:43:53.000Z",
-      "inactiveDays": 0,
+      "inactiveDays": 1,
       "errors": []
     },
     {
@@ -333,10 +347,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:25.712Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:25.712Z",
+      "lastParsedAt": "2026-09-04T01:54:22.625Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:22.625Z",
       "latestEntryDate": "2026-07-12T09:47:37.000Z",
-      "inactiveDays": 52,
+      "inactiveDays": 53,
       "errors": []
     },
     {
@@ -356,10 +370,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:26.236Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:26.236Z",
+      "lastParsedAt": "2026-09-04T01:54:23.053Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:23.053Z",
       "latestEntryDate": "2026-05-21T21:36:46.000Z",
-      "inactiveDays": 104,
+      "inactiveDays": 105,
       "errors": []
     },
     {
@@ -379,10 +393,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:26.606Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:26.606Z",
+      "lastParsedAt": "2026-09-04T01:54:23.474Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:23.474Z",
       "latestEntryDate": "2026-08-05T13:57:11.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -402,10 +416,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:27.005Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:27.005Z",
+      "lastParsedAt": "2026-09-04T01:54:23.897Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:23.897Z",
       "latestEntryDate": "2026-08-31T18:19:59.000Z",
-      "inactiveDays": 2,
+      "inactiveDays": 3,
       "errors": []
     },
     {
@@ -425,10 +439,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:27.524Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:27.524Z",
+      "lastParsedAt": "2026-09-04T01:54:24.301Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:24.301Z",
       "latestEntryDate": "2026-08-05T13:57:11.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -448,10 +462,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:27.907Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:27.907Z",
+      "lastParsedAt": "2026-09-04T01:54:24.668Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:24.668Z",
       "latestEntryDate": "2026-08-05T13:57:11.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -471,10 +485,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:28.341Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:28.341Z",
+      "lastParsedAt": "2026-09-04T01:54:25.113Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:25.113Z",
       "latestEntryDate": "2026-08-05T23:07:08.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -494,10 +508,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:28.813Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:28.813Z",
+      "lastParsedAt": "2026-09-04T01:54:25.535Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:25.535Z",
       "latestEntryDate": "2026-08-05T23:10:10.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -517,10 +531,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:29.196Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:29.196Z",
+      "lastParsedAt": "2026-09-04T01:54:26.027Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:26.027Z",
       "latestEntryDate": "2026-08-31T18:19:59.000Z",
-      "inactiveDays": 2,
+      "inactiveDays": 3,
       "errors": []
     },
     {
@@ -540,10 +554,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:29.643Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:29.643Z",
+      "lastParsedAt": "2026-09-04T01:54:26.493Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:26.493Z",
       "latestEntryDate": "2026-07-28T13:00:19.000Z",
-      "inactiveDays": 36,
+      "inactiveDays": 37,
       "errors": []
     },
     {
@@ -563,10 +577,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:30.142Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:30.142Z",
+      "lastParsedAt": "2026-09-04T01:54:26.913Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:26.913Z",
       "latestEntryDate": "2026-08-17T14:11:13.000Z",
-      "inactiveDays": 16,
+      "inactiveDays": 17,
       "errors": []
     },
     {
@@ -586,10 +600,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:30.639Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:30.639Z",
+      "lastParsedAt": "2026-09-04T01:54:27.456Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:27.456Z",
       "latestEntryDate": "2026-08-07T23:27:38.000Z",
-      "inactiveDays": 26,
+      "inactiveDays": 27,
       "errors": []
     },
     {
@@ -609,10 +623,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:31.083Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:31.083Z",
+      "lastParsedAt": "2026-09-04T01:54:27.860Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:27.860Z",
       "latestEntryDate": "2025-06-24T09:00:23.000Z",
-      "inactiveDays": 435,
+      "inactiveDays": 436,
       "errors": []
     },
     {
@@ -632,10 +646,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:31.507Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:31.507Z",
+      "lastParsedAt": "2026-09-04T01:54:28.286Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:28.286Z",
       "latestEntryDate": "2025-02-27T19:45:25.000Z",
-      "inactiveDays": 552,
+      "inactiveDays": 553,
       "errors": []
     },
     {
@@ -655,10 +669,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:31.842Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:31.842Z",
+      "lastParsedAt": "2026-09-04T01:54:28.633Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:28.633Z",
       "latestEntryDate": "2026-01-09T21:41:26.000Z",
-      "inactiveDays": 236,
+      "inactiveDays": 237,
       "errors": []
     },
     {
@@ -678,10 +692,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:32.285Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:32.285Z",
+      "lastParsedAt": "2026-09-04T01:54:29.152Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:29.152Z",
       "latestEntryDate": "2026-07-09T23:27:29.000Z",
-      "inactiveDays": 55,
+      "inactiveDays": 56,
       "errors": []
     },
     {
@@ -701,10 +715,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:32.742Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:32.742Z",
+      "lastParsedAt": "2026-09-04T01:54:29.572Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:29.572Z",
       "latestEntryDate": "2025-02-19T00:48:42.000Z",
-      "inactiveDays": 561,
+      "inactiveDays": 562,
       "errors": []
     },
     {
@@ -724,10 +738,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:33.320Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:33.320Z",
+      "lastParsedAt": "2026-09-04T01:54:29.938Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:29.938Z",
       "latestEntryDate": "2025-09-10T16:48:02.000Z",
-      "inactiveDays": 357,
+      "inactiveDays": 358,
       "errors": []
     },
     {
@@ -747,10 +761,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:33.678Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:33.678Z",
+      "lastParsedAt": "2026-09-04T01:54:30.324Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:30.324Z",
       "latestEntryDate": "2026-03-22T23:10:25.000Z",
-      "inactiveDays": 164,
+      "inactiveDays": 165,
       "errors": []
     },
     {
@@ -770,10 +784,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:34.215Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:34.215Z",
+      "lastParsedAt": "2026-09-04T01:54:30.748Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:30.748Z",
       "latestEntryDate": "2026-07-24T22:57:10.000Z",
-      "inactiveDays": 40,
+      "inactiveDays": 41,
       "errors": []
     },
     {
@@ -793,10 +807,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:34.610Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:34.610Z",
+      "lastParsedAt": "2026-09-04T01:54:31.161Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:31.161Z",
       "latestEntryDate": "2026-02-23T20:02:28.000Z",
-      "inactiveDays": 191,
+      "inactiveDays": 192,
       "errors": []
     },
     {
@@ -816,10 +830,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:35.092Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:35.092Z",
+      "lastParsedAt": "2026-09-04T01:54:31.621Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:31.621Z",
       "latestEntryDate": "2026-08-17T14:11:13.000Z",
-      "inactiveDays": 16,
+      "inactiveDays": 17,
       "errors": []
     },
     {
@@ -839,10 +853,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:35.535Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:35.535Z",
+      "lastParsedAt": "2026-09-04T01:54:32.082Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:32.082Z",
       "latestEntryDate": "2026-08-17T14:11:13.000Z",
-      "inactiveDays": 16,
+      "inactiveDays": 17,
       "errors": []
     },
     {
@@ -862,10 +876,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:35.966Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:35.966Z",
+      "lastParsedAt": "2026-09-04T01:54:32.555Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:32.555Z",
       "latestEntryDate": "2026-06-10T15:13:46.000Z",
-      "inactiveDays": 84,
+      "inactiveDays": 85,
       "errors": []
     },
     {
@@ -885,10 +899,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:36.391Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:36.391Z",
+      "lastParsedAt": "2026-09-04T01:54:32.962Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:32.962Z",
       "latestEntryDate": "2026-06-05T22:10:38.000Z",
-      "inactiveDays": 89,
+      "inactiveDays": 90,
       "errors": []
     },
     {
@@ -908,10 +922,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:36.859Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:36.859Z",
+      "lastParsedAt": "2026-09-04T01:54:33.382Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:33.382Z",
       "latestEntryDate": "2026-06-02T17:00:18.000Z",
-      "inactiveDays": 92,
+      "inactiveDays": 93,
       "errors": []
     },
     {
@@ -931,10 +945,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:37.347Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:37.347Z",
+      "lastParsedAt": "2026-09-04T01:54:33.768Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:33.768Z",
       "latestEntryDate": "2026-04-03T09:00:20.000Z",
-      "inactiveDays": 152,
+      "inactiveDays": 153,
       "errors": []
     },
     {
@@ -954,10 +968,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:37.797Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:37.797Z",
+      "lastParsedAt": "2026-09-04T01:54:34.263Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:34.263Z",
       "latestEntryDate": "2025-08-21T18:10:57.000Z",
-      "inactiveDays": 377,
+      "inactiveDays": 378,
       "errors": []
     },
     {
@@ -977,10 +991,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:38.237Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:38.237Z",
+      "lastParsedAt": "2026-09-04T01:54:34.686Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:34.686Z",
       "latestEntryDate": "2026-02-23T17:42:57.000Z",
-      "inactiveDays": 191,
+      "inactiveDays": 192,
       "errors": []
     },
     {
@@ -1000,10 +1014,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:38.637Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:38.637Z",
+      "lastParsedAt": "2026-09-04T01:54:35.100Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:35.100Z",
       "latestEntryDate": "2025-06-24T01:35:55.000Z",
-      "inactiveDays": 436,
+      "inactiveDays": 437,
       "errors": []
     },
     {
@@ -1023,10 +1037,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:39.160Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:39.160Z",
+      "lastParsedAt": "2026-09-04T01:54:35.504Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:35.504Z",
       "latestEntryDate": "2026-06-09T14:58:37.000Z",
-      "inactiveDays": 85,
+      "inactiveDays": 86,
       "errors": []
     },
     {
@@ -1046,10 +1060,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:39.529Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:39.529Z",
+      "lastParsedAt": "2026-09-04T01:54:35.925Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:35.925Z",
       "latestEntryDate": "2025-05-14T14:55:20.000Z",
-      "inactiveDays": 476,
+      "inactiveDays": 477,
       "errors": []
     },
     {
@@ -1069,10 +1083,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:39.973Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:39.973Z",
+      "lastParsedAt": "2026-09-04T01:54:36.443Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:36.443Z",
       "latestEntryDate": "2026-09-02T20:43:53.000Z",
-      "inactiveDays": 0,
+      "inactiveDays": 1,
       "errors": []
     },
     {
@@ -1092,10 +1106,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:40.390Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:40.390Z",
+      "lastParsedAt": "2026-09-04T01:54:36.844Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:36.844Z",
       "latestEntryDate": "2026-08-28T19:32:56.000Z",
-      "inactiveDays": 5,
+      "inactiveDays": 6,
       "errors": []
     },
     {
@@ -1115,8 +1129,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:40.732Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:40.732Z",
+      "lastParsedAt": "2026-09-04T01:54:37.167Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:37.167Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1138,8 +1152,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:41.142Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:41.142Z",
+      "lastParsedAt": "2026-09-04T01:54:37.601Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:37.601Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1161,10 +1175,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:41.490Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:41.490Z",
+      "lastParsedAt": "2026-09-04T01:54:38.113Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:38.113Z",
       "latestEntryDate": "2026-08-05T18:58:55.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -1184,10 +1198,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:41.932Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:41.932Z",
+      "lastParsedAt": "2026-09-04T01:54:38.538Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:38.538Z",
       "latestEntryDate": "2025-02-28T08:16:18.000Z",
-      "inactiveDays": 551,
+      "inactiveDays": 552,
       "errors": []
     },
     {
@@ -1207,10 +1221,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:42.461Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:42.461Z",
+      "lastParsedAt": "2026-09-04T01:54:38.863Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:38.863Z",
       "latestEntryDate": "2026-07-31T16:27:06.000Z",
-      "inactiveDays": 33,
+      "inactiveDays": 34,
       "errors": []
     },
     {
@@ -1230,10 +1244,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:42.866Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:42.866Z",
+      "lastParsedAt": "2026-09-04T01:54:39.191Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:39.191Z",
       "latestEntryDate": "2026-07-08T18:51:55.000Z",
-      "inactiveDays": 56,
+      "inactiveDays": 57,
       "errors": []
     },
     {
@@ -1253,10 +1267,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:43.384Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:43.384Z",
+      "lastParsedAt": "2026-09-04T01:54:39.527Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:39.527Z",
       "latestEntryDate": "2026-08-26T01:37:30.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {
@@ -1276,10 +1290,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:43.665Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:43.665Z",
+      "lastParsedAt": "2026-09-04T01:54:39.720Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:39.720Z",
       "latestEntryDate": "2026-05-19T19:47:15.000Z",
-      "inactiveDays": 106,
+      "inactiveDays": 107,
       "errors": []
     },
     {
@@ -1299,10 +1313,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:43.966Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:43.966Z",
+      "lastParsedAt": "2026-09-04T01:54:39.954Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:39.954Z",
       "latestEntryDate": "2025-09-04T20:09:17.000Z",
-      "inactiveDays": 363,
+      "inactiveDays": 364,
       "errors": []
     },
     {
@@ -1322,10 +1336,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:44.512Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:44.512Z",
+      "lastParsedAt": "2026-09-04T01:54:40.422Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:40.422Z",
       "latestEntryDate": "2026-08-12T16:39:39.000Z",
-      "inactiveDays": 21,
+      "inactiveDays": 22,
       "errors": []
     },
     {
@@ -1345,10 +1359,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:44.794Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:44.794Z",
+      "lastParsedAt": "2026-09-04T01:54:40.707Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:40.707Z",
       "latestEntryDate": "2026-08-10T22:28:33.000Z",
-      "inactiveDays": 23,
+      "inactiveDays": 24,
       "errors": []
     },
     {
@@ -1368,10 +1382,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:45.214Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:45.214Z",
+      "lastParsedAt": "2026-09-04T01:54:41.085Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:41.085Z",
       "latestEntryDate": "2026-08-30T22:06:34.000Z",
-      "inactiveDays": 3,
+      "inactiveDays": 4,
       "errors": []
     },
     {
@@ -1391,10 +1405,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:45.863Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:45.863Z",
+      "lastParsedAt": "2026-09-04T01:54:41.830Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:41.830Z",
       "latestEntryDate": "2026-08-15T22:01:13.000Z",
-      "inactiveDays": 18,
+      "inactiveDays": 19,
       "errors": []
     },
     {
@@ -1414,10 +1428,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:46.456Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:46.456Z",
+      "lastParsedAt": "2026-09-04T01:54:42.365Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:42.365Z",
       "latestEntryDate": "2026-06-18T09:00:00.000Z",
-      "inactiveDays": 76,
+      "inactiveDays": 77,
       "errors": []
     },
     {
@@ -1437,10 +1451,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:46.662Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:46.662Z",
+      "lastParsedAt": "2026-09-04T01:54:42.865Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:42.865Z",
       "latestEntryDate": "2025-11-06T10:00:00.000Z",
-      "inactiveDays": 300,
+      "inactiveDays": 301,
       "errors": []
     },
     {
@@ -1460,10 +1474,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:46.916Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:46.916Z",
+      "lastParsedAt": "2026-09-04T01:54:43.301Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:43.301Z",
       "latestEntryDate": "2024-02-19T13:47:58.000Z",
-      "inactiveDays": 926,
+      "inactiveDays": 927,
       "errors": []
     },
     {
@@ -1483,10 +1497,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:47.267Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:47.267Z",
+      "lastParsedAt": "2026-09-04T01:54:45.609Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:45.609Z",
       "latestEntryDate": "2026-08-28T21:27:40.000Z",
-      "inactiveDays": 5,
+      "inactiveDays": 6,
       "errors": []
     },
     {
@@ -1506,10 +1520,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:47.577Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:47.577Z",
+      "lastParsedAt": "2026-09-04T01:54:45.918Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:45.918Z",
       "latestEntryDate": "2026-07-23T15:44:52.000Z",
-      "inactiveDays": 41,
+      "inactiveDays": 42,
       "errors": []
     },
     {
@@ -1529,10 +1543,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:47.704Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:47.704Z",
+      "lastParsedAt": "2026-09-04T01:54:46.096Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:46.096Z",
       "latestEntryDate": "2026-06-22T21:05:50.000Z",
-      "inactiveDays": 72,
+      "inactiveDays": 73,
       "errors": []
     },
     {
@@ -1552,10 +1566,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:48.226Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:48.226Z",
+      "lastParsedAt": "2026-09-04T01:54:46.775Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:46.775Z",
       "latestEntryDate": "2025-09-03T16:08:50.000Z",
-      "inactiveDays": 364,
+      "inactiveDays": 365,
       "errors": []
     },
     {
@@ -1575,10 +1589,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:48.469Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:48.469Z",
+      "lastParsedAt": "2026-09-04T01:54:47.059Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:47.059Z",
       "latestEntryDate": "2025-11-06T23:24:23.000Z",
-      "inactiveDays": 300,
+      "inactiveDays": 301,
       "errors": []
     },
     {
@@ -1598,10 +1612,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:48.994Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:48.994Z",
+      "lastParsedAt": "2026-09-04T01:54:47.686Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:47.686Z",
       "latestEntryDate": "2022-05-27T20:49:51.000Z",
-      "inactiveDays": 1559,
+      "inactiveDays": 1560,
       "errors": []
     },
     {
@@ -1621,10 +1635,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:49.161Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:49.161Z",
+      "lastParsedAt": "2026-09-04T01:54:47.822Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:47.822Z",
       "latestEntryDate": "2026-08-31T21:54:06.000Z",
-      "inactiveDays": 2,
+      "inactiveDays": 3,
       "errors": []
     },
     {
@@ -1644,10 +1658,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:49.523Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:49.523Z",
+      "lastParsedAt": "2026-09-04T01:54:48.230Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:48.230Z",
       "latestEntryDate": "2023-01-27T14:46:00.000Z",
-      "inactiveDays": 1314,
+      "inactiveDays": 1315,
       "errors": []
     },
     {
@@ -1667,10 +1681,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:49.748Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:49.748Z",
+      "lastParsedAt": "2026-09-04T01:54:48.447Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:48.447Z",
       "latestEntryDate": "2026-05-19T18:57:00.000Z",
-      "inactiveDays": 106,
+      "inactiveDays": 107,
       "errors": []
     },
     {
@@ -1690,10 +1704,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:49.852Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:49.852Z",
+      "lastParsedAt": "2026-09-04T01:54:48.572Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:48.572Z",
       "latestEntryDate": "2026-07-13T12:26:41.850Z",
-      "inactiveDays": 51,
+      "inactiveDays": 52,
       "errors": []
     },
     {
@@ -1713,10 +1727,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:50.303Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:50.303Z",
+      "lastParsedAt": "2026-09-04T01:54:48.933Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:48.933Z",
       "latestEntryDate": "2026-08-05T10:59:33.000Z",
-      "inactiveDays": 28,
+      "inactiveDays": 29,
       "errors": []
     },
     {
@@ -1727,8 +1741,8 @@
       "relevanceMode": "strict",
       "status": "ok",
       "health": "ok",
-      "itemCount": 1,
-      "processedItems": 1,
+      "itemCount": 5,
+      "processedItems": 2,
       "fetchAttempts": 1,
       "lastHttpStatus": 200,
       "recoveredFromInvalidXml": false,
@@ -1736,10 +1750,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:53.041Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:53.041Z",
-      "latestEntryDate": "2026-09-02T00:31:56.000Z",
-      "inactiveDays": 1,
+      "lastParsedAt": "2026-09-04T01:54:49.740Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:49.740Z",
+      "latestEntryDate": "2026-09-03T21:18:11.000Z",
+      "inactiveDays": 0,
       "errors": []
     },
     {
@@ -1759,10 +1773,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:53.304Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:53.304Z",
+      "lastParsedAt": "2026-09-04T01:54:50.006Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:50.006Z",
       "latestEntryDate": "2026-07-23T00:48:25.000Z",
-      "inactiveDays": 42,
+      "inactiveDays": 43,
       "errors": []
     },
     {
@@ -1782,10 +1796,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:53.359Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:53.359Z",
+      "lastParsedAt": "2026-09-04T01:54:50.059Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:50.059Z",
       "latestEntryDate": "2026-09-01T09:27:53.000Z",
-      "inactiveDays": 1,
+      "inactiveDays": 2,
       "errors": []
     },
     {
@@ -1805,8 +1819,8 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:53.413Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:53.413Z",
+      "lastParsedAt": "2026-09-04T01:54:50.120Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:50.120Z",
       "latestEntryDate": null,
       "inactiveDays": null,
       "errors": []
@@ -1828,10 +1842,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:53.467Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:53.467Z",
+      "lastParsedAt": "2026-09-04T01:54:50.175Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:50.175Z",
       "latestEntryDate": "2026-03-03T21:23:32.000Z",
-      "inactiveDays": 183,
+      "inactiveDays": 184,
       "errors": []
     },
     {
@@ -1851,10 +1865,10 @@
       "errorCount": 0,
       "itemsWithoutDate": 0,
       "consecutiveFailures": 0,
-      "lastParsedAt": "2026-09-03T01:57:53.801Z",
-      "lastSuccessfulParseAt": "2026-09-03T01:57:53.801Z",
+      "lastParsedAt": "2026-09-04T01:54:50.445Z",
+      "lastSuccessfulParseAt": "2026-09-04T01:54:50.445Z",
       "latestEntryDate": "2026-08-25T05:08:16.000Z",
-      "inactiveDays": 8,
+      "inactiveDays": 9,
       "errors": []
     },
     {

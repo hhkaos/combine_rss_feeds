@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (03-09-2026)",
+  "title": "Combined ArcGIS Feeds (04-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-03T01:57:54.459Z",
+  "lastUpdated": "2026-09-04T01:54:51.076Z",
   "items": [
+    {
+      "title": "<b>Esri</b> India Launches GeoSARAL, an Indigenous GIS Software - CXOToday.com",
+      "description": "GeoSARAL is a result of this continued focus and efforts by the <b>Esri</b> India team. Professional GIS users in organizations use <b>ArcGIS</b> Pro for advanced&nbsp;...",
+      "link": "https://cxotoday.com/media-coverage/esri-india-launches-geosaral-an-indigenous-gis-software/",
+      "guid": "tag:google.com,2013:googlealerts/feed:16697275096650638540",
+      "author": "",
+      "date": "2026-09-03T21:18:11.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "CMPDI Honoured at <b>Esri</b> India User Conference 2026 for Geospatial Technology Innovations",
+      "description": "New Delhi: Central Mine Planning &amp; Design Institute Limited (CMPDI) was honoured at the <b>Esri</b> ... <b>JavaScript</b> has been disabled on your browser, please&nbsp;...",
+      "link": "https://indianmasterminds.com/news/cmpdi-esri-india-user-conference-2026-geospatial-technology-230093/",
+      "guid": "tag:google.com,2013:googlealerts/feed:2943614903350071926",
+      "author": "",
+      "date": "2026-09-03T19:01:09.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Make Your Apps Feel at Home in ArcGIS Hub: 3 Simple Ways to Create a Better User Experience",
       "description": "",
@@ -11,6 +33,28 @@
       "author": "Jill Saligoe-Simmel",
       "date": "2026-09-02T20:43:53.000Z",
       "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/developers/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Understanding MCP & A2A--A Primer for GIS Practitioners | #EsriDevTech2026",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=J4d9A938HBw",
+      "guid": "yt:video:J4d9A938HBw",
+      "author": "Esri Developers",
+      "date": "2026-09-02T14:00:18.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Customize ArcGIS Pro Without Code",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=fUeSxRrLchg",
+      "guid": "yt:video:fUeSxRrLchg",
+      "author": "Esri Developers",
+      "date": "2026-09-02T12:35:22.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "sourceRelevanceMode": "trusted",
       "processed": false
     },
