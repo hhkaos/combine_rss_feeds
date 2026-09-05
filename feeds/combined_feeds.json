@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (04-09-2026)",
+  "title": "Combined ArcGIS Feeds (05-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-04T01:54:51.076Z",
+  "lastUpdated": "2026-09-05T01:51:18.633Z",
   "items": [
+    {
+      "title": "Episode 81 - How on earth do AI watermarks work?",
+      "description": "An AI watermark works by letting a secret function, not a random number generator, determine which word is selected from the words the model was already willing to say next.",
+      "link": "https://christophermoravec.com/episode-81-how-on-earth-do-ai-watermarks-work/",
+      "guid": "6a9afd8c6387220001ef1a43",
+      "author": "Christopher Moravec",
+      "date": "2026-09-04T21:04:06.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Customize ArcGIS Pro with Managed Configurations",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=iYCAcnq81XQ",
+      "guid": "yt:video:iYCAcnq81XQ",
+      "author": "Esri Developers",
+      "date": "2026-09-04T20:15:58.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "<b>Esri</b> India Launches GeoSARAL, an Indigenous GIS Software - CXOToday.com",
       "description": "GeoSARAL is a result of this continued focus and efforts by the <b>Esri</b> India team. Professional GIS users in organizations use <b>ArcGIS</b> Pro for advanced&nbsp;...",
@@ -21,6 +43,28 @@
       "guid": "tag:google.com,2013:googlealerts/feed:2943614903350071926",
       "author": "",
       "date": "2026-09-03T19:01:09.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Test local installation of <b>ArcGIS Maps SDK for</b> JavaScript - City of Cape Town",
+      "description": "<div type=\"html\"/>",
+      "link": "https://citymaps.capetown.gov.za/arcgis_js_api/library/4.34/",
+      "guid": "tag:google.com,2013:googlealerts/feed:4943266290659073686",
+      "author": "",
+      "date": "2026-09-03T17:14:46.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "How to Create an <b>ArcGIS</b> Enterprise Portal Web Connection (OAuth 2.0 User Auth)",
+      "description": "If you are using the legacy <b>Esri ArcGIS</b> Portal Feature Service instead of <b>Esri ArcGIS</b> ... <b>Esri</b> File Geodatabase (<b>API</b>) Error (-2147024809): Invalid&nbsp;...",
+      "link": "https://support.safe.com/hc/en-us/articles/25407772142733-How-to-Create-an-ArcGIS-Enterprise-Portal-Web-Connection-OAuth-2-0-User-Auth",
+      "guid": "tag:google.com,2013:googlealerts/feed:15025924008386068889",
+      "author": "",
+      "date": "2026-09-03T16:29:36.000Z",
       "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
       "sourceRelevanceMode": "strict",
       "processed": false

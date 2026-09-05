@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-04T01:44:58.008Z",
+  "lastRun": "2026-09-05T01:44:08.214Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1517,6 +1517,15 @@
       "htmlUrl": "https://github.com/JuniorReisx/Inventario-de-Ativos---SIHS",
       "firstSeen": "2026-09-04T01:44:58.007Z",
       "createdAt": "2026-09-03T15:02:12Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "IngKevinDavid/ArcGis-Pro-MCP-Free": {
+      "htmlUrl": "https://github.com/IngKevinDavid/ArcGis-Pro-MCP-Free",
+      "firstSeen": "2026-09-05T01:44:08.214Z",
+      "createdAt": "2026-09-05T00:46:12Z",
       "axis": "created",
       "stars": 0,
       "classifiedCategory": "devtool",
