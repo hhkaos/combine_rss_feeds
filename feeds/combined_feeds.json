@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (05-09-2026)",
+  "title": "Combined ArcGIS Feeds (06-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-05T01:51:18.633Z",
+  "lastUpdated": "2026-09-06T01:38:16.644Z",
   "items": [
+    {
+      "title": "SKUAST-K scholar among India&#39;s GIS top 10 - Brighter Kashmir",
+      "description": "... <b>Esri</b> India Master&#39;s Scholarships in GIS Programme 2026. In recognition of her achievement, Ms. Amin was awarded a one-time scholarship of ₹1 lakh&nbsp;...",
+      "link": "https://brighterkashmir.com/skuast-k-scholar-among-indias-gis-top-10",
+      "guid": "tag:google.com,2013:googlealerts/feed:3094316895743122646",
+      "author": "",
+      "date": "2026-09-05T18:51:38.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS setup on iOS - MapConductor",
+      "description": "Hvernig stýra má <b>ArcGIS Maps SDK for</b> Swift gegnum MapConductor: veldu grunnkort með ArcGISDesign og veldu milli 3D- og 2D-sýnar.",
+      "link": "https://mapconductor.com/is/setup/ios/arcgis/",
+      "guid": "tag:google.com,2013:googlealerts/feed:18243744395899791320",
+      "author": "",
+      "date": "2026-09-05T11:04:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 81 - How on earth do AI watermarks work?",
       "description": "An AI watermark works by letting a secret function, not a random number generator, determine which word is selected from the words the model was already willing to say next.",
@@ -23,6 +45,17 @@
       "date": "2026-09-04T20:15:58.000Z",
       "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Forestation, Rescue Efforts In Low Lying Area Has Improved In India Using GIS Data: <b>Esri</b> India",
+      "description": "While launching the first-ever Linux-based desktop GIS software, GeoSARAL, <b>Esri</b> India managing director Agendra Kumar said that most government&nbsp;...",
+      "link": "https://www.outlookbusiness.com/news/forestation-rescue-efforts-in-low-lying-area-has-improved-in-india-using-gis-data-esri-india",
+      "guid": "tag:google.com,2013:googlealerts/feed:8805204768944113721",
+      "author": "",
+      "date": "2026-09-04T16:54:24.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": false
     },
     {

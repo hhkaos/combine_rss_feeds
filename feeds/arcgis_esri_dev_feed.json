@@ -1,8 +1,34 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (05-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (06-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-05T01:57:01.841Z",
+  "lastUpdated": "2026-09-06T01:38:42.542Z",
   "items": [
+    {
+      "title": "SKUAST-K scholar among India&#39;s GIS top 10 - Brighter Kashmir",
+      "description": "... <b>Esri</b> India Master&#39;s Scholarships in GIS Programme 2026. In recognition of her achievement, Ms. Amin was awarded a one-time scholarship of ₹1 lakh&nbsp;...",
+      "link": "https://brighterkashmir.com/skuast-k-scholar-among-indias-gis-top-10",
+      "guid": "tag:google.com,2013:googlealerts/feed:3094316895743122646",
+      "author": "",
+      "date": "2026-09-05T18:51:38.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev"
+    },
+    {
+      "title": "ArcGIS setup on iOS - MapConductor",
+      "description": "Hvernig stýra má <b>ArcGIS Maps SDK for</b> Swift gegnum MapConductor: veldu grunnkort með ArcGISDesign og veldu milli 3D- og 2D-sýnar.",
+      "link": "https://mapconductor.com/is/setup/ios/arcgis/",
+      "guid": "tag:google.com,2013:googlealerts/feed:18243744395899791320",
+      "author": "",
+      "date": "2026-09-05T11:04:48.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/15069651367870606033",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
     {
       "title": "IngKevinDavid/ArcGis-Pro-MCP-Free: Free local MCP bridge for ArcGIS Pro 3.5+: 68 commands, 167 MCP tools over TCP 127.0.0.1:PORT. Puente MCP libre y local para ArcGIS Pro.",
       "description": "Free local MCP bridge for ArcGIS Pro 3.5+: 68 commands, 167 MCP tools over TCP 127.0.0.1:PORT. Puente MCP libre y local para ArcGIS Pro.\nEs un puente local que facilita el uso de comandos y herramientas MCP en ArcGIS Pro.\nTopics: arcgis-pro, arcpy, geoprocessing, gis, mcp, model-context-protocol · ⭐ 0 · C#\nGitHub repo descubierto (created · devtool)",
@@ -44,6 +70,19 @@
       "date": "2026-09-04T20:15:58.000Z",
       "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
       "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "Forestation, Rescue Efforts In Low Lying Area Has Improved In India Using GIS Data: <b>Esri</b> India",
+      "description": "While launching the first-ever Linux-based desktop GIS software, GeoSARAL, <b>Esri</b> India managing director Agendra Kumar said that most government&nbsp;...",
+      "link": "https://www.outlookbusiness.com/news/forestation-rescue-efforts-in-low-lying-area-has-improved-in-india-using-gis-data-esri-india",
+      "guid": "tag:google.com,2013:googlealerts/feed:8805204768944113721",
+      "author": "",
+      "date": "2026-09-04T16:54:24.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
