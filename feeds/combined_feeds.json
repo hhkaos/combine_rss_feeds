@@ -1,8 +1,19 @@
 {
-  "title": "Combined ArcGIS Feeds (06-09-2026)",
+  "title": "Combined ArcGIS Feeds (07-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-06T01:38:16.644Z",
+  "lastUpdated": "2026-09-07T01:36:54.929Z",
   "items": [
+    {
+      "title": "Senior GIS Programmer / Systems Analyst @ ANGARAI - Teal",
+      "description": "Minimum three (3) years working with <b>ESRI ArcGIS</b> technologies, including <b>ArcGIS</b> Server, <b>ArcGIS</b> APIs, <b>ArcGIS JavaScript API</b>, <b>Esri</b> SDKs and ArcSDE.",
+      "link": "https://www.tealhq.com/job/senior-gis-programmer-systems-analyst_7ea1a4573af06f65aa703422be810944bf1d4",
+      "guid": "tag:google.com,2013:googlealerts/feed:13417036636882409497",
+      "author": "",
+      "date": "2026-09-06T11:23:30.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "SKUAST-K scholar among India&#39;s GIS top 10 - Brighter Kashmir",
       "description": "... <b>Esri</b> India Master&#39;s Scholarships in GIS Programme 2026. In recognition of her achievement, Ms. Amin was awarded a one-time scholarship of ₹1 lakh&nbsp;...",
