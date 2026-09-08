@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-07T01:36:11.175Z",
+  "lastRun": "2026-09-08T01:46:37.151Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1530,6 +1530,24 @@
       "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "Dalmarr/Louisbourg-LiDAR-Explorer": {
+      "htmlUrl": "https://github.com/Dalmarr/Louisbourg-LiDAR-Explorer",
+      "firstSeen": "2026-09-08T01:46:35.605Z",
+      "createdAt": "2026-09-08T00:36:18Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "jialin-tang/la-chinese-restaurant-site-selection": {
+      "htmlUrl": "https://github.com/jialin-tang/la-chinese-restaurant-site-selection",
+      "firstSeen": "2026-09-08T01:46:37.151Z",
+      "createdAt": "2026-09-07T20:25:53Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }

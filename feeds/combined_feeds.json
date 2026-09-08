@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (07-09-2026)",
+  "title": "Combined ArcGIS Feeds (08-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-07T01:36:54.929Z",
+  "lastUpdated": "2026-09-08T01:57:39.473Z",
   "items": [
+    {
+      "title": "Considering our collective AI future",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft9e1jbktaeq83gfrjhsj.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft9e1jbktaeq83gfrjhsj.jpg\" alt=\" \" width=\"799\" height=\"436\"></a></p>\n\n<p>I am deeply concerned for the future of software development now that the AI era has completely taken over how developers use the internet to seek answers to their questions.</p>\n\n<p>The \"old\" way was you asked a question on a search engine (Google in most cases) and the search index returned a set of links. You reviewed the results and clicked a link, visit the website, read the information provided, and if it applies you interact with the site: sign up for an account, comment, reply, up vote, and so on. This process engages you as a the developer with the community and your interaction further enhances the value of the website. As this community grows more up to date information flows in, deprecated knowledge gets updated, and the value of the community increases.</p>\n\n<p>What I am seeing happening today is you ask your question on your search engine (or in your IDE or CLI) and what you get in response is an AI generated answer that in most cases is pretty good. Your answer most likely is provided directly in front of you, gathered from most likely the same sites you would have visited in the past, but now there is no need to explore further since you have the answer. No need to visit the source website. No engagement with the community, no more contributing or up voting. You have the answer and you move on.</p>\n\n<p>This is great for today. What happens in 5 years? Sites like Stack Overflow, reddit, Dev.to are losing traffic to the AI scrapers and the long term effect will be a significant decrease in engagement and community building, then knowledge. I expect the AI itself will stop learning, it will be stuck in 2026 knowledge, as there will be limited new information to scrape.</p>\n\n<p>I'm not sure we are building the future we want. Let's check back in a year or two and see how this is going.</p>\n\n",
+      "link": "https://dev.to/jf990/considering-our-collective-ai-future-54ch",
+      "guid": "https://dev.to/jf990/considering-our-collective-ai-future-54ch",
+      "author": "John Foster",
+      "date": "2026-09-07T19:55:57.000Z",
+      "sourceFeedUrl": "https://dev.to/feed/jf990",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "ArcGIS Online, Maps SDK for JavaScript & AI",
+      "description": "",
+      "link": "https://odoe.net/blog/ago-to-comps/",
+      "guid": "https://odoe.net/blog/ago-to-comps/",
+      "author": "",
+      "date": "2026-09-07T10:00:00.000Z",
+      "sourceFeedUrl": "https://odoe.net/rss.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
     {
       "title": "Senior GIS Programmer / Systems Analyst @ ANGARAI - Teal",
       "description": "Minimum three (3) years working with <b>ESRI ArcGIS</b> technologies, including <b>ArcGIS</b> Server, <b>ArcGIS</b> APIs, <b>ArcGIS JavaScript API</b>, <b>Esri</b> SDKs and ArcSDE.",
