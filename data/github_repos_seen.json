@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-08T01:46:37.151Z",
+  "lastRun": "2026-09-09T01:53:20.692Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1548,6 +1548,60 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "sergioferreira9714-spec/portafolio-sig": {
+      "htmlUrl": "https://github.com/sergioferreira9714-spec/portafolio-sig",
+      "firstSeen": "2026-09-09T01:53:15.047Z",
+      "createdAt": "2026-09-08T20:55:53Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "brildo/arcgis-data-lock-releaser": {
+      "htmlUrl": "https://github.com/brildo/arcgis-data-lock-releaser",
+      "firstSeen": "2026-09-09T01:53:16.648Z",
+      "createdAt": "2026-09-08T08:37:29Z",
+      "axis": "created",
+      "stars": 1,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "briannag1692/awesome-gis": {
+      "htmlUrl": "https://github.com/briannag1692/awesome-gis",
+      "firstSeen": "2026-09-09T01:53:17.803Z",
+      "createdAt": "2026-09-08T02:49:31Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": false
+    },
+    "longyanwang4-cell/forest-compartment-gis": {
+      "htmlUrl": "https://github.com/longyanwang4-cell/forest-compartment-gis",
+      "firstSeen": "2026-09-09T01:53:19.068Z",
+      "createdAt": "2026-09-08T07:09:59Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "abdullajonov1/agro-monitoring": {
+      "htmlUrl": "https://github.com/abdullajonov1/agro-monitoring",
+      "firstSeen": "2026-09-09T01:53:19.812Z",
+      "createdAt": "2026-09-08T06:43:01Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "Knight60/ArcGIS-Pro-MCP": {
+      "htmlUrl": "https://github.com/Knight60/ArcGIS-Pro-MCP",
+      "firstSeen": "2026-09-09T01:53:20.692Z",
+      "createdAt": "2026-07-07T05:58:30Z",
+      "axis": "pushed",
+      "stars": 6,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }

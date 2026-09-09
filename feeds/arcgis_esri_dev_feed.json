@@ -1,8 +1,142 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (08-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (09-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-08T02:06:21.759Z",
+  "lastUpdated": "2026-09-09T01:54:22.240Z",
   "items": [
+    {
+      "title": "Detected changes on: ArcGIS Routing service What's New / Release notes Page",
+      "description": "Added: September 2026 | Street data for most regions was updated to 2026.09.003 vintage. Check the | September 2026 Removed: August 2026 | Street data for most regions was updated to 2026.09.000 vintage. Check the | The following | countries | now offer Live Traffic: Bahrain, Indonesia, Malaysia, Morocco, Oman, Philippines, Taiwan, Uruguay, and Vietnam.",
+      "link": "https://developers.arcgis.com/rest/routing/current-release/",
+      "guid": "https://rss.rauljimenez.info/events/69",
+      "author": "",
+      "date": "2026-09-08T22:05:46.000Z",
+      "sourceFeedUrl": "https://rss.rauljimenez.info/arcgis-whats-new-changes.xml",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "sergioferreira9714-spec/portafolio-sig: Portafolio de analista SIG: automatizacion de geoprocesamiento (ArcGIS/QGIS), control de calidad espacial, modelacion ambiental (dispersion, isofonas/AID) y un sistema full-stack de auditoria de calidad catastral (FastAPI + PostGIS/SQLite). Codigo reproducible con datos sinteticos.",
+      "description": "Portafolio de analista SIG: automatizacion de geoprocesamiento (ArcGIS/QGIS), control de calidad espacial, modelacion ambiental (dispersion, isofonas/AID) y un sistema full-stack de auditoria de calidad catastral (FastAPI + PostGIS/SQLite). Codigo reproducible con datos sinteticos.\nEl repositorio es un portafolio de un analista SIG que presenta diversos proyectos de automatización y modelación, pero no está diseñado como una herramienta para otros desarrolladores.\nTopics: air-quality, arcgis, arcpy, cadastre, data-quality, environmental, fastapi, geospatial, gis, matplotlib, noise-mapping, postgis, python, qgis, shapely, sqlite · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/sergioferreira9714-spec/portafolio-sig",
+      "guid": "https://github.com/sergioferreira9714-spec/portafolio-sig",
+      "author": "sergioferreira9714-spec",
+      "date": "2026-09-08T20:55:53.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es un portafolio personal que muestra proyectos y no es una herramienta reutilizable.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "El repositorio es un portafolio de un analista SIG que presenta diversos proyectos de automatización y modelación, pero no está diseñado como una herramienta para otros desarrolladores."
+    },
+    {
+      "title": "Weighing 600 million buildings reveals global urban material inequality and efficiency paths",
+      "description": "... <b>JavaScript</b>. Advertisement. Advertisement &middot; Nature Cities &middot; View all journals &middot; Saved research ... <b>Esri</b>. https://www.<b>arcgis</b>.com/home/item.html?id&nbsp;...",
+      "link": "https://www.nature.com/articles/s44284-026-00510-3",
+      "guid": "tag:google.com,2013:googlealerts/feed:10275438501365804858",
+      "author": "",
+      "date": "2026-09-08T09:51:47.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "off_topic_arcgis_dev"
+    },
+    {
+      "title": "<b>Esri</b> India Launches Digital Atlas Program for Schools - CXOToday.com",
+      "description": "Supported through <b>ArcGIS</b> Online, the Digital Atlas Program is available free of cost to schools across India. With curriculum-relevant content and&nbsp;...",
+      "link": "https://cxotoday.com/media-coverage/esri-india-launches-digital-atlas-program-for-schools/",
+      "guid": "tag:google.com,2013:googlealerts/feed:12082742920330887959",
+      "author": "",
+      "date": "2026-09-08T08:56:56.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "brildo/arcgis-data-lock-releaser: ArcGIS Pro 地理数据 (GDB / Shapefile) 独占锁解除工具，无需关闭 ArcGIS Pro 即可一键安全释放文件占用",
+      "description": "ArcGIS Pro 地理数据 (GDB / Shapefile) 独占锁解除工具，无需关闭 ArcGIS Pro 即可一键安全释放文件占用\nEs una herramienta que permite liberar bloqueos de archivos geográficos sin cerrar ArcGIS Pro.\nTopics: arcgis, arcgis-pro, exclusive-lock, file-geodatabase, gis-tools, lock-releaser, shapefile, windows · ⭐ 1 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/brildo/arcgis-data-lock-releaser",
+      "guid": "https://github.com/brildo/arcgis-data-lock-releaser",
+      "author": "brildo",
+      "date": "2026-09-08T08:37:29.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Es una herramienta que permite liberar bloqueos de archivos geográficos sin cerrar ArcGIS Pro."
+    },
+    {
+      "title": "longyanwang4-cell/forest-compartment-gis: AI-assisted GIS and Codex Skill for forest compartment delineation, geometry inspection, field planning, and ArcGIS Pro workflows.",
+      "description": "AI-assisted GIS and Codex Skill for forest compartment delineation, geometry inspection, field planning, and ArcGIS Pro workflows.\nEs un proyecto orientado a la gestión forestal que utiliza ArcGIS Pro, pero no es una herramienta reutilizable para otros desarrolladores.\nTopics: ai-agents, arcgis-pro, codex, forest-inventory, forest-management, forestry, geospatial, gis, python, remote-sensing · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/longyanwang4-cell/forest-compartment-gis",
+      "guid": "https://github.com/longyanwang4-cell/forest-compartment-gis",
+      "author": "longyanwang4-cell",
+      "date": "2026-09-08T07:09:59.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "proyecto específico sin utilidad general para desarrolladores",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un proyecto orientado a la gestión forestal que utiliza ArcGIS Pro, pero no es una herramienta reutilizable para otros desarrolladores."
+    },
+    {
+      "title": "abdullajonov1/agro-monitoring: Space Agro Monitoring V6 — GitHub Pages host for ArcGIS Experience Builder portal widget",
+      "description": "Space Agro Monitoring V6 — GitHub Pages host for ArcGIS Experience Builder portal widget\nProporciona un widget para monitoreo agrícola en el portal de ArcGIS Experience Builder.\nTopics: — · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/abdullajonov1/agro-monitoring",
+      "guid": "https://github.com/abdullajonov1/agro-monitoring",
+      "author": "abdullajonov1",
+      "date": "2026-09-08T06:43:01.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un widget para monitoreo agrícola en el portal de ArcGIS Experience Builder."
+    },
+    {
+      "title": "briannag1692/awesome-gis: Geospatial resources for web development 🌍 🗺️",
+      "description": "Geospatial resources for web development 🌍 🗺️\nEste repositorio es una lista de recursos geoespaciales y no proporciona herramientas o librerías para desarrolladores.\nTopics: arcgis, awesome, awesome-list, data-visualization, frontend, geo, geographic-data, geographical-information-system, geography, geojson, geospatial, geospatial-analysis, geospatial-data, gis, map, mapping, maps, open-source, visualization, webgl · ⭐ 0 · —\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/briannag1692/awesome-gis",
+      "guid": "https://github.com/briannag1692/awesome-gis",
+      "author": "briannag1692",
+      "date": "2026-09-08T02:49:31.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una lista de recursos y no un proyecto reutilizable.",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio es una lista de recursos geoespaciales y no proporciona herramientas o librerías para desarrolladores."
+    },
     {
       "title": "Dalmarr/Louisbourg-LiDAR-Explorer: Interactive 3D archaeological landscape explorer built from airborne LiDAR using ArcGIS Pro, ArcGIS Maps SDK for Unity, and C#.",
       "description": "Interactive 3D archaeological landscape explorer built from airborne LiDAR using ArcGIS Pro, ArcGIS Maps SDK for Unity, and C#.\nEs un explorador de paisajes arqueológicos en 3D construido con ArcGIS Pro y Unity.\nTopics: 3d-gis, arcgis, arcgis-pro, archaeology, canada, csharp, gis, lidar, point-cloud, remote-sensing, unity · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
@@ -55,6 +189,19 @@
       "ignoreReason": ""
     },
     {
+      "title": "Standardize and Automate ArcGIS Pro Workflows",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=sdJmgAQRAIM",
+      "guid": "yt:video:sdJmgAQRAIM",
+      "author": "Esri Developers",
+      "date": "2026-09-07T15:42:46.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgCXcfk5uEraWkpE9wlRwgw",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
       "title": "ArcGIS Online, Maps SDK for JavaScript & AI",
       "description": "",
       "link": "https://odoe.net/blog/ago-to-comps/",
@@ -66,6 +213,25 @@
       "processed": true,
       "ignored": false,
       "ignoreReason": ""
+    },
+    {
+      "title": "Knight60/ArcGIS-Pro-MCP: ArcGIS Pro add-in that speaks the Model Context Protocol, so an AI assistant can drive your open project in plain language — 112 tools, every geoprocessing tool, and arbitrary arcpy.",
+      "description": "ArcGIS Pro add-in that speaks the Model Context Protocol, so an AI assistant can drive your open project in plain language — 112 tools, every geoprocessing tool, and arbitrary arcpy.\nEste repositorio ofrece un add-in para ArcGIS Pro que facilita el uso de herramientas de geoprocesamiento a través de un asistente de inteligencia artificial.\nTopics: add-in, ai-assistant, arcgis, arcgis-pro, arcpy, claude, esri, gis, mcp, model-context-protocol · ⭐ 6 · C#\nGitHub repo descubierto (pushed · devtool)",
+      "link": "https://github.com/Knight60/ArcGIS-Pro-MCP",
+      "guid": "https://github.com/Knight60/ArcGIS-Pro-MCP",
+      "author": "Knight60",
+      "date": "2026-09-06T20:25:43.000Z",
+      "sourceFeedUrl": "github-discovery:pushed",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Este repositorio ofrece un add-in para ArcGIS Pro que facilita el uso de herramientas de geoprocesamiento a través de un asistente de inteligencia artificial."
     },
     {
       "title": "Senior GIS Programmer / Systems Analyst @ ANGARAI - Teal",
