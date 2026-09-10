@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-09T01:53:20.692Z",
+  "lastRun": "2026-09-10T01:49:15.611Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1602,6 +1602,24 @@
       "stars": 6,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "Sidbaobao/hainan-rainforest-storymap": {
+      "htmlUrl": "https://github.com/Sidbaobao/hainan-rainforest-storymap",
+      "firstSeen": "2026-09-10T01:49:14.089Z",
+      "createdAt": "2026-09-09T15:10:26Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Sidbaobao/shenzhen-multimodal-accessibility": {
+      "htmlUrl": "https://github.com/Sidbaobao/shenzhen-multimodal-accessibility",
+      "firstSeen": "2026-09-10T01:49:15.611Z",
+      "createdAt": "2026-09-09T14:19:25Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": false
     }
   }
 }
