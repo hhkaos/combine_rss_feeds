@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-10T01:49:15.611Z",
+  "lastRun": "2026-09-11T01:48:11.112Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1620,6 +1620,33 @@
       "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": false
+    },
+    "jwsaunders8/MascotGuess": {
+      "htmlUrl": "https://github.com/jwsaunders8/MascotGuess",
+      "firstSeen": "2026-09-11T01:48:08.007Z",
+      "createdAt": "2026-09-10T21:10:18Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "philiporlando/fgdb_to_gpkg": {
+      "htmlUrl": "https://github.com/philiporlando/fgdb_to_gpkg",
+      "firstSeen": "2026-09-11T01:48:09.387Z",
+      "createdAt": "2023-02-05T07:20:48Z",
+      "axis": "pushed",
+      "stars": 6,
+      "classifiedCategory": "devtool",
+      "relevant": true
+    },
+    "nicogis/DownloadService": {
+      "htmlUrl": "https://github.com/nicogis/DownloadService",
+      "firstSeen": "2026-09-11T01:48:11.112Z",
+      "createdAt": "2018-07-02T17:21:27Z",
+      "axis": "pushed",
+      "stars": 37,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }
