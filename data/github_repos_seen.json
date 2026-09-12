@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-11T01:48:11.112Z",
+  "lastRun": "2026-09-12T01:53:41.410Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1647,6 +1647,15 @@
       "stars": 37,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "iamrichmack111/richproperty": {
+      "htmlUrl": "https://github.com/iamrichmack111/richproperty",
+      "firstSeen": "2026-09-12T01:53:41.410Z",
+      "createdAt": "2026-09-12T01:43:44Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }

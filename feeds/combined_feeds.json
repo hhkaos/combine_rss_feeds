@@ -1,8 +1,41 @@
 {
-  "title": "Combined ArcGIS Feeds (11-09-2026)",
+  "title": "Combined ArcGIS Feeds (12-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-11T01:53:20.662Z",
+  "lastUpdated": "2026-09-12T01:54:28.700Z",
   "items": [
+    {
+      "title": "Episode 82 - Local Models for the win",
+      "description": "Spiel v2 is a native Mac app that can transcribe speech by running a model locally on a MacBook's Neural Engine. It's fast, it's free, and a good reminder that I don't always need a frontier model!",
+      "link": "https://christophermoravec.com/episode-82-local-models-for-the-win/",
+      "guid": "6aa475c514025f0001de7517",
+      "author": "Christopher Moravec",
+      "date": "2026-09-11T22:23:20.000Z",
+      "sourceFeedUrl": "https://christophermoravec.com/rss/",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Remote -Lead <b>ESRI</b> / GIS with 10 years&#39; experience <b>ArcGIS</b> services - United States",
+      "description": "We look forward to hearing from you. Title: Lead <b>Esri</b> / GIS with 10 years experience <b>ArcGIS</b> services ... <b>ArcGIS</b> Maps <b>SDK</b> / <b>JavaScript API</b> experience for&nbsp;...",
+      "link": "https://haystackapp.io/jobs/fefd1659-d8e0-480a-bf79-d6f189fee848",
+      "guid": "tag:google.com,2013:googlealerts/feed:3836994476362655071",
+      "author": "",
+      "date": "2026-09-11T02:07:55.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
+    {
+      "title": "Lead <b>Esri</b>/GIS Developer - Weekday, Inc. | Built In",
+      "description": "Extensive experience developing enterprise GIS applications with the <b>ArcGIS JavaScript API</b> or <b>ArcGIS</b> Maps <b>SDK</b>; Strong knowledge of <b>ArcGIS</b> REST <b>API</b>,&nbsp;...",
+      "link": "https://builtin.com/job/lead-esri-gis-developer/11108665",
+      "guid": "tag:google.com,2013:googlealerts/feed:6633618940839469599",
+      "author": "",
+      "date": "2026-09-10T18:03:25.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Front End PHP Developer at Delan Associates, Inc - DailyRemote",
       "description": "Focus on candidates with REST API integration, <b>ArcGIS Maps SDK for</b> JavaScript, Chart.js or D3.js, Jest testing, and accessibility compliance (ADA/&nbsp;...",
