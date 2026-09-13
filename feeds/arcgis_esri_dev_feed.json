@@ -1,8 +1,27 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (12-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (13-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-12T01:54:55.319Z",
+  "lastUpdated": "2026-09-13T01:46:37.544Z",
   "items": [
+    {
+      "title": "FrankXia/hermes-map-ops: Hermes Map Ops: FastAPI/FastMCP BFF + ArcGIS Maps SDK 5.x chat+map surface (Fairfax layers)",
+      "description": "Hermes Map Ops: FastAPI/FastMCP BFF + ArcGIS Maps SDK 5.x chat+map surface (Fairfax layers)\nHermes Map Ops es una herramienta que combina FastAPI con el SDK de ArcGIS para crear una superficie de chat y mapas.\nTopics: — · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/FrankXia/hermes-map-ops",
+      "guid": "https://github.com/FrankXia/hermes-map-ops",
+      "author": "FrankXia",
+      "date": "2026-09-12T20:32:52.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Hermes Map Ops es una herramienta que combina FastAPI con el SDK de ArcGIS para crear una superficie de chat y mapas."
+    },
     {
       "title": "iamrichmack111/richproperty: Local acquisition intelligence platform with Georgia county records, GIS parcel search, explainable scoring, valuation peers, and Playwright demos.",
       "description": "Local acquisition intelligence platform with Georgia county records, GIS parcel search, explainable scoring, valuation peers, and Playwright demos.\nLocal acquisition intelligence platform con funcionalidades de búsqueda de parcelas y valoración.\nTopics: acquisition-intelligence, arcgis, automation, docker, fastapi, geospatial, gis, leaflet, piper-tts, playwright, postgresql, property-data, python, real-estate, redis · ⭐ 0 · Python\nGitHub repo descubierto (created · consumer)",

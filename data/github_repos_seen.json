@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-12T01:53:41.410Z",
+  "lastRun": "2026-09-13T01:45:32.749Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1656,6 +1656,15 @@
       "stars": 0,
       "classifiedCategory": "consumer",
       "relevant": false
+    },
+    "FrankXia/hermes-map-ops": {
+      "htmlUrl": "https://github.com/FrankXia/hermes-map-ops",
+      "firstSeen": "2026-09-13T01:45:32.749Z",
+      "createdAt": "2026-09-12T20:32:52Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "devtool",
+      "relevant": true
     }
   }
 }
