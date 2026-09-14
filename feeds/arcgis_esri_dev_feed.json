@@ -1,8 +1,46 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (13-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (14-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-13T01:46:37.544Z",
+  "lastUpdated": "2026-09-14T02:04:42.172Z",
   "items": [
+    {
+      "title": "ahmadibrahim4geo/GeologicalCrossSectionToolbox: Automated ArcGIS toolbox (ArcMap & Pro) for generating publication-ready 2D geological cross-sections from surface outcrops, featuring 30m global DEM extraction, live symbology cloning, structural fault kinematics, and instant CAD/Web exports. ",
+      "description": "Automated ArcGIS toolbox (ArcMap & Pro) for generating publication-ready 2D geological cross-sections from surface outcrops, featuring 30m global DEM extraction, live symbology cloning, structural fault kinematics, and instant CAD/Web exports. \nProporciona un toolbox para ArcGIS que facilita la creación de secciones geológicas publicables.\nTopics: arcgis, arcgis-pro, arcmap, autocad-dxf, cartography, copernicus-dem, cross-section, dem, geological-cross-section, geology, gis, python, srtm, structural-geology · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/ahmadibrahim4geo/GeologicalCrossSectionToolbox",
+      "guid": "https://github.com/ahmadibrahim4geo/GeologicalCrossSectionToolbox",
+      "author": "ahmadibrahim4geo",
+      "date": "2026-09-13T18:14:58.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Proporciona un toolbox para ArcGIS que facilita la creación de secciones geológicas publicables."
+    },
+    {
+      "title": "jainabellis3/BasicDataPreparation_arcpyTool: The Basic Data Preparation tool automates clipping and projecting large batches of geospatial data in ArcGIS Pro",
+      "description": "The Basic Data Preparation tool automates clipping and projecting large batches of geospatial data in ArcGIS Pro\nAutomatiza el recorte y proyección de grandes lotes de datos geoespaciales en ArcGIS Pro.\nTopics: arcgis, arcgis-pro, arcpro, arcpy, arcpython, automation, datapre-processing, dataprep, datapreparation, datapreprocessiong, gis, gis-clip-tool, gis-data, gis-projection · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
+      "link": "https://github.com/jainabellis3/BasicDataPreparation_arcpyTool",
+      "guid": "https://github.com/jainabellis3/BasicDataPreparation_arcpyTool",
+      "author": "jainabellis3",
+      "date": "2026-09-13T08:21:22.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": "",
+      "categories": [
+        "repo",
+        "repo:devtool"
+      ],
+      "repoCategory": "devtool",
+      "discoverySummary": "Automatiza el recorte y proyección de grandes lotes de datos geoespaciales en ArcGIS Pro."
+    },
     {
       "title": "FrankXia/hermes-map-ops: Hermes Map Ops: FastAPI/FastMCP BFF + ArcGIS Maps SDK 5.x chat+map surface (Fairfax layers)",
       "description": "Hermes Map Ops: FastAPI/FastMCP BFF + ArcGIS Maps SDK 5.x chat+map surface (Fairfax layers)\nHermes Map Ops es una herramienta que combina FastAPI con el SDK de ArcGIS para crear una superficie de chat y mapas.\nTopics: — · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",
