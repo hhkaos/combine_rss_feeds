@@ -1,8 +1,91 @@
 {
-  "title": "ArcGIS ESRI Dev Feed (14-09-2026)",
+  "title": "ArcGIS ESRI Dev Feed (15-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-14T02:04:42.172Z",
+  "lastUpdated": "2026-09-15T02:31:53.264Z",
   "items": [
+    {
+      "title": "Yuba-Watershed-Institute/photo-point-report: Repeat photo monitoring for ArcGIS Online: browse photo points, review attached photos, export contact-sheet and before/after grant-report PDFs. Single static page, OAuth user sign-in, no server.",
+      "description": "Repeat photo monitoring for ArcGIS Online: browse photo points, review attached photos, export contact-sheet and before/after grant-report PDFs. Single static page, OAuth user sign-in, no server.\nLa herramienta permite la revisión y exportación de informes de fotos, pero no es un recurso reutilizable para desarrolladores.\nTopics: arcgis, arcgis-online, forestry, jspdf, photo-monitoring, static-site · ⭐ 0 · HTML\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/Yuba-Watershed-Institute/photo-point-report",
+      "guid": "https://github.com/Yuba-Watershed-Institute/photo-point-report",
+      "author": "Yuba-Watershed-Institute",
+      "date": "2026-09-14T22:42:05.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una aplicación orientada a usuarios finales para monitoreo fotográfico.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "La herramienta permite la revisión y exportación de informes de fotos, pero no es un recurso reutilizable para desarrolladores."
+    },
+    {
+      "title": "Building Custom Experience Builder Widgets with an Agent Skill",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/geoai/building-custom-experience-builder-widgets-with-an-agent-skill",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2981934",
+      "author": "Wei Ying",
+      "date": "2026-09-14T19:22:33.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "chewnikmine50/Arcgis: Get ArcGIS — an education tool for Windows offering a free download. Easily create cartographic maps and manage data with advanced analysis and geo-processing tools. Generate high-quality visualizations and share with others. Free setup for Windows.",
+      "description": "Get ArcGIS — an education tool for Windows offering a free download. Easily create cartographic maps and manage data with advanced analysis and geo-processing tools. Generate high-quality visualizations and share with others. Free setup for Windows.\nEs un software educativo para Windows que permite crear mapas y gestionar datos.\nTopics: arcgis, arcgis-download, arcgis-windows, data-analysis, education-software, geography-software, spatial-analysis, windows-10 · ⭐ 0 · —\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/chewnikmine50/Arcgis",
+      "guid": "https://github.com/chewnikmine50/Arcgis",
+      "author": "chewnikmine50",
+      "date": "2026-09-14T13:07:23.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Es una herramienta educativa para usuarios finales.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un software educativo para Windows que permite crear mapas y gestionar datos."
+    },
+    {
+      "title": "Count Points in Polygons in ArcGIS Online with the ArcGIS API for Python",
+      "description": "",
+      "link": "https://www.youtube.com/watch?v=Wtrsev5v30E",
+      "guid": "yt:video:Wtrsev5v30E",
+      "author": "Final Draft Mapping",
+      "date": "2026-09-14T07:46:33.000Z",
+      "sourceFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6xUXj3o1YO-5p_9_6adZWQ",
+      "sourceRelevanceMode": "trusted",
+      "processed": true,
+      "ignored": false,
+      "ignoreReason": ""
+    },
+    {
+      "title": "iamrichmack111/map-jinn: Building-footprint-first map workspace for apparel design, clean street context, and print-ready labels.",
+      "description": "Building-footprint-first map workspace for apparel design, clean street context, and print-ready labels.\nEs un workspace de mapeo para diseño de ropa, no es útil como herramienta para otros desarrolladores.\nTopics: apparel-design, arcgis, atlanta, building-footprints, ci-cd, docker, geospatial, gis, javascript, mapping, maps, playwright, print-on-demand, printify, python · ⭐ 0 · JavaScript\nGitHub repo descubierto (created · consumer)",
+      "link": "https://github.com/iamrichmack111/map-jinn",
+      "guid": "https://github.com/iamrichmack111/map-jinn",
+      "author": "iamrichmack111",
+      "date": "2026-09-14T02:14:47.000Z",
+      "sourceFeedUrl": "github-discovery:created",
+      "sourceRelevanceMode": "balanced",
+      "processed": true,
+      "ignored": true,
+      "ignoreReason": "Proyecto orientado a un caso de uso específico sin herramientas reutilizables para desarrolladores.",
+      "categories": [
+        "repo",
+        "repo:consumer"
+      ],
+      "repoCategory": "consumer",
+      "discoverySummary": "Es un workspace de mapeo para diseño de ropa, no es útil como herramienta para otros desarrolladores."
+    },
     {
       "title": "ahmadibrahim4geo/GeologicalCrossSectionToolbox: Automated ArcGIS toolbox (ArcMap & Pro) for generating publication-ready 2D geological cross-sections from surface outcrops, featuring 30m global DEM extraction, live symbology cloning, structural fault kinematics, and instant CAD/Web exports. ",
       "description": "Automated ArcGIS toolbox (ArcMap & Pro) for generating publication-ready 2D geological cross-sections from surface outcrops, featuring 30m global DEM extraction, live symbology cloning, structural fault kinematics, and instant CAD/Web exports. \nProporciona un toolbox para ArcGIS que facilita la creación de secciones geológicas publicables.\nTopics: arcgis, arcgis-pro, arcmap, autocad-dxf, cartography, copernicus-dem, cross-section, dem, geological-cross-section, geology, gis, python, srtm, structural-geology · ⭐ 0 · Python\nGitHub repo descubierto (created · devtool)",

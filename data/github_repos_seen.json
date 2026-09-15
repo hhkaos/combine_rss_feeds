@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-14T02:03:33.240Z",
+  "lastRun": "2026-09-15T02:11:16.950Z",
   "repos": {
     "osbonilla/propuesta-proyecto": {
       "htmlUrl": "https://github.com/osbonilla/propuesta-proyecto",
@@ -1683,6 +1683,33 @@
       "stars": 0,
       "classifiedCategory": "devtool",
       "relevant": true
+    },
+    "chewnikmine50/Arcgis": {
+      "htmlUrl": "https://github.com/chewnikmine50/Arcgis",
+      "firstSeen": "2026-09-15T02:11:14.742Z",
+      "createdAt": "2026-09-14T13:07:23Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "Yuba-Watershed-Institute/photo-point-report": {
+      "htmlUrl": "https://github.com/Yuba-Watershed-Institute/photo-point-report",
+      "firstSeen": "2026-09-15T02:11:16.162Z",
+      "createdAt": "2026-09-14T22:42:05Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
+    },
+    "iamrichmack111/map-jinn": {
+      "htmlUrl": "https://github.com/iamrichmack111/map-jinn",
+      "firstSeen": "2026-09-15T02:11:16.950Z",
+      "createdAt": "2026-09-14T02:14:47Z",
+      "axis": "created",
+      "stars": 0,
+      "classifiedCategory": "consumer",
+      "relevant": false
     }
   }
 }

@@ -1,8 +1,30 @@
 {
-  "title": "Combined ArcGIS Feeds (14-09-2026)",
+  "title": "Combined ArcGIS Feeds (15-09-2026)",
   "description": "Todos los feeds combinados (últimas 48 horas)",
-  "lastUpdated": "2026-09-14T02:04:18.456Z",
+  "lastUpdated": "2026-09-15T02:22:26.084Z",
   "items": [
+    {
+      "title": "Building Custom Experience Builder Widgets with an Agent Skill",
+      "description": "",
+      "link": "https://www.esri.com/arcgis-blog/products/experience-builder/geoai/building-custom-experience-builder-widgets-with-an-agent-skill",
+      "guid": "https://www.esri.com/arcgis-blog/?post_type=blog&p=2981934",
+      "author": "Wei Ying",
+      "date": "2026-09-14T19:22:33.000Z",
+      "sourceFeedUrl": "https://www.esri.com/arcgis-blog/products/experience-builder/feed",
+      "sourceRelevanceMode": "trusted",
+      "processed": false
+    },
+    {
+      "title": "Count Points in Polygons in <b>ArcGIS</b> Online with the <b>ArcGIS API</b> for Python - YouTube",
+      "description": "... <b>ArcGIS</b> Online using the <b>ArcGIS API</b> for Python. In this practical tutorial, you&#39;ll query hosted feature layers, identify intersecting points with&nbsp;...",
+      "link": "https://www.youtube.com/watch?v=Wtrsev5v30E",
+      "guid": "tag:google.com,2013:googlealerts/feed:10409151991186583399",
+      "author": "",
+      "date": "2026-09-14T17:32:38.000Z",
+      "sourceFeedUrl": "https://www.google.com/alerts/feeds/10211086479352302070/8313662974736823766",
+      "sourceRelevanceMode": "strict",
+      "processed": false
+    },
     {
       "title": "Episode 82 - Local Models for the win",
       "description": "Spiel v2 is a native Mac app that can transcribe speech by running a model locally on a MacBook's Neural Engine. It's fast, it's free, and a good reminder that I don't always need a frontier model!",
